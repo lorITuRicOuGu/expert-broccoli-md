@@ -1,0 +1,959 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_20](https://doi.org/10.1007/978-3-031-12634-5_20)
+
+
+**
+# Process Analytical Technology \(PAT\) for Lyophilization Process Monitoring and End Point Detection
+**
+
+
+Bingquan \(Stuart\) Wang1   and Xiaolin \(Charlie\) Tang2
+
+
+\(1\) 
+CMC Management, WuXi Biologics, Greater Boston Area, MA, USA
+
+
+\(2\) 
+Formulation Development, Regeneron Pharmaceuticals Inc., Tarrytown, NY, USA
+
+
+
+
+
+**Bingquan \(Stuart\) Wang**
+
+**Email: **Stuart.wang@wuxibiologics.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Product Temperature Measurement
+
+**2.1 **Resistance Temperature Detector
+
+**2.2 **Thermocouple
+
+**2.3 **Wireless Temperature Sensor
+
+**2.4 **Manometric Temperature Measurement \(MTM\)
+
+**3 **Pressure Measurement
+
+**3.1 **Pirani Gauge
+
+**3.2 **Capacitance Manometer
+
+**4 **Heat and Mass Transfer during Primary Drying and Secondary Drying
+
+**4.1 **Primary Drying Heat Transfer and Vial Heat Transfer Coefficient
+
+**4.2 **Mass Transfer Determination
+
+**5 **Cycle Endpoint Detection
+
+**5.1 **Limitations of Product Temperature Measurement
+
+**5.2 **Alternatives to Product Temperature Measurement
+
+**6 **Summary and Future Trend
+
+Bibliography
+
+
+## Abstract
+
+Process analytical technology \(PAT\) is critical during freeze drying at extreme conditions \(low temperature and low pressure\), and latest PAT tools are reviewed in this chapter. These PAT tools are first discussed for the potential measurement of temperature, pressure, and/or mass/heat transfer, and their potential application for the endpoint detection during lyophilization is further examined. Finally, the PATs are summarized in terms of their application in both lab and large-scale lyophilizers.
+
+
+**Keywords**
+Process analytical technology Endpoint detection Heat and mass transfer Thermocouple TEMPRIS MTM TDLAS MS
+
+
+## **1 **Introduction
+
+Several initiatives have been launched by FDA with the objective of encouraging the pharmaceutical industry to improve the manufacturing efficiency and product quality while creating a harmonized regulatory expectation. The Pharmaceutical Quality for the twenty-first Century Initiative included both the fundamental concepts of and Process Analytical Technology \(PAT\) and Quality by Design \(QbD\) \[1\]. PAT provides a framework for designing, analyzing, and controlling manufacturing through timely measurements of critical process parameters \(CPP\) to ensure the critical quality attributes \(CQA\) are achieved. The PAT initiative focuses on the principles of building quality into the product and process, as well as continuous process improvement. The PAT initiative is a vital part of \(QbD\) paradigm. According to the QbD philosophy, quality cannot be tested into products by simply measuring a limited number of product units offline at the end of the process; rather, quality should be built-in by design of the product and by control of the process, using PAT to measure and control critical process parameters at-line, online, or inline \[2\]. With the launch of PAT initiatives by FDA, online monitoring devices are increasingly being proposed for use in pharmaceutical industry, including aseptic dosage form.
+
+Although the concept of QbD/PAT is attractive, applying PAT to freeze-drying faces many challenges, and implementation in the large-scale manufacturing has been slow. This is partly due to lack of useful monitoring tools which are compatible with the extreme conditions of the freeze-drying process \(deep vacuum, low temperature, and sterility\) \[3, 4\]. Therefore, it is essential to search for new devices to monitor and control the freeze-drying process with high degree of assurance.
+
+Lyophilization \(i.e., freeze-drying\) is a process used for the removal of water in order to produce dried dosage form. Lyophilization has three stages: freezing, primary drying, and secondary drying. During freezing, the shelf temperature decreases gradually following the defined freezing rate, and the ice nucleation starts to occur at some point, and the further shelf cooling results in the concentration of the solute phase, which is typically called “freeze concentrate” \[5, 6\]. The freezing stage typically takes several hours to complete and generally ends with a temperature around −40 °C or lower. Primary drying is a desiccation stage by subliming ice at a low pressure and temperature. Primary drying starts when the chamber pressure is reduced and the shelf temperature is increased from end of freezing to supply the heat needed for ice sublimation \[7\]. During primary drying, the chamber pressure is reduced to a value well below the vapor pressure of ice, and ice is transferred from the product to the condenser by sublimation. Typically, the primary drying stage is the longest stage of freeze-drying due to the low temperature involved, and monitoring of this stage is critical to ensure the completion to ensure product quality \[8\]. Secondary drying is the stage where remaining water is desorbed from the freeze concentrate, usually at a higher temperature and low pressure. The bulk of secondary drying occurs after primary drying is over and the product temperature has increased to about ambient temperature. Secondary drying is relatively a short process as it normally takes only hours, and the opportunity for time reduction by process optimization is limited \[9\].
+
+An efficient freeze-drying process relies on the thorough understanding of the formulation and process parameters on product quality \[5\]. The critical formulation factors include the stability of the active drug, collapse temperature of the formulation, and the properties of the excipients used \[10\]. The critical process parameters include, but not limited to, ice nucleation temperature, primary and secondary drying shelf temperature, chamber pressure and temperature ramp rate, etc. Process optimization depends on understanding each freeze-drying stage and monitoring critical process parameters and controlling them wherever necessary.
+
+In this chapter, a comprehensive review of major PAT tools for freeze-drying is provided with emphasis on technologies that can be used for large scale manufacturing process. First, each of the latest process monitoring devices is reviewed for application in terms of measurement of temperature, pressure, and mass/heat transfer. Second, the application of PAT tools for the endpoint detection is discussed in terms of advantages and limitations. Finally, all the technologies are summarized and compared with the application in both lab and large scale lyophilizers.
+
+## **2 **Product Temperature Measurement
+
+Shelf temperature is an important process parameter in governing the product temperature, and the thermal history that the product experienced during the lyophilization process will have a direct impact on the product quality of the final drug product.
+
+During the initial freezing stage of a freeze-drying cycle, the product temperature typically lags behind the shelf temperature, especially for a cycle with a rapid freezing rate. At the end of freezing hold, the product temperature will gradually approach the shelf temperature, and the difference between shelf and product temperature is relatively small for products in typical vial containers with good thermal conductivity.
+
+During the primary drying stage, the product temperature must be maintained below the maximal allowable product temperature \(e.g., eutectic or collapse temperature\) to maintain acceptable cake appearance \[2\]. At the early stage of primary drying, a large difference between the shelf temperature and product temperature is typically observed, which is attributed to the fact that the ice sublimation is a heat absorption process. With the progress of sublimation, the product temperature slowly increases toward the shelf temperature, and the temperature difference between the shelf and product temperature becomes smaller. When the product temperature approaches the shelf temperature, the sublimation process is considered to be completed as there is no further driving force and it can be concluded that primary drying has reached the endpoint.
+
+During the secondary drying, the product temperature will increase along with the shelf temperature, and the higher secondary drying temperature helps to remove the entrapped moisture through desorption.
+
+Several probes including resistance temperature detector, thermocouple, wireless TEMPRIS, and manometric temperature measurement \(MTM\) can be used to monitor the product temperature during the freeze-drying process, and these PAT tools are discussed below in more details.
+
+### **2.1 **Resistance Temperature Detector
+
+Resistance temperature detector \(RTD\) has been commonly used at large-scale lyophilizers. RTD is typically built of a platinum \(Pt\) wire wrapped around a ceramic, and its resistance changes with temperature. RTD is quite accurate \(between 0.1% and 0.5% of reading\) and is linear over a wide temperature range \(approximately −200 °C to about 500 °C\). However, RTD is a passive sensor and requires current excitation to produce an output voltage and thus could result in self-heating error. In addition, RTD is a relatively large area detector, which could pose some challenge for application for freeze-drying in small glass vials. Moreover, this is an invasive method and will have impact on freezing process, as illustrated later in more details.
+
+### **2.2 **Thermocouple
+
+A thermocouple consists of two different metals welded together at one end. When the temperature of the junction of the two metals change, a difference in voltage is produced that can be correlated directly back to the temperature.
+
+In general, thermocouples are better than RTDs in terms of cost, ruggedness, measurement speed, and the range of measured temperature. Most thermocouples cost about 2–3 times less than RTDs. Furthermore, thermocouples are designed to be more durable and is relatively easy to put the wire tip down to the exact measurement spot, and thus it can perform single point measurement. In addition, thermocouples react faster to changes in temperature because of the design. Therefore, thermocouples are typically used at laboratory or pilot scale dryers to monitor the product temperature.
+
+One concern about the invasive temperature probe usage including RTD, thermocouple and wireless probe, etc. is that the temperature probe has some impact on ice nucleation during freezing stage and thus will change the cake resistance during drying. Invasive nature of the techniques means that it will impact the freezing and drying behavior of the product, which is the main reason that the vial with these probes is not representative of the rest of the batch \[8, 11\]. It is well understood that thermocouples interfere with the nucleation process in that the thermocouple itself acts as a nucleation site. The nucleation temperature in the presence of a thermocouple is much warmer than that in vials without a temperature probe, resulting in a lower degree of supercooling and larger ice crystals and, in turn, a lower resistance to vapor flow during primary drying as compared to its neighboring vial without a thermocouple.
+
+Other challenges include placement of thermocouples during scale up in a commercial freeze-dryer, which poses issues from a machinability and sterility standpoint. Thermocouples with long wire are very difficult to use in a manufacturing environment in that they may not be practical when considering stoppering and auto loading systems etc. Wireless technology could be a good option to deal with this challenge.
+
+### **2.3 **Wireless Temperature Sensor
+
+To address the issue of the thermocouple handling at large scale lyophililizer, wireless temperature sensor \(such as, wireless thermocouple remote interrogation system, TEMPRIS\) was developed. The TEMPRIS \(IQ Mobil Solutions GmbH\) consists of several sensors, an interrogation unit \(IRU\), and a computer system with software \[12\].
+
+Similar to a traditional thermocouple, TEMPRIS is an invasive technique and the probe needs to be placed within the product to monitor product temperature. The wireless technology results in the flexibility and adaptability at scale, thus the TEMPRIS systems can be used easily in a larger lyophilizer with an automatic loading system. In addition, the probe may be placed anywhere on the shelf, which allows to understand variation in product temperature across the shelf and chamber \[2\].
+
+Studies have been performed to examine the performance of the TEMPRIS system and compare it with traditional thin-wire thermocouple. Using a 25 mg/mL sucrose solution and a Lyostar II equipped with manometric temperature measurement \(MTM\), it was found that product temperature data generated by TEMPRIS monitoring system were generally in good agreement with thermocouple data and predicted data \(MTM *T*b data\) for the center vial \[12\]. Figure 1 showed the temperature profile monitored by TEMPRIS sensors, thin-wire thermocouples, and MTM in a 50 mg/mL mannitol/sucrose solution \(10:1\) system. A good temperature agreement was noted between TEMPRIS and thermocouples at the initial stage of primary drying. With the progression of drying, the 36-gauge thermocouples showed a sudden step increase in temperature due to a loss of contact with the ice, while the TEMPRIS temperature data were found to increase slowly and less abrupt relative to the thermocouple. In addition, the TEMPRIS probes indicated a more representative primary drying endpoint in that they displayed a delayed increase in temperature at the end of primary drying as contrast to traditional thermocouples. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Temperature profile monitored by TEMPRIS sensors, thin-wire thermocouples, and MTM in a 50 mg/mL mannitol/sucrose solution \(10:1\) system
+
+
+
+One concern associated with this system is that the relatively large volume of the sensor can potentially increase the height of the liquid in the vial, especially for a small vial with a low fill height and thus impact the primary drying time. It has been suggested that the probes should be designed to be smaller in size, and there was ongoing work to develop a sensor to enable a larger fill depth \[12\]. In addition, similar to the use of thermocouples, the product temperature data generated with TEMPRIS would not be representative of the entire batch due to its influence on ice nucleation \[11\]. Thus, the industry is moving towards noninvasive methodologies of measuring product temperature during the freeze-drying process.
+
+### **2.4 **Manometric Temperature Measurement \(MTM\)
+
+As an alternative to placement of sensors in vials, a noninvasive temperature measurement method, manometric temperature measurement \(MTM\), has been developed for monitoring the product temperature during primary drying \[13\]. MTM is a procedure by which product temperature at the ice sublimation interface is measured during the primary drying without placing any temperature probes in the product container. A valve between freeze-drying chamber and condenser is required to conduct MTM. During the MTM the valve is quickly closed, thereby isolating the freeze-drying chamber from the condenser for a short time \(typically seconds\), and the chamber pressure rising versus time data was analyzed by the MTM equation \[14, 15\] to calculate the temperature at the sublimation interface. The MTM equation describing chamber pressure \(*P*\) rise as a function of time \(*t*\) during the procedure may be written as Eq. 1 below. 
+
+
+
+![$$ P(t)=\underset{\textrm{Term}\ 1}{\underbrace{P_{\textrm{ice}}-\left({P}_{\textrm{ice}}-{P}_0\right)\cdot \exp\ \left[-\left(\frac{3.461\cdot N\cdot A\cdot {T}_{\textrm{s}}}{V\cdot \left({\hat{R}}_{\textrm{p}}+{\hat{R}}_{\textrm{s}}\right)}\right)\cdot t\right]}}+\underset{\textrm{Term}\ 2}{\underbrace{0.0465\cdot {P}_{\textrm{ice}}\cdot \Delta T\cdot \left[1-0.811\cdot \exp\ \left(-\frac{0.114}{L^{\prime }}\cdot t\right)\right]}}+\underset{\textrm{Term}3}{\underbrace{X\cdot t}} $$](images/000002.jpeg)
+
+
+\(1\)
+
+
+
+
+
+![$$ {T}_{\textrm{p}}=\frac{-6144.96}{\ln \left({P}_{\textrm{ice}}\right)-24.01849} $$](images/000003.jpeg)
+
+
+\(2\)
+
+
+where *P*ice is vapor pressure of ice at the sublimation interface \(parameter to be determined, or “fit”\) correspondent to product temperature; *P*0 is the chamber pressure \(set\); *N* is the total number of samples vials \(known\); *A* is the inner cross-sectional area of vials \(known\); *T*s is shelf temperature \(set\); *V* is the freeze-drying chamber volume \(known\);  ![$$ \hat{R}\textrm{p}+\hat{R}\textrm{s} $$](images/000004.jpeg)  is the total area normalized product and stopper resistance \(parameter to be determined, or “fit”\); Δ*T* is the temperature difference across the frozen layer \(here, we use a fixed value of 1 K\); *L*’ is the ice thickness; *X* is a constant \(parameter to be determined, or “fit”\); and *T*p is the MTM product temperature \(K\).
+
+The time profile of the MTM data, which is a vapor pressure rise as a function of time, consists of 2 phases \(i.e., a fast rise phase and a plateau phase or the temperature dominated phase\) \(Fig. 2\). However, since the product temperature is always significantly below the shelf temperature during early stage of primary drying, closing the valve between chamber and condenser will slow down the ice sublimation and thus increase the product temperature. The MTM data collection period or the valve closure time is usually limited to less than 30 s. 
+![](images/000005.jpeg)
+
+
+***Fig. 2*** 
+The chamber pressure rising data and the fit of the MTM equation to the pressure data \(red line\). System: freeze-drying of 5% glycine, 2 mL fill in 150 \(5 mL\) tubing vials, shelf temperature −20 °C, chamber pressure 80 mTorr
+
+
+
+A well-developed and reliable MTM procedure would be a powerful freeze-drying process analytical technology \(PAT\) \[15\]. Such a procedure would provide a means of monitoring product temperature as well as heat and mass transfer in real time during freeze-drying. Accurate product temperature measurement is a critical PAT, given the sensitivity of process economics and product quality to product temperature history \[16\].
+
+To acquire an accurate MTM product temperature, the existence of the temperature dominated phase \(the chamber pressure rising data from 3 to 25 s in Fig. 2\) is essential for MTM pressure rising data profile, which requires enough ice sublimation area or number of product vials in the lyophilization chamber. For a lyophilizer with a chamber volume of approximately 50 L and a product of a reasonable dry cake resistance, there is a minimum ice-sublimation area of 150 cm2 \(50 of 5 mL vials\) to permit an accurate MTM product temperature.
+
+The MTM method only measures one “average” product temperature that is close to the coldest product temperature in the lyophilization chamber \(Table 1\) that represents the product temperature for majority internal vials. Typically, the high product temperature location in a freeze-drying run is a concern for product quality. Therefore, it is always a good practice to have a “safety margin” between the target product temperature and the product collapse temperature and/or *T*g’. 
+
+
+***Table 1*** 
+Freeze-drying product temperature heterogeneity under different freeze-drying conditions \(TC below refers to temperature of thermocouple and *T*s refers to shelf temperature\)
+
+
+
+**Experiment \#**
+
+**Product**
+
+**Thermal shields**
+
+***T*s**
+
+**TC center**
+
+**TC side**
+
+**TC front**
+
+**TC front corner**
+
+**MTM**
+
+1
+
+5% glycine
+
+No shields
+
+−20
+
+−33.4
+
+−30.3
+
+−29.5
+
+−26.4
+
+−33.5
+
+2
+
+5% glycine
+
+No shields
+
+20
+
+−26.0
+
+−25.0
+
+−24.0
+
+–
+
+−25.5
+
+3
+
+5% glycine
+
+Dummy vials
+
+−20
+
+−34.4
+
+−31.7
+
+−30.1
+
+–
+
+−33.8
+
+4
+
+5% glycine
+
+Aluminum foil
+
+−20
+
+−34.1
+
+−32.1
+
+−31.0
+
+–
+
+−34.3
+
+5
+
+5% glycine
+
+Dummy vials and Al foil
+
+−20
+
+−34.0
+
+−31.6
+
+−31.4
+
+–
+
+−34.0
+
+6
+
+5% sucrose
+
+No shields
+
+−30
+
+−37.2
+
+−36
+
+−33
+
+–
+
+−37.4
+
+
+
+The MTM is noninvasive to the product, and there is no human interference during lyophilization process. The method can be readily adopted to GMP lyophilization production.
+
+## **3 **Pressure Measurement
+
+### **3.1 **Pirani Gauge
+
+A Pirani gauge consists of a metal wire \(often platinum\) open to the applied pressure, and its measurement of pressure is based on the thermal conductivity of the gas present around the probe \[17\]. The metal wire is heated by a passing current and cooled by the surrounding gas, and thus its temperature depends on the rate of heat loss to the surrounding gas, which is directly proportional to environmental pressure. The Pirani gauge can give accurate result from 10−3 Torr to about 10 Torr, but only for the gas against which it is calibrated \(typically nitrogen\). Water vapor has a higher thermal conductivity than nitrogen, and thus the gauge will give a higher pressure when the gas composition during primary drying is dominated by water vapor. A Pirani gauge is commonly used with a capacitance manometer for the detection of primary drying endpoint.
+
+The Pirani is a small and inexpensive tool and can be easily installed into both small and large scale lyophilizer, which makes it popular for process monitoring during lyophilization. In addition, it was reported that the sensor can withstand steam sterilization without major loss of performance \[8\], and thus it can be used in large scale lyophilizer. However, some periodic maintenance/replacement may be needed to ensure proper operation after prolonged usage.
+
+### **3.2 **Capacitance Manometer
+
+A capacitance manometer \(CM, also called as MKS Baratron\) is commonly used in the drying chamber to control the chamber pressure during lyophilization \[17\]. The CM device consists of a metal diaphragm placed between two fixed electrodes, with one side being exposed to high vacuum to serve as a reference pressure and the other side being exposed to the chamber pressure. Since the device output voltage is directly proportional to the applied pressure, the CM can measure the absolute pressure, which is different from the Pirani gauge as mentioned above \[2\]. In addition, CM can give an accurate reading within a very wide pressure range \(0–760 Torr\) and can also withstand steam sterilization. Therefore, CM is commonly used for chamber pressure measurement in both small and large GMP freeze-dryer.
+
+## **4 **Heat and Mass Transfer during Primary Drying and Secondary Drying
+
+A good understanding of heat and mass transfer during drying allows for greater efficiency in process development, which can minimize problems encountered during scale-up process \[5, 6\]. Primary drying involves ice sublimation out of the vial, which require heat input from the heat source \(normally the shelf\). Similarly, the secondary drying will require heat to facilitate moisture desorption to achieve a low level of residual moisture in the final product.
+
+### **4.1 **Primary Drying Heat Transfer and Vial Heat Transfer Coefficient
+
+The product temperature during primary drying is directly related to the heat transfer from the shelf to the product. Heat transfer is defined as the ratio between the area-normalized heat flow and the temperature difference between heat source and heat sink \[6\]. The vial heat transfer coefficient, *K*v, is defined by the following equation for a vial in direct contact with the shelf: 
+
+
+
+![$$ \frac{dQ}{dt}={A}_{\textrm{v}}.{K}_{\textrm{v}}\left({T}_{\textrm{shelf}}-{T}_{\textrm{product}}\right) $$](images/000006.jpeg)
+
+
+\(3\)
+
+
+where *dQ/dt* is the heat flow from the shelves to the product in a given vial, *A*v is the external cross-sectional area of the vial, *T*shelf is the temperature of the shelf surface, and *T*product is the product temperature at the bottom center of the vial.
+
+The vial heat transfer coefficient \(*K*v\) typically consists of three parts: \(1\) heat transfer due to direct conduction \(*K*c\) between the contact points at the vial bottom and shelf surface; \(2\) radiation heat transfer \(*K*r\) to the bottom, top, and sides of the vial; and \(3\) heat transfer due to gas conduction \(*K*g\) in the space between the vial bottom and shelf surface. Therefore, the vial heat transfer coefficient \(*K*v\) can be expressed as: 
+
+
+
+![$$ {K}_{\textrm{v}}={K}_{\textrm{c}}+{K}_{\textrm{r}}+{K}_{\textrm{g}} $$](images/000007.jpeg)
+
+
+\(4\)
+
+
+
+
+It has been reported that the dominant mechanism for heat transfer for a center vial during primary drying is gas conduction, and the gas conduction mechanism has been expressed as a function of pressure and discussed elsewhere \[18, 19\].
+
+Measurement of *K*v can be accomplished through a series of sublimation runs using water at different pressure set points. Water is filled into the vial to less than a fill volume of 50% of the vial capacity and subjected to sublimation for a target time at which approximately 25% of water is lost due to sublimation. Thermocouples are placed in select vials across the shelf to allow measurement of product temperature, and mass loss in any vials can be measured by weighing each vial before and after the run. Because heat transfer is a function of chamber pressure, it is important to measure *K*v at multiple pressure set points. The *K*v values measured for each set point are fitted using nonlinear regression analysis, resulting in a model for *K*v that is specific for the vial in the studied freeze-dryer.
+
+### **4.2 **Mass Transfer Determination
+
+#### ***4.2.1 ***Mass Loss by Gravimetric Measurement
+
+During the primary drying stage, ice is sublimed from the vial and the water vapor migrates from the chamber to the condenser. At the end of primary drying, the vials can be taken out of the chamber using a sample thief. Gravimetric method is used to measure the weight loss for those vials by weighing each vial before and after the run.
+
+Water vapor flow will have some restriction during the sublimation process. Resistance to the mass transfer of water vapor has contributions from the dried product, stopper, and chamber. The resistance of the stopper and chamber are normally about a factor of 10 less than the resistance of dried product, and thus the cake resistance is the dominant factor for the mass transfer resistance \[6\]. The area-normalized resistance of the dried-product layer is defined as: 
+
+
+
+![$$ {R}_{\textrm{PN}}={A}_{\textrm{in}}\frac{\left({P}_0-{P}_{\textrm{c}}\right)}{\left(\frac{dm}{dt}\right)}\kern3.5em $$](images/000008.jpeg)
+
+
+\(5\)
+
+
+where the *A*in is the internal cross-sectional area of the vial; *P*0 is the vapor pressure of ice at the temperature of sublimation surface, *P*c is the chamber pressure, and  ![$$ \left(\frac{dm}{dt}\right) $$](images/000009.jpeg)  is the ice sublimation rate.
+
+The normalized product resistance as a function of the dry layer thickness \(ł\) can be described by: 
+
+
+
+![$$ {R}_{\textrm{PN}}={R}_0+{A}_1\textrm{\l}/\left(1+{\textrm{A}}_2\textrm{\l}\right)\kern3.25em $$](images/000010.jpeg)
+
+
+\(6\)
+
+
+where the constants *R*0, *A*1, and *A*2 are product resistance parameters of water vapor through the dry layer. When freeze-drying below the *T*g’ or eutectic temperature, these parameters are independent of product temperature. This resistance equation is applicable to various types of the resistance profiles, such as the Type I \(linear\), II \(linear with a large intercept\), III \(curve with a small curvature\), and IV \(curve with a large curvature\) models \[20\].
+
+Once *K*v and cake resistance *R*pN have been determined, the cycle performance can be modeled using combined Eqs. 3, 5 and 7 \[21\]: 
+
+
+
+![$$ \frac{dQ}{dt}=\Delta H\cdotp \frac{dm}{dt} $$](images/000011.jpeg)
+
+
+\(7\)
+
+
+
+
+Using the *K*v ratio established, cycle performance can be predicted for both edge and center vials over a range of conditions, resulting in a design space similar to the one shown in Fig. 3 \[22\]. Such a plot allows the user to express the *T*product as a function of the independent variables, *T*shelf and *P*chamber. This modeling allows the user to choose cycle conditions such that the primary drying time is optimized, while operating safely below the critical temperature for the formulation and operating within the limits of the freeze-dryer itself \[22, 23\]. 
+![](images/000012.jpeg)
+
+
+***Fig. 3*** 
+Primary drying design space for a small molecule
+
+
+
+#### ***4.2.2 ***Manometric Temperature Measurement \(MTM\)
+
+The mass transfer rate during primary drying can also be calculated using the MTM fitted product dry layer resistance \(*R*p\) and vapor pressure of ice at the sublimation interface \(*P*ice\) \(Eq. 5\) \[20, 24\]. To obtain reliable MTM product dry layer resistance values for a laboratory scale lyophilizer, it is recommended to apply the thermal shields such as empty vials around sample vials and low emissive foil \(such as aluminum foil or stainless cover\) attached to the chamber door. Otherwise, the MTM *R*p would be lower than real values especially when freeze-drying is performed at low shelf temperature and low chamber pressure caused by product temperature heterogeneity in freeze-drying due to atypical radiation including radiation from freeze-drying chamber wall, chamber door, and radiation through the transparent chamber door.
+
+The MTM mass transfer rate represents the ice sublimation rate at the time of MTM performance and is an instant value, while the ice sublimation rate calculated from gravimetric method is an average value for the time interval of mass loss. Applying thermal shields in freeze-drying is important to minimize the product temperature and ice sublimation heterogeneity between vials at different locations. The MTM method can accurately calculate the heat flow during primary drying when the thermal shields are used, and the MTM ice sublimation rate represents the overall ice sublimation rate in freeze-drying, as shown in Table 2. 
+
+
+***Table 2*** 
+Sublimation rate during primary drying at different conditions as measured by Gravimetric method and MTM
+
+
+
+**Thermal shields**
+
+**Gravimetric method**
+
+**MTM**
+
+*Interior*
+
+*Side*
+
+*Front*
+
+*Overall*
+
+Yes
+
+0.72 ± 0.051
+
+0.85 ± 0.059
+
+1.07±0.045
+
+0.75
+
+0.76
+
+No
+
+0.66 ± 0.028
+
+0.92 ± 0.123
+
+1.51 ± 0.044
+
+0.78
+
+0.85
+
+
+
+The heat transfer coefficient of vials \(*K*v\) can be calculated using the MTM data \(*P*ice and *R*p\) by the following equation:
+
+
+
+
+
+![$$ {K}_{\textrm{v}}\left(\textrm{MTM}\right)=\Delta {H}_{\textrm{s}}\cdot \frac{A_{\textrm{p}}}{A_{\textrm{v}}}\cdot \frac{P_{\textrm{ice}}-{P}_{\textrm{c}}}{R_{\textrm{p}}\cdot \left({T}_{\textrm{s}}-{T}_{\textrm{b}}\right)} $$](images/000013.jpeg)
+
+
+\(8\)
+
+
+
+
+The standard errors are obtained from six sample vials. The overall and MTM ice sublimation rate is the result of total 150 vials.
+
+The heat transfer coefficient values of vial \(*K*v\) from MTM data are depend on the MTM product resistance value \(*R*p\), and it is important to apply thermal shields \(such as aluminum foil inside of the chamber door\) for the laboratory scale lyophilizers in order to obtain an accurate *R*p value for *K*v estimation.
+
+The heat flow by MTM method during primary drying can be calculated by Eq. 7 \[20\]. The significance of heat transfer calculation during primary drying as a PAT is that we can estimate the potential overloading problem during the entire timeframe of primary drying if the overloading heat flow is known from operational qualification \(OQ\) data. The MTM method created accurate heat transfer data as compared to the gravimetric method throughout the primary drying period \[20\]. As seen from Fig. 4**,** the heat flow in primary drying decreases with primary drying time as expected because the product drying layer resistance increases with primary drying time, and the higher drying layer resistance results in slower ice sublimation and thus a smaller heat flow. 
+![](images/000014.jpeg)
+
+
+***Fig. 4*** 
+Heat flow determined by MTM and gravimetric methods. The filled symbols are from MTM method and the open symbols are from gravimetric method. The error bars present three replicates
+
+
+
+#### ***4.2.3 ***TDLAS
+
+With resent advancement in the trace gas analysis using near infrared tunable diode laser absorption spectroscopy \(TDLAS\), this method has been successfully applied to lyophilization process monitoring and control \[9, 25–27\]. TDLAS sensors rely on spectroscopic principles to continuously measure the number density of the selected gases \(such as water vapor molecules\) by transmitting a beam of diode laser radiation across the measurement volume of interest containing the target gas. The laser output wavelength is tuned across the molecular absorption feature, and the amount of absorbed light is measured as a function of the wavelength. The area under the absorption line is integrated and correlates to the concentration of the target gas \[25, 28\]. The gas flow velocity is determined from the Doppler shifted absorption spectrum of water and the known measurement angle with respect to the direction of water vapor flow.
+
+Mass transfer rates \(*dm*/*dt*\) can be calculated by the product of the measured number density \(*N*, molecules/cm3\), the gas flow velocity \(*μ*, cm/s\), and the cross-sectional area of the flow duct \(*A*, cm2\), according to the following equation \[26\]: 
+
+
+
+![$$ \frac{dm}{dt}=N\cdotp \mu \cdotp A $$](images/000015.jpeg)
+
+
+\(9\)
+
+
+
+
+The TDLAS can be applied to determine the real-time water vapor mass transfer rate during freeze-drying \(ref 25\) by continuous measurements of water vapor concentration and flow velocity through the duct between dryer chamber and condenser. The amount of total ice sublimation can be calculated by integrating the mass transfer rate with the ice sublimation time, which serves as a real time PAT technology to monitor the extent of the freeze-drying process.
+
+Furthermore, Gieseler et al. \[25\] demonstrated the practical use of the TDLAS sensor for freeze-dryer OQ testing using pure water sublimation tests, and it can also be used to investigate performance differences between laboratory and pilot scale freeze-dryers. It has been demonstrated that TDLAS measured mass balance as compared to a gravimetric reference \(ratio of gravimetric/TDLAS\), based on four sublimation tests with pure water and a product run, was found to be 1.02 ± 0.06 for the water and 0.96 ± 0.05 for the 5% mannitol runs.
+
+The TDLAS mass transfer measurements can also be applied to directly determine the heat transfer coefficient \(Kv\) of a given type of vial. By applying heat and mass transfer coupling during ice sublimation, it is also feasible to use the Kv and the mass transfer data to calculate the average product temperature of the product during the primary drying \[29\]. The validity of the TDLAS product temperature determinations were evaluated by comparison to MTM product temperatures and thermocouple temperature data. The comparison demonstrated good agreement between the thermocouple and TDLAS-based product temperature measurements \[26\].
+
+## **5 **Cycle Endpoint Detection
+
+### **5.1 **Limitations of Product Temperature Measurement
+
+Product temperature measurement using thermocouple is typically used to determine the endpoint of primary drying \[2\]. However, the product temperature measurement is based on the detection of some vials, and the temperature measured is not representative of the whole batch. In addition, the placement of thermocouple can change the ice nucleation behavior of the vial, which will impact the cake resistance and thus the drying behavior. In addition, the placement location of the thermocouple is of great importance when identifying the endpoint of primary drying. The ideal location of the thermocouple should be center bottom of the vial \[12\]. A too high position within the vial will lead to concluding primary drying completion too early as the thermocouple will lose contact with ice, indicating that all ice has been removed, even though there is still ice remaining. In addition, thermocouple is not suitable for the GMP application due to the potential sterility concern when manually placing the thermocouple into the vial. As mentioned earlier, the wireless temperature sensor \(e.g., TEMPRIS\) can be used in the GMP environment with an automatic loading system.
+
+### **5.2 **Alternatives to Product Temperature Measurement
+
+#### ***5.2.1 ***Comparative Pressure Measurement \(Pirani vs CM\)
+
+The combined use of a Pirani gauge with a capacitance manometer has been employed to determine the endpoint of primary drying for the entire batch. At the early stage of primary drying, essentially all of the gas in the drying chamber is water vapor, and thus the Pirani gauge gives about 60% higher result than CM reading \[4\]. At the late stage of primary drying, the gas composition changes from mostly water vapor to nitrogen in the drying chamber, and thus the Pirani gauge will show a sharp drop in pressure and finally merge with CM readout. This sharp transition in pressure is an indication of the completion of primary drying.
+
+The drying process can also be monitored by taking vials out of chamber with a sample thief at different stages of primary drying. A systematic study was performed for both 5% sucrose and mannitol systems, and residual water was measured either by gravimetric or Karl Fischer method \[8\]. Figure 5 shows the Pirani and capacitance manometer pressure trends and percent residual water profile during primary drying for 5% sucrose \(a typical amorphous system\). The residual water at the onset, midpoint, and offset point of drop in the Pirani pressure was found to be about 25%, 9%, and 5%, respectively. When the sample vial is warmed to ambient temperature, the midpoint vial cake \(taken out at about 48 h\) showed collapse behavior, suggesting that residual moisture present is high enough to depress glass transition temperature to be blow 25 °C. However, the offset point gives acceptable cake structure due to sufficiently low moisture. For 5% mannitol system \(a typical crystalline system\), the onset, midpoint, and offset point of pressure drop from Pirani gauge gives about 9%, 5%, and 4% residual water, respectively. Also, all three points give good cake structure for this crystalline system \[8\]. 
+![](images/000016.gif)
+
+
+***Fig. 5*** 
+Pirani vs. differential capacitance manometer and percent residual water profile during primary drying for 5% sucrose
+
+
+
+After primary drying is complete, most “unfrozen” water is removed. However, a product still contains a relatively high amount of residual water \(about 5–20% on a dried solid basis\). Since the remaining “bound” water will be further removed during the secondary drying stage, it will be helpful to define the endpoint of primary drying based on the Pirani transition. A criterion of <10% residual water may be considered as satisfactory to define the endpoint of primary drying. As shown in Fig. 5, the midpoint of Pirani pressure drop gives low residual water <10% for both sucrose and mannitol system, thus the midpoint of the Pirani transition can be considered a good indicator of the endpoint of primary drying, at least for sucrose and mannitol \[8\]. Of course, the offset point of Pirani drop with longer primary drying time can also be used to get acceptable result.
+
+#### ***5.2.2 ***Electronic Hygrometer
+
+A hygrometer is an instrument used to monitor the amount of water vapor in air. A dew point sensor is an electronic hygrometer that measures the dew point, which is the temperature at which ice has an equilibrium vapor pressure equal to the partial pressure of water in the chamber. The dew point monitor is based on the measurement of changes in the capacitance of a thin film of aluminum oxide due to adsorption of water, and the capacitance is further translated into a voltage output.
+
+An electronic moisture sensor can also be used to monitor the end point of primary drying. Similar to pressure measurement, this measurement is representative of the whole batch. It was found that the sensor can detect as few as 0.3% vials in a batch with residual ice \[30\]. For a sucrose-based formulation system, the residual water at the onset of drop in dew point temperature was found to be about 15% or less, and hence the onset point can be used as the end point of primary drying \[8\]. The general concern regarding use of dew point sensor as an online monitoring device is its inability to withstand steam sterilization. In addition, this sensor is not typically installed in a freeze-dryer, especially in a production scale lyophilizer.
+
+#### ***5.2.3 ***Residual Gas Analysis
+
+Mass spectrometer \(MS\), an analytical tool for the conversion of chemical species into gas-phase ions and subsequent detection of the created ions by their mass-to-charge \(*m*/*z*\) ratio, has been used as a PAT for the detection of residual gas during the lyophilization process \[31\]. The output of the measurement is a mass spectrum, which typically shows the detector response for each *m*/*z* value. Latest instrument use electron impact ionization with quadrupoles as mass analyzers, which makes them compact, user friendly, suitable for higher pressures, and easy to adjust its mass resolution. The simplicity combined with the low cost, low pumping requirements, small footprint, and almost no low *m*/*z* cutoff make quadrupoles ideal mass analyzers for residual gas analysis.
+
+Mass spectrometer can be used for multiple applications. In addition to the detection of endpoint for primary drying, it can also be used for the detection of the lyophilizer chamber leakage or silicon oil contamination if it leaks out of the transfer fluid path.
+
+MS has been reported to detect water vapor and nitrogen during primary drying, and the results were used to compare with other PATs including TDLAS for the endpoint detection when 5% \(w/v\) sucrose was freeze-dried \[32\]. Figure 6 shows the water signal as measured by *m*/z of 18 amu was plotted alongside other process data. As noticed, there is a sharp drop-off in signal from both mass spectrometers, suggesting the endpoint of primary drying is reached at about 40 h where all remaining ice has been removed, and thus MS signals correspond well with the behavior seen in the Pirani gauge. At the end of primary drying, a drop \(~11%\) in the signal was observed from the Pirani gauge, while a 92% drop in the signal from the mass spectrometers was noticed as compared the maximum signal at the start of secondary drying. The larger change in MS response than Pirani is an indicator of higher instrument sensitivity of MS to real-time process changes. In addition, the appearance of a peak \(~ 42 h\) was noticed during the temperature ramp to secondary drying, suggesting that small amount of moisture removed during desorption can also be detected with mass spectrometer. Therefore, the study demonstrated that MS can be reliably used for the detection of the endpoint of primary drying. 
+![](images/000017.jpeg)
+
+
+***Fig. 6*** 
+Plot of cycle data including different PATs \(pressure, temperature and MS\) for the 5% w/v sucrose solution
+
+
+
+#### ***5.2.4 ***Pressure Rise Test \(PRT\)
+
+A simple pressure rise test can be done to monitor the pressure rise by closing the isolation valve which connect the chamber and the condenser. The isolation valve is quickly closed, and the pressure rise test is done in a short duration \(typically <100 s\). After the valve is closed, water vapor accumulates and thus the pressure inside the chamber increases at initial faster rate and then slows down when the chamber pressure approaches the equilibrium value with the ice surface. The chamber pressure data are collected during the test and can be used to evaluate the endpoint detection by comparing with established criteria, which is dependent on the formulation components, drying condition, and previous experience. In addition, the pressure rise data can be correlated to the sublimating interface temperature using mathematical models, as in the case of MTM mentioned below.
+
+Also note that the decrease of the sublimation rate results in an increase in product temperature due to less self-cooling. This increase is usually very small but might be a problem for a process running very close to the edge \(e.g., collapse temperature\). This pressure rise is also commonly used in manufacturing scale dryer.
+
+#### ***5.2.5 ***Manometric Temperature Measurement \(MTM\)
+
+The extent of primary drying and the end point can also be estimated by manometric temperature measurement. Based on the mass transfer rate from the MTM data, the extent of primary drying as measured by dry layer thickness or total ice sublimed in the vials can be determined in real time by the MTM method. The total mass of ice sublimed in the vials can be calculated at any given time during primary drying by numerical integration of ice sublimation rate *dm/dt* by using the trapezoidal value: 
+
+
+
+![$$ m(t)=\int_0^t\left(\frac{dm}{dt}\right) dt=\frac{dm1}{dt}\cdot \left({t}_1-{t}_0\right)+\sum \limits_n^2\left(\frac{dm n}{dt}+\frac{dm\left(n-1\right)}{dt}\right)/2\cdot \left[\left({t}_n-{t}_{\left(n-1\right)}\right)\right] $$](images/000018.jpeg)
+
+
+\(10\)
+
+
+
+
+The mass transfer rate \(*dm**n*/*dt*\) at the time of each MTM measurement \(*t**n*\) is calculated by Eq. 5 using fitted MTM total resistance, \(*R*\)*n*, and ice vapor pressure at the sublimation interface \(*P*ice\)*n*.
+
+The ice thickness determined by MTM method usually shows good agreement with the ice thickness determined directly from gravimetric method. As shown in Fig. 7, the ice thickness determined by MTM and gravimetric method is in good agreement with each other from the beginning to the end of primary drying \[24\]. 
+![](images/000019.jpeg)
+
+
+***Fig. 7*** 
+Ice thickness determined by MTM and gravimetric methods under different freeze-drying conditions. The filled symbols are ice thickness from MTM method and the open ones are ice thickness from gravimetric method
+
+
+
+In this case, the manometric temperature measurement \(MTM\) can be applied as a process analytical technology in addition to the product temperature measurement. The extent of primary drying as estimated by MTM provides additional PAT for freeze-drying process monitoring and process optimization that cannot be achieved by traditional temperature monitoring tools, such as thermocouples. The extent of primary drying can also tell us if the thermocouple product temperature increase is caused by product temperature increase or just caused by the completion of ice sublimation. Usually, the only real-time product parameter during primary drying is the product temperature. The ice thickness calculation is proven to be a reliable method to monitor the extent of primary drying. This method will greatly benefit freeze-drying process design and control when applied appropriately.
+
+In addition, the pressure difference between the chamber pressure and the MTM fitted *P*ice can also be used as an indicator of the end point of primary drying. At the completion of the ice sublimation, the difference between the MTM fitted vapor pressure of the ice, *P*ice \(Eq. 1\) and the initial chamber pressure, *P*c, is close to zero although the actual chamber pressure rising is significant during the period of valve closure between the freeze-drying chamber and condenser. As indicated in Table 3, the pressure difference was found to be less than 5 mTorr although the total chamber pressure rises \(Δ*P*max\) were 124, 164, and 87 mTorr for mannitol, glycine, and sucrose, respectively \[16\]. This method is sensitive for the detection of end point of the primary drying and can detect even a few vials with ice during primary drying \(11\). The advantage of this method to the standard pressure rise test is that the chamber pressure rising from the sample water desorption during the valve closure is included in the linear parameter of the MTM equation \(Eq. 1\) and does not interfere with the MTM procedure for determination of primary drying end point. This MTM method is a variation on the standard pressure rise test but is much less arbitrary. 
+
+
+***Table 3*** 
+Primary drying end point determined by MTM method: comparison of *P*ice \(Eq. 1\) with *P*c at the end of primary drying
+
+
+
+**Formulation**
+
+***T*p \(°C\)**
+
+***P*c**
+
+***P*ice**
+
+***P*ice - *P*c**
+
+**Δ*P*max**
+
+5% mannitol
+
+−30
+
+79
+
+81
+
+2
+
+124
+
+5% glycine
+
+−30
+
+82
+
+84
+
+2
+
+164
+
+5% sucrose
+
+−36
+
+65
+
+69
+
+4
+
+87
+
+
+Note: *T*p is product temperature, *P*c is chamber pressure at the beginning of valve closure, *P*ice is MTM fitted vapor pressure of ice \(Eq. 1\), and Δ*P*max is the total chamber pressure rise during the period of valve closure, the unit of all pressure values is mTorr
+
+
+
+
+#### ***5.2.6 ***TDLAS
+
+The TDLAS is capable to measure the real time water vapor mass transfer rate during freeze-drying and to determine primary and secondary drying end points during freeze-drying \[25, 26, 28\]. However, it was found that the TDLAS measurement overestimated the total amount of ice sublimated \(ratio of gravimetric/TDLAS is ~0.92\), which may result from the limitation of the water molecule velocity determination. In addition, the water molecule velocity data from the TDLAS can also be applied to justify the endpoint of primary drying. For a lab-scale run, the determined water molecule velocity was between 120 m/s and 110 m/s during the primary drying at 20 °C shelf temperature and sharply dropped to less than 1 m/s near the end of primary drying when no ice presented in the glass vials.
+
+## **6 **Summary and Future Trend
+
+The applications of the discussed process analytical technologies are summarized in the Table 4. There are multiple PATs for product temperature measurement including resistance temperature detector \(RTD\), thermocouple \(TC\), and wireless temperature probe which are contact with product and manometric temperature measurement \(MTM\) which has no probe contact with product. The wireless temperature probe and manometric temperature measurement \(MTM\) can be applied for GMP productions since human intervention is not required during the lyophilization process. As a process analytical technology \(PAT\), the wireless temperature probes \(TEMPRIS®\) have been successfully applied for a large-scale GMP lyophilizer \[33\]. 
+
+
+***Table 4*** 
+Summary of process analytical technologies \(PAT\) and applications
+
+
+
+**Process analytical technologies \(PAT\)**
+
+**Applications**
+
+**Comments/recommendations**
+
+**Freezing**
+
+**Primary drying \(PD\)**
+
+**Secondary drying \(SD\)**
+
+Resistance temperature detector
+
+Product temperature measurement
+
+Product temperature measurement
+
+Endpoint of PD
+
+Product temperature measurement
+
+Manual probe placement, not usually applied for GMP production
+
+May not be representative for endpoint of PD detection
+
+Thermocouple
+
+Product temperature measurement
+
+Product temperature measurement
+
+Endpoint of PD
+
+Product temperature measurement
+
+Manual probe placement, not usually applied for GMP production
+
+May not be representative for endpoint of PD detection
+
+Wireless temperature sensor
+
+Product temperature measurement
+
+Product temperature measurement
+
+Product temperature measurement
+
+Can be automatically loaded for GMP production
+
+May not representative for endpoint of PD detection
+
+Pirani gauge
+
+Not applicable
+
+Chamber pressure measurement
+
+Endpoint of PD
+
+Chamber pressure measurement
+
+Standard for lab and GMP production
+
+Combination use with capacitance pressure for endpoint of PD
+
+Capacitance manometer
+
+Not applicable
+
+Chamber pressure measurement
+
+Chamber pressure measurement
+
+Standard for lab and GMP production
+
+Electronic hygrometer
+
+Not applicable
+
+Endpoint of PD
+
+Not applicable
+
+Pressure rise test \(PRT\)
+
+Not applicable
+
+Endpoint of PD
+
+Not applicable
+
+Noninvasive and can be applied to GMP production; require development work for acceptance criteria
+
+Mass spectrometer \(MS\)
+
+Not applicable
+
+Endpoint of PD
+
+Endpoint of SD
+
+Noninvasive and can be applied to GMP production
+
+Manometric temperature measurement \(MTM\)
+
+Not applicable
+
+Heat and mass transfer and duration of PD
+
+Endpoint of PD
+
+Endpoint of SD
+
+Noninvasive and can be applied to GMP production
+
+Sensitive and no need for acceptance criteria development
+
+Tunable diode laser absorption spectroscopy \(TDLAS\)
+
+Not applicable
+
+Heat and mass transfer and duration of PD
+
+Endpoint of PD
+
+Endpoint of SD
+
+Noninvasive and can be applied to GMP production
+
+
+
+The endpoint of primary drying can be determined by product temperature measurement from resistance temperature detector \(RTD\), thermocouple \(TC\), wireless temperature probe, or combination of Pirani gauge and capacitance manometer chamber pressure. The product temperature measure methods require the temperature probes inside the product solution thus interfere with the product ice nucleation process and make the product vials with temperature probe not representative of the rest product vials in the batch. The value of determination of endpoint of primary drying by Pirani gauge and capacitance manometer chamber pressure method is underestimated and should be more consistently applied to manufacture product lyophilization. In addition, the pressure rise test can be implemented for lyophilization productions when the acceptance criteria are well established. The manometric temperature measurement \(MTM\) is a noninvasive method and can be readily applied to GMP productions if the isolation valves are equipped in the production lyophilizers. The MTM method can determine the product temperature, the extent, and endpoint of primary drying. The MTM endpoint of primary drying is more sensitive than the pressure rising method, and it does not require the predetermined pressure rise acceptance criteria. However, more efforts ae needed for authorities and pharmaceutical industries to implement this promising PAT for the GMP production. Great progresses have been made in the application of TDLAS and mass spectrum methods to monitor and control the lyophilization processes. Both technologies require additional equipment attaching to the lyophilizers and show to be promising as PAT for large-scale manufacturing. More application data are encouraged to publish in this area.
+
+
+**Bibliography**
+
+1.  
+1.
+
+Rathore AS, Winkle H. Quality by design for biopharmaceuticals. Nat Biotechnol. 2009;27\(1\):26–34. Accessed 24 Mar 2021. [https://​nature.​com/​articles/​nbt0109-26](https://nature.com/articles/nbt0109-26).[Crossref](https://doi.org/10.1038/nbt0109-26)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19131992)
+
+2.  
+2.
+
+Patel SM, Pikal MJ. Process Analytical Technologies \(PAT\) in freeze-drying of parenteral products. Pharm Dev Technol. 2009;14\(6\):567–87. Accessed 24 Mar 2021. [https://​tandfonline.​com/​doi/​full/​10.​3109/​1083745090329511​6](https://tandfonline.com/doi/full/10.3109/10837450903295116).[Crossref](https://doi.org/10.3109/10837450903295116)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19883247)
+
+3.  
+3.
+
+Beer T, De P, Vercruysse A, Burggraeve TQ, Jin Ouyang X, Zhang CV, Remon JP, Baeyens W. In-line and real-time process monitoring of a freeze drying process using raman and NIR spectroscopy as complementary process analytical technology \(PAT\) tools. J Pharm Sci. 2009;98\(9\):3430–46. Accessed 29 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​19130604](https://ncbi.nlm.nih.gov/pubmed/19130604).[Crossref](https://doi.org/10.1002/jps.21633)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19130604)
+
+4.  
+4.
+
+Wang B\(S\), McCoy TR. Advances in process analytical technology in freeze-drying. In: Varshney D, Singh M, editors. Lyophilized biologics and vaccines. New York: Springer; 2015. Accessed 29 Mar 2021. [https://​link.​springer.​com/​chapter/​10.​1007/​978-1-4939-2383-0\_​8](https://link.springer.com/chapter/10.1007/978-1-4939-2383-0_8).
+
+5.  
+5.
+
+Pikal MJ. Freeze-drying of proteins. Process, formulation, and stability. ChemInform. 1995;26\(4\). Accessed 24 Mar 2021. [http://​onlinelibrary.​wiley.​com/​doi/​10.​1002/​chin.​199504315/​abstract](http://onlinelibrary.wiley.com/doi/10.1002/chin.199504315/abstract).
+
+6.  
+6.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​6491939](https://ncbi.nlm.nih.gov/pubmed/6491939).[Crossref](https://doi.org/10.1002/jps.2600730910)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+7.  
+7.
+
+Nail SL, Jiang S, Chongprasert S, Knopp SA. Fundamentals of freeze-drying. Pharm Biotechnol. 2002;14:281–360. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​12189727](https://ncbi.nlm.nih.gov/pubmed/12189727).[Crossref](https://doi.org/10.1007/978-1-4615-0549-5_6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12189727)
+
+8.  
+8.
+
+Patel SM, Doen T, Pikal MJ. Determination of end point of primary drying in freeze-drying process control. AAPS PharmSciTech. 2010;11\(1\):73–84. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pmc/​articles/​pmc2850457](https://ncbi.nlm.nih.gov/pmc/articles/pmc2850457).[Crossref](https://doi.org/10.1208/s12249-009-9362-7)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20058107)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2850457)
+
+9.  
+9.
+
+Schneid SC, Gieseler H, Kessler WJ, Luthra S, Luthra S, Pikal MJ. Optimization of the secondary drying step in freeze drying using TDLAS technology. AAPS PharmSciTech. 2011;12\(1\):379–87. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pmc/​articles/​pmc3066362](https://ncbi.nlm.nih.gov/pmc/articles/pmc3066362).[Crossref](https://doi.org/10.1208/s12249-011-9600-7)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21359604)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3066362)
+
+10.  
+10.
+
+Tang X\(C\), Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200. Accessed 24 Mar 2021. [https://​link.​springer.​com/​article/​10.​1023/​b:​pham.​0000016234.​73023.​75](https://link.springer.com/article/10.1023/b:pham.0000016234.73023.75).[Crossref](https://doi.org/10.1023/B:PHAM.0000016234.73023.75)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15032301)
+
+11.  
+11.
+
+Konstantinidis AK, Kuu WY, Otten L, Nail SL, Sever RR. Controlled nucleation in freeze-drying: effects on pore size in the dried product layer, mass transfer resistance, and primary drying rate. J Pharm Sci. 2011;100\(8\):3453–70. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​21465488](https://ncbi.nlm.nih.gov/pubmed/21465488).[Crossref](https://doi.org/10.1002/jps.22561)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21465488)
+
+12.  
+12.
+
+Schneid SC, Gieseler H. Evaluation of a new wireless temperature remote interrogation system \(TEMPRIS\) to measure product temperature during freeze drying. AAPS PharmSciTech. 2008;9\(3\):729–39. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pmc/​articles/​pmc2977010](https://ncbi.nlm.nih.gov/pmc/articles/pmc2977010).[Crossref](https://doi.org/10.1208/s12249-008-9099-8)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18561030)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2977010)
+
+13.  
+13.
+
+Milton N, Pikal MJ, Roy ML, Nail SL. Evaluation of manometric temperature measurement as a method of monitoring product temperature during lyophilization. PDA J Pharm Sci Technol. 1997;51\(1\):7–16. Accessed 24 Mar 2021. [https://​journal.​pda.​org/​content/​51/​1/​7](https://journal.pda.org/content/51/1/7).[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9099059)
+
+14.  
+14.
+
+Pikal MJ, Tang X\(C\), Nail SL. Automated process control using manometric temperature measurement. Access. 2003;3\(24\):2021. [http://​freepatentsonlin​e.​com/​6971187.​html](http://freepatentsonline.com/6971187.html).
+
+15.  
+15.
+
+Tang X\(C\), Nail SL, Nail SL, Pikal MJ. Evaluation of manometric temperature measurement, a process analytical technology tool for freeze-drying: Part I, product temperature measurement. AAPS Pharmscitech. 2006b;7\(1\):E95–E103. Accessed 24 Mar 2021. [https://​link.​springer.​com/​article/​10.​1208/​pt070114](https://link.springer.com/article/10.1208/pt070114).[Crossref](https://doi.org/10.1208/pt070114)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28290029)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750721)
+
+16.  
+16.
+
+Tang X\(C\), Nail SL, Pikal MJ. Freeze-drying process design by manometric temperature measurement: design of a smart freeze-dryer. Pharm Res. 2005;22\(4\):685–700. Accessed 24 Mar 2021. [https://​link.​springer.​com/​article/​10.​1007/​s11095-005-2501-2](https://link.springer.com/article/10.1007/s11095-005-2501-2).[Crossref](https://doi.org/10.1007/s11095-005-2501-2)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15889467)
+
+17.  
+17.
+
+Nail SL, Johnson W. Methodology for in-process determination of residual water in freeze-dried products. Dev Biol Stand. 1992;74:137–51.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592164)
+
+18.  
+18.
+
+Pikal MJ, Shah S, Roy ML, Putman R. The secondary drying stage of freeze drying: drying kinetics as a function of temperature and chamber pressure. Int J Pharm. 1990;60\(3\):203–7. Accessed 24 Mar 2021. [https://​sciencedirect.​com/​science/​article/​pii/​037851739090074e​](https://sciencedirect.com/science/article/pii/037851739090074e).[Crossref](https://doi.org/10.1016/0378-5173(90)90074-E)
+
+19.  
+19.
+
+Rambhatla S, Ramot R, Bhugra C, Pikal MJ. Heat and mass transfer scale-up issues during freeze drying: II. Control and characterization of the degree of supercooling. AAPS PharmSciTech. 2004;5\(4\):54–62. Accessed 24 Mar 2021. [https://​link.​springer.​com/​article/​10.​1208/​pt050458](https://link.springer.com/article/10.1208/pt050458).[Crossref](https://doi.org/10.1208/pt050458)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750483)
+
+20.  
+20.
+
+Tang X\(C\), Nail SL, Pikal MJ. Evaluation of manometric temperature measurement, a process analytical technology tool for freeze-drying: Part II measurement of dry-layer resistance. AAPS PharmSciTech. 2006a;7\(4\):93. Accessed 24 Mar 2021. [https://​link.​springer.​com/​article/​10.​1208/​pt070493](https://link.springer.com/article/10.1208/pt070493).[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17285744)
+
+21.  
+21.
+
+Pikal MJ. Use of laboratory data in freeze drying process design: heat and mass transfer coefficients and the computer simulation of freeze drying. PDA J Pharm Sci Technol. 1985;39\(3\):115–39. Accessed 29 Mar 2021. [https://​journal.​pda.​org/​content/​39/​3/​115](https://journal.pda.org/content/39/3/115).
+
+22.  
+22.
+
+Mockus L, Paul TW, Pease NA, Harper NJ, Basu PK, Oslos EA, Sacha GA, et al. Quality by design in formulation and process development for a freeze-dried, small molecule parenteral product: a case study. Pharm Dev Technol. 2011;16\(6\):549–76. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​21932931](https://ncbi.nlm.nih.gov/pubmed/21932931).[Crossref](https://doi.org/10.3109/10837450.2011.611138)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21932931)
+
+23.  
+23.
+
+Patel SM, Pikal MJ. Lyophilization process design space. J Pharm Sci. 2013;102\(11\):3883–7. Accessed 29 Mar 2021. [https://​sciencedirect.​com/​science/​article/​pii/​s002235491530852​2](https://sciencedirect.com/science/article/pii/s0022354915308522).[Crossref](https://doi.org/10.1002/jps.23703)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23946165)
+
+24.  
+24.
+
+Tang XC, Nail SL, Pikal MJ. Evaluation of manometric temperature measurement \(MTM\), a process analytical technology tool in freeze drying, part III: heat and mass transfer measurement. AAPS PharmSciTech. 2006c;7\(4\):97. Accessed 24 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pmc/​articles/​pmc2750334](https://ncbi.nlm.nih.gov/pmc/articles/pmc2750334).[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17285746)
+
+25.  
+25.
+
+Gieseler H, Kessler WJ, Finson ML, Davis SJ, Mulhall PA, Bons V, Debo DJ, Pikal MJ. Evaluation of tunable diode laser absorption spectroscopy for in-process water vapor mass flux measurements during freeze drying. J Pharm Sci. 2007;96\(7\):1776–93. Accessed 29 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​17221854](https://ncbi.nlm.nih.gov/pubmed/17221854).[Crossref](https://doi.org/10.1002/jps.20827)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17221854)
+
+26.  
+26.
+
+Schneid SC, Gieseler H, Kessler WJ, Pikal MJ. Non-invasive product temperature determination during primary drying using tunable diode laser absorption spectroscopy. J Pharm Sci. 2009;98\(9\):3406–18. Accessed 29 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​18781643](https://ncbi.nlm.nih.gov/pubmed/18781643).[Crossref](https://doi.org/10.1002/jps.21522)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18781643)
+
+27.  
+27.
+
+Sharma P, Kessler WJ, Bogner RH, Thakur MS, Pikal MJ. Applications of the tunable diode laser absorption spectroscopy: in-process estimation of primary drying heterogeneity and product temperature during lyophilization. J Pharm Sci. 2019;108\(1\):416–30. Accessed 29 Mar 2021. [https://​sciencedirect.​com/​science/​article/​pii/​s002235491830500​8](https://sciencedirect.com/science/article/pii/s0022354918305008).[Crossref](https://doi.org/10.1016/j.xphs.2018.07.031)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30114403)
+
+28.  
+28.
+
+Kuu WY, Nail SL. Rapid freeze-drying cycle optimization using computer programs developed based on heat and mass transfer models and facilitated by tunable diode laser absorption spectroscopy \(TDLAS\). J Pharm Sci. 2009;98\(9\):3469–82. Accessed 29 Mar 2021. [https://​sciencedirect.​com/​science/​article/​abs/​pii/​s002235491633053​2](https://sciencedirect.com/science/article/abs/pii/s0022354916330532).[Crossref](https://doi.org/10.1002/jps.21813)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19504575)
+
+29.  
+29.
+
+Kuu WY, Nail SL, Sacha GA. Rapid determination of vial heat transfer parameters using tunable diode laser absorption spectroscopy \(TDLAS\) in response to step-changes in pressure set-point during freeze-drying. J Pharm Sci. 2009;98\(3\):1136–54. Accessed 29 Mar 2021. [https://​sciencedirect.​com/​science/​article/​abs/​pii/​s002235491632914​8](https://sciencedirect.com/science/article/abs/pii/s0022354916329148).[Crossref](https://doi.org/10.1002/jps.21478)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18683861)
+
+30.  
+30.
+
+Roy ML, Pikal MJ. Process control in freeze drying: determination of the end point of sublimation drying by an electronic moisture sensor. PDA J Pharm Sci Technol. 1989;43\(2\):60–6. Accessed 29 Mar 2021. [https://​journal.​pda.​org/​content/​43/​2/​60](https://journal.pda.org/content/43/2/60).
+
+31.  
+31.
+
+Connelly JP, Welch JV. Monitor lyophilization with mass spectrometer gas analysis. PDA J Pharm Sci Technol. 1993;47\(2\):70–5. Accessed 29 Mar 2021. [https://​ncbi.​nlm.​nih.​gov/​pubmed/​8515347](https://ncbi.nlm.nih.gov/pubmed/8515347).
+
+32.  
+32.
+
+Ganguly A, Stewart J, Rhoden A, Volny M, Saad N. Mass spectrometry in freeze-drying: motivations for using a bespoke PAT for laboratory and production environment. Eur J Pharm Biopharm. 2018;127:298–308. Accessed 29 Mar 2021. [https://​sciencedirect.​com/​science/​article/​pii/​s093964111731430​3](https://sciencedirect.com/science/article/pii/s0939641117314303).[Crossref](https://doi.org/10.1016/j.ejpb.2018.02.036)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29501706)
+
+33.  
+33.
+
+Weiland A, Mangold A. Lyocylce optimization- “Hot” and “Cold” spot determination \(HTC\) using TEMPRIS for wireless real-time temperature measurement as process analytical technology \(PAT\) tool - presenting a production scale performance qualification case study. CPPR freeze drying of pharmaceuticals and biologicals. Garmisch-Partenkirchen \(Germany\). 2014.
+
+
+

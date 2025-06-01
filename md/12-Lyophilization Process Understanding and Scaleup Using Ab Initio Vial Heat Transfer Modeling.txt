@@ -1,0 +1,1301 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_12](https://doi.org/10.1007/978-3-031-12634-5_12)
+
+
+**
+# Lyophilization Process Understanding and Scaleup Using *Ab Initio* Vial Heat Transfer Modeling
+**
+
+
+Tong Zhu1, 3, 4  , Ehab M. Moussa1, Feroz Jameel2, Madeleine Witting5, Sarah Ehlers5 and Alina Alexeenko3
+
+
+\(1\) 
+Drug Product Development, AbbVie Inc., North Chicago, IL, USA
+
+
+\(2\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+\(3\) 
+School of Aeronautics and Astronautics, College of Engineering, Purdue University, West Lafayette, IN, USA
+
+
+\(4\) 
+North Chicago, USA
+
+
+\(5\) 
+Drug Product Development, AbbVie Inc., Ludwigshafen, Germany
+
+
+
+
+
+**Tong Zhu**
+
+**Email: **tzhu@abbvie.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Materials and Methods
+
+**2.1 **Theoretical Analysis of Heat Transfer to Product in Vials During Lyophilization
+
+**2.2 **Experimental Setup for Full-Shelf Gravimetric Measurements of *K*v for Various Vials and Lyophilizers
+
+**2.3 **Determining *Ab Initio K*v Parameters for Various Vials and Lyophilizer Combinations
+
+**2.4 **Lyophilization Cycle Scaleup Using *Ab Initio* Vial Heat Transfer Modeling
+
+**3 **Results and Discussions
+
+**3.1 **Experimental Results of Center Vial *K*v for Different Lyophilizers and Vial Size
+
+**3.2 **Example Case Studies to Scaleup *K*v from a “Known” to a “Target” Design Condition \(Lab-->Pilot\) Using *Ab Initio* Parameters
+
+**3.3 **Discussion on the Uncertainty in the Estimated *K*v
+
+**4 **Conclusions
+
+References
+
+
+## Abstract
+
+Lyophilization is an important manufacturing process for small molecules and biologics that are unstable in a liquid form. The scaleup of the lyophilization process for clinical and commercial manufacturing is a challenging process that typically requires costly development runs at the production-scale lyophilizer to determine mass and heat transfer parameters for a specific product, container, and equipment combination. In this study, we present a theoretical heat transfer analysis for center vials in the lyophilizer with the aim of determining the heat transfer coefficient of the vials \(*K*v\) *ab initio*. The theoretical results are then compared to experimental values obtained by gravimetric measurements using pure water for full-shelf load on various lyophilizers.
+
+
+**Keywords**
+Lyophilization Vial Heat transfer *Ab initio* modeling Scaleup
+
+
+**Nomenclature**
+
+
+**Temperatures**
+
+*Tsh* 
+shelf temperature
+*Tsurf* 
+average shelf surface temperature
+*Tinlet* 
+shelf heating fluid inlet temperature
+*Tbot \(or Tpr\) * 
+product bottom temperature
+
+
+
+
+**Heat Transfer Rates and Coefficients**
+
+*![$$ {\dot{Q}}_{\textrm{cs}} $$](images/000001.jpeg) * 
+contact solid heat transfer rate at the vial bottom touching the shelf/tray
+* ![$$ {\dot{Q}}_{\textrm{rad}} $$](images/000002.jpeg) * 
+radiative heat transfer rate to the vial from the surroundings
+* ![$$ {\dot{Q}}_{\textrm{gas}} $$](images/000003.jpeg) * 
+gas conductive heat transfer rate in the concavity between the vial bottom and the shelf/tray
+*Kv* 
+vial heat transfer coefficient in general
+*Kv,surf* 
+vial heat transfer coefficient between the shelf surface and the vial bottom
+*Kv,inlet* 
+total/apparent heat transfer coefficient between the shelf fluid inlet and the vial bottom
+*Ks* 
+the shelf heat transfer coefficient within itself
+*Kcs* 
+contact solid heat transfer coefficient at the vial bottom touching the shelf/tray
+*Krad * 
+radiative heat transfer coefficient to the vial from the surroundings
+*Kgas * 
+gas conductive heat transfer coefficient in the concavity between the shelf and either the vial bottom \( ![$$ {K}_{\textrm{gas}}^{\textrm{bot}} $$](images/000004.jpeg) \), or vial top \( ![$$ {K}_{\textrm{gas}}^{\textrm{top}} $$](images/000005.jpeg) \)
+*Kg* 
+heat transfer coefficient through the vial glass
+*Kl* 
+heat transfer coefficient through the frozen product
+*KTOT* 
+total heat transfer coefficient from the shelf inlet to the sublimation front
+*KC* 
+pressure independent part of heat transfer coefficient from radiation and the contact between the vial and the shelf/tray
+*KP* 
+constant parameter expressing the pressure dependence of heat transfer coefficient for water vapor
+*KD* 
+parameter expressing the pressure dependence of heat transfer coefficient specific to a vial geometry
+
+
+
+
+***Ab Initio* Parameters and Others**
+
+*Av* 
+outer cross sectional area of the vial
+*ASV* 
+area of shelf per vial
+*kcs* 
+empirical contact solid heat transfer coefficient normalized by the contact area
+*Acs* 
+nominal vial contact area on the shelf
+*es* 
+emissivity for radiation from the shelf to the bottom of the vial
+*ev* 
+effective emissivity for radiation from the shelf to the top of the vial
+*lbot* 
+effective gap distance between the vial bottom and the shelf/tray
+*kg* 
+heat conductivity of the glass
+*kice* 
+heat conductivity of the frozen product
+*σ* 
+Stefan-Boltzmann constant
+*λ0* 
+heat conductivity of the water vapor at a given pressure
+*Λ0* 
+free molecular flow heat conductivity at 0 °C
+*α* 
+energy accommodation coefficient for water vapor
+*Rp* 
+area-normalized product resistance
+
+
+
+
+
+## **1 **Introduction
+
+Lyophilization is used for manufacturing of approximately half of biologic drug products \[3, 4\]. The rational scaleup of the lyophilization process involves two main parameters, the vial heat transfer coefficient \(*K*v\), which depends on the vial and the lyophilizer equipment, and the drug product resistance to vapor flow \(*R*p\), which depends on the formulation composition and the freezing process \[25\]. In order to apply the quality by design \(QbD\) elements and to successfully scale up the lyophilization process, thorough characterization of the heat transfer parameters of the primary container and the equipment is required \[16, 22, 23\].
+
+Generally, the lyophilization process can be modeled by eight variables: sublimation rate, three pressure values \(in the chamber, inside the vial and immediately outside the semi-stoppered vial\), and four temperature values corresponding to shelf surface, vial bottom, vial top, and sublimation front \[30\]. Two of the variables are process set points such as chamber pressure \(*P*ch\) and shelf surface temperature \(*T*sh\). Other key variables can be obtained indirectly using cycle data fitting or using process analytical technologies \(PAT\) such as the manometric temperature measurements \(MTM\) \[28\] and tunable diode laser absorption spectroscopy \(TDLAS\) \[11\].
+
+The experimental determination of the *K*v in the manufacturing lyophilizer is not always feasible. An alternative yet less commonly used approach to determine *K*v is *ab initio* modeling. Several literature reports have shown that the major components of the *K*v between the shelf surfaces and the vial can be studied based on three separate heat transfer mechanisms: gas conduction, solid contact, and radiation \[4, 22, 29, 31, 32\].
+
+The gas conductive heat transfer between the shelf surface and the vial through the gas entrapped in the bottom concavity, and the solid contact heat transfer are the two dominant mechanisms under typical lyophilization conditions \[4, 32\]. The gas conduction component is based on geometry of the vial bottom concavity and can be computed using the temperature slip correction with the continuum methods \[31\] or the discrete particle modeling methods \[12, 13\]. The solid contact conduction component can also be computed based on detailed geometry measurements \[8\] or, alternatively, by a direct imprint test method \[8, 11\].
+
+Radiative heat transfer occurs between the shelf surfaces and the vial from both bottom and top and is dependent on the effective emissivity of the vial-top and the shelf surface \[4\]. The emissivity of the shelf surface can be measured using a pyrometer \[11\] or an emissiometer \[8\], whereas the effective emissivity of the vial-top can be measured using specially designed experiments \[4\].
+
+Recently, the relative importance of solid contact, gas conduction, radiation, and convection in the heat transfer in lyophilization was studied by Ganguly et al. using gravimetric experiments \[32\]. In their study, the vials were either placed on or suspended at various separation distances from the shelf to accurately determine the pressure-dependent component in both continuum and free molecular flow limits. Interestingly, some unaccounted for heat was observed for 100 mTorr or higher pressure conditions and was attributed to convection. Nevertheless, the significance of convective heat transfer in typical manufacturing lyophilizers is not yet fully understood \[5\].
+
+For the center vials that form the majority of a batch, the detailed vial and lyophilizer dimensions have little impact on *K*v, and therefore relatively simple *ab initio* expressions of *K*v can be employed \[4, 31\]. However, non-uniformity and variability in heat transfer through a batch or multiple batches may be important for cases where drying temperature and drying time show large variations \[21, 26\]. In such cases, the detailed vial and lyophilizer dimensions and even cycle parameters may be needed to use *ab initio* modeling using analytical methods \[5\] or detailed finite element analysis \[9\]. There are also novel rack vial holding systems \[19, 20\] developed to enable more homogeneous drying than in bulk tray setting, while our focus is on the traditional tray drying which is the most popular.
+
+The variability of *K*v in a batch includes that of heat transfer due to the location on the shelf and the variability of individual vials due to manufacturing tolerances \[8\]. In one study, vials in a fully loaded batch were categorized into spatial groups, and gravimetric measurements were used to determine the distributions of *K*v \[15\]. It was found that each group showed different *K*v \(detailed edge effect\) and that *K*v values follow a normal distribution within each vial group. In separate studies, the solid contact heat transfer was found to be the crucial factor that accounts for the variability of *K*v at typical pressures conditions such as between 50 and 200 mTorr \[1, 8\]. Such variability in *K*v could be used to predict the variability of product temperature in order to provide quantitative guidelines for safety margin settings \[8, 15, 18\].
+
+In the present study, we present theoretical *ab initio* prediction and experimental measurements of the heat transfer in vials in order to validate the predicted *K*v. We also provide a practical roadmap for determining the best strategy based on potentially insufficient experimental measurements at the larger scale lyophilizer. This methodology is illustrated with several example lyophilizers and vials.
+
+## **2 **Materials and Methods
+
+### **2.1 **Theoretical Analysis of Heat Transfer to Product in Vials During Lyophilization
+
+We first consider the center vial case which constitutes the majority \(i.e., more than 80%\) of vials in a typical production-scale batch. Owing to the symmetry of the vial and its heating environment, the lyophilizer, and the heat transfer geometry, it has been previously proposed that dimension reduction from 3D to 1D is valid for studying most heat and mass transfer processes in lyophilization in a vial \[30, 33\]. Figure 1 shows a schematic of the geometry reduction in the top panel two subfigures, along with the key geometric parameters and temperatures for heat transfer to a vial sitting on a shelf, where ASV is the area of shelf per vial. 
+![](images/000006.jpeg)
+
+
+***Fig. 1*** 
+Schematic for studying heat transfer to a vial. *T*sub temperature of the sublimation front. *T*bot temperature of the bottom of the vial. *T*inlet temperature of the heat transfer fluid at the inlet of the shelf. *T*surf temperature of the shelf surface. In the bottom left subfigure, the pink and yellow arrows represent the conductive and radiative heat to the vial, respectively. The red and blue arrows represent the in-product conductive and sublimative heat transfer, respectively
+
+
+
+#### ***2.1.1 ***Definition of the Heat Transfer Coefficient, ***K******v***
+
+Considering the aforementioned 1D assumption for heat transfer analysis, the heat transfer process is decomposed into modules from the shelf to the product, with key geometric locations and associated temperatures as summarized in the first three rows of Table 1. 
+
+
+***Table 1*** 
+Overview of the heat transfer modeling of a center vial
+
+
+
+![](images/000007.jpeg)
+
+
+
+
+#### ***2.1.2 ***Phenomenological Parameters
+
+Traditionally, the heat transfer to the product in a vial is conveniently characterized by a single, effective *K*v \[4\] for which a schematic of the key heat transfer related geometry reduction is shown in Fig. 1 in the bottom two subfigures. *K*v is defined as the heat transfer rate to the product vial \( ![$$ \dot{Q} $$](images/000008.jpeg) \) normalized by a reference area available for heat transfer \(*A*v\) and the associated temperature difference between the heat source temperature \(*T*sh\) and the vial bottom temperature \(*T*b\): 
+
+
+
+![$$ \dot{Q}={K}_{\textrm{v}}\left({T}_{\textrm{sh}}-{T}_{\textrm{bot}}\right)\ast {A}_{\textrm{v}} $$](images/000009.jpeg)
+
+
+\(1\)
+
+
+where *A*v is typically considered as the outer area of the vial. The temperature *T*s can be either taken as the average shelf surface temperature *T*s = *T*s,surf or the heating fluid inlet temperature *T*sh = *T*inlet. The corresponding heat transfer coefficients are denoted as *K*v,surf and *K*v,inlet, respectively. *K*v,surf depends primarily on the geometric and thermal properties of the vial and its surrounding surfaces. In contrast, *K*v,inlet accounts for the heat transfer within the shelf and is usually referred to as the total/apparent *K*v which is easier to obtain since *T*inlet is a controlled cycle input. As an important convention in this chapter and also typical literature notation, *K*v without the specification of basing on shelf inlet or surface temperature refers to *K*v,inlet.
+
+In our analysis, both *K*v,surf and *K*v,inlet are identified as lumped phenomenological parameters \(Table 1, *level-0*\) in that they can be decomposed into three more basic heat transfer mechanisms \(Table 1, *level-1*\) that a center vial is subjected to during lyophilization which includes: 
+
+1. 
+1.
+
+
+*K*cs – contact solid heat transfer at the vial bottom touching point on the shelf/tray and is defined by: 
+
+
+
+![$$ {\dot{Q}}_{\textrm{cs}}={K}_{\textrm{cs}}\left({T}_{\textrm{surf}}-{T}_{\textrm{bot}}\right)\ast {A}_{\textrm{v}} $$](images/000010.jpeg)
+
+
+\(2\)
+
+
+
+
+
+2.  
+2.
+
+
+*K*rad – radiative heat transfer to the vial from the surroundings \(only shelf/tray for a center vial\) and is defined by: 
+
+
+
+![$$ {\dot{Q}}_{\textrm{gas}}={K}_{\textrm{gas}}\left({T}_{\textrm{surf}}-{T}_{\textrm{bot}}\right)\ast {A}_{\textrm{v}} $$](images/000011.jpeg)
+
+
+\(3\)
+
+
+
+
+
+3.  
+3.
+
+
+*K*gas – gas conductive heat transfer in the concavity between the vial bottom and the shelf/tray and is defined by: 
+
+
+
+![$$ {\dot{Q}}_{\textrm{rad}}={K}_{\textrm{rad}}\left({T}_{\textrm{surf}}-{T}_{\textrm{bot}}\right)\ast {A}_{\textrm{v}} $$](images/000012.jpeg)
+
+
+\(4\)
+
+
+
+
+And the total heat transfer rate *K*v,surf is defined by: 
+
+
+
+![$$ \dot{Q}={\dot{Q}}_{\textrm{rad}}+{\dot{Q}}_{\textrm{gas}}+{\dot{Q}}_{\textrm{cs}}={K}_{\textrm{v},\textrm{surf}}\left({T}_{\textrm{surf}}-{T}_{\textrm{bot}}\right)\ast {A}_{\textrm{v}} $$](images/000013.jpeg)
+
+
+\(5\)
+
+
+
+
+Note the center vials are also in contact with neighboring vials, which presents an additional mode of heat transfer and is, thereby, included in the overall contact solid heat transfer coefficient. Furthermore, the temperature drops from the shelf inlet to shelf surface due to the heat loss in the shelf itself and can be characterized by the “shelf heat transfer coefficient,” *K*s as given by: 
+
+
+
+![$$ \dot{Q}={K}_{\textrm{s}}\left({T}_{\textrm{inlet}}-{T}_{\textrm{s}\textrm{urf}}\right)\ast \textrm{ASV} $$](images/000014.jpeg)
+
+
+\(6\)
+
+
+
+
+Therefore, *K*v,surf and *K*v,inlet can be related by *K*s as given by: 
+
+
+
+![$$ {K}_{\textrm{v},\textrm{inlet}}={K}_{\textrm{v},\textrm{surf}}\ast {\left(1+\frac{K_{\textrm{v},\textrm{surf}}}{K_{\textrm{s}}}\ast \frac{A_{\textrm{v}}}{\textrm{ASV}}\right)}^{-1} $$](images/000015.jpeg)
+
+
+\(7\)
+
+
+where *A*v/ASV is usually close to 0.9 for close-packing of vials \(hexagonal arrangement\) on a shelf.
+
+More detailed heat transfer coefficients for within the vial can be defined similarly with various temperature differences of interest. For example, the vial bottom glass heat transfer coefficient \(*K*g\) \[14, 34\], the frozen product heat transfer coefficient \(*K*l\) and the total heat transfer coefficient \(*K*TOT\) \(Table 1, *level-0*\). It has generally been assumed that *K*g is a weak thermal barrier and has negligible impact on the total heat transfer at least at the vial bottom, i.e.*, T*g ≈ *T*bot. *K*l and *K*TOT were defined in some literature reports \[10, 34\] to include the heat transfer in the frozen product. However, *K*l is dependent on the instantaneous frozen product length and, therefore, neither *K*l nor *K*TOT is constant. Therefore, we used *K*v,surf for most of the analysis since it is a characteristic lumped parameter that is mostly constant at a given pressure.
+
+
+
+
+
+#### ***2.1.3 ******Ab Initio*** Parameters and Their Dependence on the Equipment/Product/Process
+
+The more fundamental or *ab initio* \(*level-2*\) physical parameters involved in determination of the heat transfer to a center vial are also listed in Table 1 in correspondence with the respective phenomenological heat transfer coefficients \(*level-1*\). A review of various methods in literature in obtaining each of these *ab initio* parameters is summarized in Table 2, where are recorded in each row and categorized into two types of approaches, the direct or indirect \(with regression analysis\) measurements and the first principle & computational approaches, depending on whether heat-related experimental efforts is involved. The phenomenological parameters have the following dependence on the *ab initio* parameters: 
+
+1. 
+1.
+
+
+*K*cs is proportional to the nominal area that the vial bottom touches the shelf/tray and is defined by: 
+
+
+***Table 2*** 
+Review of various methods in literature in obtaining all the *ab initio* parameters
+
+
+
+***Ab initio* parameters**
+
+**Approach type➔**
+
+**1: Direct measurement**
+
+**2: First principle & computational**
+
+**Typical ranges of values**
+
+***level-2***
+
+***level-1***
+
+<*l*bot>
+
+*K*gas
+
+Suspended vial sublimation test \(Ganguly \[32\]\)
+
+Simplified geometrical approximation \(Scutella \[8\]\)
+
+Measure contour by cutting the vial \(or by profilometer\), then take an average
+
+<*l*bot > ranges between 0.012 and 0.094 \(cm\)
+
+\[11\] and ranges between 0.037 and 0.090 \(cm\), Pikal \[4\]
+
+*e*s
+
+*K*rad,bot
+
+Pyrometer-TC
+
+Emissometer EM-2
+
+Heat flow sensor
+
+n/a
+
+*e*s ranges between 0.28 for \(polished 316 stainless steel\) and 0.66 \(rough steel\) for most scales of lyophilizers
+
+Kuu \[11\], Pikal \[4, 31\]
+
+*e*g \(or *e*v\)
+
+*K*rad,top
+
+Heat transfer measurement with a lid cover \[4\]
+
+n/a
+
+*e*v ≈ 0.84 is the effective vial emissivity, Pikal \[4\]
+
+*k*cs
+
+*K*cs
+
+Heat flow sensor \(Madhusudana \[7\], Chap. 5\)
+
+First principle correlation, approx. Madhusudana \[7\]
+
+Simplified geometrical approximation \[8\]
+
+*K*cs ranges between 0.42–0.97 ![$$ \left[\frac{10^{-4}\textrm{cal}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}}\right] $$](images/000016.jpeg) 
+
+Kuu \[11\] and 0.4–1.70 ![$$ \left[\frac{10^{-4}\textrm{cal}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}}\right] $$](images/000017.jpeg) , Pikal \[4\]
+
+*A*cs
+
+Imprint method \(for *A*cs\)
+
+*K*s
+
+Sublimation test in OQ runs \[10\]
+
+Shelf fluid & soild conjugate heat transfer modeling using shelf material & mechanical property
+
+Lab-scale lyo ranges between 15 ![$$ -80\left[\frac{10^{-4}\textrm{cal}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}}\right] $$](images/000018.jpeg)  Kuu \[11\], Rambhatla \[10\], Pikal \[4\]
+
+Pilot-scale lyo ~181 ![$$ \left[\frac{10^{-4}\textrm{cal}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}}\right] $$](images/000019.jpeg)  Rambhatla \[10\]
+
+Manufacturing-scale lyo ~139 ![$$ \left[\frac{10^{-4}\textrm{cal}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}}\right] $$](images/000020.jpeg)  Rambhatla \[10\]
+
+
+
+
+
+![$$ {K}_{\textrm{cs}}={k}_{\textrm{cs}}\ast {A}_{\textrm{cs}} $$](images/000021.jpeg)
+
+
+\(8\)
+
+
+
+
+It is generally assumed that *k*cs is only dependent on the vial material \[1, 2, 5\]. This assumption is further justified by a theoretical analysis of solid contact thermal conductance \[7\], as well as experimental regression analyses \[8\].
+
+
+
+
+2.  
+2.
+
+
+*K*rad can be separated into radiative heat transfer to the vial bottom and top \(side radiation is not considered due to symmetry\) and is defined by: 
+
+
+
+![$$ {K}_{\textrm{gas}}^{\textrm{bot}}=\sigma {\left(\frac{1}{e_{\textrm{s}}}+\frac{1}{e_{\textrm{v}}}-1\right)}^{-1}\frac{T_{\textrm{s}\textrm{h}}^4-{T}_{\textrm{bot}}^4}{T_{\textrm{s}\textrm{h}}-{T}_{\textrm{bot}}},{K}_{\textrm{gas}}^{\textrm{top}}={\sigma e}_{\textrm{v}}\frac{T_{\textrm{s}\textrm{h}}^4-{T}_{\textrm{top}}^4}{T_{\textrm{s}\textrm{h}}-{T}_{\textrm{top}}} $$](images/000022.jpeg)
+
+
+\(9\)
+
+
+
+
+where *e*v ≈ 0.84 is the effective vial emissivity experienced by the product and is measured for typical vials \[4\]. This is close to the emissivity of the vial glass material of *e*v ≈ 0.9 for typical vials. *e*s is the shelf surface emissivity and is only dependent on the lyophilizer.
+
+
+
+
+3.  
+3.
+
+
+*K*gas can be described by the heat transfer between two parallel plates in transitional flow regime, approximated with an effective gap between the vial bottom and the shelf/tray, and is defined by 
+
+
+
+![$$ {K}_{\textrm{gas}}=\frac{\alpha {\varLambda}_0\cdotp {P}_{\textrm{ch}}}{1+\frac{l_{\textrm{bot}}}{\lambda_0\left({T}_{\textrm{gas}}\right)}\cdotp {\alpha \varLambda}_0\cdotp {P}_{\textrm{ch}}} $$](images/000023.jpeg)
+
+
+\(10\)
+
+
+
+
+*K*gas is only dependent on the geometry of the vial, since for typical vial material and water vapor, *α* is known and *l*bot is the effective gap between the shelf and the vial in its bottom concavity \[29\].
+
+
+
+
+4.  
+4.
+
+
+*K*s depends on the convective heat transfer between the shelf heating fluid and the solid shelf metal, as well as the conductive heat transfer from the shelf interior up to the shelf surface. Therefore, it is dependent on the shelf material and manufacturing properties, that is, it only depends on the lyophilization equipment. Possible variation of *K*s due to the location of the vials and loading size on each shelf results in relatively cold and hot spots and can be measured in a typical shelf mapping experiment \[6, 10\].
+
+*K*s can be obtained by considering all the corresponding *ab initio* parameters of the shelf itself using a conjugate solid/fluid heat transfer model. However, such information is generally hard to obtain from the equipment manufacturer with reasonable accuracy and may lead to considerable uncertainties in the predicted *K*s. Therefore, experimental determination of the phenomenological values is used in the current work.
+
+Using Eqs. 2, 3, 4, and 5, the first principle estimation of *K*v,surf based on shelf surface temperature was described previously \[4, 11\] as *K*v,surf = *K*cs \+ *K*rad \+ *K*gas 
+
+
+
+![$$ ={K}_{\textrm{cs}}+\sigma \left[{\left(\frac{1}{e_{\textrm{s}}}+\frac{1}{e_{\textrm{v}}}-1\right)}^{-1}\frac{T_{\textrm{s}\textrm{h}}^4-{T}_{\textrm{bot}}^4}{T_{\textrm{s}\textrm{h}}-{T}_{\textrm{bot}}}+{e}_{\textrm{v}}\frac{T_{\textrm{s}\textrm{h}}^4-{T}_{\textrm{top}}^4}{T_{\textrm{s}\textrm{h}}-{T}_{\textrm{top}}}\right]+\frac{\alpha {\varLambda}_0\cdotp {P}_{\textrm{ch}}}{1+\frac{l_{\textrm{bot}}}{\lambda_0\left({T}_{\textrm{gas}}\right)}\cdotp {\alpha \varLambda}_0\cdotp {P}_{\textrm{ch}}} $$](images/000024.jpeg)
+
+
+\(11\)
+
+
+
+
+For typical lyophilization temperature ranges and gas composition \(predominantly water vapor during primary drying\), *α* is defined as 
+
+
+
+![$$ \alpha =\frac{a_{\textrm{c}}}{2-{a}_{\textrm{c}}}\sqrt{\frac{273.2}{T_{\textrm{gas}}}},{a}_{\textrm{c}}\left({H}_2O\right)\approx 0.67,{\varLambda}_0=\left(\frac{\overline{C_{\textrm{V}}}}{R}+\frac{1}{2}\right)\sqrt{\frac{R}{2\pi M\ast 273.2}}=6.34\ast {10}^{-12}\left(\frac{\textrm{c}\textrm{al}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}-\textrm{Torr}}\right) $$](images/000025.jpeg)
+
+
+\(12\)
+
+
+and based on results by Pikal et al. \[4\], 
+
+
+
+![$$ {T}_{\textrm{bot}}\approx {T}_{\textrm{top}},{e}_{\textrm{v}}\approx 1, $$](images/000026.jpeg)
+
+
+
+then 
+
+
+
+![$$ \frac{\sigma \left({T}_{\textrm{s}\textrm{h}}^4-{T}_{\textrm{bot}}^4\right)}{T_{\textrm{s}\textrm{h}}-{T}_{\textrm{bot}}}\approx 4\ \sigma {\overline{T}}^3\approx 4\ast 1.35\ast {10}^{-12}\ast {(263)}^3=9.82\ast {10}^{-5}\approx 1\ast {10}^{-4}\left(\frac{\textrm{cal}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}}\right) $$](images/000027.jpeg)
+
+
+\(13\)
+
+
+and based on Kuu et al. \[11\],
+
+![$$ {T}_{\textrm{gas}}\approx 293.2K,{\lambda}_0\approx 4.29\ast {10}^{-5}\left(\frac{\textrm{cal}}{\textrm{s}-\textrm{cm}-\textrm{K}}\right)\left(\textrm{Note}:\textrm{if}\ \textrm{use}\ 253.2\ \textrm{K},{K}_{\textrm{gas}}\ \textrm{is}\ \textrm{lowered}\ \textrm{by}\sim 6\%\right), $$](images/000028.jpeg) then approximations can be made such that 
+
+
+
+![$$ {K}_{\textrm{v},\textrm{surf}}\approx {K}_{\textrm{cs}}+\left({e}_{\textrm{s}}+{e}_{\textrm{v}}\right)\ast {10}^{-4}+\frac{0.00332{P}_{\textrm{ch}}\left(\textrm{Torr}\right)}{1+77.4{l}_{\textrm{bot}}\left(\textrm{cm}\right)\cdotp {P}_{\textrm{ch}}\left(\textrm{Torr}\right)} $$](images/000029.jpeg)
+
+
+\(14\)
+
+
+and then the dependence of *K*v,surf on *ab initio* and process parameters are written in a general form as 
+
+
+
+![$$ {K}_{\textrm{v}}^{\textrm{c}\textrm{enter}}=f\left({P}_{\textrm{c}\textrm{h}};{K}_{\textrm{c}\textrm{s}},{e}_{\textrm{v}},{e}_{\textrm{s}},{l}_{\textrm{bot}}\right)={K}_{\textrm{c}}+\frac{K_{\textrm{p}}\cdotp {P}_{\textrm{c}\textrm{h}}}{1+{K}_{\textrm{D}}\cdotp {P}_{\textrm{c}\textrm{h}}}\ \left(\frac{\textrm{c}\textrm{al}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}}\right) $$](images/000030.jpeg)
+
+
+\(15\)
+
+
+where *K*c, *K*p and *K*D are the three fitting parameters, which are generally different for the *K*v,surf and the *K*v,inlet fits.
+
+
+
+
+
+### **2.2 **Experimental Setup for Full-Shelf Gravimetric Measurements of ***K*****v** for Various Vials and Lyophilizers
+
+Five different lyophilizers were considered in this study: LabLyo1 \(0.32 m² shelf area\), LabLyo2 \(0.7 m² shelf area\), PilotLyo1 \(1 m² shelf area\), PilotLyo2 \(11 m² shelf area\), and MfgLyo \(10 m² shelf area\). The key geometric parameters are summarized in Table 3. A schematic of the product chamber, duct, and condenser for the four lyophilizers is depicted in Fig. 2 where they are arranged from left to right in the order of increasing total shelf area. 
+
+
+***Table 3*** 
+Comparison of key geometric parameters for various lyophilizers
+
+
+
+**Lyophilizer name**
+
+**Loadable shelves**
+
+**Area per shelf \(cm2\)**
+
+**Chamber volume \(L\)**
+
+**Duct diameter \(cm\)**
+
+**Duct length \(cm\)**
+
+**Condenser coil area \(cm2\)**
+
+LabLyo1
+
+3
+
+1425
+
+113
+
+10
+
+49
+
+5481
+
+LabLyo2
+
+5
+
+1400
+
+134
+
+12
+
+4.5
+
+5290
+
+PilotLyo1
+
+4
+
+2500
+
+1330
+
+43\*43a
+
+2.1
+
+12,700
+
+PilotLyo2
+
+8
+
+13,800
+
+9980
+
+134\*131a
+
+3.0
+
+113,000
+
+MfgLyo
+
+9
+
+11,140
+
+5032
+
+~525
+
+70
+
+11,140
+
+
+aPilotLyo1 and PilotLyo2 have rectangular ducts
+
+
+
+![](images/000031.jpeg)
+
+
+***Fig. 2*** 
+2-D schematics of product chamber, duct and valve, and condenser configuration for the four lyophilizers. \(The top usable shelves are aligned with the blue dash-dot line\)
+
+
+
+The experimental determination of *K*v for 6R and 20R vials was performed on LabLyo2, PilotLyo1 at four different pressures and on LabLyo1 at one pressure \[21, 27\]. For example, a full batch of 6R vials, each filled with 5 ml pure distilled water are loaded onto the 4 shelves of LabLyo2. Five wireless sensors were placed inside the vials touching the bottom, and the vials were placed at different center locations to measure the ice bottom temperature. Also, five wired RTDs were placed in direct contact on the shelves to measure the shelf surface temperature. The RTDs were tightly covered with insulating tape, and the vials over it were removed so that the shelf temperature can be measured with minimal interference from the neighboring vials. The vials with the wireless sensor were placed as close to the RTD’s as possible. Figure 3 shows the collected cycle data and probed temperatures at 30, 40, 100, and 150 mTorr chamber pressure conditions. Ten vials around each RTD location were measured gravimetrically \(a total of 50 vials per run\) for computing the sublimation rate. It is noted that there are alternative approaches to estimate *K*v such as using TDLAS \[11\], or with a multi-point wireless temperature sensing system \[24\], which are not employed in the present study though. 
+![](images/000032.jpeg)
+
+
+***Fig. 3*** 
+Ice slab test cycle data for 6R vials on LabLyo2
+
+
+
+### **2.3 **Determining ***Ab Initio K*****v** Parameters for Various Vials and Lyophilizer Combinations
+
+#### ***2.3.1 ***Shelf Heat Transfer Coefficient, ***K******s***
+
+*K*s is experimentally determined using a regression analysis of the temperature drop data from the shelf inlet to the shelf surface, as described previously by Rambhatla et al. \[10\]. The shelf surface temperatures were measured by taking the average of the surface temperatures at the center of two or three shelves. Since each shelf has a serpentine heating fluid pattern, the center location is representative of the average temperatures \(Nail 2017\). There is a small variation across the measured shelves \(e.g., see Fig. 3\), suggesting that the variability of *K*s across shelves is small for the independently controlled shelves.
+
+Figure 4 shows the differences between the shelf inlet temperature and the shelf surface mean temperature \(Δ*T* = *T*inlet − *T*surf\) as a function of the sublimation flux for LabLyo1 with 6R vials, and LabLyo2 and PilotLyo1 both with 6R and also 20R vials. A linear correlation between the two axes can be fitted as shown by the straight lines and the fitting coefficients are shown. 
+![](images/000033.jpeg)
+
+
+***Fig. 4*** 
+*K*s determination for LabLyo1, LabLyo2, and PilotLyo1 for the 6R and 20R vials
+
+
+
+For LabLyo2, as was previously discussed \[10\], the nonzero intercept at zero sublimation rate of ≈2.1 °C is due to the incomplete thermal insulation for the RTD probes taped onto the shelf surface. This effect is more apparent by the observation that in the 30 mTorr case, due to a very low *T*sh= − 25 °C, the measured edge *T*surf is higher than *T*sh,set due to the wall radiation. Nevertheless, the center vials are exempted from the edge effect and therefore are suitable for *K*s analysis.
+
+For 6R vials in LabLyo1, *K*v was measured at one pressure value. Accordingly, it was not possible to obtain a data fit to determine *K*s. However, literature study \[10\] as well as our current results show that a linear trend exists and that the measurement error, \(Δ*T*\) due to thermal insulation is usually between 1 ~ 2 °C for thermal tapes that are typically used. The variation of Δ*T* was included in calculating the error bar of *K*s and represent a typical measurement error. Then we found that for LabLyo2, *K*s can be computed as follows \[10\],
+
+
+
+
+
+![$$ {K}_{\textrm{s}}=\frac{\frac{dm}{dtdA}}{53.25\ast \Delta T}=\left(1.4\pm 0.2\right)\ast \frac{10^{-3}\textrm{cal}}{\textrm{s}-\textrm{c}{\textrm{m}}^2-\textrm{K}} $$](images/000034.jpeg)
+
+
+\(16\)
+
+
+
+
+For 20R vials in PilotLyo1, four gravimetric experiments with *T*sh = −10, 5, 20, and 60 °C were run at *P*ch = 200 mTorr. A special challenge was encountered where the use of thermocouples is out of scope, and an innovative solution was developed to measure the shelf surface temperature by using a specially-designed, “modified vial” with Tempris® sensors embedded in the bottom of the “modified vial.” A good linear fit validates the experimental design and operation as well as adds confidence to the presence of a constant *K*s in the studied conditions on PilotLyo1.
+
+#### ***2.3.2 ***Emissivity of the Shelf
+
+Emissivity was measured using an Omega OS-611 pyrometer as described previously \[11\]. The distance between the probe and the surface determines a target area of measurement and was hence carefully selected for accuracy. Due to the working mechanism of the pyrometer, a shelf surface temperature moderately higher than the environment is needed for accurate measurements \[11\]. The shelf inlet temperature was set to 43 °C. The average shelf surface temperature as measured by two RTDs was 40.2 °C when the shelf feed was 43.1 °C. The black tape temperature value at *e*s= 1 was fluctuating between 37 and 42 °C. When measuring a spot next to the black tape, the value was 30 °C at *e*s = 1. When changed to *e*s= 0.55, the temperature reading was fluctuating between 37 and 41 °C similar to the black tape measurement. A fluctuation of less than 4 °C from the pyrometer is generally acceptable \[11\], with corresponding error in the emissivity is <10% results in <2% change of the estimated total *K*v. One systematic study \[17\] suggests that such fluctuation is mostly due to the fluctuation of the measurement angle when the pyrometer is hand-held \(even <9° angle is considered large\).
+
+#### ***2.3.3 ***Other ***Ab Initio*** Parameters – ***K******cs,*** ***k******cs,*** ***A******cs,*** ***e******s,*** ***e******v***, and ***l******bot***
+
+In order to obtain the remaining *ab initio* parameters, the surface-based *K*v. surf instead of *K*v,inlet is required. Following the strategies described by Kuu et al. \[11\], *level-1 ab initio* parameters \(Table 1\) were obtained by a regression analysis of the following expression 
+
+
+
+![$$ {K}_{\textrm{v},\textrm{surf}}^{\textrm{center}}\left({P}_{\textrm{ch}}\right)\approx {K}_{\textrm{cs}}+\left({e}_{\textrm{s}}+{e}_{\textrm{v}}\right)\ast {10}^{-4}+\frac{0.00332{P}_{\textrm{ch}}\left(\textrm{Torr}\right)}{1+77.4{l}_{\textrm{bot}}\left(\textrm{cm}\right)\cdotp {P}_{\textrm{ch}}\left(\textrm{Torr}\right)} $$](images/000035.jpeg)
+
+
+\(17\)
+
+
+
+
+First *l*bot is obtained from a best fit of *K*v in the moderate *P*ch range. Then if two *K*v measurements at relatively low *P*ch are available, the fitted *K*v can be reliably extrapolated to *P*ch = 0, and the interception is 
+
+
+
+![$$ {K}_{\textrm{v}}\left({P}_{\textrm{ch}}=0\right)={K}_{\textrm{cs}}+\left({e}_{\textrm{s}}+{e}_{\textrm{g}}\right)\ast {10}^{-4} $$](images/000036.jpeg)
+
+
+\(18\)
+
+
+where *e*v = 0.84 is widely adopted based on early work \[4\], and *e*s was measured using a Pyrometer as described in Sect. 2.3.2. *K*cs can then be obtained using Eq. 18. In addition, the vial bottom contact area, *A*cs, can be measured using various methods to obtain *k*cs using Eq. 6 if wanted.
+
+### **2.4 ****Lyophilization** Cycle Scaleup Using ***Ab Initio*** Vial Heat Transfer Modeling
+
+#### ***2.4.1 ***Definition of a “Design Condition/Case/Criteria \(***DC***\)”
+
+From a quality perspective, a successful primary drying cycle design depends on establishing successful prediction of the critical process parameters \(CPPs\), i.e., the maximum product temperature, the primary trying time, maximum sublimation rate, which can be predicted to good accuracy using 1-D quasi-steady heat and mass transfer modeling, commonly termed as Lyo-calculator \[30\]. The inputs for a typical Lyo-calculator for a given vial include these aspects: the equipment \(lyophilizer, loading, and location\), the product \(vial, fill, and formulation\), and the process \(particularly the freezing/annealing protocol and environment\). Specifically, the totality of these conditions is denoted herein as a “Design Condition \(DC\)” for clarity and is illustrated in Fig. 5. In this terminology, the scaleup process can be referred to as the process development for a “target design condition, *DC 2 \(e.g. Pilot-scale*\)” based on the knowledge of a well-characterized design condition, “*DC 1 \(Lab-scale*\),” and is shown with the schematic in Fig. 6. 
+![](images/000037.jpeg)
+
+
+***Fig. 5*** 
+Schematic of the information included in a Design Condition
+
+
+![](images/000038.jpeg)
+
+
+***Fig. 6*** 
+Schematic of scale-up for a target design condition, DC \#2\(target\) with the knowledge of a known cycle, DC \#1\(known\)
+
+
+
+The *ab initio* differences between two Design Conditions can be studied to assist a predicative process scaleup. In Sect. 2.1.3, the dependence of the *ab initio* parameters on the equipment/product/cycle were discussed individually and are now integrated together into Table 4 which shows the correlation of various aspects of a “Design Condition” with *ab initio* parameters as illustrated by the highlighted cells \(strong correlation is highlighted in green while weaker correlation is highlighted in yellow\). For example, when the lyophilizer is changed in a “Design Condition,” from this correlation map we see that *K*s and *e*s are expected to change along with the associated phenomenological parameters. We use this correlation map to clarify all the possible differences/changes from one “Design Condition” to another. 
+
+
+***Table 4*** 
+Correlation map of “Design Condition” and *ab initio* parameters \(center vial\)
+
+
+
+![](images/000039.jpeg)
+
+
+
+
+#### ***2.4.2 ***Placement Test of Data Sufficiency for Heat Transfer Analysis of a “Target Design Condition”
+
+Typically, the effort of obtaining heat transfer coefficients \(*K*v\) to assist scaleup from laboratory to manufacturing equipment can be limited by the accessibility to the equipment \(esp. in GMP/manufacturing conditions\). In this work, we evaluated the use of *ab initio* modeling for estimating *K*v and provide a review of the various methods used and the application thereof for process scaleup. Specifically, we present in Fig. 7 a step-by-step placement test of data sufficiency for heat transfer study of a target *DC \#2* \(as illustrated in Fig. 6 above\), ranked with decreasing dependence on available experimental data and the test results can be categorized into the following four cases. 
+![](images/000040.jpeg)
+
+
+***Fig. 7*** 
+Schematic of a placement test of data sufficiency for a design condition, *DC \#2\(target\)*
+
+
+
+*Case 1* is the most ideal scenario, in that *K*v = *f*\(*P*ch\) is obtained using dedicated gravimetric study for *DC\#2*. Generally speaking, at least three pressure conditions should be tested to reconstruct the *K*v-pressure dependence with reasonable accuracy. If only less than two pressure conditions can be tested for a “target” design condition, or if no gravimetric experiments can be performed at all, the remaining scenarios in Fig. 7 would be evaluated to determine how *K*v can be estimated.
+
+*Case 2* is another ideal scenario, where although gravimetric study is not available, all the *ab initio* parameters for *DC\#2* can be directly or indirectly determined \(namely *K*cs, *K*s, *e*s, *e*v, and *l*bot\). It is recommended that careful experiments should be set-up to evaluate these *ab initio* parameters and to obtain the associate confidence level in the predicted *K*v.
+
+*Case 3* is a less ideal scenario, where even the *ab initio* parameters are NOT all available for measurements. However, the following two sets of data are both available: 
+
++ 
+*K*v for a known design condition, *DC\#1* \(usually set up similarly on a lab lyophilizer\)
+
++  
+The knowledge of the *ab initio* parameter differences between *DC\#1* and *DC\#2.*
+
+
+
+
+This is a case where the scaleup practice can be strongly aided by *ab initio* modeling. Moreover, in this case the degree of similarity between *DC\#1* and *DC\#2* is of critical importance, which can be assessed using Table 4.
+
+*Case 4* is the most challenging scenario, where neither gravimetric study nor measurements of critical *ab initio* parameters are available for *DC\#2*. The only choice here is to collect information from literature for similar design conditions and make an educated guess for the target *DC\#2.*
+
+## **3 **Results and Discussions
+
+In this study, we first report the experimentally determined heat transfer coefficient *K*v of the center vials on two lab and two pilot lyophilizers, and then give step by step examples for all the four cases discussed in Sect. 2.4.2 to calculate *K*v using *ab initio* modeling for various lyophilizers and vials as summarized in Table 5. It is noted that based on Fig. 7, only one case can be satisfied as the test result. Although PilotLyo1 \+ 6R vial combination satisfies Case 1 in the first place, it is nonetheless used to demonstrate Case 2 since it is a design condition with more than sufficient information as we want to show that *K*v can be obtained with multiple approaches. 
+
+
+***Table 5*** 
+Summary of placement test results of all considered “target” design conditions
+
+
+
+**Lyo Vial**
+
+**20R**
+
+**6R**
+
+LabLyo1
+
+Case 3
+
+Case 3
+
+LabLyo2
+
+Case 1
+
+Case 1
+
+PilotLyo1
+
+Case 1
+
+Case 1 \(also used to demonstrate case 2\)
+
+PilotLyo2
+
+Case 4
+
+Case 3
+
+
+
+### **3.1 **Experimental Results of Center **Vial** ***K*****v** for Different Lyophilizers and Vial Size
+
+The heat transfer coefficient based on the fluid inlet temperature, *K*v,inlet, for the 6R and 20R vials for LabLyo2, PilotLyo1 and PilotLyo2 were determined with gravimetric measurements described in Sect. 2.2 and are shown in Fig. 8 along with the analytical fits for the LabLyo2 and PilotLyo1 runs at various pressures. The relevant *K*v values and fitting parameters are summarized in Table 6. These experimental data are used in the subsequent Sect. 3.2 to estimate calibration parameters and also to validate the *ab initio* modeling. 
+![](images/000041.jpeg)
+
+
+***Fig. 8*** 
+*K*v,inlet for both the 6R and 20R vials for LabLyo2, PilotLyo1 and 20R vial for LabLyo1 and PilotLyo2
+
+
+
+
+***Table 6*** 
+Summary of *K*v for 6R and 20R vials in the center location for the four lyophilizers
+
+
+
+**Lyophilizer**
+
+**Source of *K*v,inlet**
+
+**Vial type**
+
+**Fitting to  ![$$ {K}_{\textrm{v},\textrm{inlet}}={K}_{\textrm{c}}+\frac{K_{\textrm{P}}\ast {P}_{\textrm{c}\textrm{h}}}{1+{K}_{\textrm{D}}\ast {P}_{\textrm{c}\textrm{h}}} $$](images/000042.jpeg) **
+
+***K*v @**
+
+**100 mTorr,  ![$$ \frac{\ast {10}^{-4}\textrm{cal}}{\textrm{s}\cdotp \textrm{c}{\textrm{m}}^2\cdotp \textrm{K}} $$](images/000043.jpeg) **
+
+***K*C,**
+
+**![$$ \frac{\ast {10}^{-4}\textrm{cal}}{\textrm{s}\cdotp \textrm{c}{\textrm{m}}^2\cdotp \textrm{K}} $$](images/000044.jpeg) **
+
+***K*P,**
+
+**![$$ \frac{\ast {10}^{-4}\textrm{cal}}{\textrm{s}\cdotp \textrm{c}{\textrm{m}}^2\cdotp \textrm{K}\cdotp \textrm{torr}} $$](images/000045.jpeg) **
+
+***K*D,**
+
+**torr−1**
+
+**Experimental raw data**
+
+**Fitted data**
+
+LabLyo1
+
+Measured at *P*ch=100 mT
+
+6R
+
+--
+
+--
+
+--
+
+--
+
+--
+
+20R
+
+--
+
+--
+
+--
+
+4.0
+
+--
+
+LabLyo2
+
+Measured at *P*ch=40–150 mT
+
+6R
+
+2.15
+
+33.2
+
+2.60
+
+4.78
+
+4.78
+
+20R
+
+2.15
+
+33.2
+
+2.60
+
+4.74
+
+4.66
+
+PilotLyo1
+
+Measured at *P*ch=65–200 mT
+
+6R
+
+1.27
+
+33.2
+
+2.79
+
+3.98
+
+3.87
+
+20R
+
+2.01
+
+33.2
+
+2.52
+
+3.78
+
+3.76
+
+PilotLyo2
+
+Measured at *P*ch=100 mT
+
+6R
+
+--
+
+--
+
+--
+
+--
+
+--
+
+20R
+
+--
+
+--
+
+--
+
+4.6
+
+--
+
+
+
+### **3.2 **Example Case Studies to Scaleup ***K*****v** from a “Known” to a “Target” Design Condition \(Lab-->Pilot\) Using ***Ab Initio*** Parameters
+
+
+
++ 
+Example for Case 1 \(LabLyo2 \+ 6R/20R vial\)
+
+
+
+
+A simple least square fit of the experimental data of *K*v at three or more pressure conditions to Eq. 15 can be used. This is conventional and leads to the fitting parameters reported in Table 6. It is noted that a constant of *K*P =33.2∗10−4 originating from Eqs. 14 and 12 is typically assumed, while only *K*C and *K*P are tuned in the least square fit. This is not accurately following Eq. 11, nonetheless the fitting quality to the raw *K*v data is found to be good enough as shown in Fig. 8. Another caution to use is that the valid range of such fitted *K*v should be within the range of raw experimental pressure conditions, and the uncertainty of any extrapolation in pressure should be carefully examined. For example, an important evaluation of the accuracy of fitted *K*v.surf over a wide range of pressure is given below by the following numerical test on LabLyo2. Consider an alternative fitting where *K*P is not fixed at 33.2∗10−4 but also fitted, where \[*K*c *K*P *K*D\] = \[2.3098∗10−4 37.9058∗10−4 1.4393\] is found as the best fit in this case. This fit is found in almost equivalently good agreement with experimental data in 40 to 150 mTorr \(e.g., *P*ch@150 mTorr is <0.2% different in the two fits\). However, the error in the extrapolated fit to >300 mTorr is ~10% or even larger between these two fits. This numerical test suggested that we should conduct experiments for *K*v in a properly wide range of chamber pressure of interest and be aware of the error in the fitted *K*v, especially at extrapolated pressures. 
+
++ 
+Example for Case 2 \(PilotLyo1 \+ 6R vial\)
+
+
+
+
+Next, we showcase an example of *ab initio K*v prediction for *DC\#2* = “PilotLyo1 \+ 6R” using *ab initial* parameters obtained from both *DC\#1* = “LabLyo2 \+ 6R” and the equipment characterization of PilotLyo1 itself.
+
+We have seen that Eqs. 7 and 14 compute *K*v,inlet *and K*v,surf based on the *ab initio* parameters. As such, all the *ab initio* parameters for LabLyo2 can be readily obtained using methods described in Sect. 2.3. Specifically, *K*cs and *l*bot can be found as 
+
+
+
+![$$ {K}_{\textrm{cs}}={K}_{\textrm{v},\textrm{surf}}\left({P}_{\textrm{ch}}=0\right)-\left({e}_{\textrm{s}}+{e}_{\textrm{v}}\right)=2.47\hbox{--} 0.55-0.84=1.08\times {10}^{-4}\ \textrm{c}\textrm{al}\ {\textrm{s}}^{-1}\textrm{c}{\textrm{m}}^{-2}{\textrm{K}}^{-1} $$](images/000046.jpeg)
+
+
+
+And *l*bot = 0.66/77.4 = 0.085 mm.
+
+In Sect. 2.3.1, we showed that for PilotLyo1, *K*s = 12.6\*10−4 cal/cm2/s/K. We assume that the *ab initial* parameters, *K*cs *and l*bot, for the 6R vials are equivalent between the two lyophilizers, therefore Eqs. 7 and 14 can be used along with the *K*cs *and l*bot above to predict *K*v = *f*\(*P*ch\) for PilotLyo1. The predicted *K*v is shown in Fig. 9 by the red line and the gravimetric data is also shown by the blue line. The one-standard deviation error bar of the gravimetric data is shown, and the prediction inherited the statistical error from the *ab initial* parameters which also were derived from the gravimetric data from the LabLyo2 lyophilizer. 
+![](images/000047.jpeg)
+
+
+***Fig. 9*** 
+*Ab initio* and experimental *K*v for the “PilotLyo1 \+ 6R” \(example of Case 2\) and the “PilotLyo2 \+ 20R” \(example of Case 3\) Design Conditions
+
+
+
+It can be seen that a good prediction is achieved between 50 and 150 mTorr, which is the valid range of experimental data and also the typical pressure operation range in lyophilization, with a relative error of 8% on average \(ranging from 0% at 50 mTorr to 16% at 150 mTorr\).
+
+It should be noted that the *K*v,inlet from *ab initio* modeling is NOT an exact hyperbolic function of the chamber pressure as *K*v,surf is, due to the additional effect of *K*s for the shelf which is shown in Eq. 7. Nevertheless, the accuracy of the predicted *K*v is good and depends completely on the gravimetric experiments and *ab initio* parameters which were inputed. 
+
++ 
+Example for Case 3 \(PilotLyo2 \+ 20R vial\):
+
+Consider the *DC\#2* = “PilotLyo2 \+ 20R,” and we make use of *DC\#1* = “PilotLyo1 \+ 20R” as a “*similar DC*” to perform *ab initio* modeling of *K*v for *DC\#2*.
+
+
+
+
+All the *ab initio* parameters for PilotLyo1 have been obtained, as was described earlier for Case 2. The possible *ab initio* parameter differences are identified as using the methods presented in Table 4 in Sect. 2.4.2. Specifically, with the change of only the lyophilizer, *K*s and *e*s are possibly changed, while *K*cs, *K*gas should remain the same for the two *DCs*. We know that PilotLyo2 and PilotLyo1 are from a same manufacturer, from whom we found that *e*s remained the same at 0.14. Although we do not have *K*s directly measured/estimated for *DC\#2,* we can make a best guess of it using an approximate estimation for typical pilot scale lyophilizer of *K*s = ~180 × 10−4 cal s−1cm−2K−1 from literature as is shown in Table 2. Therefore, 
+
+
+
+![$$ {K}_{\textrm{v},\textrm{inlet}}={K}_{\textrm{v},\textrm{surf}}\ast {\left(1+\frac{K_{\textrm{v},\textrm{surf}}}{K_{\textrm{s}}}\ast \frac{A_{\textrm{v}}}{\textrm{ASV}}\right)}^{-1}=\frac{K_{\textrm{v},\textrm{surf}}}{1+50.6{K}_{\textrm{v},\textrm{surf}.}} $$](images/000048.jpeg)
+
+
+
+the *ab initio* modeling of *K*v,surf is given by: 
+
+
+
+![$$ {K}_{\textrm{v},\textrm{surf}}\approx {K}_{\textrm{cs}}+\left({e}_{\textrm{s}}+{e}_{\textrm{v}}\right)\ast {10}^{-4}+\frac{0.00332{P}_{\textrm{ch}}}{1+77.4{l}_{\textrm{bot}}\cdotp {P}_{\textrm{ch}}}=2.06+\frac{33.2{P}_{\textrm{ch}}}{1+0.66\cdotp {P}_{\textrm{ch}}}\ \left[\ast {10}^{-4}\ \textrm{c}\textrm{al}\ {\textrm{s}}^{-1}\textrm{c}{\textrm{m}}^{-2}{\textrm{K}}^{-1}\right] $$](images/000049.jpeg)
+
+
+
+
+
+The modeled *K*v,inlet for this *DC\#2* is also shown in Fig. 9 by the black line with circle symbols, where the error bars are inherited from those in the experimental data of *DC\#1.*
+
+Furthermore, we can have a comparison between the *ab initio* prediction and a single pressure experimental *K*v,inlet@\(*P*1=100 mTorr\) = 4.6\*10−4 cal cm−2 s−1 K−1, also shown in Fig. 9 by the green round symbol with its own error bar. We found that *K*v for PilotLyo2 is reasonably well captured by the *ab initio* prediction despite the use of an approximate literature-based *K*s, and it is 15% higher than that for PilotLyo1 at 100 mTorr, possibly due to the better heat transfer within the shelf on the larger PilotLyo2 equipment. 
+
++ 
+Example for Case 4 \(MfgLyo \+ 6R vial\):
+
+Consider the *DC\#2* = “MfgLyo\+6R” and *DC\#1* = “LabLyo2 \+ 6R.” In this case, we do not have sufficient *ab initio* information of *DC\#2*, particularly the shelf emissivity and heat transfer coefficient, *e*s, and *K*s. Since it is a third-party production scale facility in GMP environment, it is essentially inaccessible for such measurements. The only option is to use literature \(both externally published or internal data\) to make our best estimation of the *ab initio* parameters. In the rightmost column of Table 2, ranges for typical *ab initio* parameters for various scales of lyophilizers are summarized and can be used as a good initial estimation.
+
+
+
+
+Still, there are some *ab initio* parameters that can benefit from scaling-up from the known *DC* and are again *K*cs, *K*gas. Eventually, we can have the *ab initio* modeling of *K*v for *DC\#2* predicted as: 
+
+
+
+![$$ {K}_{\textrm{v},\textrm{surf}}\approx {K}_{\textrm{cs}}+\left({e}_{\textrm{s}}+{e}_{\textrm{v}}\right)\ast {10}^{-4}+\frac{0.00332{P}_{\textrm{ch}}}{1+77.4{l}_{\textrm{bot}}\cdotp {P}_{\textrm{ch}}}=1.92+{e}_{\textrm{s}}\left(\textrm{literature}\right)+\frac{33.2{P}_{\textrm{ch}}}{1+0.66\cdotp {P}_{\textrm{ch}}}\ \left[\ast {10}^{-4}\ \textrm{c}\textrm{al}\ {\textrm{s}}^{-1}\textrm{c}{\textrm{m}}^{-2}{\textrm{K}}^{-1}\right] $$](images/000050.jpeg)
+
+
+
+and 
+
+
+
+![$$ {K}_{\textrm{v},\textrm{inlet}}={K}_{\textrm{v},\textrm{surf}}\ast {\left(1+\frac{K_{\textrm{v},\textrm{surf}}}{K_{\textrm{s}}\left(\textrm{literature}\right)}\ast \frac{A_{\textrm{v}}}{\textrm{ASV}}\right)}^{-1} $$](images/000051.jpeg)
+
+
+
+
+
+### **3.3 **Discussion on the Uncertainty in the Estimated ***K*****v**
+
+#### ***3.3.1 ***The Effect of ***K******s***
+
+*K*s is a property of the lyophilizer that is fundamental yet sometimes inaccessible to measurements by the equipment operators. In many cases, the effect of *K*s on *K*v is found to be small as suggested by \[2\]. However, it is critical to have at least an estimate of the relative magnitude of *K*s with respect to *K*v in the *ab initio* modeling. This is particularly true for estimating *K*v in an effort to perform scaleup analysis, since the laboratory and pilot/production scale lyophilizer typically have *K*s values of large differences, up to one order of magnitude.
+
+#### ***3.3.2 ***Compilation of Literature ***Ab Initio*** Parameters for ***K******v***
+
+The rightmost column of Table 2 shows a compilation of typical range of values for *K*cs, *K*s, *e*s, and *l*bot from literature for which the lower and upper bounds can be used to estimate the lower and upper bounds of *K*v for various scales of lyophilizers. The *ab initio* parameters obtained in our study mostly fall within these lower and upper bounds, suggesting that these data in Table 2 can serve as a database of reference for Sect. 3.2 when *Cases 3 and 4* are encountered. It is worth noting that a relatively large spread of *K*v exists for a given *P*ch if the lower and upper bounds of the *ab initio* parameters are considered, due to the large spread of in the *ab initio* parameters in this database. In addition, we noted that the valid range of the *ab initio* parameters should be carefully examined based on how they are obtained. One may assume that *ab initio* parameters should give good predictions over an arbitrary range of chamber pressure, which is only true if these *ab initio* parameters were based on more fundamental pressure-independent methods, such as a geometrical measurement of the vial bottom contour \(see Table 2\). This also suggests us once again of the possible large variation of heat transfer across various scales of lyophilizers and also the importance of obtaining *K*v using gravimetric data with the help of *ab initio* modeling to ensure a successful lyophilization process scaleup.
+
+## **4 **Conclusions
+
+In this study, we presented theoretical analysis of the heat transfer coefficient, *K*v,with a focus on center vials in a lyophilizer. Experimental gravimetric measurements using pure water for full-shelf load on three lyophilizers of different scales and designs were performed to obtain the center vial heat transfer coefficients. We also presented practical guidelines of determining the best strategy for *K*v estimation, with a focus on *ab initio* modeling of the heat transfer aspect in a cycle scaleup process. We have successfully applied this method to several example lyophilizer/vial combinations of interest and also carefully assessed the uncertainties of the various approaches. It is concluded that *ab initio* modeling is very helpful in obtaining *K*v in additional to gravimetric measurements, especially in the scaleup of a lyophilization process.
+
+
+**Acknowledgment**
+
+The authors would like to acknowledge the help and discussions with Deliang Zhou, Kushal Sinha, Mario Hirth, Martin Gastens, Sherwin Shang, Nandkishore Nere, Shubha Chetan Somashekar, Martin Bultmann, Brendon Ricart, and Thomas Nikolai.
+
+
+**Disclosure**
+
+Tong Zhu, Ehab M. Moussa, Madeleine Witting, and Sarah Ehlers are employees of AbbVie. Alina Alexeenko is Professor at Purdue University. Feroz Jameel was an employee of AbbVie and is currently an employee of Gilead Sciences. The design, study conduct, and financial support for this research were provided by AbbVie. AbbVie and Purdue University participated in the interpretation of data, review, and approval of the publication.
+
+
+
+
+**References**
+
+1.  
+1.
+
+Cannon A, Shemeley K. Statistical evaluation of vial design features that influence sublimation rates during primary drying. Pharm Res \[Internet\]. 2004 Mar \[cited 2017 July 11\];21\(3\):536–42. Available from: [https://​link.​springer.​com/​article/​10.​1023/​B:​PHAM.​0000019309.​23212.​d3](https://link.springer.com/article/10.1023/B:PHAM.0000019309.23212.d3).
+
+2.  
+2.
+
+Kuu WY, Hardwick LM, Akers MJ. Correlation of laboratory and production freeze drying cycles. Int J Pharm \[Internet\]. 2005 Sep \[cited 2016 Dec 27\];302\(1–2\):56–67. Available from: [http://​www.​sciencedirect.​com/​science/​article/​pii/​S037851730500450​3](http://www.sciencedirect.com/science/article/pii/S0378517305004503).
+
+3.  
+3.
+
+Pikal MJ, Shah S, Senior D, Lang JE. Physical chemistry of freeze-drying: measurement of sublimation rates for frozen aqueous solutions by a microbalance technique. J Pharm Sci \[Internet\]. 1983 June \[cited 2016 Dec 8\];72\(6\):635–50. Available from: [http://​www.​sciencedirect.​com/​science/​article/​pii/​S002235491544658​1](http://www.sciencedirect.com/science/article/pii/S0022354915446581).
+
+4.  
+4.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci \[Internet\]. 1984;73\(9\):1224–37. Available from: [http://​onlinelibrary.​wiley.​com/​doi/​10.​1002/​jps.​2600730910/​abstract](http://onlinelibrary.wiley.com/doi/10.1002/jps.2600730910/abstract).[Crossref](https://doi.org/10.1002/jps.2600730910)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+5.  
+5.
+
+Pikal MJ, Bogner R, Mudhivarthi V, Sharma P, Sane P. Freeze-drying process development and scale-up: scale-up of edge vial versus center vial heat transfer coefficients, Kv. J Pharm Sci \[Internet\]. 2016 Nov \[cited 2017 Jan 12\];105\(11\):3333–43. Available from: [http://​www.​sciencedirect.​com/​science/​article/​pii/​S002235491641627​8](http://www.sciencedirect.com/science/article/pii/S0022354916416278).
+
+6.  
+6.
+
+Kuu WY, Nail SL, Hardwick LM. Determination of shelf heat transfer coefficients along the shelf flow path of a freeze dryer using the shelf fluid temperature perturbation approach. Pharm Dev Technol \[Internet\]. Taylor & Francis; 2007 Jan 7 \[cited 2018 May 4\];12\(5\):485–94. Available from: [http://​www.​tandfonline.​com/​doi/​full/​10.​1080/​1083745070148122​3](http://www.tandfonline.com/doi/full/10.1080/10837450701481223).
+
+7.  
+7.
+
+Madhusudana, CV. Gap Conductance at the Interface. Thermal Contact Conductance. C. V. Madhusudana. Cham, Springer International Publishing: 2014;55–77.
+
+8.  
+8.
+
+Scutellà B, Passot S, Bourlés E, Fonseca F, Tréléa IC. How vial geometry variability influences heat transfer and product temperature during freeze-drying. J Pharm Sci \[Internet\]. 2017a;106\(3\):770–8. Available from: [http://​www.​sciencedirect.​com/​science/​article/​pii/​S002235491641845​9](http://www.sciencedirect.com/science/article/pii/S0022354916418459).[Crossref](https://doi.org/10.1016/j.xphs.2016.11.007)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27939928)
+
+9.  
+9.
+
+Scutellà B, Plana-Fattori A, Passot S, Bourlès E, Fonseca F, Flick D, et al. 3D mathematical modelling to understand atypical heat transfer observed in vial freeze-drying. Appl Therm Eng \[Internet\]. 2017b;126:226–36. Available from: [http://​www.​sciencedirect.​com/​science/​article/​pii/​S135943111731901​4](http://www.sciencedirect.com/science/article/pii/S1359431117319014).[Crossref](https://doi.org/10.1016/j.applthermaleng.2017.07.096)
+
+10.  
+10.
+
+Rambhatla S, Tchessalov S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, III: control and characterization of dryer differences via operational qualification tests. AAPS Pharm Sci Tech \[Internet\]. 2006 \[cited 2016 Oct 16\];7\(2\):E39. Available from: [http://​link.​springer.​com/​article/​10.​1208/​pt070239](http://link.springer.com/article/10.1208/pt070239).
+
+11.  
+11.
+
+Kuu WY, Nail SL, Sacha G. Rapid determination of vial heat transfer parameters using tunable diode laser absorption spectroscopy \(TDLAS\) in response to step-changes in pressure set-point during freeze-drying. J Pharm Sci. 2009;98\(3\):1136–54.[Crossref](https://doi.org/10.1002/jps.21478)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18683861)
+
+12.  
+12.
+
+Alexeenko AA, Ganguly A, Nail SL. Computational analysis of fluid dynamics in pharmaceutical freeze-drying. J Pharm Sci \[Internet\]. 2009;98\(9\):3483–94. Available from: [http://​www.​sciencedirect.​com/​science/​article/​pii/​S002235491633056​8](http://www.sciencedirect.com/science/article/pii/S0022354916330568).[Crossref](https://doi.org/10.1002/jps.21862)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19569225)
+
+13.  
+13.
+
+Zhu T, Kumar R, Titov E V, Levin DA. Analysis of fractal-like spore aggregates in direct simulation Monte Carlo. J Thermophys Heat Transf \[Internet\]. American Institute of Aeronautics and Astronautics; 2012;26\(3\):417–29. Available from: [https://​doi.​org/​10.​2514/​1.​T3824](https://doi.org/10.2514/1.T3824).
+
+14.  
+14.
+
+Pisano R, Fissore D, Barresi AA. Heat transfer in freeze-drying apparatus. Dev Heat Transf \[Internet\]. 2011 \[cited 2017 Mar 16\]; Available from: [http://​www.​intechopen.​com/​books/​developments-in-heat-transfer/​heat-transfer-in-freeze-drying-apparatus](http://www.intechopen.com/books/developments-in-heat-transfer/heat-transfer-in-freeze-drying-apparatus).
+
+15.  
+15.
+
+Pisano R, Fissore D, Barresi AA, Brayard P, Chouvenc P, Woinet B. Quality by design: optimization of a freeze-drying cycle via design space in case of heterogeneous drying behavior and influence of the freezing protocol. Pharm Dev Technol \[Internet\]. 2013;18\(1\):280–95. Available from: [https://​doi.​org/​10.​3109/​10837450.​2012.​734512](https://doi.org/10.3109/10837450.2012.734512).[Crossref](https://doi.org/10.3109/10837450.2012.734512)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23078169)
+
+16.  
+16.
+
+Jameel F, Khan M. Quality-by-design as applied to the development and manufacturing of a lyophilized protein product \[Internet\]. Vol. 12, American Pharmaceutical Review. 2009 \[cited 2017 Feb 20\]. p. 20–4. Available from: [http://​www.​americanpharmace​uticalreview.​com/​Featured-Articles/​117782-Quality-by-Design-as-Applied-to-the-Development-and-Manufacturing-of-a-Lyophilized-Protein-Product/​](http://www.americanpharmaceuticalreview.com/Featured-Articles/117782-Quality-by-Design-as-Applied-to-the-Development-and-Manufacturing-of-a-Lyophilized-Protein-Product/).
+
+17.  
+17.
+
+Tse IPH, Leung WKK, Chan SY. Science, Technology and Society – An authentic exploration on IR thermometers application in schools. Asia-Pac Forum Sci Learn Teach. 2004;5\(2\):Article 5.
+
+18.  
+18.
+
+Adhikari N, Zhu T, Jameel F, Tharp T, Shang S, Alexeenko A. Sensitivity study to assess the robustness of primary drying process in pharmaceutical lyophilization. J Pharm Sci. 2020;109\(2\):1043–9.[Crossref](https://doi.org/10.1016/j.xphs.2019.10.012)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31606541)
+
+19.  
+19.
+
+Daller S, Friess W, Schroeder R. Energy transfer in vials nested in a rack system during lyophilization. Pharmaceutics. 2020;12\(1\):61.[Crossref](https://doi.org/10.3390/pharmaceutics12010061)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31940812)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7022283)
+
+20.  
+20.
+
+Ehlers S, Schroeder R, Friess W. Process optimization and transfer of freeze-drying in nested vial systems. Eur J Pharm Biopharm. 2021;159:143–50.[Crossref](https://doi.org/10.1016/j.ejpb.2021.01.002)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33429009)
+
+21.  
+21.
+
+Jameel F, Alexeenko A, Bhambhani A, Sacha G, Zhu T, Tchessalov S, Kumar L, Sharma P, Moussa E, Iyer L. Recommended best practices for lyophilization validation—2021 part I: process design and modeling. AAPS Pharm Sci Tech. 2021;22\(7\):1–18.[Crossref](https://doi.org/10.1208/s12249-021-02086-8)
+
+22.  
+22.
+
+Jameel F, Zhu T, Mills BJ. Design of a Bulk Freeze-Thaw process for biologics. In: Development of biopharmaceutical drug-device products, vol. 35. Cham: Springer; \(2020a\). p. 461.
+
+23.  
+23.
+
+Jameel F, Zhu T, Moussa EM, Mills BJ. Rational design of a freeze-drying process for protein products. In: Development of biopharmaceutical drug-device products. Cham: Springer; \(2020b\). p. 499–537.
+
+24.  
+24.
+
+Jiang X, Zhu T, Kodama T, Raghunathan N, Alexeenko A, Peroulis D. Multi-point wireless temperature sensing system for monitoring pharmaceutical lyophilization. Front Chem. 2018;6:288.[Crossref](https://doi.org/10.3389/fchem.2018.00288)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30065924)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6056747)
+
+25.  
+25.
+
+Moussa EM, Zhu T, Jameel F. Development of robust lyophilization process for therapeutic proteins: a case study. In: Development of biopharmaceutical drug-device products, vol. 35. Cham: Springer; \(2020\). p. 391.
+
+26.  
+26.
+
+Patel SM, Jameel F, Pikal MJ. The effect of dryer load on freeze drying process design. J Pharm Sci. 2010;99\(10\):4363–79.[Crossref](https://doi.org/10.1002/jps.22132)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20737639)
+
+27.  
+27.
+
+Zhu T, Moussa EM, Witting M, Zhou D, Sinha K, Hirth M, Gastens M, Shang S, Nere N, Somashekar SC. Predictive models of lyophilization process for development, scale-up/tech transfer and manufacturing. Eur J Pharm Biopharm. 2018;128:363–78.[Crossref](https://doi.org/10.1016/j.ejpb.2018.05.005)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29733948)
+
+28.  
+28.
+
+Milton N. et al. Evaluation of manometric temperature measurement as a method of monitoring product temperature during lyophilization. PDA J Pharm Sci Technol. 1997;51\(1\):7–16.
+
+29.  
+29.
+
+Nail SL. The effect of chamber pressure on heat transfer in the freeze drying of parenteral solutions. PDA J Pharm Sci Technol. \(1980\);34\(5\):358–368.
+
+30.  
+30.
+
+Pikal MJ. Use of laboratory data in freeze drying process design: Heat and Mass Transfer Coefficients and the Computer Simulation of Freeze Drying. PDA J Pharm Sci Technol. 1985;39\(3\):115–139.
+
+31.  
+31.
+
+Pikal MJ. Heat and mass transfer in low pressure gases: Applications to Freeze Drying, 1999.
+
+32.  
+32.
+
+Ganguly A. et al. Experimental determination of the key heat transfer mechanisms in pharmaceutical freeze-drying. J Pharm Sci. 2013;102\(5\):1610–1625.
+
+33.  
+33.
+
+Velardi SA, Barresi AA. Development of simplified models for the freeze-drying process and investigation of the optimal operating conditions. Chem Eng Res Des 2008;86\(1\):9–22.
+
+34.  
+34.
+
+Hottot A. et al. Freeze-Drying of pharmaceutical proteins in vials: modeling of freezing and sublimation steps. Drying technology 2006;24\(5\):561–570.
+
+
+

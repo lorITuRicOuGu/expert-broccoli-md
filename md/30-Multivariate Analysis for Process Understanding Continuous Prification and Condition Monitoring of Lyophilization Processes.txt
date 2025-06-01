@@ -1,0 +1,587 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_30](https://doi.org/10.1007/978-3-031-12634-5_30)
+
+
+**
+# Multivariate Analysis for Process Understanding, Continuous Process Verification, and Condition Monitoring of Lyophilization Processes
+**
+
+
+Pierre-Philippe Lapointe-Garant1  , Reza Kamyar1, Ramezan Paravitorghabeh1 and Zilong Wang1
+
+
+\(1\) 
+Manufacturing Intelligence, Pfizer, New York, NY, USA
+
+
+
+
+
+**Pierre-Philippe Lapointe-Garant**
+
+**Email: **pierre-philippe.lapointe-garant@pfizer.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Data Gathering, Storing, and Analysis Infrastructure
+
+**3 **Multivariate Data Analysis Theory
+
+**3.1 **Univariate vs. Multivariate Analysis
+
+**3.2 **Principal Component Analysis
+
+**3.3 **Principal Component Regression \(PCR\)
+
+**3.4 **Projection to Latent Structure Regression \(PLSR\)
+
+**3.5 **Data Unfolding for Applying PCA/PLS on Process Trajectory Data
+
+**4 **Continuous Process Verification
+
+**4.1 **Example Using PLS for Lyophilization and Applying on CPV
+
+**5 **Condition Monitoring of Lyophilization
+
+**6 **Future Directions of MVDA
+
+**6.1 **Deep Learning Techniques for Lyophilization Condition Monitoring
+
+References
+
+
+## Abstract
+
+This chapter explores the use of multivariate data analysis \(MVDA\) tools as applied in the context of lyophilization. Since MVDA offers the advantage of being capable to handle large datasets, allows rapid visualization of process trends, enables automatic fault/anomaly detection of a batch, and takes into account the correlation in between variables, these mathematical tools are well suited to applications such as the continuous process verification of lyophilization batches or the condition monitoring of the equipment. To achieve this objective, a basic theoretical overview of MVDA tools will be presented as well as the knowledge required to understand the mathematical tools and language required in building principal component analysis \(PCA\) and projection to latent structure \(PLS\) models. Then examples will be given when applied to lyophilization processes.
+
+
+**Keywords**
+Multivariate data analysis MVDA Principal component analysis PCA Projection to latent structure PLS Continuous process verification CPV Condition monitoring Lyophilization
+
+
+## **1 **Introduction
+
+In previous chapters, the fundamental theory related to lyophilization, the requirements for product formulation, and the cycle design theory have been reviewed. These principals should be understood and applied in the design phase of a manufacturing process for an existing or new product in order to maximize the probability of achieving an optimal recipe performance. However, variability in the upstream processes or variability of the machine’s performance are to be expected during the life cycle of a product, and the performance of the unit operation may be impacted. The outcome may affect the overall product quality: increase variability in moisture vial-to-vial, variance in cake structure, meltbacks, etc. Like most things in this world, variability will most likely be multivariate in nature, meaning that the root cause of the bad product quality may be due to more than one factor that has varied over time, and sometimes, it may not be that any single variable upstream was out-of-specification but rather a combination of variables. For instance, glass vial components used in the lyophilization process will have specifications in terms of dimensions and thickness. Usually this is controlled, but some variability will exist. Additionally, the same will apply to the filling volume, whereas an allowable range is validated and some variability in fill volume is expected. Lastly, the stoppering process will have its own variability and allowable stopper height placement. When taken one at a time, these variables may be still within allowed validated range. But when plotted in a multivariable design space, some extreme conditions may be noticeable that will eventually lead to out of specification products. For instance, a vial that, unfortunately, would have the thickest glass bottom would have the highest fill weight and lowest stopper height. In this rare specific event, the combination of factors are leading to worst process performance, and it is possible that the moisture within the vial be higher than the acceptable specification. To answer this problematic, a safety margin may be applied when designing the process drying time to ensure that those single events are caught and mitigated. However, by default, this will lead to a longer process cycle time, and if a product is under supply constraints, there may be value in trying to reduce that cycle time to the minimum that still leads to acceptable batch quality. If this is the case, it may be valuable, and actually required, to deploy tools such as continuous process verification \(CPV\); the later would benefit in being multivariate in nature so that it looks not only one-variable at a time with isolated statistical process control limits but rather also looks at the correlation and the covariance of those variables to understand their impact. Additionally, it may be valuable to deploy a preventive maintenance tool to track the machine performance and detect or even predict performance failures to correct them early without impacting product quality. All these tools would benefit from using MVDA algorithms, or even, at a later stage, in using more advance machine learnings algorithms based on artificial intelligence.
+
+Hence, this chapter will focus on the application of multivariate data analysis \(MVDA\) as applied to the lyophilization unit operation. As several books on the topic of MVDA are available, it is not the purpose of this chapter to explore in detail the many possible algorithms that exits in performing MVDA and in improving its performance. Rather, a basic description of typical tools \(such as principal components analysis \(PCA \) and projection to latent structures \(PLS\)\) and their algorithm will be provided as well as the typical data pre-treatment performed and typical calibration. Readers wanting to explore in greater details the use of MVDA for process control \[1\] or more extensive use of MVDA for the pharmaceutical industry \[2\] are encouraged to consult additional resources. Moreover, other publications have already explored the use of MVDA specifically for lyophilization and are also good to consider as they provide valuable complementary information \[3\].
+
+This chapter will then explore how these tools can be used for different purposes to support the lyophilization routine production, including continuous process verifications \(CPV\), preventive maintenance, or process control. In addition, since the application of MVDA is based on computational methods that require large datasets, the hardware and software infrastructures needed to support the data acquisition, model calibration/validation, and routine application which will also be discussed. As the use of these MVDA tools for lyophilization and the science behind them are still, for most food or pharmaceutical companies, novel and under development, this chapter is meant as a good overview and introduction on the topic, but it is the expectation of the authors that the topic will evolve overtime and that the regulatory expectation linked to them as well. The reader should thus also verify latest scientific papers as well as latest regulatory guidance on the topic prior to the implementation of such tools.
+
+## **2 **Data Gathering, Storing, and Analysis Infrastructure
+
+Data-driven monitoring, control, optimization, quality tracking, and advanced analytics of any process heavily rely on a systematic and continuous management of data in real time. In addition to the real-time plant data, organizing static data such as process assets, hierarchies, maintenance, and raw material information is crucial. The data management framework also must provide connectivity to other data platforms to leverage the state of the art in advanced analytics. Figure 1 highlights various components of information management. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Different components of data management system
+
+
+
+One of the prevailing data management suites in pharmaceutical industry is the PI System \[4\]. In this section, we will provide an overview of OSI PI as an example with emphasize on lyophilization process. PI system is a collection of software suites which provide different tools to cover all different aspects of data management described above. The core of PI system is the PI server which is a software designed to coordinate the main tasks. PI server collect time series data from different sources such as sensors and controllers through various PI connectors and PI interfaces. Once the communication link is established with the data source, the raw data is stored in PI Data Archive \(historical data repository\). For each real-time data source, the data is stored in the form of PI tags which contain the timestamp and the corresponding value. The second important piece of PI system is the asset framework \(AF\) server. In AF server, the attributes and meta-data \(location of the data source and the corresponding equipment, what it measures, etc.\) corresponding to each data source is organized. The information in AF provide context and general overview of different components in the system. The last piece of PI system are PI clients \(such as OSIsoft PI ProcessBook, DataLink, and PI Vision\) which enable users to interact with the data. PI system can serve as a data historian and provide basic data visualization and exploration capabilities; however, for the purpose of customized or advanced analytics, data mut be accessible from other conventional relational databases.
+
+For lyophilization process, each freeze-drying unit has a set of PI tags associated to process trends. Of course, the process recipe could be different for different products. The data usually collected from sensor equipment in the form of time series, e.g., chamber, condenser, and compressor pressures, shelf temperatures, frequency of motors and pumps, and residual gas analyzer \(RGA\) measurements. Some additional metadata such as step information and the number of loaded rows could also be retrieved.
+
+In this section, we discuss the real-time data streaming application which consumes data in real time from the PI systems and applies transformation logic to the data in transit. The transformation logic could be any analytical models which can digest the input stream and output the results in the form of tables, charts, trends, alarms, etc. The data and analysis results are then available for consumption which can be displayed on a dashboard.
+
+The application workflow is built using software which use the OSI Pi adapter to connect to the PI server. Once we have maintained the connection parameters to the system, we can schedule the workflow to listen to the Pi server periodically. Once the data flow through the transformation logic, it will usually be stored in cache, i.e., live view application \(data is stored in various live view tables\) which is hosted as an http endpoint. Finally, the visualization platforms connect to this http endpoint and the data is available to build the dashboards.
+
+## **3 **Multivariate Data Analysis Theory
+
+### **3.1 **Univariate vs. Multivariate Analysis
+
+Univariate and multivariate represent two approaches to statistical analysis. Univariate involves the analysis of a single dependent \(or response\) variable which may depend on one or more independent \(or predictor\) variables. An example is a linear regression model \[5\] describing the relationship between a dependent variable, *y*, and *p* independent variables, *x**i* as 
+
+
+
+![$$ y={a}_1{x}_1+{a}_2{x}_2+\dots +{a}_p{x}_p+\epsilon . $$](images/000002.jpeg)
+
+
+
+
+
+On the other hand, an analysis is described as multivariate, when two or more dependent variables are analyzed together for any possible association or interactions. The interaction between these variables may be understood through their relation with one or more independent variables. An example of such is a multivariate linear regression model describing the relation between *m*-dependent variables, *y*1, …, *y**m*, and *p*-independent predictors, *x*1, …, *x**p* fitted to a dataset of *N* observations. In matrix form, the model can be represented as 
+
+
+
+![$$ {Y}_{N\times m}={X}_{N\times p}{B}_{p\times m}+{E}_{N\times m}, $$](images/000003.jpeg)
+
+
+
+where *Y**N*×*m* is the matrix of *N* observations on *m* responses, *X**N*×*p* is the matrix of *N* observations on *p* independent variables, *B**p*×*m* is the matrix of model coefficients, and *E**N*×*m* is matrix of model errors.
+
+Chemical processes in pharmaceutical manufacturing are often complex phenomena, and it is common to have multiple dependent variables that are of interest in process understanding. With the ever-increasing integration of sensory devices in manufacturing plants, more process information has become available that may include data on several dependent and redundant process parameters. This entails further adoption of multivariate data analysis techniques to better understand the interactions between dependent process parameters and to reduce the number of predictors required to model critical process parameters or attributes. In the following sections, the principal component analysis \(PCA\) and projection to latent structure \(PLS\) are described as two common techniques in multivariate data analysis and process modeling.
+
+### **3.2 **Principal Component Analysis
+
+Principal component analysis \[6, 7\] is the cornerstone of latent variable modeling, wherein the statistical information carried by a set of variables are summarized into a fewer number of latent variables. These latent variables may not correspond to a physical or practical concept within the system but can be used to reconstruct the original variables as they are correlated with the latent variables. An example of a latent variable can be the average of temperatures measured by four thermometers located at the four corners of a room under normal conditions. This single latent variable reflects the underlying phenomenon that drives the temperature fluctuations measured by the four thermometers as they are all correlated with the average.
+
+#### ***3.2.1 ***Latent Variables, Loadings, and Scores
+
+One approach to define latent variables for a given dataset is to identify the principal components, i.e., a new coordinate system such that the largest variance in the data is captured by the projection of the data onto the first coordinate, the second largest variance of the data is captured by projection onto the second coordinate, and so on. These coordinates are known as the principal components. A three-dimensional geometrical explanation of the principal components is shown in Fig. 2. Principal component 1 could alternatively be described as the best-fit line with minimum residual error. 
+![](images/000004.jpeg)
+
+
+***Fig. 2*** 
+Geometrical explanation of principal components *P*1 and *P*2, principal hyper-plane, and the scores
+
+
+
+Corresponding to each principal component *P**i* defined on *N* observations, one can define a unit-vector  ![$$ {\hat{p}}_i $$](images/000005.jpeg)  \(also known as *loading*\) in the direction of the component and *N scores*, where each score is the distance from the origin of the *P**i* coordinates \(shown in red in Fig. 2\) to the projection of an observation onto  ![$$ {\hat{p}}_i $$](images/000006.jpeg) . Therefore, for a dataset consisting of *N* observations, 2*N* score values can be defined on two principal components. As an example, Fig. 2 illustrates scores \(*t**i*, 1, *t**i*, 2\) and \(*t**j*, 1, *t**j*, 2\) for two of the observations *x**i* and *x**j* as their projections onto  ![$$ {\hat{p}}_1 $$](images/000007.jpeg)  and  ![$$ {\hat{p}}_2 $$](images/000008.jpeg)  loadings.
+
+To give a mathematical derivation of the PCA model for a given dataset, let us first represent the score of observation *x**i* ≔ \[*x**i*,1, …, *x**i*,*n*\] with respect to the first loading  ![$$ {\hat{p}}_1:= \left[{\hat{p}}_{1,1},\dots, {\hat{p}}_{n,1}\right] $$](images/000009.jpeg)  as 
+
+
+
+![$$ {t}_{i,1}={x}_{i,1}.{\hat{p}}_{1,1}+{x}_{i,2}.{\hat{p}}_{2,1}+\dots +{x}_{i,n}.{\hat{p}}_{n,1} $$](images/000010.jpeg)
+
+
+
+
+
+Likewise, scores of *x**i* with respect to other loadings \(principal components\) can be described as a linear combination of *x**i* and loading vector  ![$$ {\hat{p}}_j $$](images/000011.jpeg)  for *j* = 1, …, *A*, assuming *A* as the number of principal components. By stacking all the scores of *x**i* in a vector of size \(1×*A*\), one can rewrite the PCA model for observation *x* \_ *i* in the compact form 
+
+
+
+![$$ {\overline{t}}_{1\times A}={x_i}_{1\times n}{P}_{n\times A} $$](images/000012.jpeg)
+
+
+
+where *P* is called the loadings matrix with each column containing the loading vector associated with a principal component. By repeating the above procedure for all the observations in the dataset, the PCA model for the entire dataset can be written as 
+
+
+
+![$$ {T}_{N\times A}={X}_{N\times n}{P}_{n\times A} $$](images/000013.jpeg)
+
+
+
+where *T* is the called scores matrix with each row containing the score of values of an observation along the loading vectors. In Sect. 3.2.3, we introduce some of the techniques used to calculate *P* and *T* matrices for a set of observations.
+
+#### ***3.2.2 ***PCA Model Tuning and Performance Indexes
+
+A PCA model can be used to estimate each observation in a dataset. For example, the best estimate  ![$$ {\hat{x}}_i $$](images/000014.jpeg)  for observation *x**i* given by a single component PCA model can be calculated as 
+
+
+
+![$$ {\hat{x}}_i={t}_{i,1}.\left[\ {\hat{p}}_{1,1},\dots, {\hat{p}}_{n,1}\right] $$](images/000015.jpeg)
+
+
+
+
+
+The number of principal components \(*A*, e.g., *A* = 1 above\) is an important tuning parameter of a PCA model. Higher *A* results in a higher fitting accuracy; however, this comes at the cost of higher complexity and risk of overfitting to the dataset by absorbing the measurement noise in the model. The above estimation for observation *x**i* can be improved by adding more principal components to capture the variance along the orthogonal directions: 
+
+
+
+![$$ {\hat{x}}_i={t}_{i,1}.\left[\ {\hat{p}}_{1,1},\dots, {\hat{p}}_{n,1}\right]+{t}_{i,2}.\left[\ {\hat{p}}_{1,2},\dots, {\hat{p}}_{n,2}\right]+\dots {t}_{i,A}.\left[\ {\hat{p}}_{1,A},\dots, {\hat{p}}_{n,A}\right] $$](images/000016.jpeg)
+
+
+
+
+
+Subsequently, the estimation \(reconstruction\) error can be calculated as the residual vector  ![$$ {e}_i={x}_i-{\hat{x}}_i. $$](images/000017.jpeg) This error is typically calculated across all observations as a measure of model’s performance, often called Squared Prediction Error \(SPE\). The SPE vector is calculated as the square root of the sum of squares of each residual: 
+
+
+
+![$$ \textrm{SP}{\textrm{E}}_{1\times N}=\left[\sqrt{e_1^T.{e}_1}, \dots, \sqrt{e_N^T.{e}_N\ }\right]. $$](images/000018.jpeg)
+
+
+
+
+
+Another useful quantity given by a PCA model is the Hotelling’s *T*2 value. This quantity is particularly useful when the model consists of several principal components that are difficult to be reviewed on *A*\(*A* − 1\)/2 scatterplots. In this scenario, the Hotelling’s *T*2 can be used to summarize all the score values associated to *i*th observation as 
+
+
+
+![$$ {T}^2={\left(\frac{t_{i,1}}{\sigma_1}\right)}^2+{\left(\frac{t_{i,2}}{\sigma_2}\right)}^2+\dots +{\left(\frac{t_{i,A}}{\sigma_A}\right)}^2 $$](images/000019.jpeg)
+
+
+
+where each  ![$$ {\sigma}_j^2 $$](images/000020.jpeg)  is the variance of the dataset along the *j*th principal component. The Hotelling’s *T*2 is a positive number that specifies the distance from the center of the principal hyperplane \(as depicted in Fig. 3 by the origin of a two-dimensional hyperplane\) to the projection of the observation onto the hyperplane. By calculating the *T*2 for each observation, one can generate a *T*2 chart as shown in Fig. 3 and determine, e.g., 95% and 99% confidence limits for future observations, under normal conditions. Future observations violating a predefined threshold can then be flagged as potential outliers or anomalies. 
+![](images/000021.jpeg)
+
+
+***Fig. 3*** 
+Hotelling’s *T*2 value chart and confidence limits for outlier detection
+
+
+
+#### ***3.2.3 ***Algorithms for Building PCA Models
+
+The two common categories of algorithms for calculating the loadings and scores for a given dataset are the explicit covariance-based algorithms and iterative covariance-free algorithms. Covariance-based algorithms involve calculation of the covariance matrix of the mean-centered dataset followed by decomposition of the covariance matrix to its eigen values and eigen vectors. A subset of these eigen vectors will then be used as a basis for projecting the data into its principal components. Covariance-based techniques are more suited for low-dimensional data as the computational cost and memory required for calculating and storing the covariance matrix and its eigen vectors do not scale efficiently with the dimension of data. The complete procedure for a covariance-based algorithm for calculation of principal components can be found in \[6\].
+
+Practical implementation of PCA for high-dimensional data is typically carried out by covariance-free techniques, wherein the eigenvalues and eigen vectors of the matrix of dataset are approximated iteratively. The most common iterative algorithm for calculating the principal components of a dataset is the NIPALS \(nonlinear iterative partial least squares\) algorithm. The steps to calculate the loadings  ![$$ {\hat{p}}_i $$](images/000022.jpeg)  and scores *t**i* are illustrated as a flowchart in Fig. 4. 
+![](images/000023.jpeg)
+
+
+***Fig. 4*** 
+NIPALS algorithm steps to calculate loadings and scores of PCA
+
+
+
+There are several open source codes and commercial software available for implementing PCA models. Most popular open source codes and proprietary software include the following: 
+
++ 
+Python library *Scikit* which implements PCA, Kernel PCA, Sparse PCA, and other variants in the decomposition module.
+
++  
+R packages that implement PCA include *ade4*, *vegan*, *ExPosition*, *dimRed*, and *FactoMineR*.
+
++  
+MATLAB Statistics Toolbox implements functions *princomp* and *pca* to calculate the principal components.
+
++  
+Mathematica implements principal component analysis with the *PrincipalComponents* command.
+
++  
+Other proprietary software such as Minitab, Sartorius SIMCA, and PerceptiveAPC can also be used to build PLS regression models.
+
+
+
+
+### **3.3 **Principal Component Regression \(PCR\)
+
+Multiple linear regression \(MLR\) models are used to identify the relationship between the observations matrix *X**N* × *n* \(predictor variables\) and the vector of target variables *y**N*×1 by incorporating all the available features \(*X* columns\). Such models can be explained in the form of *Xb* = *y*, where the solution vector *b* is calculated as *b* = \(*X**T**X*\)−1*X**T**y*. Fitting multiple linear regression models to datasets that contain highly correlated features poses several risks including inaccurate calculation of \(*X**T**X*\)−1 due to an ill-conditioned *X**T**X* matrix, high sensitivity of model parameters to noise in observations, and overfitting. As an alternative, PCR models can resolve the aforementioned issues by minimizing the impact of collinearity in observations on the model. The main idea behind PCR is to substitute the *n* columns in *X**N* × *n* with their uncorrelated *A* score vectors given by PCA. Mathematically, this can be described as 
+
+
+
+![$$ {T}_{N\times A}={X}_{N\times n}{P}_{n\times A}\ \textrm{and}\ {\hat{y}}_{N\times 1}={T}_{N\times A}{b}_{A\times 1} $$](images/000024.jpeg)
+
+
+
+where in this case *b* is calculated as *b* = \(*T**T**T*\)−1*T**T**y*.
+
+Figure 5 illustrates the difference between a multiple linear model and PCR. Using PCR also provides the opportunity to check the SPE and Hotelling’s *T*2 of new observations against the existing observations \(used to build the PCR model\) to ensure model’s validity. 
+![](images/000025.gif)
+
+
+***Fig. 5*** 
+Comparison between multiple linear regression and PCR
+
+
+
+### **3.4 **Projection to Latent Structure Regression \(PLSR\)
+
+An alternative regression technique, built upon PCA, is projection to latent structure regression. PLSR offers a few advantages compared to PCR: 
+
+1. 
+1.
+
+
+It can handle multiple correlated target variables, meaning that it can eliminate the need to build one PRC model per every *y* variable.
+
+
+
+
+2.  
+2.
+
+
+It is often more efficient than PCR because it typically requires fewer components to achieve similar levels of prediction power to what PCR offers.
+
+
+
+
+
+Similar to PCR, PLS technique applies principal component analysis to extract the loadings and scores; however, the fundamental difference between the two techniques is that PLS calculates the loadings and scores using the data in both predictor and target variables, *X* and *Y*. In other words, PLS extracts a set of latent variables that can best describe *X* and *Y* simultaneously and capture the greatest relationship between the predictors and response variables. Note that *Y* can be considered as an *N* by *m* matrix that stacks *N* observations of *m* response variables. PLS extracts two sets of scores, one for *X* and the other for *Y*. Recall that in PCA, the scores were extracted as 
+
+
+
+![$$ {T}_{N\times A}={X}_{N\times n}{P}_{n\times A} $$](images/000026.jpeg)
+
+
+
+
+
+Similarly, in PLS two sets of scores are extracted as 
+
+
+
+![$$ {T}_{N\times A}={X}_{N\times n}{P}_{n\times A} $$](images/000027.jpeg)
+
+
+
+
+
+![$$ {U}_{N\times A}={Y}_{N\times n}{C}_{n\times A} $$](images/000028.jpeg)
+
+
+
+with the consideration that for each principal component, the covariance between the two sets of scores is maximal, i.e., 
+
+
+
+![$$ \textrm{Cov}\left({t}_i,{u}_i\right)=E\left\{\left({t}_i-{\overline{t}}_i\right)\left({u}_i-{\overline{u}}_i\right)\right\} $$](images/000029.jpeg)
+
+
+
+with scores defined as *T* ≔ \[*t*1, *t*2, …, *t**A*\] and *U* ≔ \[*u*1, *u*2, …, *u**A*\] as maximum for all components *i* = 1, …, *A*. Maximum covariance between the two sets of scores implies that PLS is capable of capturing the greatest relationship between the predictor and target spaces. Once scores *T* and *U* are extracted, to formulate a PLS regression model relating *Y* to *X*, we first find a linear fit between the scores, i.e., *U* = *βT*, as they are defined to have a maximum covariance. Then the regression model can be formulated as 
+
+
+
+![$$ Y=U{C}^T=\beta T{C}^T=\beta XP{C}^T $$](images/000030.jpeg)
+
+
+
+
+
+This regression model can be used to simultaneously predict multiple target variables stacked in *Y* for a given observation *X*, after calculating predictor and target space loading matrices *P* and *C*, and a proportional factor *β* that approximates target space scores *U* using predictor space scores *T*.
+
+#### ***3.4.1 ***Algorithms for Building PLS Models
+
+There are several open-source codes and commercial software available for implementing PLS models. Most popular open source codes and proprietary software include the following: 
+
++ 
+Python library *Scikit* which implements the simple PLS regression in the decomposition module.
+
++  
+R packages *plsRglm*, *plsRcox*, and *pls* implement different variants of PLS regression.
+
++  
+MATLAB Statistics Toolbox implements function *plsregress* to return *X* and *Y* scores, loadings, *β* coefficients, the estimated mean squared error, and more.
+
++  
+Other proprietary software such as Minitab, Sartorius SIMCA, PerceptiveAPC, Tibco Spotfire, and SAS can also be used to build PCA models.
+
+
+
+
+### **3.5 **Data Unfolding for Applying PCA/PLS on Process Trajectory Data
+
+Batch process with trajectory data \(i.e., time-series data\) usually have a three-way data matrix  ![$$ \underset{\_}{\boldsymbol{X}}\ \left(I\times J\times K\right) $$](images/000031.jpeg) , where *I* represents the number of batches, *J* represents the number of variables, and *K* represents the number of time intervals. To apply PCA or PLS algorithms to ***X***, it typically requires unfolding the three-way data matrix into a two-way matrix. There are two commonly used unfolding methods: \(1\) batchwise unfolding and \(2\) variable wise unfolding.
+
+#### ***3.5.1 ***Batchwise Unfolding
+
+Batchwise unfolding method unfolds the  ![$$ \underset{\_}{\boldsymbol{X}} $$](images/000032.jpeg)  matrix by putting each of its vertical slices \(*I* × *J*\) next to each other. Therefore, variables recorded at one time interval are grouped in one time slice, and different time slices are aligned side by side. This unfolding method is visualized in Fig. 6. 
+![](images/000033.gif)
+
+
+***Fig. 6*** 
+Batchwise unfolding
+
+
+
+With batchwise unfolding,  ![$$ \underset{\_}{\boldsymbol{X}}\ \left(I\times J\times K\right) $$](images/000034.jpeg)  is unfolded as a  ![$$ \underset{\_}{\boldsymbol{A}}\ \left(I\times JK\right) $$](images/000035.jpeg) . In the unfolded matrix  ![$$ \underset{\_}{\boldsymbol{A}} $$](images/000036.jpeg) , each row represents one batch of data. This unfolding allows to analyze the batch-to-batch variabilities by summarizing the data information on both variables and their time variations \[3\]. Batchwise unfolding was introduced by Nomikos and MacGregor and applied with PCA for monitoring a polymerization process \[8\].
+
+#### ***3.5.2 ***Variable-Wise Unfolding
+
+Variable-wise unfolding method unfolds  ![$$ \underset{\_}{\boldsymbol{X}} $$](images/000037.jpeg)  by putting its horizontal slice \(*K* × *J*\), representing each batch, below the other. This results in an unfolded two-way matrix  ![$$ \underset{\_}{\boldsymbol{B}}\ \left( IK\times J\right) $$](images/000038.jpeg) , where the first *K* rows are the measurements from the first batch in the data. This unfolding method is visualized in Fig. 7. 
+![](images/000039.gif)
+
+
+***Fig. 7*** 
+Variable-wise unfolding
+
+
+
+Batchwise unfolding enables the integration of offline batch data with the unfolded online data and is suitable for estimating final quality measures from process data that only become available after the batch terminates. In contract, variable wise unfolding enables online estimates for offline assays that might be available at arbitrary interval throughout the batch duration \[9\]. Both data unfolding techniques have been applied, combined with PCA/PLS, in a variety of applications. Colucci et al. \[10\] used infrared thermal images as inputs and applied both data unfolding methods with a PCA model for the monitoring of a freeze-drying process. Doymaz \[11\] utilized time-course process parameter data \(model inputs\), elapsed time \(batch maturity variable\), and built a PLS model for monitoring the freezing, primary drying, and secondary drying of a biopharmaceutical drug product lyophilization process. Liu et al. \[12\] used batchwise unfolding and developed a multivariate statistical process control model based on PCA to monitor cell cultures using Raman spectral data. Ramos et al. \[13\] presented a thorough review on multiple MSPC methods \(including both dimensionality reduction and non-dimensional reduction methods\) and their applications in practical cases, where it was shown that, rather than selecting the best method, each of the described MSPC technique may perform better under specific conditions.
+
+## **4 **Continuous Process Verification
+
+Once a process has been qualified and validated, the operating parameters are only allowed to operate within the qualified design space which, in the case of lyophilization, is often reduced to fixed process parameters with some flexibility to extent cycle time if a PRT \(or other form of in-process-control testing\) does not meet its acceptance criteria, for instance. However, the cGMP requirements of process qualification do not end there; the manufacturing plant and quality organization are expected to also perform periodic trending of process performance as part of a continuous \(or continued\) process verification \(CPV\) to ensure that the process remains in its validated state throughout the years of operation. In fact, the FDA’s Guidance for Industry *Process Validation**: General Principles and Practices* \[14\] considers CPV as the third validation stage and specifies that “A system or systems for detecting unplanned departures from the process as designed is essential to accomplish this \[CPV\] goal.” Worthwhile noting that the EMA also has a similar guidances on continued process verification aligned with the objective described above \[15\].
+
+As such, the MVDA algorithms outlined in previous chapters can be efficient tools to perform CPV monitoring and provide a rapid snapshot of process performance and potential deviations within a single graph. This section explores how the tools can be applied for such a CPV application with the intent to ensure good control of overall product critical qualities attributes. It differs slightly from similar algorithms used for machine condition monitoring, whereas the objective is to detect process deviations that may impact the product quality rather than detecting equipment malfunction that can eventually lead to machine breakdown. The use of machine condition monitoring is detailed in the next section.
+
+The first step for CPV would be to determine the system objective or application frequency and subsequently chose the right data gathering infrastructure. For instance, a site may choose to deploy MVDA tools for CPV in real time to allow a process operator or supervisor to check the performance of the ongoing lyophilization cycle compared to other historical batches and ensure no system fault is detected that could lead to a bad product quality and to the rejection of a batch. In choosing so, a site would thus use a data infrastructure that allows real-time data gathering, real-time model application, and real-time trending, the frequency of which may depend on the overall cycle time. Typically for lyo, the CPV trending may be done every few minutes or so as the process evolution typically will last many hours rather than minutes. The data trending will need to be simple for visualization and quick fault detection. This is an area where MVDA is especially suited for, as it can allow the trending of a single summary variable \(principal component\) to trend all process parameters and, using pre-defined limits, ensure the variable is within its controlled state. Alternatively, a site may choose only to perform CPV on a periodic basis \(yearly process trending is typically requested by many health authorities\) and apply MVDA algorithm for overall process trending during this statistical evaluation. This would mean that a data gathering, modeling, and trending infrastructure that is performed after a batch, rather than in real-time during a batch, may be sufficient. Data would still be available for the periodic CPV activities or would be available for future process investigations and troubleshooting if applicable.
+
+Once the CPV system objective is well defined and that the right data gathering, modeling, and trending infrastructure is available, then a considered best practice would be to perform a risk analysis-type activity based on process understanding to evaluate which variables should be trended during the CPV and would be considered the *X* variables of the future MVDA model; Fig. 8 gives an example of such prioritization \(not meant as being exhaustive\). In practice, a MVDA model could be trained with all variables available and would be capable of trending if any of these variables are deviating from their validated state. If a product CQA is also available and measured for each of the calibration batch, the MVDA would also be able to automatically identify variables of most important that are closely correlated to the desired outcome \(the *Y*-predicted attribute, such as product moisture for a lyo application\). Additionally, the risk analysis activity may also ensure that no variables that would be critical to monitor has been left out of the MVDA modeling and would therefore not be trended. Moreover, the risk analysis activity could also help filter out variables that are not critical to product quality and thus reduce the occurrence of events where the MVDA model identifies an out of trend alarm that is not critical to both process performance and product quality \(false alarm\). That being said, it is the opinion of the author that, when in doubt, it is best to add more variables to the MVDA trending than not enough. Lastly, this process knowledge-based review of variables monitored may also help identify the ones that are scientifically proven to be the most critical \(such as the more obvious ones of chamber pressure and inlet/outlet shelf temperature\) and attribute a higher weight to these variables in the MVDA model so that they are trended more finely. This is possible to do in a PCA-type trending where a multiplier is applied on the coefficients of the principal components equation to give higher weight or higher impact of variables that are known to be more important than others. 
+![](images/000040.jpeg)
+
+
+***Fig. 8*** 
+Example of process parameters to include in a CPV trending tool for lyo
+
+
+
+Once the right variables are captured using the required data infrastructure as detailed in the previous Sect. 2, the data unfolding method should be determined. For a CPV application, the typical data unfolding method would be variable-wise unfolding, thus allowing the trending and tracking of the batch progression in real time. In this unfolding method, each observation corresponds to a time point, and every variable value at this time point is trended. This also assumes that all variables tracked are considered continuous when compared to each time point tracked, and as such, there is no missing data from any variable at any given time point. This applies for most process data that are captured at a rate much faster than the overall process cycle time of the lyo and time points of the CPV can be adjusted to the lowest frequency variable. However, this does not apply to tests such as pressure rise tests \(PRT\) or vial loading information that are discrete variables obtained at specific time points. When total batch time is variable from one batch to the other, it would also be possible to do variable-wise unfolding based on batch maturity or predicted product moisture level instead of time. However, variable batch time are typically rare for lyophilization in the pharmaceutical industry since the lyo recipes are typically included in the product filing to the health authority and as such do not vary. That being said, some filing allow for additional drying time based on the outcome of a pressure rise test that would be performed at the end of a freeze drying cycle \(primary and or secondary\). In this, an additional time of drying would be acceptable before the pressure rise test is performed again until it meets its acceptance specification. However, even then, the allowed additional drying time and conditions would be fixed, and this added step could be trended against similar events of previous batches.
+
+When the steps described above have been completed, the MVDA software may then be able to compute the process trajectory based on the first principal components \(and more if desirable\) of a PCA or PLS type analysis over time for the entire freeze-drying process: freezing, primary drying, and secondary drying. Before this is done, a typical data pre-treatment may include the use of unit scaling and data centering algorithms to ensure the data is centered on zero and that process variables that have bigger ranges do not apply greater weight than other variables that may be equally important but that may have a much smaller range of values. After data pre-treatment, the PCA or PLS analysis should be done for several batches of known good quality outcomes, typically referred to as “golden batches.” As a rule of thumb, it is considered that at least ten batches of good quality can be used to establish the reference trajectory, although it may be valuable to consider even higher number of batches. It is important to acquire these batches with future process variance in mind, i.e., process variance that will be encountered during the routine production: different batches of components \(vials and stoppers\), different formulation batches, different API and excipient batches, and maybe even include seasonal variations. The inclusion of these future process variance will help ensure the robustness of the process trajectory model and help prevent false rejects. The same data pre-treatment and PCA or PLS model will be applied on all of these “golden batches,” and they can then be overlaid on a typical process trajectory graph of first principal component versus time for all lyophilization process steps. It should then be evident that some variability exists in the PC1 data overtime. If all batches were well selected, then this variability would be considered a design space where the process can operate without causing any impact on product quality. This variability should thus be used to set the high and low statistical process control rule. A typical method to set the control rule would be to use the ±3 × standard deviation of the values of the PC1 at each time point. Every future routine batch can then follow the same data pre-treatment and PCA or PLS modeling to be trended overtime and compared against the statistical process control rule. If within bound, then it would be considered that the batch is going well; if out of bound, then a variable, or several variables that may be correlated together, are exiting their “golden batch” trend and should be investigated. This can usually be done quickly by observing the loadings that each variable applies to the PC1 value at the time point of interest. The variables with the greatest loadings may be investigated first.
+
+### **4.1 **Example Using PLS for Lyophilization and Applying on CPV
+
+The following figures depict the use of PLS algorithm for identifying an anomaly on a batch. In this simulation, the total number of process variables is 59 and number of PLS components is 2. Figure 9 shows the evolution of the first component and its corresponding historical bounds \(obtained from golden batches\) over time. At around time *t*0 = 150, the first component is starting to hit the lower bound. Figure 10 shows the contribution plot corresponding to first component at time *t*0, and the chamber pressure is deviating from its historical bounds. Figure 11 shows the actual variable which is starting to deviate from its normal expected trajectory. This deviation corresponds to a near-atmospheric-pressure leak during freezing, which is not detectable with normal leak test. The actual rootcause of this leak was a leak in the seal of pizza door of freeze dryer. 
+![](images/000041.jpeg)
+
+
+***Fig. 9*** 
+The evolution of first component over time for a batch. The vertical line shows *t*0
+
+
+![](images/000042.jpeg)
+
+
+***Fig. 10*** 
+Contribution plot corresponding to first component at time *t*0
+
+
+![](images/000043.jpeg)
+
+
+***Fig. 11*** 
+The trajectory of the chamber pressure and its historical bounds over time
+
+
+
+## **5 **Condition Monitoring of Lyophilization
+
+Whereas continuous process verification activities focus on the trending of batch to batch compliance to reach the target product quality, a similar activity can be performed to predict the machine’s health by trending variables focused on predicting the equipment reliability for an ongoing or future batch. This activity is called machine condition monitoring and can be part of a preventive maintenance system that contains several activities. In fact, Ungureanu et al. \[16\] define a functioning condition monitoring as “\[…\] part of a maintenance system through which is made a collection of data regarding the operation of equipment, transmission or storage of this data, data preprocessing, preparation of reports followed by maintenance action at time recommended.” As such, an activity that is performed in real time or after a batch and that uses the variables monitored, equipment data, and possibly IIoT \(Internet of Thing\)-type smart sensors from the most recent batch to predict the equipment reliability can be integrated into a machine maintenance system and supplement other ongoing activities, such as time-based preventive maintenance activities already performed at most \(if not all\) pharmaceutical manufacturing sites. Such condition monitoring tools are nothing new and are even the topic of an ISO standard “Condition monitoring and diagnostics of machines” \[17\]. However, the use of multivariate data analysis or even more complex machine learning algorithms are allowing automated condition monitoring activities and improving their efficiency and predictability. These MVDA tools are thus deployed with the intention to prevent machine breakage that would create production downtime, cost of maintenance, cost of replacement, or even potential health and safety risks.
+
+In this section of the chapter, we will focus on the use of condition monitoring using multivariate data analysis tools and its application to lyophilization. It should be noted that the setup of MVDA models for condition monitoring is a process considered very similar to that explained for continuous process verification \(CPV\) in the previous section of this chapter. Indeed, the model developer would go through similar steps: objective definition, risk analysis activities, data pre-treatment, MVDA modeling, and determination of statistical process control rules. However, during risk analysis activities, greater weights would be given to variables that are correlated to the machine’s health or new variables specific to condition monitoring would be selected. For instance, it may be recommended to start trending the temperature and pressure controllers \(PID or others\) and their related output actions \(e.g., trending the opening and closing action of the pressure regulation valve to trend the action of the pressure PID controller\), as, even though the measured shelf temperature or chamber pressures are still in control, a trend of increasing controllers action may indicate a potential future failure of the vacuum pumps or the expansion valve or simply a bad PID tuning for the target ranges and target product. Additionally, the use of smart sensors can be considered and could provide valuable data in equipment health monitoring. For instance, small and wireless vibration sensors can be very indicating of any motor/pump’s health. A certain baseline vibration frequency should be established, and any deviation from this baseline may indicate the need for maintenance. Lastly, the use of PAT equipment can be very useful to detect potential equipment failures or prevent them. For instance, a residual gas analyzer \(RGA\) can be used to detect the occurrence of micro leaks of the silicon oil-type fluid used for the temperature control of the shelf. There leak events can be gradual \(micro leaks that go unnoticed before a gross-leak event\) and can be detected by the trending of the specific mass of the silicon oil. The trending can be done during an entire batch, but the oil leak worst-case conditions are typically more important in detecting these leaks: highest vacuum and highest shelf temperature \(typically found during the secondary drying phase\). Again, similar to the previous section on CPV, Fig. 12 gives an example of possible variables to include in a condition monitoring strategy for lyophilization \(list not meant as being exhaustive\). 
+![](images/000044.jpeg)
+
+
+***Fig. 12*** 
+Condition monitoring typical variables monitored
+
+
+
+Once all most relevant variables are selected and MVDA model built, again, a similar PCA or PLS-type trending strategy can be used with statistical process control rules to detect events where the lyophilization equipment is going out of trend and thus predicting potential future equipment failures. Appropriate equipment maintenance action can thus be taken pre-emptively.
+
+Finally, we provide an example of a case of severe deviation in the temperature of compressor over a long duration. The number of variables is 56 and two PLS components are considered. While the PLS component in Fig. 13 at around *t*0 = 1600 shows relatively smooth and within bound score, the score and SPE contribution plots \(Figs. 14 and 15\) show clear deviation from historical bound for the temperature of compressor. Figure 16 shows the actual temperature trend and clearly, there is a deviation. In practice, relying only on scores without paying attention to contributions could be misleading. In this case, the actual root cause of the observed anomaly was the leak of cooling refrigerant. This leak did not result in a product quality impact as the freeze dryer was still able to operate relatively normally \(to maintain temperature and pressure set-points as well as to evacuate water from chamber atmosphere\), but more actions from the controllers were needed to maintain this normal operation. If the leak had been allowed to continue, quality issues would certainly have been seen. Luckily, with condition monitoring, the leak was spotted early, and corrective actions were quickly taken prior to any product impact. In conclusion, detecting such issues will help in effectively monitoring equipment, triggering investigation, scheduling timely maintenance, and preventing adverse effects of the product quality. 
+![](images/000045.jpeg)
+
+
+***Fig. 13*** 
+The trajectory of the second principal component and its historical bounds over time
+
+
+![](images/000046.jpeg)
+
+
+***Fig. 14*** 
+Contribution plot corresponding to first component at time *t*0
+
+
+![](images/000047.jpeg)
+
+
+***Fig. 15*** 
+SPE contribution plot at time *t*0
+
+
+![](images/000048.jpeg)
+
+
+***Fig. 16*** 
+The trajectory of the compressor temperature and its historical bounds over time
+
+
+
+## **6 **Future Directions of MVDA
+
+In the era of big data where huge amount of data and computational resources is readily available, the new learning paradigms are emerging. The core of new learning methods, inspired by human brain, is to automatically learn important feature from raw data. Namely, identifying the important features is embedded in the learning algorithm, and such capability is achievable by using large artificial neural networks \(ANN\). The other important distinction is that ANN are inherently built using nonlinear blocks, and thus, comparing to linear models can capture more complex relations among data.
+
+### **6.1 **Deep Learning Techniques for Lyophilization Condition Monitoring
+
+A generic deep learning technique for detecting anomalies in time series data is based on using neural networks combined with the notion of auto-encoders. The main idea behind this technique is divided into two parts: \(i\) building a compressed *meaningful* representation of the data and \(ii\) leveraging the statistical characteristics of the compressed reorientation of *normal data* to detect anomalies on unseen data. For the first part, a common approach is to use auto-encoders. The purpose of auto-encoders is essentially to learn a lower-dimensional representation of the data in a way that the discrepancy between data and reconstructed version of the same data is minimal. Thus, it can be viewed as a parsimonious self-estimator of the data. To learn such representation on time series data, LSTM \(long short-term memory\) and CNN \(convolutional neural network\) are most suitable. Figure 17 illustrates the generic structure of deep learning-based approach for learning. For the second part, the model is trained by using only normal data, and the statistics of the normal data in lower dimensional space is obtained. Once the model is built, the unseen data is fed to network, and its representation is compared against the normal data representation. Any deviation is declared as anomaly. Similar to standard PLS method, one can also analyze the statistics of the residual errors to identify most contributing factors to the anomaly. 
+![](images/000049.gif)
+
+
+***Fig. 17*** 
+Generic LSTM auto-encoder architecture for time series anomaly detection
+
+
+
+Figure 18 demonstrates the procedure described above to obtain a concise representation of multivariate time series data. First, time series data corresponding to the process variables \(in this case three variables, but in practice many\) of golden batches are fed into the encoder \(right-hand side panel\) and the goal in to reconstruct them with minimal error while reducing the dimension of latent variables. The middle panel shows such representation over time. The red curves are the upper and lower bounds corresponding to all golden batches. 
+![](images/000050.jpeg)
+
+
+***Fig. 18*** 
+LSTM based Auto-Encoder for multivariate time series modeling
+
+
+
+
+**References**
+
+1.  
+1.
+
+Kourti T. 4.11 – Multivariate statistical process control and process control, using latent variables. In: Brown S, Tauler R, Walczak B, editors. Comprehensive chemometrics \(Second Edition\). Elsevier; 2020. p. 275–303. ISBN 9780444641663.[Crossref](https://doi.org/10.1016/B978-0-12-409547-2.14887-5)
+
+2.  
+2.
+
+Ferreira AP, Menezes JC, Tobyn M, editors. Multivariate analysis in the pharmaceutical industry. Academic Press; 2018. p. iv. ISBN 9780128110652.
+
+3.  
+3.
+
+Kourti T. Multivariate analysis for process understanding, monitoring, control, and optimization of lyophilization processes. In: Quality by design for biopharmaceutical drug product development. New York: Springer; 2015. p. 537–564.
+
+4.  
+4.
+
+OSIsoft. PI system – connecting data, operations & people. 2021 \[cited 2021 Apr 11\]; Available from: [https://​www.​osisoft.​com/​pi-system](https://www.osisoft.com/pi-system).
+
+5.  
+5.
+
+Teetor P. R cookbook: proven recipes for data analysis, statistics, and graphics. Sebastopol, CA: O’Reilly Media; 2011.
+
+6.  
+6.
+
+Wold S, Esbensen K, Geladi P. Principal component analysis. Chemom Intell Lab Syst. 1987;2\(1–3\):37–52.[Crossref](https://doi.org/10.1016/0169-7439(87)80084-9)
+
+7.  
+7.
+
+Strang G, et al. Introduction to linear algebra, vol. 3. Wellesley: Wellesley-Cambridge Press; 1993.
+
+8.  
+8.
+
+Nomikos P, MacGregor JF. Monitoring batch processes using multiway principal component analysis. AIChE Journal. 1994;40\(8\):1361–75.
+
+9.  
+9.
+
+Albert S, Kinley RD. Multivariate statistical monitoring of batch processes: an industrial case study of fermentation supervision. Trends Biotechnol. 2001;19\(2\):53–62.[Crossref](https://doi.org/10.1016/S0167-7799(00)01528-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11164554)
+
+10.  
+10.
+
+Colucci D, et al. Application of multivariate image analysis for on-line monitoring of a freeze-drying process for pharmaceutical products in vials. Chemom Intell Lab Syst. 2019;187:19–27.[Crossref](https://doi.org/10.1016/j.chemolab.2019.02.004)
+
+11.  
+11.
+
+Doymaz F. Application of multivariate statistical process monitoring to lyophilization process. In: Quality by design for biopharmaceutical drug product development. New York: Springer; 2015. p. 595–603.
+
+12.  
+12.
+
+Liu Y-J, et al. Multivariate statistical process control \(MSPC\) using Raman spectroscopy for in-line culture cell monitoring considering time-varying batches synchronized with correlation optimized warping \(COW\). Anal Chim Acta. 2017;952:9–17.[Crossref](https://doi.org/10.1016/j.aca.2016.11.064)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28010847)
+
+13.  
+13.
+
+Ramos M, et al. Multivariate statistical process control methods for batch production: a review focused on applications. Prod Manuf Res. 2021;9\(1\):33–55.
+
+14.  
+14.
+
+FDA guidances for industry: process validation: general principles and practices. U.S. Department of Health and Human Services, FDA, CDER, CBER, CVM, Jan 2011, cGMP Practices, Revision 1, 22 p.
+
+15.  
+15.
+
+EMA Guideline on process validation for finished products-information and date to be provided in regulatory submissions. EMA/CHMP/CVMP/QWP/BWP/70278/2012-Rev1. Corr1, Committee for Medicinal Products for Human Use \(CHMP\), Committee for Medicinal Products for Veterinary Use \(CVMP\), 21 Nov 2016, 15 p.
+
+16.  
+16.
+
+Ungureanu NS, Petrovan A, Ungureanu M, Alexandrescu M. Functioning condition monitoring of industrial equipment. In: IOP conference series: materials science and engineering. IOP Publishing Limited, Publication Date: 2/2017, vol. 174, p. 012068. [https://​doi.​org/​10.​1088/​1757-899X/​174/​1/​012068](https://doi.org/10.1088/1757-899X/174/1/012068).
+
+17.  
+17.
+
+ISO 17359:2018 Condition monitoring and diagnostics of machines – general guidelines.
+
+
+

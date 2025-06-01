@@ -1,0 +1,818 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_24](https://doi.org/10.1007/978-3-031-12634-5_24)
+
+
+**
+# Characterization of Freeze Dryers
+**
+
+
+Feroz Jameel1  and Serguei Tchessalov2
+
+
+\(1\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+\(2\) 
+BioTherapuetics Pharmaceutical Sciences, Pharmaceutical R&D Pfizer, Inc, Andover, MA, USA
+
+
+
+
+
+**1 **Introduction
+
+**2 **Critical Characteristics of Freeze Dryer
+
+**2.1 **Shelf Temperature Mapping and Ramp Rates
+
+**2.2 **Pressure Control
+
+**2.3 **Condenser Capacity
+
+**2.4 **Vacuum Integrity Testing
+
+**2.5 **Characterization with Thermal Load
+
+**3 **Engineering Run
+
+References
+
+
+## Abstract
+
+A lyophilization process is said to be successfully transferred when one can achieve and demonstrate that the product has identical or very comparable thermal history between lab and commercial lyophilizers. Since the lab freeze dryers are built differently than commercial and since the lyophilization process is developed at lab scale, it is imperative that the characteristics of the commercial freeze dryers be understood. This chapter discusses the methodology and techniques in determining those characteristics of freeze dryers whose knowledge and understanding are critical to the design of the freeze-drying process, scale-up/tech transfer from one scale to another or from one freeze dryer to another of same scale, and demonstration of performance equivalency between the freeze dryers.
+
+
+**Keywords**
+Characteristics of freeze dryer Shelf temperature mapping Ramp rates Condenser capacity Pressure control Leak rate Heat transfer coefficient Mass transfer coefficient Equipment capability curve Sublimation rate Choke flow Sublimation test Nucleation temperature
+
+
+## **1 **Introduction
+
+The lyophilization process is designed and developed on a lab-scale \(R&D\) units that are typically build with more capabilities and exhibit less variations. The process is scaled-up and transferred to commercial lyophilizers that may have different characteristics. It is imperative to understand the capabilities/ limitations and characteristics of the commercial lyophilizers and take them into consideration during the design and development of the lyophilization process. A lyophilization process is said to be successfully transferred when one can achieve and demonstrate that the product has identical or very comparable thermal history between lab and commercial lyophilizers \[1\]. In order to accomplish these, it is required that both the lab-scale and more importantly commercial-scale freeze dryers be thoroughly characterized for their functional performances.
+
+This chapter discusses methodology and techniques in determining those characteristics of freeze dryers whose knowledge/understanding are critical to the design of the freeze-drying process, scale-up/tech transfer from one scale to another or from one freeze dryer to another of the same scale and demonstration of performance equivalency between the freeze dryers.
+
+## **2 **Critical Characteristics of Freeze Dryer
+
+A process developed at lab-scale and transferred to commercial-scale freeze dryer without understanding of the characteristics of it and without modifying the process conditions is doomed to be failed, and it becomes the major cause for variation in product quality attributes from site to site and from freeze dyer to freeze dryer.
+
+Regulatory agencies expect thorough characterization of the freeze dryers where the process is going to be scaled-up/tech transferred to prior to process performance qualification runs \(PPQ runs\) \[2\]. The characterization activities should include the following qualifications and determinations. 
+
+1. 
+1.
+
+
+Shelf temperature mapping: the shelf temperature control and uniformity data
+
+
+
+
+2.  
+2.
+
+
+Ramp rates: controlled temperature ramping capabilities
+
+
+
+
+3.  
+3.
+
+
+Condenser capacity
+
+
+
+
+4.  
+4.
+
+
+Pressure control
+
+
+
+
+5.  
+5.
+
+
+Leak rate
+
+
+
+
+
+In addition to qualifying above characteristics/specifications against the vendor claim, there are three more factors that are listed below that directly relate to scale-up, and their determinations are critical to achieving identical/same product thermal history upon scale-up/tech transfer. Two of them relate to equipment design – one is heat transfer coefficient, which varies with primary container and chamber pressure, and the other one is equipment capability. The equipment capability limit for a freeze dryer is limited by the choked flow in the connecting duct between the chamber and the condenser, the refrigeration capacity, condenser surface area, and the upper temperature limit for the shelves \[3\]. The other that relates to environment is the nucleation temperature which varies with particle count and cooling ramp rates \[4\]. 
+
+1. 
+6.
+
+
+Determine the heat transfer coefficients of the vial and the shelf.
+
+
+
+
+2.  
+7.
+
+
+Equipment capability \(minimum controllable pressure as a function of sublimation rate and maximum sublimation rate for a given freeze dryer when refrigeration capacity is exceeded\).
+
+
+
+
+3.  
+8.
+
+
+Nucleation temperature.
+
+
+
+
+
+### **2.1 **Shelf Temperature Mapping and Ramp Rates
+
+The shelf temperature control performance is verified through temperature mapping where the freeze dryer is challenged under dry and empty load with a recipe typically consisting of ramping to extreme temperatures of −60 °C and \+60 °C with 0 °C as mid-point that encompasses the possible temperatures required during a lyophilization cycle. Calibrated thermocouples or product probes are placed directly on the shelf surfaces at various locations of the shelf and on all the shelves of freeze dryer ensuring good thermal contact.
+
+A minimum of five temperature probes at five locations on the shelf both peripheral and centrally are placed on the shelf surface \(preferably, the four shelf corners and the middle of the shelf\) – firstly, to measure the exact shelf surface temperature compared to that of the shelf temperature set point which is controlled by the shelf silicone inlet RTD, and, secondly, to assess the shelf surface temperature variation from location to location across each individual shelf and between shelves. This information helps to determine if the system is capable of providing uniform temperature control or there exists any significant warmer \(hot spots\) or cooler \(cold spots\) locations across the shelves due to inconsistency during shelves manufacturing.
+
+The typical recipe is executed with a 1-h stabilization period at the set point temperature followed by a 1-h hold at that temperature, and the data is collected every minute during the duration of the hold period. The temperature ramp data is also collected, and, in addition to ramp rates determinations, the performance of the controlled temperature ramping capabilities is assessed. The shelf temperature \(silicone inlet temperature\) is compared to the downloaded shelf set point temperature every minute during the ramp to verify that the difference was within the acceptance criteria. Typical observations expected with a well-designed freeze dryer are illustrated in Table 1. 
+
+
+***Table 1*** 
+Shelf temperature control and uniformity— mock data
+
+
+
+**Test shelf mapping**
+
+**Acceptance criteria**
+
+**Freeze dryer A**
+
+**Rangea**
+
+Hold
+
+−60 °C hold
+
+± 3.0 °C from set point
+
+0.4 to 2.2 °C
+
+0 °C hold
+
+−0.5 to 0.4 °C
+
+60 °C hold
+
+−1.4 to −0.1 °C
+
+Ramp
+
+\+25 °C to −60 °C ramp
+
+± 4.5 °C from set point
+
+−3.5 °C max
+
+−60 °C to 0 °C ramp
+
+2.3 °C max
+
+0 °C to 60 °C ramp
+
+2.7 °C max
+
+
+aDifferential between measured shelf surface temperature and the shelf temperature set point
+
+
+
+
+### **2.2 **Pressure Control
+
+Control of chamber pressure is essential to the controlled heat transfer to the product during sublimation \(primary\), and desorption \(secondary drying\) as most of the heat is transferred through the collision of gas molecules \[6\].
+
+The chamber pressure is typically monitored by the capacitance manometer \(CM\) gauge, and the desired chamber pressure set point is achieved and maintained through the bleeding of sterile-filtered nitrogen into the chamber on the need basis as instructed to the nitrogen inlet proportional valve by the chamber pressure gauge.
+
+As an example, the freeze dryer is challenged by sequentially ramping the chamber pressure to three defined set points 20, 100, and 300 mTorr, covering the extremes under dry and empty load. The execution test of each chamber pressure set point involves a 70-min test period where a 10-min equilibration period is observed after achieving the setpoint followed by a 60-min hold period during which chamber pressure, chamber pressure to setpoint differential, and condenser fluid inlet temperature data are collected.
+
+Typical pressure control hold period observations expected with a well-designed freeze dryer are illustrated in Table 2. It is also advisable to monitor chamber pressure by Pirani sensor \(if it is installed\) during this test to estimate offset, if any, between CM and Pirani at the different pressure set points for the efficient detection of end points of drying process. The chamber should be dried for about 10 h prior to this test. 
+
+
+***Table 2*** 
+Pressure control hold period — mock data. MKS capacitance manometer was used in this test
+
+
+
+**Test**
+
+**Acceptance criteria**
+
+**Freeze dryer A**
+
+**Range**
+
+**Pressure control**
+
+**Min**
+
+**Max**
+
+20 mTorr
+
+± 3 mTorr from set point
+
+19.745
+
+20.165
+
+100 mTorr
+
+99.531
+
+100.324
+
+300 mTorr
+
+299.623
+
+300.273
+
+
+
+### **2.3 **Condenser Capacity
+
+The maximum product that can be loaded on the freeze dryer or the maximum mass of water that can be removed from the product through sublimation and desorption during freeze drying is dependent upon the capacity and ability of condenser and refrigeration system. This test evaluates and verifies against the manufacturer’s specifications on the condenser capacity by loading the freeze dryer with a quantity of water of approximately 120% greater than the specified volume to qualify a worst-case scenario and to demonstrate the potential capability of the unit.
+
+The test involves loading X kg of water, depending upon the freeze dryer, into metal trays or trays constructed of metal rings with plastic liners which holds and distributes the water evenly over the effective shelf surface area. One example of test consists of primary drying conditions of a shelf temperature set point of \+20 °C, a chamber pressure set point of 200 mTorr, and a duration of 34 h followed by a ramp to \+50 °C \(0.33 C/min\), and a hold at \+50 °C at 200 mTorr for 24 h and 30 min.
+
+The major elements of interest are to sublime the water and to maintain pressure control \(200 microns \+/−5%\) during the execution of the recipes. After the execution of the recipe, any remaining ice or water on the trays is quantified in order to establish the actual volume sublimed which represents the maximum amount of product which potentially could be loaded into the freeze dryer as illustrated below \(Table 3\). 
+
+
+***Table 3*** 
+Condenser capacity test—mock data
+
+
+
+**Test**
+
+**Acceptance criteria**
+
+**Freeze dryer A**
+
+Condenser capacity
+
+Minimum of 700 kg
+
+Maintain pressure control
+
+785.6 kg
+
+Pressure control maintained
+
+
+
+The condenser capacity test mock result data summarized in the table below demonstrates the acceptability of the individual freeze dryers in terms of condenser capacity and pressure control capability. To avoid water collection in vacuum pump, condenser temperature during test should not exceed −40 °C.
+
+### **2.4 **Vacuum Integrity Testing
+
+Since most of the heat transfer to the product comes through the collision of gas molecules, i.e., chamber pressure, and since both phases of lyophilization, primary drying and secondary drying, are carried out in the evacuated system and since maintaining the sterility of the product in the lyophilizer is required, vacuum integrity test becomes very important not only during operational qualification but also on routine basis during production. It is performed as an in-process test in production every time after the completion of sterilization \(SIP\) and before product loading to ensure freeze dryer integrity \[7\].
+
+#### ***2.4.1 ***Measurement Techniques
+
+Typically it is carried out by first starting the condenser cooling and ensuring the condenser temperature is below −40 °C to protect the vacuum pumps before pulling down the vacuum to the desired set point. Once the desired chamber pressure is achieved, the evacuation is stopped, and the system is allowed to stabilize before start measuring the rate of rise of pressure. The following are few cautions and considerations that one needs to keep in mind while performing vacuum integrity testing \[8\]: 
+
++ 
+Expressing the tightness of the freeze dryer in terms of “rates of rises” and comparing it with other size freeze dryers is not accurate way and misleading as it does not take into account the volumes of the vessels. The best way to express the integrity of the vacuum is to express it in terms of “leak rate” which normalizes the volume of the vessel. The advantage of this is it allows one to specify a single master acceptance criterion for various size freeze dryers.
+
++  
+Understand and differentiate between “real leaks” versus “virtual leaks.” The real leaks are actual leaks caused by breach in the integrity of the walls and/or seals, while virtual leaks are due to outgassing of the materials \(polymers\), gas pockets/air trapped in the annular spaces, humidity or water trapped in the chamber or condenser valves in the vessels and happens when tested not clean, dry and empty. One way to differentiate between the real leak and virtual leak is that in virtual leak the rate of rise will plateau off with time; see Fig. 1.
+
+
+
+![](images/000000.gif)
+
+
+***Fig. 1*** 
+Virtual leak and real leaks rise with time. \(Taken from Dern \[8\]\)
+
+
+
+
+
++ 
+Since temperature affects the pressure and readings, it is important to pay attention to temperature at which the vacuum integrity testing is being performed. The England’s Parenteral Society recommends to perform the testing with shelf temperature of 40 °C and condenser temperature be kept ≤ −40 °C. However, the practice in the USA is to perform the testing at ambient shelf temperature \(20 °C\) while allowing the condenser coils to attain their lowest temperature. It is believed that by doing this way the virtual leaks can be minimized at lower temperatures.
+
++  
+The vacuum integrity test can be performed essentially at any pressure below the ambient pressure, but the best pressure at which test should be performed is believed to be 100 mTorr.
+
++  
+Longer elapsed time is believed to be better as it provides more assurance on the results especially true with tight systems.
+
++  
+The Parenteral Society specifies a leak rate of 2 × 10−2 mbar-L/s, but currently most frequently specified leak rate is 1 × 10−2 mbar-L/s which corresponds to 15 mTorr/min for a decent size freeze dryer \[8, 9\].
+
+
+
+
+### **2.5 **Characterization with Thermal Load
+
+There are two important requirements that need to be achieved at the end of scale-up/tech transfer from lab to manufacturing or from freeze dryer to another and before the start of exhibit batches or validation \(PPQ\).
+
+#### ***2.5.1 ***Upfront Manufacturability Assessment
+
+The first requirement is to evaluate/assess, gain confidence, and demonstrate through data that the equipment in consideration is capable of running a freeze-drying process designed for a given specific product, for example, an aggressive freeze-drying process \(mannitol based formulation, *T*s = 5 °C, *P*c = 150 mTorr\) or a very conservative freeze-drying process \(sucrose based with the presence of excipients such as NaCl, *T*s ≤ −30 °C, *P*c = 65 mTorr for ≥1 week\).
+
+#### ***2.5.2 ***Optimization of Process Conditions
+
+When a lab-scale-developed freeze-drying process is run on a production-/commercial-scale freeze dryer under manufacturing environment, one could likely to observe a different product temperature-time profile due to differences arising from the design of equipment and particle-free environment \[4\]. One may need to adjust/optimize the process conditions based on the findings of freeze dryer characterization and upfront manufacturability assessment work to be able to achieve identical product temperature-time profile \(product thermal history\). The following section describes/summarizes some of the best practices in meeting/achieving those requirements.
+
+##### ***2.5.2.1 ***Sublimation Tests
+
+The above qualifications help to understand and verify the specifications against the vendor claims but all these activities/testing occur with the freeze dryer “clean, dry, and empty” and does not give usable data that helps to scale-up/tech transfer.
+
+The “sublimation rate test” is generally performed to assess the heat flow and mass transfer capability of the freeze dryer for a given process, i.e., how fast it can remove the water vapors from the chamber and condense them on the coils without losing chamber pressure control. Generally, water is used for this test because it is inexpensive and generates vapors very fast due to its minimal product resistance, posing a challenge to the lyophilizer. If lyophilizer sublimes the water faster than the product for a given process without the loss of pressure control, then it is safe to assume that it can handle the given process and the product \[10\]. Sublimation tests can also be used to determine vial heat transfer coefficient as a function of sublimation rate for the different types of vials.
+
+With only few sublimation tests, several important pieces of information can be accomplished which are listed below: 
+
+1. 
+1.
+
+
+Heat transfer coefficient of various denomination/size/configuration of vials \(*K*v\) at various locations on the shelf \(e.g., four corners and center\) at a particular pressure.
+
+
+
+
+2.  
+2.
+
+
+Sublimation rate as a function of attenable pressure \(or minimum controllable pressure\).
+
+
+
+
+3.  
+3.
+
+
+Heat transfer coefficient of shelf \(*K*s\).
+
+
+
+
+4.  
+4.
+
+
+Product temperature at various locations \(shelf mapping: cold vs hot spots\).
+
+
+
+
+5.  
+5.
+
+
+Actual shelf surface temperature compared to set point or \(shelf-inlet temperature\) at thermal load.
+
+
+
+
+6.  
+6.
+
+
+Nucleation temperature.
+
+
+
+
+
+##### ***2.5.2.2 ***Experimental Methodology \(Vial ***K******v*** Measurement Methodology\)
+
+Fill the vials of interest with water \(WFI\) up to 1.5–1.7 ml fill volume for 2/4 vial size, 2.5 ml fill volume; for 5 ml vial, 3 ml fill volume for 10 mL and 7 ml fill volume for 20 ml vial size. As indicated above multiple size vials can be used in a single study. Maintain similar solution height in all vials \(~1 cm\).
+
+###### **Vials** Loading and Product Probe Placement
+
+Partially stopper all the vials and weigh them prior to loading into the freeze dryer. Carefully place product probes \(PP\) in the vials positioning them at the center bottom of vial and also on the shelf surfaces at various locations. To ensure good contact of the product probe with shelf surface, use adhesive tape with good thermal contact material \(if allowed in commercial conditions by the local cleaning validation practice\).
+
+In commercial freeze dryer where automatic vial loading system \(AVLS\) is used, once the loading is complete the loading door is closed, the unloading door is opened, and the PPs are placed into the vials at various locations as per the “diagram for PP placement.” Care should be taken to place the PPs in the center and bottom of the vials using specially designed stoppers. Vials that require placement of PPs in the center of the shelf require unloading of the shelf using the UT-CAR. To assure that the vials with the PP did not tipped during the process, the unloading door is opened after the end of the freeze-drying cycle, and the vials are verified against the “diagram for PP placement.”
+
+Start the freeze drying using a freeze-drying process of interest, and stop it when approximately 30% of primary drying is completed, stopper the vials to avoid evaporation or spillage, and unload them. Place the vials at ambient temperature for ice in the vials to melt and wait until vials reach ambient temperature before determining the weight loss upon drying gravimetrically. The sublimation rate of water is determined by the ratio of the amount of water sublimed to the primary drying time. Additionally, as a complementary method for determining the drying rate, the condenser coils are defrosted, and the water on the condenser coils is retrieved by draining the condenser via a steam trap after the ice had melted. Using the amount of water condensed on the coils, the average drying rate can also be determined.
+
+It is recommended, when doing multiple size vials, to start first loading the largest size filled water to approx. 3 cm fill height followed by smaller sizes in the subsequent shelves. Weigh vials at locations of interest \(corners and center, close to the condenser, etc.\). This will allow measurement of edge effect and variability in *K*v.
+
+##### ***2.5.2.3 ***Measurement of Heat Transfer Coefficient
+
+At steady state, the heat transfer rate is given by
+
+
+
+
+
+![$$ \frac{dQ}{dt}=\Delta {H}_{\textrm{s}}\cdot \frac{dm}{dt} $$](images/000001.jpeg)
+
+
+
+where Δ*H*s is the heat of sublimation \(660 cal/g\).
+
+The vial heat transfer coefficient, *K*v, is then given by \[6\]
+
+
+
+
+
+![$$ \frac{dQ}{dt}={A}_{\textrm{v}}{K}_{\textrm{v}}\left({T}_{\textrm{s}}-{T}_{\textrm{p}}\right) $$](images/000002.jpeg)
+
+
+
+where *A*v is the external cross-sectional area of the vial, *T*s is the shelf surface temperature, and *T*p is the product temperature at the bottom of the vial.
+
+The shelf heat transfer coefficient, *K*s, is then given by
+
+
+
+
+
+![$$ \frac{dq}{dt}={A}_{\textrm{s}}{K}_{\textrm{s}}\left({T}_{\textrm{i}}-{T}_{\textrm{s}}\right) $$](images/000003.jpeg)
+
+
+
+where *A*s is the area of the shelf, *T*i is the shelf inlet fluid temperature, and *T*s is the surface temperature of the shelf.
+
+Heat transfer coefficient of a vial does not significantly vary with shelf temperature and fill volume but varies with chamber pressure in addition to location \(due to emissivity/radiation\) and equipment to equipment \[10\]. The above experiment can be repeated with various chamber pressure, and a plot of *K*v vs chamber pressure would be very helpful information in optimization of the process before tit is locked in for validation. The shelf surface temperature is difficult to measure if dryer is fully loaded with vials \(preferred option\). Inlet heat transfer fluid temperature \(or shelf temperature, as it normally referred to\) can be used in calculations of *K*v. One needs to remember that, in this case, *K*v will be freeze-dryer specific as it shown in Fig. 2. 
+![](images/000004.jpeg)
+
+
+***Fig. 2*** 
+*K*v comparison between laboratory, pilot, and commercial dryers \(10-ml Schott vials, \[11\]\). Note that shelf inlet temperature was used in calculations
+
+
+
+##### ***2.5.2.4 ***Actual Shelf Surface Temperature
+
+The freeze dryers are generally equipped with the temperature probes that monitor the temperature of the shelf-fluid \(inlet and outlets\) at each shelf. The shelf-fluid inlet temperature corresponds to the shelf temperature set point. However, it is quite common to observe a difference between the shelf temperature set point and the actual shelf surface temperature reading, a 3–4° colder during primary drying, depending upon the material and the thickness of the shelf as illustrated below. Shelf surface temperature is decreasing as compared to inlet temperature with increase in sublimation rate \[11\] \(Fig. 3\). 
+![](images/000005.jpeg)
+
+
+***Fig. 3*** 
+Actual shelf surface temperature observed against the set point
+
+
+
+##### ***2.5.2.5 ***Minimum Controllable Chamber Pressure as a Function of Sublimation Rate \(Experimental\)
+
+Sublimation test is also used to evaluate the minimum chamber pressure and maximum condenser temperature attainable at certain sublimation rates \[5\]. It is an important study to be performed as the minimum chamber pressure attainable at any given thermal load varies from one freeze dryer to another, and this performance variability could be due to one or more of several design characteristics of the freeze dryer. Evaluating both the minimum chamber pressure and maximum condenser temperature helps to identify whether lack of pressure control is either due to an increase in the condenser temperature due to refrigeration resistance/the design of the condenser system that is blocking the full vapor flow or it is the mass transfer resistance of the chamber to condenser pathway responsible for the freeze dryer’s inability to control pressure or combination of both. Such a thorough understanding of these characteristics is essential to proper scale-up and will be extremely useful in setting process design conditions.
+
+###### Methodology
+
+In this study, the plastic sheet of black garbage bags is recommended for couple of good reasons: firstly, they are thin and does not impose a significant heat transfer barrier, and secondly, when filled with water, it deforms to fit the contour of the shelf. The trays are made by fastening plastic sheets to the steel band, and they serve as bottom of the tray. To measure the shelf temperature at various shelf positions, flat adhesive thermocouples \(as an example, made by Omega Engineering, Inc.\) are placed on the shelf surface at representative shelf positions. If thermocouple happened to be under plastic \(bottom of tray\), thermal shield such as plastic weigh boat covered with aluminum foil is used to separate ice and thermocouple. Additionally, thermocouples are placed to measure ice temperature close to the bottom of tray \(not touching bottom\). Typically, a heavy rubber stopper is placed inside the tray when filling the tray with water. The stopper is cut into half, and two thermocouples are placed inside and located between two halves of the stopper at a certain distance from the bottom of tray \(1 mm and 7–8 mm\). Tape is utilized to keep thermocouples always at the same distance from the bottom of the tray. This serves as a cheap, but reliable a thermocouples holder. One needs to make sure that the thermocouples do not touch the bottom of the tray. The thermocouple, which is close to the bottom, is used for the calculations of ice bottom temperature, while the upper thermocouple is used to estimate approximately the pressure over the sublimation surface to identify the time when the calculated pressure over the sublimation surface is higher than the chamber pressure from beginning of sublimation. The theoretical temperature of the ice bottom is calculated using the equation shown below \(Eq. 1 \[11\]\).
+
+The trays are filled with premeasured amount of WFI from the container often using peristaltic pump to a fill volume enough to form about 3-cm ice slab. One should ensure no leaks during filling; if any leaks are found, either replace them or seal them.
+
+Cycle procedure is as follows: 
+
+1. 
+1.
+
+
+Start the freezing cycle to freeze the water to −50 °C, and hold it for 3–4 h to ensure complete solidification of ice before pulling down the vacuum to the lowest chamber pressure which is usually 10 mTorr.
+
+
+
+
+2.  
+2.
+
+
+Once the pressure is equilibrated, ramp the shelf temperature to −20 °C while keeping pressure set point at 10 mTorr, and wait until the pressure has equilibrated for at least 30 min \(pressure change not greater than 1 mTorr\).
+
+
+
+
+3.  
+3.
+
+
+Continue raising shelf temperature sequentially \(0, 20, 30, 40 °C or higher\) while maintaining the pressure set point of 10 mT.
+
+
+
+
+4.  
+4.
+
+
+Ensure that pressure is equilibrated before moving to the next step. During the step, if the pressure initially increases and then it starts declining as well as the product temperatures, then stop the test. It is likely that the sublimation surface has shrunk due to over drying indicating that more than 40% of water has sublimed.
+
+
+
+
+5.  
+5.
+
+
+Release vacuum and allow ice to melt at 25 °C and when all product temperatures reach 20–25 °C, indicating all the ice is melted start drawing water from the trays using peristaltic pump. Calculate weight loss and determine the sublimation rate.
+
+
+
+
+
+Example of sublimation test is shown in Fig. 4. 
+![](images/000006.jpeg)
+
+
+***Fig. 4*** 
+Process parameter profile during sublimation test \[11\]
+
+
+
+###### Calculation of Minimum Controllable Pressure as a Function of Sublimation Rate \(***P*****min** Test\)
+
+The stepwise approach to calculate the minimum controllable pressure as a function of sublimation rate \(*P*min test\) is summarized below. 
+
++ 
+The highest pressure at each step is the minimal controllable pressure \(*P*min\). For each step calculate the bag heat transfer coefficient using Eq. 1 \[10\]. 
+
+
+
+![$$ {K}_{\textrm{bag}}=\frac{0.7+33.2\ast 1.59\ast {P}_{\textrm{ch}}}{1+2.88\ast 1.59\ast {P}_{\textrm{ch}}} $$](images/000007.jpeg)
+
+
+\(1\)
+
+
+
+
+
+Note fudge factor 1.59, added to accont for the loss of contact between plastic and shelf. If not used, calculated value of removed water by integration of sublimation rate could be 20% lower as compared to the amount of water recovered after subimation test. 
+
++ 
+Calculate ice temperature at the bottom of ice slab using Eq. 2 and values of the distance from thermocouple to the bottom of tray, *K*ice = 0.0066/L\(cm-distance from the bottom\): 
+
+
+
+![$$ {T}_{\textrm{ice}\_\textrm{bottom}}=\frac{k_{\textrm{bag}}{T}_{\textrm{shelf}\_\textrm{surface}}+\frac{k_{\textrm{ice}}}{l}{T}_{\textrm{ice}}(l)}{k_{\textrm{bag}}+\frac{k_{\textrm{ice}}}{l}} $$](images/000008.jpeg)
+
+
+\(2\)
+
+
+
+
+
++ 
+Calculate normalized sublimation rate \(*B* = 53.25\) using Eq. 3, multiply by the surface area of trays to obtain the value of total sublimation rate SR \(kg/h\) at each step: 
+
+
+
+![$$ \frac{dm}{dt}\left(\frac{\textrm{kg}}{\textrm{h}\ast {\textrm{m}}^2}\right)={k}_{\textrm{Tray}}B\left({T}_{\textrm{shelf}\_\textrm{surface}}-{T}_{\textrm{ice}\_\textrm{bottom}}\right) $$](images/000009.jpeg)
+
+
+\(3\)
+
+
+
+
+
++ 
+Plot *P*min = *f*\(SR\), and fit to the linear or second power equation—obtain *A*, *B*, and *C* coefficients for *P*min = *f*\(SR\) \(Fig. 5\).
+
++  
+Integrate *dm*/*dt* and compare calculated weight loss with the measured one. If values are significantly different \(more than 5%\), adjust coefficients in *K*bag = *f*\(P\) equation, so calculated mass loss is aligned with the actual one. This will provide an “adjusted” sublimation rate that one could further use in the calculations.
+
++  
+During cycle design with primary drying model, the sublimation rate is calculated for each individual vial using cycle parameters \(*P*ch and *T*sh\). Then, it is multiplied by the number of vials to produce the total sublimation rate during primary drying. Using *P*min = *f*\(SR\) equation, minimum controllable pressure is calculated for each step in primary drying, and it is compared to the pressure set point. If *P*min exceeds the pressure set point, this means that dryer could not maintain this particular pressure, and cycle parameters during cycle design need to be adjusted to satisfy *P*min<*P*ch. 
+![](images/000010.jpeg)
+
+
+***Fig. 5*** 
+Minimum controllable pressure as a function of sublimation rate measured for 42 sq.m commercial freeze dryer
+
+
+
+
+
+###### Estimation of Maximum Sublimation Rate
+
+The maximum sublimation rate can be estimated from a similar experiment that is defined above for determination of minimum controllable pressure as a function of sublimation rate. The following is the stepwise approach: 
+
++ 
+Load dryer similarly to the *P*min test.
+
++  
+Start the test with the shelf temperature of 30 °C as a first step \(check the *P*min test for guidance\).
+
++  
+Increase shelf temperature stepwise similar to the *P*min test.
+
++  
+Stop the test when the condenser temperature \(*T*cond\) is > −40 °C.
+
++  
+Calculate sublimation rate at the point of test when *T*cond > −40 °C.
+
++  
+This is the maximum sublimation rate for this dryer \(Fig. 6\).
+
++  
+Confirm performance of dryer with most aggressive cycle.
+
+
+
+![](images/000011.jpeg)
+
+
+***Fig. 6*** 
+Estimation of maximum sublimation rate for 23 sq.m commercial freeze dryer
+
+
+
+##### ***2.5.2.6 ***Minimum Controllable Chamber Pressure as a Function of Sublimation Rate \(Computational Modelling\)
+
+In situations when it is not feasible to perform experiments on commercial freeze dryers to determine the equipment capability due to time, cost of operations, and unavailability of the equipment, one can consider using computational modelling as an alternative.
+
+Computational modelling applied to understand the lyophilization process and the performance of lyophilization equipment as a function of changing geometry has come of age. Several research groups including Kshirsagar et al. \[3\], Tchessalov \[12\], Barresi et al. \[13\], Ganguly et al. \[14\], and Zhu et al. \[15\] have investigated and demonstrated the capability and applicability of computational fluid dynamics \(CFD\) to not only estimate the desired performance parameters when coupled with 1D heat transfer equations to generate unsteady-state calculators for process design but also understand the vapor flow patterns, the distribution of pressure, and the relative concentration of water vapor and non-condensable gases in the freeze dryer product chamber.
+
+Figures 7 and 8 depict the work of Zhu et al. to estimate the minimum controllable pressure as a function of sublimation rate using CFD. These estimates were verified with the experimental data and was found to be in good agreement. 
+![](images/000012.jpeg)
+
+
+***Fig. 7*** 
+Workflow to predict the performance of a lyophilizer based on drawings: computational fluid dynamics \(CFD\) simulation setup
+
+
+![](images/000013.jpeg)
+
+
+***Fig. 8*** 
+Prediction of equipment capability \(choke flow\) at full load for various lyophilizers
+
+
+
+##### ***2.5.2.7 ***Manufacturing Environment \(Nucleation Temperature\)
+
+After thorough characterization of the freeze dryer to understand the equipment limitations and capabilities, the other important scaling up factor needed is the product resistance to be able to predict the process performance on the commercial freeze dryer using one-dimensional steady-state model with or without the combination of CFD modeling. The product resistance is dependent on the morphology of the ice which in turn is dependent on degree of supercooling or nucleation temperature. The degree of supercooling is defined as the difference between the equilibrium freezing point and the temperature at which ice crystals first form in the sample. In addition to cooling rates, the degree of supercooling is very dependent on the particle environment and since in manufacturing because of particle free environment \(Class A\) one observes a high degree of supercooling compared to laboratory environment. Due to high degree of supercooling and high resistance, the product in the manufacturing dries slightly warmer and slower compared to laboratory conditions requiring longer primary drying time and a review of shelf temperature set point. It is not always feasible to or at times challenging to determine the nucleation temperature or product resistance through the use of product probes as they are not considered true representative of nucleation temperature as they serve as nucleation site. One simple methodology/technique was put forward by Pikal et al. \[4\] that can be used to estimate the product resistance. It involves correlation of the product resistance and the degree of supercooling with the specific surface area of the product which can be used in estimating differences in product resistance and primary drying behavior caused by freezing variations. Using this correlation and SSA measurements, one could predict scale-up drying differences and accordingly alter the freeze-drying process so as to bring about equivalence of product temperature history during freeze drying. The stepwise approach is briefly described below,
+
+*Step 1:* Obtain few freeze-dried samples from clinical/commercial batches, and perform specific surface area measurements \(m2/g\) using a BET surface area analyzer \(as an example, Flowsorb II, Micromeritics Instrument Corporation, Norcross, GA\).
+
+The specific surface area of a material is related to pores of radius *r* and can be expressed as: 
+
+
+
+![$$ \textrm{SSA}=\frac{2\varepsilon }{\rho_s\left(1-\varepsilon \right)}\cdotp \frac{1}{r} $$](images/000014.jpeg)
+
+
+\(4\)
+
+
+where *ρ**s* is the density of solids and *ε* is the porosity.
+
+*Step 2:* Determine the radius of the pores using Eq. 1.
+
+For a given solids content, the SSA depends only on pore size, and since nucleation temperature is the major determinant of pore size, degree of supercooling and SSA can be expected to be well correlated.
+
+*Step 3:* Using Eq. 2 that relates the specific surface area with the resistance of the product, determine the product resistance: 
+
+
+
+![$$ {\hat{R}}_{\textrm{p}}=\sqrt{\frac{\pi RT}{2M}}\cdotp \frac{3}{4}\cdotp \frac{\tau^2}{\varepsilon}\cdotp \left(\frac{1}{r}\right) $$](images/000015.jpeg)
+
+
+\(5\)
+
+
+where *l* is the thickness of porous cake; *r* is the radius, where *τ* is the tortuosity; RT is the product of the gas constant and absolute temperature; and *M* is the molecular weight of water. The void volume fraction is *ε*, the cake thickness is *l*, and the pore radius is *r*. *τ* is frequently taken to be ≈ 1.5 \[16\].
+
+Since the dry layer resistance is not directly proportional to cake thickness as reflected in the above equation, the average resistance over a thickness range of 1 cm was considered in Pikal’s work \[4\].
+
+To express the average product resistance over a cake thickness range of zero to 1 cm, values of the parameters A1 and A2 can be obtained by fitting the equation describing product resistance behavior,  ![$$ {\hat{R}}_{\textrm{p}} $$](images/000016.jpeg) , as a function of cake thickness, *l* to the data \[17\].
+
+
+
+
+
+![$$ {\hat{R}}_{\textrm{p}}={R}_{\textrm{p}}(0)+\frac{A1\ast l}{1+A2\ast l} $$](images/000017.jpeg)
+
+
+\(6\)
+
+
+
+
+Thus, based on above approach, one can estimate the product resistance in a manufacturing environment and use it to predict the dependent process variables \(product temperature, primary drying time, sublimation rate\) for given independent variables \(shelf temperature and chamber pressure\). For example, increase in resistance by about 20% due to higher degree of supercooling \(higher SSA\) in clinical manufacturing conditions was estimated using approach described above.
+
+## **3 **Engineering Run
+
+Once the production scale freeze dyer characterization data is obtained, one-dimensional steady-state model in combination with CFD can be used to predict the output performance parameters/dependent variables \(product temperature, primary drying time and the sublimation rate\) on the production-scale freeze dyer for a given input parameters/independent variables developed on lab-scale freeze dryer and evaluate the differences in the performance parameters between the two freeze dryers and accordingly modify/optimize the freeze-drying process so as to bring about equivalence of product temperature history during freeze drying.
+
+Depending upon the availability of bulk drug substance \(BDS\) and commercial freeze dryer time as well as flexibility to use product probes, one can design a single engineering run to obtain maximum information and verify suitability of the optimized freeze-drying process both in terms of process robustness and product quality. If no constrains in the availability of BDS, the freeze dryer can be fully loaded with drug-active vials, while in situations where BDS is available in limited quantities, then a seeded run can be taken with drug-active vials at strategic locations surrounded by mimic solution vials. The mimic solution could be placebo \(just buffer with similar thermal properties and cake resistance\) when the protein/drug active in the formulation is very small compared the rest of the ingredients. In cases where the drug active/protein content is not small and is significant, then Dextran or BSA could be used in place of drug active or protein and will serve as a good mimic solution. The drug-active vails can be placed at strategic locations \(please see the diagram below\) as a group of 20–25 vials with one of them having a product probe. Usually, this is the only opportunity to collect product temperature profiles at locations of interest and compare with the predicted and fine tune the process conditions, if needed, before the PPQ runs. Additionally, the drug-active vials from various locations can be tested for their critical quality attributes \(CQA\) against the specifications to ensure they comply, especially the edge vials to ensure they are not exceeding the collapse temperature and negatively impacting the CQAs \(Fig. 9\). 
+![](images/000018.jpeg)
+
+
+***Fig. 9*** 
+Example of locations for placing drug-active vials
+
+
+
+
+**References**
+
+1.  
+1.
+
+Pikal MJ, Shah S, Senior D, Lang JE. Physical chemistry of freeze-drying: measurement of sublimation rates for frozen aqueous solutions by a microbalance technique. J Pharm Sci. 1983;72:635.[Crossref](https://doi.org/10.1002/jps.2600720614)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6875825)
+
+2.  
+2.
+
+Rhieu SY, Anderson DD, Janoria K. A regulatory perspective on manufacturing processes pertaining to lyophilized injectable products. AAPS J. 2020;22:100.[Crossref](https://doi.org/10.1208/s12248-020-00477-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32743675)
+
+3.  
+3.
+
+Kshirsagar V, Tchessalov S, Kanka F, Hiebert D, Alexeenko A. Determining maximum sublimation rate for a production lyophilizer: computational modeling and comparison with ice slab tests. J Pharm Sci. 2019;108:382.[Crossref](https://doi.org/10.1016/j.xphs.2018.10.061)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30414868)
+
+4.  
+4.
+
+Rambhatla S, Ramot R, Bhugra C, Pikal MJ. Heat and mass transfer scale up issues during freeze drying, II: control and characterization of the degree of supercooling. AAPS PharmSciTech. 2004;5:e58.[Crossref](https://doi.org/10.1208/pt050458)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15760055)
+
+5.  
+5.
+
+Srinivasan JM, Sacha GA, Kshirsagar V, et al. Equipment capability measurement of laboratory freeze-dryers: a comparison of two methods. AAPS PharmSciTech. 2021;22:53.[Crossref](https://doi.org/10.1208/s12249-021-01921-2)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33469853)
+
+6.  
+6.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73:1224.[Crossref](https://doi.org/10.1002/jps.2600730910)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+7.  
+7.
+
+Hardwick LM, Nail SL, Jarman J, Hasler K, Hense T. A proposed rationale and test methodology for establishment of acceptance criteria for vacuum integrity testing of pharmaceutical freeze dryers. Eur J Pharm Biopharm. 2013;85\(2\):236–9.[Crossref](https://doi.org/10.1016/j.ejpb.2013.05.021)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23899644)
+
+8.  
+8.
+
+Dern CD. The vacuum integrity testing of lyophilizers. Pharm Eng. 2005;25\(1\).
+
+9.  
+9.
+
+The Parenteral Society. Technical monograph no 7, 9: leak testing of freeze dryers. Wilshire, UK: The Parenteral Society; 1995. p. 7, 9.
+
+10.  
+10.
+
+Rambhatla S, Tchessalov S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, III: control and characterization of dryer differences via operational qualification tests. AAPS PharmSciTech. 2006;7\(2\):E61–70.[Crossref](https://doi.org/10.1208/pt070239)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750289)
+
+11.  
+11.
+
+Tchessalov S. Methodology of lyophilizers characterization to enable modeling of process parameters during cycle scale up, International society of lyophilization, Midwest chapter annual meeting, Chicago, April 2011.
+
+12.  
+12.
+
+Tchessalov S. Lyophilization process design for a given formulation. Principles of process scale up and transfer, introduction to the design space, SMI workshop, lyophilization USA annual meeting, Boston, October 25, 2019.
+
+13.  
+13.
+
+Barresi A, Pisano R, Rasetto V, Fissore D, Marchiso D. Model based monitoring and control of industrial freeze-drying processes: effect of batch non-uniformity. Dry Technol. 2010;28\(5\):577–90.[Crossref](https://doi.org/10.1080/07373931003787934)
+
+14.  
+14.
+
+Ganguly A, Varma N, Sane P, Bogner R, Pikal M, Alexeenko A. Spatial variation of pressure in the lyophilization chamber part-I: computational modeling. AAPS PharmSciTech. 2017;18:577–85.[Crossref](https://doi.org/10.1208/s12249-016-0513-3)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27151134)
+
+15.  
+15.
+
+Zhu T, Moussa EM, Witting M, Zhou D, Sinha K, Hirth M, Gastens M, Shang S, Nere N, Somashekar SC, Alexeenko A, Jameel F. Predictive models of lyophilization process for development, scale-up/tech transfer and manufacturing. Eur J Pharm Biopharm. 2018;128:363–78.[Crossref](https://doi.org/10.1016/j.ejpb.2018.05.005)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29733948)
+
+16.  
+16.
+
+Pikal MJ. Heat and mass transfer in low pressure gases: applications to freeze drying. Drugs Pharm Sci. 2000;102:611–86.
+
+17.  
+17.
+
+Pikal MJ. Use of laboratory data in freeze drying process design: heat and mass transfer coefficients and the computer simulation of freeze drying. J Parenter Sci Technol. 1985;39:115–39.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3839016)
+
+
+

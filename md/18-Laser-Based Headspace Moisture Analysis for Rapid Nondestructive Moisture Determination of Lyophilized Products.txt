@@ -1,0 +1,565 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_18](https://doi.org/10.1007/978-3-031-12634-5_18)
+
+
+**
+# Laser-Based Headspace Moisture Analysis for Rapid Nondestructive Moisture Determination of Lyophilized Products
+**
+
+
+Derek Duncan1  , James R. Veale2, Ken Victor2 and Adriaan H. de Goeij3
+
+
+\(1\) 
+Lighthouse Instruments, Amsterdam, The Netherlands
+
+
+\(2\) 
+Lighthouse Instruments, Charlottesville, VA, USA
+
+
+\(3\) 
+Adryan Consultants, Dordrecht, The Netherlands
+
+
+
+
+
+**Derek Duncan**
+
+**Email: **dduncan@lighthouseinstruments.com
+
+
+
+
+
+**1 **Introduction
+
+**1.1 **Importance of Residual Moisture Content Determination
+
+**1.2 **Traditional Methods to Determine Residual Moisture
+
+**1.3 **The Need for a Better Residual Moisture Determination Method
+
+**2 **Laser-Based Headspace Moisture Analysis
+
+**3 **Case Study: Correlation of Headspace Moisture to Total Moisture Content
+
+**4 **Case Study: Headspace Moisture as a Tool for Freeze-Drying Cycle Optimization
+
+**4.1 **Conclusions
+
+**5 **Case Study: Headspace Moisture as a Tool for Lyo Shelf Moisture Mapping
+
+**5.1 **Conclusions
+
+**6 **Case Study: Lyo Shelf Moisture Mapping to Demonstrate Freeze-Dryer Equivalence
+
+**6.1 **Conclusions
+
+**7 **Headspace Moisture Determination as a Water Activity Measurement
+
+**7.1 **Thermodynamic Activity of Water
+
+**7.2 **Moisture Sorption Isotherms
+
+**7.3 **Product Decay Rate
+
+**8 **Case Study: Correlation of Product Stability to Water Vapor Partial Pressure
+
+**8.1 **Pharmaceutical Formulation
+
+**8.2 **Sample Preparation and Storage
+
+**8.3 **Results and Discussion
+
+**8.4 **Conclusions
+
+**9 **Chapter Summary
+
+References
+
+
+## Abstract
+
+Residual moisture content is a critical quality parameter for freeze-dried pharmaceutical product and exists in different forms. Only the relatively “free” – in contrast to the more “bound” – water is capable of inducing degradation events within the product. However, traditional moisture analysis techniques employing gravimetric or Karl Fischer \(KF\) titration methods cannot distinguish between the different water states. Furthermore, these methods are time intensive, involve chemical reagents, and destroy the sample, limiting their utility to generate statistically relevant data. Developments in tunable diode laser absorption spectroscopy \(TDLAS\) offer an alternative technique enabling rapid, nondestructive moisture analysis. Laser-based headspace analysis measures the water vapor partial pressure in the product container headspace, providing a measure of the thermodynamic activity of the “free” water in the pharmaceutical sample. This chapter describes practical case studies demonstrating how laser-based headspace moisture analysis can generate statistical moisture data in various product life cycle activities involving freeze-dried pharmaceutical product.
+
+
+**Keywords**
+Water activity Moisture determination Product stability Freeze-dried product Lyophilization Headspace moisture analysis Frequency modulation spectroscopy Karl Fischer titration Moisture mapping Lyo cycle development
+
+
+## **1 **Introduction
+
+Lyophilization, or freeze-drying , is a process used to stabilize a pharmaceutical formulation and increase its shelf life by removing water from the drug product. During lyophilization, the drug formulation is first frozen, and the ice is then removed by sublimation under vacuum during a primary drying phase. Finally, a secondary drying phase is used to remove unfrozen water molecules at a temperature higher than that used for primary drying. Pharmaceutical freeze-drying cycles are designed to remove most of the loosely bound water and to achieve a pharmaceutically elegant cake. For biological materials, it is also important to retain a high level of pharmacological activity in the final product which may impose extra requirements on moisture content.
+
+### **1.1 **Importance of Residual Moisture Content Determination
+
+Determining the residual moisture content of a lyophilized pharmaceutical product is important for several reasons. First, the amount of residual moisture content is related to the stability of the formulation over the product shelf life. Small-molecule formulations can have direct degradation pathways triggered by water, and it is crucial that all finished product is dried to a level below a defined residual moisture specification. In general, the degradation pathways for large-molecule formulations are more complex, with water often playing an indirect role. It should be noted here that the residual water content in a freeze-dried product is present in a number of different states that are differentiated by the intensity and type of its chemical and physical interactions with both the excipients and the active pharmaceutical ingredient \(API\). At the most simplistic level, these different states are frequently referred to as either “bound” – including adsorbed, chemically bound and water of crystallization – or “free” to denote water that, in contrast, may be weakly interacting with the solutes and is free to migrate based on the chemical potential between components of the formulations and the environment surrounding the product. It is the general consensus that only this free, or active, water is available for chemical reactions. Because too much free water can trigger possible degradation pathways of the active pharmaceutical ingredient, the presence of free water has the greatest impact on product stability.
+
+A second reason underlying the importance of residual moisture determination is that process studies involving residual moisture analysis of finished product can give deep insight into the freeze-drying process itself. In particular, the consequences of process variability on final product quality can be investigated and characterized. Residual moisture determination can be used as a tool to confirm the efficiency and robustness of a specific freeze-drying cycle for a particular drug formulation or to optimize and validate the performance of a particular freeze-dryer. Typical pharmaceutical freeze-drying cycles target residual moisture contents in the range of 1–3% water by weight. Historically, a strategy that can be described as “the drier, the better” was often followed. For small molecules having a direct degradation pathway triggered by water, this approach was an appropriate strategy. However, in the world of large biopharmaceutical molecules, it is possible to overdry the product.
+
+It is now generally known that even in the lyophilized state, proteins depend on small quantities of water to help maintain higher-order structure. Other types of products, such as certain lyophilized blood plasma formulations, need a minimum amount of water to achieve efficient dry-heat viral inactivation. It is therefore sometimes necessary to design a freeze-drying cycle that keeps all finished product samples within a certain moisture range, having both minimum and maximum specifications. During ongoing pharmaceutical industry operations, research and development efforts often do not have the time to fully optimize the formulation and/or the freeze-drying cycle. Although conservative drying cycles produce product that meet quality parameters \(i.e., sufficiently low residual moisture\), the same product quality could possibly be produced with shorter cycles, saving time, and energy costs, if appropriate development is done to optimize the formulation and the process. For these reasons, a lot of resource and effort has been made in the past years to understand how to model, design, and control freeze-drying cycles. Current scientific approaches use various tools to monitor the lyophilization process with the goal of defining and controlling optimum freeze-drying cycles on a per formulation basis \[11, 19, 20\].
+
+### **1.2 **Traditional Methods to Determine Residual Moisture
+
+In contrast to the focused attention and innovative work in the past years to design and monitor improved freeze-drying processes, less progress has been made in developing better residual moisture determination techniques for the analysis of finished product. The traditional methods used in the pharmaceutical industry for residual moisture determination have been thermogravimetric analysis \(TGA\) and Karl Fischer \(KF\) titration. For freeze-dried product, Karl Fischer titration is the most widely used method today and measures the total water in the freeze-dried vial, assuming that the sample is wholly soluble in the KF medium. Although titration methods have improved over the years, KF methods are time-consuming, require operator expertise and careful sample handling to avoid contamination by environmental moisture, and are destructive \(in other words, the sample is destroyed during the analysis\).
+
+Unlike Karl Fischer, which relies on a chemical reaction to detect water, TGA methods measure the weight loss as the sample is heated, driving off residual moisture. These methods measure not only the water but also any other volatiles that are produced as a result of heating. Therefore, the composition of the lyophilized material must be well understood for TGA methods to be used for accurate measurement of the residual water content. The methods also suffer from potential artifacts due to environmental moisture and therefore require careful handling by the operator, are time-consuming, and are also destructive.
+
+### **1.3 **The Need for a Better Residual Moisture Determination Method
+
+The destructive nature of the traditional methods limits their utility for generating statistically relevant data in freeze-dried product stability and process studies. In a stability study where moisture content is to be correlated to the concentration of active ingredient, a set of vials must be destructively tested at each time point for each parameter. Therefore, sample sets are kept relatively small to avoid destruction of scarce material. In addition, an implicit assumption is made that each of the vials tested at a particular time point are identical, which may or may not be the case. The ability to measure both product moisture and degradation of active ingredient in a single sample would result in more robust data to determine accurate moisture stability specifications and require less material for a stability study. In the area of process studies, the absence of statistically relevant residual moisture data using the traditional methods means that limited insight can be gained into the consequence of process variability on final product quality. A complementary moisture determination method that is rapid, as well as nondestructive, would enable straightforward generation of statistical residual moisture data in process studies and, thereby, give insight into both the consequences of process variability on final product quality as well as the root cause of the process variability. The results of such studies could then be fed back into process design activities. Finally, the traditional moisture methods do not distinguish between free \(active\) water and bound water, making it difficult to both scientifically investigate the correlation of different states of water to degradation and to gain insight into moisture dynamics that might occur in the freeze-dried matrix over time.
+
+As a rapid nondestructive analytical method, headspace moisture analysis can complement the traditional residual moisture determination methods. The case studies described in this chapter will demonstrate that a rapid, nondestructive headspace moisture method enables a variety of applications during the product life cycle of a freeze-dried pharmaceutical product that give deep insight into product and process quality. The fact that a headspace moisture measurement can also be readily translated into the water activity associated with the freeze-dried formulation will be presented in the final case study.
+
+## **2 **Laser-Based Headspace Moisture Analysis
+
+Tunable diode laser absorption spectroscopy \(TDLAS\) is a rapid and nondestructive analytical method suitable for monitoring gas concentrations and vacuum levels in the headspace of sterile product containers. Diode lasers are compact and robust solid state electro-optic devices that are critical components in many industrial applications, such as sensors for combustion control and fiber optic telecommunications. Devices can be fabricated to emit wavelengths in the red and near infrared \(NIR\) regions of the electromagnetic spectrum, where molecules of interest to the pharmaceutical industry such as oxygen and moisture absorb light. For the purposes of trace gas monitoring, the narrow linewidth and tunability of a diode laser make them ideal for high resolution and high sensitivity spectroscopy of gases. In addition, diode lasers are well suited to frequency modulation signal processing techniques that increase detection sensitivity and compensate for the relatively weak absorption strengths of near infrared overtone and combination transitions of the gas molecules of interest. These device characteristics make diode laser-based measurement systems ideal for monitoring and controlling gas concentration and pressure of common atmospheric molecules, such as oxygen and moisture, during pharmaceutical manufacturing of sterile products.
+
+Sterile product containers made of glass \(amber and clear\) and translucent plastics allow the transmission of NIR diode laser light. Pharmaceutical applications where trace gas levels are monitored in small volume parenteral containers require the use of a high sensitivity laser absorption technique. One such technique is known as frequency modulation spectroscopy \(FMS\). This technique was developed in academic and industrial laboratories \[1, 12\] and enables the rapid nondestructive measurement of trace amounts of gases in relatively small sealed containers. Systems for rapid nondestructive headspace analysis based on modulated diode laser spectroscopy were first introduced to the pharmaceutical industry 20 years ago \[22\] and are now routinely used in product development, process development, and commercial manufacturing departments. The technology has been implemented in the pharmaceutical industry for a wide variety of applications including vacuum leak detection \[13\], container closure integrity testing \[6, 18, 25\], container closure integrity testing of deep cold storage product \[24, 26\] oxygen monitoring \[21\], and detection of contaminated media vials \[5, 10\]. For moisture determination applications, commercial diode lasers are available that produce narrowband light around 1.382 μm. Water vapor absorbs near infrared light in a band of transitions around this wavelength. The water vapor 101 band is a series of ro-vibrational transitions that combine the symmetric stretch \(ν1 2.734 μm\) and asymmetric stretch \(ν3 2.662 μm\). The absorption strength of these forbidden and combination transitions are many orders of magnitude weaker compared to the fundamental absorption bands. This, combined with the fact that the absorption path length related to the diameter of pharmaceutical vials is relatively small \(the diameter of a 2R vial is 16 mm\), means that high-sensitivity detection methods such as frequency modulation spectroscopy \(FMS\) are required to measure the water vapor levels of interest in freeze-dried pharmaceutical vials \[23\]. Practically, headspace moisture is measured by shining laser light through the vial headspace, tuning the laser to an absorption wavelength of the water molecule, and then analyzing the absorption signal to determine the vial headspace water vapor partial pressure.
+
+It is important to note that TDLAS methods such as FMS measure the signal from a single absorption line of the water vapor molecule rather than the total signal from a wide spectra of multiple absorption lines typically measured with broadband NIR absorption techniques. It should also be noted that the FMS measurement for moisture is a primary method, as the measurement returns a quantitative value for the partial water vapor pressure, while broadband NIR techniques are secondary methods as the output of the measurement are spectra. The collected NIR spectra need to be compared to a primary reference method \(usually KF\) and used as input for sophisticated algorithms to compute a moisture value.
+
+In addition to the previously mentioned publications, the use of FMS has been described for a variety of pharmaceutical moisture applications including water activity determination of pharmaceutical oral solid dosage product \[14\], residual moisture determination of lyophilized product \[8\], moisture mapping of freeze-dryer shelves \[9\], and water activity determination of freeze-dried biological vaccines \[3\]. The case studies of this book chapter will describe some of these moisture applications in more detail.
+
+## **3 **Case Study: Correlation of Headspace **Moisture** to Total **Moisture** Content
+
+The headspace water vapor pressure can be used to determine the moisture content of a lyophilized vial by performing a correlation between FMS and Karl Fischer measurements. A set of samples can be prepared for a correlation study such that moisture content over the sample set ranges from below to above the target specification of the freeze-dried formulation. The data presented in Fig. 1 \[16\] shows an example of a correlation between the headspace moisture, as measured by FMS, and the total moisture content, as measured by KF titration, for a set of lyophilized samples with a range of moisture from 0.5% by weight to 3% by weight. Vial headspace moisture was measured first using FMS headspace analysis; the total product moisture content was then destructively measured on the same sample using KF. The samples measuring 0.5% moisture by weight with KF measured ~3 mbar of headspace moisture and the vials measuring 3% moisture by weight correlated to ~13 mbar of headspace moisture. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+The total water content of the product, as measured by Karl Fischer **\(**KF\), versus the headspace moisture content of the product, as measured by frequency modulation spectroscopy \(FMS\), for a pharmaceutical formulation. The plot contains 180 data points
+
+
+
+As an additional part of this study, FMS measurements were also compared to moisture content results obtained using a nondestructive NIR method. Spectra were measured and moisture content values calculated using an existing model for the specific formulation. A comparison of more than a thousand samples over the range of moisture values in the study resulted in correlations similar to Fig. 1. This is not surprising as nondestructive NIR methods are secondary methods linked to primary KF reference methods. To calculate moisture content values from the spectra, sophisticated models are used that rely on quantitative values from a primary reference method which is usually KF.
+
+The correlation between the amount of active water, as measured by FMS headspace analysis, and the total water in a lyophilized vial, as measured by KF titration, will vary depending on the structural characteristics of the formulation \(e.g., amorphous or crystalline structure\). Crystalline structures, such as mannitol, have higher water activities than amorphous structures, such as sucrose, resulting in higher headspace moisture content for a given total moisture content \[9\]. The data in Table 1 shows how the relationship varies between total water \(by weight\) and the amount of free water in the headspace above the cake \(partial water vapor pressure\) as a function of the cake structure. Row 3 of the table shows the ratio of headspace moisture, as measured by FMS, to total water, as measured by KF. The ratios give the vapor pressure of water above the cake given buffer formulations with 1% moisture by weight. For example, sucrose 4%, an amorphous structure, will produce 0.71 torr of headspace moisture for each 1% moisture by weight. A mixture of mannitol 2% and glucose 1% will produce 0.85 torr of water in the headspace for each 1% moisture by weight. Mannitol 2% will produce 1.25 torr of headspace moisture, and NaCl 5% will equilibrate to 5.95 torr of moisture in the headspace for each 1% moisture by weight. 
+
+
+***Table 1*** 
+Comparison of Karl Fischer measurements to headspace moisture measurements for amorphous, crystalline and combination structures \[8\]
+
+
+
+**Sucrose 4%**
+
+**Mannitol 2% \+ Glucose 1%**
+
+**Mannitol 2%**
+
+**NaCl 5%**
+
+Karl Fischer \(% w/w\)
+
+2.87
+
+3.9
+
+5.04
+
+1.03
+
+FMS headspace moisture \(torr\)
+
+2.03
+
+3.3
+
+6.32
+
+6.13
+
+FMS/KF ratio
+
+0.71
+
+0.85
+
+1.25
+
+5.95
+
+
+
+Headspace water vapor is a measure of the “active” water available to chemically interact with the active ingredient and excipients. This fact allows the headspace water vapor measurement to be equated to the water activity associated with the product, assuming a system in equilibrium at a defined temperature. This concept will be explored more thoroughly later in the chapter.
+
+## **4 **Case Study: Headspace Moisture as a Tool for Freeze-Drying Cycle Optimization
+
+In the case study described here, two batches of freeze-dried product were manufactured using an initial and an optimized lyophilization cycle. Each batch contained approximately 1600 10 mL clear tubing vials which were lyophilized in trays in a pilot freeze-dryer. At the end of secondary drying, the vials were stoppered under 800 mbar of nitrogen, the chamber was vented to atmosphere, the vials were removed, and then finally capped and crimp-sealed. The headspace moisture in all samples from each batch were measured using a Lighthouse FMS-Moisture/Pressure Headspace Analyzer.
+
+The results of the headspace moisture analysis of product manufactured using the initial lyo cycle are shown in Figs. 2, 3, 4, and 5. The results are plotted in two different ways. Figure 2 displays the headspace moisture values of all samples from all trays plotted from low to high values. This moisture distribution gives insight into the efficiency of the lyo cycle as a whole. The high moisture tail in this distribution indicates that a significant portion of samples did not dry efficiently and contain elevated levels of water. In addition, the moisture distribution as a whole has a significant slope indicating nonhomogenous drying across the different trays. 
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Moisture distribution across an entire lot for cycle I. Data are plotted from low to high headspace moisture
+
+
+![](images/000003.jpeg)
+
+
+***Fig. 3*** 
+Moisture distribution across individual trays in a freeze-dryer. The product was not dried in a particularly uniform manner
+
+
+![](images/000004.jpeg)
+
+
+***Fig. 4*** 
+Moisture distribution across an entire lot for optimized cycle. Plotted from low to high headspace moisture
+
+
+![](images/000005.jpeg)
+
+
+***Fig. 5*** 
+Moisture distribution across individual trays for an optimized lyophilization cycle
+
+
+
+Figure 3 displays the headspace moisture value as a function of tray position. For each tray the average, standard deviation, maximum and minimum headspace moisture values are reported. It is clear from this graph and the statistics that the drying efficiency for this lyo cycle is dependent on location within the freeze-dryer. For example, the average headspace moisture values and the standard deviation for samples in tray 2 were significantly lower than for samples in tray 4.
+
+The insight gained from headspace moisture analysis of the first pilot batch drove a process optimization activity. The lyophilization cycle was modified to target more consistent and optimized drying, and a second pilot batch was produced. The results of the headspace moisture analysis on product manufactured using the modified lyo cycle are shown in Figs. 4 and 5. The overall headspace moisture values are lower indicating on average drier product. Headspace moisture as a function of tray position \(Fig. 5\) shows more consistent drying across the freeze-dryer shelf. The overall moisture distribution plotted in Fig. 4 clearly shows that the modified freeze-drying cycle has produced a more consistent, homogenous, and drier product. This distribution is now much flatter than the moisture distribution in Fig. 2.
+
+The outliers produced in each cycle offer some interesting insight. The sample with the highest moisture content in the first cycle \(Fig. 2\) was in tray 4 and had a moisture value of 4.88 mbar. In the second cycle where average moisture values dropped by 44% compared to the first cycle, the sample with the highest moisture content \(Fig. 4\) was in tray 6 and had a moisture value of 7.96 mbar, a factor of 1.6 times higher. This seems to indicate that outliers are random and independent of the cycle. In the second pilot batch, there are still a significant number of vials \(6 out of 1898\) that have moisture content a factor of 2 or more above the average. The potency of these out-of-specification product vials could be at risk over the product shelf-life.
+
+### **4.1 **Conclusions
+
+Headspace moisture analysis can help characterize freeze-drying cycles and enable data-driven decisions directly linked to final product quality to optimize the cycle. Because the technique is nondestructive, it can also provide 100% inspection capabilities for identifying out of specification product. The total time for the moisture analysis of the two pilot batches described above \(~3200 samples\) was approximately 9 h using a manual benchtop system. Automated systems that can be run at inspection speeds of hundreds of vials per minute could inspect this number of vials in minutes. Therefore, deep insight into the process can be obtained with relatively little effort when using FMS for headspace moisture analysis of the finished product.
+
+## **5 **Case Study: Headspace Moisture as a Tool for Lyo Shelf Moisture Mapping
+
+To help ensure the quality of pharmaceutical drug product, regulatory authorities require proof that freeze-drying cycles have been robustly designed and developed and that they demonstrate uniformity in the quality of the final product they produce. The previous case study showed how headspace analysis gives insight into final product variability caused by the process. There are other sources of final product variability, including the equipment \(freeze-dryer configuration\) and the material \(formulation ingredients\). Figure 6 shows the measured headspace moisture levels of freeze-dried product produced on a shelf in a pilot freeze-dryer \[8\]. The numbers in the graphic are the measured water vapor levels in each vial \(in units of torr\), with the darker colors representing higher moisture values. A correlation study demonstrated that the measured low value of 0.4 torr was equivalent to 1% water by weight as measured by Karl Fischer and that the measured high value of 3.2 torr was equivalent to 4% water by weight. By tracking the location of the vials on the lyo chamber shelf, a moisture map could be generated that clearly shows a wet spot in the middle of the shelf. This well-known phenomenon can be attributed to the fact that the central vials experience less radiative heat from the side walls of the lyophilization chamber and, therefore, dry at a slower rate than vials located on the edges of the shelf \[17\]. 
+![](images/000006.jpeg)
+
+
+***Fig. 6*** 
+Moisture map created from headspace moisture analysis of freeze-dried vials from a lyo chamber shelf. \(Low value 0.4 torr = 1% KF; high value 3.2 torr = 4% KF\)
+
+
+
+The data in Fig. 7 shows the measured headspace moisture levels of freeze-dried product produced in the same pilot freeze-dryer with the same freeze-drying cycle but now with the vials being placed directly on the freeze-dryer shelf instead of in steel-bottomed trays \[8\]. The partial water vapor pressures plotted in Fig. 7 are much more uniform and the values lower than those in Fig. 6. The direct contact with the freeze-dryer shelf increases the heat transfer to the product compared to using steel-bottomed trays. The increased drying produces a much more homogeneous batch with the same freeze-drying cycle. 
+![](images/000007.jpeg)
+
+
+***Fig. 7*** 
+Moisture map created from headspace moisture analysis of freeze-dried vials from a lyo chamber shelf. \(Low value 0.2 torr = 1% KF; high value 1.0 torr = 1.8% KF\)
+
+
+
+### **5.1 **Conclusions
+
+In addition to giving deep insight into process variability as described in the previous case study, headspace moisture analysis can give insight into variability due to the freeze-drying equipment used. In this case study, the difference between using steel-bottomed trays and placing the product vials directly on the freeze-dryer shelf is clearly measurable in the headspace water vapor levels and can be linked to parameters such as shelf location, degree of shelf contact, and radiative heating.
+
+## **6 **Case Study: Lyo Shelf **Moisture Mapping** to Demonstrate Freeze-Dryer Equivalence
+
+When scaling up the production of a commercial freeze-dried product over multiple freeze-dryers at the same site, or across different sites, one of the challenges is to demonstrate that the freezer dryers are equivalent to one another. Duplicating the same freeze-drying cycle on different pieces of equipment often does not produce the same uniformity and end product moisture content values. A number of equipment parameters can contribute to this variability including lyo chamber size, freeze-dryer model, condenser size, etc. With the limited final product testing that can be achieved with the traditional moisture determination methods, there is usually no data available such as that described in the previous case studies that give deep insight into the impact of process and equipment variability across a full commercial scale batch. This case study describes headspace moisture studies on two freeze-dryers capable of producing commercial scale batches \[2\]. The objective was to investigate if the two freeze-dryers could produce equivalent batches with respect to product moisture content using the same freeze-drying cycle \(the two freeze-dryers were different models and slightly different in size\).
+
+Figure 8 shows the moisture map of one of the shelves in Freeze-Dryer 1. The same approach was used as described in the previous case study: rapid nondestructive headspace moisture analysis using FMS was used to perform 100% of product tracked by location on the freeze-dryer shelf. The product was a 5% sucrose placebo formulation that was freeze-dried with a defined cycle. Correlations to KF were made with a subset of samples to understand how the measured water vapor partial pressure values related to total vial moisture content. The resulting moisture map shows a reasonably homogeneous batch with slight signs of wetter product in the center of the shelf, and the produced moisture values were slightly above the desired moisture content. Figure 9 shows a moisture map of the corresponding shelf in Freeze-Dryer 2, and the results are much different. There is much more variability in the measured water vapor levels across the shelf, with the edge vials having been dried to their desired moisture content but the center vials being much wetter. Clearly, the two freeze-dryers are not equivalent when using the defined cycle to freeze-dry the 5% sucrose placebo formulation. 
+![](images/000008.jpeg)
+
+
+***Fig. 8*** 
+Freeze-Dryer 1 moisture mapping results
+
+
+![](images/000009.jpeg)
+
+
+***Fig. 9*** 
+Freeze-Dryer 2 moisture mapping results
+
+
+
+Because the freeze-dryers were to be used to lyophilize biopharmaceuticals, it was decided to add 2.5% bovine serum albumin \(BSA\) to the placebo formulation. Running the same freeze-drying cycle as before on both freeze-dryers would then mimic the freeze-drying of a biopharmaceutical formulation. Figure 10a and b show the moisture maps from these second batches produced with Freeze-Dryer 1 and Freeze-Dryer 2, respectively. In spite of the fact that the same freeze-drying cycle was used, the moisture maps now show end product that has extremely good uniformity across the shelf for both freeze-dryers with moisture values that are all within the desired range. The data is a good example of how headspace analysis can be used to produce moisture maps that prove the equivalence of two freeze-dryers and uniformity across a batch of finished product. The results also demonstrate how an adjustment to the formulation \(in this case adding 2.5% BSA\) can have a significant effect on the rate and uniformity of the drying process. 
+![](images/000010.jpeg)
+
+
+***Fig. 10*** 
+Moisture mapping results of Freeze-Dryer 1 \(left\) and Freeze-Dryer 2 \(right\) using the same freeze-drying cycle but now with a formulation that has 2.5% BSA added to mimic the freeze-drying of a biopharmaceutical. The two freeze-dryers now show equivalent results
+
+
+
+### **6.1 **Conclusions
+
+This case study again demonstrates the utility of headspace moisture analysis as an analytical tool enabling deep insight into potential moisture content variability in the finished product due to the process, freeze-drying equipment, and product formulation. The data sets described here were applied to prove the equivalence of two freeze-dryers for uniformly freeze-drying a biopharmaceutical placebo with a defined freeze-drying cycle.
+
+## **7 **Headspace Moisture Determination as a Water Activity Measurement
+
+In this chapter thus far, a number of examples have been given in which headspace water vapor levels measured inside of a freeze-dried vial were directly correlated to KF total moisture content measurements of those same vials. The final case study will show how headspace water vapor measurements can be directly correlated to the degradation of the active pharmaceutical ingredient \(API\). Direct correlation of headspace moisture to API degradation means that the stability of a freeze-dried product could be defined in terms of the water vapor pressure inside the sealed vial. By doing so, neither KF measurements themselves nor a correlation to them would be required. A direct correlation between the headspace moisture of the lyophilized product and its stability would not be surprising as the equilibrated partial water vapor pressure at a defined temperature is actually the water activity of the freeze-dried material inside the sealed vial. Note that water activity is a thermodynamic property \(refer to Eq. 1\) and provides a measure of how much free water is available for interaction with, and potential degradation of, the API.
+
+The fact that the free water in a product is a better predictive metric for product stability than its total moisture content is increasingly being recognized in the pharmaceutical industry. Previous work \[7\] involving pharmaceutical oral solid dosage products has already demonstrated the use of headspace water vapor measurements as a means of determining their water activity. For these studies, pills were sealed in glass vials that were then equilibrated to a pre-defined temperature; the subsequent headspace water vapor measurements were used to then quantify the water activity associated with the pills. This concept has been further developed over the years and headspace water activity measurements are now used as the routine QC moisture method for certain solid dosage product, replacing the traditional total moisture content measurement as measured by KF titration. Indeed, in recognition of its importance, a new compendial *US Pharmacopeia* chapter, USP <922> “Water Activity” states the following:
+
+“Many pharmacopeial articles include water within their matrices and are also susceptible to water exchange with the surrounding environment. Total water content is an important quality attribute, and several methods for determining water content are provided in Water Determination <921>. Some of the water may be tightly bound and not available to participate in chemical, biochemical, or physicochemical reactions \(e.g., as hydrate salts\), whereas some of the water may be more freely available to participate in reactions such as hydrolysis or may provide an environment that can support microbiological growth. It is important to establish what fraction of the total water is available \(active\), and the determination of water activity \(aw\) provides this information.”
+
+### **7.1 **Thermodynamic Activity of Water
+
+At thermal equilibrium, the total water content of a packaged pharmaceutical will partition itself between the pharmaceutical product and the surrounding headspace in such a manner as to balance the chemical potential of the water *μ*water in both the product and the headspace. The chemical potential represents the potential energy that can be absorbed or released and used to move water molecules around within a solid matrix or between the solid phase and vapor phase. Water can be involved in chemical reactions or undergo a phase transition. The thermodynamic activity of water, *a*w, is defined as the change in this chemical potential from a chosen standard state: 
+
+
+
+![$$ {a}_{\textrm{w}}=\mathit{\exp}\left(\frac{\mu_{\textrm{w}\textrm{ater}}-{\mu}_{\textrm{w}\textrm{ater}}^{\Theta}}{R\textrm{T}}\right) $$](images/000011.jpeg)
+
+
+\(1\)
+
+
+where  ![$$ {\mu}_{\textrm{water}}^{\theta } $$](images/000012.jpeg)  represents the water chemical potential at the chosen standard state. Thus, the water activity will depend on any factor that alters its chemical potential including, most commonly, its concentration, temperature, pressure, and chemical environment. At the typical storage temperatures, pressures, and humidity levels for pharmaceutical products, water vapor can be treated as an ideal gas, and, consequently, the activity of the water in the solid product can be expressed in terms of the water vapor partial pressure *p*water in the vial headspace: 
+
+
+
+![$$ {a}_{\textrm{w}}=\mathit{\exp}\left(\frac{\mu_{\textrm{w}\textrm{ater}}-{\mu}_{\textrm{w}\textrm{ater}}^{\Theta}}{R\textrm{T}}\right)=\frac{p_{\textrm{w}\textrm{ater}}}{p_{\textrm{w}\textrm{ater}}^{\theta }} $$](images/000013.jpeg)
+
+
+\(2\)
+
+
+where  ![$$ {p}_{\textrm{water}}^{\theta } $$](images/000014.jpeg)  represents the water vapor pressure under standard state conditions. Typically, pure water at the same temperature and pressure is used as the standard conditions.
+
+Note that by definition, the water activity is 1.0 for pure water \(i.e., the standard state\). The presence of any other molecule or substance that interacts with water will decrease the chemical potential of the water to reflect that it will now require more external energy input to liberate the water molecule into the gas phase. If the water is chemically bound, then both its chemical potential and partial pressure approach zero. In other words, by providing a means of quantifying the water thermodynamic activity, the partial pressure of water in the headspace provides a measure of the amount of “free” water that exists within the pharmaceutical product.
+
+The use of the designation “free” water is in recognition that the water in the pharmaceutical can exist in various states in which it is chemically interacting with varying intensity with either the excipients or the active ingredient of the drug product. In contrast to the “free” water, “bound” water molecules are strongly interacting with the pharmaceutical and are essential for maintaining structural integrity of the product ingredients. In between these two extremes, water can exist in a multitude of other states that reflect different types of interactions with the pharmaceutical product.
+
+### **7.2 ****Moisture Sorption Isotherms**
+
+Moisture sorption isotherms represent an experimental means of characterizing the relationship, at a constant temperature, between the gain or loss of total water content in a pharmaceutical product and its associated water activity. As originally described by Brunauer et al. \[5\] for any gas, these empirical relationships reveal that as water is added to \(or removed from\) a product, the associated water activity is not a simple linear relationship over the entire range of product moisture content. This is a direct consequence of the fact that there are multiple water forms with different states of chemical interactions with the pharmaceutical product, both the excipients and the active ingredient.
+
+### **7.3 **Product Decay Rate
+
+In general, the product decay rate *Κ* of a substance can be defined as follows: 
+
+
+
+![$$ A(t)=A(0)\exp \left(- Kt\right) $$](images/000015.jpeg)
+
+
+
+where *Α*\(*t*\) represents the amount of the active product that exists at time *t*. This equation can be rewritten as follows: 
+
+
+
+![$$ -1\cdot \ln \left(\frac{A(t)}{A(0)}\right)= Kt $$](images/000016.jpeg)
+
+
+\(3\)
+
+
+
+
+The product decay rate can also be expressed in terms of its associated activation energy *E*a via the Arrhenius equation: 
+
+
+
+![$$ K=F\exp \left(\frac{-{E}_{\textrm{a}}}{RT}\right) $$](images/000017.jpeg)
+
+
+
+or re-expressed as: 
+
+
+
+![$$ -\ln (K)=\frac{E_{\textrm{a}}}{RT}-\ln (F) $$](images/000018.jpeg)
+
+
+\(4\)
+
+
+where the frequency factor *F* represents total number of collisions per second between the two chemical reactants. Thus, for products that are sensitive to water, the frequency factor *F* will be directly proportional to the concentration of the free water remaining in the pharmaceutical product. The exponential factor containing the activation energy represents the probability that any given collision will result in a degradation reaction. Taken together, the Arrhenius equation states that the product decay rate will increase as both the temperature and water content of the pharmaceutical increase. Furthermore, because the water partial pressure reflects the water activity \(*a*w\) within the pharmaceutical, the decay rate \(Κ\) of the pharmaceutical at a given temperature can be determined, in principle, by measuring the water partial pressure \(*p*water\) in the vial headspace at that temperature.
+
+## **8 **Case Study: Correlation of Product Stability to Water Vapor Partial Pressure
+
+The study described here demonstrates that the stability of a pharmaceutical freeze-dried product can be quantified in terms of a vial headspace water vapor determination \(or, equivalently, water activity of the formulation\) measured using laser-based headspace analysis. For the study, a pharmaceutical freeze-dried formulation was chosen that has well-characterized degradation pathways due to the presence of moisture. Product stability studies and subsequent data analysis showed that the headspace water vapor content in a sealed freeze-dried product vial directly correlated with the degradation rate of the pharmaceutical product.
+
+### **8.1 **Pharmaceutical **Formulation**
+
+The pharmaceutical formulation used in the study was a marketed freeze-dried powder for injection. The active ingredient, vecuronium bromide, is a quaternary ammonium compound that acts as a neuromuscular blocking agent by competing for cholinergic receptors at the motor end plate. It is well known that the active component is susceptible to hydrolysis, which can occur on several locations in the molecular structure, and the degradation products are known to be further reduced by hydrolysis until stable degradants are obtained \(see, e.g., the USP monograph on vecuronium bromide for more detail\). Due to its susceptibility to hydrolyzing, the product is formulated as a freeze-dried powder for injection \(i.e., a lyophilized cake\).
+
+The focus of the stability study was to document the generation of the different impurities, as observed via HPLC analysis, and to correlate their appearance with the moisture content in the product headspace, as measured by using nondestructive laser-based headspace analysis. Briefly, several sets of product samples at different levels of moisture content were produced and followed over a period of 6 months at three different temperatures \(25, 40, and 60 °C\). Headspace moisture content, together with traditional Karl Fischer \(KF\) moisture determination and other analytical methods, was used to monitor the chemical degradation of vecuronium.
+
+### **8.2 **Sample Preparation and Storage
+
+Typical production samples contain approximately 0.5% water by weight \(w/w\) moisture, corresponding to a water content of approximately 1.1 mg/vial. In order to fabricate samples with a range of different moisture levels for the stability study, production vials were opened to allow the freeze-dried product to absorb water vapor from the atmosphere until product moisture contents of 0.5%, 1.0%, 1.5%, 2.0%, and 3.0% \(w/w\) were obtained. After wetting the lyophilized product cake, the vials were resealed and then stored at either 25, 40, or 60 °C. At various time points, all samples were removed from their respective accelerated stability storage condition to nondestructively measure their headspace moisture content by using FMS analysis. A subset of these samples was then destructively tested using both KF and HPLC techniques; the remaining samples were then place back into their respective storage conditions until the next scheduled time point.
+
+### **8.3 **Results and Discussion
+
+As previously described, the primary objective of the study was to investigate the correlation between the stability of a small-molecule lyophilized drug product and the headspace moisture content \(or, equivalently, the water activity of the product\). Using HPLC chromatography to isolate the active form *Α*\(*t*\) from its various degradation products, the rate of decay of the pharmaceutical product was determined by making measurements at three time points for samples containing five different product moistures stored at three different temperatures. Figure 11 illustrates the results for the 1.0% moisture samples stored at 40 °C, with the product decay rate being calculated from the slope of the linear fit as per the expression in Eq. 3. The three data points at each time point represent the independent measurements acquired from three different sample vials. 
+![](images/000019.jpeg)
+
+
+***Fig. 11*** 
+Analysis of the vecuronium bromide decay, over time, for samples containing 1.0% \(w/w\) of product moisture that were stored at 40 °C. The product decay rate \(*Κ*\) is 1.38 × 10-3 \(Refer to Eq. 3\)
+
+
+
+As discussed above, this product decay rate will be a function of both the temperature and the amount of moisture residing in the pharmaceutical product. By combining the results obtained from the analysis displayed in Fig. 11 for all the different product moisture contents and storage temperatures, the results displayed in Fig. 12 are obtained. 
+![](images/000020.jpeg)
+
+
+***Fig. 12*** 
+The calculated product decay rate of vecuronium bromide as a function of the measured water activity associated with the product. The five data points for each of the three storage temperatures represent the results obtained for the five different product moisture contents \(0.5%, 1.0%, 1.5%, 2.0%, and 3.0% \(w/w\)\)
+
+
+
+Recall from the previous discussion of water activity that the water residing within a pharmaceutical product can exist in several different chemical states with respect to how it is interacting with both the excipients and active ingredient. Depending upon the specific product and its formulation, there will be a population of water that exists in a “bound” state that is interacting strongly with the product. It is generally believed that this water population, by being involved in the molecular structure of the pharmaceutical, is *not* able to induce degradation reactions. Instead, only the less strongly interacting water population, or the “free” water, is able to initiate such product decay. The results displayed in Fig. 12 demonstrate that the water activity associated with the vecuronium bromide product can indeed be used to directly evaluate its decay rate and, thereby, its shelf-life stability.
+
+Note that the Karl Fischer titration technique measures the entire water content of the pharmaceutical product \(both the “bound” and the “free”\); it cannot distinguish how much of the water is capable of inducing degradation. In contrast, the water partial pressure measured by FMS provides a measure of the thermodynamic activity of the “free” water remaining within the pharmaceutical product. However, the relationship between the total product moisture content, as measured by the KF assay, and the product water activity, as measured by headspace FMS, does provide a useful means of characterizing the moisture sorption isotherms associated with the product. Displayed in Fig. 13, this relationship provides a means of translating the nondestructive results of headspace moisture analysis to the total moisture content of the product, if that product specification is desired. 
+![](images/000021.jpeg)
+
+
+***Fig. 13*** 
+The relationship between the total product moisture content, as measured by the KF assay, and the product water activity, as measured by headspace FMS. The five data points for each of the three storage temperatures represent the results obtained for the five different product moisture contents \(0.5%, 1.0%, 1.5%, 2.0%, and 3.0% \(w/w\)\)
+
+
+
+It is worth noting again that the moisture sorption isotherms are, by definition, for a given temperature. For a sealed vial containing a pharmaceutical with a given \(constant\) moisture content, the water partial pressure in the vial headspace will increase as the temperature of the vial increases, if there is free water remaining in the pharmaceutical. This behavior simply reflects that in general, the partial pressure for any volatile molecule will increase with temperature \(e.g., the ideal gas law\). It is also important to emphasize that these moisture sorption isotherms are product dependent.
+
+### **8.4 **Conclusions
+
+The experimental results described here demonstrate that the stability of a lyophilized small molecule formulation can be described in terms of the headspace water vapor levels in the freeze-dried vial. The headspace moisture levels in the sealed vial are linked to the “free” or active water of the freeze-dried product. When examined at a defined temperature, the headspace moisture levels can be expressed in terms of the water activity associated with the freeze-dried cake. Therefore, headspace moisture analysis provides a new approach for determining the stability of freeze-dried pharmaceutical products when compared to the current standard methods which rely on a total water content determination. In addition to the fact that the water activity associated with the product may more accurately predict its stability, the rapid nondestructive headspace moisture technique itself offers significant advantages from a measurement technique perspective.
+
+
+
+## **9 **Chapter Summary
+
+Headspace moisture analysis using FMS is an analytical tool that has proven to be useful during product life cycle activities of pharmaceutical freeze-dried product. The rapid, nondestructive nature of the measurement technique means it is well-suited for analyzing large numbers of product samples. As a complementary tool to the traditional gravimetric and KF titration methods, which are relatively slow and destructive, headspace moisture analysis enables the generation of robust statistically relevant product moisture data needed in process development and commercial batch studies. Applications include enabling the elucidation of the location and dynamics of water present in lyophilized cakes, understanding the factors involved in obtaining batch moisture uniformity, formulation and lyo cycle optimization, lyo chamber shelf moisture mapping, the demonstration of freeze-dryer equivalence, and possible moisture inspection of product batches to identify random out-of-specification vials.
+
+Finally, it has also been shown that headspace moisture measurements can be readily translated into the water activity of the product. As a fundamental thermodynamic property of the freeze-dried material, water activity determination can be used to establish the stability profile of the formulation with respect to moisture content. Once the stability profile has been established as a function of water activity, the stability of a freeze-dried product vial can be predicted with a rapid nondestructive headspace water vapor measurement.
+
+
+**References**
+
+1.  
+1.
+
+Bjorklund GC. Frequency modulation spectroscopy: a new method for measuring weak absorptions and dispersions. Op Lett. 1980;5:15–7.[Crossref](https://doi.org/10.1364/OL.5.000015)
+
+2.  
+2.
+
+Bosch T. Evaluation of heat flux measurements and headspace moisture analysis for lyophilization process, product, and equipment characterization. PDA freeze drying technology conference, 27–28 September. 2016.
+
+3.  
+3.
+
+Bourles E. How to use water activity measurement and mathematical modeling to evaluate the stability of freeze-dried vaccines. Sixth SMI pharmaceutical freeze drying technology conference, 13–14 June 2018.
+
+4.  
+4.
+
+Brueckner D, et al. Comparison of tunable diode laser absorption spectroscopy and isothermal micro-calorimetry for non-invasive detection of microbial growth in media fills. Sci Rep. 2016;6\(27\):894. [https://​doi.​org/​10.​1038/​srep27894](https://doi.org/10.1038/srep27894).[Crossref](https://doi.org/10.1038/srep27894)
+
+5.  
+5.
+
+Brunauer S, Deming LS, Teller E. On a theory of Van der Waals adsorption of gases. J Am Chem Soc. 1940;62\(7\):1723–32.
+
+6.  
+6.
+
+Caudill A, Victor K, Timmins M, Veale J. Container closure integrity test using frequency modulation spectroscopy headspace analysis with carbon dioxide as a tracer gas. PDA J Pharm Sci Technol. 2021;75\(2\):157–72.[Crossref](https://doi.org/10.5731/pdajpst.2020.011502)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33067331)
+
+7.  
+7.
+
+Chern R. Science-based stability and packaging development under the umbrella of QbD. 2011 AIChE Annual Meeting. 2011.
+
+8.  
+8.
+
+Cook I, Ward K. Applications of headspace moisture analysis for investigating the water dynamics within a sealed vial containing freeze-dried material. PDA J Pharm Sci Technol. 2011a;65\(1\):2–11.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21414935)
+
+9.  
+9.
+
+Cook I, Ward K. Headspace moisture mapping and the information that can be gained about freeze-dried materials and processes. PDA J Pharm Sci Technol. 2011b;65\(5\):457–67.[Crossref](https://doi.org/10.5731/pdajpst.2011.00760)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22293835)
+
+10.  
+10.
+
+Duncan D, Cundell T, Levac L, Veale J, Kuiper S, Rao R. The application of nonvinvasive headspace analysis to media fill inspection. PDA J Pharm Sci Technol. 2016;70:230–47.[Crossref](https://doi.org/10.5731/pdajpst.2015.006312)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26865678)
+
+11.  
+11.
+
+Gieseler H, Kessler WJ, Finson M, Davis SJ, Mulhall PA, Bons V, Debo DJ, Pikal MJ. Evaluation of tunable diode laser absorption spectroscopy for in-process water vapor mass flux measurements during freeze drying. J Pharm Sci. 2007;96\(7\):1776–93.[Crossref](https://doi.org/10.1002/jps.20827)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17221854)
+
+12.  
+12.
+
+Janik GR, Carlise CB, Gallagher TF. Two-tone frequency modulation spectroscopy. J Opt Soc Am B. 1986;3:1070–4.[Crossref](https://doi.org/10.1364/JOSAB.3.001070)
+
+13.  
+13.
+
+Lin TP, Hsu CC, Kabakoff BD, Patapoff TW. Application of frequency modulated spectroscopy in vacuum-seal integrity testing of lyophilized biological products. PDA J Pharma Sci Technol. 2004;58\(2\):106–15.
+
+14.  
+14.
+
+Mahajan R, Templeton AC, Reed RA, Chern RT. Frequency modulation spectroscopy a novel nondestructive approach for measuring moisture activity in pharmaceutical samples. Pharm Technol. 2005;10:44–61.
+
+15.  
+15.
+
+Nail S. Professor Michael J. Pikal: scientist, family man, educator, colleague and friend. J Pharma Sci. 2009;98\(9\):2869–74.[Crossref](https://doi.org/10.1002/jps.21804)
+
+16.  
+16.
+
+Peeters M. Results FMS vs KF analysis, Lighthouse Instruments European User Symposium June, 2006.
+
+17.  
+17.
+
+Rambhatla S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, I: atypical radiation and the edge vial effect. AAPS PharmSciTech. 2003;4:22–31.[Crossref](https://doi.org/10.1208/pt040214)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750592)
+
+18.  
+18.
+
+Sudo H, O’Driscoll M, Nishiwaki K, Kawamoto Y, Gammel P, Schramm G, Wertli T, Prinz H, Mori A, Sako K. Development of a nondestructive leak testing Method utilizing the head space analyzer for ampoule products containing ethanol-based solutions. PDA J Pharm Sci Technol. 2012;66\(5\):434–44.[Crossref](https://doi.org/10.5731/pdajpst.2012.00882)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23035027)
+
+19.  
+19.
+
+Tang X, Pikal MJ. Design of freeze-Drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200.[Crossref](https://doi.org/10.1023/B:PHAM.0000016234.73023.75)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15032301)
+
+20.  
+20.
+
+Tang X, Nail S, Pikal M. Freeze-drying process design by manometric temperature measurement: design of a smart freeze-dryer. Pharm Res. 2005;22\(4\):685–700.[Crossref](https://doi.org/10.1007/s11095-005-2501-2)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15889467)
+
+21.  
+21.
+
+Templeton AC, Han YR, Mahajan R, Chern RT, Reed RA. Rapid headspace oxygen analysis for pharmaceutical packaging applications. Pharm Technol. 2002;7:41–61.
+
+22.  
+22.
+
+Veale J. Validation of a tunable diode laser spectrometer for non-destructive monitoring of oxygen in the headspace of parenteral containers, PDA Annual Meeting. 2001.
+
+23.  
+23.
+
+Veale J. New inspection developments. In: Lysfjord J, editor. Practical aseptic processing fill and finish. Bethesda: Davis Healthcare International Publishing/PDA; 2009. p. 305–72.
+
+24.  
+24.
+
+Victor K, Caudill A, Veale J. Container closure integrity test method development on vials stored at –80 °C using headspace carbon dioxide analysis. PDA J Pharm Sci Technol 2022;76\(5\):395–415.
+
+25.  
+25.
+
+Victor K, Levac L, Timmins M, Veale J. Method development for container closure integrity evaluation via headspace gas ingress by using frequency modulation spectroscopy. PDA J Pharm Sci Technol. 2017;71\(6\):429–53.[Crossref](https://doi.org/10.5731/pdajpst.2017.007518)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28733333)
+
+26.  
+26.
+
+Zuleger B, Werner U, Kort A, Glowienka R, Wehnes E, Duncan D. Container/closure integrity testing and identification of a suitible vial/stopper combination for low-temperature storage at –80 °C. PDA J Pharm Sci Tech. 2012;66\(5\):453–65.
+
+
+

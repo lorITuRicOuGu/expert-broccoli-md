@@ -1,0 +1,1001 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_15](https://doi.org/10.1007/978-3-031-12634-5_15)
+
+
+**
+# LyoPRONTO: Deterministic and Probabilistic Modeling – Tutorial and Case Study
+**
+
+
+Petr Kazarin1 and Alina Alexeenko1  
+
+
+\(1\) 
+Purdue University, West Lafayette, IN, USA
+
+
+
+
+
+**Alina Alexeenko**
+
+**Email: **alexeenk@purdue.edu
+
+
+
+
+
+**1 **Introduction
+
+**2 **Numerical Modeling
+
+**2.1 **Freezing Calculator
+
+**2.2 **Primary Drying Calculator
+
+**2.3 **Design Space Generator
+
+**2.4 **Optimizer
+
+**3 **Experimental Methodology
+
+**4 **Case Study and Tutorial
+
+**4.1 **Step-by-Step Tutorial
+
+**4.2 **Monte-Carlo-Based Probabilistic Approach and Comparison with Deterministic Methodology
+
+**5 **Experimental Validation
+
+**5.1 **Primary Drying Calculator: Probabilistic Approach
+
+**6 **Conclusion
+
+References
+
+
+## Abstract
+
+The current work extends the application of the Lyophilization and Process Optimization Tool \(LyoPRONTO\) from the deterministic \(Shivkumar et al. AAPS PharmSciTech 2019;20\(8\):1–17\) to the probabilistic approach taking into account the process parameters variations and uncertainties in the primary drying cycle. The step-by-step tutorial of using the online tool which includes the examples of freezing and primary drying calculator usage, design space generation, and primary drying optimization to create more efficient cycles is presented. In addition, the upgraded optimization procedure is shown which provides more flexibility towards practical applications. The tutorial includes the detailed test cases with thorough instructions. Also, the additional experimental validation is provided for the probabilistic approach.
+
+
+**Keywords**
+Modeling Lyophilization Heat transfer Probabilistic simulations
+
+
+## **1 **Introduction
+
+Lyophilization \(or freeze-drying\) is a technology that removes solvents by sublimation at low temperatures and is widely used in the pharmaceutical industry to manufacture protein therapeutics, live virus vaccines, diagnostic reagents, and other heat-sensitive materials. Proteins are often unstable in liquid form and require lyophilization to achieve a good storage life to ensure availability to patients. A typical lyophilization cycle can be divided into three main stages: freezing, primary drying, and secondary drying. However, lyophilization, particularly the primary drying stage, is a time-consuming and costly process with low energy efficiency \[8\], batch-mode operation, open-loop processing, and lack of real-time product quality monitoring. The optimization of the primary drying stage can help to significantly reduce the drying time and ensure the quality of the product \[32\]. Moreover, the stochastic nature of the freezing stage, variation in the container geometry can lead to product resistance variations and eventually to product collapse during the primary drying stage \[21, 24\]. Coupled with the other equipment-related uncertainties \(i.e., variations in shelf temperatures, chamber pressure, heat transfer rates across the batch\), the range of factors affecting the primary drying stage and increasing its uncertainty becomes significant. In addition, when it comes to modeling the primary drying stage, the model assumptions and simplifications are always present which leads to additional uncertainties \[29\]. Accounting for the stochastic nature of the process due to variability in critical process parameters and other input parameters’ uncertainties will allow creating robust and effective cycles \[27\].
+
+The freezing stage is a critical part of the freeze-drying process. During the freezing step, the ice crystals are formed and their size, morphology, and distribution eventually influence further stages. Indeed, the sublimation rate, product resistance \[25\], specific surface area, reconstituability of the dried product are affected \[5\] by the freezing stage. Thus, freezing process development is important for designing more efficient primary and secondary drying stages as well as for the optimization strategy. One of the instruments included in the Lyophilization Process Optimization Tool \(LyoPRONTO\) is a simplified freezing calculator which allows predicting all stages of freezing.
+
+The freeze-drying process modeling in a vial has been thoroughly studied in the past \[2\] and resulted in good agreement with the experimental data. The primary drying design space is a representation of the process parameters and material attributes interaction. The typical design space is shown in Fig. 1 and represents a plot of sublimation flux vs. chamber pressure. The yellow zone shows the safe design space for operation. Safe design space is bounded by the equipment capability curve and critical product temperature isotherm. The equipment capability curve is determined by the condenser refrigeration capacity or the sonic flow between the chamber and the condenser \[1\]. The critical product temperature limits the maximum temperature beyond which the product is collapsed \[3\]. Also, the shelf temperature isotherms are shown in the figure. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Typical primary drying design space
+
+
+
+The traditional lyophilization cycle is a slow and inefficient open-loop process leading to highly non-uniform freezing and drying, especially in large-scale production systems \[4\]. It is common practice to hold the chamber pressure and shelf temperature at a constant setpoint making sure that the operation lies within the yellow region \(Fig. 1\) and product temperature does not exceed the critical value. However, this approach results in an inefficient cycle which can take days and even weeks. It is possible to control the process by adjusting the input parameters and operate most efficiently. The blue triangle in Fig. 1 represents the most efficient point in the safe design space. This point corresponds to the maximum allowable sublimation flux under the current conditions and results in the highest cycle efficiency for the given moment. It should be noted that the blue triangle point is dynamic and changes its position during the cycle due to the product resistance change. The design space diagram is represented towards the end of primary drying when the cake length and product resistance are maximum. Thus, it is possible to adjust shelf temperature and chamber pressure at every time step during the primary drying process to operate as close as possible to the blue triangle in Fig. 1 and maximize the energy efficiency of the cycle.
+
+Many 1-D-based freeze-drying deterministic models have been published previously \[8–11\]. However, even though these approaches showed the potential for prediction purposes, they have several limitations. First of all, these limitations are due to the heat- and mass-transfer parameters used as an input to the models. The heat transfer parameters are usually determined from the experimental data \(TDLAS, PRT, gravimetric tests\). The mass-transfer parameters can be found based on the previously performed experiments or using TDLAS and PRT. As a result, the uncertainty propagates to further experiments in addition to process parameters variations and equipment-related parameter fluctuations. For these reasons, there is a need for modeling approaches allowing to take into consideration the aforementioned uncertainties.
+
+Many methods are widely used for uncertainty quantification \(so-called sampling-based methods\), in which the simulation is performed for a range of input parameters’ combinations with uncertainties considered. Different sampling techniques exist, including Monte-Carlo sampling, Latin hypercube, and Smolyak sparse grids \[31\]. The most popular method used in a wide range of applications is Monte-Carlo sampling. However, due to the large number of samples required, it can be computationally expensive.
+
+In this chapter, a step-by-step tutorial on using the LyoPRONTO tool is demonstrated. The practical application of freezing and primary drying calculator, design space generator, and optimizer modes are considered in detail. The 0D freezing calculator based on the lump-capacitance approach predicts the temperature of the product for all stages of freezing as well as the freezing time. The primary drying calculator based on the 1D heat-and-mass transfer model is capable of predicting the time history of the product temperature, cake length, water vapor mass flow rate, and primary drying time. In addition, there are instruments for obtaining the heat transfer parameters and product resistance from the experimental data. In the “design space generator” mode, same characteristics can be obtained for the set of chamber pressures and shelf temperatures. The “optimizer” mode can be used to generate the most optimal profiles of primary drying by controlling the chamber pressure and/or shelf temperature. The updated version of the “optimizer” includes additional constraints for chamber pressure and shelf temperature ramping rates as well as the initial values. These upgrades make it possible to use the optimizer for building the optimal cycles using real equipment and pave the way for creating the closed-loop primary drying cycles. Moreover, in addition to the deterministic modeling, the probabilistic \(sampling\) approach based on the Monte-Carlo simulations using PUQ instruments \[31\] and LyoPRONTO primary drying calculator is demonstrated and validation against the experimental data is performed.
+
+## **2 **Numerical Modeling
+
+### **2.1 **Freezing Calculator
+
+Several assumptions are used in the LyoPRONTO freezing calculator: \(i\) lumped capacitance heat transfer, \(ii\) constant product temperature during ice crystallization, and \(iii\) heat is transferred to the product only from the shelf. Thus, a 0D transient heat conduction simulation along with lumped capacitance method is used to predict three phases of freezing: liquid cooling, ice crystallization, and solid cooling. The 0D transient freezing mechanism in LyoPRONTO is described by the following equation: 
+
+
+
+![$$ \rho {C}_{\textrm{p}}V\frac{\partial {T}_{\textrm{p}\textrm{r}}}{\partial t}=-h{A}_{\textrm{v}}\left({T}_{\textrm{p}\textrm{r}}-{T}_{\textrm{sh}}\right) $$](images/000002.jpeg)
+
+
+\(1\)
+
+
+where, *ρ* is the product density in the liquid form, *C*p is its specific heat capacity, *V* is the product volume, *T*pr is the product temperature, *t* is the time, *h* is the heat transfer coefficient between the shelf and the product, *A*v is the vial area, and *T*sh is the shelf temperature. The negative sign indicates that the product temperature is decreasing with time. The heat transfer coefficient is estimated based on the experimental cooling rate of the product using Eq. \(1\) during the initial temperature drop till the nucleation point is reached. The nucleation and freezing temperatures are also obtained from the experiments with uncontrolled nucleation.
+
+The crystallization time *dt* is determined from the following heat balance equation under the assumption of the constant temperature \(equal to freezing temperature *T*f\) during the crystallization phase: 
+
+
+
+![$$ \rho V\left({H}_{\textrm{f}}-{C}_{\textrm{p}}\left({T}_{\textrm{f}}-{T}_n\right)\right)=h{A}_{\textrm{v}}\left({T}_{\textrm{p}\textrm{r}}-{T}_{\textrm{sh}}\right)\Delta t $$](images/000003.jpeg)
+
+
+\(2\)
+
+
+where, *H*f is the latent heat of fusion of ice.
+
+The current methods neglect the heat transfer between the ambient air and the product and have certain limitations. For instance, the experimentally measured nucleation and freezing temperatures must be provided as inputs to the model. Ice nucleation is spontaneous and random, and the nucleation temperature depends on the solution properties, process parameters, environmental factors, container characteristics, and the presence of particulate matter \[6\]. The details about the possible ways of overcoming the large variability of stochastic parameters and applicability of the lumped capacitance approach for the freezing step are described in detail in \[23\].
+
+### **2.2 **Primary Drying Calculator
+
+LyoPRONTO tool is based on heat and mass transfer modeling to determine the maximum product temperature and sublimation flux time history during the primary drying cycle. There are several modeling assumptions made: 
+
++ 
+1D quasi-steady-state heat and mass transfer
+
++  
+Convective heat transfer is neglected
+
++  
+The central vial represents the entire batch
+
+
+
+
+Due to the central vial assumption and ignoring the edge effects, the 1D axisymmetric heat transfer modeling is valid for the current modeling.
+
+Figure 2 demonstrates the heat and mass balances in a vial. There are different heat transfer mechanisms involved in the primary drying process, including radiation from the shelf and walls of the lyophilizer, gas conduction between the shelves and the vial. All the heat sources are combined in a single vial heat transfer coefficient as a function of chamber pressure \[9, 12–14\]: 
+![](images/000004.jpeg)
+
+
+***Fig. 2*** 
+Typical freezing stage temperature profile and its phases \[24\]
+
+
+
+
+
+![$$ {K}_{\textrm{v}}={K}_{\textrm{C}}+\frac{K_{\textrm{P}}{P}_{\textrm{ch}}}{1+{K}_{\textrm{D}}{P}_{\textrm{ch}}} $$](images/000005.jpeg)
+
+
+\(3\)
+
+
+where, *K*C, *K*P, and *K*D are fitting parameters that depend on the vial and the lyophilizer. Thus, *K*v reflects the total heat transfer to the vial from all the heat sources.
+
+The heat flow balance is described by Eq. \(4\):
+
+
+
+
+
+![$$ \dot{Q}=\left({T}_{\textrm{s}\textrm{h}}-{T}_{\textrm{bot}}\right){K}_{\textrm{v}}{A}_{\textrm{v}}=\frac{\left({T}_{\textrm{bot}}-{T}_{\textrm{s}\textrm{ub}}\right){A}_{\textrm{p}}{k}_{\textrm{ice}}}{L_{\textrm{p}\textrm{r}}}=\frac{\left({P}_{\textrm{s}\textrm{ub}}-{P}_{\textrm{ch}}\right){A}_{\textrm{p}}\Delta {H}_{\textrm{s}}}{R_{\textrm{p}}} $$](images/000006.jpeg)
+
+
+\(4\)
+
+
+where, *T*sh is the shelf temperature, *T*bot is the product bottom temperature, *T*sub and *P*sub are the temperature and pressure at the sublimation interface, *A*v and *A*p are the areas of the vial and the product, *k*ice is the conductivity of the frozen product, and Δ*H*s is the heat of sublimation. *P*sub corresponds to the vapor pressure at *T*sub. The product resistance \(*R*p\) is a function of the cake length \(*L*ck\), and can be expressed as \[15–17\]: 
+
+
+
+![$$ {R}_{\textrm{p}}={R}_0+\frac{A_1{L}_{\textrm{ck}}}{1+{A}_2{L}_{\textrm{ck}}} $$](images/000007.jpeg)
+
+
+\(5\)
+
+
+where, *R*0, *A*1, and *A*2 are fitting parameters.
+
+The heat is transferred from the bottom of the vial to the product and triggers the sublimation. The sublimation interface propagates downwards from the top of the product to the bottom of the vial. The thickness of the frozen product reduces with time increasing the porous layer \(cake\) thickness.
+
+The heat balance equations are solved by an iterative process. For any given shelf temperature and chamber pressure, the sublimation flux and product temperature are found as a function of primary drying time. The primary drying process is finished when the sublimation front reaches the bottom of the vial \(when the cake height is equal to the initial height of the frozen product\) \[2\]:
+
+
+
+
+
+![$$ {L}_{\textrm{p}\textrm{r},0}=\frac{V_{\textrm{fill}}}{A_{\textrm{p}}{\rho}_{\textrm{ice}}\ }\left({\rho}_{\textrm{solution}}-\frac{c_{\textrm{solid}}\left({\rho}_{\textrm{solution}}-{\rho}_{\textrm{ice}}\right)}{\ {\rho}_{\textrm{solute}}}\right)\kern0.75em $$](images/000008.jpeg)
+
+
+\(6\)
+
+
+where, *V*fill is the fill volume, *c*solid is the solute concentration in mass per unit volume units, and *ρ*ice, *ρ*solution, and *ρ*solute are the densities of ice, solution, and solute, respectively.
+
+Moreover, if *K*v or *R*p is not available, it can be determined numerically using the LyoPRONTO capabilities. For example, if the experimental drying time is known, *K*v can be found through the iterative process by matching the simulation drying time with the experimental value. This procedure can be repeated for three different chamber pressure values and three coefficient form of the *K*v can be found \(*K*C, *K*P, and *K*D\) using the curve fit. Also, if product resistance *R*p is not known, but the experimental product temperature-time history is available, it can be found as a function of a cake length and three coefficients *R*0, *A*1, and *A*2 can be determined.
+
+### **2.3 **Design Space Generator
+
+The design-space generator tool uses the heat-and-mass transfer equations described in the previous section and performs the calculations for the range of shelf temperatures and chamber pressures. Also, the equipment capability is calculated according to the following equation:
+
+
+
+
+
+![$$ {\dot{m}}_{\textrm{eq}\ \textrm{cap}}=a+b{P}_{\textrm{ch}} $$](images/000009.jpeg)
+
+
+\(7\)
+
+
+where, *a* and *b* can be determined using experimental choked flow tests \[18\], minimum controllable pressure tests \[19\], or using computational fluid dynamics \(CFD\) modeling of choked flow through a lyophilizer \[7, 10, 20\]. Setting the vial bottom temperature equal to the maximum possible value \(*T*pr, max\) and fixing the chamber pressure allow finding the critical temperature isotherm. *T*pr, max is taken 2–3 °C below the product critical temperature.
+
+### **2.4 **Optimizer
+
+The optimizer tool allows determining the optimal shelf temperature and chamber pressure resulting in the shortest primary drying cycle under the current constraints. The predefined shelf temperature and chamber pressure limits, their ramping rates as well as the equipment capability limit are the main factors that constitute the optimization constraints. The optimization procedure is designed to find the maximum possible sublimation flux which results in the maximum possible product temperature at a given moment. The optimum chamber pressure and shelf temperature are also determined iteratively until the primary drying process is finished. It is also possible to perform the optimization procedure by fixing either chamber pressure or shelf temperature. The limits imposed on the optimization procedure usually reflect the practical constraints such as the vial properties, lyophilizer working limitations, including shelf fluid properties, vacuum pump characteristics, and working modes. The chart in Fig. 3 shows the steps performed by the solver in the optimizer mode. 
+![](images/000010.jpeg)
+
+
+***Fig. 3*** 
+Heat and mass transfer during primary drying cycle
+
+
+
+## **3 **Experimental Methodology
+
+The laboratory-scale freeze-dryers REVO by Millrock Technology, Kingston, NY, is used to perform the experiments and compare the experimental data against the simulations from LyoPRONTO. A batch of 201 Schott 20R vials were filled with 5 ml fill of 5% w/v sucrose as well as with 5% w/v mannitol solution each. Also, the experiment with Schott 6R vials is performed filled with 4 ml 5% mannitol solution with 1 shelf fully loaded in REVO. The end of primary drying was determined by the convergence of the Pirani gauge with the capacitance manometer \(CM\) in all the experiments. The vial heat transfer coefficient in both lyophilizers was determined using LyoPRONTO capabilities based on the experimental drying times. The product resistances of mannitol 5% and sucrose 5% with uncontrolled nucleation are known and acquired from the literature \[2\].
+
+## **4 **Case Study and Tutorial
+
+### **4.1 **Step-by-Step Tutorial
+
+In this section, step-by-step tutorial for each of the LyoPRONTO instruments is demonstrated based on the online service available at: [http://​lyopronto.​rcac.​purdue.​edu/​](http://lyopronto.rcac.purdue.edu/). Also, the Python version of the LyoPRONTO is available and can be used to perform the simulations and update/change the source code if needed. Freezing and primary drying steps of the lyophilization process including deterministic and probabilistic runs are illustrated with several cases and detailed description of the input parameters and output data.
+
+Let’s consider the case of 6R vials filled with 4 ml 5% Mannitol solution dried in Millrock REVO lyophilizer. The information about parameters available before the run is shown in Table 1. The list of available vial heat transfer coefficients as well as product resistance parameters is acquired from \[23\]. 
+
+
+***Table 1*** 
+Primary drying input parameters
+
+
+
+**Parameter type**
+
+**Parameter name**
+
+**Parameter value**
+
+**Unit**
+
+Vial
+
+Vial area
+
+3.8
+
+cm2
+
+Product area
+
+3.14
+
+cm2
+
+Fill volume
+
+4
+
+ml
+
+Vial heat transfer coefficient
+
+*K*C = 2.75e-4;
+
+*K*P = 8.93-4;
+
+*K*D = 0.46;
+
+cal ∙ K/s/cm2;
+
+![$$ \textrm{cal}\cdotp \frac{\textrm{K}/\textrm{s}}{\textrm{c}{\textrm{m}}^2}/\textrm{Torr} $$](images/000011.jpeg) ;
+
+1/Torr;
+
+Product
+
+Critical product temperature
+
+−5
+
+°C
+
+Product resistance
+
+*R*0 = 1.4
+
+*A*1 = 16
+
+*A*2 = 0
+
+cm2 ∙ h ∙ Torr/g
+
+cm ∙ h ∙ Torr/g
+
+1/cm
+
+Solid content
+
+0.05
+
+g/ml
+
+Equipment
+
+Shelf temperature
+
+−45 to 20: 1 deg/min;
+
+20 till the end of PD;
+
+°C
+
+Chamber pressure
+
+100
+
+mTorr
+
+Number of vials
+
+398
+
+N/A
+
+
+
+#### ***4.1.1 ***Freezing Calculator
+
+The freezing calculator’s input includes vial heat transfer coefficient, shelf temperature profile as well as freezing and nucleation temperatures. These parameters should be measured experimentally and provided as inputs to the model. The freezing calculator requires the vial parameters and specific freezing parameters outlined in Table 2. All the freezing parameters except shelf temperature profile are to be obtained from the experimental data. 
+
+
+***Table 2*** 
+Input parameters for freezing calculator
+
+
+
+**Parameter name**
+
+**Parameter value**
+
+**Unit**
+
+*T*nucleation
+
+−5.84
+
+°C
+
+*T*freezing
+
+−1.52
+
+°C
+
+*T*product, init
+
+20
+
+°C
+
+Vial heat transfer coefficient
+
+38
+
+W/m2/K
+
+*T*shelf
+
+20 to −40: 1 deg/min;
+
+−40 for 180 min;
+
+°C
+
+
+
+Figure 4 shows shelf temperature profile and product temperature with three phases of freezing: liquid cooling, ice crystallization, and solid cooling as indicated in Fig. 5. 
+![](images/000012.jpeg)
+
+
+***Fig. 4*** 
+LyoPRONTO algorithm for the “Optimizer” mode
+
+
+![](images/000013.jpeg)
+
+
+***Fig. 5*** 
+Freezing cycle for 4 ml fill of 5% mannitol in 6R vials
+
+
+
+#### ***4.1.2 ***Primary Drying Calculator: Deterministic Approach
+
+The primary drying calculator requires the input of several groups of parameters to initiate the simulation. Those parameters include vial characteristics, product attributes, equipment properties, and simulation time step. After the input is provided, the simulation can be started and usually takes seconds to finish.
+
+The vial characteristics include vial and product area, fill volume, and heat transfer coefficient. Vial area \(cm2\) is the area of the surface touching the shelf surface. It should be noted that the concave surface of the vial bottom is also included in the vial area, so it can be assumed that the vial bottom is flat. Product area \(cm2\) is determined by measuring the bottom part of the vial’s inner surface. And fill volume \(ml\) is a quantity corresponding to the amount of liquid solute in the vial before the beginning of the lyophilization cycle. If the vial heat transfer coefficient is known, it can be used as an input parameter \(*K*C in cal ∙ K/s/cm2, *K*P in cal ∙ K/s/cm2/Torr, and *K*D in 1/Torr fitting parameters should be specified\). Otherwise, it can be determined based on the experimental drying time and this process will be further described.
+
+Product attributes encompass critical product temperature, product resistance, and solid content. The critical product temperature is a temperature beyond which the product quality is no longer acceptable. This characteristic is unique for each type of the product and can be determined, for example, by freeze-drying microscopy \[22\] or found in the literature. The product resistance is a feature of a particular product and also can be inputted in case it is available a priori or can be calculated using the experimental data on product temperature. This special case will be described in further sections. The product resistance is a function of cake lengths and as described in the previous section, requires the input of three fitting parameters \(*R*0 in cm2 ∙ h ∙ Torr/g, *A*1 in cm ∙ h ∙ Torr/g and *A*2 in 1/cm\). The solid content is the amount of the solute in the product solution and is set in g/ml.
+
+Shelf temperature and chamber pressure profiles are the cycle/equipment properties that can be set constant or multi-step. For the input, the parameter value and its hold time are required. In the case of constant profiles, the hold time value should be large enough for the primary drying step to be finished \(100% of the product is dried\). For multi-step profiles, shelf temperature and chamber pressure values, as well as corresponding drying times, should be set for each step individually as it is done on the real equipment in the lab.
+
+Finally, the simulation time step should be chosen. The smaller the time step, the longer the simulation will take and the higher the accuracy will be. Typically, the value of 0.001 to 0.1 h would be suitable for most of the cycles. The detailed time step sensitivity study was performed in \[23\].
+
+To start the simulation, we click the Primary Drying Calculator tab – highlighted in green color \(Fig. 6\). 
+![](images/000014.jpeg)
+
+
+***Fig. 6*** 
+LyoPRONTO tools \(online interface\)
+
+
+
+After that, we see the input fields for all the parameters required by the simulation and fill them in with the values from Table 1 \(Fig. 7\). 
+![](images/000015.jpeg)
+
+
+***Fig. 7*** 
+Vial parameters \(online interface\)
+
+
+
+Next, we put product and equipment parameters listed in Table 1 in the corresponding fields. As for the shelf temperature, we have two steps. Figure 8 shows the screenshot of the shelf temperature and chamber pressure input fields for LyoPRONTO primary drying calculator. 
+![](images/000016.gif)
+
+
+***Fig. 8*** 
+Shelf temperature and chamber pressure profiles fields \(online interface\)
+
+
+
+The temperature and pressure hold time is chosen to be 2000 min \(deliberately high value enough for finishing the cycle\). The simulation time step we choose is 0.05 h \(Fig. 9\). 
+![](images/000017.gif)
+
+
+***Fig. 9*** 
+Time step field \(online interface\)
+
+
+
+After all the input parameters are entered, we click “Calculate” button and obtain the results which can be downloaded in \*.csv format or saved in the form of the plot images using the online interface. The interface with output parameters includes three tabs shown in Fig. 10. 
+![](images/000018.jpeg)
+
+
+***Fig. 10*** 
+Output tabs \(online interface\)
+
+
+
+“Percent Dried” tab contains the time history of the cake length in % \(Fig. 11\). 
+![](images/000019.jpeg)
+
+
+***Fig. 11*** 
+“Percent Dried” tab \(online interface\)
+
+
+
+“Temperatures” tab shows the product temperature and sublimation front temperature time history as well as shelf temperature profile \(Fig. 12\). 
+![](images/000020.jpeg)
+
+
+***Fig. 12*** 
+“Temperatures” tab \(online interface\)
+
+
+
+Finally, “Sublimation flux, Pressure” tab displays the condenser pressure profile and sublimation flux time history \(Fig. 13\). 
+![](images/000021.jpeg)
+
+
+***Fig. 13*** 
+“Sublimation Flux, Pressure” tab \(online interface\)
+
+
+
+As it was discussed above, the vial heat transfer coefficient or product resistance can be not known. In that case, these parameters can be found using the experimental data. It should be noted that at least one of those parameters should be available.
+
+In the case of the vial heat transfer coefficient, the vial heat transfer drop-down menu should be clicked, and minimum and maximum values of heat transfer coefficient should be specified along with the searching step which defines the accuracy of the coefficient determination. In our case, we would input the primary drying time equal to 15.82 h \(from our previous simulation\) and min/max values and step shown in Fig. 14. 
+![](images/000022.jpeg)
+
+
+***Fig. 14*** 
+Vial heat transfer coefficient fields in case of the unknown value \(online interface\)
+
+
+
+As a result, the algorithm determines the vial heat transfer coefficient within 0.65% of the specified value \(Fig. 15\). 
+![](images/000023.jpeg)
+
+
+***Fig. 15*** 
+Vial heat transfer coefficient determined using primary drying time \(online interface\)
+
+
+
+When product resistance is unknown, the vial bottom temperature time history file should be used as an input. It should be \*txt file with two columns: first column is drying time in hours and second column is product temperature in °C. The time step in the file should be equal to the one in the “Time Step” field. In the current example, we use the temperature time history taken from the output of the run and use it as an input with “Product Resistance” tab changed to “Unknown.” The value found by the algorithm is shown accordingly in Fig. 16. 
+![](images/000024.jpeg)
+
+
+***Fig. 16*** 
+Product Resistance determined using product temperature time history \(online interface\)
+
+
+
+#### ***4.1.3 ***Design Space Generator
+
+The primary drying design space for a given product, vial, and load conditions in a particular lyophilizer over a range of chamber pressures and shelf temperatures can be generated. In addition, to the parameters required for the primary drying calculator, the equipment capability limit and number of vials in a run are needed.
+
+In contrast to the primary drying calculator, the design space generator can accept the set of shelf temperatures and chamber pressures to generate shelf temperature isotherms \(Fig. 17\). 
+![](images/000025.gif)
+
+
+***Fig. 17*** 
+Set of shelf temperatures and chamber pressures \(Online Interface\)
+
+
+
+Figure 18 displays the design space for 4 ml of 5% Sucrose Solution in 6R vials. The design space is typically generated towards the end of the primary drying cycle with the highest value of the product resistance to ensure that the equipment capability and critical product temperature are not violated during the process. The yellow region indicates the region of acceptable operating conditions. The blue shows the region of product collapse: it is bounded with the equipment capability curve and critical product temperature curve. In the current example, the shelf temperature of 15 and 20 °C cross the critical product temperature isotherm and thus violate the constraint leading to product collapse. 
+![](images/000026.jpeg)
+
+
+***Fig. 18*** 
+Primary drying design space for 4 ml of 5% mannitol solution in 6R vials
+
+
+
+#### ***4.1.4 ***Optimizer
+
+All the input parameters necessary for the primary drying calculator tool are required for the optimization procedure. In addition, the equipment capability limit and number of vials in a run are needed as an input. Besides, the minimum and maximum values of shelf temperature \(*T*shelf, min and *T*shelf, max\) and chamber pressure \(*P*ch, min and *P*ch, max\), their initial values \(*T*shelf, init , *P*ch, init\), ramping rates \(*T*shelf, rate, *P*ch, rate\) as well as critical product temperature \(*T*crit\) and equipment capability curve should be specified. There are three regimes of optimization in LyoPRONTO, including constant and variable shelf temperature and chamber pressure profiles. Either shelf temperature or chamber pressure profile should be variable to run the optimization procedure.
+
+Table 3 summarizes the input parameters specified for the optimization procedure with variable shelf temperature and chamber pressure. 
+
+
+***Table 3*** 
+Input parameters for optimizer
+
+
+
+**Parameter name**
+
+**Parameter value**
+
+**Unit**
+
+*P*chamber, min
+
+0.06
+
+Torr
+
+*P*chamber, max
+
+0.5
+
+Torr
+
+*P*chamber, init
+
+0.1
+
+Torr
+
+*P*chamber, rate
+
+0.1
+
+Torr/min
+
+*T*shelf, min
+
+−45
+
+°C
+
+*T*shelf, max
+
+120
+
+°C
+
+*T*shelf, init
+
+−45
+
+°C
+
+*T*shelf, rate
+
+1
+
+deg/s
+
+*T*shelf, crit
+
+−5
+
+°C
+
+Equipment capability curve \(REVO\):
+
+![$$ dm/ dt\ \left[\frac{\textrm{kg}}{\textrm{h}}\right]=a+b\cdotp {P}_{\textrm{ch}}\ \left[\textrm{Torr}\right] $$](images/000027.jpeg) 
+
+*a* = −0.182;
+
+*b* = 11.7;
+
+kg/h;
+
+kg/h/Torr;
+
+
+
+The obtained optimal profiles of chamber pressure and shelf temperature result in 57% faster primary drying cycle in comparison to the traditional run \(Fig. 19a\). The goal of optimization is to minimize the primary drying time by maximizing the sublimation flux. As a result, the product temperature is kept as close as possible to the critical temperature during the cycle. In contrast to Fig. 19a, where both *T*sh and *P*ch were variable and only one shelf of REVO lyophilizer was loaded \(398 vials\), Fig. 19b shows the optimal run with fixed *P*ch = 100mTorr and full load \(4 shelves 398 vials each\). In this case, equipment capability constraint comes into play, and maximum sublimation flux keeps constant maximum allowable value between 0.9 h and 3.3 h. Even then, the optimized cycle results in 53% shorter primary drying time. 
+![](images/000028.jpeg)
+
+
+***Fig. 19*** 
+Optimized primary drying cycles for 4 ml fill of 5% mannitol in Schott 6R vials. \(**a**\) Optimal cycle: *P*ch,*T*sh – variable, \(**b**\) Optimal cycle: *P*ch = 100 mTorr; *T*sh – variable
+
+
+
+### **4.2 **Monte-Carlo-Based Probabilistic Approach and Comparison with Deterministic Methodology
+
+#### ***4.2.1 ***Monte-Carlo Simulation Methodology and Input Parameters’ Variation
+
+In addition to the traditional deterministic simulation approach demonstrated in previous sections, the LyoPRONTO is adapted to be used in a PUQ Monte-Carlo-based probabilistic model, which is capable of accounting for various uncertainties in input parameters \[31\]. The variations occur due to the intra- and inter-batch variability in heat and mass transfer during the primary drying stage of lyophilization and variability in mass transfer due to variations in ice nucleation temperatures.
+
+This sample-based approach allows accounting for the variation of seven factors with the corresponding uncertainty levels \(Table 4\). The levels of uncertainty are based on expert knowledge and the works of \[21, 27, 28\]. Particularly, the vial geometry, fill volume, product resistance, as well as random variations and impact of usual errors in input values for statistical simulations, can be taken into consideration by probabilistic approach. An input matrix of 5000 samples was generated using the Monte-Carlo technique. The samples are drawn directly from the parameter distributions. According to \[30\], the distribution for *P*ch and *T*sh is assumed to be uniform since there is no tendency toward a particular value during the excursion. Excursions usually occur due to the failure in the control mechanism that makes any value of *P*ch and *T*sh equally likely during such excursions. Other parameters are assumed to follow the normal distribution \[21\]. It should be noted that the goal of this section is to demonstrate the probabilistic approach for the product temperature and mass flux prediction during primary drying and provide an instrument for such analysis. Thus, real parameter deviations and uncertainties specific to the equipment and process conditions can be determined from the experimental data such as heat transfer coefficients, vial parameters \[21\]. Also, as shown by \[26\], computational modeling can be applied to determine the chamber pressure variation. 
+
+
+***Table 4*** 
+LyoPRONTO input parameters and its variations
+
+
+
+**Parameters**
+
+**Mean value**
+
+**Variation/Relative standard deviation \(%\)**
+
+**Distribution**
+
+Fill volume
+
+4 ml
+
+1%
+
+Normal
+
+Vial area
+
+3.8 cm2
+
+1.8%
+
+Normal
+
+Product area
+
+3.14 cm2
+
+2.2%
+
+Normal
+
+Product resistance \(R0, A1, A2\)
+
+Mannitol 5%:
+
+1.4 cm2 ∙ h ∙ Torr/g
+
+16 cm ∙ h ∙ Torr/g
+
+0 1/cm
+
+Sucrose 5%:
+
+0.208 cm2 ∙ h ∙ Torr/g
+
+15.29 cm ∙ h ∙ Torr/g
+
+1.6 1/cm
+
+11.9%
+
+Normal
+
+Heat transfer coefficient
+
+*K*C = 2.75e-4 Cal/s∙K/cm2
+
+*K*P = 8.93e-4 Cal/s∙K/cm2/Torr
+
+*K*D = 0.46 1/Torr
+
+5%
+
+Normal
+
+Shelf temperature
+
+20 °C
+
+35 °C
+
+1 °C
+
+Uniform
+
+Chamber pressure
+
+100 mTorr 200 mTorr
+
+5 mTorr
+
+Uniform
+
+
+
+#### ***4.2.2 ***Probabilistic Approach: Case Study
+
+Table 4 shows the input parameters and their uncertainty levels in terms of relative standard deviations required as an input to perform the probabilistic simulations using PUQ instruments.
+
+Figures 20 and 21 demonstrate the application of the Monte-Carlo-based sampling approach for modeling the primary drying process of mannitol 5% solutions in Schott 6R vials. The difference between the two cycles is in process conditions. Figure 20a shows the conservative cycle with *T*sh = 20 °C and *P*ch = 100 mTorr. In contrast to the deterministic approach where the fixed set of input parameters is used, the probabilistic approach’s output is in the form of the cone of uncertainty formed by upper and lower bound \(2-σ range\) and the mean value. It means that in the primary drying process with input parameter variations described in the previous section, the product temperature output values are expected to be within the cone of uncertainty for each time step rather than being a single value. Moreover, the primary drying time is also to be expected within the boundaries with a certain probability. In Fig. 20a, the end of the primary drying cycle is shown with 2-σ boundaries near the mean value of the primary drying time. 
+![](images/000029.jpeg)
+
+
+***Fig. 20*** 
+Simulation of primary drying stage of 6R vials filled with 4 ml mannitol 5% in REVO lyophilizer. *P*ch = 100 mTorr, *T*sh = 20 °C, \(**a**\) Product temperature with distribution fit demonstration for time = 10 h, \(**b**\) Probability of violating *T*cr \(in %\)
+
+
+![](images/000030.jpeg)
+
+
+***Fig. 21*** 
+Simulation of primary drying stage of 6R vials filled with 4 ml mannitol 5% in REVO lyophilizer. *P*ch = 200 mTorr, *T*sh = 35 °C, \(**a**\) Product temperature, \(**b**\) Probability of violating *T*cr \(in %\)
+
+
+
+Figure 20b shows the probability of exceeding the critical product temperature set to −5 °C for mannitol 5% solution. The probability is calculated using the cumulative distribution function for each time step where the distribution itself is found by the distribution fitting procedure using maximum likelihood estimate procedure. The product temperature distribution for 10 h after the start of primary drying cycle is demonstrated. In histogram shown in Fig. 20b, the number of bins is equal to the square root of the number of product temperature samples obtained from the Monte-Carlo simulation for that moment of time, and normal density function is fitted.
+
+Unlike the process in Fig. 20, the more aggressive cycle shown in Fig. 21 shows a significantly shorter primary drying time \(*t*mean = 15.8 h vs. *t*mean = 10.8 h\). However, in this case, the maximum probability of violating the critical product temperature is higher: 31% vs. 0.2%. This probability increases towards the end of primary drying since the product temperature approaches the critical value. In the experiment, the probability of violating the critical temperature can be expressed in the number of collapsed vials. Thus, there is a tradeoff between the primary drying time and the number of vials that collapsed during the cycle. The accuracy of these predictions depends on the equipment and the accuracy of input parameter measurements. It makes sense to split vials into “center vials” and “edge vials” depending on the heat transfer coefficients and perform calculations for these groups separately as it was done in \[21\].
+
+Similarly, Fig. 22a shows the sublimation flux for the primary drying stage for 4 ml mannitol 5% solution filled in 6R Schott vials. In this case, the shelf temperature is set to 70 °C. Figure 22b demonstrates the probability of violating the Equipment capability limit during the run. Approximately at 2 h after the cycle starts, the sublimation flux reaches its maximum. At this point, the probability to exceed the equipment capability limit reaches ~25%. 
+![](images/000031.jpeg)
+
+
+***Fig. 22*** 
+Simulation of primary drying stage of 6R vials filled with 4 ml mannitol 5% in REVO lyophilizer. *P*ch = 100 mTorr, *T*sh = 70 °C, \(**a**\) Sublimation flux, \(**b**\) Probability of violating equipment capability limit \(in %\)
+
+
+
+## **5 **Experimental Validation
+
+### **5.1 **Primary Drying Calculator: Probabilistic Approach
+
+The experimental validation is performed for mannitol 5% and sucrose 5% in Millrock REVO lyophilizer. The primary drying cycle was considered to be finished when Pirani and manometer readings were converged. The vial heat transfer coefficient *K*v was found using LyoPRONTO tool. The iterative procedure built in LyoPRONTO solver was used to obtain the best agreement in drying times between the experimental data and the simulation. *K*v values for 6R Schott vials in REVO lyophilizer were taken from \[23\]. As for the 20R Schott vials, the experimental data from Millrock REVO lyophilizer was used to obtain the *K*v value in a 3-coefficient form as a function of chamber pressure. For this purpose, *K*v was calculated for the runs with three chamber pressure values of 70, 100, and 150 mTorr \(Table 5\). 
+
+
+***Table 5*** 
+Schott 20R vial heat transfer coefficient in Millrock REVO-based experimental drying time at different chamber pressures
+
+
+
+**Chamber pressure \(mTorr\)**
+
+**Experimental drying time \(h\)**
+
+***K*v \(10–4 cal ∙ K/s/cm2\)**
+
+70
+
+15.2
+
+2.6
+
+100
+
+13.8
+
+3
+
+150
+
+12.6
+
+3.5
+
+
+
+The results are presented in the probabilistic approach form. The variations of the input parameters used in the current simulation are listed in Table 4. Figures 23, 24, and 25 show the experimental data from REVO lyophilizer and probabilistic Monte-Carlo-based simulations based on LyoPRONTO primary drying calculator. In all three cases considered different types of vials \(Schott 6R and 20R\), fill volume \(4 ml, 5 ml\), and solution \(5% mannitol and 5% sucrose\) were used to demonstrate the probabilistic approach in different cycle conditions. 
+![](images/000032.jpeg)
+
+
+***Fig. 23*** 
+LyoPRONTO vs. experimental measurements at *P*ch = 70 mTorr for the primary drying of 4 ml 5% mannitol in 6R vials in REVO, \(**a**\) Product temperature, \(**b**\) Sublimation flux and chamber pressure
+
+
+![](images/000033.jpeg)
+
+
+***Fig. 24*** 
+LyoPRONTO vs. experimental measurements at *P*ch = 60 mTorr for the primary drying of 5 ml 5% sucrose in 20R vials in REVO, \(**a**\) Product temperature, \(**b**\) Sublimation flux and chamber pressure
+
+
+![](images/000034.jpeg)
+
+
+***Fig. 25*** 
+LyoPRONTO vs. experimental measurements at *P*ch = 125 mTorr for the primary drying of 5 ml 5% mannitol in 20R vials in REVO, \(**a**\) Product temperature, \(**b**\) Sublimation flux and chamber pressure
+
+
+
+In the cases considered, the experimental product temperature measured by thermocouple falls within 2-σ cone of uncertainty. The sublimation flux simulation results are also shown for all three cases in the form of the average value and the 2-σ range. The experimental drying time agrees well with the mean drying time predicted by the probabilistic LyoPRONTO approach except for the sucrose case in Fig. 25, where the end of primary drying time for the aggressive sucrose cycle \(*T*sh = −10 °C\) was overpredicted. The possible reason for that is sucrose resistance dependence on shelf temperature which will be further investigated. In general, the probabilistic approach was shown to be a robust instrument for the prediction of the experimental measurements since it takes into account the stochastic nature of the experimental parameters.
+
+## **6 **Conclusion
+
+The open-source tool LyoPRONTO \(Lyophilization Process Optimization Tool\) encompasses a set of instruments for the modeling of the lyophilization process, including the freezing and primary drying steps, and allows the design of the optimal cycles. A detailed step-by-step tutorial on how to use the tool and its instruments is described.
+
+The 0-D lumped capacitance-based freezing model is an accurate and robust alternative to the existing finite-element freezing models in designing a freezing cycle. The 1-D quasi-steady heat and mass transfer-based primary drying calculator has been proven to have a very good agreement with the experimental data. Also, the tool has extra features for heat transfer coefficient and product resistance determination based on experimental measurements. In this work, in addition to the widely used deterministic approach, the primary drying calculator performance is shown using the Monte-Carlo-based sampling technique, which accounts for the uncertainties capturing the stochastic nature of the process and parameter variations during the cycle. This approach extends the deterministic way of process modeling by providing the uncertainty of the predicted values and probability of product collapse estimation. Moreover, the new probabilistic instrument allows performing the cycle taking into consideration the trade-off between the primary drying time and the percent collapsed product.
+
+The “Optimizer” tool has been upgraded to include the initial set points of the varied parameters as well as their rates of change. Thus, in addition to the most optimal set point determination for each time step, the tool is able to adapt the optimized cycles to the equipment used and the desired process conditions more closely, which makes it more flexible and applicable on practice.
+
+
+**References**
+
+1.  
+1.
+
+Searles J. Observation and implications of sonic water vapor flow during freeze-drying. Am Pharm Rev. 2004;7:58–69.
+
+2.  
+2.
+
+Pikal MJ. Use of laboratory data in freeze drying process design: heat and mass transfer coefficients and the computer simulation of freeze drying. PDA J Pharm Sci Technol. 1985;39\(3\):115–39.
+
+3.  
+3.
+
+Nail SL, Searles JA. Elements of quality by design in development and scale-up of freeze-dried parenterals. BioPharm Int. 2008;21\(1\):44.
+
+4.  
+4.
+
+Fissore D, Barresi AA. Scale-up and process transfer of freeze-drying recipes. Dry Technol. 2011;29\(14\):1673–84.[Crossref](https://doi.org/10.1080/07373937.2011.597059)
+
+5.  
+5.
+
+Assegehegn G, Brito-de la Fuente E, Franco JM, Gallegos C. The importance of understanding the freezing step and its impact on freeze-drying process performance. J Pharm Sci. 2019;108\(4\):1378–95.[Crossref](https://doi.org/10.1016/j.xphs.2018.11.039)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30529167)
+
+6.  
+6.
+
+Geidobler R, Winter G. Controlled ice nucleation in the field of freeze-drying: fundamentals and technology review. Eur J Pharm Biopharm. 2013;85\(2\):214–22.[Crossref](https://doi.org/10.1016/j.ejpb.2013.04.014)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23643793)
+
+7.  
+7.
+
+Shivkumar G, Kshirsagar V, Zhu T, Sebastiao IB, Nail SL, Sacha GA, Alexeenko AA. Freeze-dryer equipment capability limit: comparison of computational modeling with experiments at laboratory scale. J Pharm Sci. 2019a;108\(9\):2972–81.[Crossref](https://doi.org/10.1016/j.xphs.2019.04.016)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31004653)
+
+8.  
+8.
+
+Koganti VR, Shalaev EY, Berry MR, Osterberg T, Youssef M, Hiebert DN, et al. Investigation of design space for freeze-drying: use of modeling for primary drying segment of a freeze-drying cycle. AAPS PharmSciTech. 2011;12\(3\):854–61.[Crossref](https://doi.org/10.1208/s12249-011-9645-7)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21710335)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3167267)
+
+9.  
+9.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37.[Crossref](https://doi.org/10.1002/jps.2600730910)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+10.  
+10.
+
+Ganguly A, Alexeenko AA, Schultz SG, Kim SG. Freeze-drying simulation framework coupling product attributes and equipment capability: toward accelerating process by equipment modifications. Eur J Pharm Biopharm. 2013;85\(2\):223–35.[Crossref](https://doi.org/10.1016/j.ejpb.2013.05.013)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23748132)
+
+11.  
+11.
+
+Tchessalov S, Dassu D, Latshaw D, Nulu S. An industry perspective on the application of modeling to lyophilization process scale up and transfer. Am Pharm Rev. 2017;20.
+
+12.  
+12.
+
+Rajniak P, Moreira J, Tsinontides S, Pham D, Bermingham S. Integrated use of mechanistic models and targeted experiments for development, scale-up and optimization of lyophilization cycles: a single vial approach for primary drying. Dry Technol. 2020:1–16.
+
+13.  
+13.
+
+Kuu WY, Nail SL, Sacha G. Rapid determination of vial heat transfer parameters using tunable diode laser absorption spectroscopy \(TDLAS\) in response to step-changes in pressure set-point during freeze-drying. J Pharm Sci. 2009;98\(3\):1136–54.[Crossref](https://doi.org/10.1002/jps.21478)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18683861)
+
+14.  
+14.
+
+Rambhatla S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, I: atypical radiation and the edge vial effect. AAPS PharmSciTech. 2003;4\(2\):22–31.[Crossref](https://doi.org/10.1208/pt040214)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750592)
+
+15.  
+15.
+
+Pikal MJ, Shah S, Senior D, Lang JE. Physical chemistry of freeze-drying: measurement of sublimation rates for frozen aqueous solutions by a microbalance technique. J Pharm Sci. 1983;72\(6\):635–50.[Crossref](https://doi.org/10.1002/jps.2600720614)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6875825)
+
+16.  
+16.
+
+Kuu WY, Hardwick LM, Akers MJ. Rapid determination of dry layer mass transfer resistance for various pharmaceutical formulations during primary drying using product temperature profiles. Int J Pharm. 2006;313\(1–2\):99–113.[Crossref](https://doi.org/10.1016/j.ijpharm.2006.01.036)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16513303)
+
+17.  
+17.
+
+Kuu WY, O’Bryan KR, Hardwick LM, Paul TW. Product mass transfer resistance directly determined during freeze-drying cycle runs using tunable diode laser absorption spectroscopy \(TDLAS\) and pore diffusion model. Pharm Dev Technol. 2011;16\(4\):343–57.[Crossref](https://doi.org/10.3109/10837451003739263)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20387998)
+
+18.  
+18.
+
+Patel SM, Chaudhuri S, Pikal MJ. Choked flow and importance of Mach I in freeze-drying process design. Chem Eng Sci. 2010;65\(21\):5716–27.[Crossref](https://doi.org/10.1016/j.ces.2010.07.024)
+
+19.  
+19.
+
+Nail S, Tchessalov S, Shalaev E, Ganguly A, Renzi E, Dimarco F, et al. Recommended best practices for process monitoring instrumentation in pharmaceutical freeze drying—2017. AAPS PharmSciTech. 2017;18\(7\):2379–93.[Crossref](https://doi.org/10.1208/s12249-017-0733-1)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28205144)
+
+20.  
+20.
+
+Kshirsagar V, Tchessalov S, Kanka F, Hiebert D, Alexeenko A. Determining maximum sublimation rate for a production lyophilizer: computational modeling and comparison with ice slab tests. J Pharm Sci. 2019;108\(1\):382–90.[Crossref](https://doi.org/10.1016/j.xphs.2018.10.061)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30414868)
+
+21.  
+21.
+
+Pikal MJ, Pande P, Bogner R, Sane P, Mudhivarthi V, Sharma P. Impact of natural variations in freeze-drying parameters on product temperature history: application of quasi steady-state heat and mass transfer and simple statistics. AAPS PharmSciTech. 2018;19\(7\):2828–42.[Crossref](https://doi.org/10.1208/s12249-018-1155-4)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30259404)
+
+22.  
+22.
+
+Greco K, Mujat M, Galbally-Kinney KL, Hammer DX, Ferguson RD, Iftimia N, et al. Accurate prediction of collapse temperature using optical coherence tomography-based freeze-drying microscopy. J Pharm Sci. 2013;102\(6\):1773–85.[Crossref](https://doi.org/10.1002/jps.23516)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23681564)
+
+23.  
+23.
+
+Shivkumar G, Kazarin PS, Strongrich AD, Alexeenko AA. LyoPRONTO: an open-source lyophilization process optimization tool. AAPS PharmSciTech. 2019b;20\(8\):1–17.[Crossref](https://doi.org/10.1208/s12249-019-1532-7)
+
+24.  
+24.
+
+Scutella B, Passot S, Bourlés E, Fonseca F, Tréléa IC. How vial geometry variability influences heat transfer and product temperature during freeze-drying. J Pharm Sci. 2017;106\(3\):770–8[Crossref](https://doi.org/10.1016/j.xphs.2016.11.007)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27939928)
+
+25.  
+25.
+
+Scutella B, Trelea IC, Bourlés E, Fonseca F, Passot S. Determination of the dried product resistance variability and its influence on the product temperature in pharmaceutical freeze-drying. Eur J Pharm Biopharm. 2018;128:379–88.
+
+26.  
+26.
+
+Sane P, Varma N, Ganguly A, Pikal M, Alexeenko A, Bogner RH. Spatial variation of pressure in the lyophilization product chamber part 2: experimental measurements and implications for scale-up and batch uniformity. AAPS PharmSciTech. 2017;18\(2\):369–80.[Crossref](https://doi.org/10.1208/s12249-016-0502-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26989063)
+
+27.  
+27.
+
+Bano G, De-Luca R, Tomba E, Marcelli A, Bezzo F, Barolo M. Primary drying optimization in pharmaceutical freeze-drying: a multivial stochastic modeling framework. Ind Eng Chem Res. 2020;59\(11\):5056–71.[Crossref](https://doi.org/10.1021/acs.iecr.9b06402)
+
+28.  
+28.
+
+Vanbillemont B, Nicolaï N, Leys L, De Beer T. Model-based optimisation and control strategy for the primary drying phase of a lyophilisation process. Pharmaceutics. 2020;12\(2\):181.[Crossref](https://doi.org/10.3390/pharmaceutics12020181)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32093181)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7076366)
+
+29.  
+29.
+
+McKay MD, Morrison JD, Upton SC. Evaluating prediction uncertainty in simulation models. Comput Phys Commun. 1999;117\(1–2\):44–51.[Crossref](https://doi.org/10.1016/S0010-4655(98)00155-6)
+
+30.  
+30.
+
+Adhikari N, Zhu T, Jameel F, Tharp T, Shang S, Alexeenko A. Sensitivity study to assess the robustness of primary drying process in pharmaceutical lyophilization. J Pharm Sci. 2020;109\(2\):1043–9.[Crossref](https://doi.org/10.1016/j.xphs.2019.10.012)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31606541)
+
+31.  
+31.
+
+Hunt M, Haley B, McLennan M, Koslowski M, Murthy J, Strachan A. PUQ: A code for non-intrusive uncertainty propagation in computer simulations. Comput. Phys. Commun. 2015;194:97–107.
+
+32.  
+32.
+
+Fissore D, Pisano R. Computer-aided framework for the design of freeze-drying cycles: optimization of the operating conditions of the primary drying stage. Processes 2015;3\(2\):406–421.
+
+
+

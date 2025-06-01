@@ -1,0 +1,1374 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_2](https://doi.org/10.1007/978-3-031-12634-5_2)
+
+
+**
+# Characterization and Determination of Freeze-Drying Properties of Frozen Formulations: Case Studies
+**
+
+
+Feroz Jameel1 
+
+
+\(1\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+
+
+
+**1 **Introduction
+
+**2 **Definition of Freeze-Drying Properties
+
+**2.1 **Collapse Temperature
+
+**2.2 **Eutectic Melting Temperature \(*T*e\)
+
+**3 **Characterization Techniques
+
+**3.1 **Differential Scanning Calorimetry \(DSC\)
+
+**3.2 **Freeze Drying Microscopy \(FDM\)
+
+**3.3 **Estimation of *T*g’
+
+References
+
+
+## Abstract
+
+It is quite critical prior to design of the lyophilization process to completely characterize the formulation and understand the thermal events and physical state changes that occurs as a function of cooling and warming. Definitions of various freeze drying properties are described and illustrated with examples/figures. Various techniques such as MDSC and FDM that can be used to characterize under various conditions and determine the freeze drying properties/values of the formulation along with the science behind the design of the experiments, analyze and interpret the data is described and Illustrated with case studies. Finally, how some freeze drying properties can be predicted theoretically using Gordon & Taylor equations is discussed with example.
+
+
+**Keywords**
+Lyophilization Freeze drying properties Frozen formulation Modulated DSC Freeze drying microscopy Collapse temperature Eutectic melting temperature Glass transition temperature of freeze concentrate Melt-back Crystallization Amorphous state
+
+
+## **1 **Introduction
+
+It is quite common to see lyophilized products in the market that the freeze drying of which takes several days to weeks and yet produce a product that lacks pharmaceutical elegance, reconstitutes with difficulty with high reconstitution time, and lot-to-lot and vial-to-vial variability/heterogeneity in quality attributes; and most important is failure to achieve ambient storage stability and requires cold chain for shipment and storage. These issues arise from the lack of clear understanding of thermal behavior and freeze drying properties of the excipients, their selection, and their weight ratios while designing the formulation and process. Additionally, it is important to consider during the design of formulation and process that the commercial manufacturing requires that the process should be short \(i.e., economically viable\), operative within the capabilities of the equipment with appropriate safety margins and efficient plant utilization. Thus, the above expectations require the design of formulation and lyophilization cycles to be such that the collapse temperatures are maximized and drying rates are as high as possible and robust enough to be implementable on typical production freeze dryers \[1\].
+
+As Freeze drying is a cold process, it is time-consuming process and accurate determination of freeze drying properties of the formulation such as eutectic melting temperature \(*T*e\), the glass transition temperature of the maximum freeze concentrated solution \(*T*g’\), crystallization and annealing temperatures and times, residual unfrozen water content at the *T*g’ temperature \(*W*g’\) and the glass transition temperature of the dry powder \(*T*g\) is not only the first step but also central to the design of the freeze drying process. The onset of crystallization and the annealing temperature guide the freezing parameters and the protocol, with *T*g’ and/or *T*e values inform the selection of primary drying conditions \(shelf temperature, chamber pressure, and time\). The *W*g’ value also forms the basis for selection of secondary drying conditions, ramping rate advancing from primary to secondary drying, temperature and time of secondary drying. The *T*g of the freeze dried cake informs the selection of accelerated stability studies conditions and forms the basis for the recommended transportation and storage conditions of the product \[2\].
+
+The overall values of the abovementioned freeze drying properties for a given formulation depend heavily on the values of these properties for individual excipients/ingredients present in the formulation and their weight ratios in the mixture. Biopharmaceutical formulations typically end up in a multicomponent salt system in an effort to stabilize the labile biologic coupled with end-use requirements. Thus, it becomes critical to characterize the thermal behavior of these components both individually and in a mixture and determine the values of these properties before selecting the excipients/composition of the formulation and process conditions.
+
+Most of the excipients that are used in the biopharmaceutical formulations includes buffers, surfactants, stabilizers, bulking agents, and tonicity modifiers and they behave differently because of the variations in their concentrations, temperature \(cooling and warming\), and presence and absence of other excipients \[3\].
+
+Formulation and process development are interdependent and the formulation candidate screening should consider the freeze drying properties of the prototypes besides the stability aspects. There are two techniques: the freeze drying microscopy \(FDM\) and modulated differential scanning calorimetry \(MDSC\), that are commonly employed to understand the thermal behavior/thermal events, physical state of the excipients individually and in mixture in the frozen state and determine the abovementioned freeze drying properties, see Tables 1 and 2. 
+
+
+***Table 1*** 
+Collapse Temperature, *T*c \(°C\) and Glass Transition Temperature, *T*g’ \(°C\) data for selected excipients
+
+
+
+**Material**
+
+***T*g’\(°C\)**
+
+**Reference**
+
+***T*c \(°C\)**
+
+**Reference**
+
+BSA
+
+−11
+
+6
+
+Dextran
+
+−10
+
+6, 5
+
+−10
+
+\[16\]
+
+Ficol
+
+−19
+
+5
+
+−20
+
+\[17\]
+
+Gelatin
+
+−9
+
+5
+
+−8
+
+\[17\]
+
+PVP \(40k\)
+
+−20
+
+5
+
+−23
+
+\[17\]
+
+Dextrose
+
+−44
+
+5
+
+Hydroxypropyl β cyclodextrin
+
+−10.3
+
+5,10
+
+Lactose
+
+−28
+
+6,
+
+−32
+
+\[7\]
+
+Mannitol
+
+−35
+
+6, 5
+
+Raffinose
+
+−27
+
+7
+
+−26
+
+\[7\]
+
+Sorbitol
+
+−46
+
+5
+
+−27
+
+\[7\]
+
+Sucrose
+
+−33
+
+5
+
+−32
+
+\[7\]
+
+Trehalose
+
+−29.5
+
+5, 7
+
+β Alanine
+
+−65
+
+6
+
+Glycine
+
+−62
+
+8
+
+Histidine
+
+−33
+
+6
+
+Acetate, potassium
+
+−76
+
+6
+
+Acetate, sodium
+
+−64
+
+6
+
+CaCl2
+
+−95
+
+6
+
+Citric acid
+
+−54
+
+6
+
+Citrate, potassium
+
+−62
+
+6
+
+Citrate, sodium
+
+−41
+
+6
+
+HEPES
+
+−63
+
+6
+
+NaHCO3
+
+−52
+
+6
+
+Phosphate, KH2PO4
+
+−55
+
+6
+
+Phosphate K2HPO4
+
+−65
+
+6
+
+Phosphate, NaH2PO4
+
+−45
+
+6
+
+Tris base
+
+−51
+
+6
+
+Tris HCl
+
+−65
+
+6
+
+Tris acetate
+
+−54
+
+6
+
+ZnCl2
+
+6
+
+
+
+
+***Table 2*** 
+Glass Transition Temperatures, *T*g, of selected excipients measured by DSC
+
+
+
+**Compound**
+
+***T*g, °C**
+
+**Reference**
+
+Citric acid
+
+11
+
+\[9\]
+
+Glycine
+
+~30
+
+\[11, 12\]
+
+Lactose
+
+114
+
+\[12–14\]
+
+Maltose
+
+100
+
+\[12, 14, 15\]
+
+Mannitol
+
+13
+
+\[12, 14, 15\]
+
+Raffinose
+
+114
+
+\[12, 14, 15\]
+
+Sorbitol
+
+−1.6
+
+\[12, 14, 15\]
+
+Sucrose
+
+75
+
+\[12, 14, 15\]
+
+Trehalose
+
+118
+
+\[12, 14, 15\]
+
+Maltodextrin 860
+
+169
+
+\[12, 14, 15\]
+
+PVP k90
+
+176
+
+\[12, 14, 15\]
+
+
+Consult the references for details of the techniques, value in the parenthesis is extrapolated from mixtures using Fox equation and is highly approximate
+
+
+
+
+Collapse temperature data were obtained with freeze drying microscopy and *T*g’ data were obtained using DSC at roughly 10 °C/min heating rates and represent mid-points of the glass transition region. Values in parenthesis were estimated by extrapolation from non-crystallizing mixtures to the pure compound
+
+## **2 **Definition of Freeze-Drying Properties
+
+### **2.1 **Collapse Temperature
+
+In a system where all the excipients form a single amorphous system post-freezing, the maximum allowable product temperature during primary drying without the loss of porous “cake-like” structure with the dimensions equivalent to those of the frozen solid \[4, 18\] is termed as collapse temperature. As illustrated in Fig. 1a there are various degrees of collapse, onset of collapse, partial collapse, and full collapse, depending upon how much the product temperature is away from collapse temperature. Drying a product above the collapse temperature results in the material becoming rubbery and is subject to viscous flow causing porous structure to collapse. Advancing to secondary drying without the full completion of sublimation of ice in the primary drying phase results in the melting of the remaining ice causing melt back. Figures 1b illustrates various degrees of melt back. Collapse temperature can be measured through direct microscopic observation of collapse/loss of structure during freeze drying using freeze drying microscopy. Pikal et al. \[4, 18\] investigated the differences between collapse temperatures determined by laboratory procedures and the observation of collapse in production processes. They observed that the collapse temperature increased as the sublimation rate increased \(i.e., as the solute concentration decreases\), and at constant sublimation rate, the collapse temperature may increase as the surface area of the solid increases. They also noted that in general, product freeze drying in a vial will collapse at a slightly higher temperature than collapse measured by the microscopic method. 
+![](images/000000.jpeg)
+
+
+***Fig. 1*** 
+\(**a**\) Various degrees of collapse: \(A\) micro or onset of collapse, \(B\) partial collapse, \(C\) full collapse. \(**b**\) Various degrees of melt back. \(Courtesy lyophilizationworld\)
+
+
+
+*T*g’ is the glass transition temperature of the maximally freeze concentrated solute \(*T*g’\), and collapse temperature and glass transition temperature, *T*g’, are not identical. The collapse temperature when measured using DSC or MDSC will be 2–3 °C higher than the *T*g’ value because the system will not undergo viscous flow, and loss of structure will not be observed until the product temperature exceeds the *T*g’ value by a 2–3 °C when measured at low rates of temperature increase.
+
+### **2.2 **Eutectic Melting Temperature \(***T*****e**\)
+
+A eutectic mixture is a physical mixture of two or more crystalline compounds that melt together at the same temperature as one compound and that temperature is referred as eutectic temperature. As illustrated in Fig. 2 there are various degrees of melt depending upon the composition of the solution and how far the product temperature is from the eutectic melting temperature. In a system where all the excipients crystallize upon freezing then *T*e would be the collapse temperature/critical temperature. In a binary system where both amorphous and crystalline systems present and if crystalline constitutes the major component then performing primary drying with the product temperature above *T*g’ but below *T*e will dry the product with the collapse of the amorphous component on the surface of the crystalline phase, and the crystalline phase will render the necessary mechanical support to the cake structure \[3\]. On the other side if the amorphous phase constitutes the major component and crystalline phase the minor component, then, under those situations drying above *T*g’ but below *T*e will be risky and will depend on how far the product temperature is from the *T*g’ as the crystalline structure will not provide the sufficient mechanical support needed. 
+![](images/000001.jpeg)
+
+
+***Fig. 2*** 
+Examples of various degrees of eutectic melt: \(**a**\) full eutectic melt, \(**b**\) partial eutectic melt, \(**c**\) elegant crystalline cake
+
+
+
+## **3 **Characterization Techniques
+
+The characterization techniques that are commonly employed to determine the freeze drying properties are \(1\) freeze-drying microscopy, \(2\) modulated differential scanning calorimetry \(MDSC\), and \(3\) electrical resistance.
+
+### **3.1 **Differential Scanning Calorimetry \(DSC\)
+
+This technique has been around since many years, and since thermal events involve heat flow, this technique has been successfully used to quantitatively measure changes in heat flow and heat capacity resulting from first-order irreversible/kinetic thermal events such as crystallization and eutectic melt \(exotherms or endotherms\), and from second-order reversible events such as glass transitions a function of time and temperature.
+
+
+**Principle**
+
+The underlying principle behind the standard or conventional DSC is based on the Ohm’s law that governs the heat flow, Eq. 1 
+
+
+
+![$$ \frac{\textrm{d}Q}{\textrm{d}t}=\frac{\Delta T}{R_{\textrm{D}}} $$](images/000002.jpeg)
+
+
+\(1\)
+
+
+Where  ![$$ \frac{\textrm{d}Q}{\textrm{d}t} $$](images/000003.jpeg)  is the heat flow and Δ*T* is the temperature difference between reference and sample, and *R*D is the thermal resistance of the constantan disc. An aluminum pan containing the sample and the empty pan as a reference are placed on the discs made up of constantan through which the heat transfers from the sample and the reference to the thermocouples made up of CHROMEL that are placed beneath the discs. These thermocouples measure the differential heat flow.
+
+Although in the standard DSC the chamber is purged with nitrogen or argonon gas through an orifice in the heating block to ensure uniform and stable thermal environment resulting in a controlled flat baseline, sometimes a crooked baseline can be observed due to some impurities on the discs which makes some real transitions questionable. To confirm whether these transitions are real in nature it is often repeated. To overcome such difficulties and resolve some complex transitions Mike Reading came up with an idea of modulated differential scanning calorimetry \(MDSC\) where a sinusoidal modulation is imposed on the conventional underlying linear heating or cooling ramp, thus the guiding principle of MDSC is to apply two heating rates simultaneously and measure how they affect the rate of heat flow \[5, 19\]. As a result of which the sample experiences two heating rates or cooling profiles or as if two experiments, one conventional linear \(average\) heating rate \[dashed line in Fig. 3\] and the other at a sinusoidal \(instantaneous\) heating rate \[dashed-dot line in Fig. 3\], are being run simultaneously. 
+![](images/000004.gif)
+
+
+***Fig. 3*** 
+Heating rate profiles in MDSC. \(Adapted from Refs. \[6, 20\]\)
+
+
+
+
+The average heating rate provides total heat flow information while the sinusoidal heating rate provides heat capacity information from the heat flow that responds to the rate of temperature change. The advantage of doing this is that it will enable separation of the reversible and irreversible heat flows from the total heat flow as indicated in the following Eq. 2.
+
+
+
+
+
+![$$ \frac{\textrm{d}Q}{\textrm{d}t}=\frac{C_{\textrm{p}}\Delta T}{t}+f\left(T,t\right) $$](images/000005.jpeg)
+
+
+\(2\)
+
+
+
+
+The standard or conventional DSC measures only the total heat flow \( ![$$ \frac{\textbf{d}\boldsymbol{Q}}{\textbf{d}\boldsymbol{t}} $$](images/000006.jpeg) \), whereas MDSC measures total heat flow \( ![$$ \frac{\textbf{d}\boldsymbol{Q}}{\textbf{d}\boldsymbol{t}} $$](images/000007.jpeg) \), reversible heat flow which is a function of the sample’s heat capacity and rate of temperature change, and irreversible heat flow which is a function of absolute temperature and time. Reversible heat flow and heat capacity are associated with glass transitions which are reversible in nature while the crystallization melts and heat of enthalpy are associated with irreversible heat flow and kinetic in nature, see Fig. 4. 
+![](images/000008.gif)
+
+
+***Fig. 4*** 
+Depicting three heat flows for a quenched material. \(Adapted from Ref. \[20\]\)
+
+
+
+
+
+*Advantages of MDSC over standard DSC:*
+
+1.  
+1.
+
+
+Ability to resolve complex transitions such as enthalpy of relaxation from glass transition temperature which appear together and can make the glass transition appear to be a melting transition. Similarly, crystallization of an excipient prior to or during melting make it difficult to determine the real crystallinity of the sample
+
+
+
+
+2.  
+2.
+
+
+Ability to detect weak transitions which are often overshadowed by drifting of baseline in standard DSC
+
+
+
+
+3.  
+3.
+
+
+One of the disadvantages of standard DSC is that some measurements such as heat capacity and thermal conductivity require more than a single experiment
+
+
+
+
+4.  
+4.
+
+
+Conventional DSC results are always a compromise between sensitivity and resolution.
+
+
+
+
+
+Resolution or separating transitions that are only few degrees apart require the use of small samples and low heating rates but the size of the heat flow signal decreases with reduced sample size and heating rate. This suggests that any improvement in resolution comes with reduction in sensitivity and vice versa. The sensitivity of the weak transitions can be improved by \(1\) increasing the sample size, which enhances the amplitude of the transition; \(2\) increasing the scanning rates; and \(3\) increasing the concentration but keeping the mass ratio of the components in the mixture constant. The downside with these increasing sample size and scanning rates are that they move the transitions to higher temperatures and can also cause merging of the nearby thermal events. The dependence of glass transitions on heating rates needs to be corrected as heating rates employed in freeze drying are much lower and the real values will be lower by a few degrees, especially in cases where drying is carried out at product temperatures close to *T*g’. Further resolution and sensitivity in the determination of *T*g’ can be obtained using the derivative of the power–time curve \[21, 22\].
+
+#### ***3.1.1 ***Method Design Considerations \[***23***\]
+
+As indicated above, in MDSC as opposed to standard DSC the sample is subjected to two heating rates simultaneously to obtain all the information relating to thermal events, and optimization of the values of these heating rates is key to obtaining quality data. Prior to selecting and optimizing the values, three key parameters, average heating rate, temperature modulation period and amplitude, should be considered: average heating rate, temperature modulation period, and amplitude.
+
+
+
+1. 
+1.
+
+
+Keep the average heating rate \(°C/min\) slow enough to get sufficient number of modulation cycles over transitions of interest.
+
+
+
+
+2.  
+2.
+
+
+The modulation period should be selected in such a way that there is enough time for the heat to flow between the sensor and the sample
+
+
+
+
+3.  
+3.
+
+
+Modulation amplitude \(± °C\) affects both the sensitivity and the resolution. Keep the amplitude larger to achieve greater sensitivity but not so large that it will reduce the resolution
+
+
+
+
+
+**Selection of Modulation Temperature Period**
+
+The temperature modulation period is the time, in seconds, required to complete one modulation cycle. The selection of the period varies between 10 and 200 s and depends on the sample weight, its thickness, and conductivity in addition to sample pan and objective of the experiment. The following are the recommendations or guidelines that can be used as starting points and can be further optimized if needed.
+
+One key point that needs to be considered during the selection of period is that it should not be longer than necessary for quantitative heat flow, otherwise it will require a reduction in the average heating rate.
+
+
+
++ 
+A period of 45 s is recommended for samples containing 15 mg in crimped aluminum pans and 60 s in samples up to 15 mg contained in hermetic aluminum pans.
+
++  
+For heat capacity measurement of materials 100 s is recommended
+
++  
+For large volumes in stainless steel hermetic pans a period of 200 s is recommended
+
+
+
+
+
+**Selection of Modulation Temperature Amplitude**
+
+Similar to standard DSC, MDSC also provides increased sensitivity for transitions involving change in heat capacity with the increased modulation temperature amplitude due to larger changes in the heating rate. The instrument allows to select amplitude values from ±0.001 °C to 10 °C; however, generally amplitudes greater than ±2.0 °C have been found to decrease the resolution and amplitudes less than ±0.1 °C are not recommended for use because they give poor sensitivity.
+
+Amplitudes can be selected in a way to provide cooling or not to provide cooling. For determination of glass transition \(*T*g\) temperatures which are function of changes in heat capacity both heating and cooling during the temperature modulation are found to be best.
+
+For example, in Fig. 5, where the average heating rate is 1.0 °C/min with a modulation period of 60 s and modulation amplitude of ±0.319 °C this condition provides modulated temperature to increase and decrease as the average temperature increases. The time-based derivative of this signal indicates that the average heating rate is 1.0 °C/min, while the modulated heating rate ranges from approximately −1.0 to 3.0 °C/min. This overall range of 4.0 °C/min is the result of the selected period and amplitude. Such conditions that provide both heating and cooling during the temperature modulation are found to be best for measurement of glass transitions temperatures. 
+![](images/000009.jpeg)
+
+
+***Fig. 5*** 
+The modulated temperature is seen to increase and decrease as the average temperature increases. The time-based derivative of this signal shows that the average heating rate is 1.0 °C/min, while the modulated heating rate ranges from approximately −1.0 to 3.0 °C/min \[23\]
+
+
+
+For determination of crystallization temperatures, the “heat-iso” conditions would be ideal where the heating rate is designed to go to zero \(isothermal\) with no cooling. This is well illustrated in Fig. 6 where the modulation period \(60 s\) and modulation amplitude \(± 0.319 °C\) are the same as for that shown in Fig. 5, but the average heating rate has been increased to 2 °C/min. As can be noticed these conditions still provide a range of 4 °C/min involved \(0–4 °C/min\), but now there is no cooling during the modulation. 
+![](images/000010.jpeg)
+
+
+***Fig. 6*** 
+Results from selection of conditions involving the same modulation period \(60 s\) and same modulation amplitude \(± 0.319 °C\) as for that shown in Fig. 3. The difference is that the average heating rate has been increased to 2 °C/min \[23\]
+
+
+
+Based on experience the TA instruments has come up with a table, Table 3, that eases the selection of the modulation temperature amplitude, following is the guidelines 
+
+
+***Table 3*** 
+This table is additive, i.e., the heat only amplitude for a period of 40 s and heating rate of 2.5 °C/min is sum of the values for 2.0 °C/min and 0.5 °C/min
+
+
+
+**Period \(s\)**
+
+Heating rate
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+0.1
+
+0.011
+
+0.013
+
+0.016
+
+0.019
+
+0.021
+
+0.024
+
+0.027
+
+0.2
+
+0.021
+
+0.027
+
+0.032
+
+0.037
+
+0.042
+
+0.048
+
+0.053
+
+**0.5**
+
+**0.053**
+
+0.066
+
+0.080
+
+0.093
+
+0.106
+
+0.119
+
+0.133
+
+**1.0**
+
+0.106
+
+0.133
+
+0.159
+
+0.186
+
+0.212
+
+0.239
+
+0.265
+
+**2.0**
+
+**0.212**
+
+0.265
+
+0.318
+
+0.371
+
+0.424
+
+0.477
+
+0.531
+
+**5.0**
+
+**0.531**
+
+0.663
+
+0.796
+
+0.928
+
+1.061
+
+1.194
+
+1.326
+
+
+*Amplitude \(40s, 2.5 °C/min\) = 0.212 ± 0.053 = ±0.265 °C*, \[23\]
+
+
+
+
+
+1. 
+1.
+
+
+First select the modulated period and average heating rate that will be used for the experiment
+
+
+
+
+2.  
+2.
+
+
+To run experiment under heat-iso conditions for a given period and heating rate, the corresponding amplitude values can be taken directly from Table 3
+
+
+
+
+3.  
+3.
+
+
+For heat-cool conditions any amplitude value greater than indicated will produce cooling during modulation. The amplitude values should be increased by factors as suggested below as starting conditions and can be further optimized based on the thermal event of interest
+
+
+
+
+
+*Glass Transitions \(Tg\)*
+
++  
+*For standard T*g*”*: 
+
+Sample size: 10–15 mg
+
+Amplitude: 2× Table 1
+
+Period: 40 s
+
+Heating Rate: 3 °C/min
+
+
+
++  
+*T*g *is Hard to Detect* 
+
+Sample size: 10–20 mg
+
+Amplitude: 4× Table 1
+
+Period: 40 s
+
+Heating Rate: 2 °C/min
+
+
+
++  
+*T**g* *has Large Enthalpic* *Relaxation* 
+
+Sample size: 5–10 mg
+
+Amplitude: 1.5× Table 1
+
+Period: 40 s
+
+Heating Rate: 1 °C/min
+
+
+
+
+
+In case of standard *T*g determinations with sample sizes in the range of 10–15 mg, use heating rate of 3 °C/min, a period of 40 s and use amplitudes 2× the value indicated in the Table 3
+
+In cases where the *T*g values are difficult to determine as shown in Fig. 6, sample sizes in the weight range of 10–20 mg, use heating rate of 2 °C/min, period of 60 s, and an amplitude of 4× the value indicated in the Table 3.
+
+In cases where the *T*g are associated with large enthalpic relaxations use sample sizes in the range of 5–10 mg, slower heating rates of 1 °C/min, period of 40 s, and an amplitude of 1.5× the value indicated in the Table 3.
+
+In general, for most experiments, a starting weight of 10 mg is advised, and it can be increased for improved sensitivity or decreased for improved resolution.
+
+
+**Selection of Average Heating Rate**
+
+The average heating rate should be selected in such a way that at least 3–4 modulation cycles should fit over the temperature range of the transition either glass transition or other thermal events involving a step-change in heat capacity in order to call the transition/thermal event under consideration with confidence and with no ambiguity. The number of modulation cycles should be determined between the extrapolated on-set and extrapolated end-set of the step and should be 3–4 cycles.
+
+For transitions involving peaks, the minimum is determined at half-height of the peak as illustrated in Fig. 7. At temperature near 250 °C, at half-height of the melting peak near 250 °C, there are roughly 6–7 cycles, which meets the requirement of four \(4\) or more. However, at half-height of the cold-crystallization peak near 150 °C there are only 3 cycles suggesting that the average heating rate is slightly too fast. It is to be noted that this experiment was performed at 4 °C/min and better results would be obtained if it is performed at 3 °C/min as all transitions involving peaks would have four or more cycles at half-height of the peak and meets the requirement. 
+![](images/000011.jpeg)
+
+
+***Fig. 7*** 
+Demonstration of number of modulation cycles within the transitions dependence on the heating rate \[23\]
+
+
+
+
+### **3.2 **Freeze Drying Microscopy \(FDM\)
+
+Freeze drying microscopy is another technique that enables direct observation of physical behavior of the components of the formulation during freezing and freeze drying under a polarized light microscope. It allows the determination of freeze-drying properties such as collapse temperature, crystallization temperature, optimal annealing temperature and time, and eutectic melting temperature.
+
+It involves placing a sample between the cover slips and cryostage chamber which is placed under the microscope, the whole set up acts like a micro freeze-dryer. The sample is then frozen down to a pre-selected temperature and cooling rate, after which a vacuum is pulled down in the chamber to begin the drying process. The structure behind the drying front is watched under the microscope to see whether it is drying with the retention of structure or not. If it is drying with the retention of the structure the temperature is raised slowly in increments until the structure starts breaking. The level of severeness of the breakage of the structure is defined in terms of onset, partial, or full collapse. The temperature of the stage can then be manipulated in order to identify the temperature at which the product will collapse or melt.
+
+#### ***3.2.1 ***Equipment and Experimental Procedure
+
+It is composed of three major components: a \(1\) temperature-controlled freeze-drying stage \(cryostage\), \(2\) an optical window through which the progress of freezing or/and drying in sample can be observed via a microscope, and \(3\) a programmable temperature controller.
+
+
+**Procedure**
+
+Insert the sample holder on the Cryostage and align the XY manipulator so that the sample holder is in the middle of the silver block. Place the quartz crucible within the sample holder and to get a perfect thermal seal between Cryostage and the crucible a small drop of silicon oil on the Cryostage will be helpful. Load approximately 3–5 μL of sample in the center of the quartz crucible and cover it up through a 9 mm glass cover slip using vacuum tweezers. Using XY manipulators move the sample holder so that the edge of the sample sits across the aperture hole of the Cryostage which helps in locating the sample boundary once the analysis starts. Adjust the microscope and focus on edge of sample first with the 10× objective and then with the 20×. Open the software and enter the temperature profile for the experiment.
+
+Before loading and analyzing the product sample it is always a good idea to run some standards such as potassium chloride or sodium chloride to ensure the temperature sensors are calibrated and the findings are reliable.
+
+
+#### ***3.2.2 ***Applications of Freeze-Drying Microscopy
+
+##### ***3.2.2.1 ***Crystalline Systems
+
+In the case of crystalline systems where a crystallizable excipient is included in the formulation and the intended role of it is to provide crystalline matrix besides improving the overall collapse temperature, it is imperative to ensure its complete crystallization during the freezing phase.
+
+It is important to note that the determination of collapse temperature of the crystalline system should be made only after complete annealing of the crystallizable excipient \(example, Mannitol\). The collapse temperature will be the eutectic melting temperature if the system is predominantly crystalline in nature.
+
+In order to achieve complete crystallization of the crystallizable excipient, the temperature and time at which the kinetics of maximum crystallization occurs be identified, and FDM helps to accomplish that.
+
+The experimental procedure should involve first freezing the sample below the *T*g’ of the formulation, at least 6–10 °C below the *T*g’, to create nuclei, prior to annealing. To pinpoint the optimal temperature, bring the temperature to approximately 10 °C above the *T*g’ value to provide mobility and growth of nuclei into crystals and slowly raise the temperature in increments of 2 °C while holding for 15–20 mins at each temperature increment to observe rate of the crystallization growth. Once the annealing temperature is determined at which maximum growth occurs then determine the time needed for complete crystallization as evidenced by a higher collapse temperature in the frozen solution. This identified annealing time and temperature on FDM translates well in the vial and can further be optimized.
+
+An example of the cooling and heating profiles typically used for the determination of collapse temperature of a crystalline system is provided below
+
+
+
+1. 
+1.
+
+
+Ramp down to −45 °C at 10 °C/min
+
+
+
+
+2.  
+2.
+
+
+Hold at −45 °C for 5 min
+
+
+
+
+3.  
+3.
+
+
+Ramp up to −15 °C at 0.25 °C/min
+
+
+
+
+4.  
+4.
+
+
+Hold at −15 °C for 180 min \(Annealing Step\)
+
+
+
+
+5.  
+5.
+
+
+Ramp down to −45 °C at 10 °C/min
+
+
+
+
+6.  
+6.
+
+
+Hold at −45 °C
+
+
+
+
+7.  
+7.
+
+
+Apply Vacuum
+
+
+
+
+8.  
+8.
+
+
+Heat at 5 °C/min till −35 °C
+
+
+
+
+9.  
+9.
+
+
+Heat at 2 °C/min increments and hold for 5 mins at each temperature and observe for drying with loss of structure/when the structure starts breaking either partially called partial collapse and fully called full collapse/eutectic melt till 0 °C.
+
+
+
+
+
+Similar freezing protocol can be used on MDSC to obtain thermal behavior of mannitol or glycine-based formulations as schematically illustrated in Fig. 8. 
+![](images/000012.jpeg)
+
+
+***Fig. 8*** 
+An illustration of determination of thermal events of a crystalline system on MDSC
+
+
+
+##### ***3.2.2.2 ***Case Studies
+
+
+**Amorphous Systems**
+
+Determination of collapse temperature of pure excipient such as sucrose or trehalose, which are the commonly used disaccharides in pharmaceutical/biopharmaceutical, is not difficult as their values are known in the literature and just requires careful attention of the drying front/sublimation front as it gets closer to the known literature values. It would serve as a good amorphous system standard for checking the temperature probe/sensor calibration prior to start of any experiment involving determination of collapse temperature of an amorphous system.
+
+Sometimes if the coverslip is not placed properly on the quartz crucible, the solution squeezes out of the edges and a very thin layer is left in the center and makes observation difficult. Additionally, the squeezed-out sucrose or trehalose dries/crystallizes at the edges making the vacuum penetrate the coverslip difficult and inhibits drying and will not see sublimation front. In Fig. 9a you can see clearly the start of breaking of the structure of sucrose around −31 °C and a full collapse at any temperatures above it, and in Fig. 9b you see for a 2% Raffinose an onset of collapse at −24 °C and full collapse at −21 °C. 
+![](images/000013.jpeg)
+
+
+***Fig. 9*** 
+\(**a**\) Example of 10% sucrose. \(**b**\) Freeze drying microscopy images of 2% Raffinose \(A\) showing onset of collapse at –24 °C \(B\) showing full collapse at −21 °C \[18\]
+
+
+
+Addition of buffer salts or other excipients affects positively or negatively to the overall collapse temperature and *T*g’ of the formulation depending upon the nature of the excipient. For example, Fig. 10 below depicts the collapse temperature depression of sucrose to −37 °C by the addition or presence of Tris. 
+![](images/000014.jpeg)
+
+
+***Fig. 10*** 
+Freeze drying microscopy of a formulation solution containing Sucrose:Tris \[24\]
+
+
+
+Similarly, it can be seen on MDSC thermograms in Fig. 11 the depression of *T*g’ value of pure trehalose from −30 °C to −48 °C by the addition of buffer salts \(in this example the solution contains Tris, phosphate, PEG, and Arginine\). 
+![](images/000015.jpeg)
+
+
+***Fig. 11*** 
+Thermograms of pure Trehalose and a formulation solution containing Tris, phosphate, PEG, and Arginine
+
+
+
+
+However, there are excipients such as cyclodextrin and protein the addition of which will positively improve the overall collapse of the formulation. There are some minimum concentrations required to start seeing positive effects. For example, inclusion of protein will show positive effect only above 20 mg/mL as shown below \[25, 26\]. This is illustrated in Fig. 12 and Table 4. Additionally, a continuous transition from onset to full collapse over a few degrees in temperature instead of a distinct collapse behavior is generally observed, mostly due to the high protein concentration. 
+![](images/000016.jpeg)
+
+
+***Fig. 12*** 
+Freeze drying microscopy photographs depicting effect of protein concentration on the collapse temperature of \(**a**\) 20 mg/mL protein in trehalose formulation \(**b**\) 100 mg/mL protein in sucrose formulation
+
+
+
+
+***Table 4*** 
+Comparison of DSC and FDM results obtained for mAb formulated at various protein concentrations in a formulation buffer
+
+
+
+**mAB concentration \(mg/mL\)**
+
+**DSC**
+
+**Freeze drying microscopy**
+
+***T*g’ ± SD \(°C\)**
+
+***T*c, on \(°C\)**
+
+***T*c, com \(°C\)**
+
+0
+
+−32.6 ± 0.7
+
+−33
+
+−31
+
+10
+
+−31.4 ± 0.4
+
+−32
+
+−30
+
+20
+
+−30.5 ± 0.4
+
+−29
+
+−24
+
+40
+
+−28.7 ± 0.2
+
+−27
+
+−23
+
+60
+
+−26.9 ± 0.1
+
+−27
+
+−17
+
+80
+
+−25.9 ± 0.2
+
+−19
+
+−12
+
+100
+
+−25.9 ± 0.3
+
+−21
+
+−13
+
+
+Data from Ref. \[26\]
+
+
+
+
+The temperature at which initial changes in the structure are observed is referred to as *T*c, on \(onset of collapse or partial collapse\) while when complete loss of structure \(collapse\) is observed it is referred to as *T*c, com.
+
+It is interesting and important to note from Fig. 11 and Table 4 that not only the difference or width between the onset temperature and end of either collapse or end of glass transition increases quite significantly with increase in protein concentration but also the difference between *T*g’ value and the collapse temperature increases. In some cases, especially high protein concentration formulations, the viscous flow is not observed until 13–14 °C away from onset temperature. Hence, it is always prudent/recommended to use FDM to determine the upper temperature limit for a given formulation during primary drying rather than just relying on DSC data.
+
+Additionally, for high protein concentration formulations it is possible, and advantage can be taken to carry out primary drying above the *T*g’ and at or slightly above the *T*c, on without evidence of lack of elegance and stability. This is based on the hypothesis that at high protein concentrations the solids are thickly/densely populated, thereby increasing the viscosity and restricting the mobility resulting in the prevention of macroscopic collapse under the time scale of freeze drying \[26\].
+
+##### ***3.2.2.3 ***Crystalline Systems
+
+As indicated above it is always prudent to calibrate the systems with a standard, and sodium chloride and potassium chloride serve as good standards for determination of eutectic melting temperatures as their eutectic melting temperatures are known to be −21 °C and −11 °C, respectively. They are isotropic in nature, has cubic crystalline lattice structure, where all of the sodium or potassium and chloride ions are arranged with uniform spacing along three mutually perpendicular axes which means you will not see birefringence as you can see with the water or mannitol or glycine or calcite as they are anisotropic.
+
+In a formulation, if all the excipients are crystallizable and crystallize upon freezing, then the collapse temperature would be the eutectic melting temperature \(*T*e\).
+
+Since *T*e are much higher than the *T*c, advantage is taken by creating formulations with the crystalline component being a major component that would enable to perform primary dying with the product temperature above *T*g’ but below *T*e resulting in a significantly shorter lyophilization process. In this situation the product will dry with the collapse of the amorphous component on the surface of the crystalline phase, and the crystalline phase will render the necessary mechanical support to the cake structure, but the impact on the product stability must evaluated \[1, 3\]. On the other hand, if the amorphous phase constitutes the major component and crystalline phase the minor component, then, under those situations *T*e would not be the collapse temperature. The crystallizable excipient will not crystallize as the predominant amorphous component will inhibit its crystallization process and the crystallizable excipient will remain mostly amorphous and contribute to the overall collapse temperature of the formulation.
+
+Pure mannitol has a *T*e in the range of −3 °C to −5 °C. When a sugar like sucrose is added, depending upon the weight ratio, the crystallization of mannitol is inhibited and will remain amorphous and one has to determine the collapse temperature using FDM. Annealing or thermal treatment of mannitol will impact the collapse temperature. For example, in a formulation containing mannitol, sucrose, and protein where mannitol was the predominant component, the collapse temperature was determined to be −20 °C to −23 °C without annealing. However, optimization of annealing conditions \(time & temp\) led to identification of optimal annealing conditions at which the collapse temperature improved from −23 °C to −9 °C as depicted in Figs. 13 and 14, and Table 5. 
+![](images/000017.jpeg)
+
+
+***Fig. 13*** 
+Freeze drying microscopy of an mAb solution formulated in mannitol and sucrose
+
+
+![](images/000018.jpeg)
+
+
+***Fig. 14*** 
+Optimization of annealing temperature and time to improve the *T*g’ value of an mAb solution formulated in mannitol and sucrose
+
+
+
+
+***Table 5*** 
+Freeze drying microscopy and DSC results of optimization of annealing temperature and time for an mAB formulated in mannitol and sucrose
+
+
+
+**S. No.**
+
+**Annealing temperature \(°C\)**
+
+***T*g’ \(°C\)**
+
+**Partial collapse\(°C\)**
+
+1.
+
+No annealing
+
+−34.9
+
+−23
+
+2.
+
+−40
+
+−35.5
+
+−
+
+3.
+
+−30
+
+−23.5
+
+−10
+
+4.
+
+−25
+
+−21.7
+
+−
+
+5.
+
+−20
+
+−15.1
+
+−9
+
+6.
+
+−15
+
+−14.0
+
+−6
+
+7.
+
+−12
+
+−13.3
+
+−6
+
+8.
+
+−10
+
+−12.9
+
+−8
+
+9.
+
+−7
+
+−18.9
+
+−
+
+10.
+
+−5
+
+−21.0
+
+−
+
+
+
+
+**Effect of NaCl on Trehalose and Mannitol**
+
+Freeze drying microscopy was performed on formulation containing trehalose and mannitol in the presence and absence of NaCl to compare the effect of the salt on critical temperatures of the freeze-drying process, especially on the collapse event \[27\]. This analysis showed a significant difference between the collapse temperature \(*T*col\) of these two conditions as expected. As shown in Fig. 15, *T*col was −24.1 °C for the sample without NaCl, and −35.4 °C for the sample with NaCl. Since salts exhibit low *T*g’ values, even low NaCl concentrations \(0.2% m/v or 34 mM\) can significantly depress the *T*g’ values \[27\]. When the product temperature exceeds the *T*g’ value during the lyophilization process, the rigid glass softens to become a highly viscous rubbery material and collapses. 
+![](images/000019.jpeg)
+
+
+***Fig. 15*** 
+Images of freeze-drying microscopy of recombinant human factor IX formulation solution containing Trehalose and mannitol \(**a**\) with NaCl \(**b**\) and without NaCl. The temperature at which the collapse began to be observed was −35.4 and −24.1 °C, respectively. The annealing conditions used were −10 °C for 10 min. \(Adapted from Ref. \[27\]\)
+
+
+
+
+### **3.3 **Estimation of ***T*****g**’
+
+The glass transition temperature of a maximal freeze concentrate \(*T*g’\) of a monophasic multicomponent system can be estimated from the *T*g’ values of the individual components using the Fox equation \[28, 29\] as indicated in Eq. 3.
+
+
+
+
+
+![$$ \frac{1}{T_{\textrm{g}}} = \frac{W_1\ }{T_{\textrm{g}\ 1}}+\frac{W_2}{T_{\textrm{g}\ 2}} $$](images/000020.jpeg)
+
+
+\(3\)
+
+
+Where *W*1 is the weight fraction component 1 and *T*g1 is the glass temperature of pure component 1.
+
+Since the Fox equation applies to multicomponent systems, the impact of a second solute component on *T*g’ of a formulation can be estimated from the equation if *T*gi in Eq. 3 is identified as *T*g’ of aqueous component i, and *W*i are weight fractions of solute relative to the total mass of solute. As illustrated in Fig. 16, the effect of glycine on *T*g’ of aqueous sucrose systems \[30\] is in agreement with Eq. 3, where the *T*g’ value of aqueous glycine is obtained by fitting the data to the Fox equation, as it is difficult to determine the value of *T*g’ of glycine as it readily crystallizes upon freezing. 
+![](images/000021.gif)
+
+
+***Fig. 16*** 
+Effect of glycine on the *T*g’ of amorphous sucrose:glycine frozen systems. \(Data adapted from Shalaev and Kanev \[30\]
+
+
+
+
+**References**
+
+1.  
+1.
+
+Pikal M. Lyophilization. In: Swarbrick J, Boylan JC, editors. Encyclopedia of pharmaceutical technology, vol. 6. New York: Marcel Dekker; 2002. p. 1299–326.
+
+2.  
+2.
+
+Pikal MJ. Mechanisms of protein stabilization during freeze-drying and storage: the relative importance of thermodynamic stabilization and glassy state relaxation dynamics. In: Louis Rey L, May J, editors. Freeze-drying/lyophilization of pharmaceutical and biological products. New York: Marcel Dekker; 1999, Chapter 6.
+
+3.  
+3.
+
+Franks F. Freeze-drying: from empiricism to predictability. Cryo-Letters. 1990;11:93–110.
+
+4.  
+4.
+
+Pikal MJ, Shah S. The collapse temperature in freeze drying: dependence on measurement methodology and rate of water removal from the glassy phase. Int J Pharm. 1990;62:165–86.[Crossref](https://doi.org/10.1016/0378-5173(90)90231-R)
+
+5.  
+5.
+
+Her LM, Nail SL. Measurement of glass transitions of the maximally freeze-concentrated solutes by differential scanning calorimetry. Pharm Res. 1994;11:54–9.[Crossref](https://doi.org/10.1023/A:1018989509893)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8140056)
+
+6.  
+6.
+
+Chang BS, Randall CS. Use of subambient thermal analysis to optimize protein lyophilization. Cryobiology. 1992;29:632–56.[Crossref](https://doi.org/10.1016/0011-2240(92)90067-C)
+
+7.  
+7.
+
+Franzé S, Selmin F, Samaritani E, Minghetti P, Cilurzo F. Lyophilization of liposomal formulations: still necessary, still challenging. Pharmaceutics. 2018;10\(3\):139.[Crossref](https://doi.org/10.3390/pharmaceutics10030139)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30154315)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6161153)
+
+8.  
+8.
+
+Chongprasert S, Knopp SA, Nail SL. Characterization of frozen solutions of glycine. J Pharm Sci. 2001;90\(11\):1720–8.[Crossref](https://doi.org/10.1002/jps.1121)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11745729)
+
+9.  
+9.
+
+Qun L, Zografi G. Properties of citric acid at the glass transition. J Pharm Sci. 1997;86\(12\):1374–8.[Crossref](https://doi.org/10.1021/js970157y)
+
+10.  
+10.
+
+Siow C. Pharmaceutical application scientist, Roquette, M0930-05-34 – insights into the thermal properties and freeze-drying of Hydroxypropyl-beta-Cyclodextrin formulations. AAPS PharmSci. 2019:360.
+
+11.  
+11.
+
+Toru SUZUKI, Rikuo TAKAI, Tsuneo KOZIMA, Felix FRANKS. Effect of glycine on glass transition temperature of sucrose solution \(Papers presented at the 39th Annual Meeting\). Japan J Freez Dry. 1993;39:31–5.
+
+12.  
+12.
+
+Hancock BC, Zografi G. The relationship between glass transition temperature and the water content of amorphous pharmaceutical solids. Pharm Res. 1994;11:471–7.[Crossref](https://doi.org/10.1023/A:1018941810744)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8058600)
+
+13.  
+13.
+
+Jouppila K, Roos YH. Glass transition and crystallization in milk powders. J Dairy Sci. 1994;77:2907–15.[Crossref](https://doi.org/10.3168/jds.S0022-0302(94)77231-3)
+
+14.  
+14.
+
+Saleki-Gerhardt A. Role of water in the solid-state properties of crystalline and amorphous sugars, Ph.D. thesis, Univ. Wisconsin—Madison; 1993.
+
+15.  
+15.
+
+Saleki-Gerhardt A, Zografi G. Non-isothermal and isothermal crystallization of sucrose from the amorphous state. Pharm Res. 1994;11:1166–73.[Crossref](https://doi.org/10.1023/A:1018945117471)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7971719)
+
+16.  
+16.
+
+Pikal MJ, Shah S. unpublished data. Eli Lilly & Co; n.d.
+
+17.  
+17.
+
+Mackenzie AP. Basic principles of freeze drying for pharmaceuticals. Bull Parenter Drug Assoc. 1966;26:101–29.
+
+18.  
+18.
+
+Kett V. Development of freeze-dried formulations using thermal analysis and microscopy. Am Pharm Rev. 2010;
+
+19.  
+19.
+
+Reading M, Hourston DJ. Modulated-temperature differential scanning calorimetry. New York: Springer; 2006.[Crossref](https://doi.org/10.1007/1-4020-3750-3)
+
+20.  
+20.
+
+Modulated DSC® Basics; Calculation and Calibration of MDSC® Signals, Leonard C. Thomas TA Instruments, New Castle.
+
+21.  
+21.
+
+Slade L, Levine H. Glass transitions and water-food. Structure interactions. Crit Rev Food Sci Nutr. 1995;30:115–360.[Crossref](https://doi.org/10.1080/10408399109527543)
+
+22.  
+22.
+
+Levine H, Slade L. Principles of cryostabilization technology from structure/property relationships of carbohydrate/water systems—a review. Cryo-Letters. 1988;9:21–63.
+
+23.  
+23.
+
+Thomas LC. Modulated DSC® paper \#3, modulated DSC® basics; optimization of MDSC® experimental conditions, TA Instruments.
+
+24.  
+24.
+
+Baxter presentation. Courtesy of Gregory Sacha, Senior scientist, Baxter, Bloomington.
+
+25.  
+25.
+
+Liao X, Krishnamurthy R, Suryanarayanan R. Influence of the active pharmaceutical ingredient concentration on the physical state of mannitol—implications in freeze-drying. Pharm Res. 2005;22\(11\):1978–85.[Crossref](https://doi.org/10.1007/s11095-005-7625-x)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16132343)
+
+26.  
+26.
+
+Colandene JD, Maldonado LM, Creagh AT, Vrettos JS, Goad KG, Spitznagel TM. Lyophilization cycle development for a high-concentration monoclonal antibody formulation lacking a crystalline bulking agent. J Pharm Sci. 2007;96:1598–608.[Crossref](https://doi.org/10.1002/jps.20812)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17117409)
+
+27.  
+27.
+
+Almeida AG, Pinto RCV, Smales CM, et al. Investigations into, and development of, a lyophilized and formulated recombinant human factor IX produced from CHO cells. Biotechnol Lett. 2017;39:1109–20. [https://​doi.​org/​10.​1007/​S10529-017-2353-Y](https://doi.org/10.1007/S10529-017-2353-Y), [https://​link.​springer.​com/​article/​10.​1007/​s10529-017-2353-y](https://link.springer.com/article/10.1007/s10529-017-2353-y)[Crossref](https://doi.org/10.1007/S10529-017-2353-Y)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28484912)
+
+28.  
+28.
+
+Fox TG. Influence of diluent and of copolymer composition on the glass temperature of a poly-mer system. Bull Am Phys Soc. 1956;1:123.
+
+29.  
+29.
+
+Gordon M, Taylor JS. Ideal co-polymers and the second order transitions of synthetic rubbers. J Appl Chem. 1952;2:493–500.[Crossref](https://doi.org/10.1002/jctb.5010020901)
+
+30.  
+30.
+
+Shalaev EY, Kanev AN. Study of the solid-liquid state diagram of the water-glycine-sucrose system. Cryobiology. 1994;31:374–82.[Crossref](https://doi.org/10.1006/cryo.1994.1045)
+
+
+

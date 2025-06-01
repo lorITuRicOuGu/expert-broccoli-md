@@ -1,0 +1,1323 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_3](https://doi.org/10.1007/978-3-031-12634-5_3)
+
+
+**
+# Beyond pH: Acid/Base Relationships in Frozen and Freeze-Dried Pharmaceuticals
+**
+
+
+Dominik Heger1, Ramprakash Govindarajan2, 3, Enxian Lu2, 4, Susan Ewing5, Ashley Lay-Fortenbery6, 9, Xiaoda Yuan7, Lukáš Veselý1, Eric Munson8, Larry Gatlin5, Bruno Hancock5, Raj Suryanarayanan2 and Evgenyi Shalaev7  
+
+
+\(1\) 
+Masaryk University, Brno, Czech Republic
+
+
+\(2\) 
+Department of Pharmaceutics, University of Minnesota, Minneapolis, MN, USA
+
+
+\(3\) 
+College of Pharmacy, The University of Iowa, Iowa City, IA, USA
+
+
+\(4\) 
+Auson Pharmaceuticals Inc., Bridgewater, NJ, USA
+
+
+\(5\) 
+Pharmaceutical R & D, Pfizer Inc, Groton, CT, USA
+
+
+\(6\) 
+College of Pharmacy, University of Kentucky, Lexington, KY, USA
+
+
+\(7\) 
+Pharmaceutical Sciences R & D, Abbvie, Irvine, CA, USA
+
+
+\(8\) 
+College of Pharmacy, Purdue University, West Lafayette, IN, USA
+
+
+\(9\) 
+Merck & Co, Inc, Kenilworth, NJ, USA
+
+
+
+
+
+**Evgenyi Shalaev**
+
+**Email: **evgenyi.shalaev@abbvie.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Hammett Acidity Function and pHeq
+
+**3 **Factors Which Impact Apparent Solid-State Acidity in Lyophiles
+
+**4 **Correlations Between Solid-State Acidity and Stability of Freeze-Dried Formulations
+
+**5 **Freezing Fundamentals: Quasi-Liquid Layer, Freeze-Concentration, Polarity, and the Workman-Reynolds Potential
+
+**6 **Conclusions
+
+References
+
+
+## Abstract
+
+Stability of the majority of pharmaceuticals and biopharmaceuticals depends on acidity/basicity of the environment. In aqueous solutions, acidity/basicity is commonly expressed using proton activity scale, pH, while definition and experimental measurements of acid-base relationships in frozen and freeze-dried materials are less straightforward. The chapter starts with a brief summary of the current understanding of several critical aspects of pH and apparent acidity/basicity as related to freezing and freeze-drying, whereas the main part of the chapter is focused on areas which are underrepresented in the pharmaceutical literature, with both overview of the literature and previously unpublished data presented. In particular, the following topics are covered: \(i\) Hammett acidity function and pH-equivalent \(pHeq\); \(ii\) Factors which impact apparent solid-state acidity in lyophiles; \(iii\) Solid-state acidity and chemical instability of lyophiles; \(iv\) Freezing fundamentals: quasi-liquid layer, polarity of the freeze-concentrated solution, and the Workman-Reynolds potential. Potential directions for future studies in this field are also outlined.
+
+
+**Keywords**
+Hammett acidity function Freezing Freeze-drying Acid-base relationships Stability pH indicators Freezing potential
+
+
+## **1 **Introduction
+
+Stability of the majority of active pharmaceutical ingredients depends on proton activity \(pH\). For example, reactions under specific acid- and base-catalysis, such as many hydrolysis reactions, commonly have a minimum in the reaction rate \(i.e., maximal stability\) near neutral pH \[1\]. In other cases, maximal stability is observed in the moderately acidic pH region \[2\]. The pH region of maximal stability for a particular drug molecule is usually selected as the target pH, with pH specification covering ±0.5 pH units around the target value. To maintain pH during manufacture, shelf life, and administration, many formulations include a buffer. There are multiple reviews which cover various aspects of acid-base relationships, pH, and buffers for pharmaceuticals and biopharmaceuticals. An excellent overview of the topic for parenteral dosage forms was provided by Flynn \[3\] \(note although that there is a typographic error for *pK**a* of citrate in that paper\), whereas use of buffers in protein formulations is reviewed recently \[4\]. The latter paper \[4\] combines description of general properties of buffers \(e.g., buffering capacity, *pK**a*, and temperature dependence of pH for typical pharmaceutical buffers\) with multiple examples of both stabilization and destabilization of various proteins by buffers. Buffering capacity in the target pH range and a potential for buffer catalysis are the main considerations in buffer selection. In cases of general buffer catalysis, both buffer type and concentration could have a significant impact on degradation rate. The buffering capacity requirement is usually satisfied by selecting a buffer with *pK**a* within one unit of the target pH. For frozen and freeze-dried forms, there are additional constraints for selection of target pH and buffers. Based on multiple original studies and reviews \[5–15\], current understanding of the buffers and pH subject for freeze-drying can be summarized as follows: 
+
++ 
+Freeze-dried products introduce extra considerations for buffer selection, including buffer crystallization behavior, collapse temperature of the freeze concentrated solution, *T*g \(glass transition temperature\) of the dried formulation, and the volatility of the buffer components under vacuum \[5\].
+
++  
+Main mechanisms for pH changes during freezing include temperature dependence of buffer ionization constant, *pK**a* \(e.g., for tris and histidine buffers \[7\]\) and crystallization of buffer components. Sodium phosphate is the most known example of crystallizable buffer, while crystallization was also reported for histidine \[13\] and succinate \[14\] buffers. Other buffers, e.g., acetate and tris, are usually regarded as non-crystallizing under representative freeze/thaw conditions. Sodium citrate buffer has also been considered to be non-crystallizing \[5\], although a different opinion was also expressed \[7\]. Initial pH and buffer concentration could impact buffer crystallization and pH changes during freezing, with higher concentration usually associated with a higher crystallization risk.
+
++  
+Crystallization of buffer components and corresponding pH changes can be reduced/prevented by other solutes present. Both amorphous \(e.g., sucrose\) and crystalline \(e.g., mannitol\) solutes can interfere with buffer crystallization \[8\]. Higher weight ratio solute/buffer is usually associated with more efficient crystallization inhibition. Another successful approach to mitigate the freeze-induced acidity changes was realized by mixing buffers having opposing freeze-induced acidification tendency, e.g., a combination of one of the Goods buffers \(HEPES, MOPS, and MES\) with sodium or potassium phosphates buffers \[15, 16\].
+
++  
+Freeze-induced pH changes can destabilize proteins during freeze-thaw and freeze-drying/reconstitution, as reported, e.g., in \[9–11\]. In addition, the freeze-induced acidity changes could promote chemical reactions of small molecules, such as N-nitrosation reaction of dimethylamine \[17\], molecular iodine production from various precursors \[18, 19\], and reduction of Cr\(VI\) \[20\].
+
++  
+Glass transition temperature, *T*g, of amorphous buffers depends both on the buffer type and the counterion \[12\]. For example, *T*g of lactic acid was reported to be −60 °C \[21\], while another carboxylic acid, tartaric acid, has a higher *T*g of 16 °C \[22\]. An increase in the counterion concentration can also have a major impact on *T*g, as observed for citrate buffer, with the *T*g values of 11 °C, 69 °C, and 115 °C reported for citric acid, monosodium citrate, and di-sodium citrate, respectively \[23\]. Therefore, buffer could either plasticize or antiplasticize a formulation, depending on the buffer type and the ratio of acidic/basic species.
+
++  
+In the frozen solutions, the *T*g’ event, which is commonly regarded to be the glass transition temperature of the maximally freeze-concentrated solution, depends on buffer acid/base ratio and therefore pH; for sodium citrate buffer, e.g., *T*g’ increased with pH from −50 °C \(pH 2.5\) to −35 °C \(pH 4\) and then decreased to below −40 °C as pH exceeded 5.5 \[24\].
+
++  
+Buffers containing acetate, carbonate, ammonia, and HCl are considered to be volatile \[25\], and components of these buffers may be removed \(at least partially\) during freeze-drying, resulting in pH shift as measured in solution after reconstitution.
+
++  
+Proteins can serve as buffering agents, if they are present in a sufficiently high concentration \[26, 27\]. In such cases, formulation and manufacturing process can be simplified by not including buffer in the formulation.
+
+
+
+
+In the present chapter, we focus on several areas which are underrepresented in the pharmaceutical literature, using both published studies and previously presented \(but unpublished\) data. In particular, the following topics are covered: 
+
++ 
+Section 2. Hammett acidity function and pHeq.
+
++  
+Section 3. Factors which impact apparent solid-state acidity in lyophiles
+
++  
+Section 4. Solid-state acidity and chemical instability of lyophiles.
+
++  
+Section 5. Freezing fundamentals: quasi-liquid layer, freeze-concentration, polarity, and the Workman-Reynolds potential
+
+
+
+
+Main observations are summarized in the Conclusion \(Sect. 6\), which also provides a brief outline for future studies in this area.
+
+## **2 **Hammett Acidity Function and pH**eq**
+
+Thermodynamic proton activity \(*a**H*\+\) scale, –log*a**H*\+ = pH, is easily accessible for dilute aqueous solutions. In order to provide quantitative description of acid–base relationships in other systems, Hammett proposed an acidity function based on ionization of probe molecules \(pH indicators\) \[28\] \(Eq. 1\) 
+
+
+
+![$$ {H}_x={\textrm{p}\textrm{K}}_{\textrm{a}}+{\log}_{10}\frac{C_{\textrm{d}}}{C_{\textrm{p}}}={\textrm{p}\textrm{K}}_{\textrm{a}}+{\log}_{10}\left(\frac{F{(R)}_{\textrm{d}}{\varepsilon}_{\textrm{p}}^{\prime }}{F{(R)}_{\textrm{p}}{\varepsilon}_{\textrm{d}}^{\prime }}\right) $$](images/000001.jpeg)
+
+
+\(1\)
+
+
+where *C* is the indicator concentration, the subscripts “p” and “d” refer to the protonated and deprotonated indicator species, respectively, and *K*a is the ionization constant of the indicator in dilute aqueous solutions. The subscript “*x*” corresponds to the charge of the basic form of the given probe molecule. The original Hammett indicators have zero charge in the basic form, with the corresponding Hammett acidity function expressed as *H*0 \(*x* = 0\). For sulfonephthalein pH indicators, which are usually used for pharmaceutical materials, *x* is typically equal to −2 \(therefore *H*2−\). To calculate the *H**x*, one would need to add a probe molecule to a system of interest and experimentally measure ratio of the concentrations of the protonated and deprotonated species of the probe molecule.
+
+The Hammett acidity function was initially introduced to express acidity of concentrated acid solutions, and was extended to other systems including aqueous solutions of strong bases \[29\], nonaqueous solutions \[30\], and solid surfaces \[31\]. Note that the Hammett acidity does not represent proton activity, and its numerical value can depend on the type of probe molecule used for measurements. To illustrate this point, Fig. 1 provides Hammett acidity functions as measured with two types of probe molecules, N,N′-diethyl-toluidine \(*H*0\) and p-nitrophenol \(*H*−\), in water/ethanol mixtures. For 80% ethanol, e.g., *H*0 is equal to approx. 8.5, while the value for *H*− is approx. 5.5 for the same solution. 
+![](images/000002.jpeg)
+
+
+***Fig. 1*** 
+Acidity functions in ethanol–water solutions with 4 mM triethanolammonium chloride and 2 mM triethanolamine. pH = −log *a**H*; *a**H* is proton activity. 𝛾Cl is the activity coefficient of Cl−. *H*0 and *H*− refer to the Hammett acidity function with different indicators. *H*0 indicator: N,N′-diethyl-toluidine \(yellow\); *H*− indicator: p-nitrophenol \(green\). \(Graph is prepared using data from Refs. \[30, 33\]\)
+
+
+
+This graph illustrates two additional points. First, the apparent acidity depends strongly on the water concentration. Therefore, a major decrease in water content during freeze-concentration could lead to large changes in the acidity, even in the absence of buffer crystallization and temperature-related *pK**a* changes. Second, Fig. 1 includes four acidity scales, pH, p\(*a*H*γ*HCl\), and two Hammett acidity scales, *H*0 and *H*−, which show different trends as water concentration decreases. To emphasize the latter point, Paul and Long wrote: “…there is no single, unique good measure of acidity. There are a variety of them, and any preference depends on such things as ease of measurement and ultimate application” \[32\].
+
+First application of the Hammett acidity function concept in solid pharmaceutical systems goes back to the 1990s, where surface acidity of common pharmaceutical excipients was measured using common pH indicators and UV/vis diffuse reflectance spectroscopy \(DRS\) \[34, 35\]. In these publications, the surface acidity was expressed as pH-equivalent \(pHeq\), which is defined as the pH of the solution which has the same ionization of the indicator as in the solid sample. Applications of the common pH indicators and UV/vis diffuse reflectance spectroscopy \(DRS\) for frozen solutions and freeze-dried formulations were first reported in \[23, 36\], respectively. Note that pH indicators were used previously to evaluate freeze-induced pH changes based on visual observations of color changes during freezing \[37\]. Such visual \(semi-quantitative\) assessment of acidity changes can also be performed during freeze-drying using either individual pH indicators or their mixture.
+
+Determination of the Hammett acidity function for freeze-dried formulations was described in \[38\]. In this approach, sulfonephtalein dye molecule \(pH indicator\) is co-lyophilized with a formulation of interest, and the visible absorbance spectra of the freeze-dried sample is measured using diffuse reflectance spectroscopy. Examples of the visible absorption spectra for both pre-lyophilization solutions and resulting lyophiles are provided in Fig. 2. The solution spectra have two peaks corresponding to the deprotonated and protonated species of the indicator; the peak of the deprotonated indicator grows as pH increases at the expense of the protonated species. The same trend is observed in freeze-dried samples prepared from solutions with different pH. The DRS results are used to calculate the Hammett acidity function using Eq. 1, with the *C*d/*C*p value in Eq. 1 determined using Eq. 2 
+
+
+
+![$$ \frac{c_{\textrm{d}}}{c_{\textrm{p}}}=\frac{F{(R)}_{\textrm{d}}}{F{(R)}_{\textrm{p}}}\frac{\varepsilon_{\textrm{p}}^{\prime }}{\varepsilon_{\textrm{d}}^{\prime }} $$](images/000003.jpeg)
+
+
+\(2\)
+
+
+where *F*\(*R*\) is the Kubelka-Munk function, and 𝜀′p∕𝜀′d is the ratio of the extinction coefficients of the two species of a pH indicator \(protonated and deprotonated\). 
+![](images/000004.gif)
+
+
+***Fig. 2*** 
+\(**a**\) Visible spectra of bromophenol blue solutions \(25 mg/mL\) in citrate buffer at pH values ranging from 2.57 to 5.14. \(**b**\) Diffuse reflectance spectra of trehalose–citrate lyophiles containing bromophenol blue, obtained by freeze-drying solutions buffered to pH values ranging from 2.27 to 6.66. The signals were normalized to enable a direct comparison of the spectra. \(Reproduced with permission from: Govindarajan et al. \[38\]\) 
+
+
+
+When using pH indicators to measure pHeq or Hammett acidity function in frozen solutions and in lyophiles, the following points should be considered: 
+
++ 
+Any particular probe molecule would cover only a narrow acidity range, and several indicators with different *pK**a* values may be needed to measure acid–base properties of different formulations.
+
++  
+The Hammett acidity is numerically identical to pHeq values, provided that the ratio of the extinction coefficients of protonated and unprotonated indicator species in the solid state is similar to that in solution \[38\]. pHeq/*H**x* values can depend on the probe molecule used. e.g., the *H*2− values of the same material differed by 0.1–0.5 units when measured using different sulfonephtalein indicators \[38\]. Even larger difference in *H*2− of up to 0.85 was observed between bromocresol green and chlorophenol red in another study \[39\].
+
++  
+*pK**a* of both the indicators and buffers can change as a function of water content, because of the change in the dielectric constant of the media. Water crystallization \(ice formation\) results in significant decrease of water concentration in the solution coexisting with ice crystals, with a corresponding decrease in polarity due to increase in solutes concentration. In sucrose-water system, for example, dielectric constant of the 10 wt% solution is 76.2 at 25 °C \[40\] while the maximally freeze-concentrated solution \(sucrose concentration approximately 80 wt%\) is estimated to have dielectric constant of approximately 51 at 25 °C \(graphical extrapolation using data from \[40\]\). Reduction in the polarity of the freeze-concentrated solution is discussed also in Sect. 5 below. The decrease in the dielectric constant may result in major *pK**a* changes; e.g., the apparent *pK**a* of acetic acid increases significantly with decrease in polarity, from 4.76 in water \(dielectric constant 78.3\) to 10.32 in ethanol \(dielectric constant 24.3\) \[41\]. Accordingly, the pH shift observed for citrate buffer \[7\] could be attributed to freeze-concentration effect rather than the buffer crystallization; the freeze-concentration could lead in a significant change in *pK**a* of a COOH group resulting in freeze-induced pH change. Such media-related *pK**a* changes are different between different functional groups; for example, the *pK**a* of an amino group \(-NH3\+/-NH2 equilibria\) is much less sensitive to changes in the dielectric constant of the solvent than the carboxylic group \[42\].
+
++  
+Significant increase in apparent *pK**a* of sulfonephthalein indicators was reported in mixed solvents with increased concentration of organic solvent. For example, *pK**a* of bromocresol green increased by approximately 4 units, from 5.4 to 9.5, with a decrease in water content from 84 to 10 wt% in acetone–water mixtures \[41\]. In order to compensate for the change of *pK**a* of the sulfonephthalein probe molecules due to decrease in water content, use of *pK**a* values in a mixed solvent \(water with 25% IPA\) was suggested for calculations of the apparent acidity with the pH indicators \[43\]. While this might be a sensible approach from the general perspectives, practical application of this method is complicated because it would require different mixed solvents to match dielectric properties and polarities of different formulations.
+
++  
+Reliance on a specific type of the indicators \(i.e., sulfonephtaliens\) of the 2−/− \(base/acid\) charge type may not be sufficient; e.g., see Fig. 1 which shows opposite trends in the apparent acidity with water content for *H*0 vs *H*− Hammett acidity functions. As alternative probe molecules, carboxylic acids have been evaluated, with the charge type −/0 \(base/acid\). The extent of protonation of these molecules can be measured using 13C NMR, provided that 13C -enriched carboxylic acid is used \[44\]. Preliminary results of the solid-state 13C NMR study with a carboxylic acid, succinic acid \(SA\), as a probe molecule are presented in Figs. 3, 4 and 5 and Table 1, as described below.
+
+
+
+![](images/000005.jpeg)
+
+
+***Fig. 3*** 
+13C SSNMR spectra of the three forms of succinic acid, as-received forms
+
+
+![](images/000006.jpeg)
+
+
+***Fig. 4*** 
+\(Left\) 13C SSNMR spectra of the trehalose/citrate lyophiles in the carbonyl region, with fitting performed using the 2-peaks method; the residuals are in blue. \(Right\) photos of vials with pH indicator with pre-lyophilization solutions \(top\) and the lyophiles \(bottom\); the pH increased from left \(pH 5.5\) to right at 0.25 intervals
+
+
+![](images/000007.jpeg)
+
+
+***Fig. 5*** 
+13C SSNMR spectra of a trehalose/phosphate pH 5.75 lyophile in the carbonyl region. Fitting results with the 4-peaks method are also shown
+
+
+
+
+***Table 1*** 
+pHeq for trehalose/citrate formulations based on solid-state 13C NMR measurements with 13C-enriched succinic acid probe molecule
+
+
+
+**pH before lyophilization, solution**
+
+**pHeq, lyophile**
+
+5.5
+
+5.38
+
+5.75
+
+5.65
+
+6.0
+
+5.88
+
+6.25
+
+6.12
+
+6.5
+
+6.33
+
+
+
+Figure 3 shows the 13C SSNMR spectrum in the carbonyl region for succinic acid and sodium succinate salts as received \(non-lyophilized\). There is a difference in peak location for the protonated and deprotonated carbonyl carbon, which means that ionization can be measured in the solid state. Figure 3 shows also that monosodium succinate salt has two peaks; therefore, there are total of four peaks which are associated with three succinate species. Lyophilized formulations containing trehalose \(10%\) and 13C-SA \(0.01%\) were prepared with three different buffers \(175 mM\): sodium citrate, sodium phosphate, or potassium phosphate. Formulations were made at pH 5.5 and then adjusted to the desired pH value \(5.75, 6.00, 6.25 and 6.50\) using NaOH. The solutions also contained bromocresol purple, for visual evaluation of color changes as an orthogonal semi-quantitative test for apparent acidity. Figure 4 shows the 13C SSNMR spectra for lyophilized citrate formulations, with the experimental spectra fitted to two peaks in the carbonyl region. The simplified \(i.e., using two peaks\) fitting method appears to be adequate for citrate samples. The fitting results were used to calculate pHeq, and the results are presented in Table 1. The pHeq for the freeze-dried formulations trend with the pH of pre-lyophilization solutions. The pHeq values are slightly lower than pre-lyophilization solution pH, indicative of a minor acidic shift during freeze-drying. The same trend is observed using the pH indicator, with change in color from solution to lyophile samples showing acidic shifts. For trehalose/phosphate formulations, fitting using 2-peaks approach was not sufficient, and all 4 peaks were necessary to achieve a reasonable fit \(Fig. 5\); such complications could increase uncertainty in calculation of pHeq. In order to resolve uncertainties associated with the presence of multiple species, a carboxylic acid probe with a single ionizable group, butyric acid, can be used instead \[44\]. Use of different probe molecules and different methods to detect extent of protonation would increase confidence in the empirical measurements of apparent acidity for freeze-dried formulations.
+
+## **3 **Factors Which Impact Apparent Solid-State Acidity in Lyophiles
+
+As discussed in Sect. 2, solid-state acidity has been quantified by measuring ionization of probe molecules, and can be presented as either pHeq or Hammett acidity function. Main factors which determine solid-state acidity in freeze-dried materials are as follows: 
+
++ 
+Pre-lyophilization solution pH has a major impact on apparent acidity of freeze-dried material. Linear correlations between pre-lyo solution pH and the *H*2− were reported, when other factors \(buffer type, type and concentration of other solutes present\) are kept constant \[38\].
+
++  
+In addition to pre-lyo solution pH, excipients \(e.g., lyoprotectors and bulking agents\) could also have an impact on the apparent acidity of lyophiles. Some excipients are associated with larger shifts in the apparent acidity. One prominent example is dextran, which demonstrated a significantly higher acidity \(i.e., lower *H*2−\) in the freeze-dried state as compared with disaccharides sucrose and lactose. PVP, on the other hand, has relatively higher basicity than sucrose, lactose, and dextran \[45\].
+
++  
+Formulations with sodium phosphate have larger acidic shifts during freeze-drying compared to citrate, even in cases of relatively low buffer concentrations and the presence of amorphous solutes when buffer crystallization is unlikely \[46\]. Solid-state acidity can also depend on the buffer concentration, as discussed below.
+
++  
+Sugars, such as trehalose, can reduce change in the ionization during freeze-drying \[38\]. This observation has led to a hypothesis of an additional lyoprotection mechanism for stabilization of proteins by sugars, that is, that sugars can stabilize proteins by minimizing disruption of ionization of ionizable groups of proteins during drying.
+
++  
+Determination of ‘acidity’ of a lyophile may not be sufficient for a comprehensive evaluation of acid-base stresses during freeze-drying of a particular formulation. It was observed that the acidity of freeze-dried sodium and potassium phosphate formulations were higher \(i.e., the *H**x* lower, by 1–3 units\) than that of the starting solutions, when the initial \(pre-lyophilization\) solution pH values were 5–9 \[47\]. However, the decrease in the *H**x* in the frozen state was much more pronounced \(from 3 to 7 units\). Therefore, it would be essential to monitor acidity changes both in frozen and freeze-dried formulation to have a comprehensive understanding of potential destabilization stresses during freeze-drying.
+
++  
+While lyophilization could result in major change in the ionization of a probe molecule, ionization of a buffer \(e.g., histidine or citrate\) in the dried state is usually found similar to that in the initial solution before drying \[23, 48–51\]. Based on such observations, it has been suggested that neither *pK**a* nor pH change as a solution is converted into a dried material \[51\]. It was pointed out, however, that apparently unchanged ionization of buffer does not necessarily mean that acidity didn’t change \[23\]. Specifically, if the concentration of counterions is significantly higher than that of protons, the extent of ionization would mainly be dictated by the counterions \(e.g., sodium cations\); the ratio of acidic/basic forms of a buffer would not change during freezing and freeze-drying.
+
++  
+Ionization state of the probe molecules \(and therefore solid-state acidity\) is not fixed during the freezing stage. In a study of an amorphous freeze-dried trehalose/citrate mixture, an increase in the ionization extent of a probe molecule, and the corresponding decrease in the acidity, was observed as water content increased by equilibrating the freeze-dried material at different relative humidity \(RH\) environments \[38\]. This report was corroborated and extended in a follow-up study in which the impact of water sorption and desorption on the Hammett acidity function was investigated. The study, which also addressed relationships between buffer concentration and solid-state acidity, was presented elsewhere \[52\], and described below in some details.
+
+
+
+
+Aqueous solutions containing trehalose \(10% w/v of trehalose dihydrate\), sodium citrate buffer \(0–100 mM\), and bromocresol green \(BG\) indicator \(20μg/ml corresponding to 0.028 mM\) were freeze-dried in a Virtis Advantage freeze-dryer. The \[Na\+\]: \[total citrate\] molar ratio was fixed at 2.13. Lyophiles were confirmed to be amorphous, and the *T*g of anhydrous lyophiles was determined by DSC to decrease from 394 K \(no buffer\) to 387 K \(0.18 weight fraction of citrate buffer\). Ionization state of BG in both solutions and lyophiles was measured using visible DRS. DRS spectra of solutions are compared with the spectra of lyophilized samples in Fig. 6, while Fig. 7 shows indicator ionization, solution pH and Hammett acidity of the freeze-dried samples as a function of citrate buffer concentration. Figures 6 and 7 demonstrate that lyophilization-induced changes in ionization and acidity were more pronounced in the presence of a higher buffer concentrations. While the physical mechanism for this observation has not been established, this data could point to the acidic component of the citrate buffer \(-COOH groups\) as a major source of protons: higher buffer concentration = greater extent of proton transfer to indicator molecules, resulting in higher protonation of the indicator molecules and correspondingly lower Hammett acidity function \(i.e., higher acidity of the matrix\). This description is similar to general buffer catalysis in chemical reactions in solution. A practical implication of these results is that the presence of a carboxylic buffer, even when buffer remains amorphous, could result in a higher apparent acidity as compared to a formulation without buffer; therefore, inclusion of buffer might be undesirable if the active ingredient is acid sensitive. 
+![](images/000008.jpeg)
+
+
+***Fig. 6*** 
+Visible spectra of pre-lyophilization trehalose/citrate solutions and corresponding freeze-dried amorphous solids. \(**a**\) Pre-lyophilization solutions with bromocresol green; pH was adjusted to obtain bromocresol green in the completely unionized \(HIn−\) or completely ionized \(In2−\) states. \(**b**\) Lyophiles containing bromocresol green; the lyophiles were obtained from solutions pH-adjusted to pH 2 and 8, to generate completely protonated and deprotonated forms, respectively. The solutions contained 20 mg/mL of BG, trehalose \(10% w/v as dihydrate\) and 20 mM citrate. \(**c**\) Pre-lyophilization solutions containing varying concentrations of citrate buffer, \[Na\+\]: \[total citrate\] ratio 2.13. and \(**d**\) lyophiles obtained from the solutions in Fig. 6c
+
+
+![](images/000009.jpeg)
+
+
+***Fig. 7*** 
+\(Top\) Ionization of bromocresol green indicator in pre-lyophilization solution, in lyophile, and in lyophile after rehydration. \(Bottom\) Pre-lyophilization solution pH and Hammett acidity function of freeze-dried samples as a function of citrate buffer concentration. Note that the ionized form exhibited an absorption peak with an *l*max at ~400 nm \(Fig. 6a, b\). Therefore, for samples with intermediate extents of ionization, signals measured at the *l*max of the unionized form would have contributions from both the ionized and the unionized species and the lower wavelength peak would shift closer to 400 nm as ionization extent increased. To calculate the ionization extents and *H*2− values, the signal at 443 nm was corrected to subtract the contribution of In2− at this wavelength, to yield the signal attributable to HIn−
+
+
+
+To study impact of water sorption/desorption on the solid-state acidity, trehalose-citrate lyophiles with BG indicator were equilibrated at different RH \(11–33%\), and the equilibrated samples were tested by DRS. Water content was determined by Karl Fischer titration; powder X-ray diffraction \(PXRD\) analysis of the hydrated samples confirmed that the materials remained in amorphous state. After the equilibration of the samples at different RH, they were dehydrated again, either over anhydrous calcium sulphate or under vacuum; water content after dehydration was also determined. Examples of diffuse reflectance spectra after rehydration are provided in Fig. 8, and the data on % ionization of BG from rehydration/dehydration experiments are presented in Figs. 8 and 9. 
+![](images/000010.jpeg)
+
+
+***Fig. 8*** 
+Top panel: Diffuse reflectance visible spectra of trehalose-bromocresol green lyophiles obtained from an unbuffered pre-lyophilization solution, at different water contents. Bottom panel: Effect of water sorption and desorption on the ionization of bromocresol green in an amorphous trehalose matrix. The diamonds represent freeze-dried amorphous samples stored under RH conditions ranging from 0% to 33% at room temperature. The squares represent samples desorbed by storage over anhydrous calcium sulphate \(0% RH\) following sorption. The triangle represents the sample dried under reduced pressure in a freeze-dryer. The broken arrow represents the desorption pathway. Each data point is a mean of multiple measurements and the standard deviations are smaller than the size of the legends
+
+
+![](images/000011.jpeg)
+
+
+***Fig. 9*** 
+Effect of water sorption and desorption on the ionization of bromocresol green in amorphous trehalose–citrate matrices obtained from pre-lyophilization solutions with different citrate concentrations. Each data point is a mean of multiple measurements and the vertical error bars \(standard deviations\) are smaller than the size of the legends. The diamonds represent freeze-dried amorphous samples stored under RH conditions ranging from 0% to 33% at room temperature. The squares represent samples desorbed by storage over anhydrous calcium sulphate \(0% RH\) following sorption. The triangle represents the sample dried under reduced pressure in a freeze-dryer. Lines are provided as visual guides. The broken arrow represents the desorption pathways. In four samples \(desorbed over calcium sulfate\), minimal change or a minor increase in ionization was observed during desorption, in contrast to the majority of cases; it is possible that these four samples represent artifacts in the DRS measurements, during which samples were exposed to ambient RH
+
+
+
+Sorption of water by the lyophiles resulted in an increase in the ionization of the probe molecule \(i.e., decrease in the solid-state acidity, increase in *H*2−\) in all samples. Subsequent desorption of water was found to cause partial reversal of the changes produced by sorption in the majority of cases. The hydration/dehydration data show hysteresis; this hysteretic behavior could reflect the nonequilibrium nature of the glassy state, and might indicate that kinetics of water removal is faster than the rate of protonation/deprotonation process. This is an intriguing possibility, considering that proton transfer reactions in solution are among the fastest \[53\]. Follow-up studies are therefore warranted to study kinetics of changes in ionization during hydration/rehydration.
+
+## **4 **Correlations Between Solid-State Acidity and Stability of Freeze-Dried Formulations
+
+The pH of solution before freeze-drying is an important formulation variable as it may have a significant impact on stability of the resulting material \[54–57\]. However, stability in the dehydrated state does not always parallel the pH dependence in solution when solid-state degradation is presented as a function of pre-lyophilization solution pH \[58–60\], suggesting that knowledge of the pH-stability relationships in solution may not be sufficient to predict solution pH that would yield a freeze-dried formulation with maximal solid-state stability. It was shown, for example, that freeze-dried formulations produced from solutions with the same pH & buffer but different bulking agents can have significant difference in the rate of acid-catalyzed chemical degradation \[45, 61\]. In these studies, common stability-relevant factors, such as residual water content, crystallinity, and molecular mobility were controlled, and it was shown that these properties would not explain difference in chemical stability between different formulations. In these and several other studies, the stability correlated with the apparent solid-state acidity \(expressed as either pHeq or Hammett acidity function\) was demonstrated, as summarized in Table 2. There are also studies on relationships between surface acidity and chemical reactivity in physical mixtures of powders; these studies are described elsewhere \[35, 66–69\] and are not included in Table 2. 
+
+
+***Table 2*** 
+Solid-state acidity and stability of freeze-dried formulations
+
+
+
+**Active ingredient**
+
+**Reaction**
+
+**Reference**
+
+**Formulation description**
+
+***n*fd \(Eq. A\)**
+
+***n*s \(Eq. B\)**
+
+**Excipients**
+
+**Pre-lyo solution pH**
+
+**Solid-state H2−**
+
+Sucrose
+
+Proton transfer followed by the glycoside bond cleavage
+
+\[43\]
+
+Lactose, citrate, NaCl
+
+2.59 – 3.35
+
+2.01 – 2.85a;
+
+2.16 – 2.73b
+
+0.41a;
+
+0.72b
+
+1.6, 1c
+
+\[64\]
+
+Lactose, buffer \(citrate, malate, tartarate, phosphate\), NaCl
+
+2.51 – 3.20
+
+1.78 – 3.09b \(1 point at 3.49 out-of-trend\)
+
+0.54b
+
+\[45\]
+
+Dextran or polyvinyl pyrrolidone \(PVP\), citrate
+
+2.62 – 3.02
+
+<2.2 – 3.7 \(bromophenol blue\)a
+
+0.39
+
+\[64\]
+
+PVP \(MW 10k to 55k\), dextran \(MW 10k to 76k\), lactose, citrate
+
+2.64 – 3.17
+
+2.25 – 4.29 \(bromophenol blue\)a
+
+0.5
+
+1c
+
+Small molecular weight drug
+
+Predominantly hydrolysis
+
+\[46\]
+
+Citrate or phosphate
+
+6.4 – 7.35
+
+6.45 – 7.25 \(phenol red\) a
+
+0.13 ± 0.02d
+
+0.44 ± 0.04e
+
+Cefotaxime sodium
+
+Hydrolysis
+
+\[65\]
+
+Lactose, phosphate, NaCl
+
+7.89 – 8.93
+
+8.12 – 8.61a
+
+−0.31
+
+−0.49
+
+
+Relationships between acidity and reaction rates in the freeze-dried formulations and solution are represented by Eqs. A and B
+
+Log*k*fd = *a* – *n*fd ∗ *H*2− \(Eq. A\)
+
+Log*k*s = *b* – *n*s ∗ pH  \(Eq. B\)
+
+where *k* is reaction rate, *n* is a slope of the log*k* vs. acidity dependencies, and *a* and *b* are empirical coefficients. Subscripts fd and s are for freeze-dried and solution states, respectively
+
+aIndicator pKa in dilute aqueous solution was used for *H*2− calculations
+
+bIndicator pKa in 25% IPA solution was used for *H*2− calculations
+
+cTheoretical for a reaction under specific acid catalysis
+
+dCalculated from the data reported in Wu et al. \[46\]
+
+epH 5.5–7.0
+
+
+
+
+In discussions of stability of acid/base sensitive compounds in freeze-dried formulations, there are several points to consider, as follows: 
+
+1. 
+\(i\)
+
+
+Table 2 provides examples of correlations between the solid-state Hammett acidity function and chemical instability for several compounds in various freeze-dried formulations. As shown in the Table, the signs \(\+ or –\) of the coefficients in dependences between acidity and reaction rate are the same in solution and the solid-state. Therefore, knowledge of the pH stability profile in solution and determination of the solid-state Hammett acidity functions could be used to predict stability rank-order between different formulations for an acid/base sensitive active ingredient.
+
+
+
+
+2.  
+\(ii\)
+
+
+The slopes of the log *k* versus *H*2− are lower than that for the same reaction in solution when determined for log *k* vs pH. For the sucrose inversion reaction, for example, the slope of ~0.5 was observed, which is significantly lower than the theoretical slope of 1. For a reaction with a unimolecular decomposition of the conjugate acid as the rate-limiting step \(protonated sucrose molecule as in case of sucrose inversion\), the slope should be equal to 1, which was indeed observed for sucrose inversion in various liquid matrixes \[62\]. The Hammett acidity function does not represent universal acidity scale because it also depends on the indicator type \(see previous section\). Therefore, the Hammett acidity function should be considered as an empirical solid- state acidity scale for lyophiles, and it not a true measure of proton activity. From the practical perspectives, solution pH stability profiles, while being relevant to understand trends and stability rank-order for freeze-dried formulations \(see previous point\), could not be used for quantitative extrapolation of relationships between the Hammett acidity function and solid-state stability.
+
+
+
+
+3.  
+\(iii\)
+
+
+There are multiple acidity scales, in addition to Hammett acidity function. Evaluation of relative acidity/basicity using solvatochromic probe molecules is described briefly in the next section. As another example, using the rate of sucrose inversion to study acid–base relationships in solution has been reported \[63\]. Similarly, solid-state acidity of different freeze-dried formulations could also be represented using a rate of sucrose inversion, or another well-characterized acid-catalyzed chemical reaction, as proposed in \[45\], at least for freeze-dried formulations with the *H*2− < 4.
+
+
+
+
+4.  
+\(iv\)
+
+
+Removal of water during freeze-drying \(by freeze-concentration and subsequent drying\) and corresponding decrease in polarity of the environment can result in significant *pK**a* changes of ionizable groups, which would lead to change in the extent of protonation. For protein drugs, such changes could disrupt electrostatic interactions and destabilize higher-order structure. Stability of small molecular weight drugs can also be sensitive to *pK**a* changes and corresponding changes in the ionization extent of the molecule, because rate of many chemical reactions depend on the ionization state; e.g., unionized form of sertraline underwent oxidation whereas the charged form of the same molecule was stable in both solution and solid state \[70\].
+
+
+
+
+5.  
+\(v\)
+
+
+There could be a change in predominant degradation mechanism from solution to solid state. For example, general buffer catalysis could be enhanced in freeze-dried materials, because of a major increase in buffer concentration. A potential example of general acid catalysis for a freeze-dried material was described in \[57\], where increased rate of sucrose inversion in freeze-dried citrate/sucrose mixtures at higher citrate/sucrose ratio was directly related to higher concentration of proton-donating -COOH groups of citric acid.
+
+
+
+
+6.  
+\(vi\)
+
+
+Because of an increased concentration of salts as the result of water removal, salt effects could play a significant role in stability of freeze-dried formulations. Both stabilizing and destabilizing actions of neutral salts for freeze-dried protein formulations were reported in the literature. For example, NaCl was observed to reduce aggregation of lyophilized bovine serum albumin \(BSA\) \[71\], recombinant humanized albumin \(rHA\) \[72\], tetanus and diphtheria toxoids \[73\], as well as to improve stability of freeze-dried recombinant Factor VIII \[74\]. On the other hand, NaCl destabilized both human growth hormone and Factor VIII by accelerating chemical degradation \[75\] and loss of activity \[76\] in freeze-dried state. It should also be mentioned that stabilization/destabilization mechanisms of neutral salts for freeze-dried proteins has not been established, as noted, e.g., in \[76\]: “... it is not obvious why stability is better \(without NaCl\)”. Moreover, role of salts in stability of freeze-dried formulations with small molecular weight drugs has been investigated in even lesser \(as compared with proteins\) extent. In one study, acceleration of sucrose inversion in the freeze-dried state in the presence of NaCl has been reported \[43\], although the mechanism of the salt impact has not been discussed. Overall, while mechanisms of the impact of buffer salts on physical chemical attributes and stability of freeze-dried formulations has been elaborated in some details \(e.g., as reviewed in \[5, 12, 77\]\), there is a lack of mechanistic studies of neutral salt effects in stability of freeze-dried formulations. To address this gap, role of neutral salts in chemical stability of freeze-dried formulations is discussed briefly in this section, using model reaction of sucrose inversion.
+
+
+
+
+
+As a brief theoretical introduction to the salt effect in solution, note that neutral salts can influence chemical reactivity through two mechanisms, primary and secondary salt effects \[78\]. An effect of ionic strength on the reaction rate constant through the activity coefficient ratio of the reactants and transition state is defined as the primary salt effect. Secondary salt effect is observed in consecutive reactions that involve pre-equilibration step \(e.g., proton transfer for acid–base equilibrium\). In such cases of consecutive processes, salts can influence reaction rate by changing the equilibrium concentration or activity of reacting specie\(s\) involved in the pre-equilibration step \(e.g., proton activity in the case of sucrose inversion where the first step is proton transfer to sucrose\); this is known as the secondary salt effect.
+
+For sucrose inversion in solution, primary and secondary salt effects have been described by Setchenow-type relationship \[79, 80\], which can be presented as: 
+
+
+
+![$$ {\log}_{10}k=-n\ \textrm{pH}+{B}_j{c}_j+{B}_1 $$](images/000012.jpeg)
+
+
+\(3\)
+
+
+where *k* is the sucrose inversion rate constant, *c**j* is the anion concentration in solution, *B**j* is the constant determined by anion, *n* = 1 is the slope of log10*k* vs pH \(the slope is 1 for a reaction with specific acid catalysis\), and *B*1 is the constant which depends on the temperature and media properties. *B**j* value was reported to be approximately 0.3 for several different anions \[79\]. In Eq. \(3\), the first member describes secondary salt effect \(i.e., salts impacting proton activity and therefore changing first step of the sucrose inversion reaction which is protonation of sucrose molecule\), and the second member describes the primary salt effect. Solution-state sucrose inversion is accelerated by neutral salts due to primary salt effect \(via activity coefficients ratio of reactants and transition state\), with secondary salt effects \(impact of salts on acid–base relationships\) playing substantial role in some cases as well \[79\].
+
+A study of salt effects on the rate of proton-catalyzed sucrose inversion, i.e., cleavage of glycoside bond resulting in monosaccharide and monosaccharide cation, in freeze-dried state is described below. Samples were prepared by freeze-drying of aqueous solutions containing sucrose \(10 mg/ml\), dextran \(100 mg/ml\), salt \(0–50 mM, sodium chloride, potassium chloride, sodium sulfate, or potassium sulfate\), and 50 mM sodium citrate buffer at pH 2.64. Fill volume was 3 mL/vial, and 10 ml type I glass vials and Daikyo D-777 grey butyl stoppers with FluroTec1 coating were used. All the lyophiles were X-ray amorphous, and had similar water content \(0.2–0.6 w/w\) and glass transition temperatures \(173–180 °C\). To distinguish between primary and secondary salt effects, apparent solid-state acidity of the lyophiles \(expressed as the Hammett acidity function, *H*2−\) was determined by measuring ionization extent of colyophilized bromophenol blue using diffuse reflectance-visible spectroscopy; the *H*2− results are presented in Fig. 10. Stability was studied at 60 °C, with the data collected over 750 h with 8 timepoints. The extent of sucrose inversion was measured by HPLC with a refractive index detector. The kinetic data were fit using zero-order, first-order, and square-root-of-time models. Although the square root of time model appears to best describe the data, the following analysis is performed using pseudo-first order model, to facilitate comparison with previous studies of sucrose inversion in lyophiles. First-order rate constants are presented in Fig. 11 as a function of salt concentration. Degradation rate constant increases with salt concentration, with a higher degradation rate observed in formulations containing chloride salts. While type of anion appears to have a noticeable impact on the rate of reactivity, cation type did not have a significant impact on the degradation rate, with a similar degradation rate in lyophiles prepared with either *K* or Na salts. As shown in Fig. 10, lyophiles with chloride salts have lower Hammett acidity function \(i.e., higher acidity\) than with sulphates, which is consistent with the higher reaction rates \(Fig. 11\). 
+![](images/000013.jpeg)
+
+
+***Fig. 10*** 
+Impact of salts on the Hammett acidity function in dextran/citrate/sucrose lyophiles. Lines represent linear regressions for NaCl and Na2SO4 data points and are shown as visual guides
+
+
+![](images/000014.jpeg)
+
+
+***Fig. 11*** 
+Pseudo-first-order rate constant of sucrose inversion in lyophiles as a function of neutral salt concentration at 60 °C. Molar salt concentration in the lyophiles, *C*A, was calculated using the following equation: *C*A = *C*AL\**D*/*B*, where *C*AL is the molar salt concentration in the pre-lyo solution, *B* is the solid content \(g/L\) in the pre- lyo solution, and *D* \(g/L\) is density of the lyophiles. For density of lyophiles, we used *D* = 1.0 g/cm3, as the true density of dextran, which is the predominant component of the lyophiles in this study, was reported to be 1.02 g/cm3 \[81\]
+
+
+
+To establish if primary salt effect contributed to the salt impact on sucrose inversion in lyophilized formulations, Eq. 3 was modified as follows: 
+
+
+
+![$$ {\log}_{10}k/{k}_0=\left(-N\right)\left({H}_{2-}-{H_{2-}}^0\right)+{B}_{\textrm{A}}{C}_{\textrm{A}} $$](images/000015.jpeg)
+
+
+\(4\)
+
+
+Where *H*2− and *H*2−0 is the Hammett acidity function in the presence and absence of salt, respectively, *k*0 is the reaction rate constant without salt, *C*A is molar salt concentration in lyophile, *B*A is a constant, and *N* = 0.5 \[63\] is the slope of log *k* vs *H*2−. It should be noted that *N* in Eq. 4 is an empirical coefficient, which describes relationship between the Hammett acidity and the rate of sucrose inversion in the solid state, whereas in solution \(Eq. 3\), where proton activity is represented directly by pH, *n* equal to 1 as it should be for any reaction with specific acid catalysis.
+
+To explore if the shift in the apparent acidity can account for the difference in the chemical reactivity between chlorides and sulphates on a quantitative basis, Fig. 12 shows plot in coordinates of Eq. 4, representing \(log10\(*k*/*k*0\) \+ 0.5\(*H*2−– *H*2−0\)\) as a function of *B*A*C*A. Figure 12 shows that, while difference between chlorides and sulphates was reduced, it was not eliminated, implying that both primary and secondary salt effects play a noticeable role in solid-state sucrose inversion. In addition, it should be noted that the graph in Fig. 12 significantly deviates from linear relationships. Such deviations from the linearity are commonly reported for different reactions at high ionic strength in solution, with salt effects diminishing or even eliminated at high salt concentrations \[82\]. Nonlinearity can be expected if the salts are not completely ionized, and instead form either ionic pairs or more complex aggregates, as probably is the case in sugar glasses with low water content. 
+![](images/000016.jpeg)
+
+
+***Fig. 12*** 
+Adjusted rate constants of sucrose inversion, log10*k*/*k*0 \+ 0.5\*\(*H*2−–*H*2−0\) \(Eq. 4\), as a function of salt concentration in the lyophiles. *k* and *k*0 are the first-order rate constants for lyophiles with and without salts, respectively. The error bars represent standard deviations, *σ*G, for function *F* = log10*k*/*k*0 \+ 0.5\*\(*H*2−–*H*2−0\). The standard deviations were determined based on uncertainties \(*σ**i*\) in *k*, *k*0, *H*2−0 and *H*2− values using the following equation \[83\]:  ![$$ {\sigma}_G=\sqrt{\sum_{i=1}^4{\left({\sigma}_i\frac{\partial F\left({\mu}_i\right)}{\partial {\mu}_i}\right)}^2} $$](images/000017.jpeg) 
+
+
+
+## **5 **Freezing Fundamentals: Quasi-Liquid Layer, Freeze-Concentration, Polarity, and the Workman-Reynolds Potential
+
+There are numerous publications on behavior of aqueous systems at sub-zero temperatures; major fundamentals of frozen aqueous systems are covered in \[84\], while pH and acid–base relationships are briefly summarized in the Introduction section. Here, we would like to discuss phenomena that have attracted little attention in pharmaceutical literature, but nevertheless are of importance for better understanding of role of ice and acid–base relationships during freezing.
+
+Water is an exceptionally universal solvent: good for polar compounds and reasonable for nonpolar ones. Ice stands in stark contrast to water in this respect; it does not dissolve many compounds in a measurable manner, which results in expulsion of most chemical compounds into the ice grains boundaries \[85, 86\]. This is the phase where the majority of the solutes will be found after the freezing. As the consequence of the ice precipitation, the compounds will experience increased concentration which fact gave this phase a name “freeze concentrated solution,” often abbreviated FCS. In addition to the FCS, there is also an amorphous layer on the surface of ice crystals, which exists below the ice melting temperature even in pure water, known as quasi-liquid layer, QLL \(also called liquid-like layer\) \[87\]. Estimations of the thickness of the layer vary widely, from a few angstroms to up to a micrometer \[88\]. It was proposed, based on differential scanning calorimetry \(DSC\) study of pure ice samples, that the fraction of the liquid layer in pure water is approx. 1.5% at temperatures well below 0 °C \(up to −50 °C\) \[89\]. Combining both FCS and QLL concepts, it has been proposed recently that there are two noncrystalline compartments in typical frozen pharmaceutically relevant solutions, which are defined by their proximity to the surface of ice crystals \[90\].
+
+While experimental probing of these two compartments would represent major experimental challenge, use of probe molecules could be a reasonable way to obtain information about physical properties of the FCS and/or QLL. Using low concentration of methylene blue in water, the extent of concentration increase on a molecular level was estimated to be a 1000- and a 1000,000-times for a fast \(77 K\) and slow \(253 K\) cooling, respectively, based on the UV-Vis spectroscopy \[91\]. A similar increase in concentration can also be expected for the cases of acids present in solutions at comparable concentrations, resulting in increased acidity. About a 1000 times increased acidity was observed for HCl, H2SO4, HNO3, and *p*-toluensulfonic acid thus changing the original pH of 4 to the acidity corresponding to that of pH 1 by freezing \[36\].
+
+Freezing would lead to major changes in the microenvironment of an active ingredient including concentration, viscosity, acidity, and polarity. Spectrophotometric method was applied to assess the polarity in FCS via eight solvatochromic molecules \[92\]. The method is based on the multi-parameter linear solvation energy equation. Each of the molecules is sensitive, to different extent, to hydrogen bond donating \(*α*\) or accepting \(*β*\) ability and polarity \(*π*\*\) of the environment. The *α* and *β* parameters reflect relative acidity and basicity of the media, respectively. Another characteristic parameter is the *E*TN derived from the Reichards dye. The relationships between the *E*TN and the three parameters above are described elsewhere \[92\]. The analysis of the UV-Vis spectra then allowed to estimate the parameters of the FCSs \(in binary water – dye mixtures\), which are summarized in Table 3. FCS seem to be a largely nonpolar environment characterized by *π*\* close to zero, which resembles the polarity of cyclohexane \[92\]. A significant decrease in the *E*TN, which also reflects relative polarity of the media, is consistent with the major decrease in the *π*\* value. It was noted that such low polarity could be due to the presence of air bubbles in ice \[92\]; note that formation of air bubbles during freezing could represent an additional destabilization pathway for biopharmaceuticals \[93, 94\]. At the same time, the hydrogen bond donating and accepting abilities in the FCS were enhanced as compared to water. It should be noted that the analysis cannot distinguish between the interactions of the probe molecules with the ice and within the QLL and FCS. Interestingly, the measured data also indicated inhomogeneity of the indicators. The spectra oftentimes exhibited two maxima which can be interpreted as two characteristic interaction or binding places of the probe molecules. The results of this study demonstrated major changes in the microenvironment during freezing; such changes, if they also take place in biopharmaceutical systems, can result in major stresses to protein molecules via microenvironment. For example, dramatic decrease in polarity \(*π*\*\) could favor exposure of hydrophobic areas of protein resulting in unfolding, while significant changes in acidity and basicity \(*α* and *β*\) could trigger chemical reactions which involve proton transfer, such as deamidation. 
+
+
+***Table 3*** 
+The solvatochromic parameters for water and frozen aqueous solutions of the solvatochromic dyes
+
+
+
+**Material**
+
+**![$$ {E}_{\textrm{T}}^{\textrm{N}} $$](images/000018.jpeg) **
+
+***π\****
+
+***α***
+
+***β***
+
+Water
+
+1
+
+1.09
+
+1.17
+
+0.18
+
+Frozen solution
+
+0.68
+
+0.51a
+
+0
+
+1.4
+
+1.1a
+
+1.5 – 2
+
+
+The values indicated with “a” are derived from minor peaks
+
+
+
+
+Besides the acidity changes caused by the trivial concentration effect and partial solute crystallization we would like to stress the existence of yet another mechanism, which has not been widely discussed in the pharmaceutical domains. The mechanism is related to the Workman-Reynolds freezing potential observed for the first time in 1940’s \[95, 96\]. The mechanistic reason for building up an electrical potential during the freezing of salt solutions stands in varied propensities of ions to incorporate into the ice crystal lattice. The dimensions and charges of the ions play decisive role in incorporating them into the ice crystal lattice; that can occur by one of the two ways: either by substitution of water molecule\(s\) or by occupying an interstitial position in the hexagonal crystal lattice. The former option applies mostly to small ions \(NH4\+, F−, Cl−\), whereas the larger ones comply with the latter \(Na\+, K\+\) \[86, 87\]. Nevertheless, only a minor fraction of ions is incorporated into the ice lattice, and most of them end up in the FCS.
+
+Let us consider two examples of the acidity change by freezing via selective ion incorporation: NaCl and NH4Cl as depicted in Fig. 13. In the case of NaCl, the Cl– incorporates into the ice in much larger extent than Na\+ by substituting two water molecules in the ice lattice \[97\]. Thus, freezing of NaCl aqueous solution leads to negatively charged ice and positively charged remaining solution as shown in Fig. 13. The macroscopic potential measured between the solution and ice reached up to \+30 V \[96\]. By convention, the freezing potential is given here as a potential of the liquid to the ice. This electrostatic potential is in a short period of time neutralized by the charge carriers in solution – prominently by protons, which results in acidic ice and basic FCS. Such changes in acidity were confirmed spectroscopically by UV-Vis \[36, 98, 99\] and NMR \[100\], and also by physical separation of liquid from frozen solutions \[96, 101\]. NH4Cl produces a negative freezing potential of −105 V, as ammonium cation substitutes water molecules in the ice to a larger extent than chloride anions. The resulting acid–base neutralization leads to acidic FCS. The two examples with identical anion intend to demonstrate that the potential is caused by relative distribution of the ions between the ice and FSC and cannot be judged solely from the identity of the individual separate ions. 
+![](images/000019.jpeg)
+
+
+***Fig. 13*** 
+Schematics of freezing of NaCl and NH4Cl aqueous solution, where buildup of the freezing potential is followed by neutralization by the flow of protons. Blue shapes represent solution, and white shapes correspond to ice crystals
+
+
+
+The experimentally determined changes in acidity by Hammett acidity functions using cresol red for several common salts are given in the Table 4 \[98\] together with the signs of the freezing potential reported in \(Workman and Reynolds 1950\) \[96\]. The table demonstrates that positive sign of FP leads to the more basic FCS \(Hammett acidity function >7\), while the negative FP corresponds the increased acidity \(i.e., lower values of the Hammett acidity function\). It should be noted that this effect differs from the partial buffer crystallization as the salts under the current discussion are derived from the strong acids and bases and thus do not allow for salts other than neutral. Furthermore, the detailed study of the acidity changes in frozen NaCl solutions as a function of the cooling rates and the sample temperature revealed complex behavior \[99\]. Fast cooling resulted in the crystallization of the majority of the NaCl solution, whereas amorphous FCS was also formed. Upon heating, the FCS underwent glass-to-liquid transformation at 180 K, followed by the “cold crystallization” as observed by DSC. Most importantly, the individual crystallization events were accompanied by acidity shifts. The example demonstrates the complexity of the freezing process even for a simple neutral salt and demonstrates a pressing need for the experimental determination of the actual acidity in various frozen systems. 
+
+
+***Table 4*** 
+The signs of freezing potential \(FP\) between FCS and ice together with the values of the Hammett acidity function \[98\]
+
+
+
+**Salt**
+
+**FP**
+
+**Hammett acidity function**
+
+NH4Cl
+
+−
+
+1.1
+
+No salt
+
+1.3
+
+Na2SO4
+
+1.5
+
+NaI
+
+\+
+
+7.1
+
+NaBr
+
+\+
+
+7.1
+
+NaCl
+
+\+
+
+7.6
+
+KCl
+
+\+
+
+7.6
+
+NaF
+
+\+
+
+7.7
+
+CaCl2
+
+\+
+
+7.8
+
+BaCl2
+
+\+
+
+7.9
+
+TMACl
+
+\+
+
+7.9
+
+MgCl2
+
+\+
+
+8.0
+
+
+
+It should be stressed that formation of FP in the frozen solution depends on a number of factors including freezing rate, crystals orientation \[102\], and concentration of both ions and nonionic solutes. Impact of nonionic compounds on FP was studied for dimethylsulfoxide \(DMSO\), glycerol, sucrose, urea, and tetrahydrofuran \(THF\) \[101–103\]. While DMSO, THF, and glycerol reduce the absolute values of FPs, urea enhances it. Interested reader is referred for details to a good review article \[103\] and book \[86\]. The theoretical models of various complexities were constructed to describe the phenomena \[104, 105, 106\].
+
+Knowledge of FP-induced acidity change has been successfully applied to stabilize an enzyme during freeze-thaw, by neutralization of the freeze-induced acidity changes \[98\]. Activity of haloalkane dehalogenase was studied after the freeze-thaw cycles for solutions containing sodium phosphate \(Na-P\) and potassium phosphate \(K-P\) buffers. The solutions were characterized for their acidity in the frozen states. From the original pH 7.5 the sodium phosphate dropped to *H*2−1.4, whereas the potassium phosphate only to 6.1 \(Fig. 14\); such finding is in the agreement with the acidity changes due to the crystallization of buffer components \[107\]. The examined haloalkane dehalogenase was shown to be sensitive to the acidity changes as the recovery activity in K-P was 66 ± 6%, whereas only 16 ± 9% in Na-P. Furthermore, the freezing-induced acidification of phosphate buffers was neutralized by the presence of tetramethylammonium chloride \(TMAC\). This salt consists of bulky cation, which is impossible to fit into the ice lattice and chloride anion, which can substitute the water molecules in the ice. TMAC has, therefore, positive FP \(solution to ice\), whose neutralization results in more basic FCS. Various concentrations of TMAC were experimentally applied to find sufficient concentration for the neutralization of the acidification of 50 mM phosphate buffer; it was found that 0.1 M TMAC was required. The resulting frozen solution did not deviate from the initial solution acidity by more than 0.4 units. The major reduction in freeze-induced change in the acidity resulted in preservation of the activity of the enzyme within the three freeze-thaw cycles. The successful method of activity preservation in the freezing was named *ionic cryoprotection* and has the potential to be generalized for other systems. The ionic cryoprotection concept is schematically presented in Fig. 15. 
+![](images/000020.jpeg)
+
+
+***Fig. 14*** 
+Activity recovery for haloalkane dehalogenase after freeze-thaw in sodium phosphate \(Na-P\) and potassium phosphate \(K-P\) buffers, and in these buffers with the addition of TMAC. \(Reproduced with permission from: Krausková et al. \[98\]\) 
+
+
+![](images/000021.jpeg)
+
+
+***Fig. 15*** 
+Representation of the “*ionic cryoprotection*” mechanism. The acidity of particular buffer is first determined in the frozen state and the salt with the opposite freeze-induced acidity change is applied to preserve the solution acidity in the freezing process. \(Reproduced with permission from: Krausková et al. \[98\]\) 
+
+
+
+It should be stressed that, while elevated FP would be indicative of a risk of significant acidity changes, the absence of the FP does not necessarily mean that the acidity would be unchanged. Further studies are needed to establish the relationship between FP and acidity changes at various conditions.
+
+## **6 **Conclusions
+
+In both frozen and freeze-dried materials, acidity can be measured with the help of probe molecules, and expressed as either Hammett acidity function or pHeq. Sulfonephtalein dyes \(pH indicators\) represent the most common type of such probe molecules, while C13-enriched carboxylic acid probes with C13 SSNMR detection have been also introduced more recently. Correlations between the *H*2−/pHeq and stability have been demonstrated for several small molecular weight compounds in freeze-dried formulations. The relationships between the solid-state acidity and degradation of acid-sensitive proteins were already found in the frozen state \[7, 11, 98\] and we expect the similar relation to hold for freeze-dried protein formulations as well.
+
+Solid state acidity in freeze-dried formulations strongly depends upon initial solution pH, whereas other defining factors include the type and concentration of buffer, bulking agent, and neutral salts. In addition, solid-state acidity depends, albeit in a lesser extent, on the water content and hydration history of an amorphous freeze-dried material. Interestingly, a hysteresis in the ionization of pH indicators was observed in hydration/rehydration experiments, which is consistent with a nonequilibrium nature of glasses, but also raises an intriguing question about the rate of proton transfer in carbohydrate-based amorphous systems.
+
+Freezing and drying can result in significant changes in acidity of frozen solutions and freeze-dried formulations. There are a several mechanisms, which could be responsible for the acidity changes occurring in the freezing and lyophilization process, with buffer crystallization and temperature-dependent *pK**a* being the most acknowledged at this point. The chapter introduced a novel \(for pharmaceutical science\) concept of Workman-Reynolds freezing potential, allowing to develop an additional approach to minimize freeze-induced pH changes, utilizing neutral salts. Neutral salts were shown to reduce freezing potential between ice and liquid layer, therefore minimizing freeze-induced acidification of the freeze-concentrated solution and stabilizing proteins against freeze-induced stresses.
+
+In addition to the Workman-Reynolds potential, a possible role of a medium effect in both apparent acidity changes and the chemical instability of freeze-dried formulations is highlighted, using a study of salt effect in amorphous solid-state sucrose inversion. In this particular case, neutral salts accelerated chemical degradation of the acid-catalyzed reaction via both primary and secondary salt effects, while it is also noted that the magnitude and direction of the salt effect \(i.e., either stabilization or destabilization by salts\) could depend on the charge type of the activated complex of a particular chemical process.
+
+To summarize, fundamental understanding of acid–base relationships during freezing and drying would be essential for both rationale formulation design and development of manufacturing process. For a further progress in the field of acid–base relationships for frozen solutions and freeze-dried formulations, several areas would warrant further investigations, as follows: 
+
+1. 
+\(i\)
+
+
+In the majority of cases, Hammett acidity function/pHeq measurements were performed using sulfonephtaleins with the charge type 2−/− \(basic/acidic form\). In addition, *pK**a* of these molecules exhibit strong dependence on the polarity of the media. It would be essential to introduce alternative types of probe molecules with other charge types, e.g., 0/\+, and with weaker changes in *pK**a* with polarity.
+
+
+
+
+2.  
+\(ii\)
+
+
+While there are examples of relationships between solid-state acidity and stability of small molecules in freeze-dried formulations, similar studies for proteins are lacking. This is an obvious gap in mechanistic understanding of stability of freeze-dried biologicals, which should be addressed in future studies.
+
+
+
+
+3.  
+\(iii\)
+
+
+Changes in ionization state of probe molecules were observed during partial rehydration/dehydration of freeze-dried formulations; the rehydration/dehydration changes in the ionization were partially reversible, showing a hysteresis in proton transfer. Extension of these initial studies could provide an important fundamental insight into relationships between proton transfer and rates of degradation reactions in amorphous solids.
+
+
+
+
+4.  
+\(iv\)
+
+
+Solvatochromic dye molecules, which are used extensively in organic physical chemistry to describe chemical reactions in different media, have been introduced recently to measure polarity and acidity/basicity in frozen aqueous systems. Similar approach, if applied to pharmaceutically relevant frozen solutions and freeze-dried materials \(e.g., to protein- and sugar- containing systems\), could improve the understanding of the main destabilization factors for frozen and freeze-dried pharmaceuticals.
+
+
+
+
+
+**Acknowledgements**
+
+We thank Dr. Mark Berry for his expert help in statistical analysis of the data reported in Sect. 4. Dominik Heger is thankful for the support by Czech Science Foundation via project GA 19-08239S.
+
+
+
+**References**
+
+1.  
+1.
+
+Waterman KC, Adami RC, Alsante KM, Antipas A, Arenson D, Carrier R, Hong J, Landis MS, Lombardo F, Shah J, Shalaev E, Smith SW, Wang H. Hydrolysis in pharmaceutical formulations. Pharm Dev Technol. 2002;7:113–46.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12066569)
+
+2.  
+2.
+
+Connors KA, Amidon GL, Stella AJ. Chemical stability of pharmaceuticals. A handbook for pharmacists. 2nd ed. New York/Chichester/Brisbane/Toronto/Singapore: Wiley; 1986. p. 847.
+
+3.  
+3.
+
+Flynn GL. Buffers—pH control within pharmaceutical systems. PDA J Pharm Sci Technol. 1980;34:139–62.
+
+4.  
+4.
+
+Zbacnik TJ, Holcomb RE, Katayama DS, Murphy BM, Payne RW, Coccaro RC, Evans GJ, Matsuura JE, Henry CS, Manning MC. Role of buffers in protein formulations. J Pharm Sci. 2017;106:713–33.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27894967)
+
+5.  
+5.
+
+Shalaev EY. The impact of buffer on processing and stability of freeze-dried dosage forms. Part. 1 solution freezing behavior. Am Pharm Rev. 2005;8:80–7.
+
+6.  
+6.
+
+Thakral S, Sonje J, Munjal B, Suryanarayanan R. Stabilizers and their interaction with formulation components in frozen and freeze-dried protein formulations. Adv Drug Deliv Rev. 2021;173:1–19.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33741437)
+
+7.  
+7.
+
+Kolhe P, Amend E, Singh SK. Impact of freezing on pH of buffered solutions and consequences for monoclonal antibody aggregation. Biotechnol Prog. 2010;26:727–33.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20039442)
+
+8.  
+8.
+
+Sundaramurthi P, Suryanarayanan R. The effect of crystallizing and noncrystallizing cosolutes on succinate buffer crystallization and the consequent pH shift in frozen solutions. Pharm Res. 2011;28:374–85.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20927571)
+
+9.  
+9.
+
+Thorat AA, Munjal B, Geders TW, Suryanarayanan R. Freezing-induced protein aggregation - role of pH shift and potential mitigation strategies. J Control Release. 2020; [https://​doi.​org/​10.​1016/​j.​jconrel.​2020.​04.​033](https://doi.org/10.1016/j.jconrel.2020.04.033).
+
+10.  
+10.
+
+Kohle P, Pikal-Cleland KA, Carpenter JF. Lyophilization-induced protein denaturation in phosphate buffer systems: monomeric and tetrameric bgalactosidase. J Pharm Sci. 2001;90:1255–68.
+
+11.  
+11.
+
+Pikal-Cleland KA, Rodríguez-Hornedo N, Amidon GL, Carpenter JF. Protein denaturation during freezing and thawing in phosphate buffer systems: monomeric and tetrameric b-galactosidase. Arch Biochem Biophys. 2000;384:398–406.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11368330)
+
+12.  
+12.
+
+Shalaev EY, Gatlin LA. The impact of buffer on solid-state properties and stability of freeze-dried dosage forms. In: Jameel F, Hershenson S, editors. Formulation and process development strategies for manufacturing biopharmaceuticals. Willey; 2010. p. 507–20.
+
+13.  
+13.
+
+Osterberg T, Wadsten T. Physical state of L-histidine after freeze-drying and long-term storage. Eur J Pharm. 1999;273:85–93.
+
+14.  
+14.
+
+Sundaramurthi P, Shalaev E, Suryanarayanan R. Calorimetric and diffractometric evidence for the sequential crystallization of buffer components and the consequential pH swing in frozen solutions. J Phys Chem B. 2010;114:4915–23.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20302316)
+
+15.  
+15.
+
+Sieracki NA, Hwang HJ, Lee MK, Garner DK, Lu Y. A temperature independent pH \(TIP\) buffer for biomedical biophysical applications at low temperatures. Chem Comm. 2008;7:823–5. [https://​doi.​org/​10.​1039/​b714446f](https://doi.org/10.1039/b714446f).[Crossref](https://doi.org/10.1039/b714446f)
+
+16.  
+16.
+
+Vesely L, Susrisweta B, Heger D. Making good’s buffers good for freezing: the acidity changes and their elimination via mixing with sodium phosphate. Int J Pharm. 2021;593:120128. [https://​doi.​org/​10.​1016/​j.​ijpharm.​2020.​120128](https://doi.org/10.1016/j.ijpharm.2020.120128).[Crossref](https://doi.org/10.1016/j.ijpharm.2020.120128)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33271311)
+
+17.  
+17.
+
+Kitada K, Suda Y, Takenaka N. Acceleration and reaction mechanism of the N-Nitrosation reaction of dimethylamine with nitrite in ice. J Phys Chem A. 2017;121:5383–8. [https://​doi.​org/​10.​1021/​acs.​jpca.​7b03246](https://doi.org/10.1021/acs.jpca.7b03246).[Crossref](https://doi.org/10.1021/acs.jpca.7b03246)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28662583)
+
+18.  
+18.
+
+Choi Y, Yoon H-I, Lee C, Vetráková LU, Heger D, Kim K, Kim J. Activation of periodate by freezing for the degradation of aqueous organic pollutants. Envir Sci Tech. 2018;52:5378–85. [https://​doi.​org/​10.​1021/​acs.​est.​8b00281](https://doi.org/10.1021/acs.est.8b00281).[Crossref](https://doi.org/10.1021/acs.est.8b00281)
+
+19.  
+19.
+
+Kim K, Ju J, Kim B, Chung HY, Vetrakova L, Heger D, Saiz-Lopez A, Choi W, Kim J. Nitrite-induced activation of iodate into molecular iodine in frozen solution. Environ Sci Technol. 2019;53:4892–900. [https://​doi.​org/​10.​1021/​acs.​est.​8b06638](https://doi.org/10.1021/acs.est.8b06638).[Crossref](https://doi.org/10.1021/acs.est.8b06638)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30916540)
+
+20.  
+20.
+
+Ju J, Kim J, Vetráková Ľ, Seo J, Heger D, Lee C, Yoon H, Kim K, Kim J. Accelerated redox reaction between chromate and phenolic pollutants during freezing. J Hazard Mater. 2017;329:330–8. [https://​doi.​org/​10.​1016/​j.​jhazmat.​2017.​01.​031](https://doi.org/10.1016/j.jhazmat.2017.01.031).[Crossref](https://doi.org/10.1016/j.jhazmat.2017.01.031)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28189878)
+
+21.  
+21.
+
+Maltini E, Anese M, Shtylla I. State diagrams of some organic acid-water systems of interest in food. Cryo-Lett. 1997;18:263–8.
+
+22.  
+22.
+
+Fukuoka E, Makita M, Yamamura S. Glassy state of pharmaceuticals. III. Thermal properties and stability of glassy pharmaceuticals and their binary glass mixtures. Chem Pharm Bull. 1989;37:1047–50.
+
+23.  
+23.
+
+Li J, Chatterjee K, Medek A, Shalaev E, Zografi G. Acid-base characteristics of bromophenol blue-citrate buffer systems in the amorphous state. J Pharm Sci. 2004;93:697–712.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14762908)
+
+24.  
+24.
+
+Shalaev E, Johnson-Elton T, Chang L, Pikal MJ. Thermophysical properties of pharmaceutically compatible buffers at sub-zero temperatures: implications for freeze-drying. Pharm Res. 2002;19:195–201.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11883647)
+
+25.  
+25.
+
+Stoll VS, Blanchard JS. Buffers: principles and practice. Methods Enzymol. 1990;182:24–38.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2314240)
+
+26.  
+26.
+
+Gokarn YR, Kras E, Nodgaard C, Dharmavaram V, Fesinmeyer RM, Hultgen H, Brych S, Remmele RL Jr, Brems DN, Hershenson S. Self-buffering antibody formulations. J Pharm Sci. 2008;97:3051–66.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18023013)
+
+27.  
+27.
+
+Garidel P, Pevestorf B, Bahrenburg S. Stability of buffer-free freeze-dried formulations: a feasibility study of a monoclonal antibody at high protein concentrations. Eur J Pharm Biopharm. 2015;97:125–39.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26455339)
+
+28.  
+28.
+
+Hammett LP, Deyrup AJ. A series of simple basic indicators. I. the acidity functions of mixtures of sulfuric and perchloric acids with water. J Am Chem Soc. 1932;54:2721–39.
+
+29.  
+29.
+
+Rochester CH. The application of the acidity function concept to strongly basic media. Q Rev Chem Soc. 1966;20:511–25.
+
+30.  
+30.
+
+Bates RG. Determination of pH. Theory and practice. 2nd ed. New York/London/Sydney/Toronto: Wiley; 1973. p. 479.
+
+31.  
+31.
+
+Walling C. The acid strength of surfaces. J Am Chem Soc. 1950;72:1164–8.
+
+32.  
+32.
+
+Paul MA, Long FA. H0 and related indicator acidity functions. Chem Rev. 1957;57:1–45.
+
+33.  
+33.
+
+Bates RG, Schwarzenbach G. Uber pH-werte nichtwasseriger losungen. Helv Chim Acta. 1955;38:699–716.
+
+34.  
+34.
+
+Glombitza BW, Oelkrug D, Schmidt PC. Surface acidity of solid pharmaceutical excipients. Part 1. Determination of the surface acidity. Eur J Pharm Biopharm. 1994;40:289–93.
+
+35.  
+35.
+
+Scheef CA, Schmidt PC. Influence of surface acidity of excipients on the solid state stability of pirenzepine. STP Pharm Sci. 1998;8:91–7.
+
+36.  
+36.
+
+Heger D, Klanova J, Klan P. Enhanced protonation of cresol red in acidic aqueous solutions caused by freezing. J Phys Chem B. 2006;110:1277–87. [https://​doi.​org/​10.​1021/​jp0553683](https://doi.org/10.1021/jp0553683).[Crossref](https://doi.org/10.1021/jp0553683)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16471675)
+
+37.  
+37.
+
+Orii Y, Morita M. Measurement of the pH of frozen buffer solutions by using pH indicators. J Biochem. 1977;81:163–8. [https://​doi.​org/​10.​1093/​oxfordjournals.​jbchem.​a131431](https://doi.org/10.1093/oxfordjournals.jbchem.a131431).[Crossref](https://doi.org/10.1093/oxfordjournals.jbchem.a131431)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14928)
+
+38.  
+38.
+
+Govindarajan R, Chatterjee K, Gatlin L, Suryanarayanan R, Shalaev EY. Impact of freeze-drying on ionization of sulfonephthalein probe molecules in trehalose-citrate systems. J Pharm Sci. 2006;95:1498–510.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16721795)
+
+39.  
+39.
+
+Luthra SA, Shalaev EY, Medek A, Hong J, Pikal MJ. Chemical stability of amorphous materials: specific and general media effects in the role of water in the degradation of freeze-dried zoniporide. J Pharm Sci. 2012;101:3110–23.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22461087)
+
+40.  
+40.
+
+Mathlouthi M, Reiser P, editors. Sucrose: properties and applications. London/Glasgow/Weinheim/Tokyo/Melbourne/Madras: Blackie Academic & Professional; 1995. p. 294.
+
+41.  
+41.
+
+Mchedlov-Petrosyan NO, Lyubchenko IN. Ionization of sulfonephthalein dyes in organic solvents. Zhurnal Obshchei Khimii. 1987;57:1371–8.
+
+42.  
+42.
+
+Rossini E, Bochevarov AD, Knapp EW. Empirical conversion of *pK**a* values between different solvents and interpretation of the parameters: application to water, acetonitrile, dimethyl sulfoxide, and methanol. ACS Omega. 2018;3:1653–62.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31458485)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6641400)
+
+43.  
+43.
+
+Alkhamis KA. Influence of solid-state acidity on the decomposition of sucrose in amorphous systems \(I\). Int J Pharm. 2008;362:74–80.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18647642)
+
+44.  
+44.
+
+Lay-Fortenbery A. Investigation of factors influencing protein stability in lyophilized formulations using solid-state NMR spectroscopy. University of Kentucky; 2019, [https://​uknowledge.​uky.​edu/​pharmacy\_​etds/​105/​](https://uknowledge.uky.edu/pharmacy_etds/105/)
+
+45.  
+45.
+
+Chatterjee K, Shalaev EY, Suryanarayanan R, Govindarajan R. Correlation between chemical reactivity and the Hammett acidity function in amorphous solids using inversion of sucrose as a model reaction. J Pharm Sci. 2008;97:274–86.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17828730)
+
+46.  
+46.
+
+Wu C, Shamblin S, Varshney D, Shalaev E. Advance understanding of buffer behavior during lyophilization. In: Varshney D, Singh M, editors. Lyophilized biologics and vaccines: modality-based approaches. Springer; 2015. p. 25–42.
+
+47.  
+47.
+
+Vetráková Ľ, Vykoukal V, Heger D. Comparing the acidities of aqueous, frozen, and freeze-dried phosphate buffers: is there a “pH memory” effect? Int J Pharm. 2017;530:316–25. [https://​doi.​org/​10.​1016/​j.​ijpharm.​2017.​08.​005](https://doi.org/10.1016/j.ijpharm.2017.08.005).[Crossref](https://doi.org/10.1016/j.ijpharm.2017.08.005)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28779984)
+
+48.  
+48.
+
+Costantino HR, Griebenow K, Langer R, Klibnov AM. On the pH memory of lyophilized compounds containing protein functional groups. Biotechnol Bioeng. 1997;53:345–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18633990)
+
+49.  
+49.
+
+Frey MH, Opella SJ. The effect of pH on the solid-state 13C NMR spectra of histidine. J Magn Reson. 1986;66:144–7.
+
+50.  
+50.
+
+Munowitz M, Bachovchin WW, Herzfeld J, Dobson CM, Griffin RG. Acid-base and tautomeric equilibria in the solid state: 15N NMR spectroscopy of histidine and imidazole. J Am Chem Soc. 1982;104:1192–6.
+
+51.  
+51.
+
+Henry B, Tekely P, Delpuech JJ. pH and pK determinations by high-resolution solid-state 13C NMR: acid-base and tautomeric equilibria of lyophilized 1-histidine. J Am Chem Soc. 2002;124:2025–34.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11866617)
+
+52.  
+52.
+
+Govindarajan R, Shalaev E, Gatlin L, Suryanarayanan R. Effect of water and buffer on the Hammett acidity function in amorphous lyophiles. AMORPH 2014. The Felix Franks symposium: a celebration. Cambridge: Girton College; 2014.
+
+53.  
+53.
+
+Donten ML, Vande Vondele J, Hamm P. Speed limits for acid–base chemistry in aqueous solutions. Chimia. 2012;66:182–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22613145)
+
+54.  
+54.
+
+Liu WR, Langer R, Klibanov MA. Moisture-induced aggregation of lyophilized proteins in the solid state. Biotechnol Bioeng. 1991;37:177–84.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18597353)
+
+55.  
+55.
+
+Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. J Pharm Sci. 1999;88:489–500.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10229638)
+
+56.  
+56.
+
+Pikal MJ, Dellerman KM, Roi MI, Riggin RM. The effects of formulation variables on the stability of freeze-dried human growth hormone. Pharm Res. 1991;8:427–36.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1871037)
+
+57.  
+57.
+
+Shalaev EY, Lu Q, Shalaeva M, Zografi G. Acid-catalyzed inversion of sucrose in the amorphous state at very low levels of residual water. Pharm Res. 2000;17:366–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10801227)
+
+58.  
+58.
+
+Strickley RG, Visor GC, Lin L-H, Gu L. An unexpected pH effect on the stability of moexipril lyophilized powder. Pharm Res. 1989;6:971–5.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2594691)
+
+59.  
+59.
+
+Bell LN, Labuza TP. Potential pH implications in the freeze-dried state. Cryo-Letters. 1991;12:235–44.
+
+60.  
+60.
+
+Song Y, Schowen R, Borchardt RT, Topp EM. Effect of “pH” on the rate of asparagine deamidation in polymeric formulations: “pH”-rate profiles. J Pharm Sci. 2001;90:141–56.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11169531)
+
+61.  
+61.
+
+Lu E, Ewing S, Gatlin L, Suryanarayanan R, Shalaev E. The effect of bulking agents on the chemical stability of acid-sensitive compounds in freeze-dried formulations: sucrose inversion study. J Pharm Sci. 2009;98:3387–96.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19544366)
+
+62.  
+62.
+
+Alkhamis KA. Influence of solid-state acidity on the decomposition of sucrose in amorphous systems II \(effect of buffer\) solid-state acidity and sucrose inversion. Drug Dev Ind Pharm. 2009;35:408–16.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19016102)
+
+63.  
+63.
+
+Altaani BM, Alkhamis KA, Abu Baker S, Haddad R. The relationship between the Hammett acidity and the decomposition of cefotaxime sodium in the solid state. Drug Dev Ind Pharm. 46:1632–8. [https://​doi.​org/​10.​1080/​03639045.​2020.​1813754](https://doi.org/10.1080/03639045.2020.1813754).
+
+64.  
+64.
+
+Glombitza BW, Schmidt PC. Surface acidity of solid pharmaceutical excipients II. Effect of the surface acidity on the decomposition rate of acetylsalicylic acid. Eur J Pharm Biopharm. 1995;41:114–9.
+
+65.  
+65.
+
+Gana FZ, Rashid I, Badwan A, Alkhamis KA. Determination of solid-state acidity of chitin-metal silicates and their effect on the degradation of cephalosporin antibiotics. J Pharm Sci. 2012;101:2398–407.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22499263)
+
+66.  
+66.
+
+Govindarajan R, Landis M, Hancock B, Gatlin LA, Suryanarayanan R, Shalaev EY. Surface acidity and solid-state compatibility of excipients with an acid-sensitive API: case study of atorvastatin calcium. AAPS PharmSciTech. 2015; [https://​doi.​org/​10.​1208/​s12249-014-0231-7](https://doi.org/10.1208/s12249-014-0231-7).
+
+67.  
+67.
+
+Hailu S, Bogner RH. Solid-state surface acidity and pH-stability profiles of amorphous quinapril hydrochloride and silicate formulations. J Pharm Sci. 2010; [https://​doi.​org/​10.​1002/​jps](https://doi.org/10.1002/jps).
+
+68.  
+68.
+
+Hammett LP. Reaction rates and indicator acidities. Chem Rev. 1935;16:67–79.
+
+69.  
+69.
+
+Indelli A, Mantovani G. The dissociation constants of tri- and tetrametaphosphoric acids by the rate of inversion of sucrose. Trans Faraday Soc. 1965;61:909–13.
+
+70.  
+70.
+
+Hsieh Y-L, Yu W, Xiang Y, Pan W, Waterman KC, Shalaev EY, Shamblin SL, Taylor LS. Impact of sertraline salt form on the oxidative stability in powder blends. Int J Pharm. 2014;461:322–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24325937)
+
+71.  
+71.
+
+Liu WR, Langer R, Klibanov AM. Moisture-induced aggregation of lyophilized proteins in the solid state. Biotechnol Bioeng. 1990;37:177–84.
+
+72.  
+72.
+
+Costantino HR, Langer R, Klibanov AM. Aggregation of a lyophilized pharmaceutical protein, recombinant human albumin: effect of moisture and stabilization by excipients. Biotechnology \(NY\). 1995;13:493–6.
+
+73.  
+73.
+
+Schwendeman SP, Costantino HR, Gupta RK, Siber GR, Klibanov AM, Langer R. Stabilization of tetanus and diphtheria toxoids against moisture-induced aggregation. Proc Natl Acad Sci U S A. 1995;92:11234–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7479971)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC40606)
+
+74.  
+74.
+
+Osterberg T, Fatouros A, Mikaelsson M. Development of a freeze-dried albumin-free formulation of recombinant factor VIII SQ. Pharm Res. 1997;14:892–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9244146)
+
+75.  
+75.
+
+Pikal MJ, Dellerman KM, Roy MI, Riggin RM. The effects of formulation variables on the stability of freeze-dried human growth hormone. Pharm Res. 1991;8:427–36.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1871037)
+
+76.  
+76.
+
+Jameel F, Tchessalov S, Bjornson E, Lu X, Besman M, Pikal MJ. Development of freeze-dried biosynthetic factor VIII: I. a case study in the optimization of formulation. Pharm Dev Technol. 2009;14:687–97.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19883259)
+
+77.  
+77.
+
+Shalaev EY, Wang W, Gatlin LA. Rational choice of excipients for use in lyophilized formulations. In: Drugs and the pharmaceutical sciences, 175 \(Protein formulation and delivery \(2nd edition\)\). Boca Raton: CRC Press; 2008. p. 197–217.
+
+78.  
+78.
+
+Connors K. Chemical kinetics. The study of reaction rates in solution. New York: VCH Publishers, Inc; 1990. p. 386.
+
+79.  
+79.
+
+Guggenheim E, Wiseman L. Kinetic salt effects on the inversion of sucrose. Proceedings of the royal society of London, Series A: mathematical, physical and engineering sciences; 1950. p. 17–32.
+
+80.  
+80.
+
+Dordick RS, Clarke GA. Salt effects on the hydrolysis of sucrose. J Chem Educ. 1979;56:352.
+
+81.  
+81.
+
+Shamblin SL, Taylor LS, Zografi G. Mixing behavior of colyophilized binary systems. J Pharm Sci. 1998;87:694–701.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9607945)
+
+82.  
+82.
+
+Pethybridge A, Prue J. Kinetics salt effects and the specific influence of ions on rate constants. Prog Inorg Chem. 1972;17:327–90.
+
+83.  
+83.
+
+Rice J. Mathematical statistics and data analysis. 2nd ed. Belmont: Duxbury press; 1995.
+
+84.  
+84.
+
+Franks F, editor. Water and aqueous solutions at subzero temperatures. Water: a comprehensive treaties, vol. 7. New York: Plenum Press; 1982.
+
+85.  
+85.
+
+Bartels-Rausch T, Jacobi HW, Kahan TF, Thomas JL, Thomson ES, Abbatt JPD, Ammann M, Blackford JR, Bluhm H, Boxe C, Domine F, Frey MM, Gladich I, Guzmán MI, Heger D, Huthwelker T, Klán P, Kuhs WF, Kuo MH, Maus S, Moussa SG, McNeill VF, Newberg JT, Pettersson JBC, Roeselová M, Sodeau JR. A review of air–ice chemical and physical interactions \(AICI\): liquids, quasi-liquids, and solids in snow. Atmos Chem Phys. 2014;14:1587–633. [https://​doi.​org/​10.​5194/​acp-14-1587-2014](https://doi.org/10.5194/acp-14-1587-2014).[Crossref](https://doi.org/10.5194/acp-14-1587-2014)
+
+86.  
+86.
+
+Hobbs PV. Ice physics. Oxford University Press; 1975.
+
+87.  
+87.
+
+Petrenko VF, Whitworth RW. Physics of ice. Oxford: Oxford University Press; 1999.
+
+88.  
+88.
+
+Elbaum M, Lipson SG, Dash JG. Optical study of surface melting on ice. J Cryst Growth. 1993;129:491–505.
+
+89.  
+89.
+
+Bronshteyn VL, Steponkus PL. Calorimetric studies of freeze-induced dehydration of phospholipids. Biophys J. 1993;65:1853–65.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8298015)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1225921)
+
+90.  
+90.
+
+Bhatnagar B, Zakharov B, Fisyuk A, Wen X, Karim F, Lee K, Seryotkin Y, Mogodi M, Fitch A, Boldyreva E, Kostyuchenko A, Shalaev E. Protein/ice interaction: high-resolution synchrotron X-ray diffraction differentiates pharmaceutical proteins from lysozyme. J Phys Chem B. 2019; [https://​doi.​org/​10.​1021/​acs.​jpcb.​9b02443](https://doi.org/10.1021/acs.jpcb.9b02443).
+
+91.  
+91.
+
+Heger D, Jirkovsky J, Klan P. Aggregation of methylene blue in frozen aqueous solutions studied by absorption spectroscopy. J Phys Chem A. 2005;109:6702–9. [https://​doi.​org/​10.​1021/​jp050439j](https://doi.org/10.1021/jp050439j).[Crossref](https://doi.org/10.1021/jp050439j)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16834023)
+
+92.  
+92.
+
+Heger D, Klan P. Interactions of organic molecules at grain boundaries in ice: a solvatochromic analysis. J Photochem Photobiol A: Chem. 2007;187:275–84.
+
+93.  
+93.
+
+Hauptmann A, Hoelzl G, Loerting T. Distribution of protein content and number of aggregates in monoclonal antibody formulation after large-scale freezing. AAPS PharmSciTech. 2019;20:72.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30631964)
+
+94.  
+94.
+
+Authelin J-R, Rodrigues MA, Tchessalov S, Singh S, McCoy T, Wang S, Shalaev E. Freezing of biologicals revisited: scale, stability, excipients, and degradation stresses. J Pharm Sci. 2020;109:44–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31705870)
+
+95.  
+95.
+
+Workman EJ, Reynolds SE. A suggested mechanism for the generation of thunderstorm electricity. Phys Rev. 1948;74:709–709. [https://​doi.​org/​10.​1103/​PhysRev.​74.​709](https://doi.org/10.1103/PhysRev.74.709).[Crossref](https://doi.org/10.1103/PhysRev.74.709)
+
+96.  
+96.
+
+Workman EJ, Reynolds SE. Electrical phenomena occurring during the freezing of dilute aqueous solutions and their possible relationship to thunderstorm electricity. Phys Rev. 1950;78:254.
+
+97.  
+97.
+
+Conde MM, Rovere M, Gallo P. Spontaneous NaCl-doped ice at seawater conditions: focus on the mechanisms of ion inclusion. Phys Chem Chem Phys. 2017;19:9566–74. [https://​doi.​org/​10.​1039/​c7cp00665a](https://doi.org/10.1039/c7cp00665a).[Crossref](https://doi.org/10.1039/c7cp00665a)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28345716)
+
+98.  
+98.
+
+Krausková Ľ, Procházková J, Klašková M, Filipová L, Chaloupková R, Malý S, Damborský J, Heger D. Suppression of protein inactivation during freezing by minimizing pH changes using ionic cryoprotectants. Int J Pharm. 2016;509:41–9. [https://​doi.​org/​10.​1016/​j.​ijpharm.​2016.​05.​031](https://doi.org/10.1016/j.ijpharm.2016.05.031).[Crossref](https://doi.org/10.1016/j.ijpharm.2016.05.031)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27224008)
+
+99.  
+99.
+
+Imrichova K, Vesely L, Gasser TM, Loerting T, Nedela V, Heger D. Vitrification and increase of basicity in between ice Ih crystals in rapidly frozen dilute NaCl aqueous solutions. J Chem Phys. 2019;151:014503. [https://​doi.​org/​10.​1063/​1.​5100852](https://doi.org/10.1063/1.5100852).[Crossref](https://doi.org/10.1063/1.5100852)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31272163)
+
+100.  
+100.
+
+Robinson C, Boxe CS, Guzman MI, Colussi AJ, Hoffmann MR. Acidity of frozen electrolyte solutions. J Phys Chem B. 2006;110:7613–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16610849)
+
+101.  
+101.
+
+Sola MI, Corti HR. Freezing induced electric potentials and Ph changes in aqueous-solutions of electrolytes. Anales De La Asociacion Quimica Argentina. 1993;81:483–98.
+
+102.  
+102.
+
+Wilson PW, Haymet ADJ. Workman-Reynolds freezing potential measurements between ice and dilute salt solutions for single ice crystal faces. J Phys Chem B. 2008;112:11750–5.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18720967)
+
+103.  
+103.
+
+Rastogi RP, Tripathi AK. Effect of nonionic solutes on the freezing potential of dilute ionic aqueous solutions. J Chem Phys. 1985;83:1404–5.
+
+104.  
+104.
+
+Gross GW. Some effects of trace inorganics on the ice/water system. In: Trace inorganics in water, vol. 73. American Chemical Society; 1968. p. 27–97
+
+105.  
+105.
+
+Gross GW, Wu C, Bryant L, McKee C. Concentration dependent solute redistribution at the ice/water phase boundary. II Experimental investigation. J Chem Phys. 1975;62:3085–92. [https://​doi.​org/​10.​1063/​1.​430909](https://doi.org/10.1063/1.430909).[Crossref](https://doi.org/10.1063/1.430909)
+
+106.  
+106.
+
+Bronshteyn VL, Chernov AA. Freezing potentials arising on solidification of dilute aqueous-solutions of electrolytes. J Cryst Growth. 1991;112:129–45.
+
+107.  
+107.
+
+Murase N, Franks F. Salt precipitation during the freeze-concentration of phosphate buffer solutions. Biophys Chem. 1989;34:293–300. [https://​doi.​org/​10.​1016/​0301-4622\(89\)80066-3](https://doi.org/10.1016/0301-4622(89)80066-3).[Crossref](https://doi.org/10.1016/0301-4622(89)80066-3)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2611352)
+
+
+

@@ -1,0 +1,774 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_29](https://doi.org/10.1007/978-3-031-12634-5_29)
+
+
+**
+# Informed Manufacturing Through the Use of Big Data Analytics for Freeze Drying Process and Equipment
+**
+
+
+Vaibhav Kshirsagar1  , Arnab Ganguly1 and Andrew Reese2
+
+
+\(1\) 
+IMA Life North America Inc., Tonawanda, NY, USA
+
+
+\(2\) 
+Genentech Inc., Hillsboro, OR, USA
+
+
+
+
+
+**Vaibhav Kshirsagar**
+
+**Email: **vaibhav.kshirsagar@ima.it
+
+
+
+
+
+**1 **Introduction
+
+**1.1 **Continued Process Verification and Freeze Dryer System Monitoring
+
+**2 **Components of a Lyophilizer
+
+**2.1 **Chamber and Condenser
+
+**2.2 **Refrigeration
+
+**2.3 **Heat Transfer
+
+**2.4 **Vacuum
+
+**2.5 **Hydraulics
+
+**3 **Maintenance Practices and Data Analytics
+
+**3.1 **Preventive Maintenance Techniques and Challenges in Preventive Maintenance
+
+**3.2 **Infrastructure and Need for Data Analytics
+
+**3.3 **The Role of Process Monitoring and Process Control
+
+**3.4 **Sensor Network to Support Data-Driven Manufacturing
+
+**4 **Case Studies for Data Analytics on Production Freeze Dryers
+
+**4.1 **Condenser Temperature Excursions
+
+**4.2 **Vacuum Pump Performance
+
+**4.3 **Equipment Utilization
+
+**4.4 **Leak Rate Tests
+
+**4.5 **Refrigeration System Performance
+
+**4.6 **Pressure Fluctuations
+
+**4.7 **Stage Identification
+
+**5 **Conclusions
+
+References
+
+
+## Abstract
+
+The current state of monitoring freeze drying equipment and process performance relies on a reactionary approach built around redundancy and preventative maintenance, where any failure or unplanned event is followed by a corrective action. Moreover, the impact of process deviations or equipment failure on products valued in the millions of dollars could be catastrophic. The US Food and Drug Administration \(US FDA\) has issued guidance on Continued Process Verification with regard to maintaining the assured state of a validated system. A continuous monitoring and failure detection methodology complements this guideline with data driven manufacturing based on a specific signature of the equipment used for production. The goal of the current effort is to develop models that capture equipment behavior through systematic physics and statistics based real-time data analytics, augmented with real-time sensor feedback to predict failure events before they actually occur. This is achieved through a three-step process including historical data analysis, sensor network implementation, and real-time analytics. In this chapter, we have presented several case studies from analytics deployed on production freeze dryers around the world. These models include condenser temperature excursions, leak rate testing, freeze dryer stage identification. The current work demonstrates that it is possible to deploy advanced analytics based on a sensor framework for freeze dryer process and equipment monitoring to aid in data driven manufacturing.
+
+
+**Keywords**
+Data analytics Freeze drying Process optimization Digital twin Industry 4.0 Predictive maintenance Golden batch Root cause analysis Multivariate data analysis
+
+
+## **1 **Introduction
+
+The process of freeze-drying or lyophilization requires removal of solvent such that the molecular structure of the active ingredient of the drug is least disturbed. This provides a dried drug product that is rehydrated upon addition of the solvent. Freeze-dryers are subjected to a wide range of pressures and temperatures. Operating pressures ranging from 50 to 500 mTorr during drying and shelf temperatures ranging from −50 °C to \+80 °C are common. Certain systems in the freeze dryer experience extremely high temperatures \(\+121 °C\) and pressures \(up to 3 bar\) during steam sterilization. Such conditions subject the process equipment under thermal and mechanical stresses which can challenge process control over prolonged service periods even with routine monitoring and maintenance. Major deviations resulting from failure of primary components or subcomponents of the system during critical process steps can often lead to expensive delays and batch rejection.
+
+Chamber pressure, product temperature, and time are regarded as the critical process parameters in freeze drying. Equipment anomalies that lead to loss in control of any of these parameters will typically result in a process deviation. While process monitoring allows identification of such deviations once they have already occurred, the root cause and start of these failures are often more difficult to identify. Even with years of historized process data, determining a true root cause and the start of the failure mode are often a large undertaking. While gross failures do occur, lyophilizer systems can be designed with adequate redundancy to frequently avoid loss of a batch due to the failure of a critical instrument or component. The challenges of redundancy will be discussed later in this chapter. However, a more likely scenario for a lost batch is creep failure, which is caused due to undesirable conditions increasing in magnitude slowly over time. An example of one of these is a leak from the unclassified area to the sterile area in the freeze dryer through the main door gasket or a leak on the condenser side. There have also been occurrences of failure resulting from a leak in the nitrogen bleed valve leading to loss in pressure control.
+
+With equipment failure being just a portion of the cost to running lyophilizer equipment, lyophilization continues to be one of the most expensive, inefficient, and energy intensive unit operations in pharmaceutical manufacturing \[1\]. Typical process efficiencies are found to be about 2–3%. A major challenge with fill-finish manufacturing requiring lyophilization is the resulting equipment utilization rate. The utilization rate here refers to the uptime when an equipment is actively used in a freeze-drying cycle. While there are freeze drying processes that may take up to 170 h, the turnaround times, which is the time between production batches, can be as high as 60 h in some facilities. During this time, the equipment must be cleaned and sterilized prior to use, often contributing to about 10% of the total processing times. The system is also checked for leaks, both chamber, condenser, and bellows leaks for internal moving parts, adding additional hours to the turnaround time of the equipment.
+
+Further, even during the process itself, the equipment must be loaded and unloaded. Inefficiencies result from the up and downstream equipment, such as filling and capping also impact the equipment utilization rate. The loading and unloading can be further complicated by the type of environment the lyophilizer is in and the type of loading/unloading technology being utilized. While this process is dependent on the size of the lyophilizer, loading/unloading mechanism, and adjacent equipment, the operation times for the loading and unloading steps can easily consume over 10% of the total process time. In this chapter, we discuss the different component and subsystems of a freeze-drying system, their monitoring and data analysis methods to quantify equipment and process performance.
+
+### **1.1 **Continued Process Verification and Freeze Dryer System Monitoring
+
+An energy-intensive operation such as freeze drying requires careful monitoring of all components – the product, process, and equipment. The US Food and Drug Administration \(US FDA\) and the European Unions’ European Medicines Agency \(EMA\) have issued guidance on continued process verification \(CPV\) with regard to maintaining the assured state of a validated system. This includes a system for detecting any unplanned departures from the designed process and recommends an ongoing program for collecting, analyzing, and processing data relating to product quality. A continuous monitoring and failure detection methodology complements this guideline with data driven manufacturing based on specific signature of the equipment used for production.
+
+## **2 **Components of a Lyophilizer
+
+A manufacturing freeze dryer typically contains a product chamber with temperature-controlled shelves. The temperature is typically regulated by using a heat transfer fluid. A pump is used to circulate the heat transfer fluid through the piping and the channels of the freeze dryer shelves. Depending on the application of the process, automatically loaded freeze dryers have a slot door as shown in Fig. 1. The product chamber is connected to the condenser through a duct \(not always external to the chamber\). The condenser contains multiple cold surfaces \(coils/plates\) for vapor deposition. The low-pressure required for the process is achieved by connecting the condenser to the vacuum pump. Depending on the total volume of the system, the vacuum pump is augmented with a booster pump, and subsequent redundancies are built into the vacuum pump group. Most freeze dryers are either refrigerant cooled using reciprocating or screw compressors. In the last 10–15 years, there has also been increasing interest in the use of liquid nitrogen-based cooling due to reduced moving parts and maintenance requirements. The following sections describe these subsystems in more detail. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Major subsystems of freeze dryer
+
+
+
+### **2.1 **Chamber and Condenser
+
+The product chamber, typically of rectangular or circular cross section, holds a stack of temperature-controlled shelves as shown in Fig. 2. The heat transfer fluid is distributed to the shelves through a central inlet manifold. The fluid inlet temperature is monitored and controlled. Along with shelf temperature control, the other parameter controlled in the product chamber is the chamber pressure, typically through a capacitance manometer gauge, while a Pirani gauge may sometimes be placed for monitoring/diagnostic purposes in the chamber and/or condenser \[7\]. The condenser surface temperatures are typically monitored for deviations and are targeted to stay below −60 °C throughout the drying step. The freeze dryer refrigeration system allows the necessary temperature control in the shelves and condenser which is described next. 
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Internal view of a typical production freeze dryer chamber showing partially stoppered shelves \(top\) and the entire shelf extended shelf stack \(bottom\)
+
+
+
+### **2.2 **Refrigeration
+
+The refrigeration assembly in a freeze dryer is responsible for removing heat from the shelf and condenser circuits. The two most prominent methods for refrigeration seen in production freeze dryers today include compressors and liquid nitrogen \(LN2\)-based systems. Commonly, either reciprocating or screw-type compressors are seen in production lyophilizers. For reasons of reliability, performance, and lower maintenance, the screw compressor has come to dominate the market. Figure 3 shows three screw compressors used on a production-scale freeze dryer. 
+![](images/000003.jpeg)
+
+
+***Fig. 3*** 
+Refrigeration assembly showing two-stage screw compressors’ assembly
+
+
+
+Figure 4 shows a layout of a typical compressor-based refrigeration system. This layout represents a system in which the temperature of condenser coils is controlled using a heat transfer fluid. In many freeze dryers, the condenser coils may be cooled directly through the refrigerant, and the system is referred to as a direct expansion cooled condenser system. As opposed to this, a liquid nitrogen-based system injects liquid or cold gas directly into the condenser coils while relying on a heat transfer fluid to cool the shelves. 
+![](images/000004.jpeg)
+
+
+***Fig. 4*** 
+Schematic of a screw compressor-based refrigeration assembly
+
+
+
+The major components seen in Fig. 4 are a two-stage compressor, an interstage cooler, a condenser, and heat exchangers for the shelf and condenser circuits. Although this figure focuses only on one compressor, the refrigeration system consists of two or more two-stage compression refrigeration circuits. Each compressor circuit acts in parallel to share the load based on cooling requirements of the shelves and condenser. In order to obtain the low temperatures \(<−60 °C\) required for freeze drying, it is necessary to employ two stages of compression which occur within the same compressor.
+
+Under normal operating conditions, the compressor motor works to discharge a high pressure \(near 150–200 psig\) and temperature \(near 70 °C\) hot gas. This gas is then transferred to a water-cooled condenser circuit where the refrigerant changes phase to a liquid. This refrigerant liquid is then extracted from the condenser and is passed through an interstage cooler. One of the outputs of this interstage heat exchanger is a subcooled refrigerant liquid which is then supplied to the heat exchanger through electronic or mechanical expansion valves. The secondary output from the interstage heat exchanger is injected back into the compressor to further cool it down and increase operating efficiency in the process. The refrigerant exiting from the shelf or condenser heat exchangers is collected in a suction accumulator which prevents any liquid from being injected into the compressor. Proper sizing of valves and piping is necessary to ensure that the compressor is capable of delivering the required cooling output. The response of each compressor will depend on load requirements from the shelf and condenser. Figure 5 shows normal pressure and temperature signals seen from a two-compressor production freeze dryer. 
+![](images/000005.jpeg)
+
+
+***Fig. 5*** 
+Critical pressure and temperature plot for a compressor during running and idle condition
+
+
+
+Multiple sensors are located throughout the compressor assembly. The critical parameters to monitor are the temperatures and pressure at the discharge, interstage, suction, oil return, and subcooling stages. Most preventive maintenance \(PM\) practices include periodic checks on compressor performance and monitor for leaks, system air intake, or refrigerant loss. However, current practice unfortunately does not always trend and record all the critical data, and more importantly, the checks are performed periodically either at 6-month intervals or annually. For example, the total load on the compressor can be determined using the current draw provided that the supply voltages do not fluctuate beyond the nominal levels. It may be beneficial to monitor the vibration \(or velocity\) response of a compressor to monitor for bearing or motor wear as shown in Fig. 6. By changing temperature switches to thermocouples and systematically, trend/recording data, from existing sensors and augmenting with sensors for power consumption and vibration, one can generate real-time trends and deviations rather than wait for periodic PMs. 
+![](images/000006.jpeg)
+
+
+***Fig. 6*** 
+Vibration and current data for a compressor during running and idle condition
+
+
+
+### **2.3 **Heat Transfer
+
+Following the freezing and evacuation steps, the drug product needs to be heated in a controlled manner during primary and secondary drying. The heat supplied to the product is provided through the heat transfer fluid circulating in the shelves. Along with the refrigeration assembly, this subsystem is critical for maintaining the required product temperature as well as the condenser temperature in certain cases. In some production freeze dryers, an oil-cooled jacket is installed on the product chamber to cool the walls after a cleaning and sterilization cycle. Figure 7 shows the layout of a heat transfer assembly. 
+![](images/000007.jpeg)
+
+
+***Fig. 7*** 
+Schematics of a heat transfer assembly for an oil \(heat transfer fluid\)-cooled condenser
+
+
+
+In freeze dryers without a direct expansion refrigerant-cooled condenser as shown in Figs. 4 and 7, the heat transfer fluid circulates within the shelves and condenser. The major components of the heat transfer subsystem are the heat transfer oil, circulation pumps, a heater, and an oil expansion tank. In production freeze dryers, the heat transfer fluid may be a silicon-based long-chain polymer characterized by its viscosity typically between 1.6 and 5 cSt. The circulation pumps transfer the fluid from the refrigerant heat exchangers to the shelves or condenser coils. These pumps need to be sized according to the expected mass flow rate and viscosity of the heat transfer fluid. An electric heater located on the shelf heat transfer circuit is used to ramp up the shelf temperature when required. The oil expansion tank acts as a storage location for the heat transfer fluid. Since the fluid experiences a wide temperature range from freezing close to −50 °C and sterilization close to 121 °C, the volume varies. The expansion tank accommodates any change in heat transfer fluid volume.
+
+Monitoring the temperatures across the heat transfer assembly is necessary for process control and to ensure optimal process conditions. In production freeze dryers, the shelf inlet temperature is monitored and used for controlling shelf temperature to the set point temperature. Similarly, the condenser coils are typically monitored at the inlet, outlet, and the midpoint of the coils. The level of heat transfer fluid in the expansion tank is monitored through the use of a visual level indicator and may be used to monitor for any major leaks. In many cases for robust monitoring, it is beneficial to add a level transmitter that continuously trends and logs the fluid level data. Figure 8 shows the circulation pump used on a production freeze dryer for transfer of the heat transfer fluid. 
+![](images/000008.jpeg)
+
+
+***Fig. 8*** 
+Pictures of two different circulation pumps in the heat transfer assembly
+
+
+
+### **2.4 **Vacuum
+
+One of the most important subsystems in a freeze dryer is the vacuum assembly. Early freeze dryers primarily controlled vacuum during the drying stage by throttling the vacuum pumps or by using a modulating valve at the vacuum pump inlet. However, today’s freeze dryers rely on better chamber pressure control which is offered by injecting sterile nitrogen in the chamber. The major components of a production freeze dryer’s vacuum system are the vacuum pumps, booster pumps, and a liquid ring pump. In small-scale laboratory freeze dryers, a single vacuum pump is sufficient. Sizing of the vacuum and booster pumps must take required evacuation times and total system volume under consideration.
+
+Figure 9 shows the schematic of a typical vacuum assembly. Due to redundancy requirements in production freeze dryers, most freeze dryers contain at least two vacuum pumps. For some vacuum pumps, a water-cooled outer jacket is required to control motor temperature. The booster pumps aid in the evacuation of the freeze dryer. Production dryers may have a single booster pump or one corresponding to each vacuum pump, should the customer specify. Figure 10 shows two different types of vacuum pumps used in production freeze dryers. Additionally, a liquid ring pump, which is a wet pump forms a part of the drain system of a freeze dryer. This pump is responsible for drying the system after a cleaning, sterilization, or defrost cycle. 
+![](images/000009.gif)
+
+
+***Fig. 9*** 
+Schematics of a vacuum assembly with one booster pump
+
+
+![](images/000010.jpeg)
+
+
+***Fig. 10*** 
+An example of vacuum pumps used in production freeze dryers
+
+
+
+Monitoring a vacuum system requires pressure transmitters at various locations. Along with chamber and condenser pressures, the vacuum pump foreline pressure and bellows pressures are measured. For overall vacuum system condition monitoring, the pump temperatures, vibration, and total current draw need to be monitored as well.
+
+### **2.5 **Hydraulics
+
+A freeze dryer contains a number of moving parts that require precise movement and capability to seal perfectly so that vacuum levels are maintained. Shelves, loading and the main doors, and unloaders are the primary elements controlled using the hydraulic system. This system consists of a hydraulic pump, a hydraulic fluid, and a system of bellows for isolation. The shelf stack movement is necessary during loading, stoppering, and cleaning operation. Due to the high forces exerted by the hydraulic assembly, several precautions need to be taken to prevent any damage to the shelves. Any damage to the shelves or shelf stack and need for eventual replacement or repairs leads to prolonged downtimes. Figure 11 shows some components of the hydraulic system. 
+![](images/000011.jpeg)
+
+
+***Fig. 11*** 
+The hydraulic control unit \(left\) and the shelf displacement ram
+
+
+
+In lyophilization equipment with autoloading systems, the position of the shelves needs to be monitored and controlled for smooth operation. A shelf displacement gauge measuring the total displacement of the shelf stack from a reference zero position is used for precise shelf position control and is historized. In addition, system pressures are monitored by a set of pressure safety gauges and transmitters. Typically, only the hydraulic ram pressure measured at the pump is historized.
+
+## **3 **Maintenance Practices and Data Analytics
+
+Maintenance of components and systems is critical to ensure safe and reliable operation of processes and equipment. The importance of systems performing within specifications is underscored in the airline industry. The International Air Transport Association’s \(IATA\) Maintenance Cost Task Force \(MCTF\) for the financial year 2013 showed that 48 airlines reported direct maintenance cost of about $13 billion and 34 airlines reported maintenance overhead of $2.6 billion \[5\]. In addition to overhead cost, there is another element of indirect maintenance cost that appears due to aircraft downtime. Similar to the airline industry, the cost of downtime can be expensive in pharmaceutical manufacturing and in particular, unscheduled downtime. A cost often not factored is the cost of over maintained systems due to preventative maintenance. In the next section, we briefly describe the preventative maintenance practices in the pharmaceutical industry and its challenges and opportunities.
+
+### **3.1 **Preventive Maintenance Techniques and Challenges in Preventive Maintenance
+
+Equipment maintenance is an important part of maintaining the lyophilizer’s performance. The components of a freeze-drying system see a large range of process conditions as described earlier. Most maintenance is initially from Original Equipment Manufacturer \(OEM\) recommendations or based on well-established internal operating protocols. This maintenance is generally time based, with items being put in either 6-month, annual, 2-year, or 5-year time intervals. These time intervals allow for easy planning of maintenance tasks for lyophilizers. If OEM support is required, this maintenance strategy can ensure resources are available to perform the work as well. This strategy also ensures the completeness of the system being repaired, as all components which require maintenance are assigned a time frame for inspection, repair, or replacement. Figure 12 shows an example of the usage and calibration information tracked in freeze dryers. 
+![](images/000012.jpeg)
+
+
+***Fig. 12*** 
+Example of usage and calibration information tracked in freeze dryers
+
+
+
+Vacuum pumps, seals, gaskets and elastomers, cryogenic valves, shelf heat transfer systems, hydraulic systems, refrigeration, and loading system are commonly maintained as part of a lyophilizer system. One of the drawbacks to time-based maintenance is that most components are either over maintained or under maintained by it. Without the review of process data, parts susceptible to wear and tear such as vacuum pumps and elastomers are maintained or changed regardless of their performance. Additionally, the process or equipment loading will likely change over time. While one might imagine the cost of under maintaining the equipment to be worse; however, over-maintaining results in more unplanned downtime and equipment failures. Human error when performing the repair or returning the equipment back to service can often cause more downtime than the equipment failure itself.
+
+Another drawback to this model is that if the failure is not due to an abrupt process change, but one which has been occurring gradually over time. When a process condition, such as slowly increased chamber pressure fluctuations, reaches a level that is creating alarms, it is difficult to quickly determine the cause of the failure. Often many repairs are required to determine the root cause, leading to extended periods of downtime.
+
+To help offset these drawbacks, cycle data-based maintenance can be used for components where a known or suspected failure mode is present. In order to set an appropriate cycle for replacement, data about the failure mode must be used. This data can be generated from operational experience, or through offline testing. An example of this is shelf silicone oil-carrying hose failures, where repeated extending and collapsing of the shelf stack creates wear on the hose, eventually causing them to crack. Understanding time-to-failure for hoses to fail using historical data can be quite costly, potentially leading to rejected batches. Instead, accelerated lifetime testing can help set cycle-based counts for hose replacement without putting the product at risk to collect the data.
+
+The current state of monitoring equipment performance also relies on a reactionary approach built around redundancy, where any failure or unplanned event is followed by a corrective action. For example, a leak in the freeze dryer chamber will be detected using a leak rate/leak check test. When this failure mode occurs, it is often followed by prolonged equipment downtime to find the source of the leak or leaks and perform the resulting mitigating action. Many production freeze dryers undergo routine preventive maintenance procedures where many parts such as gaskets, flange caps, and valve actuators are replaced. The cost associated with such procedures should be measured not only in material cost but also the cost associated with personnel and manufacturing downtime. Moreover, collecting discrete data from established methods during preventive maintenance does not provide systematic benchmarking needed for monitoring equipment or process health. The goal of the current effort is to develop models that capture equipment behavior through pattern recognition techniques, augmented with real-time sensing to predict failure events before they actually occur and disrupt production.
+
+### **3.2 **Infrastructure and Need for Data Analytics
+
+Since the mid-1980s and into the early 1990s when the data captured using a chart recorder was considered state-of-the-art, it should be of no surprise to the reader that a significant amount of data is generated in pharmaceutical development and manufacturing unit operations. Most chart recorders generated data on paper. The paper was passed under a pen which deflected based on the signal. While the use of chart recorders has slowly phased out with the ability to store large amounts of data inexpensively, the analysis of the data and its use in process understanding gained importance. Further, with the guidance issued by the FDA \(US Department of Health and Human Services Food and Drug Administration, 2004\) around the importance of process analytical technologies \(PAT\) in risk-based approach to manufacturing came the need for data analysis and interpretation.
+
+A typical freeze dryer alone, 1 of 8- or 9-unit operations in a typical sterile fill-finish line today can have in excess of 150 sensor tags recording data at 1 s intervals. This results in about five billion data points over the life of a typical equipment. Not only does this data need to be archived or stored for rapid queries, it also requires periodic analysis. Due to the sheer volume of data available, the interpretation of this data is becoming increasingly difficult. While univariate data analysis is useful, multivariate data analysis \(MVDA\) has gained in popularity over the last several years. MVDA has allowed handling of such large data sets and establishing correlations among heterogeneous data. For many, this has become the backbone of risk-based root-cause analysis. The approach has further enhanced process understanding through statistical analysis and helped decision-making relevant to process development, monitoring, control, product life cycle management, and sometimes for product release through continued process verification \(US Department of Health and Human Services Food and Drug Administration, 2011\). Of particular importance is the application of MVDA toward process optimization as applied to quality by design \(US Department of Health and Human Services US Food and Drug Administration, 2007\).
+
+At its core, MVDA tools are designed to provide a dashboard to look for deviations and understand the relationship between different data sets/data points. However, this typically relies on analysis to be performed by an advanced user. Furthermore, such data analysis is descriptive since it is based on past events. It does not predict the impact of a change in a variable. This naturally leads into predictive analytics. Figure 13 shows this progression. As the name suggests, the goal of predictive analytics is to predict the outcome of a process based not only on past data and events but also on human feedback, closing the loop on testing and validating predicted outcomes for learning the process and equipment. One example of when such learnings are crucial are changes in a system before, and after a maintenance operation, closing the feedback loop allows learning the current status and applying towards future predictions. Making this feedback loop autonomous provides a predictive analytics framework backed by machine learning. 
+![](images/000013.jpeg)
+
+
+***Fig. 13*** 
+A progression of data analysis methods from descriptive to prescriptive outcomes
+
+
+
+### **3.3 **The Role of Process Monitoring and Process Control
+
+Process monitoring and process control are an integral part of a pharmaceutical manufacturing process today. Both of these have formed the basis for ensuring a controlled state of operation and controlling batch to batch homogeneity. For example, while a capacitance manometer-based pressure gauge is used for process control in the product chamber, a Pirani pressure gauge may be used solely for process monitoring \[7\]. The PID \(proportional-integral-derivative\) loop is used to control the chamber pressure based on capacitance manometer reading and using a proportional control valve to bleed dry nitrogen gas into the chamber. This approach for using a process monitoring and control assumes that the system does not suffer from any unexpected departures from standard operating conditions, for example, the lack of supply pressure in the dry nitrogen. The addition of statistical process control techniques to augment the use of sensors can aid in root-cause investigations. However, the premise behind such statistical control is typically a reaction to a failure, which can sometimes be catastrophic and expensive. Thus, the ability to predict such occurrences with sufficient lead time to failure is crucial in data-driven manufacturing.
+
+The adoption of AI in Pharma has grown in the past decade in three broad categories: \(a\) drug design, \(b\) treatment outcome, and \(c\) data modeling. One example of its use in drug design is application toward identifying disease sources from hundreds of genes and finding new therapeutic opportunities \[3, 4, 10\]. Yet, there are examples of predicting drug outcomes based on predictive modeling making it faster and more affordable to treat specific diseases. Patient compliance is a major challenge to pharmaceutical companies. It is not uncommon to find adherence rates of about 60–70%. AI is also being piloted in the improving drug adherence among schizophrenic patients. While evidence of such development indicates higher adoption rates of AI in drug development and pre-clinical work, there has been little adoption in fill-finish and manufacturing operations. One example of its application in fill-finish operations is in AI−/deep-learning-based image processing for acceptance/rejection of products/containers based on prior data/knowledge. Here we discuss the application of the technology toward lyophilization.
+
+The goal of the current effort is to develop models that capture equipment behavior through systematic physics and statistics based on real-time data analytics, augmented with real-time sensing to predict failure events before they actually occur and disrupt production. This is implemented using a three-step approach and an architecture shown in Fig. 14 as follows: 
+![](images/000014.jpeg)
+
+
+***Fig. 14*** 
+Implementation architecture showing different components involved
+
+
+
+Step 1 – Historical data analytics: To develop freeze dryer specific signatures and models by learning equipment and process behavior from analytics built around 10s of millions of data points from actual production activities.
+
+Step 2 – Sensor implementation: Sensors installed on production dryers are capable of monitoring process information. However, they are not designed to capture overall system health. To provide additional information about equipment components such as compressors or vacuum pumps, in-line real-time sensors are implemented.
+
+Step 3 – Real-time system monitoring: The freeze dryer-specific models derived from process and equipment knowledge, augmented with a network of additional real-time sensors, are then implemented on the freeze dryer to predict departures from “golden batches.”
+
+### **3.4 **Sensor Network to Support Data-Driven Manufacturing
+
+An elaborate sensor framework is essential for process monitoring, control, and ensuring a validated state of the freeze-drying process and equipment. These sensors monitor pressure, temperature, power load, and vibration among other parameters. The data from the sensors are acquired by the freeze dryer’s control system and then displayed on an analytics graphical interface.
+
+Many of the sensors are a part of a standard freeze dryer installation \(legacy sensors\). Further, several health analytic-focused sensors have been identified that can augment the data provided from these legacy sensors and tabulated below in Table 1. Combining the data from these two categories of sensors, a unified platform for monitoring the health of the freeze-drying process and equipment is built. 
+
+
+***Table 1*** 
+List of sensors
+
+
+
+**Sensor type**
+
+**System/location**
+
+**Description**
+
+Pressure
+
+Chamber, condenser, refrigeration, vacuum
+
+Pressure sensors \(capacitance manometer, Pirani gauge\) are used to monitor liquid or gas pressure throughout the system
+
+Temperature
+
+Chamber, condenser, refrigeration, vacuum
+
+Thermocouples and RTDs are mounted throughout the system to measure various process and equipment temperatures
+
+Accelerometer
+
+Refrigeration, vacuum
+
+Velocity transmitter with 4–20 mA and AC output
+
+Current meters
+
+Refrigeration, vacuum
+
+On compressors, vacuum, and booster pumps
+
+Nitrogen flow meter
+
+Chamber
+
+To monitor the nitrogen gas bleed in to control the chamber pressure during a process
+
+Oil-level transmitter
+
+Heat transfer fluid
+
+For monitoring the quantity of oil in the heat transfer system
+
+
+
+A freeze dryer consists of many subsystems including refrigeration, vacuum, controls, etc. The following is the broad list of sensors that are implemented on different subsystems to support data analytics.
+
+## **4 **Case Studies for Data Analytics on Production Freeze Dryers
+
+### **4.1 **Condenser Temperature Excursions
+
+The refrigeration system in a freeze dryer is responsible for maintaining accurate shelf and condenser temperatures. In addition to providing the heat load to the shelves during drying, it is responsible for maintaining the temperature of the condenser below a critical limit. Fluctuations in the condenser temperature may lead to an increase in the condenser pressure due to the additional vapor pressure of water. Although there are quite a few variations in the construction of freeze dryer refrigeration systems, they may be broadly classified into two categories – liquid nitrogen- and compressor-based systems. While they differ significantly in operation and utilities, the objective to condense vapor water while maintaining temperature remains the same.
+
+Liquid nitrogen-based refrigeration systems have become increasingly popular in the last decade due to fewer maintenance requirements compared to the compressor system. This case study involves one of the earlier designs of a direct injection liquid nitrogen-based system, where a total of nine condenser coils are connected to a single source of LN2 \(an example of an older design which is no longer manufactured\). In normal operation, the amount of liquid nitrogen injected into the condenser coils is carefully controlled through the use of modulating valves to maintain a temperature set point. Due to variability in supply pressure and the volatile nature of liquid nitrogen, some fluctuations in the condenser pressure are expected. Figure 15 shows a drying cycle under normal conditions, where the blue line is the chamber pressure which is to be controlled at a set point of 0.15 mbar and the orange line is one of the condenser coils. It can be seen that there is no loss in chamber pressure control for this cycle. 
+![](images/000015.jpeg)
+
+
+***Fig. 15*** 
+Chamber pressure in control at the set point
+
+
+
+In some cases \(e.g., during aggressive drying conditions\), the fluctuations in condenser temperature may either never stabilize or take time to reach equilibrium. As there is a constant influx of water vapor to the condenser, this coil temperature variation may lead to an increase in condenser pressure. As the condenser pressure varies according to the coil temperature, the chamber pressure follows. A loss in chamber pressure control is often a sign of poor freeze-drying conditions chosen for the freeze dryer capability as the product quality may be affected with loss of pressure control. Pressure fluctuations that exceed a certain limit may even lead to a production batch being discarded. Figure 16 shows one such cycle, where excessive variations of the condenser temperature caused chamber pressure fluctuations. 
+![](images/000016.jpeg)
+
+
+***Fig. 16*** 
+Loss in chamber pressure control due to condenser temperature variations
+
+
+
+Typically, a condenser temperature high alarm is triggered any time the temperature increases beyond −40 °C. However, from Fig. 16, it can be seen that the condenser temperature never crossed the −40 °C threshold before the first instance of chamber pressure excursion. This means that a fixed set point-based alarm will not provide any benefit, as when the alarm sounds, it will be too late to respond as a pressure excursion has already occurred. It is evident from this example that the premise behind any alarm-based system is a reaction. In order to provide a proactive capability built on the patterns leading up to such an excursion, a data analytics-based approach is required rather than a fixed-point alarm. It should be noted that this freeze dryer was performing at the limits of its design capacity. However, since this freeze dryer is in production, it is beneficial to calculate and report metrics indicative of overall condenser performance.
+
+The condenser temperature excursion analytic analyzes the coil temperature patterns. There is a certain lead time to failure \(excursion\) which can be used to alert the user of possible pressure excursions. In this instance, an alarm could have been generated using this model up to 5 h before failure. Based on this, the user is provided with plenty of time for action where the freeze dryer can be put in product protection mode if desired.
+
+### **4.2 **Vacuum Pump Performance
+
+The vacuum group in a freeze dryer is used for evacuating the system to the pressure set point and maintaining the pressure during drying. Most freeze dryers today have two primary vacuum pumps and may have additional booster pumps based on the equipment size. The vacuum pumps are constantly running throughout the freeze-drying cycle, and the pressure is controlled by injecting nitrogen or sterile air into the product chamber. Hence, it is important to maintain all the vacuum pumps in good working condition. However, a decline in vacuum pump performance, if unchecked, may cause a failure. These performance drops will typically manifest in the form of poor vacuum control or a delay in evacuation time for achieving the same pressure set point. By monitoring this evacuation time, deviations in the trend can be identified.
+
+Figure 17 shows three production-scale freeze dryers of different sizes, each running more than one product recipe. Since the three vacuum pumps are sized according to the chamber volume, the evacuation times are expected to be similar with minor variations. This can be observed from Fig. 17, where all evacuation times, for two different freeze dryers between January and September 2018 are just over 30 min. 
+![](images/000017.jpeg)
+
+
+***Fig. 17*** 
+Vacuum pulldown times for three production freeze dryers of different volumes
+
+
+
+It was found that on average a typical evacuation cycle takes 36 min, while the data from Lyo3 between October 2018 and May 2019 shows that the evacuation time has been greater than 70 min. A vacuum pump failure was recorded in June 2019 on Lyo3. These evacuation time outliers on Lyo3 started 15 cycles prior to the pump failure. Careful monitoring of such a trend and deviations from expected evacuation times may have alerted the operators of the upcoming failure.
+
+### **4.3 **Equipment Utilization
+
+Scheduling production and maintenance on a freeze dryer is of critical importance to ensure consistent throughput targets are satisfied. For a sterile operation such as freeze drying, there are a number of unit operations following a product batch that need to be completed prior to loading the next batch. These cycles, collectively referred to as turnaround cycles, consist of freeze dryer defrost, clean-in-place, sterilize-in-place, leak rate, and filter integrity test. Tracking the total time spent in turnaround cycles along with freeze drying will provide pharmaceutical manufacturers useful real-time metrics of equipment turn-around time, downtime, and uptime.
+
+The equipment utilization analytic is able to read the status of the freeze dryer and break down the amount of time spent in different cycles. There are a number of ways to view this data. Figure 18 shows the 14-day rolling average breakdown for uptime and turnaround time. This 14-day rolling average is updated every 12 h to provide the user with a short term quasi-real-time performance metric. Tracking this can alert operators if any modifications in the schedule are required based on unscheduled downtime. 
+![](images/000018.jpeg)
+
+
+***Fig. 18*** 
+A demonstration of 14-day rolling utilization. The color indicators are based on user input and are for reference only
+
+
+
+In many pharmaceutical companies, production batches are run in a campaign, with each campaign having a target throughput. Visualizing the historical data and performance against target, i.e., monthly and annual utilization, can help management organize their production schedules. Figure 19 shows the monthly, while Fig. 20 shows the annual equipment utilization. A scheduled PM is usually performed every 6–12 months. This can be clearly seen in Fig. 19 \(Oct 17\). Trending this across consecutive years will also give the operators an estimate of the number of production cycles that need to be scheduled following a PM. 
+![](images/000019.jpeg)
+
+
+***Fig. 19*** 
+Monthly utilization for a production freeze dryer
+
+
+![](images/000020.jpeg)
+
+
+***Fig. 20*** 
+Annual utilization for a production freeze dryer
+
+
+
+### **4.4 **Leak Rate Tests
+
+The freeze dryer system integrity is typically checked using a leak test protocol prior to loading a product batch. To maintain a sterile environment for the manufacturing of drug products, it is important to monitor these leak rates. Hardwick et al. \[2\] have established a scientific rationale behind acceptable leak rates for production freeze dryers.
+
+In the leak rate test, the chamber is evacuated to a low pressure, typically around 5 μbar with the condenser set at a low temperature. Once the system has dried out sufficiently, it is isolated by closing off the vacuum valves. The rise in chamber pressure is monitored over a period of time. This change in pressure provides an estimate of the vacuum integrity of the system. The leak rate tests result, pass or fail, is determined by comparing this output with a predetermined value for that system. Unfortunately, by just noting the pass or fail criteria does not provide useful historical trends.
+
+Although measuring the leak rate test prior to batch loading is a GMP method, trending and analyzing historical leak rates can provide an overall perspective on freeze dryer performance. By measuring the leak rates and calculating a running average over time, any significant deviations from the normal leak test results can be monitored. Figure 21 shows the data from a 45 m2 production freeze dryer. There are gradual changes in system behavior as trended by the change in leak rate of the freeze dryer. By relying on such changes, a service response can be scheduled prior to equipment failure. 
+![](images/000021.jpeg)
+
+
+***Fig. 21*** 
+Normalized leak test for a 45 m2 production freeze dryer
+
+
+
+### **4.5 **Refrigeration System Performance
+
+One of the critical subgroups of the lyophilizer is the refrigeration system. The compressor system is not only responsible for maintaining optimal process conditions during freeze drying but also during turnaround cycles such as sterilize-in-place and leak rate tests. A compressor-based refrigeration system has a number of rotating components, a complex refrigerant cycle, and flow path and a number of heat exchangers. Similarly, a liquid nitrogen-based system needs to be designed appropriately to prevent rapid temperature fluctuations that may affect process performance. A well-designed system is able to capture the wide range of conditions that a lyophilization process is subjected to and keep the process in control.
+
+The refrigeration system accounts for a number of maintenance requests and can lead to extended periods of downtime. In its current state, while the refrigeration system, for example, the compressors, is equipped with a number of pressure sensors \(Pirani gauges\) and temperature switches, they are placed with the intention of preventing damage to the equipment. However, they are not designed to provide historical trends in the performance of the refrigeration system, and the sensors are placed more to protect the equipment and prevent damage rather than provide product protection and prevent failed batches resulting from malfunctioning equipment. The analytic described here gathers data from not just the pressure sensors on the refrigeration system but with the aid of additional thermocouples \(in place of temperature switches\) and accelerometers \(to monitor vibration\), tracks, and trends deviations from historical performance and provides alerts based on the trends. In addition to tracking real-time data, derived data such as maximum vibration or current draw in a freeze-drying cycle benefits in monitoring overall refrigeration system performance. Figure 6 shows a plot for vibration and current variation of a refrigeration system in the freezing and drying steps. The loads on the refrigeration assembly are the highest during freezing and initial drying where the sublimation rate of water vapor is high.
+
+In a liquid nitrogen-based refrigeration system, monitoring the range of temperatures is critical to know the overall load and performance. A high degree of variation in LN2 temperatures is not desirable as that may lead to changes in condenser temperature and pressure thereby affecting the product. To monitor such a system, an aggregate plot may be beneficial where all collected data in a given duration is plotted on the same plot to show the range and average. Table 2 shows the outputs from such an aggregate analysis for the year 2018 for a LN2-based refrigeration system from a production freeze dryer. These outputs are classified further into either freezing or drying steps. 
+
+
+***Table 2*** 
+2018 refrigeration aggregate data summary
+
+
+
+**Entity**
+
+**Freezing step**
+
+**Drying step**
+
+**Min \(°C\)**
+
+**Max \(°C\)**
+
+**Avg. \(°C\)**
+
+**Min \(°C\)**
+
+**Max \(°C\)**
+
+**Avg. \(°C\)**
+
+Coil 1
+
+−157.08
+
+27.63
+
+2.29
+
+−179.26
+
+−33.66
+
+−79.78
+
+Coil 2
+
+−157.41
+
+27.36
+
+2.80
+
+−184.23
+
+−33.88
+
+−85.20
+
+Coil 3
+
+−149.61
+
+27.37
+
+2.95
+
+−176.71
+
+−33.69
+
+−80.08
+
+Coil 4
+
+−148.40
+
+27.38
+
+3.23
+
+−174.48
+
+−32.23
+
+−79.58
+
+Coil 5
+
+−156.33
+
+27.47
+
+3.39
+
+−168.64
+
+−31.52
+
+−80.21
+
+Coil 6
+
+−159.86
+
+27.77
+
+3.41
+
+−164.34
+
+−30.77
+
+−80.06
+
+Coil 7
+
+−158.63
+
+27.36
+
+3.37
+
+−170.14
+
+−29.82
+
+−77.86
+
+Coil 8
+
+−159.30
+
+27.04
+
+3.08
+
+−167.48
+
+−29.44
+
+−74.57
+
+Coil 9
+
+−155.43
+
+27.75
+
+3.28
+
+−175.38
+
+−28.32
+
+−70.86
+
+LN2 supply
+
+−188.34
+
+−148.91
+
+−181.28
+
+−186.99
+
+−120.84
+
+−180.36
+
+LN2 vent
+
+−171.51
+
+40.10
+
+−51.86
+
+−170.65
+
+40.87
+
+0.33
+
+
+
+### **4.6 **Pressure Fluctuations
+
+During development studies and subsequent scale-up of freeze-drying cycles, certain critical process parameters such as chamber pressure and shelf temperature are fixed for product recipes. During a freeze-drying process, the control of these parameters at their set points within acceptable operating ranges is expected for ensuring product quality. As noted before, the control of chamber pressure relies on the injection of sterile nitrogen during primary and secondary drying. The nitrogen bleed-in valve needs to be calibrated and tuned during an engineering or validation run. The load during these cycles will be representative of an actual product batch load. Failure to configure the PID control settings of this valve will result in over or undershoots of pressure caused due to excess or insufficient nitrogen bled into the product chamber. These pressure fluctuation events may cause the product thermal history to vary from the designed cycle or exceed critical limits. Pressure fluctuations may even be seen in product cycles where the load is significantly different than the one used for tuning the nitrogen bleed-in valve.
+
+Figure 22a shows the primary drying step of a cycle well under control, while Fig. 22b shows the primary drying of a cycle with significant pressure fluctuations. Quantitatively, the pressure fluctuations can be monitored by calculating the standard deviation and range of fluctuation in chamber pressure during primary drying. By knowing the frequency and range of chamber pressure fluctuations, and comparing to historical trends, the deviations from “golden state” may be identified prior to them leading to a process alarm. 
+![](images/000022.jpeg)
+
+
+***Fig. 22*** 
+\(**a**\) Reference cycle showing chamber pressure in-control with minor acceptable variations around the chamber pressure set point. \(**b**\) Pressure fluctuations exceeding the chamber pressure set point for a long duration due to incorrect tuning
+
+
+
+Table 3 shows a comparison between three different production freeze dryers and a comparison between a golden batch, i.e., a batch with minimal pressure fluctuations and a reference batch with significant oscillations in chamber pressure. The standard deviation during the golden batch indicates the level of control in that freeze dryer, and the ratio of standard deviations between golden and reference batch indicated the ease of detecting such pressure fluctuation events 
+
+
+***Table 3*** 
+A summary of pressure fluctuations from three production freeze dryers
+
+
+
+**Reference batch dates by freeze dryer**
+
+**Chamber pressure standard deviation**
+
+**Ratio of standard deviations**
+
+**Golden batch**
+
+**Reference batch**
+
+LYO1
+
+January 2018
+
+July 2018
+
+October 2018
+
+4.3e-5
+
+0.006
+
+0.004
+
+0.113
+
+1398.4
+
+932.2
+
+2633.6
+
+LYO2
+
+November 2017
+
+December 2017
+
+0.49
+
+4.2
+
+3.7
+
+8.5
+
+7.4
+
+LYO3
+
+October 2018
+
+November 2018
+
+0.09
+
+2.7
+
+1.0
+
+28.1
+
+10.7
+
+
+
+### **4.7 **Stage Identification
+
+Pikal et al. \[8\] and Rambhatla et al. \[9\] identified the impact of process and equipment parameter variations on product temperature history. Every cycle type run in a freeze dryer is based on a predetermined or user-defined recipe and contains multiple steps or stages. Multiple cycle and engineering parameters determine the progression of the cycle. A freeze-drying cycle can be broken down into its core components such as loading, freezing, evacuation, primary and secondary drying, pressure rise tests, stoppering, aeration, and unloading. The quantification and tracking of inter and intra batch variability arising due to shelf temperature, nucleation temperature, chamber pressure, and similar critical parameter variations is important. These parameters, therefore, must be tracked for different stages and recipes in a freeze dryer.
+
+A stage identification model relies on incoming data logged by the freeze dryer controls’ system as well as lyo process insight to identify discrete steps in the freeze-drying recipes and other cycles. This allows for more systematic cycle comparison and historical trending based on the stages of interest. For example, it may be necessary to trend only the leak rate cycle or perform an analysis only on primary drying. The stage identification allows for such a targeted analysis. Currently, while such information is commonly used in development studies, it is rarely applied in real-time commercial operations.
+
+Many production freeze dryers currently allow a recipe to rely on using a pressure rise test to determine the end of primary drying \[6\]. A recipe parameter for the allowable pressure rise determines when the frozen water has completely sublimed indicating the end of primary drying. However, multiple factors such as chamber dimensions, shelf temperature load, and vacuum integrity will influence outputs from these tests. This may lead to a variability in primary drying time seen in the same freeze dryer or in the same recipe across multiple similar freeze dryers. In the current state, such minor deviations are accepted within normal operating limits; however, such trends are often not captured. Using such data analytics, allow us to capture not only the go/no-go decisions but also the underlying trends which allow us to capture a deviation before it occurs. Similarly, time spent across various cycles to ready the freeze dryer for another production batch, i.e., in turnaround cycles, can be quantified and trended.
+
+## **5 **Conclusions
+
+It should be of no surprise to the reader that implementation of augmented sensor framework for equipment monitoring in the pharmaceutical industry is not a new concept. However, after several years now, the pharmaceutical industry is finding itself at the crossroads where technology maturity has converged with demand for data-driven manufacturing. As it has quite often emerged, the pharmaceutical industry has the opportunity to learn and adopt from the success stories in other industries. Early development in the area of predictive diagnostics had emerged first in the pharmaceutical industry about two decades ago but received little traction due to the associated cost, data management, and security concerns. Since then, low-cost scalable sensors have been miniaturized, storage costs on the cloud have dropped, and security protocols and measures are stronger than they have ever been. This has created an opportunity in the implementation of a framework for advanced analytics to support data-driven manufacturing supporting advanced analytics.
+
+The current state of monitoring equipment performance relies on a reactionary approach built around redundancy, where any failure or unplanned event is followed by a corrective action. For example, a leak in the freeze dryer chamber will be detected using a leak rate/leak check test, which is quite often followed by prolonged equipment downtime for finding the source of the leak and resulting mitigating action. Many production freeze dryers undergo routine preventive maintenance procedures where many parts such as gaskets, flange caps, and valve actuators are replaced. The cost associated with such procedures should be measured not only in material cost but also the cost associated with personnel and manufacturing downtime. Moreover, collecting discrete data from established methods during preventive maintenance does not provide systematic benchmarking needed for monitoring equipment or process health.
+
+This effort focused on developing models that capture equipment behavior through systematic physics and statistics based on data analytics, augmented with real-time sensing to predict failure events before they actually occur and disrupt production. This is implemented using a three step approach as follows: \(i\) historical data analytics to develop freeze dryer-specific models, \(ii\) in-line real-time sensors are implemented to provide additional information about equipment components such as compressors or vacuum pumps, and \(iii\) real-time system monitoring through the freeze dryer-specific models derived from process and equipment knowledge, augmented with a network of real-time sensors are then implemented on the freeze dryer to predict departures from “golden batches.”
+
+Several case studies are presented in this chapter including condenser temperature excursions, vacuum pump performance, equipment utilization metrics, leak rate tests, chamber pressure fluctuations, and finally real-time freeze dryer stage identification. The authors demonstrated that by performing advanced analytics of several manufacturing freeze dryers in operation around the world, it is possible to identify trends in freeze dryer performance and hence isolate departures from golden batch performance prior to them causing major disruptions to a manufacturing site.
+
+The current state of pharmaceutical manufacturing relies on preventative maintenance backed by redundancies and a reactionary approach to deviations through process monitoring and control sensors. Here we have shown through the convergence of technology maturity, that it is possible to take the next step toward big data analytics of freeze drying process and equipment with the goal of reaching autonomous manufacturing and data-driven advanced process control where “prediction” replaces “reaction.”
+
+
+**References**
+
+1.  
+1.
+
+Ganguly A, Alexeenko AA, Schultz SG, Kim SG. Freeze-drying simulation framework coupling product attributes and equipment capability: toward accelerating process by equipment modifications. Eur J Pharm Biopharm. 2013;85\(2\):223–35. [https://​doi.​org/​10.​1016/​j.​ejpb.​2013.​05.​013](https://doi.org/10.1016/j.ejpb.2013.05.013). Epub 2013 June 6. PMID: 23748132.[Crossref](https://doi.org/10.1016/j.ejpb.2013.05.013)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23748132)
+
+2.  
+2.
+
+Hardwick LM, Nail SL, Jarman J, Hasler K, Hense T. A proposed rationale and test methodology for establishment of acceptance criteria for vacuum integrity testing of pharmaceutical freeze dryers. Eur J Pharm Biopharm. 2013;85\(2\):236–9.[Crossref](https://doi.org/10.1016/j.ejpb.2013.05.021)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23899644)
+
+3.  
+3.
+
+Henstock PV. Artificial intelligence for pharma: time for internal investment. Trends Pharmacol Sci. 2019;40\(8\):543–6.[Crossref](https://doi.org/10.1016/j.tips.2019.05.003)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31204059)
+
+4.  
+4.
+
+Hunter J. Adopting AI is essential for a sustainable pharma industry. Drug Discov World Winter. 2017;2016:69–71.
+
+5.  
+5.
+
+IATA and MCTF. Airline maintenance cost executive commentary—an exclusive benchmark analysis of Maintenance Cost Task Force \(MCTF\) FY 2013. IATA; 2014.
+
+6.  
+6.
+
+Milton N, Pikal MJ, Roy ML, Nail SL. Evaluation of manometric temperature measurement as a method of monitoring product temperature during lyophilization. PDA J Pharm Sci Technol. 1997;51\(1\):7–16.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9099059)
+
+7.  
+7.
+
+Nail S, Tchessalov S, Shalaev E, Ganguly A, Renzi E, Dimarco F, Wegiel L, Ferris S, Kessler W, Pikal M, Sacha G, Alexeenko A, Thompson T, Reiter C, Searles J, Coiteux P. Recommended best practices for process monitoring instrumentation in pharmaceutical freeze drying—2017. AAPS PharmSciTech. 2017;18\(7\):2379–93.[Crossref](https://doi.org/10.1208/s12249-017-0733-1)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28205144)
+
+8.  
+8.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37.[Crossref](https://doi.org/10.1002/jps.2600730910)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+9.  
+9.
+
+Rambhatla S, Tchessalov S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, III: control and characterization of dryer differences via operational qualification tests. AAPS PharmSciTech. 2006;7\(2\):E61–70.[Crossref](https://doi.org/10.1208/pt070239)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750289)
+
+10.  
+10.
+
+Smalley E. AI-powered drug discovery captures pharma interest. Nat Biotechnol. 2017;35:604–5. [https://​doi.​org/​10.​1038/​nbt0717-604](https://doi.org/10.1038/nbt0717-604).[Crossref](https://doi.org/10.1038/nbt0717-604)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28700560)
+
+
+

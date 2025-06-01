@@ -1,0 +1,996 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_7](https://doi.org/10.1007/978-3-031-12634-5_7)
+
+
+**
+# Freeze-Drying of Thermosensible Pharmaceuticals with Organic Co-solvent \+ Water Formulations
+**
+
+
+Eni Bogdani1, Séverine Vessot-Crastes1   and Julien Andrieu1  
+
+
+\(1\) 
+University of Lyon, University of Lyon 1, Laboratoire Automatique et de Génie des Procédés. LAGEP, Lyon, France
+
+
+
+
+
+**Séverine Vessot-Crastes**
+
+**Email: **severine.vessot-crastes@univ-lyon1.fr
+
+
+
+
+
+**Julien Andrieu \(Corresponding author\)**
+
+**Email: **julien.andrieu@univ-lyon1.fr
+
+
+
+
+
+**1 **Introduction
+
+**2 **Preparation of Solution
+
+**3 **Freezing Parameters
+
+**3.1 **Nucleation Temperature
+
+**3.2 **Solvent Crystals Morphology
+
+**4 **Thermodynamical Properties
+
+**4.1 **Phase Diagram
+
+**4.2 **Equilibrium Vapour Pressures
+
+**4.3 **Sublimation Enthalpies
+
+**5 **Sublimation Kinetics
+
+**6 **Residual TBA and Water Contents
+
+**7 **Annealing Treatment
+
+**8 **Design Space for Freeze-Drying of an Ibuprofen Formulation
+
+**8.1 **Overall Heat Transfer Characterization
+
+**8.2 **Mass Transfer Resistance of the Dried Layer
+
+**8.3 **Determination of Sublimation Rates of Real Ibuprofen Formulation
+
+**8.4 **Mean Product Temperature
+
+**8.5 **Limits of Critical Quality Attributes
+
+**8.6 **Reconstitution Properties
+
+**9 **Conclusions
+
+References
+
+
+## Abstracts
+
+The organic co-solvent \+ water formulations present many interesting advantages for the freeze-drying of thermosensible drugs to produce stabilized and elegant powders of marketed pharmaceuticals products: high freezing temperatures, very short sublimation times, low sublimation enthalpies, high equilibrium vapour/frozen solid pressures and low toxicity of the residual solvent contents. The formulations that have been the most investigated have concerned certainly *tert-*butanol \(TBA\) \+ water mixtures. Thus, some main characteristics of the water \+ TBA formulations have been reviewed, especially its interesting thermodynamical properties \(sublimation enthalpies; equilibrium vapour pressures\), the impact of freezing conditions on morphological properties of frozen formulations \(nucleation, crystals size and shape\), the influence of operating parameters \(total pressure, temperature\) on sublimation times and finally on organic co-solvent and water residual contents.
+
+The crystals morphology of frozen formulations prepared with *tert*-butanol \(TBA\) revealed unexpected results compared with the results reported in the literature for water-based formulations, pointing the complex relationships between freezing rates, supercooling, nucleation temperatures and solvent crystals morphology \(size and shape\).
+
+To illustrate the functional relationships between the sublimation rates, the mean product temperatures and the two principal independent process variables, namely the shelf heat transfer fluid temperature and the total gas pressure, we used the Design Space concept presented as an envelope in a graph with sublimation rates and total gas chamber pressures on main \(*x*, *y*\) axis. The limits of this Design Space are determined by the influence of product and process variables on main quality attributes of the freeze-dried drug, more precisely by the failure of these attributes under aggressive cycle conditions. In the case of large industrial freeze-dryers, other limits are also imposed by freeze-dryer performances.
+
+Next, as an illustration of this concept, we have presented a case study concerning methodology of construction of the Design Space for an ibuprofen organic co-solvent \(TBA\)-based formulation determined with a pilot laboratory freeze-dryer.
+
+It proved that the setting up of optimum freeze-drying cycles has to be realized by taking into account simultaneously the impact of formulation variables, especially the *tert-*butanol content and the classical freeze-drying variables at the freezing step \(nucleation temperatures, freezing rates\) and at the two drying steps \(shelf temperature, total gas pressure\) to maximize the drying rates and to minimize the residual solvent levels while preserving the main quality attributes of the freeze-dried powder.
+
+
+**Keywords**
+Freeze-Drying *tert-*butanol Vapour pressure Sublimation enthalpies Crystals morphology Sublimation rates Optimization Annealing Design space Residual solvent
+
+
+## **1 **Introduction
+
+Freeze-drying is the process by which the solvent is removed from a frozen solution by sublimation \[1, 2\]. The freeze-drying process may be divided into three steps: freezing, primary drying \(or sublimation\) and secondary drying \(or desorption\). A large majority of marketed pharmaceutical products are freeze-dried with simple aqueous solutions. In this case, water is typically the only solvent component which is removed from the solid phase, firstly by sublimation and next by desorption. However, some hydrophobic and insoluble active principle ingredient \(API\) cannot be freeze-dried adequately with water-based formulations, so that pure organic solvent or organic co-solvent \+ water formulations have been also investigated in the recent years. The main advantages of using non-aqueous solvents are: increased drug solubility, great acceleration of sublimation rates, decreased reconstitution times, improvement of freeze-dried product stability. On the other hand, the possible disadvantages concern: the required freeze-dryer low condenser temperature, the safe handling or storage of flammable components, the possible toxicity and the control of residual solvent contents, the overall costs benefits and the increase of regulatory policies for using organic solvents.
+
+An exhaustive review concerning freeze-drying with various organic co-solvents was published by Teagarden et al. \[3\], Vessot et al. \[4\] and other data are reported by Rey et al. \[5\] These authors compiled the different published studies and papers on these topics and they listed the case studies with these formulations especially by using *tert*-butanol \(TBA\) and water mixtures or pure TBA \(Table 1\). 
+
+
+***Table 1*** 
+Some athermophysical properties of solvents used for drugs freeze-drying formulations
+
+
+
+**Solvent**
+
+**Solubility in water \(%\)a**
+
+**Vapor pressure \(mm Hg at 20°C**
+
+**Freezing point \(°C\)**
+
+**Boiling point \(°C\)**
+
+**Flash point \(OFrC\)**
+
+**Autoignition temperature \(OFrC\)**
+
+**Lower flamm limit \(in air vol, %**
+
+**Upper flamm limit \(in air vol, %**
+
+Ter-butanol
+
+100
+
+26.8
+
+24.0
+
+82
+
+52/11
+
+892/478
+
+2.4
+
+8.0
+
+Ethanol
+
+100
+
+41.0
+
+−114
+
+78.5
+
+62/16
+
+793/423
+
+3.3
+
+19
+
+n-Propanol
+
+100
+
+14.5
+
+−127
+
+97.1
+
+59/15
+
+760/404
+
+2.1
+
+13.5
+
+n-Butanol
+
+7.7
+
+5.6
+
+−90
+
+117.5
+
+95/35
+
+689/365
+
+IA
+
+11.2
+
+Isopropanol
+
+100
+
+31.0
+
+−89.5
+
+81
+
+53.6/12
+
+750/398
+
+2.5
+
+12
+
+Ethyl acetate
+
+8.7
+
+64.7
+
+−84
+
+77.1
+
+24/−4
+
+800/426
+
+2.2
+
+11.5
+
+Dimethyl carbonate
+
+9.5
+
+72
+
+2
+
+90
+
+65/18
+
+–
+
+4.2
+
+12.9
+
+Acetonitrile
+
+100
+
+69.8
+
+−48
+
+80.1
+
+45/8
+
+975/524
+
+4.4
+
+16.0
+
+Dichloromethane
+
+13
+
+343.9
+
+−97
+
+40
+
+none
+
+1033/556
+
+14
+
+22
+
+Methyl ethyl ketone
+
+27
+
+76.2
+
+−87
+
+79.6
+
+26/−3
+
+885/474
+
+1.7
+
+10.1
+
+Methyl isobutyl ketone
+
+2.0
+
+5.1
+
+−80
+
+117
+
+56/13
+
+860/460
+
+1.2
+
+8
+
+
+Teagarden and Baker \[3\]
+
+
+
+
+In a previous paper, Daoussi et al. \[6\] reported sublimation kinetics data of formulations with an active principle ingredient \(API\) by using organic co-solvent \+ water mixtures. These authors observed that the use of organic co-solvents like *tert*-butanol \(TBA\) reduced considerably the sublimation times **–** divided by about a factor 10. Next, in the same laboratory, in the purpose of physically explaining these data, Bogdani et al. \[7\] investigated extensively some thermodynamical properties of these systems at frozen state. The sublimation enthalpies with organic systems were much lower than the corresponding values observed with formulations using pure water. For example, at the interesting eutectic composition at 90% \(w/w\) of TBA, the equilibrium vapour pressure values at solid state were found to be about twice as high as the data obtained with pure water. Thus, these new thermodynamical data sets explained physically why the organic formulations present very interesting sublimation times and the respective position of the sublimation kinetics curves corresponding respectively to the eutectic composition- formulation at 90% \(w/w\) of TBA – with respect to the pure TBA or to 80% \(w/w\) of TBA formulations. Moreover, by using the direct observation method by optical microscopy with episcopic coaxial lighting in cold chamber, Nakagawa et al. \[8\] and Hottot et al. \[9\] observed that the nature of formulation itself \(organic co-solvent concentration\) and the freezing conditions—namely the nucleation temperature and the freezing rates—had a key role in controlling the morphology, and incidentally, the stability and the reconstitution properties of the final freeze-dried cake.
+
+Moreover, Cui et al. \[10\] used TBA \+ water formulations to prepare dehydrated liposomes by freeze-drying. These authors also observed that the addition of TBA co-solvent to water-based solutions significantly enhanced the sublimation kinetics leading to short times of freeze-drying cycles. More recently, Zhang et al. \[11\] investigated the freeze-drying of water \+ TBA organic formulations to stabilize insulin and they evaluated how the process and the formulation variables affected the structural stability and the activity of this important pharmaceutical protein largely commercialized. Elgindy et al. \[12\] studied the freeze-drying process of flutamide—an anticancer drug for prostatic carcinoma—with *tert-*butanol \(TBA\) \+ water mixtures to increase the solubility and to improve some important physico-chemical properties \(amorphization, dissolution rate, surface area, etc.\) impacting this drug delivery.
+
+Other co-solvent systems like different types of alcohols such as methanol, n-propanol and n-butanol have been also investigated in the past \[3, 5\]. They do not freeze in standard pilot or laboratory freeze-dryers due to their very low freezing temperature: this represents important drawbacks with respect to the operating costs of the whole freeze-drying process. Besides, the literature reports that most of these formulations generally led to unacceptable freeze-dried cakes \(poor appearance, collapse, reconstitution, etc.\) with a drastic degradation of the drug therapeutical activity \[3, 4\] \(Table 2\). 
+
+
+***Table 2*** 
+Pharmaceutical drugs freeze-dried with organic co-solvents \+ water formulations
+
+
+
+**Drug**
+
+**Co-solvent system**
+
+Alprostadil
+
+20% v/v tert-butanol/water
+
+Aplidine
+
+40% v/v tert-butanol/water
+
+Amoxicillin sodium
+
+20% v/v tert-butanol/water
+
+Tobramycin sulfate
+
+Tert-butanol/water
+
+Gentamycin sulfate
+
+Tert-butanol/water
+
+N-cyhclodexyl-N-Methy-4-\(2-oxo-I, 2,3,5-tetrahydroimidazo-\[2,1-b\] quinazolin-7-yl\) oxybutyramide with ascorbic acid
+
+50% v/v tert-butanol/water
+
+Cyclohexane-1,2-diamine Pt \(II\) complex
+
+Tert-butanol/water
+
+Annamycin
+
+Tert-butanol/dimethyl 1 sulfoxide/water
+
+Cephalothin sodium
+
+5% w/w isopropyl alcohol/water
+
+Cephalothin sodium
+
+4% ethanol, 4% methanol, or 4% acetone/water
+
+Prednisolone acetate/polyglycolic acid
+
+Carbon tetrachloride/hexafluoroacetone sesquihydrate
+
+Gabexate mesylate
+
+Ethanol/water
+
+Piraubidin hydrochloride
+
+Ethanol/water
+
+Progesterone, Coronene, Fluasterone, Phenytoin
+
+Chlorobutanol hemihydrate/dimethyl sulfone
+
+Fructose-1,6-diphosphate
+
+Tert-butanol/water
+
+Poly\(lactide-co-glycolide\)
+
+Acetic acid
+
+Dioleoylphosphatidylcholine and dioleoylphosphatidylglycerol
+
+Cyclohexane
+
+Vecuroniumbromide
+
+Acetronitrile
+
+Bovine pancreatic trypsin inhibitor
+
+Dimethyl sulfoxide/1% water
+
+
+Teagarden and Baker \[3\]
+
+
+
+
+Thus, the objective of this chapter is to present a methodology of optimization of the whole freeze-drying cycle with numerous and accurate physico-chemical data concerning the TBA \+ water system showing the influence of freezing and sublimation parameters with a model formulation usually selected with thermosensible pharmaceutical drugs contained in glass vials. The freezing and sublimation operating conditions have been chosen in the same range as encountered for developing freeze-drying cycles at commercial scale with these types of products. Thus, with this whole set of data, by using the concept of Design Space, Bogdani et al. \[13\] presented a rational optimization for the whole freeze-drying cycle.
+
+## **2 **Preparation of Solution
+
+The first step to set-up a freeze-drying process is to be able to realize a more or less homogeneous solution containing the active principle ingredient \(API\)—with its additives or excipients—that has to be stabilized during storage before its reconstitution and its final delivery in the human body. As many API and/or excipients are hydrophobic and, consequently, difficult to dissolve, the use of organic co-solvent as *tert-*Butanol highly facilitates the solubilization, decreases the time to achieve the dissolution and reduces the amount of solvent that must be eliminated during the drying steps. Several examples of increased drug solubility with TBA have been extensively listed by Teagarden et al. \[3\] and Vessot et al. \[4\] and Daoussi et al. \[6\] Another important challenge in developing drug manufacturing process concerns its instability in solution during the steps of filtering \(for sterilizing effect\) and of vial filling that precedes the proper freeze-drying steps and during which some degradations can occur depending on the type of degradation kinetics. Thus, Teagarden et al. \[3\] in their literature review, present some data for different types of drugs showing that the presence of TBA can have a significant positive effect on the chemical solution stability by decreasing the degradation reaction kinetics.
+
+## **3 **Freezing Parameters
+
+The first stage of a freeze-drying process is always a freezing step, during which the crystals of solvent—more often ice crystals for water-based solutions or mixed ice and solvent \(TBA\) crystals in the case of organic co-solvent formulations—separate from a cryo-concentrated phase containing the API and its excipients. The cooling process that involves complex supercooling, nucleation \(homogeneous and/or heterogeneous\) and crystals growth phenomena is maintained up to the transformation of all the liquid formulations into a frozen solid. This freezing step results in a complex mixture of crystalline, amorphous or metastable phases that are deeply affected by the concentrations of TBA and of the other additives as reported in details by Seager et al. \[14\] Owing to these authors, the solvent type and its concentration affect the structure and the morphology of the frozen material phases \(crystallinity or amorphous state\). In some cases, the use of organic solvents can result in drug precipitation due to some solvent vaporization. In the case of high melting point solvents as tert-Butanol, it probably happens that the solvent \(TBA\) crystallizes between the ice matrix as the temperature is decreased so that the presence of tert-Butanol alters the crystal habit of the regular ice matrix. The solvent’s crystals morphology of TBA \+ water systems has been extensively investigated by microscopy in cold chamber by Daoussi et al. \[15\]
+
+### **3.1 **Nucleation Temperature
+
+Nakagawa et al. \[8\], Daoussi et al. \[15\] Pikal et al. \[16\] and Kasper et al. \[17\] confirmed the stochastic nature of nucleation phenomena which are certainly affected randomly by impurities or other heterogeneities. These authors concluded that the nucleation temperature, which is a non-deterministic parameter, was nevertheless the more relevant parameter that determines the ice crystals’ overall structure and the primary drying times. Thus, Daoussi et al. \[15\] determined from the temperature profiles with samples contained in glass vials, the nucleation temperatures, noted *T*N, for TBA \+ water mixtures prepared and cooled in the same rigorous conditions and submitted to the same standard cooling rate equal to 1 °C/min for three formulations at 80% \(w/w\), 90% \(w/w\) to 100% \(pure\) TBA contents. The nucleation probability was defined by the ratio of the number of observed *T*N values to the number of total repetitive runs; the experimental runs were repeated about 20 times for each of the three above-mentioned formulations. Experimental results showed that about 60% of the samples prepared from mixtures with 80% \(w/w\) of TBA nucleated at −15 °C \(Fig. 1\) while samples prepared from mixtures with 90% \(w/w\) of TBA nucleated mainly at −23 °C \(Fig. 2\). For pure TBA solvent formulations, these authors found that the probability distribution curve presented two nucleation peaks, the first one occurring at about \+15 °C and the second one at about −30 °C. Thus, it proved that all these formulations presented different nucleation temperatures probabilities, so that the initial concentration of TBA was an important factor that governs the nucleation phenomenon of these systems. Moreover, previous studies of ice crystals growth phenomena in our laboratory reported by Nakagawa et al. \[8\] have shown that the size and the shape of ice crystals are strongly related to nucleation temperatures. Consequently, some quality attributes of the freeze-dried cake \(permeability, morphology, reconstitution times\) are strongly related to the initial TBA content and to the nucleation rates which govern the number of ice crystals and also to the rate of heat transfer which governs the growth rate of solvent crystals after the nuclei formation. 
+![](images/000001.gif)
+
+
+***Fig. 1*** 
+Nucleation probability of 20% \(w/w\) water \+ 80% \(w/w\) TBA mixture inside 3 mL vials cooled at 1 °C/min. \(Daoussi et al. \[15\]\)
+
+
+![](images/000002.gif)
+
+
+***Fig. 2*** 
+Temperature evolution during the cooling of a formulation at 90% \(w/w\) of TBA. Cooling rate at 1 °C/min. Nucleation at about −23 °C. \(Daoussi et al. \[15\]\)
+
+
+
+### **3.2 **Solvent Crystals Morphology
+
+Another reason that could explain the great advantages of using organic formulations relies on the differences in frozen samples’ morphologies observed with organic solvents due to the different nucleation and crystal growth mechanisms in comparison with water-based formulations. Daoussi et al. \[15\] investigated these morphological characteristics with frozen organic formulations by direct photonic microscopy in cold chamber \(direct observations at −25 °C\). Indeed, it is well known that for aqueous-based systems, the frozen material morphology is directly related to the morphology of the freeze-dried matrix containing the API to be stabilized. This study showed that the crystals were heteregeneous in size and in shape. With samples corresponding to 90% \(w/w\) of TBA, crystals were pretty small and rather spherical. With samples prepared from 100% \(pure\) TBA the crystals had a lamellar shape. For 80% \(w/w\) of TBA mixture, the solvent crystals presented an intermediate shape between lamellar and dendritic shapes.
+
+Moreover, the cumulative distributions of the mean solvent crystal sizes presented on Fig. 3 \(formulation at 80% of TBA by mass\) show that the mean crystals sizes increase very significantly with the freezing rates. These results are consistent with those of a previous study of the same authors with the same formulations for which they observed that the *degree of* *super cooling* *decreased as the* *freezing* *rate increased*. However, these observations are *in strong contrast* with previous results reported for the *nucleation* *of purely aqueous system* for which the degrees of super cooling increased when the cooling rates increased leading to smaller crystal sizes when the freezing rates increased \[1, 2, 4, 5\]. These tendencies were confirmed with pure TBA formulations at the two other freezing rates investigated, namely at 0.1 °C/min and at rapid freezing \(liquid nitrogen\). 
+![](images/000003.gif)
+
+
+***Fig. 3*** 
+Solvent crystal sizes cumulative distribution curves for different freezing rates. TBA initial concentration at 80% \(w/w\). \(Daoussi et al. \[15\]\)
+
+
+
+Contrary to the results observed with pure TBA formulations, the crystal sizes obtained with formulations at 90% of TBA \(Fig. 4\) did not vary significantly with the freezing rates, 50% of crystals having average sizes lying between 17 μm and 35 μm. Thus, the crystal sizes obtained with 90% TBA mixtures are much smaller—with sizes about seven times smaller—than the sizes observed with samples prepared from formulations with 80% \(by w/w\) \(Fig. 3\). Furthermore, with the formulation at 90% \(by w/w\) of TBA, the width of the dispersion was much smaller which means that the crystal sizes were found more homogeneous. These last results showed again that the eutectic mixture at 90% of TBA presented significant different behaviours during freezing and also different physical properties compared to the two other formulations investigated. Daoussi et al. \[15\] concluded that the solvent crystals morphology of frozen formulations prepared with *tert*-butanol \(TBA\) revealed unexpected results compared with the results reported in the literature for water-based formulations. Consequently, the TBA co-solvent concentrations and the freezing rates had a strong influence on the solvent crystals morphology, and, consequently, on one side on some quality factors related to the freeze-dried cake morphology and on the other side, on the operating costs of the whole process \(sublimation and desorption times\). 
+![](images/000004.gif)
+
+
+***Fig. 4*** 
+Solvent crystal sizes cumulative distribution curves for different freezing rates. TBA initial concentration at 90% \(w/w\). \(Daoussi et al. \[15\]\)
+
+
+
+## **4 **Thermodynamical Properties
+
+### **4.1 **Phase Diagram
+
+Many experimental studies have shown that with systems that contain one solute that gives a crystalline phase at solid state, the primary drying step must be conducted below the eutectic temperature \[1, 2, 4, 5\]. Nevertheless, most drug formulations do not crystallize or do not have high eutectic temperatures so that eutectic temperature limit is not very often an issue in freeze-drying cycles optimization if we except the systems containing high concentrations of NaCl, this salt having an eutectic temperature around −20 °C. Otherwise, with amorphous or glassy systems, the sublimation step must be carried out below the collapse temperature, which is generally a few degrees above the vitreous transition temperature of the solute phase. If the product is sublimated above the vitreous transition temperature, the solid phase collapses and has enough fluidity to induce a viscous flow when the ice is removed from the frozen sample. This collapse will lead to a loss of cake mechanical structure and will result in higher moisture contents and into a loss of biological activity, notably with some pharmaceutical protein formulations \(vaccines\). Some other defects like an increase of the rehydration times or some loss of pharmaceutical elegance can also occur. This is why the *state diagram*, which is greatly characteristic of the formulation composition, represents the *basic thermodynamical data* absolutely necessary for setting up rationally the optimal freeze-drying cycle. The phase diagram of TBA \+ water system has been published by Kasraïan et al. \[18\] and is plotted on Fig. 5. 
+![](images/000005.gif)
+
+
+***Fig. 5*** 
+Phase diagram of TBA \+ water system plotted on fraction \(by mass\). \(From Kasraïan et al. \[18\]\)
+
+
+
+This system presents an eutectic point, noted B, at −3.3 °C for a TBA concentration at 90% \(w/w\). Below this eutectic point temperature, solid phases of pure frozen TBA and of TBA dehydrate probably co-exist. This mixture composition presents some singular morphological characteristics at frozen state and also some interesting water pressure values for sublimation applications as reported by Daoussi et al. \[6\] Another eutectic point at high water concentration exists at – 8.2 °C with TBA concentration near 15% \(w/w\). Thus, Daoussi et al. \[6\] selected this eutectic mixture – at 90% \(w/w\) of TBA – as the most interesting mixture for achieving the stabilization and the amorphization of their thermosensible API. The solvent crystals that sublimated during their extensive study of their organic co-solvent freeze-drying process were probably pure TBA and pure TBA dihydrate crystals with separated or mixed crystalline lattices.
+
+### **4.2 **Equilibrium Vapour Pressures
+
+The vapour pressures are also important data for setting up and for validating physical models of freeze-drying processes. These data for pure TBA and for the \+ 10% \(w/w\) water system \(eutectic composition\) were determined in our laboratory by Bogdani et al. \[7\] by using the new rapid thermogravimetric method. For pure TBA, these authors observed that the equilibrium solid/vapour pressures values were *quite equal to the values of pure ice/water vapour system* what seems quite surprising due to the usual high volatility of organic compounds at liquid/vapour equilibrium. These data, which are very useful for the physical modelling of the sublimation process, could be correlated by the following equation \[7\]:
+
+
+
+
+
+![$$ {P}_0=\left(\exp \left(A+B/T+{DT}^F\right)\right)/{T}^C $$](images/000006.jpeg)
+
+
+
+where *P*0 represents the equilibrium vapour pressure \(Pa\) and *T* the absolute temperature \(K\) and where the coefficient constant values \(S.I. units\) are equal to *A* = 172.3; *B* = −11,590; *D* = 1.37×10–5; *F* = 2; *C* = 22.118;
+
+On the contrary, for the eutectic composition at 90% \(w/w\) of TBA, the same authors observed that the equilibrium frozen solid/vapour pressures values *were about twice as high as* the vapour pressures of the pure ice \(Cf. Fig. 6\). 
+![](images/000007.gif)
+
+
+***Fig. 6*** 
+LnP0 vs. 1/*T* plots for the 90% \(w/w\) TBA\) \+ 10% \(w/w\) water system \(□\) and for the pure water \(\*\). \(Bogdani et al. \[7\]\)
+
+
+
+Moreover, it is worth noting that this eutectic mixture corresponds to a positive azeotropic composition in the gas/liquid equilibrium state what could physically explain these high equilibrium vapour pressure values at this particular composition. Thus, this particular composition presents the most favourable thermodynamical data to increase the sublimation rates in case of a sublimation process controlled by the mass transfer resistance of the solvent vapour through the dry layer as discussed in the paper of Daoussi et al. \[6, 15\]
+
+### **4.3 **Sublimation Enthalpies
+
+Indeed, the equilibrium solid–vapour pressures are not the only thermodynamic parameters that could affect directly the sublimation rates. The enthalpies of sublimation also influence directly the sublimation rates, especially when the heat transfer is the limiting mechanism as observed by Daoussi et al. \[6\] and by Hottot et al. \[19, 20\] in standard conditions for the freeze-drying of very thermosensible API as pharmaceutical proteins. These values obtained by Bogdani et al. \[7\] \(Cf. Table 3\) proved to be *3.8 times lower* than the corresponding value for pure ice. Quite the same factor for the latent heat of sublimation was also observed for the eutectic mixture at 90% \(w/w\) of TBA \+ 10% \(w/w\) of water. Thus, these *low values of* *sublimation enthalpies* *represent the main factor* that explains the very high increase of the sublimation rates observed by using *tert*-butanol \(TBA\)-based formulations. 
+
+
+***Table 3*** 
+Experimental sublimation enthalpies and melting temperatures for 90% \(w/w\) TBA \+ 10% \(w/w\) water and for pure TBA formulations
+
+
+
+***T*m \(°C\)**
+
+**Δ*H*sub \(kJ/kg\)**
+
+**![$$ \Delta {H}_{{\textrm{sub}}_{\textrm{ice}}}/\Delta {H}_{{\textrm{sub}}_{\textrm{TBA}}} $$](images/000008.jpeg) **
+
+water
+
+0
+
+2809
+
+1
+
+Pure
+
+TBA
+
+25
+
+732
+
+3.8
+
+90% TBA
+
+5
+
+1027
+
+2.7
+
+
+Bogdani et al. \[7\]
+
+
+
+
+## **5 **Sublimation Kinetics
+
+During the sublimation step, the mass transfer of the solvent vapour from the sublimation front up to the condenser has overcome three mass transfer resistances that can be considered as additive, namely the dried layer resistance—which increases with the dry layer thickness and which is the most important \[1, 2, 19, 20\] — the resistance of the vial stopper \(often negligible\) and the chamber resistance that depends on the vapour flow regime and of the chamber geometry. The mass transfer in the porous dried layer takes place via two main mechanisms, namely either by viscous flow under a total pressure gradient or by molecular diffusion under gradients of concentration in Fick’s regime which generally occurs at moderate chamber total pressures—or in Knudsen regime when the mean free path of solvent vapour molecules becomes higher than the mean pores diameter. The molecular diffusion in Knudsen regime generally occurs at low shelf temperatures and very low total gas pressures, conditions which correspond to the optimum conditions of sublimation for thermosensible drugs as vaccines \[1, 2, 4, 15\]. In all these regimes, the morphology of the pores of the dried layer \(permeability, mean pores diameter, pores surface area, etc.\) has an important impact on the intensities of the solvent vapour fluxes through the dried layer. This morphology is similar to the morphology of the crystals of the frozen solvent, morphology that is mainly fixed at the nucleation and crystals growth steps, what explains the great practical importance of these steps that are generally neglected or not taken in account in freeze-drying cycle development studies.
+
+Daoussi et al. \[6\] carried out different freeze-drying experiments at constant shelf temperatures and constant total gas pressures—respectively equal to *T*s = −20 °C and *P*t = 6 Pa – for different water \+ TBA mixtures from 80% \(w/w\) to \(pure\) 100% TBA formulations. According to the data in Fig. 7, it is clear that, at quasi-constant drying rate period, the highest drying rates values correspond to the co-solvent mixture containing 90% \(w/w\) of TBA. As already pointed out in the previous paragraph, this particular composition corresponds to the formation of a positive azeotrope at the gas/liquid state with a maximum of partial pressures, which probably correspond to an increase of the vapour/solid equilibrium pressures at the frozen state and, consequently, to an increase of the solvent vapour mass transfer driving force during the sublimation \[2, 4, 6, 19, 20\]. 
+![](images/000009.gif)
+
+
+***Fig. 7*** 
+Drying rate as a function of total solvent concentration. Influence of the initial content of organic co-solvent \(TBA\). *T*s = −20 °C and *P*t = 6 Pa. Freezing rate: 1 °C/min. \(Daoussi et al. \[6, 15\]\)
+
+
+
+Thus, these authors \[15\] pointed out that the use of mixtures highly concentrated with organic co-solvent \(TBA\) resulted in very short sublimation times – about 3 h – these values being about *10 times shorter than the values observed with pure aqueous-based* *formulations* under the same operating conditions. With their API formulations, this great increase was maximum at the eutectic composition certainly due to the favourable thermodynamical properties of the frozen formulation \(high equilibrium vapour pressures and low sublimation enthalpies\) observed at this particular composition. Moreover, the shelf temperature had the higher influence on the sublimation times, but the total gas pressure, the vial type and the vial filling could also have significant influence on the primary drying \(sublimation\) times. Thus, Daoussi et al. \[6\] concluded that in their particular conditions – at very low total gas pressure \(*P*t = 10–30 Pa\) and at low product temperature \(between −20 °C and −40 °C\) – the heat *transfer* *was the main governing phenomenon* of the sublimation process.
+
+These high acceleration rates of sublimation times during freeze-drying of lactose and sucrose solutions with TBA formulations are also reported in Teagarden’s review \[3\]. The same enhancement of the primary drying kinetics \(sublimation\) was also observed by Baldi et al. \[21\] during the freeze-drying of gentamicin sulphate \(model drug\) with water\+maltose\+TBA formulations and more recently by Cui et al. \[10\] during freeze-drying experiments of liposomes by using *tert*-butanol \(TBA\) as co-solvent with water mixtures.
+
+## **6 **Residual TBA and Water Contents
+
+The retention of volatile has been largely studied during optimization of food freeze-drying processes. It is advantageous to trap these components \(aroma\) in the freeze-dried matrix in order to maintain at their best the original organoleptic properties of the foodstuff.
+
+In the case of drug freeze-drying processes, it is generally an opposite retention effect that is looked for; too high residue solvent contents generally have a negative impact on the storage of the freeze-dried drug and on the preservation of its therapeutical properties. In the case of freeze-drying with organic co-solvent formulations, these constraints can be increased due to possible toxicity of these solvents residues.
+
+The impact of formulation and process variables on residual solvent levels for formulations freeze-dried with *tert-*butanol \(TBA\) have been critically reviewed by Teagarden et al. \[3\], Chouvenc \[22\], Wittaya-areekul et al. \[23\] and more recently by Daoussi \[24\], Gieseler \[25\]. These authors investigated the effect of the physical state of solute \(amorphous or crystalline\), the initial TBA concentration, the freezing rate, the cake thickness and the temperature during the secondary drying \(desorption step\). They pointed out that the TBA residual contents were very low in the case of formulations leading to a crystalline matrix \(0.01–0.03%\) regardless of freezing rates or initial TBA concentrations. On the contrary, very high residual TBA contents were obtained with amorphous systems obtained with sucrose solutions. Moreover, processing conditions during the secondary drying period had a deep impact on residual levels at the end of the freeze-drying cycle. Similar results were obtained by Teagarden \[3\] during the freeze-drying of lactose solutions with TBA \+ water co-solvent mixtures. Otherwise, freezing conditions seemed to have an influence on residual solvent contents only for amorphous systems because very fast freezing \(with liquid nitrogen\) leads to high residual levels of TBA. Daoussi et al. \[24\] have evaluated, in the case of API \+ TBA\+ water system, the impact of the formulation of the freezing conditions \(freezing rates; annealing\) and of the duration of the sublimation step on the co-solvent \(TBA\) and water residual contents. Their data have shown that the residual TBA content increased with the initial concentration of the active principle ingredient \(API\). As concerning the impact of the operating conditions, the TBA residual contents increased or decreased with the initial concentration of TBA.
+
+## **7 **Annealing Treatment
+
+It is well known that annealing treatments homogenize the size and the shape of the solvent or the ice crystals by a water or co-solvent re-crystallization mechanism as observed by Chouvenc et al. \[22\] with water-based formulations.
+
+Daoussi et al. \[24\] observed with their active principle ingredient \(API\) dissolved in tert-butanol \(TBA\)-based formulations that the co-solvent \(TBA\) residual content increased with the application of efficient annealing treatments.
+
+Moreover, Daoussi et al. \[24\] found that the freezing rates and the annealing treatments did not have any significant impact on the residual water contents of the freeze-dried cakes, on one side, and, that the residual water contents increased with the API concentrations, on the other side. These authors reported that adequate annealing treatments reduced notably the duration of the sublimation period by about a factor 2. This annealing treatment was generally more efficient for formulations prepared with pure TBA as unique API solvent than with water \+ TBA mixtures containing respectively 80% or 90% \(w/w\) of TBA.
+
+## **8 **Design Space for Freeze-Drying of an Ibuprofen Formulation
+
+In order to illustrate this quite new concept of Design Space, which is more and more used in pharmaceutical industry R & D projects, we have chosen to deeply investigate the freeze-drying process of a single formulation containing ibuprofen as active principle ingredient \(API\), a drug largely used as anti-inflammatory drug in many countries. With this case study, we will show the methodology of practical and experimental determination of the Design Space graph as proposed by Nail et al. \[26\], by Chang et al. \[27\], by Fissore et al. \[28\] and by Giordano et al. \[29\] for the freeze-drying process with a laboratory-type pilot freeze-dryer.
+
+For these reasons, we have chosen to experimentally study the kinetics of the sublimation during the freeze-dying process of a system constituted of ibuprofen \+ solvent mixture containing 20% \(w/w\) of organic co-solvent TBA \+ 80% \(w/w\) of water \(eutectic A\) and to set up the corresponding Design Space. The phase diagram of this system has been reported in the literature by Kasraïan et al. \[18\] and, moreover, some important and key thermodynamical properties of this system necessary for the sublimation step modeling have been determined recently by Bogdani et al. \[7\] in our laboratory.
+
+### **8.1 **Overall Heat Transfer Characterization
+
+In order to characterize the external heat transfer between the surroundings \(shelf, plate, chamber wall, etc.\) and the sublimation front and the product inside each single vial, we have determined experimentally, in situ, the real values of the overall heat transfer coefficient of our system, noted *K*v, values that are dependent on the operating conditions \(*T*shelf and *P*c\) and on the vial type and geometry as observed by Hottot et al. \[19, 30\] in our laboratory. Nevertheless, these values are quite independent of the nature of the formulation, so that, in the case of costly API it is experimentally possible to run these thermal characterization experiments by filling the vials with the only solvent \(without API and excipients\) Thus, in this configuration, there exists no dried layer and, consequently, no dry layer mass transfer resistance for the solvent vapor transfer. Then, the determination of *K*v values was realized by Hottot et al. \[30\] by using vials filled with the only solvent without any API and excipients. A set of 30 vials were filled with 1 g of liquid solvent in each vial \(filling height around 10−2 m\) at the eutectic composition of our system referenced as eutectic A \[13, 30\], and then frozen by following the procedure described above. The mass of one representative vial was continuously weighed with the microbalance Christ placed inside the shelf of the sublimation chamber. From the mass loss curve it was possible to calculate the average values of the sublimation rate, noted  ![$$ \overset{\cdotp }{m} $$](images/000010.jpeg) , for each set of fixed shelf temperature and total gas pressure values in the sublimation chamber.
+
+This value of  ![$$ \overset{\cdotp }{m} $$](images/000011.jpeg)  corresponds to the slope value of the linear part of this curve. On the bottom of two other vials, thin thermocouples were placed in order to record the mean product temperature profiles \(*T*b = *f*\(*t*\)\). From Fig. 8, we observed a product temperature plateau at *T*b = −35.5 °C. This plateau means that the system has reached a quasi-stationary state, during which all the energy supplied to the product was essentially used for the sublimation of the solvent. All along this quasi-stationary state, the values of the sublimation rates could be considered as constant. The end of the plateau corresponded to the end of the sublimation step with the starting of the product warming and an increase of the mean product temperature to reach progressively the shelf temperature. 
+![](images/000012.gif)
+
+
+***Fig. 8*** 
+Product temperature profiles measured at the vial bottom. \(*T*shelf = 10 °C and *P*c = 6 Pa\). 4 mL glass vial. \(Bogdani et al. \[13\]\)
+
+
+
+Then, these sublimation rates and product temperatures measured during the sublimation quasi-stationary state were used to calculate the overall heat transfer coefficient values, noted *K*v \(W.m−2.K−1\) from the Eq. 1 below \[30, 31\]: 
+
+
+
+![$$ {K}_{\textrm{v}}=\left(\overset{\cdotp }{m}.\Delta {H}_{\textrm{s}}\right)/\left({A}_{\textrm{v}}\left({T}_{\textrm{s}\textrm{helf}}-{T}_{\textrm{b}}\right)\right) $$](images/000013.jpeg)
+
+
+\(1\)
+
+
+where the value of the vial right section area calculated from the outer vial diameter was equal to *A*v = 2.01 × 10−4m2 and the sublimation enthalpy value of the eutectic A was equal to  ![$$ \Delta {H}_{\textrm{s}}=2352\;\textrm{kJ}/\textrm{kg} $$](images/000014.jpeg) . Then, as an example, for a shelf temperature equal to 10 °C and a total pressure of the chamber equal to 6 Pa, a value of *K*v equal to 20.44 W.m−2.K−1 was obtained in agreement with previous values measured in our laboratories in these conditions \(*T*shelf; *P*c, vial type\) with the same vials \[30, 31\]. Following this methodology initially proposed by Nail \[26\], we measured the sublimation rates and the product temperature profiles during the quasi-stationary sublimation steps for four different shelf temperatures, that is to say at 0 °C; 10 °C; 20 °C and 30 °C and for five total gas pressures of the sublimation chamber respectively equal to 6 Pa, 15 Pa, 20 Pa, 30 Pa and 50 Pa. These values for a single 4 mL vial are reported in Fig. 9. 
+![](images/000015.gif)
+
+
+***Fig. 9*** 
+Sublimation rates for one vial measured with the microbalance Christ for different operating conditions \(*T*shelf and *P*c\). 4 mL glass vial. \(Bogdani \[13, 31\]\)
+
+
+
+From Fig. 9, we observed that the values of the sublimation rates increased with the shelf temperature. This tendency was only observed in the domain of the lower total gas pressures lying between 6 Pa and 30 Pa. On the other hand, for each shelf temperature, we observed that for total gas pressures higher than 30 Pa, the values of  ![$$ \overset{\cdotp }{m} $$](images/000016.jpeg)  reached a constant value corresponding to a plateau. This behaviour can be explained by the fact that the positive impact of the increase in the chamber total gas pressure on heat flux and, consequently, on the value of  ![$$ \overset{\cdotp }{m} $$](images/000017.jpeg) , outweighed the negative \(or inverse\) impact resulting from the increase of *P*c on the mass transfer driving force \(*P*0 – *P*c\) that controls the mass transfer of solvent vapor through the dried layer.
+
+Then, the values of the mean product temperature \(*T*b\) measured at quasi-stationary state were plotted in Fig. 10. It was observed that these values simultaneously increased with the shelf temperature and the total gas pressure in the lyophilization chamber. 
+![](images/000018.gif)
+
+
+***Fig. 10*** 
+Mean product temperature \(°C\) as a function of operating parameters \(*T*shelf and *P*c\). 4 mL glass vial. \(Bogdani et al. \[13, 31\]\)
+
+
+
+Then, the values of the overall heat transfer coefficient \(*K*v\) could be calculated for our selected standard operating conditions for rather thermosensible drugs \[1, 2, 30\] from Eq. 1 and these values were reported on Fig. 11. 
+![](images/000019.gif)
+
+
+***Fig. 11*** 
+Overall heat transfer coefficient values, noted *K*v \(W/m2.K\), for different operating conditions \(*T*shelf, *P*c\). 4 mL glass vial. \(Bogdani et al. \[13, 31\]\)
+
+
+
+From the same Fig. 11, for shelf temperatures in the range between 10 °C and 30 °C, we observed that for a constant value of the shelf temperature, the values of *K*v increased with the total gas pressure in the sublimation chamber as already pointed out by Hottot et al. \[30\] in the same operating conditions. This increase results principally from the increase of the heat transfer flux by conduction at the vial bottom through the gas layer located between the curved vial bottom and the shelf due to the increase in the gas pressure of the thermal conductivity of gases at this very low gas pressure as reported by many other authors \[1, 2, 19, 30\]. Besides, in the same domain of the total gas pressure in the sublimation chamber, Fig. 11 shows a slight increase in *K*v values as a function of temperature. On the contrary, for the lower shelf temperature equal to 0 °C, we observed that the values of *K*v were equal to or larger than the values of *K*v obtained with higher shelf temperatures in the range from 10 °C to 30 °C. This inverse tendency of *K*v values increase, at lower temperatures for *T*shelf < 0 °C, results probably from the fact that at these low or negative temperatures, the radiative component of the total heat flux reaching the sublimation front becomes more important than at higher positive temperatures \[19, 30, 31\].
+
+### **8.2 **Mass Transfer Resistance of the Dried Layer
+
+The values of sublimation rates of the solvent mixture at eutectic A composition – namely 20% TBA \+ 80% water \(by w/w\) – reported in the preceding paragraph were determined for a solution without API \(ibuprofen\) or without excipients, and therefore, the sublimation process occurred without any microporous dried layer. The presence of this dried layer generally results in a decrease of the sublimation rates due to some mass transfer resistance encountered by the solvent vapor flow. Nevertheless, the values of sublimation rates that must be entered in the Design Space are the actual values that take into account this possible dried layer mass transfer resistance that could be significant with real solvent formulation containing the API and many different excipients. Thus, new sublimation experimental runs were realized by using an ibuprofen formulation \(1 g of ibuprofen formulation per vial\) with the organic co-solvent \(TBA\) \+ water mixture \(eutectic A\). These runs were carried out at constant total gas pressures for different shelf temperatures, namely 0 °C, 10 °C, 20 °C and 30 °C by using the same continuous weighing method with the microbalance already described. As an example, Fig. 12 shows typical weight loss data obtained in the following operating conditions: *T*shelf = 30 °C and *P*c = 6 Pa that lead to a mean sublimation rate \( ![$$ \overset{\cdotp }{m} $$](images/000020.jpeg) \) equal to 8.70 × 10−8kg/s. This value was obviously lower than the value of  ![$$ \overset{\cdotp }{m} $$](images/000021.jpeg)  determined under the same operating conditions with a solution of pure eutectic A, namely  ![$$ \overset{\cdotp }{m} $$](images/000022.jpeg)  = 9.86 × 10−8kg/s which could indicate some presence of solvent vapor mass transfer resistance with this more realistic and commercial type formulation. 
+![](images/000023.gif)
+
+
+***Fig. 12*** 
+Variation of the total vial mass with the organic co-solvent formulation of ibuprofen. *T*shelf = 30 °C and *P*c = 6 Pa. 4 mL glass vial. \(Bogdani et al. \[13, 31\]\)
+
+
+
+During the same experiments with the ibuprofen system described in the previous paragraph, the product temperature at the vial bottom was also measured. The results presented in Fig. 13, show a product temperature plateau and a quasi-steady state around −23 °C, value 10 °C higher than the corresponding value measured with a solvent–solution mixture \(at eutectic A composition\) without ibuprofen. 
+![](images/000024.gif)
+
+
+***Fig. 13*** 
+Shelf temperature and product temperature profiles at the vial bottom. \(*T*shelf = 30 °C and *P*c = 6 Pa\). 4 mL glass vial. \(Bogdani et al. \[13, 31\]\)
+
+
+
+From the experimental values of the sublimation rates and the product temperature, *T*b, the values of the solvent vapor mass transfer resistance, noted  ![$$ \hat{R_{\textrm{p}}} $$](images/000025.jpeg) , were calculated by using the Eq. \(2\) below: 
+
+
+
+![$$ \hat{R_{\textrm{p}}}={A}_{\textrm{S}}\left({P}_0-{P}_c\right)/\overset{\cdotp }{m} $$](images/000026.jpeg)
+
+
+\(2\)
+
+
+where *A*S represents the sublimation surface assumed to be equal to the surface of the internal right cross section area of one vial, namely *A*S = 1.76 × 10−4m2 \(for 4 mL glass vial\), *P*0 represents the equilibrium vapor pressure of eutectic A solvent mixture at the sublimation front temperature, values calculated by the Clapeyron’s relationship determined experimentally in our laboratory by Bogdani et al. \[7, 31\], namely  ![$$ \ln {P}_0=\frac{-5745.9}{T_{\textrm{b}}}+27.909 $$](images/000027.jpeg)  \(*P*0 in Pascal and *T*b in Kelvin\). Thus, for a shelf temperature equal to 30 °C and a total gas pressure equal to 6 Pa, we could estimate a mass transfer resistance value  ![$$ {\hat{R}}_{\textrm{p}}=2.71\times {10}^5\textrm{Pa}.{\textrm{m}}^2.\textrm{s}/\textrm{kg} $$](images/000028.jpeg) . These values of  ![$$ {\hat{R}}_{\textrm{p}} $$](images/000029.jpeg)  depend essentially, for a given formulation, on the pores morphology of the dried layer \(size and shape\) and thus, indirectly, of the morphology of the frozen solvent crystals formed during the freezing step and also, on the freezing protocol as observed by Hottot et al. \[30\] Due to the fact that all our experimental runs for setting up the Design Space of our system were obtained with the same freezing protocol, based on the laws of molecular diffusion in Knudsen regime that prevailed during our experimental sublimation conditions, we assumed that this value of  ![$$ {\hat{R}}_{\textrm{p}} $$](images/000030.jpeg)  for a fixed shelf temperature remained unchanged with the variation of the total gas pressure in the sublimation chamber \[13, 30\]. Thus, adopting the hypothesis of sublimation at quasi-steady state—Cf. temperature profile shown in Fig. 13 — the values of the mean product temperature, noted *T*b, could be calculated by solving the successive iterations with Matlab software the following implicit equation. 
+
+
+
+![$$ \frac{\Delta {H}_{\textrm{s}}.{A}_{\textrm{S}}\left(\exp \left(-5745.9/{T}_{\textrm{b}}+27.909\right)-{P}_{\textrm{c}}\right)}{\hat{R_{\textrm{p}}}}={K}_{\textrm{v}}{A}_{\textrm{v}}\left({T}_{\textrm{s}\textrm{helf}}-{T}_{\textrm{b}}\right) $$](images/000031.jpeg)
+
+
+\(3\)
+
+
+
+
+The resulting values at constant *T*shelf = 30 °C and for *P*c values successively equal to 15 Pa, 20 Pa, 30 Pa and 50 Pa are plotted on Fig. 14 below. On the same figure, these values are compared with the experimental values obtained with the solution of eutectic A without any ibuprofen or excipients. We observed that all these *T*b values obtained with the ibuprofen formulation were about 10 °C higher than the corresponding *T*b values obtained with the formulation composed of the simple solvent \(eutectic A\) without ibuprofen and excipients. 
+![](images/000032.gif)
+
+
+***Fig. 14*** 
+Product temperature \(*T*b\) with ibuprofen organic-based formulation \(X\); without ibuprofen □\); *T*shelf = 30 °C. 4 mL glass vial. \(Bogdani et al. \[13, 31\]\)
+
+
+
+### **8.3 **Determination of Sublimation Rates of Real Ibuprofen Formulation
+
+Next, by using Eq. \(4\), these *T*b values were used to calculate the sublimation rates with the real formulation taking into account the limitations introduced by the solvent vapor flow through the dried layer: 
+
+
+
+![$$ \dot{m}={K}_{\textrm{v}}{A}_{\textrm{v}}\left({T}_{\textrm{s}\textrm{helf}}-{T}_{\textrm{b}}\right)/\Delta {H}_{\textrm{s}} $$](images/000033.jpeg)
+
+
+\(4\)
+
+
+
+
+These values are plotted in Fig. 15 and compared with the corresponding sublimation rates observed with the formulation without active principle \(ibuprofen\) or ingredients. 
+![](images/000034.gif)
+
+
+***Fig. 15*** 
+Sublimation rates of organic-based formulation with \(x\) and without \(□\) ibuprofen. *T*shelf = 30 °C. 4 mL glass vial. \(Bogdani et al. \[13, 31\]\)
+
+
+
+The same figure shows that, at the constant temperature *T*shelf = 30 °C, for the total gas pressure range investigated from 5 to 60 Pa, the  ![$$ \dot{m} $$](images/000035.jpeg)  values obtained with the real formulation containing ibuprofen \(API\) were always below the experimental values observed without ibuprofen with a mean difference around 10%. These data certainly resulted from a significant and non-negligible mass transfer resistance of the solvent vapor flow through the dried layer located above the sublimation front even if in our sublimation conditions, the sublimation process was mostly controlled and governed by the heat transfer phenomena from the vial surroundings to the product sublimation front \[19, 30\]. Next, following the same methodology, we have experimentally determined the values of the mass transfer resistance of the solvent vapor flow for the other shelf temperatures, namely from 0 °C to 30 °C. The values for these experimental conditions are gathered on Table 4. 
+
+
+***Table 4*** 
+Mass transfer resistance values, *R*p \(Pa m2s/kg\) for different shelf temperatures,  ![$$ \hat{R_{\textrm{p}}} $$](images/000036.jpeg)  \(Pa m2s/kg\). 4 mL glass vial
+
+
+
+**Tshelf \(°C\)**
+
+**Pc \(Pa\)**
+
+**![$$ \hat{R_{\textrm{p}}} $$](images/000037.jpeg)  \(Pa m2s/kg\)**
+
+0
+
+20
+
+2.17 × 105
+
+10
+
+6
+
+1.99 × 105
+
+20
+
+6
+
+2.62 × 105
+
+30
+
+6
+
+2.71 × 105
+
+
+Bogdani et al. \[13, 31\]
+
+
+
+
+In agreement with the mass transfer laws of gas diffusion encountered in our conditions of very total gas low pressure – Knudsen regime – we observed, for example, at constant total gas pressure equal to 6 Pa, that the *R*p values increased significantly with the shelf temperatures, which represented the main operating parameter that determined directly the mean product temperatures and the sublimation front temperatures. Next, by using the method previously presented, these values of  ![$$ {\hat{R}}_{\textrm{p}} $$](images/000038.jpeg)  were used to calculate the values of the mean product temperature, noted *T*b, by using Eq. \(3\), and, finally, to estimate the sublimation rates,  ![$$ \dot{m} $$](images/000039.jpeg)  with Eq. \(4\). These calculated values are plotted on Fig. 16, which gathers the basic data of the Design Space Graph that can be used for optimizing the sublimation steps of freeze-drying cycles of co-organic solvent \(TBA\) \+ water formulations of ibuprofen \[13, 31\]. 
+![](images/000040.gif)
+
+
+***Fig. 16*** 
+Sublimation rates of the solvent of an ibuprofen organic co-solvent \(TBA\)-based formulation \(eutectic A\) vs. *T*shelf and *P*c. 4 mL glass vial. \(Bogdani et al. \[13, 31\]\)
+
+
+
+### **8.4 **Mean Product Temperature
+
+The mean product temperature profiles all along the different freeze-drying steps including the sublimation steps are the key parameter that governed many quality factors of the final freeze-dried drug and also its final mechanical structure with respect to the possible collapse phenomena that are generally occurring with amorphous systems as previously outlined by many authors \[1, 2\]. Consequently, it is crucial to precisely control this important process parameter which results from very complex interdependent phenomena \(nucleation, heat and mass transfer phenomena, etc.\) related to the formulation and to the operating conditions during the freezing and the two drying steps \(sublimation and desorption steps\). This is why, for the engineers and the scientists that are developing, setting-up and running new freeze-drying cycles, it is very useful, for each set of independent operating conditions \(*T*shelf; *P*c\) to calculate and to plot these values on the Design Space Graph presented on Fig. 16 by using a representation at constant *T*b values, called *T*b isotherms. For drawing these isotherms, for a given shelf temperature, *T*shelf we have proceeded as follows: firstly, we have chosen arbitrarily values of *T*b and *P*c and, next, we have calculated the corresponding values of the sublimation rates by using Eq. \(5\) below \[13, 31\]. 
+
+
+
+![$$ \overset{\cdotp }{m}=\frac{A_{\textrm{S}}\left(\exp \left(-5745.9/{T}_{\textrm{b}}+27.909\right)-{P}_{\textrm{c}}\right)}{\hat{R_{\textrm{p}}}} $$](images/000041.jpeg)
+
+
+\(5\)
+
+
+
+
+It should be noted that each isotherm *T*b = constant corresponds to a straight line so that only two calculated points are necessary to draw it in the Design Space graph.
+
+Thus, these product temperature isotherms, *T*b = constant, have been added on Fig. 16 so that, at this stage of construction, this figure describes quite well the dynamics of the sublimation step as it gives the values of the sublimation rates and the average temperatures of the product for the two principal independent operating conditions \(*T*shelf and *P*c\) of sublimation that can be fixed independently by the freeze-dryer operator.
+
+### **8.5 **Limits of Critical Quality Attributes
+
+Moreover, in the case of large industrial freeze-dryers, Nail \[26\] pointed out, that other limit conditions should be also considered for fixing the final optimal conditions of the freeze-drying cycles. These conditions depend not only on the intrinsic properties of the formulation itself or on the operating conditions of the two drying steps but also on the performance of the freeze-dryer itself like the surface and the refrigeration capacity of the condenser, the heating capacities between the shelf surface and the vial bottom in the product chamber \(nature and flow rate of the heating fluid assuming sufficient heat transfer coefficient values, etc.\) and on the dynamics of the solvent vapor flow inside the tube connecting the sublimation chamber and the condenser. For large freeze-drying equipments, according to this author \[26\], the main limit to be considered resulted generally from the flow of the solvent vapor between the two freeze-dryer chambers \(product chamber and condenser chamber\). When the sublimation rates became too high, the flow of solvent vapor reached the “choked” point – a kind of flooding point – which resulted in a sharp drop and a loss of control of the total gas pressure inside the sublimation chamber. Gieseler et al. \[32\] developed and implemented a new sensor and a new method based on Tunable Diode Laser Absorption Spectroscopy \(TDLAS\) to determine experimentally this “choked” point limit. Nevertheless, in the case of freeze-drying processes study at laboratory scale with our API systems, the limit due to the equipment cannot be generally considered. Indeed, in our experiments, the amount of solvent sublimated in our SMH 45 pilot freeze-dryer was very low – sublimation runs with 30 vials, so that we never reached these clogging or “choked” points for the solvent vapor flow through the connecting tube of the two chambers inside the freeze-dryer.
+
+To finalize and to complete the Design Space graph presented on Fig. 16, it was also necessary to introduce other limits that will ensure the main quality attributes of the final freeze-dried drug, generally shaped as a porous consolidated cake or as a fine powder. These main quality factors concern generally the dried cake appearance, its color, the absence of cracks, the facility of rehydration, its pharmaceutical activity, the storage duration, etc.
+
+Nevertheless, the more important limit to be considered in setting –up a drug freeze-drying cycle is the mean product temperature. For this purpose, the temperature of the shelves should be controlled all along the successive primary step \(sublimation\) and also along the secondary drying step \(desorption\) to avoid the collapse phenomena. This collapse phenomenon is characterized by the loss of mechanical resistance of the micro-structure of the partially dried solid layer – the morphology of which was fixed during the freezing step – due to the viscous flow induced by a temperature increase \[13, 16\]. After an irreversible collapse phenomenon, the freeze-dried drug was no more pharmaceutically acceptable due to its poor appearance, to its higher water content or its large reconstitution times. To avoid this very damaging phenomenon, for an amorphous system, the cryo-concentrated phase temperature should be maintained *during the sublimation step below the vitreous transition temperature of the maximally cryo-concentrated phase, noted T*g’*,* and, *during the* *desorption* *step, below the vitreous transition temperature,* noted *T*g. For a predominantly crystalline system, the upper temperature limit during the sublimation is the eutectic temperature, noted *T*m, that corresponds usually to a sharp melting point. Overpassing this melting point during the sublimation results in product puffing inside the vial and globally in a loss of pharmaceutical acceptability as underlined by Pikal et al. \[1\], Andrieu et al. \[2\] and by Pikal et al. \[16\]
+
+This collapse phenomenon can be quite easily detected by laboratory DSC or freeze-drying cryo-microscopy experiments with small samples of the real formulation. It was observed by many authors that the collapse temperature, *T*coll, for the vitreous systems frequently encountered with formulations of thermosensible drugs are quite close to the vitreous transition temperature, *T*g, given by the phase diagram of the system \[1, 2, 13, 18\].
+
+Then, it was very useful to plot on the Design Space Graph the two corresponding isotherms at *T*m = constant and *T*g = constant, as shown in the final Fig. 16. Thus, this figure determines the so-called security zone within which any change in the values of the main independent sublimation parameters \(*T*shelf and *P*c\) will not affect the most important quality factors required by the final freeze-dried product. Any process conditions in the Design Space would be acceptable to obtain a final freeze-dried product with acceptable quality attributes even if, of course, it is desirable to operate near the apex of this more or less large space with respect to the sublimation rates because this maximum corresponds to the most efficient process conditions \(low operating costs\).
+
+### **8.6 **Reconstitution Properties
+
+The capability of the freeze-dried cake or the freeze-dried powder to rapidly dissolve and reconstitute after addition of an adequate pharmaceutical solvent is not a negligible factor to take in account, particularly in the case of injectable drugs. This property depends on numerous parameters that are fixed during the freeze-drying as the freeze-dried cake morphology \(pores shape and surface area homogeneity of the dried matrix\), or the degree of collapse. It was observed that the freeze-drying with TBA formulations produced cakes with large surface area and high permeabilities which generally could be reconstituted very rapidly upon addition of most standard solvents \[1, 2, 24, 31\].
+
+## **9 **Conclusions
+
+Non-aqueous co-solvent systems are more and more studied and practically used in the freeze-drying of drugs and pharmaceutical products. The reasons for this increasing interest in potential industrial applications with commercial products include the increase of solubility \(hydrophobic products\); the high increase of sublimation rates and the consequent decrease of sublimation times and, consequently, the decrease of operating costs; the increase of pre-dried \(solution\) and of the freeze-dried product stability; the decrease of freeze-dried cake reconstitution times.
+
+Nevertheless, the practical implementation of these organic co-solvent formulations at commercial stages needs to evaluate important issues as the precise control of residual co-solvent contents; the rigorous control of their toxicity levels; the performances of the freeze-dryer \(condenser temperature\); the pertinent choice of sensors and control devices \(security constraints\); the safe handling and storage of flammable and/or explosive solvents; the evaluation of overall cost benefits by using these organic solvents.
+
+TBA \+ water formulations have been certainly the most largely evaluated and used systems in the manufacture of commercial pharmaceutical products. Their main advantages rely on the easy *freezing* *in standard freeze-dryers* due to TBA high freezing temperature; the high equilibrium solid–vapour pressures and the *low* *sublimation enthalpies* values; the *low residual solvent* *contents and the low toxicity of residual TBA.*
+
+When setting up the freeze-drying cycle, both formulation parameters and process parameters – including important freezing parameters that were more often neglected by the R & D engineers – necessitates an overall optimization to control the main quality factors of the final freeze-dried product and to lower as much as possible the freeze-drying operating costs.
+
+Finally, with regard to freeze-drying cycle optimization, it is well established that both formulation parameters and operating process parameters must be taken into account together; for example, through Design Space methodology. In the special case of organic co-solvent systems such as TBA\+water systems, there exist a strong influence of freezing conditions on the morphology of the frozen system and, consequently, on the final freeze-dried cake. Thus, it is important to take into account most of the freezing parameters that control the nucleation temperature of the undercooled solution; these phenomena being more often neglected with regular and classical aqueous-based systems.
+
+
+**References**
+
+1.  
+1.
+
+Pikal MJ. Freeze drying*,* Encyclopedia of pharmaceutical technology. New York: Marcel Dekker; 2002. p. 1299–326.
+
+2.  
+2.
+
+Andrieu J, Vessot S. Optimisation of some physical quality factors during freeze-drying of pharmaceuticals in vial configuration. Modern Dry Technol. 3. Chapter 3. Quality in drying. Editor Wiley-VCH.
+
+3.  
+3.
+
+Teagarden DL, Baker DS. Practical aspects of lyophilization using non aqueous co-solvent systems. Eur J Pharm Sci. 2001;15:115–33.[Crossref](https://doi.org/10.1016/S0928-0987(01)00221-4)
+
+4.  
+4.
+
+Vessot S, Andrieu J. Freeze-drying of drugs with tert-butanol \(TBA\) \+ water systems: characteristics, advantages, drawbacks. A review. Dry Technol. Special issue on biologicals and drugs drying. 2012;30:377–85.
+
+5.  
+5.
+
+Rey L, May JC. Freeze drying/lyophilization of pharmaceutical and biological products. 2nd ed. New York: Marcel Dekker; 2004. p. 239–78.[Crossref](https://doi.org/10.1201/9780203021323)
+
+6.  
+6.
+
+Daoussi R, Vessot S, Andrieu J, Monnier O. Sublimation kinetics and sublimation end-point times during freeze-drying of pharmaceutical active principle with organic co-solvent formulations. Chem Eng Res Des. 2009;87:899–907.[Crossref](https://doi.org/10.1016/j.cherd.2008.09.007)
+
+7.  
+7.
+
+Bogdani E, Daoussi R, Vessot S, Jose J, Andrieu J. Implementation and validation of the thermogravimetric method for the determination of equilibrium vapour pressure and sublimation enthalpies of frozen organic formulations used in drug freeze-drying process. Chem Eng Res Des. 2011;89:2006–12.[Crossref](https://doi.org/10.1016/j.cherd.2011.05.004)
+
+8.  
+8.
+
+Nakagawa K, Hottot A, Vessot S, Andrieu J. Influence of controlled nucleation by ultrasounds on ice morphology of frozen formulations for pharmaceutical proteins freeze-drying. Chem Eng Process. 2006;45:783–91.[Crossref](https://doi.org/10.1016/j.cep.2006.03.007)
+
+9.  
+9.
+
+Hottot A, Vessot S, Andrieu J. Freeze-drying of pharmaceuticals in vials: influence of freezing protocol and sample configuration on ice morphology and freeze-dried cake texture. Chem Eng Process. 2007a;46:666–74.[Crossref](https://doi.org/10.1016/j.cep.2006.09.003)
+
+10.  
+10.
+
+Cui JC, Li CL, Deng YJ, Wang YL, Wang W. Freeze-drying of liposomes using tertiary butyl alcohol/water cosolvent systems. Int J Pharm. 2006;312:131–6.[Crossref](https://doi.org/10.1016/j.ijpharm.2006.01.004)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16459032)
+
+11.  
+11.
+
+Zhang Y, Deng Y, Wang X, Xu J, Li Z. Conformational and bioactivity analysis of insulin: freeze-drying TBA/water co-solvent system in the presence of surfactant and sugar. Int J Pharm. 2009;371:71–81.[Crossref](https://doi.org/10.1016/j.ijpharm.2008.12.018)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19136051)
+
+12.  
+12.
+
+Elgindy N, Elkhodairy K, Molokhia A, Elzoghby A. Lyophilization monophase solution technique for improvement of the physicochemical properties of an anticancer drug, flutamide. Eur J Pharm Biopharm. 2010;74:397–405.[Crossref](https://doi.org/10.1016/j.ejpb.2009.11.011)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19944160)
+
+13.  
+13.
+
+Bogdani E, Vessot S, Andrieu J. Optimisation of freeze-drying cycles of pharmaceuticals organic co-solvent-based formulations using the Design Space methodology. Dry Technol. 2012;30:1297–306.[Crossref](https://doi.org/10.1080/07373937.2012.689590)
+
+14.  
+14.
+
+Seager H, Taskis CB, Syrop M, Lee TJ. Structure of products prepared by freeze-drying solutions containing organic solvents. J Parental Sci Technol. 1985;39\(4\):161–79.
+
+15.  
+15.
+
+Daoussi R, Bogdani E, Vessot S, Andrieu J, Monnier O. Freeze-drying of an active principle ingredient by using co-solvent formulations. Influence of freezing conditions and formulation on solvent crystals morphology, on thermodynamical data and on sublimation kinetics. Dry Technol. 2011;29:1858–7.[Crossref](https://doi.org/10.1080/07373937.2011.569624)
+
+16.  
+16.
+
+Pikal MJ, Rambhatla S, Ramot R. The impact of the freezing stage in lyophilisation: effects of ice nucleation temperature on process design and product quality. Am Pharm Rev. 2002;5:48–53.
+
+17.  
+17.
+
+Kasper JC, Friess W. The freezing step in lyophilisation: physicochemical fundamentals, freezing methods and consequences on process performance and quality attributes of biopharmaceuticals. Eur J Pharm Biopharm. 2011;78:248–63.[Crossref](https://doi.org/10.1016/j.ejpb.2011.03.010)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21426937)
+
+18.  
+18.
+
+Kasraian K, DeLuca PP. Thermal analysis of the tertiary butyl alcohol-water system and its implications on freeze-drying. Pharm Res. 1995;12\(4\):484–90.[Crossref](https://doi.org/10.1023/A:1016233408831)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7596981)
+
+19.  
+19.
+
+Hottot A, Peczalski R, Vessot S, Andrieu J. Freeze-drying of pharmaceutical in vials. Modelling of freezing and sublimation steps. Dry Technol. 2006;60\(2\):95–103.
+
+20.  
+20.
+
+Hottot A, Vessot S, Andrieu J. Sublimation kinetics during freeze-drying of pharmaceutical protein formulation. Dry Technol. 2007b;25\(5\):753–8.[Crossref](https://doi.org/10.1080/07373930701370126)
+
+21.  
+21.
+
+Baldi G, Gasco M, Pattarino F. Statistical procedures for optimizing the freeze-drying of a model drug in tret-butanol mixtures. Eur J Pharm Biopharm. 1994;40\(3\):138–41.
+
+22.  
+22.
+
+Chouvenc P, Vessot S, Andrieu J. Experimental study of the impact of annealing on ice structure and freeze-drying parameters during freeze-drying of pharmaceuticals model formulations. PDA J Pharm Sci Technol. 2006;60\(2\):95–103.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16696192)
+
+23.  
+23.
+
+Wittaya-areekul S, Nail SL. Freeze-drying of ter-butanol/water systems: effects of formulation and process variables on residual solvents. J Pharm Sci. 1998;26\(1–4\):33–43.
+
+24.  
+24.
+
+Daoussi R, Vessot S, Andrieu J, Monnier O. Lyophilisation d’un produit pharmaceutique en milieu non aqueux. Impact des conditions de congélation et de formulation sur les taux résiduels de solvant et d’humidité et sur le temps de séchage. Comptes-rendus du Congrès SFGP, Saint-Etienne, \(2007\), CDROM \(6 pages\).
+
+25.  
+25.
+
+Kunz C, Gieseler H. Factors influencing the retention of organic solvents in products freeze-dried from co-solvent systems. J Pharm Sci. 2018;107\(8\):2005–12.[Crossref](https://doi.org/10.1016/j.xphs.2018.04.001)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29649470)
+
+26.  
+26.
+
+Mochus LN, Paul TW, Pease NA, Harper NJ, Basu PK, Oslos EA, Sacha GA, Kuu WY, Hardwick LM, Karty JJ, Pikal MJ, Hee E, Khan MA, Nail SL. Quality by design in formulation and process development for a freeze-dried, small molecule parenteral product: a case study. Pharm Dev Technol. 2011;16\(6\):549–76.[Crossref](https://doi.org/10.3109/10837450.2011.611138)
+
+27.  
+27.
+
+Chang BS, Fischer NL. Development of an efficient single-step freeze-drying cycle for protein formulations. Pharm Res. 1995;12:831–7.[Crossref](https://doi.org/10.1023/A:1016200818343)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7667186)
+
+28.  
+28.
+
+Fissore D, Pisano R, Barrési AA. Advanced approach to build the design space for the primary drying of a pharmaceutical process. J Pharm Sci. 2011;100\(11\):4922–33.[Crossref](https://doi.org/10.1002/jps.22668)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21702051)
+
+29.  
+29.
+
+Giordano A, Barrési AA, Fissore D. On the use of mathematical models to build the design space for the primary drying phase of a lyophilization process. J Pharm Sci. 2011;100\(1\):311–24.[Crossref](https://doi.org/10.1002/jps.22264)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20575053)
+
+30.  
+30.
+
+Hottot A, Vessot S, Andrieu J. Determination of mass and heat transfer parameters during freeze-drying cycles of pharmaceutical products. PDA J Pharm Sci Technol. 2005;52\(2\):138–53.
+
+31.  
+31.
+
+Bogdani E. Etude expérimentale et optimisation du procédé de lyophilisation de l’ibuproféne en milieu organique, Thèse, Université C Bernard Lyon 1, 2011.
+
+32.  
+32.
+
+Gieseler H, Kessler WJ, Fonson M, Davis SJ, Mulhall PA, Bons V, Debo DJ, Pikal MJ. Evaluation of tunable diode laser absorption spectroscopy for in-process water vapor flux measurements during freeze-drying. J Pharm Sci. 2007;96:1776–93.[Crossref](https://doi.org/10.1002/jps.20827)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17221854)
+
+
+

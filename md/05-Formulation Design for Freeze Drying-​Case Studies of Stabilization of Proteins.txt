@@ -1,0 +1,1639 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_5](https://doi.org/10.1007/978-3-031-12634-5_5)
+
+
+**
+# Formulation Design for Freeze-Drying: Case Studies of Stabilization of Proteins
+**
+
+
+Andrea Allmendinger1 , Christina Häuser1 , Lokesh Kumar2  and Ilona Vollrath1 
+
+
+\(1\) 
+Pharmaceutical Development, Pharmaceutical Technical Development Biologics Europe, F. Hoffmann-La Roche Ltd, Basel, Switzerland
+
+
+\(2\) 
+Pharmaceutical Development, Genentech-Roche, South San Francisco, CA, USA
+
+
+
+
+
+Contributed equally
+
+
+
+
+**1 **Excipient Selection
+
+**1.1 **Role of Excipients
+
+**1.2 **Examples of Commercial Lyophilized Drug Products
+
+**2 **In-Process and Storage Stability of Proteins: Stabilization During Freezing, Drying, and Storage
+
+**2.1 **Theoretical Considerations
+
+**2.2 **Practical Considerations
+
+**2.3 **Excipient Properties and their Relevance for the Lyophilization Process
+
+**2.4 **General Formulation “Rules” for Freeze Drying
+
+**2.5 **Solid State Dynamics
+
+**3 **Product Quality Attributes
+
+**3.1 **Residual Moisture
+
+**3.2 **Specific Surface Area
+
+**3.3 **Cake Appearance
+
+**3.4 **Reconstitution Time
+
+**4 **Conclusions
+
+References
+
+
+## Abstract
+
+Formulation design is an integral part of drug product development for parenterally applied dosage forms. In particular for freeze-dried formulations, the choice of excipients is crucial and directly influences lyophilization cycle performance and ultimately the product quality. The current chapter focuses on the development of freeze-dried protein formulations, such as monoclonal antibody formulations. Vaccines, oligonucleotides, and gene and cell therapeutic products are not within the scope of this chapter. Typical excipients for parenteral freeze-dried biopharmaceuticals and their functions are summarized and examples of recent commercial formulations are provided. The stabilization mechanism during freezing and thawing, molecular dynamics in the solid state, critical quality attributes and the link between product attributes and lyophilization cycle performance are discussed, and general rules for lyophilization dependent on formulation parameters are exemplified in case studies.
+
+
+**Keywords**
+Monoclonal antibody Excipients Lyophilization Freeze-drying Residual moisture Reconstitution time Cake appearance Solid state dynamics Protein to sugar ratio
+
+Andrea Allmendinger, Christina Häuser, Lokesh Kumar and Ilona Vollrath contributed equally with all other contributors.
+
+
+## **1 **Excipient Selection
+
+Excipients are therapeutically nonactive formulation components, which stabilize the protein in the formulation matrix. The choice of excipients is crucial, as it directly influences the critical quality attributes of the final drug product. Excipients need to be nontoxic, nonimmunogenic, and safe in the applied clinical doses. Excipients must be approved for the intended route of administration and must comply with compendial requirements. This is particularly relevant for biopharmaceuticals, which are typically administered through parenteral routes, which limits the choice of excipients. In addition, excipients should be stable during manufacturing, transport, and throughout the drug product’s shelf-life, ideally with them being easy to handle \[1\].
+
+### **1.1 **Role of Excipients
+
+Table 1 provides an overview of excipients typically used in recent freeze-dried formulations of monoclonal antibodies, including their function, concrete examples, and caveats. Additional examples can be found in the mini-compendium of excipients in biopharmaceutical products published by Constantino and Pikal \[2\]. 
+
+
+***Table 1*** 
+Summary of typical components in lyophilized monoclonal antibody formulations
+
+
+
+**Function**
+
+**Examples**
+
+**Caveats specific to lyophilization process**
+
+***Stabilizer***
+
+***Type of stress* **
+
+Buffer system
+
+Shift in pH
+
+Histidine buffer, citrate buffer
+
+Crystallization of buffer components: e.g., phosphate buffer
+
+Surfactant
+
+Interfacial stress
+
+Polysorbate 20, Polysorbate 80, Solutol, Poloxamer 188
+
+–
+
+Antioxidant
+
+Oxidation
+
+Methionine, chelators \(e.g., EDTA, DPTA\)
+
+–
+
+Cryo-protectant
+
+Freezing \(cryo-concentration\)
+
+Sucrose, Trehalose
+
+Excipient crystallization: e.g., trehalose; Maillard reaction with reducing sugars: e.g., lactose
+
+Lyo-protectant
+
+Drying
+
+Cake collapse due to low glass transition temperature \(related to process parameters\)
+
+*Collapse temperature* *modifier*
+
+Drying, Storage
+
+2-Hydroxypropyl-beta-cyclodextrin, Polyvinylpyrroldione, Dextran
+
+Maillard reaction of reducing sugars or terminal glucose ends of macromolecules \(e.g., Dextran\)
+
+*Bulking agent**a*
+
+Mannitol, Sucrose, Trehalose, Dextran
+
+Crystalline polymorph \(detrimental to protein stability\): e.g., mannitol; Different solid forms requiring annealing: e.g., mannitol; Vial breakage: e.g., mannitol
+
+*Tonicifier**a*
+
+Sucrose, Trehalose, NaCl
+
+Refer to cryoprotectants
+
+*Viscosity reducing agent*
+
+Arginine derivatives
+
+–
+
+*Preservative*
+
+Benzyl alcohol
+
+Adsorption to interfaces: e.g., benzyl alcohol
+
+*Acceleration of reconstitution*
+
+Tert-butyl alcohol
+
+–
+
+
+aExcipients may have several functions
+
+
+
+
+In general, the role of excipients comprises protein stabilization, manufacturability of the product \(bulking agent, viscosity reducing agent\), assurance of tolerability in humans \(buffer system, tonicifier\), assurance of correct and safe drug administration, as well as providing in-use stability \(preservatives, acceleration of reconstitution, surfactants, viscosity reducing agent\). Importantly, excipients may perform several functions simultaneously.
+
+In particular for freeze-dried formulations, the choice of excipients is also linked to lyophilization process performance, as discussed in the following sections. The quantitative composition of a formulation, such as the total solid content or the protein to sugar ratio, in combination with the fill volume, significantly influences the lyophilized cake resistance and ultimately lyophilization process performance and resulting critical quality attributes, such as cake appearance, residual moisture, and reconstitution time.
+
+#### ***1.1.1 ***Protein Stabilization
+
+For freeze-dried formulations, excipients first need to stabilize the protein in the solution before lyophilization, then during the freeze-drying process, and finally during the drug product transport and storage in the dried state.
+
+Buffers are utilized to protect against significant pH change, which might otherwise compromise protein folding and thus bioactivity. Protein formulations are typically prepared several pH units away from their isoelectric point to avoid protein aggregation based on electric repulsion. In many cases, the selection of pH is a compromise between physical and chemical stability as screened during formulation development activities, along with physiological tolerability, as outlined further below. For monoclonal antibodies, the pH of a typical formulation ranges between 5 and 7. Additionally, for freeze-dried formulations, buffer systems should not crystallize during freezing, thereby losing their function, as in the case of phosphate or succinate buffers \[2–4\].
+
+Surfactants are amphiphilic molecules and an important component of protein formulations. They protect the protein against various types of interfacial stress by preferentially occupying the same competing sites, thus protecting the protein. Surfactants prevent protein adsorption during the fill-finish process in the liquid state, for example to sterile filters or tubing, and protect against perturbation at the liquid–air interface. During the freezing and drying process, as well as during subsequent storage, surfactants are of minor relevance for freeze-dried formulations, and can thus be used in lower concentrations compared to equivalent liquid formulations. For parenteral dosage forms, there are only a small number of approved surfactants \(e.g., polysorbate 20, polysorbate 80, solutol, and poloxamer 188\). Each of them presents its particular challenges. Polysorbates are prone to oxidative and hydrolytic degradation, the latter likely caused by enzymes, which are residual host cell proteins from the drug substance manufacturing process \[5–7\] and poloxamer may form visible particles with protein aggregates and silicone, as has been recently reported \[8\]. As these are long-term events and typically occur over the product’s shelf-life in the liquid state, surfactant degradation is of minor relevance for freeze-dried formulations. However, surfactants are important during drug administration in the case of further dilution of the product into infusion bags, in order to prevent protein adsorption; this scenario is elaborated upon further below.
+
+Oxidation events are accelerated in liquid solution compared to freeze-dried formulations. Nevertheless, antioxidants such as methionine may be added to the formulation to protect the protein against oxidative stress, including during the fill-finish process as a result of potential residual hydrogen peroxide from decontamination cycles in the manufacturing area. Antioxidants may also be added to protect other excipients from oxidation.
+
+In freeze-dried formulations, excipients need to stabilize the protein during both the freezing and drying processes. While cryo-concentration to the maximum freeze concentrate leads to both molecular crowding and interfacial stress through the generation of new ice/formulation interfaces, the drying step creates stress on the protein by sublimation and desorption of the ice layer or remaining adsorbed water. In particular, the disruption of hydrogen bonds between the water/ice molecules and the protein may lead to protein unfolding. The most common excipients established over the past decades for protein stabilization are sugars, such as sucrose and trehalose. These excipients are thought to stabilize the protein by preferential exclusion, vitrification, and water replacement, as elaborated upon in subsequent sections. The use of reducing sugars is discouraged due to their ability to glycate the protein \[9\]. Excipients in lyophilized formulations influence the glass transition temperature of the maximally freeze-concentrated liquid \(*T*g’\), the collapse temperature \(*T*c\) during the lyophilization cycle, and the glass transition temperature of the freeze-dried product after lyophilization \(*T*g\) and are thus relevant also from a processing perspective. *T*g’ and *T*c help optimize lyophilization cycle time obtaining short lyophilization cycles while maintaining lyophilized cake integrity \[10\]. *T*g is relevant for product storage temperature, as outlined in more detail in Sect. 3. While trehalose is preferred over sucrose in terms of its higher *T*g’/*T*g, it poses challenges due to its potential for excipient crystallization in the frozen state, e.g. during drug substance storage \[11\].
+
+To further reduce lyophilization cycle time and to allow a higher product storage temperature while maintaining protein stability and elegant cake appearance, excipients such as 2-Hydroxypropyl-beta-cyclodextrin, polyvinylpyrrolidone, or dextran in mixtures with cro-/lyoprotectants such as sucrose have been explored for the purpose of increasing the glass transition and collapse temperatures \(referred to as Collapse Temperature Modifiers in Table 1\) \[10, 12, 13\]. Although dextran is a promising excipient in terms of maintaining cake appearance, it has been shown to lead to the glycation of proteins, particularly during storage at elevated temperatures \[13\].
+
+#### ***1.1.2 ***Manufacturability
+
+Cryo- and lyoprotectants are used in sufficiently high concentrations to stabilize proteins while yielding an intact lyophilized cake. However, in case of a low drug load, bulking agents may be required to produce an elegant product. Bulking agents can be sugars such as sucrose or trehalose, but other excipients may be preferred due to favorable process performance. For example, mannitol is often used, which produces elegant cakes and enables fast and easy freeze-drying cycles. However, freezs-drying of mannitol can lead to different polymorphs including amorphous and crystalline forms, with the latter impacting protein stability. An annealing step is thus recommended when using mannitol-based formulations to allow for conversion of one in the other. Furthermore, it has been recently shown that high fill volumes, fast freezing rates, and high mannitol concentrations dependent on the target freezing temperature of the mannitol-based formulations may lead to vial breakage, which can be avoided through process parameter optimization, such as annealing \[14, 15\].
+
+For concentrated protein formulations, the addition of viscosity lowering agents may be required to avoid challenges during sterile filtration, filling, or subsequent drug administration, but also during the lyophilization process due to increased viscous flow and cake resistance. High viscosity is generated by molecular crowding and particularly by non-covalent protein–protein interactions. These are typically dominated by long-term, and in many cases electrostatic interactions at moderate protein concentrations \(e.g., ~50 mg/mL\), transitioning to the domination of short-term interactions, such as hydrophobic interactions at higher protein concentrations \(e.g., ~200 mg/mL\). The former can be screened through the addition of different counter ions, and the latter by the addition of amino acids. Arginine salts and derivatives have been demonstrated to be most effective \[16–18\].
+
+#### ***1.1.3 ***Tolerability
+
+Parenteral products are typically formulated at isotonic osmolality and euhydric pH for best tolerability in patients. Tolerability, including from pain during injection, depends on the route of administration, and exemptions have been recently reviewed by Roethlisberger and colleagues \[19\]. As outlined above, euhydric conditions are adjusted by the buffer system in compromise with physical and chemical stability. In order to maintain an acid-base balance, buffer systems are abandoned for larger volumes of intravenously infused formulations due to the self-buffering capacity of the blood. Isotonicity can be obtained by different excipients. However, they are in many cases selected based on one or several additional functions. For freeze-dried formulations in particular, cryo- and lyoprotectants or bulking agents do thus qualify as tonicifiers.
+
+#### ***1.1.4 ***Drug Administration
+
+Parenteral products are typically supplied as single-use dosage forms due to microbial growth considerations. Nevertheless, drug products may also be supplied as multidose vials if potential microbial contamination during multiple withdrawl from the primary packaging container is prevented by either the addition of preservatives \[20\], by the design of the primary packaging containe, or by immediate intended user. The preparation of freeze-dried products comprises reconstitution of the product under aseptic conditions, followed by either direct injection or further dilution into infusion bags. The reconstitution time should be fast, i.e. immediate or within a few minutes, and thus be convenient for the end-user, ideally without the requirement of additional devices. In case of challenges with achieving a fast reconstitution time, an initial thorough characterization of cake structure and a close look at lyophilization process parameters and cycle performance is recommended. In addition, reconstitution can be accelerated by a reduction of headspace pressure after lyophilization. If required, reconstitution can be further expedited by the addition of excipients such as tert-butyl alcohol \[21\].
+
+In case of injection, the reconstituted formulation needs to be syringeable through typically 25–27G \(subcutaneous\) or 31G \(ocular\) needles, which may require the viscosity reducing agents as detailed above. The addition of surfactants is essential to prevent protein adsorption to the administration material during infusion.
+
+### **1.2 **Examples of Commercial Lyophilized Drug Products
+
+To exemplify the above-mentioned choice of excipients and their roles, Table 2 provides a non-exhaustive list of marketed formulations of freeze-dried biopharmaceuticals within the scope of this chapter. A complete list of parenteral, lyophilized products, including biological molecules different from monoclonal antibodies and prior to 2004 can be found in a previous publication by Constantino and Pikal \[2\]. In particular, formulation components are highlighted in Table 2, providing examples for excipients as listed in Table 1. In addition, formulation of the first biosimilars entering the European and US markets for two references products, Herceptin® and Remicade®, are summarized. 
+
+
+***Table 2*** 
+Formulation examples of lyophilized monoclonal antibody products including biosimilars derived from FDA and EMA drug search databases \[22, 23\]
+
+
+
+**Active**
+
+**Product name**
+
+**Authorization holder US/EU**
+
+**Indication class**
+
+**Formulation composition**
+
+**EMA approval date,**
+
+**Product number**
+
+**FDA approval date,**
+
+**BLA number**
+
+**Protein concentration \(mg/mL\)b**
+
+**Buffer system \(mg/mL\)**
+
+**pH**
+
+**Stabilizer**
+
+**\(mg/mL\)**
+
+\(A\) Monoclonal antibodies
+
+Basiliximab
+
+Simulect \[24\]
+
+Novartis
+
+Acute organ rejection
+
+4
+
+KH2PO4 \(1.4\), Na2HPO4 \(0.2\)
+
+–d
+
+NaCl \(0.32\), Sucrose \(4\), Mannitol \(16\), Glycine \(8\)
+
+09.10.1998
+
+EMEA/H/C/000207
+
+12.5. 1998
+
+103764
+
+Palivizumab
+
+Synagis \[25\]
+
+Abbvie \(EU\), MedImmune \(US\)
+
+Respiratory tract disease
+
+100
+
+L-Histidine \(7.3\)
+
+–d
+
+Mannitol \(56\), Glycine \(0.23\)
+
+13.8.1999
+
+EMEA/H/C/000257
+
+19.6.1998
+
+103770
+
+Omalizumab
+
+Xolair \[26\]
+
+Novartis \(EU\)/Genentech/Roche \(US\)
+
+Asthma
+
+125
+
+L-Histidine-HCl·H2O \(2.1\),
+
+L-Histidine \(1.3\)
+
+–d
+
+Sucrose \(108\), Polysorbate 20 \(0.37\)
+
+25.10.2005 EMEA/H/C/000606
+
+20.06.2003 103976
+
+Certolizumab pegola
+
+Cimizia \[27\]
+
+UCN
+
+Inflammatory disease
+
+200
+
+Lactic acid \(0.9\)
+
+5.2
+
+Sucrose \(100\), Polysorbate \(0.1\)
+
+01.10.2009EMEA/H/C/001037
+
+22.04.2008
+
+125160
+
+Canakinumab
+
+Ilaris \[28\]
+
+Novartis
+
+Inflammatory disease
+
+150
+
+L-Histidine·HCl·H2O \(1.7\), L-Histidine \(2.8\)
+
+–d
+
+Sucrose \(92\), Polysorbate 80 \(0.60\)
+
+23.10.2009 EMEA/H/C/001109
+
+17.06.2009 125319
+
+Pembrolizumab
+
+Keytruda \[29\]
+
+Merck Sharpe Dohme
+
+Cancer
+
+25
+
+L-Histidine \(1.6\), HCl q.s., NaOH q.s.
+
+5.5
+
+Sucrose \(70\), Polysorbate 80 \(0.20\)
+
+\(positive opinion\) 28.02.2021 EMEA/H/C/003820
+
+04.09.2014 125514
+
+Secukinumab
+
+Cosentyx \[30\]
+
+Novartis
+
+Inflammatory disease
+
+150
+
+L-Histidine·HCl·H2O/ L-Histidine \(4.7\)
+
+5.8
+
+Sucrose \(92\), Polysorbate 80 \(0.60\)
+
+14.01.2015 EMEA/H/C/003729
+
+21.01.2015 125504
+
+Mepolizumab
+
+Nucala \[31\]
+
+GlaxoSmithKline
+
+Asthma
+
+100
+
+Na2HPO4·7H2O \(7.1\)
+
+7.0
+
+Sucrose \(160\), Polysorbate 80 \(0.67\),
+
+01.12.2015 EMEA/H/C/003860
+
+04.11.2015 125526
+
+\(B\) Antibody-Drug conjugates
+
+ado-Trastuzumab Emtansine
+
+Kadcyla \[32\]
+
+Genentech/Roche
+
+Cancer
+
+20
+
+Sodium succinate \(1.6\)
+
+5.0
+
+Sucrose \(60\), Polysorbate 20 \(0.2\)
+
+15.11.2013 EMEA/H/C/002389
+
+22.02.2013
+
+125427
+
+Gemtuzumab ozogamicin
+
+Mylotarg \[33\]
+
+Pfizer \(EU\) /\[5–7\]Wyeth \(US\)
+
+Cancer
+
+1
+
+NaH2PO4 \(0.6\), Na2HPO4·H2O \(0.1\)
+
+–d
+
+Dextran 40 \(9.1\), Sucrose \(16\), NaCl \(5.8\)
+
+19.04.2018 EMEA/H/C/004204
+
+01.09.2017 761060
+
+fam-Trastuzumab Deruxtecan-nxki
+
+Enhertu \[34\]
+
+Daiichi Sankyo
+
+Cancer
+
+20
+
+L-Histidine \(0.89\), L-Histidine-HCl·H2O \(4.0\)
+
+5.5
+
+Sucrose \(90\), Polysorbate 80 \(0.38\)
+
+18.01.2021 EMEA/H/C/005124
+
+20.12.2019
+
+761139
+
+\(C\) Biosimilars and reference products
+
+Trastuzumabc
+
+Herceptin \[35\]
+
+Genentech/Roche
+
+Cancer
+
+21
+
+L-Histidine-HCl·H2O \(0.31\), L-Histidine \(0.47\)
+
+6.0
+
+α,α-Trehalose·2H2O \(19\), Polysorbate 20 \(0.09\)
+
+28.08.2000 EMEA/H/C/000278
+
+25.09.1998
+
+103792
+
+Biosimilar of Trastuzumabc
+
+Ontruzant \[36\]
+
+Samsung Bioepis
+
+Full set or subset of indications of Herceptin \(reference product\)
+
+21
+
+L-Histidine-HCl·H2O \(0.48\), L-Histidine \(0.31\)
+
+6.0
+
+α-α-Trehalose·2H2O \(19\), Polysorbate 20 \(0.08\)
+
+15.11.2017 EMEA/H/C/004323
+
+18.01.2019 761100
+
+Herzuma \[37\]
+
+Celltrion
+
+21
+
+L-Histidine·HCl \(0.48\), L-Histidine \(0.31\)
+
+6.0
+
+α-α-Trehalose·2H2O \(42\), Polysorbate 20 \(0.09\)
+
+08.02.2018 EMEA/H/C/002575
+
+14.12.2018
+
+761091
+
+Kanjinti \[38\]
+
+Amgen
+
+21
+
+L-Histidine-HCl·H2O \(0.48\), L-Histidine \(0.31\)
+
+6.0
+
+α-α-Trehalose·2H2O \(19\), Polysorbate 20 \(0.09\)
+
+16.05.2018 EMEA/H/C/004361
+
+13.06.2019
+
+761073
+
+Trazimera \[39\]
+
+Pfizer
+
+21
+
+L-Histidine-HCl·H2O \(0.48\), L-Histidine \(0.40\)
+
+–d
+
+α-α-Trehalose·2H2O \(19\), Polysorbate 20 \(0.09\)
+
+26.07.2018 EMEA/H/C/004463
+
+11.03.2019
+
+Ogivri \[39, 40\]
+
+Mylan
+
+21
+
+L-Histidine·HCl·H2O \(0.47\), L-Histidine \(0.3\)
+
+6.0
+
+D-Sorbitol \(16\), PEG 3350 \(4.7\)
+
+12.12.2018 EMEA/H/C/004916
+
+01.12.2017
+
+761074
+
+Zercepac \[41\]
+
+Accord Healthcare
+
+L-Histidine·HCl·H2O, L-Histidine
+
+–d
+
+α-α-Trehalose·2H2O, Polysorbate 20
+
+27.07.2020 EMEA/H/C/005209
+
+–
+
+Infliximab
+
+Remicade \[42\]
+
+Janssen Biologics \(EU\)/Centocor \(US\)
+
+Inflammatory disease
+
+NaH2PO4 H2O \(0.22\), Na2HPO4·2H2O \(0.61\)
+
+7.2
+
+Sucrose \(50\), Polysorbate 80 \(0.05\)
+
+13.08.1999 EMEA/H/C/000240
+
+24.08.1998 103772
+
+Biosimilar of Infliximab
+
+Inflectra \[43\]
+
+Pfizer \(EU\)/Celltrion \(US\)
+
+Full set or subset of indications of Remicade \(reference product\)
+
+10
+
+NaH2PO4·H2O \(0.22\), Na2HPO4·2H2O \(0.61\)
+
+7.2
+
+Sucrose \(50\), Polysorbate 80 \(0.05\)
+
+09.09.2013 EMEA/H/C/002778
+
+05.04.2016 125544
+
+Remsima \[44\]
+
+Celltrion
+
+10
+
+NaH2PO4 ·H2O, Na2HPO4 2H2O
+
+–d
+
+Sucrose, Polysorbate 80
+
+10.09.2013 EMEA/H/C/002576
+
+–
+
+Flixabi \(EU\)/Renflexis \[45\] \(US\)
+
+Samsung Bioepis
+
+10
+
+NaH2PO4·7H2O \(0.26\), Na2HPO4 H2O \(0.56\)
+
+6.2
+
+Sucrose \(50\), Polysorbate 80 \(0.05\)
+
+26.05.2016 EMEA/H/C/004020
+
+21.04.2017 761054
+
+Zessly \[46\]
+
+Sandoz
+
+10
+
+Disodium succinate·6H2O, Succinic acid
+
+–d
+
+Sucrose, Polysorbate 80
+
+18.05.2018 EMEA/H/C/004647
+
+–
+
+Ixifi \[47\]
+
+Pfizer
+
+10
+
+Disodium succinate hexah ydrate \(1.2\), succinic acid \(0.06\)
+
+6.0
+
+Sucrose \(25\), Polysorbate 80 \(0.05\)
+
+–
+
+13.12.2017 761072
+
+Avsola \[48\]
+
+Amgen
+
+10
+
+NaH2PO4 \(0.49\), Na2HPO4·H2O \(0.22\)
+
+7.2
+
+Sucrose \(50\), Polysorbate 80 \(0.05\)
+
+–
+
+06.12.2019 731086
+
+
+\(A\) Monoclonal antibodies. Monoclonal antibodies with existing biosimilars are listed under C. \(B\) Antibody-Drug Conjugates. \(C\) Biosimilars and reference products. For certain products, the quantitative composition is not disclosed, as indicated by a dash
+
+*q.s.* quantity sufficient
+
+aPegylated Fab fragment
+
+bProtein concentration after reconstitution
+
+cTrastuzumab is either supplied as a single-dose 150 mg vial or a multidose 440 mg dose strength vial. The multidose vial is co-packaged with Bacteriostatic Water for Injection, USP, containing 1.1% Benzyl alcohol as a preservative. If reconstituted with Sterile Water for Injection without a preservative, the reconstituted solution is considered single-dose
+
+dData not available
+
+
+
+
+Table 2 shows that the majority of commercial antibody-based formulations comprise a histidine or phosphate buffer at pH values between 5.0 and 7.2 in combination with sucrose or trehalose as a cryo/lyoprotectant/tonicifer, and a polysorbate as a stabilizer. Some formulations are composed of mannitol, glycine, or dextran as a bulking agent. Interestingly, biosimilar formulations of the same reference product are not identical, and for example include stabilizers such as sorbitol and glycine as in the case of Infliximab Biosimilars Zessly® and Ixifi®.
+
+## **2 **In-Process and Storage Stability of Proteins: Stabilization During Freezing, Drying, and Storage
+
+### **2.1 **Theoretical Considerations
+
+The stabilizing mechanism of proteins during lyophilization and subsequent storage in the dried state can generally be described by following three concepts:
+
+
+
++ 
+*Water replacement theory* describes the thermodynamic stabilization of a protein’s native structure . According to this theory, excipients interact with the protein to form hydrogen bonds, thereby acting as a substitute for water molecules being removed during drying. A monolayer of the excipient around the protein’s surface is required to replace water at all hydrogen bonding sites in order to sufficiently stabilize the protein. A minimum molar ratio of excipient to protein of 360:1 is generally required to ensure protein stability in freeze-dried products \[49, 50\].
+
++  
+*Glass dynamics and vitrification theory* describes the kinetic stabilization, in which the protein is immobilized in a glassy matrix of amorphous excipients. Vitrification has been suggested to contribute to protein stability during freezing and drying, as well as storage in the dried state \[51–53\]. More precisely, this mechanism describes stabilization by reduced mobility as a result of an increase in viscosity \(through freeze-concentration and temperature reduction during freezing and through water removal during drying\), thus slowing down the dynamic degradation processes. This immobilization due to increased viscosity is related to the glass transition, which for a maximally freeze-concentrated solution is referred to as *T*g’. The glass transition temperature in the dried state is referred to as *T*g and represents global mobility \(*α* relaxations or slow motions\). More recently, multiple studies have corroborated the importance of local mobility \(*β* relaxation or fast motions\) in the solid state \[54, 55\]. The roles of local and global mobility with regard to protein stability in the dried state will be discussed more thoroughly in Sect. 3.5 below.
+
++  
+*Preferential exclusion theory* developed by Timasheff et al. describes thermodynamic stabilization of proteins, where solutes are excluded from the protein surface, thereby keeping the protein preferentially in its hydrated form \[56\]. While this mechanism primarily describes protein stabilization by co-solutes in the liquid state, it also contributes to protein stability at the beginning of the freezing step, when the solution has not yet been vitrified \[57\].
+
+
+
+
+### **2.2 **Practical Considerations
+
+Vitrification and water replacement theory are both relevant for protein stability in the dried state. This paramount importance of both theories has been demonstrated in a study by Tonnis et al. \[58\]. They investigated an antibody lyophilized with different types of sugars: the disaccharide trehalose, inulin 4 kDa as a flexible oligosaccharide, and with dextrans of different molecular weights. All formulations were stored at 60 °C, which was well below their glass transition temperatures \(*T*g\), thus stabilizing through vitrification. Still, a difference in stability was observed among the formulations, which could not be explained by vitrification. Each excipient had hydroxyl groups and is thus expected to stabilize via water replacement. This study showed that vitrification alone is not enough to ensure protein stability. Additionally, the study provided a further refinement of the water replacement theory, highlighting the importance of steric hindrance. Steric properties of the excipient are an important parameter to determine if a sugar is able to stabilize via water replacement. Tonnis et al. found that flexible sugars are better stabilizers compared to rigid sugars, which lack the ability to form a close monolayer around the protein’s surface. The relevance of steric hindrance with regards to protein interaction becomes increasingly important as the size of the sugar molecule increases. Finally, the study by Tonnis et al. suggested that protein stability is determined by water replacement rather than vitrification. This is consistent with the literature, which states that protein stability at storage temperatures 10–20 °C below the glass transition temperature is determined by vitrification, whereas at temperatures far below the *T*g, water replacement is the predominant mechanism \[52\].
+
+This interplay of water replacement, steric hindrance, and vitrification is further demonstrated by the data shown in Fig. 1. Upon lyophilization of an antibody formulated either with the disaccharide sucrose or the flexible oligosaccharide 2-hydroxypropyl-betacyclodextrin \(HPβCD\) at molar protein to sugar ratios of 1:3485 and 1:794, respectively, the antibody formulation is well stabilized. In contrast, when formulated with the rigid polysaccharide dextran 500 kDa at a molar ratio of 1:3068 \(calculated based on the glucose units\), an increase in soluble aggregates was observed, suggesting an impact of steric hindrance. However, when a mixture of dextran 500 kDa and sucrose was used, the small disaccharide \(molar sucrose to protein ratio >360:1\) was able to closely interact with the protein via hydrogen bonds, whereas dextran can stabilize via vitrification. Stability data after storage for 9 months at 40 °C demonstrated the importance of vitrification. *T*g of the sucrose formulation was ~43 °C \(residual moisture ~4%\), whereas *T*g of the formulation with HPβCD was ~200 °C. Thus, when stored at 40 °C, the antibody in the sucrose formulation was not sufficiently immobilized and displayed high aggregation, whereas much less aggregation was observed with the HPβCD formulation stored well below its *T*g. 
+![](images/000000.gif)
+
+
+***Fig. 1*** 
+Soluble aggregates by size-exclusion chromatography before lyophilization \(pre-FD\) and after lyophilization \(post-FD\) shown for 10 mg/mL monoclonal antibody formulated with a total of 80 mg/mL sugars. \(Disclaimer: Data was collected in different experiments as part of a PhD thesis \[59\]\)
+
+
+
+### **2.3 **Excipient Properties and their Relevance for the Lyophilization Process
+
+Lyophilization is a costly and time-consuming drug product manufacturing process. Therefore, an optimal lyophilization development process aims to develop short lyophilization cycles, rendering elegant lyophilizates while ensuring the protein’s stability. To do so, one prerequisite is the knowledge of the formulation’s *T*g’, which is an important characteristic for the design of the lyophilization process.
+
+#### ***2.3.1 ***Analysis of Excipient Properties
+
+*T*g’ is typically determined using differential scanning calorimetry \(DSC\), by comparative measurement of heat capacities of a sample and a reference pan during cooling and heating cycles. In contrast to other endothermic \(e.g., melting\) or exothermic \(e.g., crystallization\) events, the glass transition is not a phase change but a kinetic phenomenon that can be detected as a step in the baseline due to a change in heat capacity. In general, the higher the heating or cooling rate, the higher the sensitivity to detect the soft step during a DSC measurement. However, a faster rate involves a broadening of the step and typically shifts the glass transition temperature to higher temperatures \[60\]. It might thus be helpful to first perform a screen at higher rates of e.g., 5 °C/min or 10 °C/min, followed by a second run at lower heating and cooling rates \(e.g., 1–3 °C/min\) for accurate determination of *T*g’. For lyophilization process development, in addition to DSC measurements, freeze-drying microscopy is often used to determine the collapse temperature \(*T*c\) of the formulation. As mentioned above, DSC can also determine crystallization events such as eutectic temperature \(*T*eu\), which becomes important in the case of crystalline bulking agents such as mannitol.
+
+After lyophilization, X-ray powder diffraction \(XRPD\) may be needed as an additional technique to characterize the lyophilizate’s morphology when crystalline excipients such as mannitol are used, which can form different polymorphs that can also be determined using XRPD.
+
+Crystalline excipients are often used to overcome challenges related to low glass transition temperatures of sucrose- or trehalose-based formulations, particularly for low concentration protein formulations, but do add additional complexity, not only by requiring additional analytics, but also to the lyophilization process.
+
+#### ***2.3.2 ***The Link Between Excipient Properties and Lyophilization Process Parameters
+
+##### ***2.3.2.1 ***Freezing
+
+*T*g’ of the formulation significantly influences the freezing and primarily the primary drying step of a lyophilization cycle. For the freezing step, it is important to select a final freezing temperature that is below *T*g’ for an amorphous formulation and/or below *T*eu for a eutectic formulation, including an adequate hold time to ensure complete solidification of the protein before moving into the primary drying step. Therefore, the lower the *T*g’ of a formulation, the lower the final freezing temperature should be.
+
+##### ***2.3.2.2 ***Annealing Prior to Primary Drying
+
+Annealing describes a thermal treatment introduced into the freezing protocol where samples are held above the *T*g’ and below the ice melt temperature for a defined period of time \[61\]. This step is often applied in cases where a crystalline bulking agent such as mannitol is used, since its crystallization is promoted through annealing. When used as a bulking agent, full crystallization of mannitol must be ensured to allow for drying below its eutectic temperature and to ensure that protein stability during subsequent storage is not compromised. If mannitol remains in its amorphous form during lyophilization, it interacts and stabilizes the protein. Mannitol crystallizing upon storage can no longer interact with the amorphous protein and thus compromises protein stability.
+
+##### ***2.3.2.3 ***Primary Drying
+
+The temperature at which collapse \(loss of structure\) during primary drying is observed is referred to as the collapse temperature \(*T*c\). During primary drying, where water is removed via sublimation, the product temperature in the steady state of primary drying should be maintained below *T*g’ or at least below *T*c. If primary drying is carried out above *T*g’ and/or *T*c, viscous flow is induced that may lead to collapse of the lyophilized product. Collapse is an undesirable quality attribute with regards to cake appearance and should thus be avoided \[62\]. Collapse may \[12\] or may not \[63\] impact protein stability, depending on the extent of collapse. It is therefore recommended to select primary drying conditions that result in a product temperature below *T*c. However, for commonly used cryo−/lyoprotectants such as sucrose and trehalose, this leads to lengthy and thus costly lyophilization processes due to low *T*g’ of these disaccharides.
+
+For highly concentrated antibody formulations, the low *T*g’ of the sugar is compensated by the high *T*g’ of the protein itself. Moreover, due to increasing viscosity with higher antibody concentrations, the delta between *T*g’ and *T*c increases \[64\]. Colandene et al. found complete collapse at around 13 °C above the *T*g’ for a 100 mg/mL protein formulation \[65\]. While for highly concentrated protein formulations, lyophilization above *T*g’ might thus be possible, for low viscous formulations, *T*g’ and *T*c are typically very similar \(*T*c 1–3 °C above *T*g’\). In order to enable fast lyophilization processes for low concentration protein formulations, bulking agents such as mannitol are often added to the formulation to compensate for the low *T*g’ of the amorphous formulation. Bulking agents are often crystalline compounds such as mannitol, which do not contribute to protein stability, but do render elegant lyophilizates. Recently, Horn et al. investigated crystalline amino acids as alternative bulking agents to mannitol. Such bulking agents could be superior to mannitol, as they can be added at much lower concentrations compared to mannitol in exchange for a higher stabilizer content, while still showing full crystallization \[66\]. However, such excipients often require annealing to ensure full crystallization, thus adding additional complexity to the lyophilization process.
+
+##### ***2.3.2.4 ***Secondary Drying
+
+Secondary drying is performed to remove the unfrozen, bound water by desorption, and achieve low residual moisture, typically <1% \[67, 68\]. Low residual moisture is important to ensure protein stability during subsequent storage in the dried state. Higher residual moisture is negatively correlated with *T*g of the lyophilized product \[69\] and thus results in increased global mobility, which is detrimental to protein stability \[52, 70\].
+
+### **2.4 **General Formulation “Rules” for Freeze Drying
+
+Excipient selection influences lyophilization process design and impacts process performance. In addition, the following aspects should be considered for lyophilized formulations: 
+
++ 
+Protein to sugar ratio
+
++  
+Total solid content
+
++  
+Fill height
+
+
+
+
+The impact of the protein to sugar ratio to ensure protein stability has already been discussed. Additionally, this ratio impacts the total solid content of the formulation, which, in turn, impacts lyophilization process performance. A higher solid content generally promotes a higher degree of supercooling, resulting in many pores that are typically small in size and therefore display higher dry layer resistance \[71\]. A higher dry layer resistance limits the mass transfer and therefore increases the primary drying time. In terms of manufacturability, a lower total solid content is generally preferred. Therefore, for higher protein concentrations, bulking agents that do not contribute to protein stability and also cryo-/lyoprotectant concentrations beyond what is needed for protein stability should be avoided.
+
+Similar to higher solid content, a high fill volume also increases dry layer resistance. During sublimation, as the dried portion in the vial increases, a thicker dry layer is obtained, which leads to high cake resistance. This generally requires longer primary drying times and may even lead to issues such as meltback and/or significant cake shrinkage, unless an optimization of the drying condition is performed. An appropriate vial size with regard to fill volume should be selected. As a rule of thumb, fill volumes of more than half the vial size should be avoided \[72\].
+
+### **2.5 **Solid State Dynamics
+
+Lyophilized protein formulations may be amorphous or crystalline in nature, depending on the formulation composition and/or lyophilization processing conditions. Amorphous formulations lack long range order and therefore generally have higher reactivity in the solid state compared to the crystalline formulations \[73\]. In general, lyophilized formulations of biologics \(e.g., monoclonal antibodies\) are amorphous in nature.
+
+Apart from the formulation composition, glass dynamics also impact stability of a lyophilized protein formulation. Dynamics may be global \(*⍺*-relaxation\) or local \(*β*-relaxation\) in nature.
+
+Glass transition temperature, *T*g, is an indicator of global molecular mobility and has traditionally been used to predict the stability in the solid state for amorphous formulations. As stated previously, *T*g marks the onset of viscous flow. Below *T*g, the amorphous formulation behaves as an immobile glassy solid, while above *T*g, the amorphous formulation transitions to a rubbery or “fluid like” state. In many cases, good correlation has been observed between *T*g and solid-state stability. Duddu et al. highlighted the importance of *T*g relative to storage temperature. A sucrose formulation \(*T*g = ~59 °C\) showed instability at 60 °C, unlike the trehalose formulation \(*T*g = ~80 °C\) \[74\]. In other cases, however, poor correlations have been observed. For example, higher *T*g excipients such as dextran, did not display better stability than glass with lower *T*g for an anti-IL-1 antibody formulation \[75\]. Similarly, an additional small amount of plasticizers \(e.g., sorbitol\) decreased the *T*g, but improved the stability of an IgG1 antibody protein formulation \[68\].
+
+Global mobility may also be assessed as structural relaxation time \(τ\), and in certain studies, better correlation with τ has been observed \[76\]. τ is a measure of molecular mobility in enthalpy relaxation, and represents dynamics of amorphous solids. Structural relaxation represents glass relaxation from an amorphous “glassy” state to a supercooled state. The Kohlrausch-William-Watts \(KWW\) equation represents structural relaxation as: 
+
+
+
+![$$ \phi (t)=\exp \left[-{\left(\frac{t}{\tau}\right)}^{\beta}\right] $$](images/000001.jpeg)
+
+
+\(1\)
+
+
+Where τ represents the structural relaxation time and *β* is the stretch function representing the distribution of relaxation states \[77\].
+
+Formulations having higher τ would represent better stability. However, in many cases, a poor correlation with the structural relaxation parameter has been observed, whereas local \(fast\) motion has been correlated with stability behavior. Local \(fast\) motion may dominate molecular mobility at temperatures below *T*g. Fast dynamics have been characterized by multiple techniques, including neutron scattering, which measures the mean square amplitude of hydrogen motion over a nanosecond time scale, by solid state NMR \(ssNMR\) measuring lattice spin relaxation time, or by Positron Annihilation Lifetime Spectroscopy \(PALS\), which measures the free volume as a function of positron lifetime.
+
+Multiple studies have evaluated fast local motion \(*β* relaxation\), correlating with the storage stability of lyophilized protein formulations. Wang et al. evaluated the impact of sucrose levels on the storage stability of proteins to understand protein stabilization by disaccharides. The physical stability of proteins increased with increasing sucrose content. Fast local mobility by neutron backscattering and free volume by density measurement decreased with an increased sucrose level in the formulations, matching with the trends in stability \[78\]. Chang et al. similarly evaluated the impact of formulations with sucrose, trehalose, or a mixture of sorbitol with sucrose or trehalose. Structure *α*-relaxation time, τ, as an indicator of molecular mobility was also characterized. The addition of a small amount of sorbitol to a sucrose-based formulation led to higher retention of the native structure, lower relaxation time, and an improved stability. With trehalose-based formulations, sorbitol had no effect on protein structure, but displayed decreased relaxation time and increased stability similar to the sucrose formulation. Stability correlated with the preservation of native structure for the sucrose-based formulation, but for the trehalose-based formulation, structure relaxation time or native structure could not predict stability. It was hypothesized that the fast \(*β*\) relaxation rather than the slow global \(*⍺*\) relaxation might be more critical to stability \[68\].
+
+Chieng et al. tested lyophilized formulations of human growth hormone, as amorphous hydroxyethylstarch/disaccharide \(sucrose or trehalose\) formulations, both with and without added polyols \(sorbitol and glycerol\), and measured “free volume” by true density measurement, fast dynamics \(local mobility\) by neutron backscattering and PALS. Free volume changes, fast dynamics local motion and PALS hole size data all correlated with the stability of hydroxyethylstarch/disaccharide systems \[79\].
+
+ssNMR is another method for studying protein dynamics in the lyophilized state, along with characterizing fast motions in lyophilized protein formulations. Spin-lattice relaxation time \(*T*1, ns-s timescale\), spin lattice relaxation time in rotating frame \(*T*1*⍴*, s-ms timeframe\) and spin-spin relaxation time \(*T*2, ms-s timeframe\) have all been used to determine fast motions and in turn, provide information on molecular mobility in the solid state. Yoshioka et al. evaluated ssNMR spin-spin relaxation time \(*T*2\) of protons in lyophilized bovine serum albumin \(BSA\) and γ-globulin \(BGG\) as a function of hydration level. Lyophilized BSA and BGG were susceptible to aggregation when the water content was greater than 0.2 g/g of protein. *T*2 of protons of protein in lyophilized cakes increased with lower water content. An increase in aggregation susceptibility observed with increasing water content followed an increase in *T*2 of protons in proteins \[80\]. Mensink et al. similarly evaluated ssNMR relaxation time \(as a measure of fast motions\) of an IgG model protein and sugar \(trehalose, inulin, and dextran\) to correlate with protein storage stability. Miscibility was evaluated by comparing ssNMR relaxation time at two-time scales to provide information on miscibility on 2–5 nm and 20–50 nm length scales. Similar relaxation times suggested miscibility. Smaller sugars \(e.g., trehalose\) showed better miscibility with IgG protein, suggesting good interaction between smaller sugars and proteins. Larger sugars \(e.g., inulins and dextran\) performed worst and phase separate on NMR length scales \[81\].
+
+Solid state hydrogen-deuterium exchange \(ssHDX\) has also been used to correlate with stability in the lyophilized state. Protein in a lyophilized powder is exposed to deuterium oxide under defined humidity and temperature. The level of deuteration reflects the protein-excipient interaction as well as conformational stability. Moorthy et al. evaluated ssHDX-MS for myoglobin formulations and correlated ssHDX-MS trends with storage stability in the solid state. A sucrose formulation showed lower deuterium uptake and better stability than a formulation with mannitol or sodium chloride. ssHDX-MS exchange also decreased with increasing sucrose content, and correlated well with stability. In contrast, the stability trend did not correlate with band intensity of Fourier-Transform Infrared \(FTIR\) Spectroscopy \[82\]. In other studies, ssHDX-MS trends correlated well with the stability of monoclonal antibodies \[83, 84\].
+
+In a study for bovine serum albumin and recombinant human serum albumin, the addition of small electrolytes \(LiCl, NaCl, KCl, RbCl, and CsCl\) improved formulation stability. No correlation with secondary structure or global mobility was observed. However, a good correlation was observed between stability and fast dynamics by neutron backscattering or PALS \[85\].
+
+With the advent of newer techniques, understanding fast motion and its correlation with stability of protein formulation is gaining considerable interest. A comprehensive understanding of both global and local motion may ultimately help the formulator and process engineers develop an optimal lyophilized formulation.
+
+## **3 **Product Quality Attributes
+
+From a regulatory perspective, lyophilized products must comply with the quality requirements for parenteral products. Quality requirements for lyophilized products can be further differentiated as requirements post-reconstitution and in the dry solid state. Typical pharmacopoeial tests post-reconstitution include sterility, endotoxin and microbial limits, particulate matter, color, opacity, pH, purity, potency, and container closure integrity \(CCI\). For the dry lyophilized product, uniformity of dosage unit, visual appearance \(e.g., color and texture\), reconstitution time, and moisture levels are listed \[86–89\].
+
+During product and process development studies, product attributes affecting the desired product quality are identified as critical. Critical quality attributes \(CQAs\) need to be monitored and/or controlled according to the predefined control strategy. According to ICH Q8 \[90\], a critical quality attribute is a physical, chemical, biological or microbiological property or characteristic that should be within an appropriate limit, range, or distribution to ensure the desired product quality. The desired product quality, in turn, is driven by the need for a safe and efficient drug product.
+
+Typical pharmacopoeial tests, as mentioned above, are performed to test potential critical quality attributes \(pCQAs\) for lyophilized products. Besides stability, cake appearance and residual moisture are particularly indicative of process robustness.
+
+There is not much guidance available for pCQAs of the dried lyophilized products. According to 21CFR610.13, *each lot of dried product shall be tested for residual moisture* *and shall meet and not exceed established limits as specified by an approved method on file in the biologics license application* \[91\]. In the subsection below, guidance on what needs to be considered to set moisture limits, which ensure product quality and thus its safety and efficacy, is elaborated upon. In the subsection “Finished product testing for lyophilized products” of the FDA *Guide to inspections of* *lyophilization* *of parenterals* \[92\], only cake appearance, or more precisely “meltback,” is mentioned besides moisture content in relation to product stability. Furthermore, meltback is correlated with stability issues due to higher moisture and dosing challenges, because a higher reconstitution time at the user stage could lead to incomplete dissolution.
+
+The following section focuses on product attributes for the lyophilized product before reconstitution; moisture content, specific surface area \(SSA\), cake appearance and reconstitution time are discussed with regard to their impact on product stability and lyophilization process robustness.
+
+### **3.1 **Residual Moisture
+
+#### ***3.1.1 ***Impact of Water on Protein Stability
+
+Water and proteins interact on a molecular level, involving hydrophilic, hydrophobic, and ionic groups of the protein. Near hydrophobic regions of proteins, water molecules form well-ordered water clusters. In contrast, with specific polar groups, hydrogen bonds are formed. In an aqueous solution, water molecules without direct contact to the protein \(bulk phase\) behave as free water without impact on protein molecules \[93, 94\].
+
+Based on various intramolecular interaction mechanisms of proteins with water, the binding of water to protein molecules can be separated into three regions: 
+
++ 
+First, water molecules bind to highly active sites, i.e. charged and polar groups, and form a monolayer around the protein.
+
++  
+Second, a transition period from monolayer to multilayer occurs when water molecules interact with weaker sorption sites, such as the peptide backbone or polar groups that are laid open due to the swelling effects.
+
++  
+Third, the multilayer region in which water molecules condense at weak binding sites and *layering of loosely held water* occurs \[93–95\].
+
+
+
+
+The occurrence of the different layers is dependent on available water, thus the moisture content. During freeze-drying, first the frozen bulk water sublimes. Next, the water surrounding the protein molecules \(as multilayer\) is removed, while a residual monolayer remains around the protein. Further drying will also remove the monolayer water \[93\].
+
+It is assumed that monolayer water displays low thermodynamic activity due to its strong interaction with the protein molecule. Accordingly, multilayer water is thought to retain higher free water activity than the monolayer water, depending on its distance to the protein molecule. Therefore, it is not the absolute residual water content that determines protein stability, but rather the amount of water with high water activity. Transferring the water activity concept to the role of residual moisture in lyophilized protein pharmaceuticals, a low residual moisture content should be beneficial by reducing the probability of chemical reactions, such as cleavage, oxidation, deamidation, denaturation, or aggregation. In turn, with a higher residual moisture content, the probability of chemical reactions increases due to increased conformational flexibility of the protein molecule, mobility of water, and availability of water as a reaction partner, e.g., for hydrolytic reactions. Additionally, water may act as a plasticizer and decrease the glass transition temperature, resulting in higher mobility \[93–95\], as elaborated upon in detail above.
+
+The appropriate level of moisture to maintain protein stability varies from product to product and is also dependent on the protein and its degradation pathways. Table 3 lists and describes relevant case studies investigating the impact of moisture content on protein stability. From these studies, it can be concluded that moisture content needs to be carefully balanced. On the one hand, excessive drying may cause removal of structural water and thus expose the protein surface, which can result in aggregation and loss of activity \[94–96\]. On the other hand, at water levels exceeding the monolayer, mobility and reactivity are increased, which can compromise conformational and chemical stability. Increased mobility can result in conformational changes, e.g., unfolding, which in turn can lead to irreversible physical aggregation, induced by exposure of hydrophobic amino acid residues. Examples of chemical instability due to water as a reactant are deamidation reactions and hydrolytic reactions, where high levels of water increase reaction rates. An example of chemical degradation based on the increased conformational flexibility and mobilization of reactants by less tightly bound water is the Maillard reaction for sucrose formulations, where higher residual moisture content facilitates sucrose hydrolysis, resulting in the “Browning reaction” \[94, 95\]. Consequently, it appears most beneficial to maintain the water content slightly below or at the monolayer level. 
+
+
+***Table 3*** 
+Case studies investigating the impact of low and high moisture content on protein stability
+
+
+
+**Reference**
+
+**Scope**
+
+**Results/conclusions**
+
+Pikal et al. \[96\]
+
+Effect of oxygen and residual water on the stability of freeze-dried hGH: 2 formulations, one with and one without stabilizing excipients \(glycine and mannitol\)
+
+Protein aggregation due to drying far below \(1.4%\) the monolayer level \(7.7%\) \(“overdrying”\) of formulation \(without stabilizing excipients\) was observed.
+
+Moisture levels above the monolayer resulted in higher mobility.
+
+Stability at low water content \(< 1.3%\) of the formulation with stabilizing excipients was optimal in a nitrogen headspace.
+
+Hsu et al. \[93\]
+
+Optimum residual water level for lyophilized tissue type plasminogen activator
+
+Water levels below the calculated monolayer \(5.4%\) had an immediate and detrimental effect on the physical stability of the rt-PA protein.
+
+At water levels above the monolayer, a loss in activity was observed, suggesting hydrolytic reactions.
+
+A balance between too little moisture \(causing physical instability\) and too much moisture \(causing biological instability\) is desirable to achieve.
+
+Strickley et al. \[97\]
+
+Effect of pH and water content on covalent dimer formation in lyophilized Insulin
+
+An increase in water content from 2% to 21% resulted in an increased fraction of covalent dimer formation for lyophilized insulin.
+
+
+
+#### ***3.1.2 ***Water Content in Relation to Process Performance
+
+Since water content impacts lyophilized product stability, specification limits are defined for water content. It is also important to ensure consistency throughout a batch and from batch to batch. Within one batch, differences in the heat transfer throughout the freeze-dryer, e.g., edge vial effects or temperature inhomogeneity of the shelf, should be considered as they can cause vial to vial heterogeneity if the process is not robust \[98–103\]. Additionally, optimization of the secondary drying process is important to achieve target moisture content in the final lyophilized drug product. Vollrath et al. compared the homogeneity in water content of a controlled nucleated \(CN\) protein formulation with a randomly nucleated \(RN\) processed shelf after 1 h and 6 h of secondary drying \[104\]. They used frequency modulated spectroscopy to determine the headspace moisture pressure and calculated the relative standard deviation as a surrogate for homogeneity. After 1 h of secondary drying, they found a remarkable difference in homogeneity between CN samples \(RSD of 7.6%\) and RN samples \(RSD of 13.1%\). The results showed, that for a robust process, it is crucial to allow a completed secondary drying \(equilibrium at the set secondary drying temperature\), which equalizes freeze-dryer-dependent drying inhomogeneities.
+
+### **3.2 **Specific Surface Area
+
+The specific surface area \(SSA\) of a lyophilized product is impacted by formulation composition, ice nucleation temperature \(*T*N\) and the application of controlled nucleation during the freezing step and the drying process \[105–108\]. Konstantinidis et al. reported that higher *T*N resulted in a small number of large ice crystals, resulting in a lyophilized product with large pores and corresponding low SSA \[109\]. In turn, at lower *T*N, a large number of small ice crystals were observed leading to a higher SSA. During primary drying, large pores have low product resistance and lead to a faster primary drying. In contrast, the low SSA hinders desorption during secondary drying, leading to relatively higher residual moisture levels \[108, 109\].
+
+As proteins are generally sensitive to interfaces \[110–114\], SSA becomes an important quality attribute, especially for low protein formulations. Theoretically, a lower SSA could be beneficial as the product is less exposed to degradation reactions \[114\]. However, to overcome the hindered desorption and achieve a low residual moisture content, secondary drying needs to be conducted at higher temperatures.
+
+Several studies have shown that a lower SSA improved product quality and/or stability: 
+
++ 
+Hsu et al. \[115\] showed an increase in the rate of opalescence with an increase in cake SSA. The residual moisture and glass transition temperature is described as comparable between the products with different SSA.
+
++  
+Schersch et al. \[63, 116\] found that a low SSA generated by collapse during primary drying can be beneficial for the stability of pharmaceutically relevant proteins \(e.g., monoclonal antibody type IgG1, LDH\).
+
++  
+Awotwe-Otoo et al. \[117\] observed a lower degree of IgG1-glycation for lyophilizates with lower SSA by CN compared to higher SSA with random nucleation \(RN\)
+
+
+
+
+Additionally, SSA can be used to study process performance. As explained above, drying significantly below *T*g’ can result in lengthy and costly lyophilization processes. Thus, drying as close as possible to the *T*g’ or *T*c is desired. However, process robustness needs to be ensured. By determining the product’s SSA, micro-collapse can be detected. As micro-collapse does not necessarily result in a non-elegant cake, it would not be detected visually but can have an effect on quality attributes such as residual moisture content and protein stability \[63\]. Therefore, determining the SSA of products can help in developing a robust lyophilization process.
+
+### **3.3 **Cake Appearance
+
+Cake appearance is the least tangible and most controversially discussed attribute of lyophilized products. Visual appearance of the lyophilized product is typically inspected by the naked eye, which inherently results in variations due to subjective evaluation. Often, there is also no sharp limit from one criterion to the next. In a commentary, Patel et al. provided a detailed list and description of various cake deformations or defects, such as collapse, meltback, bubbles, fogging, lyo ring, cracked cake, volcanos, puffing, or product located between vial and stopper \[62\]. There is a need for analytical methods to qualitatively and quantitatively characterize the lyophilized cake. Haeuser et al. evaluated three different imaging techniques: three-dimensional laser scanning, polydimethylsiloxane embedding and micro-computed tomography \(μ-CT\), to assess cake appearance \[118\]. The results were compared to visual inspection or scanning electron microscopy. Based on their evaluation, μ-CT is a tool that enabled qualitative and quantitative assessment of not only the outside of the cake but also the internal cake structure. Using an evolved μ-CT methodology, Haeuser et al. showed that characterization of the cake and internal cake structure by μ-CT can be performed noninvasively through the glass vial, thus providing a promising technique to support lyophilization process development, scale-up and process transfer \[10\].
+
+Generally, an elegant and uniform cake is preferred. However, a nonuniform or non-elegant cake does not necessarily imply stability issues. Schersch et al. have shown that collapsed cakes can be more stable at similar residual moisture levels compared to their elegant counterparts \[63, 116\].
+
+Aside from the impact on stability that a deformed cake may have, it is crucial to have a reproducible cake appearance from batch to batch. A homogeneous cake appearance would also be desirable with regards to the end-user to avoid uncertainties and complaints.
+
+### **3.4 **Reconstitution Time
+
+According to USP, the endpoint of reconstitution is reached when the solid is completely dissolved and no visible residue can be detected. Thus, reconstitution time determination is commonly based on visual inspection. The correct determination of the end of reconstitution is a critical safety aspect, as incomplete dissolution can result in dose inaccuracies, especially for parenteral products, when inline filters for administration are used; in addition, the risk of injecting solids exists \[119\].
+
+Reconstitution time of a lyophilized product depends on various factors, such as total solid content, primary packaging configuration, formulation, SSA, and moisture content \[119–122\]. Higher solid content results in increased cake density and therefore longer reconstitution times. For higher solid content, it can be beneficial to move to a bigger vial size to reduce cake height.
+
+The impact of SSA on reconstitution time has been discussed previously. Theoretically, a higher SSA should facilitate cake wetting and therefore improve reconstitution. However, SSA is not the only determining factor influencing reconstitution time \[121\]. 
+
++ 
+Cao et al. \[123\] investigated methods to reduce reconstitution times of an Fc-fusion protein. They investigated wetting agents, such as polysorbates and alcohols, and added those to the diluent. Additionally, process parameters such as annealing were addressed. These strategies were found to have a minor impact on reconstitution time reduction. The reconstitution with reduced diluent volume, however, showed a significant four to sevenfold reduction in reconstitution time. In this strategy, the cake density was reduced by freeze-drying a lower concentration solution that was then reconstituted with a smaller volume to reach the desired protein concentration.
+
++  
+Schersch et al. \[63\] did not observe an increase in reconstitution time due to collapse, although the product SSA was significantly reduced.
+
++  
+Geidobler et al. \[121\] found the lower SSA to be beneficial for reconstitution of highly concentrated protein solutions. They speculated that the larger pore diameter facilitated cake wetting in viscous solutions.
+
++  
+Beech et al. \[124\] correlated the reconstitution behavior to cake tortuosity for easier liquid flow. They also proposed a power–law relationship, based on Darcy’s Law and the Hagen-Poseuille equation, between pore size and reconstitution time and a possible “cut-off” in pore size, below which reconstitution times become impractically long for lyophilized formulations.
+
+
+
+
+Reconstitution time of lyophilized products is a product attribute that is still not fully understood. Additionally, the subjectivity of its determination poses a major challenge. Cao et al. showed that the reconstitution protocol can have an impact on the reconstitution time. As the endpoint is visually determined, operator method variability adds to the challenges. It is therefore crucial to define a clear reconstitution protocol and time in the package insert to ensure patient safety \[123\].
+
+## **4 **Conclusions
+
+Due to its impact on lyophilization process performance as well as drug product quality, designing an optimal protein formulation requires a judicious selection of excipients. This chapter introduced the general concepts of lyophilized protein formulation design, with details on typical excipients, protein excipient stabilization mechanisms including an impact on solid state dynamics, and the quality attributes of lyophilized drug products.
+
+
+**References**
+
+1.  
+1.
+
+Mahler HC, Allmendinger A. Stability, formulation, and delivery of biopharmaceuticals. In: Vaughan T, Osbourn J, Jallal B, editors. Protein therapeutiics; 2016. p. 469–91.
+
+2.  
+2.
+
+Costantino HR. Excipients for use in lyophilized pharmaceutical peptide, protein, and other bioproducts. In: Lyophilization of biopharmaceuticals; 2004. p. 139–228.
+
+3.  
+3.
+
+Pikal-Cleland KA, Carpenter JF. Lyophilization-induced protein denaturation in phosphate buffer systems: monomeric and tetrameric β-galactosidase. J Pharm Sci. 2001;90\(9\):1255–68.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11745778)
+
+4.  
+4.
+
+Williams-Smith DL, et al. Changes in apparent pH on freezing aqueous buffer solutions and their relevance to biochemical electron-paramagnetic-resonance spectroscopy. Biochem J. 1977;167\(3\):593–600.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23760)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183705)
+
+5.  
+5.
+
+Dixit N, et al. Residual host cell protein promotes polysorbate 20 degradation in a sulfatase drug product leading to free fatty acid particles. J Pharm Sci. 2016;105\(5\):1657–66.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27032893)
+
+6.  
+6.
+
+Kishore RS, et al. The degradation of polysorbates 20 and 80 and its potential impact on the stability of biotherapeutics. Pharm Res. 2011;28\(5\):1194–210.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21369824)
+
+7.  
+7.
+
+Labrenz SR. Ester hydrolysis of polysorbate 80 in mAb drug product: evidence in support of the hypothesized risk after the observation of visible particulate in mAb formulations. J Pharm Sci. 2014;103\(8\):2268–77.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24942482)
+
+8.  
+8.
+
+Grapentin C, et al. Protein-polydimethylsiloxane particles in liquid vial monoclonal antibody formulations containing poloxamer 188. J Pharm Sci. 2020;109\(8\):2393–404.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32194095)
+
+9.  
+9.
+
+Li S, et al. Effects of reducing sugars on the chemical stability of human relaxin in the lyophilized state. J Pharm Sci. 1996;85\(8\):873–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8863280)
+
+10.  
+10.
+
+Haeuser C, et al. Be aggressive\! Amorphous excipients enabling single-step freeze-drying of monoclonal antibody formulations. Pharmaceutics. 2019;11\(11\):1–16.
+
+11.  
+11.
+
+Connolly BD, et al. Protein aggregation in frozen trehalose formulations: effects of composition, cooling rate, and storage temperature. J Pharm Sci. 2015;104\(12\):4170–84.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26398200)
+
+12.  
+12.
+
+Haeuser C, et al. Excipients for room temperature stable freeze-dried monoclonal antibody formulations. J Pharm Sci. 2020;109\(1\):807–17.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31622600)
+
+13.  
+13.
+
+Haeuser C, et al. Impact of dextran on thermal properties, product quality attributes, and monoclonal antibody stability in freeze-dried formulations. Eur J Pharm Biopharm. 2020;147:45–56.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31866444)
+
+14.  
+14.
+
+Jiang G, et al. Mechanistic studies of glass vial breakage for frozen formulations. II. Vial breakage caused by amorphous protein formulations. PDA J Pharm Sci Technol. 2007;61\(6\):452–60.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18410046)
+
+15.  
+15.
+
+Jiang G, et al. Mechanistic studies of glass vial breakage for frozen formulations. I. Vial breakage caused by crystallizable excipient mannitol. PDA J Pharm Sci Technol. 2007;61\(6\):441–51.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18410045)
+
+16.  
+16.
+
+Liu J, Shire SJ. Reduced viscosity concentrated protein formulations. US 20020045571 A1. 61, 2014.
+
+17.  
+17.
+
+Yadav S, Shire SJ, Kalonia DS. Factors affecting the viscosity in high concentration solutions of different monoclonal antibodies. J Pharm Sci. 2010;99\(12\):4812–29.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20821382)
+
+18.  
+18.
+
+Yadav S, Shire SJ, Kalonia DS. Viscosity analysis of high concentration bovine serum albumin aqueous solutions. Pharm Res. 2011;28\(8\):1973–83.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21491149)
+
+19.  
+19.
+
+Roethlisberger D, et al. If euhydric and isotonic do not work, what are acceptable pH and osmolality for parenteral drug dosage forms? J Pharm Sci. 2017;106\(2\):446–56.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27889072)
+
+20.  
+20.
+
+Heljo P, et al. Interactions between peptide and preservatives: effects on peptide self-interactions and antimicrobial efficiency in aqueous multi-dose formulations. Pharm Res. 2015;32\(10\):3201–12.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25893328)
+
+21.  
+21.
+
+Luoma J, Lim FJ. Strategies to reduce reconstitution time of lyophilized biotherapeutics. J Pharm Sci. 2020;109\(6\):1905–11.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32135168)
+
+22.  
+22.
+
+Drugs@FDA: FDA-Approved drugs. Available from: [https://​www.​accessdata.​fda.​gov/​scripts/​cder/​daf/​https://​www.​accessdata.​fda.​gov/​scripts/​cder/​daf/​](https://www.accessdata.fda.gov/scripts/cder/daf/https://www.accessdata.fda.gov/scripts/cder/daf/). Accessed 09 June 2021.
+
+23.  
+23.
+
+Medicines. Available from: [https://​www.​ema.​europa.​eu/​en/​medicines?​](https://www.ema.europa.eu/en/medicines?). Accessed 09 June 2021.
+
+24.  
+24.
+
+Package insert – Simulect® \(basiliximab\). Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2003/​basnov010203LB.​htm](https://www.accessdata.fda.gov/drugsatfda_docs/label/2003/basnov010203LB.htm). Accessed 09 June 2021.
+
+25.  
+25.
+
+Package insert – SYNAGIS® \(PALIVIZUMAB\) for intramuscular administration. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2002/​palimed102302LB.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/palimed102302LB.pdf). Accessed 09 June 2021.
+
+26.  
+26.
+
+Package insert – XOLAIR® Omalizumab for subcutaneous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2003/​omalgen062003LB.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2003/omalgen062003LB.pdf). Accessed 09 June 2021.
+
+27.  
+27.
+
+Package insert – Cimzia® \(certolizumab pegol\). Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2008/​125160s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/125160s000lbl.pdf). Accessed 09 June 2021.
+
+28.  
+28.
+
+Package insert – ILARIS \(canakinumab\) for subcutaneous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2012/​125319s047lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/125319s047lbl.pdf). Accessed 09 June 2021.
+
+29.  
+29.
+
+Package insert – KEYTRUDA® \(pembrolizumab\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2014/​125514lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/125514lbl.pdf). Accessed 09 June 2021.
+
+30.  
+30.
+
+Package insert – COSENTYX® \(secukinumab\) injection, for subcutaneous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2016/​125504s001s002lb​l.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/125504s001s002lbl.pdf). Accessed 09 June 2021.
+
+31.  
+31.
+
+Package insert – NUCALA \(mepolizumab\) for injection, for subcutaneous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2017/​125526s002lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/125526s002lbl.pdf). Accessed 09 June 2021
+
+32.  
+32.
+
+Package insert – KADCYLA™ \(ado-trastuzumab emtansine\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2013/​125427lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/125427lbl.pdf). Accessed 09 June 2021.
+
+33.  
+33.
+
+Package insert – MYLOTARGTM \(gemtuzumab ozogamicin\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2018/​761060s001lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/761060s001lbl.pdf). Accessed 09 June 2021.
+
+34.  
+34.
+
+Package insert – ENHERTU® \(fam-trastuzumab deruxtecan-nxki\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2019/​761139s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/761139s000lbl.pdf). Accessed 09 June 2021.
+
+35.  
+35.
+
+Package insert – HERCEPTIN® Trastuzumab. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​1998/​trasgen092598lb.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/1998/trasgen092598lb.pdf). Accessed 09 June 2021
+
+36.  
+36.
+
+Package insert – ONTRUZANT \(trastuzumab-dttb\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2019/​761100s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/761100s000lbl.pdf). Accessed 09 June 2021.
+
+37.  
+37.
+
+Package insert – HERZUMA® \(trastuzumab-pkrb\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2018/​761091s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/761091s000lbl.pdf). Accessed 09 June 2021.
+
+38.  
+38.
+
+Package insert – KANJINTI™ \(trastuzumab-anns\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2019/​761073Orig1s000l​bl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/761073Orig1s000lbl.pdf). Accessed 09 June 2021.
+
+39.  
+39.
+
+Package insert – TRAZIMERATM \(trastuzumab-qyyp\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2019/​761081s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/761081s000lbl.pdf). Accessed 09 June 2021,
+
+40.  
+40.
+
+Package insert – OGIVRI \(trastuzumab-dkst\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2017/​761074s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761074s000lbl.pdf). Accessed 09 June 2021.
+
+41.  
+41.
+
+Package insert – Zercepac powder for concentrate for solution for infusion. Available from: [https://​www.​ema.​europa.​eu/​en/​documents/​product-information/​zercepac-epar-product-information\_​en.​pdf](https://www.ema.europa.eu/en/documents/product-information/zercepac-epar-product-information_en.pdf). Accessed 09 June 2021.
+
+42.  
+42.
+
+Package insert – REMICADE \(infliximab\) lyophilized concentrate for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2013/​103772s5359lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/103772s5359lbl.pdf). .
+
+43.  
+43.
+
+Package insert – INFLECTRA \(infliximab-dyyb\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2016/​125544s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/125544s000lbl.pdf). Accessed 09 June 2021.
+
+44.  
+44.
+
+Package insert – Remsima powder for concentrate for solution for infusion. Available from: [https://​www.​ema.​europa.​eu/​en/​documents/​product-information/​remsima-epar-product-information\_​en.​pdf](https://www.ema.europa.eu/en/documents/product-information/remsima-epar-product-information_en.pdf). Accessed 09 June 2021.
+
+45.  
+45.
+
+Package insert – RENFLEXIS \(infliximab-abda\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2017/​761054Orig1s000l​bledt.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761054Orig1s000lbledt.pdf). Accessed 09 June 2021.
+
+46.  
+46.
+
+Package insert – Zessly powder for concentrate for solution for infusion. Available from: [https://​www.​ema.​europa.​eu/​en/​documents/​product-information/​zessly-epar-product-information\_​en.​pdf](https://www.ema.europa.eu/en/documents/product-information/zessly-epar-product-information_en.pdf). Accessed 09 June 2021.
+
+47.  
+47.
+
+Package insert – IXIFI \(infliximab-qbtx\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2017/​761072s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761072s000lbl.pdf). Accessed 09 June 2021.
+
+48.  
+48.
+
+Package insert – AVSOLA \(infliximab-axxq\) for injection, for intravenous use. Available from: [https://​www.​accessdata.​fda.​gov/​drugsatfda\_​docs/​label/​2019/​761086s000lbl.​pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/761086s000lbl.pdf). Accessed 09 June 2021.
+
+49.  
+49.
+
+Cleland JL, et al. A specific molar ratio of stabilizer to protein is required for storage stability of a lyophilized monoclonal antibody. J Pharm Sci. 2001;90\(3\):310–21.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11170024)
+
+50.  
+50.
+
+Sane SU, Wong R, Hsu CC. Raman spectroscopic characterization of drying-induced structural changes in a therapeutic antibody: correlating structural changes with long-term stability. J Pharm Sci. 2004;93\(4\):1005–18.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14999736)
+
+51.  
+51.
+
+Bhatnagar BS, Bogner RH, Pikal MJ. Protein stability during freezing: separation of stresses and mechanisms of protein stabilization. Pharm Dev Technol. 2007;12\(5\):505–23.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17963151)
+
+52.  
+52.
+
+Grasmeijer N, et al. Unraveling protein stabilization mechanisms: vitrification and water replacement in a glass transition temperature controlled system. Biochim Biophys Acta. 2013;1834\(4\):763–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23360765)
+
+53.  
+53.
+
+Pikal MJ. Mechanisms of protein tabilization during freeze-drying and storage: the relative importance of thermodynamic stabilization and glassy state relaxation dynamics. In: Rey L, May JC, editors. Freeze-drying/lyophilization of pharmaceutical and biological products. New York: Marcel Dekker Inc; 2004.
+
+54.  
+54.
+
+Cicerone MT, Douglas JF. β-Relaxation governs protein stability in sugar-glass matrices. Soft Matter. 2012;8\(10\):2983–91.
+
+55.  
+55.
+
+Mensink MA, et al. How sugars protect proteins in the solid state and during drying \(review\): mechanisms of stabilization in relation to stress conditions. Eur J Pharm Biopharm. 2017;114:288–95.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28189621)
+
+56.  
+56.
+
+Arakawa T, Timasheff SN. Preferential interactions of proteins with solvent components in aqueous amino acid solutions. Arch Biochem Biophys. 1983;224\(1\):169–77.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6870251)
+
+57.  
+57.
+
+Arsiccio A, Pisano R. Stability of proteins in carbohydrates and other additives during freezing: the human growth hormone as a case study. J Phys Chem B. 2017;121\(37\):8652–60.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28826220)
+
+58.  
+58.
+
+Tonnis W, et al. Size and molecular flexibility of sugars determine the storage stability of freeze-dried proteins. Mol Pharm. 2015;12\(3\):684–94.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25581526)
+
+59.  
+59.
+
+Haeuser C. Investigation of lyophilized antibody formulations to enable short freeze-drying cycles and storage at room temperature, in Doctoral Dissertation. University of Basel; 2020. [https://​edoc.​unibas.​ch/​75689/​1/​Dissertation\_​ChristinaH%C3%A4user\_​edoc.​pdf](https://edoc.unibas.ch/75689/1/Dissertation_ChristinaH%25C3%25A4user_edoc.pdf).
+
+60.  
+60.
+
+Katayama DS, et al. Characterization of amorphous solids with weak glass transitions using high ramp rate differential scanning calorimetry. J Pharm Sci. 2008;97\(2\):1013–24.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17724657)
+
+61.  
+61.
+
+Lu X, Pikal MJ. Freeze-drying of mannitol–trehalose–sodium chloride-based formulations: the impact of annealing on dry layer resistance to mass transfer and cake structure. Pharm Dev Technol. 2004;9\(1\):85–95.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15000469)
+
+62.  
+62.
+
+Patel SM, et al. Lyophilized drug product cake appearance: what is acceptable? J Pharm Sci. 2017;106\(7\):1706–21.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28341598)
+
+63.  
+63.
+
+Schersch K, et al. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins I: stability after freeze-drying. J Pharm Sci. 2010;99\(5\):2256–78.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20039389)
+
+64.  
+64.
+
+Depaz RA, Pansare S, Patel SM. Freeze-drying above the glass transition temperature in amorphous protein formulations while maintaining product quality and improving process efficiency. J Pharm Sci. 2016;105\(1\):40–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26580140)
+
+65.  
+65.
+
+Colandene JD, et al. Lyophilization cycle development for a high-concentration monoclonal antibody formulation lacking a crystalline bulking agent. J Pharm Sci. 2007;96\(6\):1598–608.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17117409)
+
+66.  
+66.
+
+Horn J, et al. Crystallizing amino acids as bulking agents in freeze-drying. Eur J Pharm Biopharm. 2018;132:70–82.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30201570)
+
+67.  
+67.
+
+Carpenter JF, et al. Rational design of stable lyophilized protein formulations: some practical advice. Pharm Res. 1997;14\(8\):969–75.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9279875)
+
+68.  
+68.
+
+Chang LL, et al. Effect of sorbitol and residual moisture on the stability of lyophilized antibodies: implications for the mechanism of protein stabilization in the solid state. J Pharm Sci. 2005;94\(7\):1445–55.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15920766)
+
+69.  
+69.
+
+Drake AC, et al. Effect of water content on the glass transition temperature of mixtures of sugars, polymers, and penetrating cryoprotectants in physiological buffer. PLoS One. 2018;13\(1\):e0190713.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29304068)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5755887)
+
+70.  
+70.
+
+Seifert I, Friess W. The effect of residual moisture on a monoclonal antibody stability in L-arginine based lyophilisates. Eur J Pharm Biopharm. 2021;158:53–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33188928)
+
+71.  
+71.
+
+Rambathala S, Pikal MJ. Lyophilization of biopharmaceuticals. In: Costantino HR, Pikal MJ, editors. Lyophilization of biopharmaceuticals. Arlington: AAPS Press; 2004. p. 75–110.
+
+72.  
+72.
+
+Nail SL, et al. Fundamentals of freeze-drying. In: Nail SL, Akers MJ, editors. Development and manufacture of protein pharmaceuticals. Boston: Springer US; 2002. p. 281–360.
+
+73.  
+73.
+
+Byrn SR, Xu W, Newman AW. Chemical reactivity in solid-state pharmaceuticals: formulation implications. Adv Drug Deliv Rev. 2001;48\(1\):115–36.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11325479)
+
+74.  
+74.
+
+Duddu SP, Dal Monte PR. Effect of glass transition temperature on the stability of lyophilized formulations containing a chimeric therapeutic monoclonal antibody. Pharm Res. 1997;14\(5\):591–5.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9165528)
+
+75.  
+75.
+
+Chang BS, et al. Physical factors affecting the storage stability of freeze-dried interleukin-1 receptor antagonist: glass transition and protein conformation. Arch Biochem Biophys. 1996;331\(2\):249–58.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8660705)
+
+76.  
+76.
+
+Liu J, et al. Dynamics of pharmaceutical amorphous solids: the study of enthalpy relaxation by isothermal microcalorimetry. J Pharm Sci. 2002;91\(8\):1853–62.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12115812)
+
+77.  
+77.
+
+Shamblin SL, Hancock BC, Pikal MJ. Coupling between chemical reactivity and structural relaxation in pharmaceutical glasses. Pharm Res. 2006;23\(10\):2254–68.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16941232)
+
+78.  
+78.
+
+Wang B, et al. Impact of sucrose level on storage stability of proteins in freeze-dried solids: II. Correlation of aggregation rate with protein structure and molecular mobility. J Pharm Sci. 2009;98\(9\):3145–66.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19067392)
+
+79.  
+79.
+
+Chieng N, et al. Characterization of dynamics in complex lyophilized formulations: II. Analysis of density variations in terms of glass dynamics and comparisons with global mobility, fast dynamics, and Positron Annihilation Lifetime Spectroscopy \(PALS\). Eur J Pharm Biopharm. 2013;85\(2\):197–206.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23623797)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3952238)
+
+80.  
+80.
+
+Yoshioka S, Aso Y, Kojima S. Determination of molecular mobility of lyophilized bovine serum albumin and γ-globulin by solid-state 1H NMR and relation to aggregation-susceptibility. Pharm Res. 1996;13\(6\):926–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8792434)
+
+81.  
+81.
+
+Mensink MA, et al. Influence of miscibility of protein-sugar lyophilizates on their storage stability. AAPS J. 2016;18\(5\):1225–32.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27301753)
+
+82.  
+82.
+
+Moorthy BS, et al. Predicting protein aggregation during storage in lyophilized solids using solid state amide hydrogen/deuterium exchange with mass spectrometric analysis \(ssHDX-MS\). Mol Pharm. 2014;11\(6\):1869–79.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24816133)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4051254)
+
+83.  
+83.
+
+Kumar L, et al. Optimizing the formulation and lyophilization process for a fragment antigen binding \(Fab\) protein using solid-state hydrogen–deuterium exchange mass spectrometry \(ssHDX-MS\). Mol Pharm. 2019;16\(11\):4485–95.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31568722)
+
+84.  
+84.
+
+Moorthy BS, et al. Solid-state hydrogen–deuterium exchange mass spectrometry: correlation of deuterium uptake and long-term stability of lyophilized monoclonal antibody formulations. Mol Pharm. 2018;15\(1\):1–11.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29182876)
+
+85.  
+85.
+
+Goshima H, et al. Addition of monovalent electrolytes to improve storage stability of freeze-dried protein formulations. J Pharm Sci. 2016;105\(2\):530–41.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26869416)
+
+86.  
+86.
+
+Injections and implanted drug products \(Parenterals\) – Product quality tests. United States Pharmacopeia – National Formulary; 2016.
+
+87.  
+87.
+
+Parenteral preparations. In: European pharmacopoeia. The International Pharmacopoeia – Ninth Edition; 2019. p. 5702–4.
+
+88.  
+88.
+
+ICH, Quality of biotechnological products: stability testing of biotechnological/biological products Q5C. 1995.
+
+89.  
+89.
+
+ICH, Specifications: test procedures and acceptance criteria for biotechnological/biological products Q6B. 1999.
+
+90.  
+90.
+
+ICH, Pharmaceutical development Q8\(R2\). 2009.
+
+91.  
+91.
+
+21CFR610.13 – Code of federal regulations Title 21.
+
+92.  
+92.
+
+FDA, Lyophilization of parenteral \(7/93\): guide to inspection of lyophilization of parenterals.
+
+93.  
+93.
+
+Hsu CC, et al. Determining the optimum residual moisture in lyophilized protein pharmaceuticals. Dev Biol Stand. 1992;74:255–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592175)
+
+94.  
+94.
+
+Hageman MJ. The role of moisture in protein stability. Drug Dev Ind Pharm. 1988;14\(14\):2047–70.
+
+95.  
+95.
+
+Towns JK. Moisture content in proteins: its effects and measurement. J Chromatogr B. 1995;705\(1\):115–7.
+
+96.  
+96.
+
+Michael JP, Karen D, Roy MJ. Formulation and stability of freeze-dried proteins: effects of moisture and oxygen on the stability of freeze-dried formulations of human growth hormone. Dev Bio Stand. 1991;74:21–38.
+
+97.  
+97.
+
+Strickley RG, Anderson BD. Solid-state stability of human insulin. II. Effect of water on reactive intermediate partitioning in lyophiles from pH 2-5 solutions: stabilization against covalent dimer formation. J Pharm Sci. 1997;86\(6\):645–53.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9188045)
+
+98.  
+98.
+
+Pikal MJ, et al. Freeze-drying process development and scale-up: scale-up of edge vial versus center vial heat transfer coefficients, kv. J Pharm Sci. 2016;105\(11\):3333–43.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27666376)
+
+99.  
+99.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+100.  
+100.
+
+Pisano R, Fissore D, Barresi AA. In-line and off-line optimization of freeze-drying cycles for pharmaceutical products. Dry Technol. 2013;31\(8\):905–19.
+
+101.  
+101.
+
+Rambhatla S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, I: atypical radiation and the edge vial effect. AAPS PharmSciTech. 2003;4\(2\):22–31.[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750592)
+
+102.  
+102.
+
+Sane P, et al. Spatial variation of pressure in the lyophilization product chamber part 2: experimental measurements and implications for scale-up and batch uniformity. AAPS PharmSciTech. 2016;18\(2\):369–80.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26989063)
+
+103.  
+103.
+
+Wegiel LA, Ferris SJ, Nail SL. Experimental aspects of measuring the vial heat transfer coefficient in pharmaceutical freeze-drying. AAPS PharmSciTech. 2018;19\(4\):1810–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29616490)
+
+104.  
+104.
+
+Vollrath I, et al. Comparison of ice fog methods and monitoring of controlled nucleation success after freeze-drying. Int J Pharm. 2019;558:18–28.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30597272)
+
+105.  
+105.
+
+Bhatnagar BS, Pikal MJ, Bogner RH. Study of the individual contributions of ice formation and freeze-concentration on isothermal stability of lactate dehydrogenase during freezing. J Pharm Sci. 2008;97\(2\):798–814.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17506511)
+
+106.  
+106.
+
+Vollrath I, et al. Comparison of ice fog methods and monitoring of controlled nucleation success after freeze-drying. Int J Pharm. 2018;558:18–28.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30597272)
+
+107.  
+107.
+
+Rambhatla S, et al. Heat and mass transfer scale-up issues during freeze drying: II. Control and characterization of the degree of supercooling. AAPS PharmSciTech. 2004;5\(4\):54–62.[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750483)
+
+108.  
+108.
+
+Searles JA, Carpenter JF, Randolph TW. The ice nucleation temperature determines the primary drying rate of lyophilization for samples frozen on a temperature-controlled shelf. J Pharm Sci. 2001;90\(7\):860–71.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11458335)
+
+109.  
+109.
+
+Konstantinidis AK, et al. Controlled nucleation in freeze-drying: effects on pore size in the dried product layer, mass transfer resistance, and primary drying rate. J Pharm Sci. 2011;100\(8\):3453–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21465488)
+
+110.  
+110.
+
+Wang W. Instability, stabilization, and formulation of liquid protein pharmaceuticals. Int J Pharm. 1999;185\(2\):129–88.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10460913)
+
+111.  
+111.
+
+Mahler HC, et al. Induction and analysis of aggregates in a liquid IgG1-antibody formulation. Eur J Pharm Biopharm. 2005;59\(3\):407–17.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15760721)
+
+112.  
+112.
+
+Mahler HC, et al. Protein aggregation: pathways, induction factors and analysis. J Pharm Sci. 2009;98\(9\):2909–34.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18823031)
+
+113.  
+113.
+
+Bee JS, et al. Effects of surfaces and leachables on the stability of biopharmaceuticals. J Pharm Sci. 2011;100\(10\):4158–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21523787)
+
+114.  
+114.
+
+Xu Y, et al. Protein quantity on the air-solid interface determines degradation rates of human growth hormone in lyophilized samples. J Pharm Sci. 2014;103\(5\):1356–66.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24623139)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4049081)
+
+115.  
+115.
+
+Hsu CC, et al. Surface denaturation at solid-void interface--a possible pathway by which opalescent particulates form during the storage of lyophilized tissue-type plasminogen activator at high temperatures. Pharm Res. 1995;12\(1\):69–77.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7724490)
+
+116.  
+116.
+
+Schersch K, et al. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins, part 2: stability during storage at elevated temperatures. J Pharm Sci. 2012;101\(7\):2288–306.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22517663)
+
+117.  
+117.
+
+Awotwe-Otoo D, et al. Product and process understanding to relate the effect of freezing method on glycation and aggregation of lyophilized monoclonal antibody formulations. Int J Pharm. 2015;490\(1–2\):341–50.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25835267)
+
+118.  
+118.
+
+Haeuser C, et al. Imaging techniques to characterize cake appearance of freeze-dried products. J Pharm Sci. 2018;107\(11\):2810–22.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30005985)
+
+119.  
+119.
+
+Werk T, et al. An impedance-based method to determine reconstitution time for freeze-dried pharmaceuticals. J Pharm Sci. 2015;104\(9\):2948–55.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25855314)
+
+120.  
+120.
+
+Werk T, et al. The effect of formulation, process, and method variables on the reconstitution time in dual chamber syringes. PDA J Pharm Sci Technol. 2016;70\(6\):508–22.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27974591)
+
+121.  
+121.
+
+Geidobler R, Konrad I, Winter G. Can controlled ice nucleation improve freeze-drying of highly-concentrated protein formulations? J Pharm Sci. 2013;102\(11\):3915–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23963664)
+
+122.  
+122.
+
+Wahl V, et al. The influence of residual water on the solid-state properties of freeze-dried fibrinogen. Eur J Pharm Biopharm. 2015;91:1–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25617832)
+
+123.  
+123.
+
+Cao W, et al. Rational design of lyophilized high concentration protein formulations-mitigating the challenge of slow reconstitution with multidisciplinary strategies. Eur J Pharm Biopharm. 2013;85\(2\):287–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23702275)
+
+124.  
+124.
+
+Beech KE, et al. Insights into the influence of the cooling profile on the reconstitution times of amorphous lyophilized protein formulations. Eur J Pharm Biopharm. 2015;96:247–54.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26253503)
+
+
+

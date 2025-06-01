@@ -1,0 +1,6258 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_23](https://doi.org/10.1007/978-3-031-12634-5_23)
+
+
+**
+# Application of QbD Elements in the Development and Manufacturing of a Lyophilized Product
+**
+
+
+Feroz Jameel1 
+
+
+\(1\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+
+
+
+**1 **Introduction
+
+**2 **Target Product Profile \(TPP\)
+
+**3 **Formulation Development and Selection
+
+**4 **Use of Prior Knowledge
+
+**4.1 **Justification for Lyophilized Dosage Form: Why Lyophilization?
+
+**4.2 **Preformulation Studies/Preliminary Work/Formulation Screening
+
+**5 **Lyophilization Process Development
+
+**5.1 **Justification of Commercial Manufacturing Lyophilization Cycle
+
+**6 **Risk Assessment
+
+**6.1 **Risk Assessment \(Formulation\)
+
+**6.2 **Risk Assessment \(Lyophilization\)
+
+**7 **Design of Experiments \(DOE\)
+
+**7.1 **Combined Approach
+
+**7.2 **Individual Approach: Formulation
+
+**7.3 **Individual Approach: Lyophilization
+
+Appendix \(Table 18\)
+
+References
+
+
+## Abstract
+
+Since the roll out of ICH Q8, Q9, and Q10 documents and FDA drafted a QbD CMC review MaPP \(MAPP 5016.1\), the regulatory agencies expect and encourage the pharmaceutical/biopharmaceutical industry the use of QbD in drug applications as implementation of QbD will enhance the assurance of pharmaceutical quality in the market and improve the quality of CMC information submitted. It is believed to be a win-win situation for both industry and regulators as it ensures less IRs \(information request\) during the review, speeds up approval process, and provides flexibility to make changes within the design spaces while providing a quality product with a better design with fewer problems in manufacturing resulting in reduction in overall costs of manufacturing, and creates less waste. This chapter describes how QbD elements—risk assessment, process characterization, and design space—can be applied to design, develop, and scale-up and control the lyophilization process.
+
+
+**Keywords**
+Lyophilization Product temperature QbD Freezing Primary drying Secondary drying Chamber pressure Residual moisture Glass transition temperature of freeze concentrate Choke flow Sublimation rate Target profile Prior knowledge Risk assessment Fractional factorial DOE Multivariate DOE Design space
+
+
+## **1 **Introduction
+
+After the ICH member states have rolled out ICH Q8, Q9, and Q10 documents and have provided internal and external training on them, FDA drafted a QbD CMC review MaPP \(MAPP 5016.1, Applying ICH Q8 \(R2\), Q9, and Q10 principles to CMC review\) and wrote and published points to consider documents. Since then, ONDQA \(Office of New Drug Quality Assessment\) has been working with industry sponsors and other FDA offices to encourage the pharmaceutical industry the use of QbD in new drug applications received for new molecular entities \(NMEs\). However, only a handful of companies have seized this opportunity and embraced it. According to the ONDQA, “implementation of QbD will enhance the assurance of pharmaceutical quality in the market and improve the quality of CMC information submitted to the FDA in applications, supplements, and drug master files” \[1\]. It is a win-win situation for both industry and regulators as it ensures less IRs \(information requests\) during the review, speeds up approval process, and provides flexibility to make changes within the design spaces while providing a quality product with a better design with fewer problems in manufacturing resulting in reduction in overall costs of manufacturing, and creates less waste.
+
+The quality-by-design \(QbD\) concept as defined in ICH Q8 \(R2\) is a systematic approach to development that begins with predefined objectives and emphasizes product and process understanding and process control, based on sound science and quality risk management \[ICH Q8 \(R2\)\] \[2\]. A key assertion of QbD is that quality is controlled not by simply testing the product, but rather that quality is built into the manufacturing process by design. This is achieved through the performance of activities following principles/elements of QbD as summarized in Fig. 1. 
+![](images/000000.jpeg)
+
+
+***Fig. 1*** 
+Schematic of series of QbD-based activities
+
+
+
+The objective of this chapter is to examine the potential opportunities to enhance science and risk based regulatory approaches associated with these advanced concepts and present a mock case study demonstrating the application of quality by design \(QbD\) principles to design/development of a biological product and lyophilization process that would encourage greater implementation of the ICH guidelines across the biopharmaceutical industry.
+
+## **2 **Target Product Profile \(TPP\)
+
+The product specifications listed in the Table 1 below which are referred to as the target product profile \(TPP\) is an essential tool in the development and strategic management of new or modified drugs/biologics. The specifications relate to the public health impact and suitability of the product, covering measures of product efficacy, safety, dose, scheduling, presentation, and packaging, and represent the minimally acceptable standard a product needs to meet in order to be eligible for regulatory support. 
+
+
+***Table 1*** 
+Target product profile of mAb X
+
+
+
+**Product attribute**
+
+**Acceptable profile**
+
+**Comments**
+
+Target indication
+
+Oncology
+
+Be specific, mention the disease condition
+
+Protein content per vial
+
+125 mg
+
+Protein concentration
+
+25 mg/mL
+
+Dosage form
+
+Sterile lyophilized powder for reconstitution with a diluent
+
+Final presentation
+
+Vial configuration, 20R
+
+20R type 1 borosilicate glass vials, fluro-resin laminated stopper
+
+Route of administration
+
+IV infusion
+
+Represents worst case for lyo with a large volume vial
+
+Dose range
+
+150–250 mg
+
+≤350 mg per week
+
+Dose frequency
+
+Preferable 2 weeks
+
+1 week is acceptable
+
+Setting for use
+
+Clinic
+
+Assisted by medical personnel
+
+Single or multidose
+
+Multidose
+
+IV bag
+
+50 mL or 100 mL bag
+
+Target recon volume
+
+5.3 mL
+
+Nominal final volume 5.6 mL
+
+Diluent \(reconstitution medium\)
+
+Commercially available bacteriostatic WFI
+
+Because multidose vial
+
+Target recon time
+
+<5 min
+
+pH
+
+6 ± 0.5
+
+Anything in pH 5 to 7 range is acceptable/suitable
+
+Osmolality
+
+280–350 mOsm
+
+Based upon USP
+
+Excipients compendial
+
+With minimal levels of endotoxins
+
+Buffering agent/conc
+
+Histidine/10 mM
+
+Stabilizer/conc.
+
+Sucrose/2% w/v
+
+Bulking agent/conc
+
+Mannitol/4% w/v
+
+Other excipients/conc
+
+N/A
+
+Surfactant
+
+Polysorbate 80/0.02% \(w/v\)
+
+Recommended storage conditions
+
+Refrigerated \(2–8 °C\)
+
+Shelf-life
+
+2 years at 2–8 °C
+
+1 week at 2–8 °C following reconstitution
+
+Main degradation route
+
+Aggregation
+
+Secondary degradation route
+
+Deamidation and oxidation
+
+Aggregate
+
+0–5%
+
+Fucose content
+
+2–13%
+
+Galactosylation
+
+\(%G1 \+ %G2\) 10–40%
+
+HCP
+
+0–100 ng/m
+
+
+
+Product development begins with the definition of the target product profile followed by identification of the desired quality attributes of the molecule and its performance attributes using the target product profile. Development efforts focus on the design of the molecule and the product to maximize the clinical safety and efficacy to achieve the desired target product profile. It is prepared jointly by the all departments of the company involved in the development. Its submission to the FDA is voluntary but has specific benefits, and it is a “living document” evolving and maturing with increasing knowledge and experience. It constitutes an important evaluation tool in “gate reviews” if such reviews are enabled by the organization.
+
+## **3 **Formulation Development and Selection
+
+The objective of the formulation development is to identify appropriate excipients, optimize their proportions, and chose the final drug product configuration that: 
+
+1. 
+1.
+
+
+Support stability of the drug as it is processed through all unit operations of manufacturing and finally lyophilized
+
+
+
+
+2.  
+2.
+
+
+Maintains the stability of the drug product in the final presentation during the shelf-life and support the safety and efficacy of the drug as it is administered into the patients
+
+
+
+
+
+This requires scientific knowledge and understanding of the physicochemical characteristics of mAb-X \(drug active, protein\), excipients, raw materials, components their variability and interactions with each other, with contact surfaces of containers and closures, and how these elements enable or disable to achieve/meet the target product profile.
+
+## **4 **Use of Prior Knowledge
+
+### **4.1 **Justification for Lyophilized Dosage Form: Why Lyophilization?
+
+Pre-formulation studies on mAbs \(A and B\) similar to mAb X indicated marginal stability in liquid state due to rapid Asp isomerization and aggregation. Aggregates were determined to be both non-covalent and covalent in nature and a dependency on initial protein concentration was established. Exposure to freeze-thaw cycles also indicated loss of main native peak on SEC \(size exclusion chromatography\) suggesting their sensitivity to freeze-thaw process. Pre-formulation data of mAb X demonstrate comparable characteristics with similar mAb \(A & B\) molecules.
+
+When a product does not exhibit sufficient stability in aqueous solution, the product needs to be produced in a stable, solid form \[3\]. Experience with previous products, mAb \(A and B\) and knowledge from literature suggest lyophilization of molecules with such instabilities retards/arrest rates of degradations and improves storage stability and meet TPP requirements of safety and efficacy.
+
+### **4.2 **Preformulation Studies/Preliminary Work/Formulation Screening
+
+Previous knowledge from literature and experience with the design of the formulation for freeze-drying of similar mAb \(A and B\) was used as a rational for the determination of initial or working formulations and is summarized below in Table 2. 
+
+
+***Table 2*** 
+Summary of prior knowledge
+
+
+
+**Formulation parameter**
+
+**Prior knowledge**
+
+1
+
+mAb molecule
+
+Candidate selection based on physical-chemical stability assessment during pre-formulation.
+
+Pre-formulation data demonstrate comparable characteristics of mAb X with mAb \(A and B\) justifying use of prior knowledge
+
+Sequence optimization to prevent deamidation in the Fc
+
+Known hotspots were engineered out of mAb-X based on knowledge of previous molecules \(A- mAb and B- mAb\)
+
+pI appropriate for solubility within pH 5 to 7.5
+
+Modes of instability
+
+Covalent degradation is minimal in a pH range of 5 to 6
+
+Disulfide scrambling rates are higher at neutral pH
+
+Aggregation can impact potency and may also have immunogenicity risks
+
+Clipping can impact potency
+
+Sub-visible particle formation can be predictive of visible particles
+
+Formulation variables and their interactions
+
+The effect of pH/buffer type on stability is the most important factor and is independent of the effect of excipients on stability
+
+Phosphate and acetate buffers resulted in shifts of pH during processing
+
+Polysorbate 20
+
+Polysorbate 20 protects against interfacial instability and can mitigate adsorption/aggregation during freezing/thawing and other unit operations of manufacturing and transportation
+
+Potential for peroxide contaminants
+
+Sucrose
+
+Used as an amorphous bulking agent known to behave as a cryoprotectant and lyoprotectant, stabilizes protein during processing and upon storage
+
+As an osmolyte
+
+Impact on quality: hydrolysis and subsequent glycation of the protein at low pH and elevated temperatures, contamination with glucose
+
+Mannitol
+
+Commonly used as a crystalline bulking agent
+
+Mannitol has been used successfully in previous products to provide crystalline matrix and mechanical strength to the cake
+
+Complete crystallization is important to appearance and stability of the product
+
+Potential for hydrate forms during lyophilization and storage that can affect stability
+
+Excipient binding during protein concentration
+
+The Donnan effect explains pH shift during UF/DF due to co-concentration and exclusion of excipients at high protein concentrations
+
+pH
+
+mAb \(A and B\) had optimal stability between pH 4 and 6
+
+Buffer
+
+Histidine is known to have good buffering capacity in pH range 4.0–5.8 and was successfully used for mAb \(A and B\)
+
+
+
+Based on the prior knowledge summarized in Table 2 coupled with extensive experience with previous antibodies in these formulations, the three formulations that were selected for development/verification studies are as follows: 
+
+1. 
+1.
+
+
+25 mg/mL mAb, 10 mM Histidine, 4% mannitol, 2.5% sucrose, 0.01% polysorbate 20, in the pH range 4–6
+
+
+
+
+2.  
+2.
+
+
+25 mg/mL mAb, 10 mM Histidine, 2.5% mannitol, 4.5% sucrose, 0.01% polysorbate 20, in the pH range 4–6
+
+
+
+
+3.  
+3.
+
+
+25 mg/mL mAb, 10 mM Histidine, 4.5–5% sucrose, 0.01% polysorbate 20, in the pH range 4–6
+
+
+
+
+
+The thermal characteristics of these formulations as a function of cooling and heating were studied using freeze-drying microscopy \(FDM\) and modulated DSC \(MDSC\). The results of these studies which are summarized in the Table 3 suggest that the product temperature during primary drying must be maintained below −28 °C. 
+
+
+***Table 3*** 
+Thermal characteristics of selected formulations
+
+
+
+**Formulation**
+
+**Glass transition temperature, Tg’ \(°C\)**
+
+**Eutectic melting temperature \(°C\)**
+
+**Collapse temperature \(°C\)**
+
+1
+
+–21
+
+–6
+
+N/A
+
+2
+
+–22
+
+–6
+
+−19
+
+3
+
+–25
+
+N/A
+
+−22
+
+
+
+Mannitol was included as a common crystallizing bulking agent, and sucrose as an amorphous bulking agent which might be expected to promote stability of the protein during freeze thaw and in the solid state.
+
+The above three formulations were freeze-dried using a conservative lyophilization process conditions summarized in the Table 4 based on previous knowledge and platform approach. Prior to lyophilization these three formulations were subjected to three consecutive freeze-thaw cycles. At the end of each freeze thaw cycle aggregates/HMWS \(SEC-HPLC\) and sub-visible particles \(HIAC\) data was collected. 
+
+
+***Table 4*** 
+Conservative platform lyophilization cycle used for screening formulation candidates
+
+
+
+**Step**
+
+**Phase**
+
+**Ramp/hold**
+
+**Ramp rate \(°C/min\)**
+
+**Temperature \(°C\)**
+
+**Pressure \(mTorr\)**
+
+**Time \(hr:min:sec\)**
+
+1
+
+Loading
+
+Hold
+
+0.00
+
+5.0
+
+N/A
+
+1:00:00
+
+2
+
+Freezing
+
+Ramp
+
+1.00
+
+−45.0
+
+N/A
+
+0:50:00
+
+3
+
+Freezing
+
+Hold
+
+0.00
+
+−45
+
+N/A
+
+2:00:00
+
+4
+
+Freezing
+
+Ramp
+
+1:00
+
+−15
+
+N/A
+
+0:30:00
+
+5
+
+Freezing
+
+Hold
+
+0.00
+
+−15
+
+N/A
+
+3:00:00
+
+6
+
+Freezing
+
+Ramp
+
+1:00
+
+−45
+
+N/A
+
+0:30:00
+
+7
+
+Freezing
+
+Hold
+
+0.00
+
+−45
+
+N/A
+
+2:00:00
+
+8
+
+Primary drying
+
+Hold
+
+0.00
+
+−45
+
+100
+
+1:00:00
+
+9
+
+Primary drying
+
+Ramp
+
+1.00
+
+−22.0
+
+100
+
+0:23:00
+
+10
+
+Primary drying
+
+Hold
+
+0.00
+
+−22.0
+
+100
+
+75:00:00
+
+11
+
+Secondary drying
+
+Ramp
+
+0.25
+
+30.0
+
+100
+
+3:28:00
+
+12
+
+Secondary drying
+
+Hold
+
+0.00
+
+30.0
+
+100
+
+6:00:00
+
+13
+
+Secondary drying
+
+Ramp
+
+1.00
+
+5.0
+
+130
+
+0:25:00
+
+14
+
+Secondary drying
+
+Hold
+
+0.00
+
+5.0
+
+130
+
+2:00:00
+
+15
+
+Pre-aeration
+
+
+
+The above freeze-dried formulation candidates appeared elegant without any sign of collapse and were set down on accelerated stability studies including 5 °C, 25 °C, 35 °C, and 45 °C temperatures, and stability was monitored as a function of time. The test results indicated all the CQAs were well within the pre-defined acceptance criteria. The thermal characterization of the freeze-dried solid on MDSC indicated glass transition above 50 °C suggesting Arrhenius square root of time kinetics \[4–6\] can be used to predict the storage stability at desired shelf temperature of 2–8 °C.
+
+Based on freeze-thaw and overall results after 3 months of accelerated lyophilized drug product stability, appearance, anticipated short lyophilization cycle time, ease of scale-up and manufacturing, formulation 1 containing mannitol and sucrose in the weight ratio of 4:2.5 was selected as the best/target for further characterization and optimization and formulation 2 as a backup. The drug substance formulation was same as the drug product formulation: 10 mM histidine, 4% mannitol, 2.5% sucrose, and 0.01% polysorbate 20 at pH 6.0 \(Table 5\). 
+
+
+***Table 5*** 
+Target formulation composition
+
+
+
+**Component**
+
+**Amount**
+
+**Function**
+
+mAb-X
+
+2.5%
+
+Drug active
+
+Mannitol
+
+4%
+
+Bulking agent
+
+Sucrose
+
+2.5%
+
+Stabilizer
+
+Histidine
+
+10–20 mM
+
+Buffer
+
+Polysorbate 20
+
+0.01%
+
+Surfactant
+
+pH
+
+5–6
+
+
+
+## **5 **Lyophilization Process Development
+
+The target lyophilization process was developed taking into consideration the freeze-drying properties \(the eutectic melting temperature and the annealing temperature and time for maximum crystallization of mannitol\) and knowledge of limitations and capabilities of the clinical/commercial manufacturing lyophilizer\(s\). The target process parameters conditions were identified using prior knowledge with similar mannitol-based formulations and the mathematical model based on heat and mass transfer rates. The developed target lyophilization which is summarized in Table 6 was tested and verified with the target formulation selected and found to be suitable. 
+
+
+***Table 6*** 
+Target lyohilization cycle
+
+
+
+**Step**
+
+**Phase**
+
+**Ramp/hold**
+
+**Ramp rate \(°C/min\)**
+
+**Temperature \(°C\)**
+
+**Pressure \(mTorr\)**
+
+**Time \(hr:min:sec\)**
+
+1
+
+Loading
+
+Hold
+
+0.00
+
+5.0
+
+N/A
+
+1:00:00
+
+2
+
+Freezing
+
+Ramp
+
+1.00
+
+−45.0
+
+N/A
+
+0:50:00
+
+3
+
+Freezing
+
+Hold
+
+0.00
+
+−45
+
+N/A
+
+2:00:00
+
+4
+
+Annealing
+
+Ramp
+
+1:00
+
+−13
+
+N/A
+
+0:32:00
+
+5
+
+Annealing
+
+Hold
+
+0.00
+
+−13
+
+N/A
+
+3:00:00
+
+6
+
+Freezing
+
+Ramp
+
+1:00
+
+−45
+
+N/A
+
+0:32:00
+
+7
+
+Freezing
+
+Hold
+
+0.00
+
+−45
+
+N/A
+
+2:00:00
+
+8
+
+Primary drying
+
+Hold
+
+0.00
+
+−45
+
+150
+
+1:00:00
+
+9
+
+Primary drying
+
+Ramp
+
+0.50
+
+−10
+
+150
+
+1:10:00
+
+10
+
+Primary drying
+
+Hold
+
+0.00
+
+−10
+
+150
+
+45:00:00
+
+11
+
+Secondary drying
+
+Ramp
+
+0.30
+
+30.0
+
+150
+
+2:22:00
+
+12
+
+Secondary drying
+
+Hold
+
+0.00
+
+30.0
+
+100
+
+8:00:00
+
+13
+
+Secondary drying
+
+Ramp
+
+1.00
+
+5.0
+
+130
+
+0:25:00
+
+14
+
+Secondary drying
+
+Hold
+
+0.00
+
+5.0
+
+130
+
+2:00:00
+
+15
+
+Pre-aeration
+
+
+
+### **5.1 **Justification of Commercial Manufacturing Lyophilization Cycle
+
+
+*Freezing temperature and hold time*
+
+The Tg’ of the target formulation was determined to be −21 °C using MDSC. A freezing temp of −45 °C with 2 h of hold time was selected to ensure complete solidification of ice when filled at 2.2 mL in 6 R glass vials.
+
+
+
+*Ramp rates*
+
+As part of characterization of the freeze-dryers, the shelf surface temperature mapping was performed and the minimum/maximum heating/cooling rates achievable were determined. Based on these data a ramp rate of ≤1 °C/min was defined as optimal operational limit of the freeze-dryers during the ramping of freezing steps and primary drying step.
+
+
+
+*Annealing step*
+
+An annealing time of 3 h at temperature of −13 °C was selected based on the prior knowledge, FDM, and MDSC studies. Under FDM kinetics of maximum crystallization was observed at −13 °C, and crystal growth was plateaued off after 3 h. This was further supported by MDSC results where maximum heat of crystallization was observed after a hold of 3 h at −13 °C. Additionally, annealing at −13 °C facilitated the Ostwald ripening where the bigger ice crystals grow at the expense of smaller ones reducing the overall primary drying time and help minimize drying heterogeneity arising due to freezing differences between the lab and production scale freeze-dryers and achieve uniform drying rate within the batch and also between different dryers \[7\].
+
+Based on the predictions/estimates from mathematical model, a shelf temperature of −10 °C and a chamber pressure of 150 mTorr resulted in product temperature below −30 °C well below the eutectic melting temperature of −5 °C of the formulation. Drying time was monitored in real time by TDLAS and the Pirani gauge as described above.
+
+
+
+*Target product temperature*
+
+The formulation 1 has a Tg’ of −21 °C and a Teu of −6 °C as measured by freeze-dry microscopy. Accordingly, the target product temperature during primary drying was set to −25 °C \(4 °C below the Tg’ and 19 °C below the eutectic melting temperature/collapse temperature\) to provide a margin of safety against any excursions in temperature and/or pressure.
+
+
+
+*Shelf temperature, chamber pressure, and primary drying time*
+
+Prior knowledge and steady state modeling in combination with experiments were used for defining the input parameters, shelf temperature, and chamber pressure, and output parameters were sublimation rate, product temperature, and drying time for the primary drying step of the lyophilization process. The steady state model was validated on several in-house molecules to ascertain that the model was accurate and robust in predicting the input and out parameters \[8\].
+
+The differences in Kv between the center and edge vials, and equipment capability of production dryer were taken into consideration while defining the shelf temperature and chamber pressure. While optimizing the shelf temperature, the Kv of the edge vial was considered while defining the end of primary drying time, the Kv of center vails was considered.
+
+The minimum controllable chamber pressure as a function of sublimation rate of the production dryer was considered when selecting the chamber pressure to avoid choke flow.
+
+The chamber pressure was set to 150 mTorr which is about 30% of the vapor pressure of ice at −25 °C and is approximately 35 mTorr higher than the minimum achievable chamber pressure of 100 mTorr at a sublimation rate of 0.4 kg/m2 h.
+
+Thus, based on the mathematical model, a shelf temperature of −10 °C and a chamber pressure of 150 mTorr resulted in product temperature of about −31 °C.
+
+The time to completion of primary drying of 40 h that was predicted by the model for a production dryer with a full load was tested during the engineering run. However, the primary drying took little longer than predicted. Based on engineering run data and considering a safety margin of 15%, a primary drying time of 45 h was selected.
+
+
+
+*Ramp rate from primary drying to secondary drying*
+
+Historical data and data from the literature suggest that there would be 10–15% water bound at the end of primary drying in amorphous systems, ramping fast would carry the risk of exceeding the Tg of the dried product resulting in collapse or micro-collapse \[3\]. To avoid collapse a slower ramp rate of 0.3 °C was selected to enable drying with retention of structure and avoid meltback.
+
+
+
+*Secondary drying temperature and time*
+
+The stability data of this formulation suggest the protein is stable at room temperature for few weeks. Based on stability data, secondary drying temperature of 30 °C was selected. The secondary drying time needed to achieve a target residual moisture content of ≤0.5% was determined by periodically sampling during the secondary drying on a lab scale dryer using sample thief and testing for water content using Karl Fisher. The optimal drying time at 30 °C to achieve ≤0.5% residual moisture was determined to be 6 h. This was verified during the engineering run, and 8 h of secondary drying time at 30 °C was selected allowing 2 h of safety margin for cold spots to catch up. The chamber pressure was kept the same as that of during primary drying \(150 mTorr\) since there is no added advantage of changing the chamber pressure for secondary drying \[9\] based on in-house data with similar formulation and drug product presentation.
+
+
+## **6 **Risk Assessment
+
+Each parameter is evaluated for criticality using a risk ranking approach per ICH Q9 \[10\], which assesses the potential impact of each parameter on the critical quality attribute \(CQA\). This ranking is determined by two factors: impact and the uncertainty \(or certainty\) of that impact. The impact ranking of a parameter assesses either the known or potential consequences on CQA/safety and efficacy.
+
+This risk assessment should be applied throughout the product lifecycle starting FIH through validation and post-approval. By performing this assessment at key points during process development, the development team will identify which attributes pose the highest risk and require mitigation.
+
+Mitigation will involve increasing the knowledge around the potential impact of that attribute through characterization, clinical, nonclinical, and in vitro data, and/or through the control strategy employed. Over the product lifecycle, the criticality ranking \(risk score\) of the majority of quality attributes should decrease due to increased knowledge \(lower uncertainty\) at the same level of impact or due to a combination of less severe impact and increased knowledge.
+
+### **6.1 **Risk Assessment \(Formulation\)
+
+An initial risk assessment was conducted using the cause-and-effect matrix to identify which of the formulation parameters will have the greatest impact on the product quality, and storage stability of mAb-X. The parameters that are normally evaluated relate either to the composition of the formulation and the processing conditions which the formulation can be subjected to during manufacturing, fill finish or storage. Based on the scores from the formulation initial risk assessment, the formulation parameters that scored highest are further evaluated/characterized using experimental design, DOE.
+
+The formulation parameters that can potentially impact CQAs that were identified include formulation pH, vial size, fill volume, mAb-X protein conc, mannitol conc, sucrose conc, PS 20, buffer concentration, stopper/closure formulation, stopper/closure style, IV bag, bulk container for DS, headspace pressure/composition, and raw materials impurity \(see Table 7\). The CQAs identified include potency, product degradation \(aggregation\), visible particles, sub-visible particles, cake appearance, residual moisture, reconstitution time, mannitol hydrate, color/clarity of solution, viscosity/syringebility, sterility, and CCI. 
+
+
+***Table 7*** 
+Risk analysis using cause and effect \(formulation\)
+
+
+
+**Critical quality attributes**
+
+**Potency**
+
+**Product degradation/aggregation**
+
+**Visible particles**
+
+**Sub visible particles**
+
+**Cake appearance**
+
+**Residual moisture**
+
+**Recon time**
+
+**Mannitol hydrate**
+
+**Color/clarity of solution**
+
+**Viscosity/syringebility**
+
+**Sterility**
+
+**CCI**
+
+**Scores**
+
+CQA rank
+
+10
+
+10
+
+7
+
+9
+
+7
+
+9
+
+9
+
+7
+
+7
+
+7
+
+10
+
+10
+
+Parameter
+
+Form. pH
+
+1
+
+10
+
+10
+
+10
+
+5
+
+5
+
+5
+
+1
+
+1
+
+7
+
+1
+
+1
+
+478
+
+Vial size
+
+1
+
+1
+
+1
+
+1
+
+9
+
+9
+
+9
+
+9
+
+1
+
+1
+
+1
+
+1
+
+358
+
+Fill volume
+
+1
+
+1
+
+1
+
+1
+
+9
+
+7
+
+5
+
+9
+
+1
+
+1
+
+1
+
+1
+
+304
+
+Protein Conc.
+
+7
+
+7
+
+9
+
+10
+
+10
+
+7
+
+5
+
+9
+
+7
+
+9
+
+1
+
+1
+
+666
+
+Mannitol Conc
+
+1
+
+7
+
+7
+
+7
+
+7
+
+9
+
+9
+
+5
+
+1
+
+1
+
+1
+
+1
+
+469
+
+Sucrose conc
+
+7
+
+7
+
+10
+
+10
+
+7
+
+1
+
+7
+
+9
+
+7
+
+9
+
+1
+
+1
+
+616
+
+PS 20
+
+1
+
+9
+
+9
+
+9
+
+1
+
+1
+
+9
+
+1
+
+5
+
+7
+
+1
+
+1
+
+420
+
+Buffer concentration
+
+1
+
+5
+
+5
+
+5
+
+5
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+234
+
+Stopper/closure formulation
+
+1
+
+5
+
+5
+
+5
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+206
+
+Stopper/closure style
+
+1
+
+1
+
+1
+
+1
+
+1
+
+5
+
+5
+
+5
+
+1
+
+1
+
+5
+
+9
+
+322
+
+IV bag
+
+1
+
+5
+
+7
+
+7
+
+1
+
+1
+
+7
+
+1
+
+1
+
+1
+
+1
+
+1
+
+292
+
+Bulk container for DS
+
+1
+
+7
+
+7
+
+9
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+5
+
+9
+
+396
+
+Headspace pressure/composition
+
+1
+
+5
+
+5
+
+7
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+224
+
+Raw material impurity
+
+1
+
+5
+
+5
+
+5
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+206
+
+
+
+A cause-and-effect matrix consists of columns of quality attributes and rows of parameters \(formulation\). Quantization of the risk is done by multiplying the ranking of each quality attribute \(the number at the top of each column\) by the parameter ranking \(the number in each row of the appropriate column\). Basically, this is an assessment of the severity of the consequences of an adverse event in combination with the relative likelihood of that event happening.
+
+The risk analysis using cause and effect matrix has identified five formulation parameters including pH, protein concentration, mannitol concentration, sucrose concentration, and PS 20 with high scores and are considered as critical. These critical formulation parameters require further understanding and constituted the focus of the characterization work.
+
+### **6.2 **Risk Assessment \(Lyophilization\)
+
+A cause-and-effect analysis was performed for each operation of manufacturing; however, here only, lyophilization process will be exemplified.
+
+The cause-and-effect matrices were developed in a “brainstorming session” among the team members. This type of session is recommended in order to maximize the probability that all relevant characteristics will be brought up.
+
+This approach helps to assure that development effort is focused on the most important things first, either by generating experimental data or by implementing an appropriate control strategy, or both \(Tables 8 and 9\). 
+
+
+***Table 8*** 
+Risk assessment of freeze-drying process parameter influence on CQA
+
+
+
+**Parameter**
+
+**Comments**
+
+Shelf temperature at loading
+
+If warm vials are loaded on the cold the shelves, the degree of supercooling will be impacted. Warm shelves could use up the limited room temperature stability of the product, potential for particles formation at this point. Would not expect any effect on stability
+
+Hold time at loading temp
+
+Important for uniformity of morphology of ice, condensation, and final product quality. Important where longer hold time would increase likelihood of particles formation
+
+Ramp rate to freezing temp
+
+Shouldn’t affect initial potency, but could influence drying rate and physical state of product as freeze-dried solid, which could affect stability, but annealing should erase this effect
+
+Final freezing temp
+
+Should be below the Tg’ of the formulation and complete solidification of ice critical for sublimation process
+
+Hold time at freezing temp
+
+Could impact complete conversion of ice and critical for sublimation process
+
+Ramp rate to annealing temp
+
+Not critical for process performance and product quality
+
+Annealing temperature
+
+Would expect this parameter to have a significant effect on the crystallization \(physical state\) of crystallizable excipients \(ice and mannitol\), eventually physical characteristics of freeze-dried and its storage stability
+
+Annealing time
+
+Same comment as above
+
+Post annealing shelf temp
+
+Should not have any affect
+
+Ramp rate to primary drying
+
+Should not matter given that the product will have already been annealed
+
+Primary drying temperature
+
+High would cause a pharmaceutically unacceptable product, as it can cause collapse and compromise the initial and storage stability. Too low could risk in incomplete sublimation of ice, and advancing to secondary drying with ice could result in collapse, resulting in unacceptably high residual moisture content, affecting recon time and stability of freeze-dried product
+
+Primary drying chamber pressure
+
+High would cause a pharmaceutically unacceptable product, as it can cause collapse and compromise the initial and storage stability. Too low could affect homogeneity and stability if it results in unacceptably high residual moisture content. Higher pressure will increase rate of heat transfer, and increase sublimation rate resulting in choke flow
+
+Primary drying time
+
+If low, would result in high residual moisture, which could affect stability
+
+Ramp rate to secondary drying
+
+If aggressive during secondary drying could cause partial collapse, high residual moisture, and adversely affect stability
+
+Secondary drying temperature
+
+High temperature could potentially impact protein structure and affect the storage stability of the product
+
+Secondary drying time
+
+Too short would result in higher residual moisture. Magnitude of influence would depend on the physical state of the drug
+
+Secondary drying chamber pressure
+
+Prior information from published literature says that this should not matter
+
+Chamber pressure during stoppering
+
+Could impact reconstitution time and products that need N2 overlay for stability
+
+Hydraulic pressure during stoppering
+
+No effect would be expected on product quality
+
+Condenser temperature
+
+Should not matter as long as it remains suitably low – below about –50 °C. Should be monitored during development and scale-up
+
+Sterilization cycle
+
+Should not matter because no mechanical, piping, or instrument sensor locations will be changed during the PT
+
+
+
+
+***Table 9*** 
+Risk analysis using cause and effect \(lyophilization\)
+
+
+
+**Critical quality attributes**
+
+**Potency**
+
+**Product degradation aggregation**
+
+**Visible particles**
+
+**Sub visible particles**
+
+**Cake appearance**
+
+**Residual moisture**
+
+**Recon time**
+
+**Mannitol hydrate**
+
+**P. efficiency**
+
+**Scores**
+
+CQA rank
+
+10
+
+10
+
+7
+
+9
+
+7
+
+9
+
+9
+
+7
+
+7
+
+Parameter
+
+Shelf temperature at loading
+
+1
+
+1
+
+5
+
+5
+
+5
+
+5
+
+1
+
+1
+
+1
+
+203
+
+Hold time at loading temp
+
+5
+
+5
+
+5
+
+5
+
+5
+
+5
+
+1
+
+1
+
+1
+
+283
+
+Ramp rate to freezing temp
+
+1
+
+1
+
+1
+
+1
+
+7
+
+7
+
+7
+
+5
+
+1
+
+253
+
+Freezing temp
+
+1
+
+1
+
+1
+
+1
+
+7
+
+7
+
+7
+
+1
+
+1
+
+225
+
+Hold time at freezing temp
+
+1
+
+1
+
+7
+
+7
+
+9
+
+9
+
+9
+
+5
+
+1
+
+399
+
+Ramp rate to annealing temp
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+75
+
+Annealing temperature
+
+1
+
+1
+
+5
+
+5
+
+9
+
+9
+
+9
+
+9
+
+1
+
+395
+
+Annealing time
+
+1
+
+1
+
+5
+
+5
+
+9
+
+9
+
+9
+
+9
+
+1
+
+395
+
+Post annealing final freezing temp
+
+1
+
+1
+
+1
+
+1
+
+7
+
+7
+
+7
+
+1
+
+1
+
+225
+
+Hold time at final freezing temp
+
+1
+
+1
+
+7
+
+7
+
+9
+
+9
+
+9
+
+5
+
+1
+
+399
+
+Ramp rate to final freezing temp
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+7
+
+1
+
+1
+
+129
+
+Primary drying temperature
+
+5
+
+9
+
+9
+
+9
+
+9
+
+9
+
+9
+
+5
+
+1
+
+551
+
+Primary drying chamber pressure
+
+5
+
+9
+
+9
+
+9
+
+9
+
+9
+
+9
+
+5
+
+1
+
+551
+
+Primary drying time
+
+5
+
+9
+
+9
+
+9
+
+9
+
+9
+
+9
+
+5
+
+1
+
+551
+
+Ramp rate to secondary drying
+
+1
+
+5
+
+7
+
+7
+
+7
+
+7
+
+7
+
+5
+
+1
+
+389
+
+Secondary drying temperature
+
+5
+
+7
+
+7
+
+7
+
+5
+
+9
+
+5
+
+7
+
+1
+
+449
+
+Secondary drying time
+
+5
+
+7
+
+7
+
+7
+
+5
+
+9
+
+5
+
+7
+
+1
+
+449
+
+Secondary drying chamber pressure
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+75
+
+Chamber pressure during stoppering
+
+7
+
+7
+
+1
+
+1
+
+7
+
+1
+
+1
+
+1
+
+1
+
+237
+
+
+
+The risk analysis using cause-and-effect matrix has identified eight process parameters with high scores and are considered as critical. These critical process parameters that are listed below require further understanding and should be the focus for optimization and characterization: 
+
+1. 
+1.
+
+
+Initial freezing rate
+
+
+
+
+2.  
+2.
+
+
+Hold time at the final freezing temperature
+
+
+
+
+3.  
+3.
+
+
+Annealing temperature
+
+
+
+
+4.  
+4.
+
+
+Annealing time
+
+
+
+
+5.  
+5.
+
+
+Primary drying shelf temperature
+
+
+
+
+6.  
+6.
+
+
+Primary drying chamber pressure
+
+
+
+
+7.  
+7.
+
+
+Primary drying time
+
+
+
+
+8.  
+8.
+
+
+Secondary drying ramp rate
+
+
+
+
+9.  
+9.
+
+
+Secondary drying temperature
+
+
+
+
+10.  
+10.
+
+
+Secondary drying time
+
+
+
+
+
+## **7 **Design of Experiments \(DOE\)
+
+The outcome of the risk assessment was as expected based on prior knowledge. The highest ranked formulation and lyophilization parameters from the risk assessment were screened as the main causes of impact on the CQAs. There are couple of approaches to the experimental design and study the effects. It should also be noted that the product design and freeze-dry process focus areas are not independent, since both formulation factors and processing effects have a high potential to influence the CQAs. Given this interdependence of formulation factors and processing factors, one approach to experimental design is to take both focus areas into account \(combined approach\). The other approach could be to decouple formulation parameters from lyophilization parameters and design experiments to study effects separately \(individual approach\). Both approaches are discussed and illustrated with mock data.
+
+### **7.1 **Combined Approach
+
+The goal of the designed studies is to demonstrate the process understanding. A risk assessment above is first employed to prioritize the operation parameters, based on the impact of operational parameters on process and product performance parameters \(PP\). During the studies, operational parameters \(OP\) are purposely varied within the characterization range to determine their effect on process and product performance parameters \(PP\). Design of experiments \(DOEs\) are typically multivariate \(two to nine OPs\) in form and provide information on main effects, two-way interactions, and quadratic responses over the characterized range. Multivariate DOE studies performed are typically in two phases. A fractional factorial DOE studies is used in a screening phase to narrow down the further study on potential key and critical operational parameters. In optimization phase, a central composite design that builds on the screening DOE, all significant effect and their interactions are determined. A full DOE data set including any available data from manufacturing scale is used to build response surface models for each of the impacted quality attributes. Design space established is the region where when operated within will assure meeting the quality of the product with prescribed level of statistical confidence.
+
+The phases of the PC are as follows and are described in more detail in the appendix: 
+
++ 
+Prioritization of operational parameters for experimental evaluation using FMEA
+
++  
+Process characterization experimental phases 
+
+	+ 
+Screening phase
+
+	+  
+Optimization phase
+
+
+
+
++  
+Data analysis to build response surface model for each response 
+
+	+ 
+Model refinement and diagnostics
+
+	+  
+Map of response surface and ranking of significant terms
+
+
+
+
++  
+Identify design space boundaries 
+
+	+ 
+Identify design space boundaries
+
+	+  
+Simulations to predict excursion rates
+
+	+  
+Identification of critical process parameters
+
+
+
+
+
+PC studies provide data-based recommendations for various PC outputs as follows: 
+
++ 
+Determine how operational parameters \(inputs\) affect product quality and process performance parameters \(outputs\)
+
++  
+Categorize and justify OPs \(operational parameters\) and PPs \(performance parameters\) as critical, key, and non-key
+
++  
+Determine design space, i.e., a set of acceptable ranges for OPs
+
++  
+Establish process validation acceptance criteria \(PVACs\) for process validation and action limits for in-process controls
+
++  
+Recommend adjustments as applicable to set points and operating ranges to ensure process robustness, particularly if a mode of failure has been identified
+
++  
+Provide a knowledge database that will serve in resolution of nonconformances \(NCs\) and lot disposition during routine manufacturing
+
+
+
+
+#### ***7.1.1 ***Initial Screening Studies
+
+Based on the risk assessment of operational parameters, the high-priority parameters are included in process characterization experiments. The initial screening phase includes all of these parameters in a multivariate design of experiment study. The purpose of a screening experiment is to confirm significance of main effects and some interactions of the operational parameters identified during risk assessment FMEA. These parameters were tested at 2–3 times the operational ranges \(ORs\). Table 10 shows the formulation and process parameters of interest. 
+
+
+***Table 10*** 
+Identified potentially critical operating parameters
+
+
+
+**Type**
+
+**Operating parameter**
+
+**Units**
+
+**Low level**
+
+**High level**
+
+Formulation parameters
+
+pH
+
+4.5
+
+6
+
+Protein conc \(mg\)
+
+mg
+
+10
+
+100
+
+Mannitol \(%\)
+
+%
+
+1
+
+10
+
+Sucrose
+
+%
+
+0.5
+
+5
+
+PS20
+
+%
+
+0
+
+0.02
+
+Process parameters
+
+Initial freezing rate
+
+C/min
+
+0.25
+
+2.5
+
+Hold time at final freezing temp
+
+min
+
+30
+
+240
+
+Annealing temp
+
+C
+
+5
+
+Annealing time
+
+min
+
+30
+
+240
+
+Primary drying shelf temp
+
+C
+
+10
+
+Primary drying pressure
+
+mTorr
+
+40
+
+Primary drying time
+
+hrs
+
+10
+
+Secondary drying ramp rate
+
+C/min
+
+0.1
+
+1
+
+Secondary drying temp
+
+C
+
+10
+
+Secondary drying time
+
+hours
+
+5
+
+
+
+Note that some OPs, such as primary drying shelf temperature or secondary drying time are kept constant. For the OPs that are varied, one approach could be to execute a screening study to confirm the potential significance of these parameters, another approach would be to execute a larger design that would aim to create a design space that incorporates all of these parameters. Screening study would potentially allow for few OPs to be investigated with higher definition. Specific experimental designs may include fractional factorial D-optimal designs. D-optimal designs are models dependent designs with structures optimized to minimize parameter estimate error of a pre-stated model. The screening phase results are analyzed to identify operational parameters that have impact on performance parameters. Any parameters that are statistically significant \(*p*-value < 0.25\) are also evaluated for practical significance. Practical significance is generally determined by contrasting the magnitude of a given parameter estimate against performance parameter method variability. Operational parameters whose main effects are not significant are set at setpoint in the next phase of DOE. The following Table 11 presents a possible screening design. 
+
+
+***Table 11*** 
+Suggested screening design
+
+
+
+**Lyophilization runs**
+
+**pH**
+
+**Protein conc \(mg\)**
+
+**Mannitol \(%\)**
+
+**Sucrose**
+
+**PS20**
+
+**Initial freezing rate**
+
+**Hold time at final freezing temp**
+
+**Annealing time**
+
+**Secondary drying ramp rate**
+
+1
+
+6
+
+10
+
+10
+
+0.5
+
+0.02
+
+0.25
+
+240
+
+240
+
+0.1
+
+4.5
+
+10
+
+10
+
+5
+
+0
+
+0.25
+
+240
+
+240
+
+0.1
+
+4.5
+
+100
+
+1
+
+0.5
+
+0.02
+
+0.25
+
+240
+
+240
+
+0.1
+
+2
+
+6
+
+10
+
+10
+
+5
+
+0.02
+
+2.5
+
+240
+
+30
+
+1
+
+4.5
+
+10
+
+1
+
+0.5
+
+0.02
+
+2.5
+
+240
+
+30
+
+1
+
+6
+
+100
+
+10
+
+5
+
+0
+
+2.5
+
+240
+
+30
+
+1
+
+3
+
+6
+
+100
+
+10
+
+0.5
+
+0
+
+0.25
+
+30
+
+30
+
+0.1
+
+4.5
+
+10
+
+1
+
+5
+
+0
+
+0.25
+
+30
+
+30
+
+0.1
+
+6
+
+10
+
+10
+
+0.5
+
+0.02
+
+0.25
+
+30
+
+30
+
+0.1
+
+4
+
+6
+
+10
+
+1
+
+5
+
+0
+
+2.5
+
+30
+
+240
+
+0.1
+
+4.5
+
+100
+
+10
+
+0.5
+
+0
+
+2.5
+
+30
+
+240
+
+0.1
+
+4.5
+
+10
+
+10
+
+5
+
+0.02
+
+2.5
+
+30
+
+240
+
+0.1
+
+5
+
+4.5
+
+10
+
+10
+
+0.5
+
+0
+
+2.5
+
+240
+
+30
+
+0.1
+
+6
+
+100
+
+1
+
+5
+
+0.02
+
+2.5
+
+240
+
+30
+
+0.1
+
+6
+
+6
+
+10
+
+1
+
+0.5
+
+0
+
+0.25
+
+30
+
+240
+
+1
+
+4.5
+
+100
+
+10
+
+5
+
+0.02
+
+0.25
+
+30
+
+240
+
+1
+
+
+
+Note that in the above design multiple formulations are loaded into each lyophilization run where each run is executed under different lyophilization conditions. This type of design is commonly referred to as a split-plot design. These designs simplify experimentation where it is not practical to vary all OPs. In other words, these designs avoid a separate lyophilization runs for every combination of formulation and lyophilization parameters. The results of the screening summarized via a Pareto plot show relative significance of each factor \(Fig. 2\). 
+![](images/000001.jpeg)
+
+
+***Fig. 2*** 
+Pareto plot of transformed operating parameter estimates
+
+
+
+The results of the screening study would normally drive how many OPs would be included in studies in the optimization phase. The performed experiments combined with the additional studies will be used to create a predictive model.
+
+#### ***7.1.2 ***Optimization Phase
+
+The optimization phase uses information and experimental data from the screening phase. The screening design is augmented though addition of runs that are necessary to fit 2nd order model. The flexibility that second-order model offers is deemed sufficient to adequately characterize the effect of operating parameter changes on performance parameter. Generally, the augmented design is in the form of an I-optimal fractional factorial design. I-optimal designs minimize the average response prediction variance and are well suited for this stage of process characterization. Generally, designs include significant main effects, two-way interaction, and quadratic terms. When available, additional historical data \(replicates/center points\) may be included to provide a better estimate of model error and to account of experimental scale differences. Table 12 presents a possible design: 
+
+
+***Table 12*** 
+Suggested response surface design
+
+
+
+**Whole plots**
+
+**pH**
+
+**Protein conc \(mg\)**
+
+**Mannitol \(%\)**
+
+**Sucrose**
+
+**PS20**
+
+**Initial freezing rate**
+
+**Hold time at final freezing temp**
+
+**Annealing temp**
+
+**Annealing time**
+
+**Primary drying shelf temp**
+
+**Primary drying pressure**
+
+**Primary drying time**
+
+**Secondary drying ramp rate**
+
+**Secondary drying temp**
+
+**Secondary drying time**
+
+1
+
+6
+
+100
+
+10
+
+0.5
+
+0.01
+
+0.25
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+4.5
+
+55
+
+10
+
+5
+
+0
+
+0.25
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+2
+
+5.25
+
+10
+
+10
+
+5
+
+0
+
+2.5
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+4.5
+
+100
+
+1
+
+2.75
+
+0
+
+2.5
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+3
+
+6
+
+10
+
+10
+
+5
+
+0.02
+
+0.25
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+4.5
+
+10
+
+1
+
+0.5
+
+0.02
+
+0.25
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+4
+
+4.5
+
+100
+
+10
+
+0.5
+
+0.02
+
+2.5
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+10
+
+1
+
+0.5
+
+0
+
+2.5
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+5
+
+4.5
+
+10
+
+10
+
+5
+
+0.01
+
+0.25
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+100
+
+1
+
+5
+
+0.02
+
+0.25
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+6
+
+100
+
+5.5
+
+5
+
+0.02
+
+2.5
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+100
+
+10
+
+0.5
+
+0
+
+2.5
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+7
+
+6
+
+10
+
+10
+
+0.5
+
+0.02
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+4.5
+
+100
+
+10
+
+5
+
+0
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+8
+
+4.5
+
+10
+
+10
+
+5
+
+0.02
+
+2.5
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+6
+
+10
+
+10
+
+0.5
+
+0.02
+
+2.5
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+9
+
+4.5
+
+10
+
+1
+
+5
+
+0
+
+2.5
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+6
+
+100
+
+10
+
+5
+
+0.02
+
+2.5
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+10
+
+6
+
+10
+
+10
+
+0.5
+
+0.02
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.5
+
+10
+
+5
+
+4.5
+
+10
+
+1
+
+5
+
+0
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.5
+
+10
+
+5
+
+11
+
+6
+
+55
+
+1
+
+5
+
+0
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+4.5
+
+100
+
+1
+
+0.5
+
+0.02
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+12
+
+4.5
+
+10
+
+10
+
+0.5
+
+0.02
+
+2.5
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+6
+
+10
+
+1
+
+5
+
+0.02
+
+2.5
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+13
+
+4.5
+
+10
+
+10
+
+0.5
+
+0
+
+1.375
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+100
+
+10
+
+5
+
+0.02
+
+1.375
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+14
+
+4.5
+
+100
+
+10
+
+0.5
+
+0.02
+
+0.25
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+6
+
+10
+
+1
+
+0.5
+
+0
+
+0.25
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+15
+
+6
+
+10
+
+5.5
+
+2.75
+
+0
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+4.5
+
+100
+
+10
+
+0.5
+
+0
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+16
+
+4.5
+
+100
+
+1
+
+5
+
+0
+
+0.25
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+6
+
+100
+
+10
+
+0.5
+
+0
+
+0.25
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+17
+
+4.5
+
+10
+
+1
+
+5
+
+0
+
+0.25
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+55
+
+5.5
+
+0.5
+
+0.02
+
+0.25
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+18
+
+4.5
+
+10
+
+10
+
+0.5
+
+0
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+4.5
+
+55
+
+1
+
+5
+
+0.02
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+19
+
+4.5
+
+10
+
+1
+
+0.5
+
+0
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.5
+
+10
+
+5
+
+5.25
+
+100
+
+1
+
+5
+
+0.02
+
+2.5
+
+30
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.5
+
+10
+
+5
+
+20
+
+6
+
+10
+
+1
+
+5
+
+0.02
+
+2.5
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+100
+
+5.5
+
+0.5
+
+0
+
+2.5
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+21
+
+4.5
+
+10
+
+5.5
+
+5
+
+0.01
+
+2.5
+
+135
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+100
+
+1
+
+2.75
+
+0.02
+
+2.5
+
+135
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+22
+
+4.5
+
+100
+
+1
+
+0.5
+
+0.01
+
+2.5
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+5.25
+
+100
+
+10
+
+5
+
+0
+
+2.5
+
+240
+
+5
+
+30
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+23
+
+6
+
+10
+
+10
+
+0.5
+
+0
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+4.5
+
+100
+
+5.5
+
+0.5
+
+0.02
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+24
+
+5.25
+
+10
+
+10
+
+5
+
+0.02
+
+0.25
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+4.5
+
+100
+
+10
+
+0.5
+
+0
+
+0.25
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+25
+
+6
+
+10
+
+10
+
+5
+
+0
+
+2.5
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.5
+
+10
+
+5
+
+5.25
+
+10
+
+5.5
+
+0.5
+
+0.02
+
+2.5
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.5
+
+10
+
+5
+
+26
+
+6
+
+100
+
+10
+
+5
+
+0
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+5.25
+
+55
+
+1
+
+0.5
+
+0.01
+
+0.25
+
+30
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+27
+
+5.25
+
+100
+
+1
+
+5
+
+0
+
+0.25
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+4.5
+
+10
+
+1
+
+0.5
+
+0.02
+
+0.25
+
+240
+
+5
+
+240
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+28
+
+4.5
+
+100
+
+10
+
+5
+
+0.02
+
+0.25
+
+135
+
+5
+
+135
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+6
+
+10
+
+10
+
+5
+
+0
+
+0.25
+
+135
+
+5
+
+135
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+29
+
+6
+
+55
+
+5.5
+
+5
+
+0.01
+
+0.25
+
+240
+
+5
+
+135
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+6
+
+100
+
+1
+
+0.5
+
+0.02
+
+0.25
+
+240
+
+5
+
+135
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+30
+
+6
+
+10
+
+1
+
+2.75
+
+0.01
+
+0.25
+
+135
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+4.5
+
+100
+
+1
+
+0.5
+
+0
+
+0.25
+
+135
+
+5
+
+30
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+31
+
+6
+
+100
+
+1
+
+0.5
+
+0.01
+
+1.375
+
+30
+
+5
+
+135
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+5.25
+
+55
+
+10
+
+2.75
+
+0.02
+
+1.375
+
+30
+
+5
+
+135
+
+10
+
+40
+
+10
+
+0.1
+
+10
+
+5
+
+32
+
+4.5
+
+100
+
+1
+
+5
+
+0.02
+
+1.375
+
+135
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+6
+
+100
+
+1
+
+0.5
+
+0
+
+1.375
+
+135
+
+5
+
+240
+
+10
+
+40
+
+10
+
+1
+
+10
+
+5
+
+
+
+#### ***7.1.3 ***Data Analysis to Build Response Surface Model \(RSM\) for Each Response
+
+Once the complete dataset is available, a response surface model is generated for each individual performance parameter, or response, using a statistical software package. The model refinement is typically achieved by removing the terms that are statistically insignificant.
+
+Each model is validated through the analysis of residual plots. The pattern of residuals of actual vs predicted values is expected to be random, indicating no systematic bias in the model. The *p*-value of ANOVA is expected to be <0.05, indicating statistical significance of the model. Lack of fit test is used to determine acceptability of the model order \(first or second\) at 95% confidence level.
+
+When taken together these assessments along with the evaluation of the residual model error in the context of method variability provide a means to validate model prediction. These diagnostics provide information on the model, but there is considerable variability of the model prediction error, based on accuracy of the response measured.
+
+The predicted model showed high number of significant OPs and OP interactions. Interactions can be visualized via the interaction plot presented in Fig. 3. Model validity was assessed using the residual plot presented in Fig. 4. 
+![](images/000002.jpeg)
+
+
+***Fig. 3*** 
+Interaction plot
+
+
+![](images/000003.jpeg)
+
+
+***Fig. 4*** 
+Model residual plot
+
+
+
+#### ***7.1.4 ***Identify Design Space Boundaries
+
+Establish design space includes following steps: 
+
++ 
+Generate 100\(1 − *p*\)% individual confidence limits
+
++  
+Establish acceptable ranges \(linear design space\) or design space \(nonlinear\) by contrasting individual confidence limits with specifications for each response
+
++  
+Identification of critical process parameters
+
+
+
+
+The response surface models for each response are then analyzed simultaneously in an iterative process to define the boundaries of the design space. The iterative analysis of model trends is performed with a graphical tool within the statistical software \(prediction profiler\). The prediction profiler allows the visualization of each response with each factor as a series of single dimension whose trends are connected based on the response surface model. Response values are calculated and displayed based on the response surface equation, while the user interactively adjusts to any combination of input parameters. The objective of the interactive analysis is to find boundaries of each operational parameter within where all outputs are acceptable.
+
+The design space is determined using a response surface that considers multidimensional factor combinations and interactions among operating parameters. One important component of the ICH definition of design space is that there must be an “assurance of quality” in the defined design space. The assurance of quality is expressed as the confidence level of the predicted response; generally, the confidence level is set at 95% or 99%. General principle is: if the response is qualities attribute and the unit operation is a critical step for control the CQA, then 99% confidence level will be used. However, if the response is a quality attribute, but the unit operation is not a critical step for controlling the quality attribute, or the response is process consistency parameters, 95% confidence level could be used. In this case, the justification will be provided.
+
+The calculated design space assures quality by requiring that there be less than a 100 × \(1 − *p*\)% chance of an unacceptable performance parameter values for any set of operational parameters values within the design space \(*p* is the maximum allowable proportion of out of specification results\). Although the design space is often a nonlinear surface, the resulting operational ranges are based on a rectangular space in order to facilitate its use in manufacturing. Thus, rectangular space represents a smaller portion of the design space. Prediction model is used to predict the rectangular acceptable ranges combinations that fall outside of or equals to the rectangular operational ranges but are within the design space.
+
+The individual confidence limits are calculated using the response surface model. The individual confidence limits contain a proscribed fraction of predicted results corresponding to a given set of operating parameters. These limits are then contrasted with corresponding upper and/or lower specification limits. A graphical tool, the prediction profiler in JMP statistical software program \(SAS Institute\), is used to eliminate the region of unacceptable results from the characterized range. In Fig. 5, the prediction profiler shows the relationship between the OPs and contrasts the response within the specification range. 
+![](images/000004.jpeg)
+
+
+***Fig. 5*** 
+Prediction profiler
+
+
+
+The dynamic nature of the prediction profiler allows one to test multiple combinations for either acceptable ranges \(linear design space\) or operational ranges. An operational range can be shifted alone or in combination, within design space, to create optimal manufacturing flexibility. Multiple combinations of operating ranges are possible through this analysis. Nonetheless, each of these operating ranges assures that the out of specification or in process control rate does not exceed 100 × \(1 − *p*\)%.
+
+### **7.2 **Individual Approach: Formulation
+
+#### ***7.2.1 ***pH Characterization Studies
+
+Prior knowledge of the stability of monoclonal antibodies indicates mAbs commonly have a pKa around 8 and any pH in the slightly acidic range favors solubility and stability \[11, 12\]. However, some mAbs have greater sensitivity to pH shifts, and it is imperative to vary the formulation pH and evaluate the impact on the stability of the formulation. The mab X formulation was studied in a liquid state as a function of pH in the range of 4–8, and the integrity of the mAb X was evaluated by monitoring the levels of monomer, aggregate, and fragments at 40 °C for 1 month, 5 °C for 3 months using SEC-HPLC. As illustrated in the Fig. 6 the rates of fragmentation and aggregation at accelerated temperature of 40 °C were acceptable in the range of pH 5.5 to 6.5, the lowest observed when formulated at pH 6.0. The stability of mAb X was also evaluated at 5 °C storage temperature for 6 months and a slight pH dependency to stability was observed in the liquid state, hence, lyophilization was required for the formulation of mAb X \(Fig. 7\). 
+![](images/000005.gif)
+
+
+***Fig. 6*** 
+Effect of pH on stability of mAb X at 40 °C using size exclusion chromatography. \(Adapted from Ref. \[13\]\)
+
+
+![](images/000006.gif)
+
+
+***Fig. 7*** 
+Effect of pH on stability of mAb X at 5 °C using size exclusion chromatography. \(Adapted from Ref. \[13\]\)
+
+
+
+#### ***7.2.2 ***Protein Concentration Characterization Studies
+
+The effect of protein concentration on the stability of mAb X was studied in the range of 10–50 mg/mL to determine if any protein concentration dependency on the formation of aggregates. It was observed that the rate of aggregates formation was higher at 50 mg/mL but was lower at 25 mg/mL hence 25 mg/mL was selected as an optimal protein concentration \(Fig. 8\). Since generally a tolerance limit of ±10% is expected/required to accommodate variations in protein concentration arising from processing and testing, mAb X was further evaluated at a narrow protein concentration range of 25 mg/mL ± 15% to determine any impact on the CQAs in that range with samples testing performed at extremes end of 20 and 30 mg/mL with 25 mg/mL as target. Based on the results, PAR was created \(see Table 13\). 
+![](images/000007.gif)
+
+
+***Fig. 8*** 
+Stability of mAb X at various concentrations at 40 °C, pH 6.0 using SEC. \(Adapted from Ref. \[13\]\)
+
+
+
+
+***Table 13*** 
+Formulation design space \(PAR\) constructed based on formulation robustness studies
+
+
+
+**Parameter**
+
+**Design space lower limit**
+
+**Control space lower limit**
+
+**Target**
+
+**Control space upper limit**
+
+**Design space upper limit**
+
+pH
+
+5
+
+5.3
+
+5.5
+
+5.7
+
+6
+
+Histidine \(mM\)
+
+10
+
+13
+
+15
+
+27
+
+20
+
+Mannitol \(% w/vol\)
+
+3.88
+
+3.92
+
+4
+
+4.08
+
+4.12
+
+Sucrose \(% w/vol\)
+
+2.425
+
+2.45
+
+2.5
+
+2.55
+
+2.575
+
+Polysorbate 20 \(% w/vol\)
+
+0.005
+
+0.007
+
+0.01
+
+0.025
+
+0.05
+
+Protein concentration \(mg/mL\)
+
+20
+
+23
+
+25
+
+27
+
+30
+
+
+
+#### ***7.2.3 ***Characterization ***Mannitol*** and Sucrose
+
+The concentration levels of mannitol and sucrose influences both freeze-drying properties as well as isotonicity of the formulation, and there exists interdependency \[14\]. The effects of concentrations on the freeze-drying properties are briefly discussed below however a multivariate DOE study should be conducted to define the operating and PAR levels.
+
+#### ***7.2.4 ***Effect of Critical Formulation Parameters on the Freeze-Drying Properties of the Formulation
+
+In addition to evaluating the impact of variations in the critical formulation parameters on the CQAs, it is also important to understand the impact of their variations in concentrations on the freeze-drying properties of the formulation which in turn could potentially impact the freeze-drying behavior/performance and product quality attributes.
+
+A high protein concentration in the formulation would be expected to have positive affect on the collapse temperature but could potentially also interfere/inhibit complete crystallization of mannitol if it accompanies with increase in viscosity \[15, 16\].
+
+High concentration of sucrose and buffer salts would inhibit the complete crystallization of mannitol, depress the collapse temperature, and increase the potential for high residual moisture content and reconstitution time \[14\]. These events will result in influencing the storage stability of the dried cake leading to formation of aggregates, visible and sub-visible particles.
+
+High weight ratio of mannitol favors its complete crystallization, providing more mechanical strength and elegance to the cake. The opposite effect is also true, lower weight ratio of mannitol results in its incomplete crystallization, depress collapse temperature, result inelegance, and could potentially impact the storage stability.
+
+Lower weight ratio of sucrose positively impacts the freeze\\- drying properties of the formulation but anything lower than the minimum required to be an effective cryoprotectant/lyoprotectant will significantly impact the stability and isotonicity of the dried product \[17\].
+
+It is imperative that these evaluations are performed upfront and accordingly the tolerance limits are defined in the batch records of commercial manufacturing \(Table 14\). 
+
+
+***Table 14*** 
+Effect of variation of formulation parameters on freeze-drying properties
+
+
+
+**Formulation critical parameters**
+
+**Tc**
+
+**Tg’**
+
+**Teu**
+
+**Comments**
+
+High pH
+
+−18
+
+−21
+
+−2
+
+No impact
+
+Low pH
+
+−18
+
+−21
+
+−1.8
+
+High protein
+
+−17.5
+
+−20.2
+
+−2
+
+Insignificant impact
+
+Low protein
+
+−18.5
+
+−21.2
+
+−2
+
+High mannitol
+
+−17
+
+−20
+
+−2.1
+
+Low mannitol
+
+−18.5
+
+−21.2
+
+2
+
+High sucrose
+
+−18
+
+−21
+
+−1.9
+
+Low sucrose
+
+−17.5
+
+−20.5
+
+−2
+
+High PS 20
+
+−18
+
+−21
+
+−2
+
+No impact
+
+Low PS 20
+
+−18
+
+−21
+
+−2
+
+
+Tg’ = glass transition temperature of maximally freeze concentrated solution
+
+Tc = collapse temperature
+
+Teu = eutectic temperature
+
+
+
+
+There is no deleterious effect of higher PS 20 levels on freeze-drying properties and storage stability but levels lower than the minimum required to protect the protein against interfacial instability and prevent from aggregation and formation of visible and sub-visible particles can significantly impact the quality of the product \[18\].
+
+Vial size and vial fill volume might be expected to influence the effective freezing and drying rate. The freezing rate would be expected to influence the morphology of ice and ability of mannitol to completely crystallize during the process \[19\]. Inadequate heat transfer rates will cause inadequate drying rates during primary and secondary drying causing significant impacts on final product CQAs \[20\].
+
+#### ***7.2.5 ***Characterization of Polysorbate 20 Concentration
+
+Prior knowledge indicates that the formation of sub-visible particles manifesting into aggregates and visible particles is dependent on protein concentration. Surfactants such as polysorbate 20 are often included in the formulation to act as chaperone to protect the protein from formation of sub-visible and visible particles \[21\]. Additionally, they aid in the reconstitution time by acting as wetting agent. Thus, the characterization of polysorbate 20 concentration ranging from 0.01 to 0.05% w/v were evaluated in combination with protein concentration in the range of 20 to 30 mg/mL using a DOE approach in a central composite design with two center points utilized. This protein concentration range was selected based on the assumption that the product concentration specification would be within 20% of the target \(that is, 25 mg/mL\). The formulation was lyophilized using the lyophilization cycle described above in the presence of 20 to 30 mg/mL protein and 0.01 to 0.05 mg/mL polysorbate 20. Upon reconstitution the subvisible particles were measured, and the reconstitution time was assessed. It can be seen from Fig. 9 that the highest desirability \(i.e., the condition showing the lowest subvisible counts and reconstitution time\) was achieved with a polysorbate 20 concentration of 0.01% w/v at the protein concentration target of 25 mg/mL. 
+![](images/000008.jpeg)
+
+
+***Fig. 9*** 
+Prediction profiler results for optimization of polysorbate 20 concentration. \(Adapted from Ref. \[13\]\)
+
+
+
+### **7.3 **Individual Approach: Lyophilization
+
+#### ***7.3.1 ***Robustness Studies and Construction of a Design Space
+
+The objective of the characterization studies \(robustness studies\) is to vary the critical process parameters and draw the limits beyond which any variation would have an adverse impact on the product CQAs which is also referred to as range finding or robustness study. The outcome of this study is to create a design space within which is defined proven acceptable range \(PAR\), the validated range, an operational/control range with a target \(set point\). The validation range is the range or limits that would be used to validate the process during validation and PAR will be used to close the nonconformances or deviations when it exceeds the validated range during routine commercial production. Control range will be used for in-process control as part of control strategy during manufacturing.
+
+The identification of ranges to be studied should take into consideration the potential variations in process parameters that can occur/happen due to the limitations and capabilities of the equipment and manufacturing procedures.
+
+Hence, it is quite important to characterize the freeze-dryer and equipment prior to design of robustness studies, and these ranges of variations in equipment performance forms the basis for validation limits to be validated during PPQ runs.
+
+Formulation characterization governs the process development, whereas processing conditions along with formulation governs the product quality. Therefore, formulation and process understanding are critical to develop a robust lyophilization process that is scale and site independent. A robust process and a design space can only be claimed when systematic studies are performed demonstrating the understanding of the impact of variations of process parameters on product quality attributes.
+
+Once a design space is approved by the regulatory agency, the process parameters can be changed within this space without requiring any further regulatory filing. Additionally, the ability to assess and predict the impact of variations in process parameters on product quality will help with tech-transfer activities when changing sites, scales, or batch size and also addressing process deviations \(in temperature and pressure\) due to equipment failure.
+
+Based on risk assessment scoring, annealing time and temperature, primary drying ramp rate, shelf temperature, chamber pressure, primary drying time, secondary drying ramp rate, secondary drying shelf temperature, and secondary drying time were chosen for further characterization studies.
+
+#### ***7.3.2 ***Design of Experiments \(DOE\)
+
+The results of theoretical risk analysis performed in the earlier section identified critical process parameters \(CPP\) and recommended that a univariate study be performed to better understand impact of variation on the process performance and product quality.
+
+The design of experiments \(DOE\) for univariate study often results in several set of studies depending upon type of study and would require enormous resources and time. To minimize the number of experiments prior knowledge with lyophilization and mathematical modeling was used.
+
+##### ***7.3.2.1 ***Prior Knowledge on Freezing Ramp Rates
+
+Previously experiments \[22\] were conducted at two different freezing rates, 0.1 and 1 °C/min, with the annealing step as described above. No significant differences were observed between vials produced using the two different freezing rates in terms of sublimation rate, product temperature, drying time, cake appearance, and reconstitution time. In both cases, the moisture content was well within the product release specification of ≤3%. Thus, the study demonstrated that, within the desired operating range, the freezing rate has minimal effect on the process and product attributes. Based on this outcome, further characterization of the freezing step in combination with primary and secondary drying parameters was deemed unnecessary.
+
+##### ***7.3.2.2 ***Annealing Temperature
+
+Previous experience with studies relating to annealing temperature with similar formulation composition has shown no significant difference in rate of crystallization of mannitol between −12 to −15 °C; hence, only effect of exposing to higher annealing temperature, i.e., −10 °C, was considered and studied.
+
+##### ***7.3.2.3 ***Primary Drying
+
+The chamber pressure, ramp rate, shelf temperature, and drying time are the parameters that define the primary drying step of the lyophilization process, and quasi steady state model coupled with CFD was used to create a predictive matrix design space for commercial lyophilizer \(see Fig. 10\). Note that Fig. 10 is adapted as an example from a previous study \[8\] on a very similar formulation \(4% mannitol, 2% sucrose, and 10 mg/mL protein\), where a critical temperature of Tp = −20 °C and the low end of shelf temperature Ts = −15 °C, isotherms define the upper and boundary of the design space, respectively. The operational and control spaces are established based on the equipment capability and the control tolerance within the design space, respectively. For the target formulation proposed in Table 5, based on the predictions of impact on critical output parameters \(product temperature and primary drying time\) as a function of variations of shelf temperature and pressure is summarized in Table 15. Only four experiments were selected and a truncated characterization/robustness study as summarized in Table 16 was performed on the lab scale freeze-dryer to understand the impact of variations of critical process parameters \(CPP\) on critical quality attributes \(CQAs\) of the product with a short term accelerated storage stability studies involved. The shelf temperature and chamber pressure were varied by ±5 °C and ±50 mTorr respectively and a bracket approach was adopted where two worst case conditions were created. 
+![](images/000009.jpeg)
+
+
+***Fig. 10*** 
+Design space of a very similar formulation \[8\] \(4% mannitol, 2% sucrose and 10 mg/mL protein\), where a critical temperature of Tp = −20 °C. The operational space \(green shaded region\) is based on the equipment capability under a full loading on a lab-scale lyophilizer, and the control space \(blue shaded region\) is based on a tolerance of ±2 °C and ± 20 mTorr
+
+
+
+
+***Table 15*** 
+Predicted product temperature and primary drying time based on modeling
+
+
+
+**Shelf temperature \(°C\)**
+
+**Chamber pressure \(mTorr\)**
+
+**Product temperature theoretical \(°C\)**
+
+**Drying time, theoretical \(h\)**
+
+**Comments**
+
+−5\(high\)
+
+200 \(high\)
+
+−19.6
+
+32
+
+Highest product temp and short- est drying time
+
+−10 \(set point\)
+
+200 \(high\)
+
+−20.6
+
+36
+
+Higher product temperature and shorter drying time
+
+−5 \(high\)
+
+150 \(set point\)
+
+−20
+
+34
+
+−10 \(set point\)
+
+150 \(set point\)
+
+−21
+
+38
+
+Set point conditions
+
+−15 \(low\)
+
+150 \(set point\)
+
+−22
+
+42
+
+Lower product temperature and longer drying time
+
+−10 \(set point\)
+
+100 \(low\)
+
+−21.5
+
+39.5
+
+−15 \(low\)
+
+100 \(low\)
+
+−22.4
+
+43
+
+Lowest product temp and longest drying time
+
+
+Adapted from Ref. \[22\]
+
+
+
+
+
+***Table 16*** 
+Design of experiments for robustness studies
+
+
+
+**Freezing**
+
+**Primary drying**
+
+**Secondary drying**
+
+**Process parameters**
+
+**Annealing temperature \(°C\)**
+
+**Annealing time \(hr:min\)**
+
+**Primary drying ramp rate \(°C/min\)**
+
+**Shelf temperature \(°C\)**
+
+**Chamber pressure \(mTorr\)**
+
+**Primary drying time \(hr:min\)**
+
+**Secondary drying ramp rate \(°C/min\)**
+
+**Secondary drying shelf temperature \(°C\)**
+
+**Secondary drying time \(hr:min\)**
+
+Target
+
+−13
+
+3:00
+
+0.5
+
+−10
+
+150
+
+45
+
+0.25
+
+30
+
+8
+
+High annealing temperature
+
+−10
+
+3:00
+
+0.5
+
+−10
+
+150
+
+45
+
+0.25
+
+30
+
+8
+
+Low pressure/low temperature
+
+−13
+
+3:00
+
+0.5
+
+−15
+
+100
+
+45
+
+0.25
+
+25
+
+8
+
+High pressure/high temperature
+
+−13
+
+3:00
+
+0.5
+
+−5
+
+180
+
+45
+
+0.25
+
+35
+
+8
+
+
+
+In one worst-case condition, the high shelf temperature and high chamber pressure were combined to result in a high product temperature allowing to evaluate whether such condition would exceed the collapse temperature and negatively impact product quality.
+
+In other worst-case conditions, low shelf temperature and low chamber pressure were combined to result in lowest product temperature that may not be adequate to complete drying in the allocated time. Advancing into secondary drying prior to completion of primary drying could also potentially result in collapse or melt back. This worst-case condition would allow to assess the impact on the product quality of such a situation when both shelf temperature and chamber pressure are running below the target \(set point\) conditions. The third experiment was run on target conditions as a control to compare.
+
+This robustness studies are good to have been done on the production dryer but not necessary; it can be done on a lab/pilot scale freeze-dryer.
+
+The outcome of this study defined the ranges of the process parameters for validation of the lyophilization process as summarized in Table 17. 
+
+
+***Table 17*** 
+Lyophilization process parameter ranges for validation
+
+
+
+**Process parameter**
+
+**Set point**
+
+**Validation range**
+
+Cooling ramp rate \(°C/min\)
+
+0.5
+
+0.1–1.0
+
+1st freezing temperature, °C
+
+−45
+
+± 10
+
+Freezing hold time
+
+2 h
+
+≥2 h
+
+Annealing temperature, °C
+
+−13
+
+±3
+
+Annealing time
+
+3 h
+
+≥3 h
+
+2nd freezing temperature, °C
+
+−45
+
+± 10
+
+Freezing hold time
+
+2 h
+
+≥2 h
+
+Primary drying ramp rate \(°C/min\)
+
+0.5
+
+≤0.5
+
+Primary drying shelf temperature, °C
+
+−10
+
+±5
+
+Chamber pressure, mTorr
+
+150
+
+±50
+
+Primary drying time \(h\)
+
+Real time monitoring & control by Pirani and TDLAS
+
+≥ 45
+
+Secondary drying ramp rate \(°C/min\)
+
+0.25
+
+< 0.5
+
+Secondary drying shelf temperature \(°C\)
+
+30
+
+±5
+
+Secondary drying time \(h\)
+
+8
+
+±1
+
+Head-space pressure \(Torr\)
+
+650
+
+±100
+
+
+
+An engineering run was performed at target conditions on a production scale dryer at 100% of full load with a drying time of 45 h as indicated by TDLAS and the Pirani gauge; therefore, the primary drying time was fixed at 50 hrs.
+
+
+**Acknowledgment**
+
+We would like to acknowledge Abe Germansderfer for his valuable insights and contributions.
+
+
+
+## Appendix \(Table **18**\)
+
+
+
+
+***Table 18*** 
+Model definition
+
+
+
+**Summary of fit**
+
+RSquare
+
+0.99995
+
+RSquare Adj
+
+0.999648
+
+Root mean square error
+
+1.064688
+
+Mean of response
+
+22.77875
+
+Observations \(or sum Wgts\)
+
+64
+
+**REML variance component estimates**
+
+**Random effect**
+
+**Var ratio**
+
+**Var component**
+
+**Std error**
+
+**95% Lower**
+
+**95% Upper**
+
+**Pct of total**
+
+Whole plots
+
+1.377041
+
+1.5609602
+
+4.5940405
+
+−7.443359
+
+10.56528
+
+57.931
+
+Residual
+
+1.1335612
+
+4.4680025
+
+0.0005005
+
+2567.4923
+
+42.069
+
+Total
+
+2.6945214
+
+100.000
+
+−2 LogLikelihood = 222.08542227s
+
+**Fixed effect tests**
+
+**Source**
+
+**Nparm**
+
+**DF**
+
+**DFDen**
+
+**F Ratio**
+
+**Prob > F**
+
+pH\(4.5,6\)
+
+1
+
+1
+
+0.301
+
+576.0611
+
+0.2686
+
+Protein conc \(mg\)\(10,100\)
+
+1
+
+1
+
+0.621
+
+157.2398
+
+0.1300
+
+Mannitol \(%\)\(1,10\)
+
+1
+
+1
+
+5.805
+
+6.3913
+
+0.0461\*
+
+Sucrose\(0.5,5\)
+
+1
+
+1
+
+0.284
+
+1117.803
+
+0.2602
+
+PS20\(0,0.02\)
+
+1
+
+1
+
+0.451
+
+382.9656
+
+0.1705
+
+Initial freezing rate\(0.25,2.5\)
+
+1
+
+1
+
+2.618
+
+3.9148
+
+0.1555
+
+Hold time @ final freezing temp \(30,240\)
+
+1
+
+1
+
+3.093
+
+421.8460
+
+0.0002\*
+
+Annealing time\(30,240\)
+
+1
+
+1
+
+2.327
+
+432.9705
+
+0.0011\*
+
+Secondary drying ramp rate\(0.1,1\)
+
+1
+
+1
+
+5.444
+
+16.3842
+
+0.0083\*
+
+pH\*pH
+
+1
+
+1
+
+1.335
+
+58.0892
+
+0.0462\*
+
+pH\*protein Conc \(mg\)
+
+1
+
+1
+
+2.64
+
+381.4629
+
+0.0006\*
+
+Protein conc \(mg\)\*protein conc \(mg\)
+
+1
+
+1
+
+0.911
+
+3.4242
+
+0.3333
+
+pH\*mannitol \(%\)
+
+1
+
+1
+
+0.456
+
+38.0489
+
+0.2830
+
+Protein conc \(mg\)\*mannitol \(%\)
+
+1
+
+1
+
+0.678
+
+249.7958
+
+0.0957
+
+Mannitol \(%\)\*mannitol \(%\)
+
+1
+
+1
+
+2.038
+
+34.3894
+
+0.0267\*
+
+pH\*sucrose
+
+1
+
+1
+
+1.55
+
+424.6725
+
+0.0071\*
+
+Protein conc \(mg\)\*sucrose
+
+1
+
+1
+
+0.68
+
+481.0170
+
+0.0761
+
+Mannitol \(%\)\*sucrose
+
+1
+
+1
+
+0.571
+
+0.0034
+
+0.9674
+
+Sucrose\*sucrose
+
+1
+
+1
+
+1.086
+
+2.9825
+
+0.3192
+
+pH\*PS20
+
+1
+
+1
+
+2.14
+
+65.1467
+
+0.0123\*
+
+Protein conc \(mg\)\*PS20
+
+1
+
+1
+
+3.876
+
+0.3651
+
+0.5793
+
+Mannitol \(%\)\*PS20
+
+1
+
+1
+
+0.853
+
+363.4403
+
+0.0504
+
+Sucrose\*PS20
+
+1
+
+1
+
+0.64
+
+14.3552
+
+0.2641
+
+PS20\*PS20
+
+1
+
+1
+
+0.801
+
+32.8342
+
+0.1525
+
+pH\*initial freezing rate
+
+1
+
+1
+
+0.237
+
+12.6228
+
+0.5399
+
+Protein conc \(mg\)\*initial freezing rate
+
+1
+
+1
+
+2.043
+
+827.2376
+
+0.0011\*
+
+Mannitol \(%\)\*initial freezing rate
+
+1
+
+1
+
+2.404
+
+159.1673
+
+0.0030\*
+
+Sucrose\*initial freezing rate
+
+1
+
+1
+
+0.488
+
+198.6758
+
+0.1767
+
+PS20\*initial freezing rate
+
+1
+
+1
+
+1.075
+
+40.8661
+
+0.0873
+
+Initial freezing rate\*initial freezing rate
+
+1
+
+1
+
+4.614
+
+49.5292
+
+0.0012\*
+
+pH\*hold time @ final freezing temp
+
+1
+
+1
+
+0.599
+
+25.0299
+
+0.2385
+
+Protein conc \(mg\)\*hold time @ final freezing temp
+
+1
+
+1
+
+0.91
+
+454.8524
+
+0.0387\*
+
+Mannitol \(%\)\*hold time @ final freezing temp
+
+1
+
+1
+
+0.747
+
+31.1376
+
+0.1709
+
+Sucrose\*hold time @ final freezing temp
+
+1
+
+1
+
+0.272
+
+0.8715
+
+0.7101
+
+PS20\*hold time @ final freezing temp
+
+1
+
+1
+
+0.446
+
+235.4721
+
+0.1927
+
+Initial freezing rate\*hold time @ final freezing temp
+
+1
+
+1
+
+2.361
+
+77.5586
+
+0.0074\*
+
+Hold time @ final freezing temp\*hold time @ final freezing temp
+
+1
+
+1
+
+5.201
+
+29.5183
+
+0.0025\*
+
+pH\*annealing time
+
+1
+
+1
+
+0.291
+
+600.6274
+
+0.2771
+
+Protein Conc \(mg\)\*annealing time
+
+1
+
+1
+
+1.387
+
+247.9640
+
+0.0156\*
+
+Mannitol \(%\)\*annealing time
+
+1
+
+1
+
+1.839
+
+80.3510
+
+0.0158\*
+
+Sucrose\*annealing time
+
+1
+
+1
+
+0.273
+
+8.7405
+
+0.5275
+
+PS20\*annealing time
+
+1
+
+1
+
+0.887
+
+629.6045
+
+0.0359\*
+
+Initial freezing rate\*annealing time
+
+1
+
+1
+
+4.523
+
+726.0867
+
+<0.0001\*
+
+Hold time @ final freezing temp\*annealing time
+
+1
+
+1
+
+1.988
+
+2.1883
+
+0.2779
+
+Annealing time\*annealing time
+
+1
+
+1
+
+4.421
+
+1.5514
+
+0.2749
+
+pH\*secondary drying ramp rate
+
+1
+
+1
+
+0.451
+
+419.9439
+
+0.1665
+
+Protein conc \(mg\)\*secondary drying ramp rate
+
+1
+
+1
+
+0.411
+
+67.9988
+
+0.2778
+
+Mannitol \(%\)\*secondary drying ramp rate
+
+1
+
+1
+
+1.181
+
+351.5838
+
+0.0209\*
+
+Sucrose\*secondary drying ramp rate
+
+1
+
+1
+
+0.381
+
+257.6743
+
+0.2323
+
+PS20\*secondary drying ramp rate
+
+1
+
+1
+
+0.53
+
+415.0087
+
+0.1288
+
+Initial freezing rate\*secondary drying ramp rate
+
+1
+
+1
+
+2.7
+
+42.6368
+
+0.0100\*
+
+Hold time @ final freezing temp\*secondary drying ramp rate
+
+1
+
+1
+
+3.435
+
+279.1309
+
+0.0002\*
+
+Annealing time\*secondary drying ramp rate
+
+1
+
+1
+
+2.347
+
+359.9353
+
+0.0013\*
+
+Secondary drying ramp rate\*secondary drying ramp rate
+
+1
+
+1
+
+6.263
+
+5.7844
+
+0.0512
+
+
+
+
+
+**References**
+
+1.  
+1.
+
+US Food and Drug Administration, Center for Drug Evaluation and Research, Office of New Drug Quality Assessment. Quality by design implementation: significant accomplishments to date. [www.​fda.​gov/​aboutfda/​transparency/​track/​ucm238167.​htm](http://www.fda.gov/aboutfda/transparency/track/ucm238167.htm).
+
+2.  
+2.
+
+ICH harmonised tripartite guideline Q8\(R2\): pharmaceutical development \(Step 4\). International conference on harmonisation of technical requirements for registration of pharmaceuticals for human use. Geneva, Switzerland, August 2009.
+
+3.  
+3.
+
+Pikal M. Freeze drying. In: Swarbrick J, editor. Encyclopedia of pharmaceutical technology, vol. 1. New York: Informa Healthcare USA, Inc; 2007. p. 1807–73.
+
+4.  
+4.
+
+Pikal MJ, Rigsbee D, Roy ML, Galreath D, Kovach KJ, Wang W, Carpenter JF, Cicerone MT. Solid state chemistry of proteins: II. The correlation of storage stability of freeze-dried human growth hormone \(hGH\) with structure and dynamics in the glassy solid. J Pharm Sci. 2008;97\(12\):5106–21.[Crossref](https://doi.org/10.1002/jps.21374)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18351639)
+
+5.  
+5.
+
+Pikal MJ, Rigsbee DR. The stability of insulin in crystalline and amorphous solids: observation of greater stability for the amorphous form. Pharm Res. 1997;14:1379–87.[Crossref](https://doi.org/10.1023/A:1012164520429)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9358550)
+
+6.  
+6.
+
+Yoshioka S, Aso Y, Kojima S. Usefulness of the Kohlrausch-Williams-Watts stretched exponential function to describe protein aggregation in lyophilized formulations and the temperature dependence near the glass transition temperature. Pharm Res. 2001;18:256–60.[Crossref](https://doi.org/10.1023/A:1011082309058)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11442261)
+
+7.  
+7.
+
+Searles JA, Carpenter JF, Randolph TW. Annealing to optimize the primary drying rate, reduce freezing-induced drying rate heterogeneity, and determine T’g in pharmaceutical lyophilization. J Pharm Sci. 2001;90\(7\):872–87.[Crossref](https://doi.org/10.1002/jps.1040)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11458336)
+
+8.  
+8.
+
+Zhu T, Moussa EM, Witting M, Zhou D, Sinha K, Hirth M, Gastens M, Shang S, Nere N, Somashekar SC, Alexeenko A, Jameel F. Predictive models of lyophilization process for development, scale-up/tech transfer and manufacturing. Eur J Pharm Biopharm. 2018;128:363–78.[Crossref](https://doi.org/10.1016/j.ejpb.2018.05.005)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29733948)
+
+9.  
+9.
+
+Pikal MJ, Shah S. Intravial distribution of moisture during the secondary drying stage of freeze drying. PDA J Pharm Sci Technol. 1997;51:17–24.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9099060)
+
+10.  
+10.
+
+ICH harmonised tripartite guideline Q9: quality risk management \(Step 4\). International conference on harmonisation of technical requirements for registration of pharmaceuticals for human use. Geneva, Switzerland, November 2005.
+
+11.  
+11.
+
+Zheng JY, Janis LJ. Influence of pH, buffer species, and storage temperature on physicochemical stability of a humanized monoclonal antibody LA298. Int J Pharm. 2006;308\(1–2\):46–51.[Crossref](https://doi.org/10.1016/j.ijpharm.2005.10.024)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16316730)
+
+12.  
+12.
+
+Thompson RW Jr, Latypov RF, Wang Y, Lomakin A, Meyer JA, Vunnum S, Benedek GB. Evaluation of effects of pH and ionic strength on colloidal stability of IgG solutions by PEG-induced liquid-liquid phase separation. J Chem Phys. 2016;145\(18\):185101.[Crossref](https://doi.org/10.1063/1.4966708)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27846698)
+
+13.  
+13.
+
+Shah A, Patel SM, Jameel F. Application of QbD principles for lyophilized formulation development. In: Jameel F, Hershenson S, Khan M, Martin-Moe S, editors. Quality by design for biopharmaceutical drug product development, AAPS advances in the pharmaceutical sciences series, vol. 18. New York: Springer; 2015. [https://​doi.​org/​10.​1007/​978-1-4939-2316-8\_​14](https://doi.org/10.1007/978-1-4939-2316-8_14).[Crossref](https://doi.org/10.1007/978-1-4939-2316-8_14)
+
+14.  
+14.
+
+Al-Hussein A, Gieseler H. The effect of mannitol crystallization in mannitol–sucrose systems on LDH stability during freeze-drying. J Pharm Sci. 2012;101\(7\):2534–44.[Crossref](https://doi.org/10.1002/jps.23173)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22535541)
+
+15.  
+15.
+
+Liao X, Krishnamurthy R, Suryanarayanan R. Influence of the active pharmaceutical ingredient concentration on the physical state of mannitol—implications in freeze-drying. Pharm Res. 2005;22\(11\):1978–85.[Crossref](https://doi.org/10.1007/s11095-005-7625-x)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16132343)
+
+16.  
+16.
+
+Colandene JD, Maldonado LM, Creagh AT, Vrettos JS, Goad KG, Spitznagel TM. Lyophilization cycle development for a high-concentration monoclonal antibody formulation lacking a crystalline bulking agent. J Pharm Sci. 2007;96:1598–608.[Crossref](https://doi.org/10.1002/jps.20812)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17117409)
+
+17.  
+17.
+
+Moussa EM, Zhu T, Jameel F. Chapter 16: Development of robust lyophilization process for therapeutic proteins: a case study. In: Jameel F, Skoug J, Nesbitt R, editors. Development of biopharmaceutical drug-device products, AAPS advances in the pharmaceutical sciences series, vol. 35. Springer; 2020.[Crossref](https://doi.org/10.1007/978-3-030-31415-6_16)
+
+18.  
+18.
+
+Vargo KB, Stahl P, Hwang B, Hwang E, Giordano D, Randolph P, Celentano C, Hepler R, Amin K. Surfactant impact on interfacial protein aggregation and utilization of surface tension to predict surfactant requirements for biological formulations. Mol Pharm. 2021;18\(1\):148–57.[Crossref](https://doi.org/10.1021/acs.molpharmaceut.0c00743)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33253579)
+
+19.  
+19.
+
+Patapoff TW, Overcashier DE. The importance of freezing on lyophilization cycle development. BioPharm. 2002;15\(3\):16–21\+72.
+
+20.  
+20.
+
+Rambhatla S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, I: atypical radiation and the edge vial effect. AAPS PharmSciTech. 2003;4\(2\):22.[Crossref](https://doi.org/10.1208/pt040214)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750592)
+
+21.  
+21.
+
+Liu L, Qi W, Schwartz DK, Randolph TW, Carpenter JF. The effects of excipients on protein aggregation during agitation: an interfacial shear rheology study. J Pharm Sci. 2013;102\(8\):2460–70.[Crossref](https://doi.org/10.1002/jps.23622)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23712900)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4174554)
+
+22.  
+22.
+
+Patel S, Jameel F, Sane S, Kamat M. Lyophilization process design and development using QbD principles. In: Jameel F, Hershenson S, Khan M, Martin-Moe S, editors. Quality by design for biopharmaceutical drug product development, AAPS advances in the pharmaceutical sciences series, vol. 18. New York: Springer; 2015. [https://​doi.​org/​10.​1007/​978-1-4939-2316-8\_​14](https://doi.org/10.1007/978-1-4939-2316-8_14).[Crossref](https://doi.org/10.1007/978-1-4939-2316-8_14)
+
+
+

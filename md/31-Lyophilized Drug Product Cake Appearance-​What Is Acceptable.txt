@@ -1,0 +1,954 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_31](https://doi.org/10.1007/978-3-031-12634-5_31)
+
+
+**
+# Lyophilized Drug Product Cake Appearance: What Is Acceptable?
+**
+
+
+Sajal Manubhai Patel1 , Steven L. Nail2, Michael J. Pikal3, Raimund Geidobler4, Gerhard Winter5, Andrea Hawe6, Juan Davagnino7 and Shailaja Rambhatla Gupta8
+
+
+\(1\) 
+Department of Formulation Sciences, Biopharmaceutical Development, MedImmune, Gaithersburg, MD, USA
+
+
+\(2\) 
+Baxter Medical Products R&D, Baxter Healthcare, Bloomington, IN, USA
+
+
+\(3\) 
+Department of Pharmaceutical Sciences, School of Pharmacy, University of Connecticut, Storrs, CT, USA
+
+
+\(4\) 
+Clinical Supply and Transfer, Boehringer Ingelheim, Ingelheim am Rhein, Germany
+
+
+\(5\) 
+Department of Pharmacy, Ludwig Maximilian University of Munich, Munich, Germany
+
+
+\(6\) 
+Coriolis Pharma, Munich, Germany
+
+
+\(7\) 
+Formulation Technologies, KBI Biopharma, Inc., Durham, NC, USA
+
+
+\(8\) 
+Drug Product Development, Janssen R&D, Malvern, PA, USA
+
+
+
+
+
+**1 **Introduction
+
+**2 **Current Status of Lyophilized Product Cake Appearance: General and Regulatory Expectations
+
+**3 **Terminologies Used to Define Variations in Cake Appearance from Ideal Expectations of “Uniform and Elegant”
+
+**3.1 **Nonconformity or Defect
+
+**3.2 **Irregularities/Nonuniform Cake Appearance
+
+**3.3 **Visual Attributes of Freeze-Dried Products
+
+**4 **Potential Clinical Relevance of Cake Appearance
+
+**4.1 **What Cake Appearances Are Acceptable?
+
+**4.2 **Additional Considerations for Accepting Variations in Cake Appearance – Example: Collapsed Cake
+
+**4.3 **Summary
+
+References
+
+
+## Abstract
+
+Cake appearance is an important attribute of freeze-dried products, which may or may not be critical with respect to product quality \(i.e., safety and efficacy\). Striving for “uniform and elegant” cake appearance may continue to remain an important goal during the design and development of a lyophilized drug product. However, “sometimes” a nonideal cake appearance has no impact on product quality and is an inherent characteristic of the product \(due to formulation, drug product presentation, and freeze-drying process\). This commentary provides a summary of challenges related to visual appearance testing of freeze-dried products, particularly on how to judge the criticality of cake appearance. Furthermore, a harmonized nomenclature and description for variations in cake appearance from the ideal expectation of uniform and elegant is provided, including representative images. Finally, a science and risk-based approach is discussed on establishing acceptance criteria for cake appearance.
+
+
+**Keywords**
+Lyophilization Processing Freeze drying Protein formulation Drying formulation Glass transition Stability Amorphous
+
+Reprinted with permission from the Journal of Pharmaceutical Sciences
+
+
+## **1 **Introduction
+
+Despite significant advancements in the field of freeze drying, there is still ambiguity in clearly defining meaningful quality attributes for lyophilized drug products. Some quality attributes, irrespective of product presentation, apply equally to all injectable pharmaceutical products \(e.g., sterility and bacterial endotoxin\). Other quality attributes, such as isotonicity and formulation at physiological pH, may be critical, or not, depending on the route of administration, solubility, or stability of the product. Roughly half of all injectable products are freeze-dried solids \[1\], where an additional set of quality attributes come into play. Generally, there should be complete recovery of concentration, purity, and activity upon reconstitution. If in certain cases activity is not completely recovered, it should at least be consistent from vial to vial and from batch to batch \(e.g., it is common to lose perhaps three logs of infectivity titer of vaccines as a result of freeze drying\) \[2, 3\]. Additionally, the solids should rehydrate, or reconstitute, in a reasonable amount of time. Opinions vary as to what constitutes “reasonable,” but it is obvious that a shorter reconstitution time is desired. Due to the rise in use of high-concentration protein formulations, reconstitution times of 10–30 min have become more common in some cases \[4\]. Also, after reconstitution the solution should be practically free of visible particulate matter. Perhaps the most subjective of quality attributes for freeze-dried injectable products is the cake appearance. Ideally, the freeze-dried cake should have the same size and shape as the liquid that was originally filled into the vial and should have a uniform color and texture. However, we do not live in an ideal world, and it is important to have realistic expectations about cake appearance. For example, by the time many freeze-dried products reach a hospital pharmacy, there has been enough agitation of the primary container that even if the cake was visually perfect after freeze drying; the product may consist largely of loose powder, no longer recognizable as a lyophilized cake. One of the key deliverables during lyophilized drug product development is to design and develop formulation and lyophilization process parameters that result in uniform cake appearance without significant inter- and intra-batch variation. Today, this key deliverable is mostly interpreted and misunderstood as to deliver a so-called elegant cake. Despite such expectations for cake appearance, there are no systematically defined criteria to accept or reject a cake appearance when subtle variations in cake appearance from the elegant cake are observed regardless of formulation and process conditions. Hence, the purpose of this commentary is to: 
+
++ 
+Provide a summary of current challenges with visual appearance testing of lyophilized drug product \(both small and large molecules\) for cake appearance \(a general visual inspection consideration for particulate matter as well as postreconstitution visual inspection is outside the scope of this commentary\).
+
++  
+Summarize the current understanding of the most common nonideal visual attributes of freeze-dried cakes.
+
++  
+Harmonize the naming of the routinely observed variations in cake appearance.
+
++  
+Recommend best practices based on a science- and risk-based approach to establish acceptance/rejection criteria for cake appearance.
+
+
+
+
+## **2 **Current Status of Lyophilized Product Cake Appearance: General and Regulatory Expectations
+
+Lyophilized products are expected to meet established specifications for cake appearance for lot release and stability. A change in cake appearance from what is described in the specifications may be an indication of a change in product quality \(primarily residual moisture, reconstitution time, stability, and potency\) that may subsequently affect patient safety and product efficacy. After lyophilization, the drug product lot undergoes a 100% \[5\] visual inspection, including assessment of critical, major, and minor defects, which includes cake appearance, presence of extraneous particulate matter, and container-closure defects. Each fill-finish organization has internal standard operating procedures, which can be product-specific or generally applicable to freeze-dried product cake appearance. Acceptable and unacceptable cake appearances are defined largely based on historical precedent. A robust qualification program for visual inspection is critical prior to judging a product based on past experience or published information. Also, the 100% visual inspection is followed by acceptable quality limit testing. Standards developed from prior manufacturing campaigns are used to train analysts for lyophilized drug product cake appearance. There are visual inspection guidelines for particulate matter \[6\], as well as container-closure defects \[7\]. However, the only publically available information from a regulatory agency on lyophilized product cake appearance is summarized in the inspection guide, *Lyophilization* *of Parenterals: Guide to Inspections of* *Lyophilization* *of Parenterals* \(7/93\), published by the US Food and Drug Administration \[8\], which unfortunately is very narrow in its scope:
+
+“The USP points out that it is good pharmaceutical practice to perform 100% inspection of parenteral products. This includes sterile lyophilized powders. Critical aspects would include the presence of correct volume of cake and the cake appearance. With regard to cake appearance, one of the major concerns is meltback.
+
+Meltback is a form of cake collapse and is caused by the change from the solid to liquid state. That is, there is incomplete sublimation \(change from the solid to vapor state\) in the vial. Associated with this problem is a change in the physical form of the drug substance and a pocket of moisture. These may result in greater instability and increased product degradation. Another problem may be poor solubility. Increased time for reconstitution at the user stage may result in partial loss of potency if the drug is not completely dissolved, since it is common to use in-line filters during administration to the patient. Manufacturers should be aware of the stability of lyophilized products which exhibit partial or complete meltback. Literature shows that for some products, such as the cephalosporins, the crystalline form is more stable than the amorphous form of lyophilized product. The amorphous form may exist in the ‘meltback’ portion of the cake where there is incomplete sublimation.” Although some of the content in the above statement is appropriate and correct, there are statements that are at least misleading. First, correct cake volume and cake appearance is labeled as “critical.” Cake volume may be critical if circumstances permit the cake volume to be determined and used as a rough indicator of proper fill volume. However, it is very common to see some cake shrinkage, wherein it is difficult to determine “cake volume” much less use this pseudo measurement as an indicator of proper fill volume \(fill weight monitored as an in-process control during manufacturing is a true indicator of proper fill volume\). Although a qualitative assessment of fill volume relative to the entire batch can be performed and certain aspects of cake appearance may suggest an issue with a critical quality attribute \(CQA\), the blanket statement that cake appearance is critical is inappropriate. The regulatory agencies aim to insure “patient safety and product efficacy,” and those product quality attributes that may adversely impact safety or efficacy are normally termed “critical quality attributes.” Cake appearance, however, may \(or may not\) suggest loss of a CQA, so visual inspection is warranted. The inspection guide further indicates that meltback is a major concern, and the balance of the statement deals with hypothetical consequences of meltback. Although it is true that meltback may be a major concern if it occurs, the reality is that meltback rarely occurs. A detailed discussion on meltback is presented in a later section of this commentary. The concern expressed may be appropriate for samples that exhibit collapse because collapse is not uncommon, although in most cases even severe collapse does not compromise any CQA, such as aggregation \[9–15\] and the only impact on the product is cosmetic. The origin and possible impact of collapse on product quality is considered in some detail in a later section of this commentary. Overall, the guide is very limited in its scope, and the different aspects of and reasons for variation in cake appearance are not discussed. A major revision to the guide based on the current understanding of lyophilized product and process would help minimize the drug product wastage, based on looks and perception, even though it meets the safety and efficacy requirements.
+
+## **3 **Terminologies Used to Define Variations in Cake Appearance from Ideal Expectations of “Uniform and Elegant”
+
+Cake appearance of a lyophilized drug product in an ideal world would be described as uniform and elegant. However, there are several terminologies used to describe the variations in cake appearance that is not uniform and elegant, and some of these are as follows:
+
+### **3.1 **Nonconformity or Defect
+
+As per American National Standards Institute \[16\], nonconformity \(synonym: defect\) is defined as “A departure of a quality characteristic from its intended level or state that occurs with a severity sufficient to cause an associated product or service not to meet a specification requirement.” As per International Organization for Standardization \[17\] nonconformity \(synonym: defect\) is “A condition of any product or component in which one or more characteristics do not conform to requirements.”
+
+### **3.2 **Irregularities/Nonuniform Cake Appearance
+
+A term used to describe cake appearance that is irregular in nature \(i.e., not uniform throughout the cake within a vial or between vials within a batch\). By no means is this a comprehensive list of terms used within the industry, but it is a good representation of the most common ones. Although some of these terms may sound unacceptable both intuitively and from a product quality standpoint, the rest of the discussion will make it obvious that many of the aspects of variations in cake appearance \(defined using the terminologies described above\) have no impact whatsoever on product quality, and, accordingly, negative terms such as “defect” should not be used. A cake appearance will indeed be listed as defect and monitored during 100% visual inspection if it is likely to impact product CQA. Therefore, a neutral description, such as “cake appearance,” is used in the discussion below to describe variations in the visual appearance of the lyophilized drug product. Furthermore, the variation in cake appearance is generally classified as critical, major, and minor \(occasionally also as cosmetic\) based on the impact to patient safety and product efficacy: 
+
++ 
+Critical: impacts patient safety and product efficacy.
+
++  
+Major: likely to impact patient safety and product efficacy.
+
+
+
+
+Minor/cosmetic: does not impact patient safety and product efficacy. Currently, the classification for the same visual attribute varies across different fill-finish organizations, primarily because each fill-finish organization, operates according to an internally defined standard operating procedure based on prior knowledge and experience within that organization. Thus, there is a need to harmonize the way these categories are classified based on systematic risk assessment with involvement from appropriate stakeholders \(development, quality, regulatory, manufacturing, and operations\) to ensure that the classification has a scientific basis and is consistent across the industry.
+
+### **3.3 **Visual Attributes of Freeze-Dried Products
+
+Commonly, a nonideal cake appearance is a visual indicator of a poor formulation, a process that is not under proper control, a poor drug product presentation \(container closure and fill volume\), or perhaps all. This is the first issue that needs to be addressed in an assessment of the acceptability of nonideal cake appearance. However, “sometimes” a nonideal appearance is simply the result of the physics of freeze drying, it cannot be readily “fixed,” and it has no impact on product quality. A brief summary of the current state of knowledge of the physics and physical chemistry of the most common nonideal visual attributes of freeze-dried cakes,
+
+#### ***3.3.1 ***Collapsed Cake
+
+Collapse may occur when the product temperature exceeds the glass transition temperature of the maximally freeze-concentrated solution \(*T*g’\) during primary drying or the glass transition temperature \(*T*g\) during early secondary drying, resulting in viscous flow and loss of the microstructure that was established by the freezing process \[18\]. Collapse during primary drying will occur when the product temperature exceeds the collapse temperature \(*T*c\), which is normally a few degrees above the *T*g 0 \[19\]. A photograph of vials showing both total collapse and partial collapse, along with a vial showing no indication of collapse, is shown in Fig. 1. In addition to loss of pharmaceutical “elegance,” collapse results in a decrease in the specific surface area \(SSA\) of the freeze-dried solids relative to the SSA of a freeze-dried solid that was dried under conditions where the microstructure established by freezing was retained \[10\]. Although the authors are not aware of an acceptance criterion for SSA of freeze-dried solids, a decrease in SSA can result in elevated residual moisture levels in the final product and may also result in increased reconstitution time. On the other hand, lyophilized “cake” with low SSA and intact microstructure compared to the cake with the same composition but higher SSA can also have desirable properties. Reducing the SSA reduces the probability of drug molecules \(e.g., proteins\) to be exposed to the cake/air interface. More recently, it has also been shown that cakes with low SSA \(e.g., as a result of controlled ice nucleation freezing\) may have shorter reconstitution time \[20\]. The effect of collapse on drug product stability depends on the drug and on the formulation. Recently published data on the effect of collapse on stability of freeze-dried protein drug products suggest that collapse is a cosmetic issue only, because these studies indicate no negative impact of collapse on protein stability \[9–12\]. However, some unpublished data point to the need for caution. Elevated residual moisture levels associated with collapse can have a detrimental effect on the solid state stability of some proteins. A perhaps lesser known cause of compromised stability is crystallization of a stabilizing solute \[21\] such as sucrose, but this rarely occurs during processing. It is important to recognize that collapse can not only take place during the time course of the freeze-drying process itself, but also during storage. In the latter case, of course, viscous flow takes place over a much longer time scale, where the storage temperature is close to the glass transition temperature \(Tg\) of the freeze-dried solid. This viscous flow can be promoted by residual moisture levels that are perhaps too high to begin with, as well as by water vapor transfer from the elastomeric closure to the freeze-dried solid. Figure 2 is a photograph of various degrees of cake collapse during stressed stability testing for a freeze-dried protein formulation containing sucrose as a stabilizer. Collapse of the cake may be ultimately accompanied by crystallization of sucrose \[22\] and loss of the stabilizing effect of the excipient. It is important, as a part of formulation and process development, to distinguish between collapse as a cosmetic defect and a defect that could result in the patient safety concern, particularly when stability of the drug product is affected by the collapse. During freeze-drying cycle development, it is recommended that trial freeze-drying cycles be carried out under increasingly aggressive conditions until collapse is observed. Representative vials from such runs should be placed on stability, generally under stress conditions, in order to assess the impact of collapse on CQAs. If unintended, the observation of collapse is an indicator that the process is not under adequate control, and vials showing visual evidence of collapse should be culled from the batch during visual inspection. However, it is possible that a region of partially collapsed material could be present in the internal volume of the cake and not be evident to an inspector. In such cases, the availability of data on the influence of collapse on stability can provide reassurance that, if partially collapsed material is not rejected on visual inspection, the patient will not be adversely affected by use of the product. 
+![](images/000000.jpeg)
+
+
+***Fig. 1*** 
+Collapsed cake: total collapse \(left\) and partial collapse \(center\). The vial on the right shows no evidence of collapse
+
+
+![](images/000001.jpeg)
+
+
+***Fig. 2*** 
+Collapsed cake: various degrees of cake collapse during storage under stressed conditions
+
+
+
+#### ***3.3.2 ***Meltback
+
+“Meltback” is a poorly defined industry jargon that could mean either melting of frozen matrix during the freeze-drying process or collapse, because both could result in a product that appears as if drying took place from a liquid system rather than by sublimation. Nonetheless, meltback usually refers to the presence of ice at the end of primary drying/early into secondary drying \(Fig. 3\). If meltback is caused by the drying process, then the process should be improved. If meltback is erratically observed within and across batches, then loading of the freeze dryer should be investigated. Poor contact of a vial, and thus reduced heat transfer in the vial, may result in incomplete removal of ice during the primary drying step leading to meltback. If meltback is actually collapse \(Fig. 3 could also be a form of collapse\), then the same considerations apply as discussed above. Meltback usually indicates poor formulation and process understanding, and, hence, product with meltback is rejected. 
+![](images/000002.jpeg)
+
+
+***Fig. 3*** 
+Meltback: could also be a form of collapsed cake
+
+
+
+#### ***3.3.3 ***Product Ejection
+
+Product ejection means that the dried, or partially dried, powder is “blown out” of the vial during primary drying. This can result from melting during primary drying or, more commonly, from a freeze-dried cake that is not cohesive enough to withstand being ejected from the matrix by the water vapor escaping from the sublimation front. A representative photograph is shown in Fig. 4. Product ejection seems to be more common in formulations containing organic solvents \[23\] such as t-butanol or ethanol, as well as in formulations containing a very low level of total dissolved solids, resulting in a poorly cohesive cake \(i.e., a more fragile cake\). Product ejection is generally indicated by solid material in the “shoulder” and neck area of the vial. It should be considered as a critical defect because the solid material is likely also present between the sealing surfaces of the vial and the closure, which would compromise the sterility assurance of the product \(container-closure integrity failure\) and the deliverable dose, thereby endangering the patient. Dried product between vial and stopper dried material at the stopper \(Fig. 5\) can originate from the filling process, which leaves droplets in the neck area of the vial close to the stopper. Also, as mentioned above, product ejection would result in product between vial and stopper. During further processing, this material will be dried throughout the freeze-drying process. Vials having this appearance should be rejected for the same reason as stated in the product ejection discussion – potential impact on container-closure integrity and deliverable dose. Slanted cake slanted cakes \(Fig. 6\) are observed in vials that are not resting completely on the shelf; rather, the vials are resting at an angle with the shelf. This is likely a vial loading issue wherein the tight hexagonal cluster of vials is maintained, but at the expense of few vials losing some contact with the shelf. In general, a vial with slanted cake is rejected because the drying conditions for this vial are considered to be different, likely resulting in higher residual moisture that could impact product stability and activity. 
+![](images/000003.jpeg)
+
+
+***Fig. 4*** 
+Product ejection: usually results in dried product being deposited in the stopper region of the vial
+
+
+![](images/000004.jpeg)
+
+
+***Fig. 5*** 
+Dried product between vial and stopper
+
+
+![](images/000005.jpeg)
+
+
+***Fig. 6*** 
+Slanted cake
+
+
+
+#### ***3.3.4 ***Puffing
+
+The term “puffing” refers to the type of behavior illustrated in Fig. 7, where the “ghosts” of bubbles formed during the process is evident on the top surface of the dried solid. Puffing could result from either collapse or a small degree of eutectic melting during drying. During formulation of products intended for freeze drying, the solution is essentially saturated with air. During freezing, concentration of the solutes generally results in small air bubbles in the freeze concentrate. Formation of a liquid material, either by exceeding the temperature of the onset of collapse or the melting temperature of a eutectic mixture, can result in expansion of these air bubbles, which then rise to the surface. If the bubbles are physically stable enough to withstand further drying, the remnants of these bubbles are left in the final product. The authors are not aware of any studies that explore this phenomenon. However, the appearance of puffing does not necessarily mean that the product showing this visual attribute should be discarded. If puffing is observed in only a few vials within a batch, the product showing this visual attribute should be discarded. However, if puffing is observed in all vials within a batch with no impact on CQAs, then puffing is likely a characteristic of the formulation and the process, and hence acceptable. 
+![](images/000006.jpeg)
+
+
+***Fig. 7*** 
+Puffing
+
+
+
+#### ***3.3.5 ***Lifted Cake
+
+Freeze-dried cake sometimes migrates upward in the vial during freeze drying, illustrated in Fig. 8. In this example, after removal from the freeze dryer, some solids, separated from the cake, can be seen at the bottom of the vial. As observed immediately after freeze drying, the cake is intact, but simply elevated off the bottom of the vial. This lifting process appears to take place during primary drying. To the best of the authors’ knowledge, the physics of this process has not been studied. A reasonable mechanism, however, could be that the cake separates slightly from the inner wall of the vial, which then offers a low-resistance path for escaping water vapor to follow, relative to flow through the partially dried solids. The flow of water vapor between the cake and the vial wall exerts a drag on the cake, resulting in the cake lifting off the bottom of the vial. Usually, the cake settles to the bottom after primary drying, but not always. This phenomenon may be further exaggerated if total cake mass is low. Cake lifting may or may not be a cause for rejecting a vial or batch. If cake lifting results in product close to the stopper, then container-closure integrity must be assumed to be compromised, and such units should be rejected. Also, if the cake remains lifted close to the stopper during normal handling and dose preparation, it poses a challenge to reconstitute the product, and, hence, such units should be rejected. From a process control point of view, lifting of the cake during the course of primary drying decreases the thermal contact between the cake and the heat source, which would prolong primary drying time and make the final moisture content of the cake uncertain. However, the impact of cake lifting can be easily verified by other product quality indicating assays, and, if there is no impact on residual moisture or any other CQAs, product with lifted cake is not necessarily rejected. On the other hand, if residual moisture \(or any other potential quality attributes\) is negatively impacted, lifted cakes must be rejected. Certainly, if possible, cake lifting needs to be resolved during development, because lifted cakes are an indication that the process in not under adequate control. 
+![](images/000007.jpeg)
+
+
+***Fig. 8*** 
+Lifted cake
+
+
+
+#### ***3.3.6 ***Cake Shrinkage and Cracked Cake
+
+Cake shrinkage is shown in Fig. 9 and refers to the apparent loss of cake volume typically by the cake pulling away from the walls and perhaps the bottom of the vial. Often, inverting the vial causes the cake to come loose from contact with the vial. A development scientist needs to be careful with respect to cake shrinkage, because shrinkage may be the first manifestation of collapse. However, it seems that most cake shrinkage is not associated with collapse. An earlier study \[24\] developed the idea that cake shrinkage \(Fig. 9\) and cake cracking \(Fig. 10\) are different aspects of the same underlying physics. A correlation was reported between cake shrinkage and the amount of unfrozen water present in a “frozen” amorphous system. As this unfrozen water is removed during drying, stress builds in the cake due to volume contraction. This stress can be relieved either by contraction of the cake or by cake cracking, where the determining factor as to which takes place is possibly the extent of adhesion of the matrix to the inner wall of the vial. This work was further extended using a photographic technique along with micro-computed tomography to quantitate the extent of both shrinkage and cracking \[25–27\]. Using trehalose as a model solute at different concentrations, the inverse relationship between cake shrinkage and cracking was confirmed. Cake shrinkage was found to dominate at low trehalose concentrations. As the trehalose concentration was increased, the relative importance of shrinkage decreased, with a corresponding increase in cracking. This phenomenon was attributed to increased brittleness of the trehalose at higher concentrations. Shrinkage and cracking were also found to increase with fill depth. At a constant fill depth, a higher degree of cracking was observed in 10R vials than in 2R vials, again correlating inversely with cake shrinkage. There was no particular relationship observed between cake shrinkage and cracking and Wg’ \(the amount of unfrozen water in the maximally freeze-concentrated solute\) for the disaccharides sucrose \(18.5%\), trehalose \(16.7%\), and maltose \(20.0%\). This might be explained by the fact that the difference in unfrozen water between the three disaccharides is smaller than the accuracy of the measurement techniques reported. Indeed, adhesion would be an important determinant of cake shrinkage, because the solid must separate from the inner wall of the vial before cake shrinkage can occur. This was confirmed \[26\] by the use of vials with a hydrophobic interior surface \(Top-Lyo® vials\). The influence of freezing procedure was also investigated \[28\], wherein a change in the shelf cooling rate from 0.4 °C/min to 0.2 °C/min resulted in a significant increase in the amount of cake shrinkage relative to cracking. Annealing at −15 °C resulted in a modest increase in shrinkage relative to cracking. Cake cracking and adhesion to the vials also play an important role in the formation of broken cake, which can result in loose chunks of cake in the vial due to various degree of agitation experienced by the product during transportation. Because these chunks are formed after the completion of the freeze-drying process, stability of the drug product should not be impacted and the issue is cosmetic only. 
+![](images/000008.jpeg)
+
+
+***Fig. 9*** 
+Cake shrinkage: this shrinkage is not associated with collapse
+
+
+![](images/000009.jpeg)
+
+
+***Fig. 10*** 
+Cracked cake
+
+
+
+For the development scientist, it is important to ensure that cake shrinkage is not associated with collapse. This can be done easily by trial cycles at a range of conditions to be sure that collapse is not contributing to cake shrinkage. Thermal analysis of the frozen formulation and the dried cake \(e.g., differential scanning calorimetry, freeze-drying microscopy\), online process analytical technology methods \(e.g., manometric temperature measurement, thermocouples\), or offline characterization methods \(e.g., X-ray powder diffraction, residual moisture, SSA\) can help to distinguish between unintended collapse or unavoidable shrinkage. Both cake shrinkage and cracked cake should not be considered defects, because the underlying physics has to do only with mechanical properties of the cake, which are dependent on the formulation and primary container. Neither visual attribute has ever been shown to have any impact on CQAs of freeze-dried products.
+
+#### ***3.3.7 ***Dusting, Chipping, and Broken Cake
+
+Dusting, chipping, and breaking of cake usually happen after freeze drying when the product is shipped globally for distribution and is due to transportation and shaking stress. The product appearance coming out of the freeze dryer may be uniform and elegant; however, the more common appearance of the product after transportation is shown in Fig. 11, wherein fine powder is seen on the walls of the vial \(dusting\), and Fig. 12, wherein small fragmented pieces of cake are apparent \(chipping\). Occasionally, the cake is broken up in pieces \(Fig. 13\) after transportation stress evaluating the impact on product quality. Usually, there is no impact on any of the CQAs \(specifically sub-visible particles and aggregation\), and, hence, dusting, chipping, and broken cake \(resulting from transportation stress\) are acceptable. However, excessive agitation stress may impact CQA and point to the need for caution \[29\]. 
+![](images/000010.jpeg)
+
+
+***Fig. 11*** 
+Dusting: fine powder on the wall of the vial
+
+
+![](images/000011.jpeg)
+
+
+***Fig. 12*** 
+Chipping: small fragments of cake
+
+
+![](images/000012.jpeg)
+
+
+***Fig. 13*** 
+Broken cake: cake broken up in pieces
+
+
+
+##### ***3.3.7.1 ***Fogging
+
+Fogging is a film of product on the inner surface of the vial. It is often, and mistakenly, considered to result from agitation of the vial contents during handling between filling and loading into the freeze dryer. There is a considerable body of opinion that fogging results from Marangoni flow \[30\], which is flow driven by a surface tension gradient \(Fig. 14\). The rise of a film of wine on the inside of a glass \(“tears of wine”\) is a commonly cited example of Marangoni flow. Fogging is most commonly observed in formulations containing a surfactant or some surface active component, sometimes the drug itself. The driving force described for fogging is at the air/liquid interface. However, there is a convincing alternate hypothesis \[31\], suggesting that the mechanism involves the driving force from the interfacial energy at the liquid/solid interface. Formulation composition \(type and concentration of surfactant, including a control group with no surfactant\), glass vial processing \(washing/depyrogenation\) and composition \(unsiliconized vs siliconized inner vial surface\), and thermal history of the filled vials \(holding for extended times at 2–10 °C\) have been investigated to understand the impact on fogging \[30\]. Fogging was reported even in the formulation group containing no surfactant, with a surface tension of about 72 dynes/cm. In fact, fogging was always present in vials with a hydrophilic inner surface. One way to minimize, or perhaps eliminate, fogging was to use a glass vial with a siliconized inner surface. Fogging may be considered as a cosmetic defect, unless the extent of flow carries solution into the neck region of the vial \(close to the stopper\) where container-closure integrity could potentially be compromised. The extent of fogging \(i.e., the height on the vial\) that is considered critical, leading to rejection of the vial, needs to be defined. To avoid false rejects, the automated visual inspection technology for freeze-dried products needs to be adjusted. One approach to handling inspection of vials exhibiting fogging is to place vials in a rigid sleeve for inspection, where the top of the sleeve is at the same height on the vial as the bottom end of the stopper. Any solid material above the top of the sleeve would result in rejection of that unit. Skin formation on top of cake, an example of skin formation, is shown in Fig. 15. The “skin” is usually a thin and relatively dense layer of solid on the top of the cake that forms during freezing. The authors are not aware that skin formation has been systematically studied. However, it would make sense that skin formation would result from the dynamics of the freezing process \[32\]. After considerable supercooling, the first observed aspect of freezing is that the system quickly turns translucent upon ice nucleation. This is followed by the product becoming opaque from the bottom to the top of the frozen material, presumably resulting from ice crystal growth. It seems reasonable that this advancing front would push freeze concentrate ahead of the front and that a layer of freeze concentrate would be left at the top of the cake \[17, 32, 33\], resulting in a skin at the completion of drying. In general, a skin at the top of the cake does not measurably affect the dynamics of drying, perhaps because it is too porous or too mechanically fragile to significantly disrupt the flow of water vapor during primary drying. 
+![](images/000013.jpeg)
+
+
+***Fig. 14*** 
+Fogging
+
+
+![](images/000014.jpeg)
+
+
+***Fig. 15*** 
+Skin formation: skin on the top of a freeze-dried cake
+
+
+
+Although the formulation and processing factors that contribute to skin formation are unclear, it is the authors’ experience that a layer of skin does not measurably affect the CQAs of the product. However, careful investigation of this effect should be undertaken, especially if phase separation \[34\] in the matrix could occur \(e.g., in the presence of macromolecular stabilizers\). If the skin formation is a cosmetic issue only, it seems reasonable that the most likely attribute affected would be reconstitution time. As long as skin formation does not affect any quality attribute, it should not be considered a defect.
+
+#### ***3.3.8 ***Lyo Ring, Minor Splashing, and Major Splashing
+
+Lyo ring or halo \(Fig. 16\) is primarily due to dripping of solution from the filling nozzle. It can also be due to agitation after fill, but prior to loading in the freeze dryer. Formulation properties, such as surface tension and viscosity, govern whether the solution remains in the neck of the vial or falls back in the bulk solution at the bottom of the vial, via gravity. If solution remains in the neck and is then freeze dried in the same relative position, it appears as lyo ring, whereas if the solution was to drip down the walls of the vial, then streaks of dry product would appear on the walls of the vial after freeze drying \(minor splashing; Fig. 17\). Usually, lyo ring or minor splashing on the inside walls of the vials has no impact on CQAs \(as long as it does not result in product between the vial and the stopper; Fig. 5\), and, hence, product with lyo ring or minor splashing is acceptable. However, major splashing \(could also be fogging, or both; Fig. 18\) is indicative of poor fill-finish process understanding and control, and, hence, would likely need to be addressed even though there may be no impact on CQAs. 
+![](images/000015.jpeg)
+
+
+***Fig. 16*** 
+Lyo ring
+
+
+![](images/000016.jpeg)
+
+
+***Fig. 17*** 
+Minor splashing \(on the wall of the vial\)
+
+
+![](images/000017.jpeg)
+
+
+***Fig. 18*** 
+Major splashing \(could also be fogging, or both\)
+
+
+
+#### ***3.3.9 ***Bubble or Foam Formation
+
+“Bubble” or “foam” refers to an inhomogeneous cake not having a flat texture but, rather, dried material which covers a void space, leading to an appearance of dried foam \(Fig. 19\). A possible root cause for this appearance would be the filling process. If air bubbles are entrapped in the solution due to air bubbles in the fill line or an inappropriate filling speed, then these air bubbles do not dissipate due to viscosity or surface tension properties of the formulation. The bubbles stay intact on the surface of the solution all the way through freezing and drying. In general, there is no impact of bubble or foam on CQAs, and, hence, the product with bubble or foam is acceptable. 
+![](images/000018.jpeg)
+
+
+***Fig. 19*** 
+Bubble or foam formation
+
+
+
+#### ***3.3.10 ***Volcano
+
+In general, during freezing, the degree of supercooling and the solidification method \(from bottom up vs radial freezing\) can impact the ice crystal morphology and hence the cake appearance \[35\]. A likely mechanism of this “volcano formation” \(i.e., a small amount of raised solids; Fig. 20\) is the expansion of the frozen matrix due to inward radial freezing. If the formulation matrix adheres to the inside of the wall, it cannot expand by sliding along the wall. The only option left is for the matrix to heave up in the middle of the vial. However, additional studies are needed to systematically investigate volcano formation in freeze-dried product. In general, the CQAs are not impacted by the presence of volcano in the product and, hence, product with volcano is acceptable. 
+![](images/000019.jpeg)
+
+
+***Fig. 20*** 
+Volcano
+
+
+
+#### ***3.3.11 ***Cake Texture
+
+As stated earlier, a freeze-dried cake would ideally have a consistent texture throughout its volume, but such is not always the case. In the example shown in Fig. 21, the cake texture is very fine grained at the bottom and top of the cake, but the center of the solid has a coarse, granular appearance. One of the authors \(M.J.P.\) has observed that freezing occurs first at the bottom of the vial, and then the ice formed rises to the top of the vial, followed by additional freezing at the bottom, thereby leaving a solution, without ice crystals, sandwiched between the two layers containing a mixture of ice crystals and saturated solution. This results in a very coarse pore structure in the middle portion of the vials after freeze drying, which is a direct result of the center portion freezing without any significant super cooling and, therefore, producing very large ice crystals. This texture variation will normally result in a decreased SSA, but with no known or suspected adverse impact on any CQAs. Hence, a nonuniform cake texture is not, in general, a cause for rejection. 
+![](images/000020.jpeg)
+
+
+***Fig. 21*** 
+Nonuniform cake texture: inconsistent texture of the freeze-dried
+
+
+
+Although the focus of this commentary is drug products where the pre-freeze-dried formulation is a solution, freeze drying of dispersed systems can result in a nonuniform cake texture, either from settling of the dispersed phase over the time course of filling and freezing or from a nonuniform distribution of the dispersed phase as a result of freezing dynamics. Either way, this type of nonuniform texture would not be considered, in itself, a cause for rejection of the product. Cake color-lyophilized drug product should ideally exhibit a uniform cake color \[36\] \(generally white to off-white\). However, in some cases colored cakes may be observed, for example, in case of a colored active pharmaceutical ingredient \(Fig. 22\). The authors are not aware of any systematic study assessing the impact of a nonuniform color on product quality. Effects such as cryo-concentration and crystallization may lead to a slightly different color in different sections of the dried cake, potentially due to nonuniform distribution of the drug substance, the extent of crystallization, or the crystallization of different polymorphs \[37\]. In the opinion of the authors, sufficient product quality data should be generated to support the acceptability of a nonuniform color in order to classify it as cosmetic only. A change in color after lyophilization or during storage needs to be considered with care, because it may be attributed to a Maillard reaction \(e.g., sucrose, maltose, lactose\) \[11, 38\], oxidation of protein \(e.g., related to tryptophan\) \[39, 40\], or oxidation of excipients \(e.g., histidine\) \[41\] which may impact CQAs and, hence, may warrant rejection of such product. 
+![](images/000021.jpeg)
+
+
+***Fig. 22*** 
+Nonuniform cake color
+
+
+
+#### ***3.3.12 ***Droplets and Product on Inside Walls of the Vial
+
+Droplets are spots of transparent material at the inner side of the vial. A possible root cause for these spots is the filling process, wherein fine droplets are sprayed during the upward movement of the filling needle causing the solution to stick on the inner side of the vial above the liquid level. Another possibility could be agitation of the vial after filling and before freezing. Such spots could then either freeze and dry during the lyophilization process, resulting in a spot of white powdery film on the inside walls of the vial \(Fig. 17\) or, depending on clean room conditions and processing time, evaporate before freezing, thereby forming a transparent “droplet” \(Fig. 23\) similar to film drying. For the freeze-dried product on the inside walls of the vial, there may or may not be an impact on product quality depending on stability of the molecule under this potentially different drying conditions. If the source of the droplets is questionable \(e.g., product vs extraneous contamination such as silicon oil\), then these vials should be rejected. Of course, it should be a standard practice to at least test to determine if the droplets are liquid or solid \(dried\). Nonetheless, if the glassy spots can be identified as product and there is no impact on CQAs \(i.e., no impact on patient safety and product efficacy\), then the impact is only cosmetic and the vials with glassy spots can be accepted. Obviously, additional studies establishing the impact of cake appearance on critical product quality attributes are needed to clearly define accept/reject criteria. Studies clearly linking cake elegance issues with formulations, freezing-drying variations, and fill-finish process parameters may help to develop mitigation strategies without requiring significant resource and time commitment. General considerations for the cake appearances discussed above are summarized in Table 1. 
+![](images/000022.jpeg)
+
+
+***Fig. 23*** 
+Glossy droplet
+
+
+
+
+***Table 1*** 
+General considerations for routinely observed lyophilized product cake appearance
+
+
+
+**Cake appearance**
+
+**Figure number**
+
+**Potential root cause\(s\)**
+
+**In general, does it impact product quality?**
+
+**In general, is it acceptable?**
+
+**Additional notes**
+
+Total collapse
+
+1, 2
+
+Drying above critical product temperature during primary or secondary drying
+
+Yes \(reconstitution time, residual moisture, stability, potency\)
+
+No
+
+Acceptable when collapsed cake generated intentionally
+
+Meltback
+
+3
+
+Product drying above eutectic or ice melting point or incomplete primary drying
+
+Yes \(reconstitution time, residual moisture, stability, potency\)
+
+No
+
+Suggests poor process understanding
+
+Product ejection
+
+4
+
+Formulation \(resulting in less cohesive powder
+
+Yes \(dose/vial, reconstitution time, CCI\)
+
+No
+
+Need to optimize formulation and process parameters
+
+Product between vial and stopper
+
+5
+
+Minor dripping/splashing from the nozzle during filling
+
+Yes \(dose/vial, reconstitution time, CCI\)
+
+No
+
+Requires fill process optimization
+
+Slanted cake
+
+6
+
+Vial not resting on the shelf completely due to loading issue
+
+Yes \(may have higher residual moisture and abnormal product temperature history\)
+
+No
+
+Presence of correct cake volume is specifically mentioned in guide to visual inspection
+
+Puffing
+
+7
+
+Higher level of dissolved gases
+
+Eutectic melting
+
+Freezing protocol
+
+Yes \(may impact stability of proteins sensitive to interface\)
+
+No
+
+Acceptable if observed in all vials within a batch with no impact on CQAs
+
+Lifted cakes
+
+8
+
+Cake shrinkage
+
+Low amounts of dissolved solids
+
+Yes \(reconstitution time if the cake stays lifted, may impact product temperature history\)
+
+No
+
+If the cake stays lifted, close to stopper, during normal handling, then it could be a challenge even to add diluent for reconstitution
+
+Major splashing \(could also be fogging or both\)
+
+18
+
+Filling
+
+Manual loading
+
+Yes \(recon time, CCI\)
+
+No
+
+Need to optimize filling parameters
+
+Cake shrinkage
+
+9
+
+Formulation
+
+Process, ramp to secondary drying too fast
+
+No
+
+Yes
+
+Inherent characteristic of certain commonly used excipients \(e.g., sucrose\)
+
+Cracked cake
+
+10
+
+Macroscopic structural changes caused by tensile \(“drying”\) tension built up within a wet solid when water is removed
+
+Fast ramp rate from primary to secondary drying
+
+No
+
+Yes
+
+Could also happen during transportation
+
+Dusting
+
+11
+
+Shipping stress resulting in formation of loose powder/cake
+
+No
+
+Yes
+
+Chipping
+
+12
+
+Broken cake
+
+13
+
+Fogging
+
+14
+
+Glass surface property
+
+Glass formation process
+
+Formulation
+
+No
+
+Yes
+
+Rejected if the dried product is close to stopper impacting CCI
+
+Skin formation
+
+15
+
+Freezing protocol
+
+No
+
+Yes
+
+May suggest poor process and product understanding
+
+Lyo ring
+
+16
+
+Dripping from nozzle during fill
+
+Agitation after filling and before loading
+
+Yes \(reconstitution time depending on the thickness of the ring\)
+
+Yes
+
+The product can be all around the vial neck or just a small band on the vial neck
+
+Bubble or foam formation
+
+19
+
+Foaming during filling
+
+No
+
+Yes
+
+Volcano
+
+20
+
+Process \(freezing protocol\)
+
+No
+
+Yes
+
+Glassy droplet
+
+23
+
+Splashing of very fine droplets during filling
+
+No
+
+Yes \(only if confirmed to be a product\)
+
+Usually very fine fried droplets that readily dissolve in solution without impact on any other product quality attributes
+
+Partial collapse
+
+1
+
+Drying above critical product temperature during primary or secondary drying
+
+No
+
+Yes
+
+Minor splashing
+
+17
+
+Filling
+
+Manual loading
+
+No
+
+Yes
+
+Rejected if CCI is impacted
+
+Nonuniform or change in cake texture
+
+21
+
+Process \(freezing protocol\)
+
+No
+
+Yes
+
+If specific surface area is impacted, potential influence on residual moisture and reconstitution time
+
+Nonuniform or change in cake color
+
+22
+
+Formulation
+
+Process
+
+No
+
+May be
+
+To accept data needed to demonstrate no impact on product quality and reproducibility, including color of reconstituted solution
+
+
+*CCI* container closure integrity
+
+aThe general considerations for a few of the cake appearances, which are not discussed in the literature, are based on authors’ experience \(see text for more details\)
+
+
+
+
+## **4 **Potential Clinical Relevance of Cake Appearance
+
+If any aspect of cake appearance affects a CQA of the product, it should be considered clinically relevant. For example, product between vial and stopper \(Fig. 5\) means that there is product between the sealing surfaces of the glass vial and the elastomeric closure. This could mean that container-closure integrity, and, thus, sterility assurance has been compromised. Additionally, because the product between the vial and stopper cannot be reconstituted, it may result in low dose per vial \(if a significant amount of product is between vial and stopper\). Another consideration is the patient or end-user perspective. For example, if the end user \(especially the healthcare professional\) is accustomed to a uniformly elegant cake, the unexpected receipt of a nonuniform cake would likely result in a customer complaint. If nonuniform cakes that do not impact patient safety and product efficacy are to be accepted, then surely the product description in the user packaging insert needs extra attention to describe the range of product appearance that is expected to avoid customer complaints. Additionally, educational material \(beyond the user insert\) may be needed to change the end-user perspective that “nonuniform” “does not” always mean “poor quality.” Finally, cake appearance is highly scrutinized in some markets compared to the rest of the world. Companies aiming to distribute the product worldwide need to develop a product with appearance that is acceptable in all regions. However, there are no documented requirements for cake appearance in different regions. Such requirements are purely defined by the company’s experience distributing the product in these different markets. There is a need to share these experiences publicly and harmonize the requirements across the industry, regulatory agencies, and geographical territories based on impact to CQAs rather than merely on the premise of making product elegant.
+
+### **4.1 **What Cake Appearances Are Acceptable?
+
+A summary of an anonymous survey conducted to identify cake appearances that are acceptable is presented in Fig. 24. The participants had varying experience with lyophilized product in the US pharmaceutical industry and were embedded in functions such as formulation development, analytical chemistry, and manufacturing \(clinical and commercial\). The survey results are for commercial product and independent of product specification \(i.e., lot release and stability\) and 100% visual inspection \(i.e., for good manufacturing practice lot after manufacturing\) considerations. The participants were shown pictures of the cake appearance and were asked if it is acceptable. There are cake appearances that are unanimously accepted or rejected just based on appearance; however, there are many cake appearances that are difficult to classify as acceptable or unacceptable. The huge differences observed in acceptability of many of the nonideal cake appearances is mostly due to the perception that nonuniform equates to poor quality and the lack of data assessing the impact on product quality \(internally within the company and in literature\). The lack of consensus in the survey results are indeed representative of the current state of the industry, and of different geographical territories, and highlight the need to harmonize criteria for accepting or rejecting cake appearance based on science rather than perception \(i.e., a cake appearance that is not elegant and uniform may not equate to poor quality\). Until the industry defines objective criteria for cake appearance \(based on science and risk-based approach\), attempts to address all the variations in cake appearance consume time and money that could be better spent elsewhere to provide meaningful process/product improvements and bringing drugs faster to the patient. The authors sincerely hope that the industry and regulatory agencies will come forward to build some consensus and use this commentary as the starting point to bring objectivity to the very subjective evaluation of cake appearance. 
+![](images/000023.jpeg)
+
+
+***Fig. 24*** 
+Anonymous survey results for acceptable cake appearance \(*n* ¼ 10\)
+
+
+
+The following are the primary considerations to accept a cake appearance: 
+
+1. 
+1.
+
+
+Does the cake appearance impact CQAs \(i.e., patient safety and product efficacy\)?
+
+
+
+
+2.  
+2.
+
+
+Is the cake appearance consistent, at least within a range of appearances, within a batch and between different batches?
+
+
+
+
+3.  
+3.
+
+
+Would the cake appearance be acceptable as a commercial product from a marketing standpoint \(i.e., business considerations\)?
+
+
+
+
+
+A decision tree based on these factors is summarized in Fig. 25. Very few scenarios emerge by asking these questions: 
+
++ 
+*Scenario 1*: The cake appearance does not impact CQAs, is consistent within and between batches, and is acceptable as a commercial product. In this case, the cake appearance is defined as an inherent characteristic of the product and is acceptable.
+
++  
+*Scenario 2*: The cake appearance impacts CQAs \(be it reconstitution time, residual moisture, potency\). In this case, any vial showing this particular cake appearance should be rejected.
+
++  
+*Scenario 3*: The cake appearance does not impact CQAs, but it is not identical within and between batches. The cake appearance may be acceptable. Is the variation consistent? For example, does the observed cake appearance happen randomly once in ten batches or does it happen in every batch? Additionally, are the potential reasons for the subtle differences in cake appearance well understood or are they a result of poor formulation and process understanding or lack of due diligence to determine the source of the variation? If the variation is consistent and well understood, the cake appearance is acceptable if there are no concerns from a marketing or commercial standpoint.
+
++  
+*Scenario 4*: The cake appearance does not impact CQAs; however, it is not consistent within and between batches and is not acceptable from a marketing or commercial standpoint \(e.g., due to considerations such as elegant competitor product or end-user perception\). In this case, the product with this cake appearance is rejected.
+
++  
+*Scenario 5*: The cake appearance does not impact CQAs and is also consistent within and between batches, but is not acceptable from a marketing or commercial standpoint \(e.g., due to considerations such as elegant competitor product or end-user perception\). In an ideal world, a decision based on science and risk assessment \(impact to patient safety and product efficacy\) should always dominate over logistics and business consideration, but reality is business considerations do play a critical role from distribution/marketing and patient/product compliance standpoint. Nonetheless, scenarios wherein business considerations are weighed in more \(scenario \#3, \#4, and \#5\) to accept or reject the product based on cake appearance is likely going to result in significant delay in bringing product to the patient. Additionally, decisions primarily based on business considerations would result in product wastage \(by rejecting product because it doesn’t “look good”\) and unnecessarily long development time with large resource requirements. The understanding of formulation and lyophilization have dramatically improved over the last two decades and, therefore science should, and must, take priority over business considerations. The key elements of science and risk-based approach, to assess patient safety and product efficacy, should drive the decision-making process rather than perception, believes, and opinion.
+
+
+
+![](images/000024.jpeg)
+
+
+***Fig. 25*** 
+Decision tree to accept or reject a cake appearance based on impact to CQAs, consistency, and acceptability as a commercial product
+
+
+
+### **4.2 **Additional Considerations for Accepting Variations in Cake Appearance – Example: Collapsed Cake
+
+As mentioned earlier, there is a specification for cake appearance both for lot release and stability. Collapse during stability at or near intended storage temperature is not acceptable as it would suggest poor formulation and process understanding. Additionally, a change in cake appearance as a function of storage time and temperature is likely to have an impact on CQAs that impact patient safety and product efficacy. Usually, the cake appearance is defined as “uniform cake.” However, if collapsed cakes are acceptable \(i.e., if they meet all the requirements defined in Fig. 25\), then how would the cake appearance be described for the product specification and the package or user insert? In that case, the product appearance may be defined as nonuniform at least for the user insert and, as mentioned earlier, additional information describing the product appearance \(such as a picture of the product\) should be included in the user or package insert. Furthermore, if the data from development demonstrate that cake appearance does not correlate with CQAs, is it meaningful to have cake appearance on the product specification? Because if the cake appearance is not uniform \(i.e., not consistent from vial to vial and batch to batch\), there is no way to trend a change in cake appearance with time and temperature. Hence, even if one were to set a specification for cake appearance, in this case, it would be meaningless, specifically for stability. Product quality assessment then would rely heavily on other biophysical assays that are indeed true indicators of product quality. Criteria to accept/reject for 100% visual inspection and lot release can still be developed based on historical experience within development.
+
+Lyophilized drug product development should include systematic studies to evaluate the effect of collapse on product quality. Additionally, a few “relevant,” non-elegant cake appearances should be assessed \(including stability when needed\) for impact on product quality.
+
+### **4.3 **Summary
+
+Cake appearance may or may not be an indicator of product quality. Striving for uniform and elegant cake appearance, in all cases, likely would lead to higher cost and potentially a delay in bringing a drug that may provide treatment for life-threatening and severely debilitating disease. Additionally, discarding a lot solely based on cake appearance, despite no impact on CQAs, would result in waste of drug that could have been used to treat patients. Making a lyophilized drug product elegant should not be the primary focus or an expectation from the drug product manufacturer, but rather making drug product more affordable and bringing them faster to the patient with acceptable safety and efficacy profile should be at the forefront of all discussions. The discussion presented is by no means an argument to widen the specifications, but rather is a plea for an approach to accept/reject cake appearance that is based on science rather than on speculation and historical precedent. A number of products have been and are marketed with less than an ideal cake appearance. Independent of cake appearance \(uniform and elegant vs nonuniform and not elegant\), the product still needs to meet statutory requirements for patient safety and product efficacy.
+
+It is indeed valuable to invest the time in formulation and process development and control the formulation and process parameters that could potentially impact cake appearance. New cake appearances, in general, should employ risk assessment and product quality testing before they are classified as acceptable or reject. Such data become invaluable when a need arises to support a deviation, excursion, or nonconformance, and facilitate data-driven decision-making \(e.g., by the qualified person, by the marketing team, positions to be taken toward the regulatory authorities and toward customers\). In this case, the path forward would be substantiated by formulation and process understanding based on data and facts, not emotions, esthetics, and beliefs. Scientific advancement in the area of freeze drying demands a change in mindset, specifically for cake appearance: “nonuniform does not always mean poor quality.” The drug product manufacturers, health authorities, healthcare providers, and patients should embrace products that have acceptable safety and efficacy profiles, but less than an ideal appearance \(i.e., “beauty lies in the eyes of the beholder”\).
+
+
+**Acknowledgments**
+
+The authors thank Ilona Vollrath at Coriolis Pharma and Nancy Craighead at MedImmune for editorial support.
+
+
+
+**References**
+
+1.  
+1.
+
+Schwegman JJ, Hardwick LM, Akers MJ. Practical formulation and process development of freeze-dried products. Pharm Dev Technol. 2005;10:151–73.[Crossref](https://doi.org/10.1081/PDT-56308)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15926665)
+
+2.  
+2.
+
+Kumru OS, Joshi SB, Smith DE, Middaugh CR, Prusik T, Volkin DB. Vaccine instability in the cold chain: mechanisms, analysis and formulation strategies. Biologicals. 2014;42:237–59.[Crossref](https://doi.org/10.1016/j.biologicals.2014.05.007)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24996452)
+
+3.  
+3.
+
+Wiggan O, Livengood JA, Silengo SJ, et al. Novel formulations enhance the thermal stability of live-attenuated flavivirus vaccines. Vaccine. 2011;29:7456–62.[Crossref](https://doi.org/10.1016/j.vaccine.2011.07.054)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21803103)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3186865)
+
+4.  
+4.
+
+Cao W, Krishnan S, Ricci MS, et al. Rational design of lyophilized high concentration protein formulations-mitigating the challenge of slow reconstitution with multidisciplinary strategies. Eur J Pharm Biopharm. 2013;85:287–93.[Crossref](https://doi.org/10.1016/j.ejpb.2013.05.001)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23702275)
+
+5.  
+5.
+
+USP Visual Inspection of Injections. Chapter <1790>. Rockville, MD: United States Pharmacopeial Convention.
+
+6.  
+6.
+
+USP Particulate Matter in Injections. Chapter <788>. Rockville, MD: United States Pharmacopeial Convention.
+
+7.  
+7.
+
+PDA Technical Report No. 43. Identification and classification of nonconformities in molded and tubular glass containers for pharmaceutical manufacturing: covering ampoules, bottles, cartridges, syringes and vials. Parental Drug Association. Available at: [https://​www.​pda.​org/​docs/​defaultsource/​website-document-library/​chapters/​presentations/​new-england/​pdatechnical-report-43-\(revised\).​pdf?​sfvrsn=​6](https://www.pda.org/docs/defaultsource/website-document-library/chapters/presentations/new-england/pdatechnical-report-43-(revised).pdf?sfvrsn=6). Accessed 17 Apr 2017.
+
+8.  
+8.
+
+US Food and Drug Administration. 11/25/2014. Inspection guides-lyophilization of parenteral. Available at: [http://​www.​fda.​gov/​ICECI/​Inspections/​Inspection Guides/​ucm074909.​htm](http://www.fda.gov/ICECI/Inspections/Inspection%20Guides/ucm074909.htm). Accessed 24 Mar 2016.
+
+9.  
+9.
+
+Schersch K, Betz O, Garidel P, Muehlau S, Bassarab S, Winter G. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins, part 2: stability during storage at elevated temperatures. J Pharm Sci. 2012;101:2288–306.[Crossref](https://doi.org/10.1002/jps.23121)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22517663)
+
+10.  
+10.
+
+Schersch K, Betz O, Garidel P, Muehlau S, Bassarab S, Winter G. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins I: stability after freeze-drying. J Pharm Sci. 2010;99:2256–78.[Crossref](https://doi.org/10.1002/jps.22000)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20039389)
+
+11.  
+11.
+
+Schersch K, Betz O, Garidel P, Muehlau S, Bassarab S, Winter G. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins III: collapse during storage at elevated temperatures. Eur J Pharm Biopharm. 2013;85:240–52.[Crossref](https://doi.org/10.1016/j.ejpb.2013.05.009)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23727369)
+
+12.  
+12.
+
+Wang DQ, Hey JM, Nail SL. Effect of collapse on the stability of freeze-dried recombinant factor VIII and alpha-amylase. J Pharm Sci. 2004;93:1253–63.[Crossref](https://doi.org/10.1002/jps.20065)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15067701)
+
+13.  
+13.
+
+Overcashier DE, Patapoff TW, Hsu CC. Lyophilization of protein formulations in vials: investigation of the relationship between resistance to vapor flow during primary drying and small-scale product collapse. J Pharm Sci. 1999;88:688–95.[Crossref](https://doi.org/10.1021/js980445+)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10393566)
+
+14.  
+14.
+
+Tchessalov S, Dixon D, Warne N. Lyophilization above collapse. 2008. WO2010017296 A1.
+
+15.  
+15.
+
+Etzl EE, Winter G, Engert J. Toward intradermal vaccination: preparation of powder formulations by collapse freeze-drying. Pharm Dev Technol. 2014;19:213–22.[Crossref](https://doi.org/10.3109/10837450.2013.769567)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23432539)
+
+16.  
+16.
+
+ANSI/ASQ Z1.4-2008 Sampling Procedures and Tables for Inspection by Attributes, Section 5.2: American National Standards Institute; American Society for Quality.
+
+17.  
+17.
+
+International Organization for Standardization 2859e1:1999 Sampling Procedures for Inspection by AttributesePart I: Sampling Schemes Indexed by Acceptance Quality Limit \(AQL\) for Lot-by-Lot Inspection. Available at: [https://​www.​iso.​org/​obp/​ui/​\#iso:​std:​iso:​2859:​-1:​ed-2:​v1:​en](https://www.iso.org/obp/ui/#iso:std:iso:2859:-1:ed-2:v1:en). Accessed 17 Apr 2017.
+
+18.  
+18.
+
+Pikal MJ, Shah S. The collapse temperature in freeze-drying: dependence on measurement methodology and rate of water removal from the glassy phase. Int J Pharm. 1990;62:165–86.[Crossref](https://doi.org/10.1016/0378-5173(90)90231-R)
+
+19.  
+19.
+
+Depaz RA, Pansare S, Patel SM. Freeze-drying above the glass transition temperature in amorphous protein formulations while maintaining product quality and improving process efficiency. J Pharm Sci. 2016;105\(1\):40–9.[Crossref](https://doi.org/10.1002/jps.24705)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26580140)
+
+20.  
+20.
+
+Awotwe-Otoo D, Agarabi C, Read EK, et al. Impact of controlled ice nucleation on process performance and quality attributes of a lyophilized monoclonal antibody. Int J Pharm. 2013;450\(1–2\):70–8.[Crossref](https://doi.org/10.1016/j.ijpharm.2013.04.041)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23618961)
+
+21.  
+21.
+
+Izutsu K, Yoshioka S, Kojima S. Physical stability and protein stability of freeze-dried cakes during storage at elevated temperatures. Pharm Res. 1994;11:995–9.[Crossref](https://doi.org/10.1023/A:1018931319772)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7937561)
+
+22.  
+22.
+
+Leinen KM, Labuza TP. Crystallization inhibition of an amorphous sucrose system using raffinose. J Zhejiang Univ Sci B. 2006;7:85–9.[Crossref](https://doi.org/10.1631/jzus.2006.B0085)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16421962)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1363750)
+
+23.  
+23.
+
+Wittaya-Areekul S, Needham GF, Milton N, Roy ML, Nail SL. Freeze-drying of tert-butanol/water cosolvent systems: a case report on formation of a friable freeze-dried powder of tobramycin sulfate. J Pharm Sci. 2002;91:1147–55.[Crossref](https://doi.org/10.1002/jps.10113)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11948553)
+
+24.  
+24.
+
+Rambhatla S, Obert JP, Luthra S, Bhugra C, Pikal MJ. Cake shrinkage during freeze-drying: a combined experimental and theoretical study. Pharm Dev Technol. 2005;10:33–40.[Crossref](https://doi.org/10.1081/PDT-35871)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15776811)
+
+25.  
+25.
+
+Ullrich S, Seyferth S, Lee G. Measurement of shrinkage and cracking in lyophilized amorphous cakes. Part I: final-product assessment. J Pharm Sci. 2015;104:155–64.[Crossref](https://doi.org/10.1002/jps.24284)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25421825)
+
+26.  
+26.
+
+Ullrich S, Seyferth S, Lee G. Measurement of shrinkage and cracking in lyophilized amorphous cakes, part 3: hydrophobic vials and the question of adhesion. J Pharm Sci. 2015;104:2040–6.[Crossref](https://doi.org/10.1002/jps.24441)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25832825)
+
+27.  
+27.
+
+Ullrich S, Seyferth S, Lee G. Measurement of shrinkage and cracking in lyophilized amorphous cakes. Part II: kinetics. Pharm Res. 2015;32:2503–15.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25652671)
+
+28.  
+28.
+
+Ullrich S, Seyferth S, Lee G. Measurement of shrinkage and cracking in lyophilized amorphous cakes. Part IV: effects of freezing protocol. Int J Pharm. 2015;495:52–7.[Crossref](https://doi.org/10.1016/j.ijpharm.2015.08.091)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26325321)
+
+29.  
+29.
+
+Telikepalli S, Kumru OS, Kim JH, et al. Characterization of the physical stability of a lyophilized IgG1 mAb after accelerated shipping-like stress. J Pharm Sci. 2015;104\(2\):495–507.[Crossref](https://doi.org/10.1002/jps.24242)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25522000)
+
+30.  
+30.
+
+Abdul-Fattah AM, Oeschger R, Roehl H, et al. Investigating factors leading to fogging of glass vials in lyophilized drug products. Eur J Pharm Biopharm. 2013;85:314–26.[Crossref](https://doi.org/10.1016/j.ejpb.2013.06.007)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23791681)
+
+31.  
+31.
+
+Tadmor R. Marangoni flow revisited. J Colloid Interface Sci. 2009;332:451–4.[Crossref](https://doi.org/10.1016/j.jcis.2008.12.047)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19181326)
+
+32.  
+32.
+
+Esfandiary R, Gattu SK, Stewart JM, Patel SM. Effect of freezing on lyophilization process performance and drug product cake appearance. J Pharm Sci. 2016;105:1427–33.[Crossref](https://doi.org/10.1016/j.xphs.2016.02.003)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27019959)
+
+33.  
+33.
+
+Kochs M, Korber C, Nunner B, Heschel I. The in € fluence of the freezing process on vapour transport during sublimation in vacuum-freeze-drying. Int J Heat Mass Transf. 1991;34:2395–408.[Crossref](https://doi.org/10.1016/0017-9310(91)90064-L)
+
+34.  
+34.
+
+Padilla AM, Chou SG, Luthra S, Pikal MJ. The study of amorphous phase separation in a model polymer phase-separating system using Raman microscopy and a low-temperature stage: effect of cooling rate and nucleation temperature. J Pharm Sci. 2011;100:1362–76.[Crossref](https://doi.org/10.1002/jps.22357)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20890911)
+
+35.  
+35.
+
+Searles JA, Carpenter JF, Randolph TW. The ice nucleation temperature determines the primary drying rate of lyophilization for samples frozen on a temperature-controlled shelf. J Pharm Sci. 2001;90:860–71.[Crossref](https://doi.org/10.1002/jps.1039)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11458335)
+
+36.  
+36.
+
+Pack BW, Montgomery LL, Hetrick EM. Modernization of physical appearance and solution color tests using quantitative tristimulus colorimetry: advantages, harmonization, and validation strategies. J Pharm Sci. 2015;104\(10\):3299–313.[Crossref](https://doi.org/10.1002/jps.24565)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26173406)
+
+37.  
+37.
+
+Chongprasert S, Griesser UJ, Bottorff AT, Williams NA, Byrn SR, Nail SL. Effects of freeze-dry processing conditions on the crystallization of pentamidine isethionate. J Pharm Sci. 1998;87:1155–60.[Crossref](https://doi.org/10.1021/js970342b)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9724570)
+
+38.  
+38.
+
+Kawai K, Suzuki T. Stabilizing effect of four types of disaccharide on the enzymatic activity of freeze-dried lactate dehydrogenase: step by step evaluation from freezing to storage. Pharm Res. 2007;24:1883–90.[Crossref](https://doi.org/10.1007/s11095-007-9312-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17486434)
+
+39.  
+39.
+
+Li Y, Polozova A, Gruia F, Feng J. Characterization of the degradation products of a color-changed monoclonal antibody: tryptophan-derived chromophores. Anal Chem. 2014;86:6850–7.[Crossref](https://doi.org/10.1021/ac404218t)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24937252)
+
+40.  
+40.
+
+Dilley KJ. Loss of tryptophan associated with photo-polymerization and yellowing of proteins exposed to light over 300nm. Biochem J. 1973;133:821–6.[Crossref](https://doi.org/10.1042/bj1330821)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=4748835)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1177772)
+
+41.  
+41.
+
+Mason BD, McCracken M, Bures EJ, Kerwin BA. Oxidation of free L-histidine by tert-Butyl hydroperoxide. Pharm Res. 2010;27:447–56. 16 S.[Crossref](https://doi.org/10.1007/s11095-009-0032-y)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20127149)
+
+
+

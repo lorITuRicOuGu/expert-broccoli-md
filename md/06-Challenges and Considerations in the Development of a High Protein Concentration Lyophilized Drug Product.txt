@@ -1,0 +1,827 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_6](https://doi.org/10.1007/978-3-031-12634-5_6)
+
+
+**
+# Challenges and Considerations in the Development of a High Protein Concentration Lyophilized Drug Product
+**
+
+
+Xiaolin \(Charlie\) Tang1  , Yuan Cheng1 and Mohammed Shameem1
+
+
+\(1\) 
+Formulation Development, Regeneron Pharmaceuticals Inc, Tarrytown, NY, USA
+
+
+
+
+
+**Xiaolin \(Charlie\) Tang**
+
+**Email: **xiaolin.tang@regeneron.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Characteristics of High Protein Concentration Lyophilized Drug Product
+
+**2.1 **Physical Appearance and Cake Structure
+
+**2.2 **Prolonged Reconstitution Time
+
+**2.3 **High Viscosity
+
+**2.4 **Longer Primary Drying Time
+
+**2.5 **Osmolality
+
+**3 **Stability Considerations for the Development of High Protein Concentration Lyophilized Drug Products
+
+**3.1 **Protein Cold Denaturation
+
+**3.2 **Freezing Stress
+
+**3.3 **Phase Separation
+
+**3.4 **Dehydration Stress
+
+**4 **Stability Strategy to Minimize Protein Degradation During Lyophilization Process and Shelf Life Storage
+
+**4.1 **Buffer Species, Surfactants, and Viscosity Reducer Selection
+
+**4.2 **Stabilizers Selection
+
+**4.3 **Stability Strategy for a High Concentration Lyophilized Protein Drug Product Stable for Room Temperature Storage
+
+**4.4 **Coformulation of High Concentration Lyophilized Protein Drug Product
+
+**5 **Formulation and Process Strategy to Minimize the Reconstitution Time
+
+**5.1 **Increase Cake Wettability and Crystallinity
+
+**5.2 **Controlled Nucleation
+
+**6 **Lyophilization Cycle Development for High Protein Concentration Drug Product
+
+**6.1 **Freezing
+
+**6.2 **Primary Drying
+
+**6.3 **Secondary Drying
+
+**6.4 **Lyophilization Cycle Scale-Up Considerations
+
+**7 **Summary
+
+References
+
+
+## Abstract
+
+The lyophilized high concentration protein drug products have the advantages of product stability suitable for ADC and other stability sensitive molecules, speed to first-in-human clinical trials \(shorter development time\), and allowance for low-volume high-dose subcutaneous delivery of protein therapeutics. Successful development of a pharmaceutically and economically viable high protein concentration lyophilized drug product requires a solid understanding of the high protein concentration on the critical quality attributes and lyophilization process, as well as the implementation of an integrated approach for formulation and process development. In this chapter, we have discussed the scientific basis and unique challenges associated with the development of high protein concentration lyophilized drug products. Practical guidance for the successful development of high protein concentration lyophilized drug products and potential stability strategy for a lyophilized protein drug product stable for room temperature storage was also provided.
+
+
+**Keywords**
+High protein concentration Lyophilized drug product Lyophilization cycle development Protein degradation Protein cold denaturation Reconstitution time Room temperature stable lyophilized protein drug product
+
+
+## **1 **Introduction
+
+Since the first therapeutic monoclonal antibody \(mAb\), muromonab-CD3 \(Orthoclone OKT3\), was approved by the US FDA in 1986 \[1\], the mAb therapeutics have become the predominant treatment modality for various diseases over the past decades. Technological advances have greatly accelerated the discovery and development of mAb therapeutics. Nowadays, mAb therapeutics are increasingly used in a wide variety of disease areas such as oncology, immunology, and hematology. Many mAb therapeutics, such as Humira, Dupixent, and Keytruda, are featured by multiple disease indications \[2\]. Currently, Humira is the world’s best-selling drug and is administered via subcutaneous \(SC\) injection for the treatment of rheumatoid arthritis and other TNFα-mediated chronic debilitating diseases \[3\]. SC administration has the advantage of allowing both patient self-administration at home and administration by healthcare providers in a clinical setting using a variety of drug delivery systems. SC administration can also significantly shorten dose preparation and administration and reduce facility costs.
+
+SC administration, however, has traditionally been limited to 1–2 mL per injection \[4\]. A high concentration formulation is typically required for the SC delivery of high doses of biologics \(>200 mg\). High concentration formulation usually contains ≥100 mg/mL of protein in a formulation buffer stabilized with excipients. In addition to high viscosity, high protein concentration can also lead to increased protein instability due to increased protein–protein and protein–excipient intermolecular interactions. Impurities such as host cell proteins, which are often controlled at very low levels in low concentration protein formulations, can be co-concentrated with proteins during the production and affect the stability and safety of the drug product \[5\].
+
+In comparison to liquid formulations, lyophilized formulations often feature the advantages of better stability, easy storage and shipping, and shorter development time \[6, 7\]. This is particularly true for high concentration formulations when the development of stable liquid formulation tends to be more challenging. Lyophilization formulations also offer greater dosing flexibility. By adjusting the reconstitution volume, one lyophilized drug product can be reconstituted to various concentrations and support the need of both IV and SC administration. Due to all these advantages, lyophilized protein drug products are particularly suitable for early stage clinical development when the speed to first-in-human \(FIH\) is often the priority while limited time and resources are available for formulation development. In the case that the development of a stable high protein concentration liquid formulation is not feasible, the lyophilized high concentration protein drug product would also be a viable strategy for commercial drug product development. It is worth mentioning that lyophilized protein drug products have the potential to be developed as room temperature stable drug products for more convenient storage and shipment \[8\]. Development of room temperature stable lyophilized protein drug products can make the drug available to the remote areas where the product cold chain is not available.
+
+Despite the advantages, the potential challenges encountered during the development of high concentration lyophilized protein drug products such as suboptimal drying process, limited long-term storage and slow reconstitution time could influence the choice between a liquid or lyophilized formulation. A significant advantage of using a lyophilized drug product, specifically early in the drug development, for first-in-human clinical trials \(e.g. safety assessment, phase I\) is to allow enough time and resources towards optimizing the final formulation \(i.e. liquid or lyophilized\) for a commercially desirable product. This chapter discusses the scientific foundation and the critical issues related to the lyophilization of the high protein concentration drug product. Specifically, the interrelated process of lyophilization, the associated denaturation stresses and, more importantly, its impact on the lyophilized protein formulations are discussed. Additionally, guidelines for successful development of a lyophilized high concentration antibody formulation are presented.
+
+## **2 **Characteristics of High Protein Concentration Lyophilized Drug Product
+
+Increase in protein concentration could have a broad impact on the critical quality attributes \(e.g. physical appearance, cake structure, viscosity, osmolality, reconstitution time\) and lyophilization process of a lyophilized protein drug product \(e.g. primary drying time\). In this section, we will discuss the key characteristics of high protein concentration lyophilized drug products.
+
+### **2.1 **Physical Appearance and Cake Structure
+
+High protein concentration lyophilized drug products often exhibit off-white to pale yellow color that typically arises from the formulated drug substance and intensifies with the increase in protein concentration. After reconstitution, the drug product often appears opalescent. Opalescence of protein formulation typically results from the Rayleigh scattering of protein molecules and is generally considered as an undesirable characteristic for a protein drug product. Opalescence is inconsistent with the general perception of pharmaceutical elegancy and could also be easily confused with turbidity arising from protein aggregation and particulate formation, causing concerns about the quality of the drug product. In addition, it is generally more difficult to develop a placebo product that matches the appearance of an opalescent drug product. Studies have shown that opalescence in high protein concentration formulations is often correlated with the reversible self-association of protein molecules and formation of transient protein network \[9\]. Mitigation of protein reversible self-association via modifying formulation conditions \(e.g. pH and salt concentration\) has been demonstrated to be able to reduce the opalescence in high protein concentration formulations \[10\].
+
+Protein concentration can also have an impact on cake structure. As shown in Fig. 1, the cake of lyophilized protein drug product becomes denser and less porous with the increase in protein concentration \[11\]. Although this characteristic makes it generally easier to obtain robust cake for high protein concentration drug products, it also makes the reconstitution of high protein concentration lyophilized drug products more difficult. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Lyophilization of a monoclonal antibody as a function of loading concentration. Upper left panel: Loading concentration from left to right was 40, 60, 80, 100, and 110 mg/mL, respectively, while maintaining the same total mass of MAb and excipients. Lower left panels: Scanning electron microscopy of lyophilized solid for the 40 and 110 mg/mLMAb loading concentrations \[11\]
+
+
+
+### **2.2 **Prolonged Reconstitution Time
+
+High protein concentration lyophilized drug products often exhibit prolonged reconstitution time, ranging from minutes to several hours \[12, 13\]. As shown in Fig. 2, the reconstitution time is typically positively correlated with protein concentration. Prolonged reconstitution is highly undesirable from a dose preparation and administration perspective and can significantly limit the practical usage of a lyophilized drug product. Prolonged reconstitution can also increase the likelihood of incomplete reconstitution prior to administration, particularly in the case of patient self-administration, which can lead to the presence of undissolved proteinaceous particles in the dosing solution and increase the risk of immunogenic reactions, compromising the safety and efficacy of the lyophilized drug product. 
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Reconstitution time of lyophilized monoclonal antibody formulations for protein concentrations ranging from 40 to 210 mg/m \[14\]
+
+
+
+The prolonged reconstitution of high protein concentration lyophilized drug products can often be attributed to their undesirable cake properties such as poor wettability, low tendency for rehydration, and disintegration, and low porosity \[15–17\]; a recent study indicates that the prolonged reconstitution of high protein concentration lyophilized drug products can also result from the high local viscosity at the cake dissolving surface \[18\]. Kulkarni et al. showed that for amorphous formulations of formulation >50 mg/mL protein, instead of the cake properties, the reconstitution time was primarily correlated with the “concentrated formulation viscosity” \(defined here as the viscosity of the solution obtained by reconstitution with 1/3 volume of the reconstitution fluid\). The reconstitution time, however, was poorly correlated with the viscosity of fully reconstituted solution. The author proposed that the better correlation between “concentrated formulation viscosity” and reconstitution time was observed because the “concentrated formulation viscosity” better reflects the viscosity at the cake dissolving surface that is expected to have a major impact on the erosion rate, wetting, and hydration of the cake core. The authors also suggested that viscosity lowering excipients, such as arginine hydrochloride and sodium chloride can potentially be used to shorten reconstitution time by reducing the “concentrated formulation viscosity” \[18\]. Considering the relationship between viscosity and protein concentration, it is logical to believe that the prolonged reconstitution time of high protein concentration lyophilized drug products can result from the high local viscosity at the dissolving surfaces.
+
+It is also reported that high protein concentration can affect the reconstitution time by affecting the crystallinity of the lyophilized cake \[13, 19\]. When studying a formulation containing a *F*c fusion protein, sucrose, mannitol, and polysorbate 20, Cao et al. revealed that high protein concentration can prolong reconstitution time by inhibiting the crystallization of mannitol and thereby reducing the crystallinity of the lyophilized cake. The authors also showed that, at 100 mg/mL protein concentration, a higher mannitol to sucrose ratio could lead to the formation of cakes with higher degree of crystallinity and shorter reconstitution time \[13\]. Another interesting discovery from this study is that the specific surface area of the cakes remain at around 1 m2/g in the protein concentration range of 30–150 mg/mL, indicating that the specific surface area may not always be a critical factor to the reconstitution time in this case \[13\].
+
+### **2.3 **High Viscosity
+
+The relationship between protein concentration and viscosity has been studied extensively \[10, 20, 21\]. When the protein concentration is relatively low, the viscosity of a protein formulation typically increases moderately as a function of protein concentration. For highly concentrated protein formulation, however, an approximate exponential relationship is often observed between the viscosity and protein concentration. It has been shown that the dramatic increase in viscosity at high protein concentration is often caused by reversible self-association of protein molecules and formation of transient protein network \[10, 21\]. In the case that a lyophilized product is reconstituted to a smaller volume to achieve a higher protein concentration \(a common strategy in the use of lyophilized drug product\), the viscosity of the reconstituted solution can be significantly higher than that of the pre-lyophilization liquid formulation depending on the protein concentration post reconstitution and the protein itself \(i.e. the tendency for reversible self-association and formation of transient protein network\). Since high protein concentration lyophilized drug products are typically targeted for subcutaneous administration, the viscosity of the reconstituted resolution needs to be controlled within the acceptable range of the administration device, which is typically below 20–30 cp for auto-injectors. Viscosity reducers, such as arginine hydrochloride and sodium chloride, can be included in the formulation to mitigate the viscosity post reconstitution.
+
+### **2.4 **Longer Primary Drying Time
+
+The total solute weight of high protein concentration formulations often exceeds 10% of the total weight of the formulation. High solute content can lead to higher resistance \(or lower flux of water vapor through the dry layer\) during primary drying and therefore longer primary drying time which makes the lyophilization process more time-consuming and costly. To avoid cake collapse, primary drying is typically performed at a temperature 2–3 °C below the glass transition temperature of maximally freeze-concentrated solution \(*T*g’\) or the collapse temperature \(*T*c\) \[6\]. As is shown in Fig. 3, *T*g’ and *T*c increase as a function of protein concentration. At lower protein concentration, *T*g’ and *T*c are typically within the range of 1–2 °C and used interchangeably. At higher protein concentration, however, *T*c can be significantly higher than *T*g’ \[23\]. It has been reported that, for high protein concentration amorphous formulations, primary drying conducted at a temperature above *T*g’ but below *T*c could significantly reduce the primary drying time, but still yield pharmaceutically acceptable cakes \[22\]. The same primary drying strategy, however, could cause cake collapse when the protein concentration is relatively low \[22\]. 
+![](images/000003.gif)
+
+
+***Fig. 3*** 
+Glass transition temperature of the maximally freeze-concentrated solution and *T*c as a function of protein concentration. Values for mAb A are denoted by triangles, mAb B by circles, mAb C by squares, and Pro X by diamonds. Closed symbols: *T*g’; open symbols: *T*c \[22\]
+
+
+
+Another reason for conducting primary drying at a product temperature below *T*g’ is to avoid protein unfolding because proteins are thermodynamically unstable at the temperature above *T*g’. Research from the author et al. showed that, even at a product temperature much higher than *T*g’, protein unfolding may still be too slow to occur on the timescale of lyophilization if the formulation is highly viscous \[24\]. High protein concentration formulations are often associated with high viscosity and therefore can be kinetically more resistant to protein unfolding during lyophilization. This characteristic of high protein concentration formulation facilitates the operation of primary drying at a relative high shelf temperature during primary drying in order to reduce the time and cost of the lyophilization process.
+
+### **2.5 **Osmolality
+
+Osmolality is another critical quality attribute that needs to be particularly considered during the development of high protein concentration lyophilized drug products because high protein concentration formulations are typically designed for subcutaneous administration that requires an osmolality of 600 mOsm/kg or less to minimize injection pain. Most proteins are vulnerable to the stresses incurred by the lyophilization process and long-term storage and require the addition of stabilizing excipients to maintain their stability. Since a certain molar ratio of stabilizer to protein is often required to achieve sufficient stabilizing effect \[25\], more stabilizing excipients are often required for high protein concentration formulations, making the formulation hypertonic and undesirable for patient comfort \[26\].
+
+To minimize the osmolality of high protein concentration formulations, it is often necessary to screen the pH and excipients to identify the stabilizing excipients that exhibit sufficient stabilizing effect at a lower molar concentration. Sometimes the formulation scientists may need to make a balance between formulation stability and osmolality when developing a formulation.
+
+## **3 **Stability Considerations for the Development of High Protein Concentration Lyophilized Drug Products
+
+A variety of protein-denaturing stresses can develop during the lyophilization process, including cold denaturation, freeze-concentration, ice–water interface, pH shift, phase separation, and dehydration. These stresses can directly compromise the stability of drug products during the lyophilization process and/or long-term storage. In this section, we will discuss the main stresses that proteins will be exposed to during the lyophilization process.
+
+### **3.1 **Protein Cold Denaturation
+
+Cold denaturation refers to the spontaneous unfolding of proteins under low temperatures \[27–29\]. Compared to thermal denaturation, cold denaturation has been much less studied. In current theory, the free energy of protein unfolding has a parabolic relationship with temperature and there exist two unfolding transition points where the free energy of unfolding equals zero. The transition point that is above the room temperature is commonly referred to as the thermal denaturation point, while the other transition point that is typically below the ice freezing point is called cold denaturation point. The unfolding of proteins becomes energetically favorable when the temperature is above the thermal denaturation point or below the cold denaturation point \[29\]. Unlike the entropy-driven thermal denaturation, cold denaturation is an enthalpy-driven process that is largely caused by the weakening of hydrophobic interaction in proteins as a result of the increased solubility of nonpolar groups in water at decreasing temperatures \[30, 31\]. Cold denaturation could occur in the freezing process of lyophilization that operates at low temperatures \(−20 °C to −50 °C\) and compromise the in-process stability as well as long-term storage stability \[32\].
+
+Using β-lactoglobulin and phosphoglycerate kinase \(PGK\) as model proteins, the author et al. showed that the cold stability of a protein formulation was dependent on pH, protein concentration, and additives, and the presence of stabilizers \(e.g. sugars and/or polyols\) could significantly enhance protein cold stability \[32\]. As shown in Fig. 4, the study also reported the observation of significantly increased cold stability at higher protein concentration, presumably resulting from the macromolecular crowding effect arising from nonspecific steric repulsion between molecules \[32\]. This result indicates that high protein concentration formulations may generally have lower risk in cold denaturation than low protein concentration formulations. 
+![](images/000004.jpeg)
+
+
+***Fig. 4*** 
+The effect of protein concentration on β-lactoglobulin cold denaturation temperature as determined by DSC \[32\]
+
+
+
+In another study, the author et al. investigated the correlation between protein unfolding rate and system viscosity at low temperatures. The results indicated that the freeze-concentration effect and low temperature during the freezing step of lyophilization can lead to a highly viscous system in which the rate of cold denaturation is remarkably reduced so that protein cold denaturation may not occur at a temperature that is well below the cold denaturation temperature \[24\]. This result indicates that high protein concentration formulations can be kinetically more resistant to cold denaturation due to their higher viscosity.
+
+### **3.2 **Freezing Stress
+
+#### ***3.2.1 ***Freeze-Concentration
+
+The exclusion of proteins and other solutes from ice crystals during the freezing process of lyophilization can lead to a drastic increase in the concentrations of all solutes remaining in solution. This phenomenon is commonly referred as freeze-concentration. For example, the concentration of a 150 mM NaCl solution can increase 24-fold to 3.5 M when the solution is frozen to its eutectic temperature of −21 °C \[33\]. Freeze-concentration could also result in a sevenfold increase in protein concentration \[34\] and elevate the concentration of low molecular weight carbohydrates to as high as 80% \[35\]. Any properties that are associated with solute concentrations can be significantly altered by freeze-concentration and such alteration may cause protein destabilization. For example, a drastic increase in ionic strength due to freeze-concentration and corresponding increase in salt concentration could result in protein denaturation and aggregation. Freeze-concentration can also increase the concentrations of impurities, such as reactive oxidative species and proteases in solution. Wisniewski et al. reported that the oxygen concentration in solution could increase 1150-fold due to freeze-concentration \[36\]. Although the rate of chemical reaction typically decreases as temperature drops, a drastic increase in the concentration of impurities as a result of freeze-concentration can still accelerate the degradation of proteins \[37\]. It is also reported that residence time in freeze-concentrate could have a profound impact on protein stability and longer residence time in freeze-concentrate could lead to significant increase in protein aggregation \[36\].
+
+#### ***3.2.2 ***Ice–Water Interface
+
+As ice crystals form during freezing, proteins are exposed to ice–water interface that widely exists in partially frozen state. Direct adsorption of proteins to ice–water interface can induce protein unfolding and aggregation \[38, 39\]. Ice–water interface-induced protein denaturation can also occur without the direct adsorption of proteins to the interface \[40\]. Using molecular dynamics simulation, Arsiccio et al. demonstrated that ice–water interface could enhance the cold denaturation of proteins near the interface by increasing the activity of water molecules near the ice–water interface in hydrating the nonpolar groups of protein and thereby reducing the free-energy barrier for protein unfolding. This study also showed that ice–water interface-mediated enhancement in protein cold denaturation can be mitigated by the presence of cryoprotectants, such as sugars \[40\].
+
+The area of ice–water interface depends on the size and morphology of ice crystals. Larger ice crystals are typically correlated with smaller area of ice–water interface. The freezing rate can have a direct impact on the size and morphology of ice crystals. Larger ice crystals or smaller area of ice–water interface can be obtained at a slower cooling rate \[41\]. The temperature of ice nucleation and thermal history of the formulation post ice nucleation can also affect the size and morphology of ice crystals and therefore the area of ice–water interface. Controlled nucleation at a higher temperature has shown benefit in mitigating the risk of ice–water interface by facilitating the formation of larger ice crystals with smaller area of ice–water interface \[42\].
+
+#### ***3.2.3 ***pH Change
+
+Significant pH change can occur during the freezing process of lyophilization due to the differential crystallization of buffer salts. For example, the dibasic form of sodium phosphate has a higher tendency to crystallize than the mono-basic form during freezing, which can result in the shift of pH to 4.0 or lower \[43\]. Differential crystallization of the dibasic and mono-basic form of potassium phosphate could lead to a final pH of 9 \[43\]. Drastic change in pH due to the differential crystallization of buffer salts during freezing can compromise in-process protein stability and stability of dried products during the long-term storage. Change in pH during freezing is of a particular concern for the proteins that are sensitive to pH and only stable in a relatively narrow pH range. Therefore, for the development of lyophilized drug products, it is generally preferable to choose the buffer species that exhibit minimal pH change during freezing, such as histidine, Tris, and citrate, over those that could lead to a drastic pH change, such as sodium phosphate and potassium phosphate. Crystallization of buffer salts during freezing can be mitigated by optimization of the freezing process and formulation composition. It was reported that rapid freezing and shortening of the duration of annealing can help minimize the crystallization of buffer salts \[43\]. In another study, several excipients, including sucrose, sorbitol, lactose, trehalose, and dextran, could mitigate or prevent the crystallization of the dibasic form of sodium phosphate \[44\].
+
+### **3.3 **Phase Separation
+
+During the freezing process of lyophilization, freeze-concentration and reduced solubility at lower temperature can make it thermodynamically unfavorable for all the solutes in the freeze-concentrates to remain in a single phase. As a result, the formulation matrix may be separated into several distinct phases. Formulation components such as buffer salts, bulking agents, and stabilizing excipients can crystallize during freezing and be separated from the protein-rich phase\(s\). Liquid–liquid phase separation can also occur during freezing, which can lead to the formation of protein-rich phase\(s\) and stabilizer-rich phase\(s\) \[45\] and a large excess of protein-denaturing liquid–liquid interface \[46\]. Drastic change in the solution properties \(such as pH and ionic strength\) and separation of proteins from stabilizers caused by phase separation can potentially compromise the stability of proteins during the lyophilization process and long-term storage.
+
+Considering the remarkable impact of phase separation on the stability of lyophilized drug products, it is critical to detect and control phase separation in both freeze-concentrates and dried states. Detection of the formation of crystalline phases is relatively straightforward. Several techniques, including powder X-ray diffraction, polarized light microscopy, and vibrational spectroscopy, have been applied to the detection of crystalline phases \[47\]. Detection of the formation of amorphous phases, however, is generally more challenging. Differential scanning calorimetry \(DSC\), scanning electron microscopy \(SEM\), and Raman mapping have been used to detect amorphous phase separation in freeze-concentrates and solid state \[47, 48\]. The detection of multiple glass transition temperatures by DSC typically indicates the presence of multiple amorphous phases. DSC is generally not very sensitive to protein-rich phases due to their low heat capacity change \(during glass transition\) and the broad glass transition temperature of proteins. Scanning electron microscopy \(SEM\) relies on the visual identification of features that represent amorphous phase separation. Raman mapping analysis has been reported to detect the separation of amorphous phases in several protein-polymer formulations and protein-disaccharide formulations \[47, 48\].
+
+### **3.4 **Dehydration Stress
+
+Protein molecules in aqueous solution are covered with a hydration shell \(or a monolayer of water molecules\) that weighs approximately 0.35 gram per gram of proteins \[49\]. Water molecules in the hydration shell can form hydrogen bonds with the polar groups on protein surface, and these hydrogen bonds are critical for maintaining the native structure and conformation of proteins \[49, 50\]. During the drying process, a large part of the hydration shell is removed from protein surface, leading to the disruption of stabilizing hydrogen bonding and protein unfolding. Dehydration-induced protein structural and conformational change has been well documented in the literatures \[51–53\]. Such changes are typically irreversible and can compromise both in-process stability and the stability of dried product over long-term storage. It is also reported that removal of the hydration cell can cause the loss of protein surface charge and thereby facilitate protein aggregation \[49\]. If waters are essential for the function of proteins \(e.g. enzymes that relies on water in their active site for catalysis\), dehydration can directly cause the loss of protein function without disturbing protein structure \[54\].
+
+To protect proteins from the dehydration stress during the drying process, stabilizers with functional hydroxyl groups such as disaccharides \(e.g. sucrose and trehalose\) and polyols \(e.g. sorbitol and mannitol\) are often included in the formulation \[51\]. These excipients can substitute for water molecules and form hydrogen bonds with proteins, which are essential for the maintaining of protein structure in the solid state.
+
+## **4 **Stability Strategy to Minimize Protein Degradation During Lyophilization Process and Shelf Life Storage
+
+The protein stability of the lyophilized drug product can be improved with addition of stabilizers, such as sugars \(e.g., sucrose or trehalose\), and amino acids in addition to the pH buffer system with a trace amount of surfactant \[55\].
+
+### **4.1 **Buffer Species, Surfactants, and Viscosity Reducer Selection
+
+To minimize pH shift, it is preferable to choose the organic buffer species that are not susceptible to crystalize during freezing process, such as histidine, citrate, and Tris. In case, phosphate buffer has to be used due to protein stability, a relatively low concentration of the phosphate buffer \(e.g., ≤20 mM\) should be used to minimize the crystallization of the dibasic form of sodium phosphate thus reducing the potential pH shift during freezing \[56\]. The surfactant \(usually at a level of ≥ the critical micelle concentration\) is included in the lyophilized protein formulation to protect protein from interfacial stresses upon ice formation during freezing process and air–liquid interface stress during reconstitution. As a general rule, it is recommended to use the least amount of surfactant that is needed to effectively protect protein molecules from protein–ice crystal interface stress during freezing and the air–liquid interface stress during reconstitution \[57, 58\]. A viscosity reducer such as arginine hydrochloride or sodium hydrochloride can be included in the formulation to manage the viscosity of the high concentration lyophilized protein drug products \[18, 59\]. Sodium chloride tends to partially crystalize out during lyophilization process or shelf life storage which may cause protein degradation \[60\]. Arginine hydrochloride is a preferred choice of viscosity reducing agent since it stays in an amorphous state and stabilizes protein.
+
+### **4.2 **Stabilizers Selection
+
+The stabilizers can serve as cryoprotectants and lyoprotectants to protect protein molecules from freezing and dehydration stresses during lyophilization process. The stabilizers also protect protein from degradation \(predominately aggregation formation for lyophilized protein drug product\) duration the product long-term shelf life storage. Among the commonly used stabilizers, disaccharides such as sucrose \(or trehalose\) have been demonstrated as effective lyoprotectants and cryoprotectants and have been widely used in the lyophilized protein drug products \[55\]. Polysaccharides \(such as dextran and HES\) and other polymers \(such as PVG\) are not recommended for high concentration lyophilized protein formulations since there is potential of phase separation of the stabilizer and protein during the lyophilization process \[61, 62\]. A minimal specific molar ratio of sugar \(such as, sucrose or trehalose\) to protein is required to provide sufficient stabilization effect for protein molecules against aggregation during storage of lyophilized protein formulations. Protein stability was optimized at molar ratios of 360:1 or greater \[25\]. For a high concentration monoclonal antibody formulation \(e.g., 150 mg/mL mAb\), the sucrose or trehalose concentration would be 360 mM or above \(≥12.3% w/v sucrose or trehalose in the reconstituted drug product\) in order to achieve a stabilizer to protein molar ratio of 360:1. In general, the mAb is more stable when higher molar ratio of stabilizer to protein is contained in the formulation. As shown in Fig. 5, the stability of the 150 mg/mL lyophilized mAb \(aggregation formation rate as a function of square root of storage time\) was investigated at different storage conditions \(i.e., 5 °C, 25 °C and 30 °C\) \[8\]. The results showed that protein stability improved with increasing concentrations of sucrose as the stabilizer. The best stability was observed when the 150 mg/mL lyophilized mAb was formulated with 18% \(w/v\) of sucrose which represents the highest stabilizer concentration assessed in this study. The high protein concentration formulation \(e.g., 150 mg/mL mAb\) that contains approximately 9% sucrose \(or trehalose\) is an isotonic formulation and increasing sucrose \(or trehalose\) concentration significantly increases the formulation osmolality and viscosity and the formulation with too high viscosity and osmolality makes it difficult or impossible for manufacture production and subcutaneous administration \[63\]. Considering the contribution of osmolality from the viscosity reducer \(such as arginine hydrochloride\) in the high concentration protein formulation, the concentration of stabilizer would be further limited in order to achieve an isotonic drug product. Therefore, for a high concentration lyophilized mAb formulation intended for subcutaneous administration, there is an obvious limitation to enhance the protein stability just by increasing the concentration of the stabilizers. 
+![](images/000005.jpeg)
+
+
+***Fig. 5*** 
+Stability of 150 mg/mL lyophilized mAb \(aggregation formation rate as a function of square root of storage time\) with different concentrations of sucrose as stabilizer
+
+
+
+### **4.3 **Stability Strategy for a High Concentration Lyophilized Protein Drug Product Stable for Room Temperature Storage
+
+In order to overcome the limitation of protein stability just by increasing the stabilizer concentrations, an alternative strategy is needed to improve the stability of high concentration lyophilized mAb without adversely increasing the product viscosity and osmolality. In general, the lyophilization process is designed to remove the residual water from the drug product to achieve a dry product with low moisture content for long-term storage stability of the drug products. The lyophilized drug product provides a dry matrix that immobilizes the protein molecules and stabilizes the protein molecules from degradation \[63, 64\].
+
+However, the plasticizers may also be included to decrease the local mobility of the protein molecules in the dry amorphous matrix and in some cases may help to preserve the native structure and the stability of proteins. Plasticizers include small molecular weight sugar alcohols like sorbitol and glycerol, and other polyols, or small amounts of moisture \(water molecules\) that is intentionally kept in the lyophilized protein drug products \[65\]. Use of moisture in the lyophilized protein drug product as a stabilizer would not require additional excipients in the formulation and thus no increase to the reconstituted product viscosity or osmolality \[8\]. In Fig. 6, the stability of 150 mg/mL lyophilized mAb formulations at different moisture contents is summarized. The stability of the lyophilized drug product as indicated by aggregation formation rate as a function of square root of storage time showed that the lyophilized DP with the lowest moisture content \(~0% moisture content or undetectable moisture content\) didn’t yield the best stability at any storage conditions ranging from 5 °C to as high as 50 °C. A moisture content of approximately 4% \(3–5%\) is optimal for refrigeration \(5 °C\) and room temperature storage \(25 °C and/or 30 °C\). The optimal moisture content for best protein stability is lower at higher storage temperature \(~2.5% at 50 °C\). The advantage of this stability strategy is that the moisture content in the drug product does not increase formulation viscosity or osmolality. Therefore, an isotonic stable high protein concentration lyophilized product can be developed by optimized moisture content with acceptable product viscosity and osmolality. 
+![](images/000006.jpeg)
+
+
+***Fig. 6*** 
+Stability of 150 mg/mL lyophilized mAb \(aggregation formation rate as a function of square root of storage time\) at different moisture contents. The 0% of moisture content of the product indicated a moisture content undetectable by the moisture content instrument
+
+
+
+The stability of a high concentration mAb lyophilized drug product under optimal moisture content of about 4% was further investigated at different time points for 24 months as shown in Fig. 4. The experiments were conducted using 150 mg/mL mAb isotonic formulation under the storage condition of the controlled room temperature of 25 °C by assaying the main degradation pathways \(i.e., formation of HMW aggregations\) using size exclusion column \(SEC\) chromatograph. In comparing to the formulations with less than 0.5% moisture content \(blue trace\), the formulations with about 4% moisture content \(red trace\) exhibited improved stability under the storage condition at about 25 °C for at least about 24 months. A relatively high content of residual moisture in the lyophilized protein drug product can serve as an effective plasticizer for the amorphous protein-stabilizer matrix in the “solid state,” which stabilizes the protein for at least 24 months while stored at room temperature \(Fig. 7\). 
+![](images/000007.jpeg)
+
+
+***Fig. 7*** 
+Room temperature stable lyophilized high concentration mAb formulation \(150 mg/mL mAb\) with optimal moisture content \(~4% H2O, red trace\) and low moisture content \(<0.5% H2O, blue trace\), an isotonic formulation suitable for IV and SC administration
+
+
+
+### **4.4 **Coformulation of High Concentration Lyophilized Protein Drug Product
+
+There is an increasing interest in industry to combine biologic therapeutic agents where more than one antibody targeting the same or different antigens was mixed in the same drug product especially for the oncology \(such as, Nivolumab \+ ipilimumab coformulation for Melanoma from Bristol-Myers Squibb\) and infectious indications \(e.g., triple-human IgG1 cocktail coformulation for Ebola virus infections from Regeneron\) \[66\]. Coformulation products are technically challenging to develop which require to formulate different protein molecules \(sometimes with very different stability profiles\) in the same formulation. Protein to protein incompatibility \(non-native interactions\) and the formation of heterogeneous aggregates are the major obstacles when developing coformulation of two or more protein therapeutics for long-term storage. In order to mix different protein molecules in the same solution, a compromise formulation may be produced, such that each mixed protein molecule could be relatively less stable compared to their independent formulations especially when the coformulated protein molecules have very different preferences for pH, excipient type, and ionic strength. Therefore, it would be challenging to develop a liquid coformulation with a limited timeframe for early phase clinical development especially when a high concentration protein coformulation is required for subcutaneous \(SC\) administration. In this case, a lyophilized coformulation can be a viable alternative to liquid formulation considering the advantages of stability and fast to clinic for the lyophilized protein drug product. One example of lyophilized protein coformulation is durvalumab \(anti-PD-L1, Imfinzi®\) and tremelimumab \(anti-CTLA-4\). Durvalumab and tremelimumab were formulated into individually stable formulations and mixed at different volume ratios to achieve a series of new liquid and lyophilized coformulations at various protein concentration ratios \[67\]. The lyophilized coformulations showed significant stability advantages over liquid coformulations representing a lower risk for fast to clinic when enough stability data for liquid coformulations \(including the long-term storage stability data\) were not available.
+
+## **5 **Formulation and Process Strategy to Minimize the Reconstitution Time
+
+The lyophilized product is reconstituted into solution prior to administration. The reconstitution time is one of the critical quality attributes of the lyophilized drug products. For a given lyophilized protein drug product, the reconstitution time is dependent on the protein concentration it reconstituted to \(Fig. 8\). Usually, the reconstitution times are longer when the lyophilized drug product is reconstituted to higher protein concentrations \[13\]. 
+![](images/000008.jpeg)
+
+
+***Fig. 8*** 
+The reconstitution times of lyophilized samples with protein concentrations range from 10 mg/mL to 100 mg/mL
+
+
+
+In lyophilized formulations as the protein concentration increased from 70 to 140 mg/ml, there was a progressive increase in reconstitution time from 6 to 16 min, as expected the reconstitution time increases with protein concentration \[13\].
+
+### **5.1 **Increase Cake Wettability and Crystallinity
+
+The reconstitution properties, such as reconstitution time, are believed to correlate with the surface area and morphology of the lyophilized cake. A decreased surface area can contribute to poor rehydration behavior and prolonged reconstitution time \[16\] \(Fig. 9\). 
+![](images/000009.jpeg)
+
+
+***Fig. 9*** 
+The reconstitution times of lyophilized samples \(100 mg/mL protein concentration\) with different diluent agents
+
+
+
+The improved wettability reduced reconstitution time of these partially crystalline cakes. A crystallinity of as low as 8% in the 122 mg/ml formulation improved wettability of the cake solids, resulting in a dramatically shorter reconstitution time \(from 13 min at 0% crystalline to 4 min at 8% crystalline\) \[68\]. Bulking agents such as mannitol or glycine in the lyophilized formulations can be crystallized during lyophilization process. As shown in Table 1, the reconstitution times of the lyophilized drug products were short \(about 1–5 min\) for drug product formulations that showed partial crystallinity by XRPD. However, the reconstitution times were much longer \(about 13–18 min\) when cakes were shown to be amorphous. 
+
+
+***Table 1*** 
+The correlation between protein/sucrose concentration with lyophilized samples crystallinity and reconstitution times
+
+
+
+**Protein conc \(mg/mL\)**
+
+**Sucrose conc \(w/v%\)**
+
+**Mannitol conc \(w/v%\)**
+
+**Crystallinity by XRPD**
+
+**Recon time \(min\)**
+
+0
+
+4.5
+
+2.5
+
+Y
+
+1
+
+30
+
+4.5
+
+2.5
+
+Y
+
+2
+
+60
+
+4.5
+
+2.5
+
+Y
+
+2
+
+80
+
+4.5
+
+2.5
+
+Y
+
+5
+
+100
+
+2.0
+
+4.0
+
+Y
+
+3
+
+100
+
+4.5
+
+2.5
+
+N
+
+13
+
+130
+
+4.5
+
+2.5
+
+N
+
+15
+
+150
+
+4.5
+
+2.5
+
+N
+
+18
+
+
+
+The reconstitution approach with reduced diluent volume was able to achieve a high protein concentration in the reconstituted solution with rapid reconstitution time. Data showed significantly shorter reconstitution time for the 70 mg/mL formulation even with half the diluent volume \(Fig. 10\). Reconstitution with reduced diluent volume achieved a final reconstituted concentration of 140 mg/mL with a fast reconstitution time \(about 4 min\), compared to 12–14 min for the 100 mg/mL formulations. This approach achieved 4–7-fold reduction in reconstitution time when compared to that of 140 mg/mL formulation, which was typically between 15 and 28 min. The procedure of reconstitution under vacuum also has potential to reduce reconstitution time for high concentration formulations \(Fig. 10\). 
+![](images/000010.jpeg)
+
+
+***Fig. 10*** 
+Reconstitution time at different diluent volumes
+
+
+
+### **5.2 **Controlled Nucleation
+
+It has been reported that "controlled ice nucleation" technology improved reconstitution property and it was proposed that the reduction in reconstitution time was attributed to the formation of larger pores in the lyophilized cake \[69\]. The lyophilized drug products that were nucleated at −5 °C showed faster reconstitution time than the drug products with conventional lyophilization process. It is also important to note that the controlled nucleation samples showed much less foaming during rehydration than the samples with the normal freezing process. The lyophilized monoclonal antibody drug product with the controlled nucleation method led to a significant reduction in reconstitution times compared with the product with conventional lyophilization freezing process \(Fig. 11\). 
+![](images/000011.gif)
+
+
+***Fig. 11*** 
+Reconstitution times determined for the different freezing protocols and reconstitution setups for all formulations
+
+
+
+## **6 **Lyophilization Cycle Development for High Protein Concentration Drug Product
+
+Lyophilization cycle development plays an important role for manufacturing the high concentration lyophilized protein drug product for clinical usage and commercialization with required critical quality attributes \[6, 62\]. The critical product quality attributes of the lyophilized drug product include acceptable stability, a non-collapsed \(nor melt-back\) lyophilized dry cake with desired moisture content, and a relatively short reconstitution time for convenience at clinical usage. The lyophilization process is optimized to produce a product with desired quality attributes and a relatively short lyophilization cycle to minimize the manufacturing cost. A typical lyophilization process consists of freezing, primary drying, and secondary drying steps \[62\].
+
+### **6.1 **Freezing
+
+Freezing is the first step of lyophilization process that ensures the product solution is in frozen state and below glass transition temperature \(*T*g’\) for amorphous system or below the eutectic temperature for crystalline system \[6\]. The rate of cooling during the freezing process may affect the degree of super-cooling and the size/type of ice crystals, which has the potential to affect primary and secondary drying rates \[6, 62\]. Normally, it is not practical to manipulate the supercooling by changing the cooling rate in a freeze dryer because the cooling rates are usually limited to less than 2 °C/min, and the degree of supercooling is unlikely to change within such a small range \[68\]. Slow freezing also has the potential to increase the protein damage in systems prone to phase separation \[69\] and prolongs the time the protein exists in a concentrated liquid state with ice–liquid interface where biomolecular degradation reactions are accelerated. Usually a cooling rate of 0.5–1 °C/min yields reasonable supercooling with moderate ice surface area and uniform ice structure both within a given vial and from vial to vial. When crystalline bulking agent \(such as mannitol or glycine\) is used in the formulation to manage the reconstitution time, an annealing step is necessary to allow efficient crystallization of the bulk agent. The annealing temperature should be between the *T*g’ of the amorphous phase and *T*eu of bulking agent to give a high crystallization rate and complete crystallization. Sufficient annealing time is needed for completion of crystallization. Annealing above the glass transition temperature of *T*g’ facilitate growth of ice crystals, which decreases the product resistance to flow of water vapor and results in shorter primary drying time \[70\]. In addition, the controlled ice nucleation technology can be applied to the freezing step to reduce the reconstitution time of the high concentration lyophilized protein drug product \[69\].
+
+### **6.2 **Primary Drying
+
+Primary drying is a process of ice sublimation following freezing step by high vacuum to remove frozen water from the drug formulation. Because primary drying normally consumes the largest fraction of the freeze-drying cycle time, optimization of this portion of the process has significant economic impact \[62\]. An optimized freeze-drying process runs with the product temperature as high as possible which is usually several degrees below product collapse temperature \(*T*c\) in order to obtain a dry product with acceptable appearance. The *T*c is usually several degrees above the *T*g’ in a protein formulation depending on protein and stabilizer concentrations. In a typical protein formulation \(e.g., sucrose or trehalose-based formulation\), the *T*g’ increases with the increase of protein concentrations \[22\]. In addition, the temperature difference between *T*c and *T*g’ is greater when protein concentration increases, and the *T*c can be more than 15 °C higher than the correspondent *T*g’ in a protein formulation of ≥100 mg/mL \[22\]. Therefore, the *T*c is typically high for a high concentration protein formulation which allows the lyophilization process performed at a relative high shelf temperature during primary drying \(e.g., shelf temperature at 0 °C or above\) to minimize the overall duration of the lyophilization process. Care must be taken not to overload the heat and mass transfer capabilities of the freeze dryer when the lyophilization is performed at a high shelf temperature \(e.g., >10 °C\) and fast ice sublimation rate. Since the product temperature in primary drying is relatively high, a moderate chamber pressure \(e.g. 100–150 mTorr\) is recommended for the primary drying for optimal homogeneity of the heat transfer among a set of glass vials \[71\]. However, if a large amount of arginine hydrochloride \(e.g., ≥100 mM\) is included in the formulation to manage the solution viscosity, the negative impact of arginine hydrochloride on the product collapse temperature should be considered and the primary drying conditions need to be adjusted accordingly \[72\].
+
+For a high concentration protein formulation \(with a high content of amorphous stabilizers, such as, sucrose or trehalose\), the lyophilized product would be in amorphous state with a moderate cake shrinkage appearance. The expected moderate cake shrinkage, which is commonly considered as cosmetic appearance characteristic of the amorphous cake, would not adversely impact drug product critical quality attributes including protein stability, moisture content, and reconstitution time. The cake shrinkage can be mitigated by lyophilizing the product at a lower shelf temperature during primary drying and at a slower ramp rate during secondary drying leading to a long lyophilization cycle \[73\]. However, exceeded effort to develop a long lyophilization cycle in order to mitigate the cake shrinkage would not be technically or economically beneficial. In general, the high concentration protein formulation with a high solute content \(e.g., 15–20% or above\) would result in a great cake resistance to ice sublimation during primary leading to a relatively long primary drying time for a given combination of shelf temperature and chamber pressure. Sufficient primary drying time is necessary to ensure completion of ice sublimation and no product melt-back \(or cake collapse\). Therefore, it is important to determine the end point of primary drying and the duration of the primary drying for complete ice sublimation. The end point of primary drying can be detected by several different methods including thermocouple in the product vials, the measured chamber pressure differences between Pirani gauge and capacitance gauge, and manometric temperature measurement \(MTM\). At the end of primary drying, the product temperature increases to the shelf temperature, and the vapor composition in the freeze-drying chamber changes from essentially all water vapor during primary drying to mostly air or nitrogen \[71\]. Thus, the product temperature data can be used as the indication of the end point of primary drying when the product temperature approaches the shelf temperature. Since the thermocouple vials complete ice sublimation earlier than the rest of the vials because of freezing-bias-induced mass transfer effects, a safety margin is usually added to ensure completion of primary drying all the vials. Another commonly used method uses the pressure difference between the Pirani pressure gauge and capacitance pressure gauge which indicates the end of primary drying when the pressure difference decreases and approaches zero \[74\]. The MTM method \[70\] is another very sensitive method to indicate the end point of primary drying. The vapor pressure of ice determined by a fit of pressure rise data to the MTM equations approaches the chamber pressure when no ice remains which can be used to determine the end point of primary drying \[61\].
+
+### **6.3 **Secondary Drying
+
+The last stage of lyophilization is the secondary drying. In this stage, the absorbed water in the lyophilized cake is removed by desorption from the solute phase. The objective of secondary drying is to reduce the residual moisture content to a level optimal for stability.
+
+The shelf temperature should be increased slowly for secondary drying to ensure cake integrity since a fast temperature ramp might cause collapse of amorphous products with fairly high residual moisture content early in secondary drying and, thus, low glass transition temperature. A moderate ramp rate of 0.2–0.3 °C/min is generally a safe and appropriate procedure considering the fairly high glass transition temperature for high concentration protein formulations.
+
+The shelf temperature in secondary drying is typically higher than that used for primary drying to facilitate desorption of water from the amorphous matrix with the same primary drying chamber pressure \[62\]. At higher solute concentration including the high concentration protein and the stabilizers in the formulation \(i.e., >15% solids in solution\), the dry product has smaller specific area, and it is more difficult to remove the absorbed water in the product. To achieve the desired moisture content in the lyophilized drug product, a longer secondary drying time \(e.g., ≥6 h\) at a relatively higher shelf temperature \(e.g., ≥35 °C\) may be needed to complete the secondary drying \[61\].
+
+### **6.4 **Lyophilization Cycle Scale-Up Considerations
+
+A lyophilization process developed using a laboratory scale lyophilizer needs to be scaled up to manufacture scale lyophilizers for drug production. Performance of laboratory and production lyophilizers should be comparable in terms of shelf temperature control and shelf cooling and heating rate, chamber vacuum control, and shelf temperature uniformity within shelf and between shelves. In addition, the limitation of the manufacture lyophilizer condenser capacity and the ice capture rate also need to be considered to ensure no overloading during primary drying. When a lyophilized drug product is developed for early phase clinical trials, the lyophilization cycle can be relatively conservative with greater safety margin to ensure success scale-up to manufacture lyophilizer considering the fast path to clinic and the limited manufacture productions. A conservative lyophilization cycle has the advantage for drug product manufacturing at different sites, therefore, with different manufacture production units. However, an optimized robust lyophilization process is required for late phase or commercial productions, and the process scalability as well as the differences between the laboratory scale and product scale units must be considered. The most important lyophilization scalability factors are the differences in heat transfer between laboratory and commercial lyophilizers, differences in dry cake resistance to ice sublimation during primary drying between laboratory, and manufacture lyophilized products and variability in process parameter control. The atypical radiation and edge effect are known to be more pronounced in the laboratory lyophilizers since the commercial units are usually better insulated and installed in controlled environment \[75\]. The primary drying conditions \(e.g., shelf temperature set point and the primary drying time\) should be adjusted based on the vial heat transfer coefficients differences between the laboratory and production scale lyophilizers \[76\]. In addition, the clean GMP operational working environment \(i.e., with low particulates\) tends to induce higher degree of supper-cooling during the freezing stage of lyophilization process especially for the high protein concentration and high viscosity drug solutions and lead to formation of small ice crystals and large dry cake resistance to ice sublimation during primary drying which needs to be accounted for during lyophilization process scale-up. In this case, an extension of primary drying time is required to ensure completion of ice sublimation before the process advances to the secondary drying step.
+
+## **7 **Summary
+
+In addition to the typical advantages of lyophilized drug products including better stability \(particularly for ADC and other stability sensitive molecules\), ease of storage and shipping, and shorter development time \(suitable for early stage clinical trials\), the fast growing demand for low-volume high-dose subcutaneous delivery of protein therapeutics has greatly raised the interest in the development of high protein concentration lyophilized drug products. Increase in protein concentration can have a variety of direct or indirect impacts on the critical quality attributes \(e.g. stability, viscosity, cake structure, reconstitution time\) and lyophilization process \(e.g. primary drying time\) of a lyophilized drug product, and therefore the ability to manufacture, store, and administer the drug product. A desirable lyophilized high concentration protein drug product will have one or more of the following product quality attributes: 
+
++ 
+Suitable viscosity and osmolality for intravenous and subcutaneous administration
+
++  
+Short reconstitution time for clinical use
+
++  
+Convenience for at-home administration by patient with devices such as dual chamber syringe system \(with front chamber for dry powder and back chamber for reconstitution solution\)
+
++  
+Stable for long-term storage and distribution at 2–8 °C or
+
++  
+Ideally stable for room temperature storage and distribution
+
+
+
+
+Successful development of a pharmaceutically and economically suitable high protein concentration lyophilized drug product requires a solid understanding of the impacts of high protein concentration on the critical quality attributes and lyophilization process, as well as the implementation of an integrated approach for formulation and process development. In this chapter, we have discussed the scientific basis and unique challenges associated with the development of high protein concentration lyophilized drug products. Practical guidance for the successful development of high protein concentration lyophilized drug products was also provided.
+
+
+**References**
+
+1.  
+1.
+
+Ecker DM, Jones SD, Levine HL. The therapeutic monoclonal antibody market. Taylor & Francis; 2015.
+
+2.  
+2.
+
+Antibody S. Antibody therapeutics approved or in regulatory review in the EU or US; 2020.
+
+3.  
+3.
+
+Lu R-M, Hwang Y-C, Liu IJ, Lee C-C, Tsai H-Z, Li H-J, et al. Development of therapeutic antibodies for the treatment of diseases. J Biomed Sci. 2020;27\(1\):1.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31894001)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939334)
+
+4.  
+4.
+
+Mathaes R, Koulov A, Joerg S, Mahler H-C. Subcutaneous injection volume of biopharmaceuticals—pushing the boundaries. J Pharm Sci. 2016;105\(8\):2255–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27378678)
+
+5.  
+5.
+
+Wang X, Hunter AK, Mozier NM. Host cell proteins in biologics development: identification, quantitation and risk assessment. Biotechnol Bioeng. 2009;103\(3\):446–58.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19388135)
+
+6.  
+6.
+
+Pikal MJ. Freeze-drying of proteins. Part I: process design. BioPharm. 1990;3\(8\):18–27.
+
+7.  
+7.
+
+Remmele RL, Krishnan S, Callahan WJ. Development of stable lyophilized protein drug products. Curr Pharm Biotechnol. 2012;13\(3\):471–96.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22283723)
+
+8.  
+8.
+
+Tang XC, Ludwig DB. Room temperature stable lyophilized protein. US Patent No: 11,241,498 B2; Feb. 8, 2022.
+
+9.  
+9.
+
+Sukumar M, Doyle BL, Combs JL, Pekar AH. Opalescent appearance of an IgG1 antibody at high concentrations and its relationship to noncovalent association. Pharm Res. 2004;21\(7\):1087–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15290846)
+
+10.  
+10.
+
+Salinas BA, Sathish HA, Bishop SM, Harn N, Carpenter JF, Randolph TW. Understanding and modulating opalescence and viscosity in a monoclonal antibody formulation. J Pharm Sci. 2010;99\(1\):82–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19475558)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927449)
+
+11.  
+11.
+
+Shire SJ, Shahrokh Z, Liu JUN. Challenges in the development of high protein concentration formulations. J Pharm Sci. 2004;93\(6\):1390–402.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15124199)
+
+12.  
+12.
+
+Bhambhani A, Blue JT. Lyophilization strategies for development of a high-concentration monoclonal antibody formulation: benefits and pitfalls. Am Pharm Rev. 2010;13\(1\):31–8.
+
+13.  
+13.
+
+Cao W, Krishnan S, Ricci MS, Shih L-Y, Liu D, Gu JH, et al. Rational design of lyophilized high concentration protein formulations-mitigating the challenge of slow reconstitution with multidisciplinary strategies. Eur J Pharm Biopharm. 2013;85\(2\):287–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23702275)
+
+14.  
+14.
+
+Garidel P, Presser I. Lyophilization of high-concentration protein formulations. In: Lyophilization of pharmaceuticals and biologicals. Springer; 2019. p. 291–325.
+
+15.  
+15.
+
+Sane P, Bogner RH, Bhatnagar B, Tchessalov S. Reconstitution of highly concentrated lyophilized proteins: part 1 amorphous formulations. J Pharm Sci. 2020;109\(5\):1681–91.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32070705)
+
+16.  
+16.
+
+Kulkarni SS, Suryanarayanan R, Rinella JV Jr, Bogner RH. Mechanisms by which crystalline mannitol improves the reconstitution time of high concentration lyophilized protein formulations. Eur J Pharm Biopharm. 2018;131:70–81.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30056143)
+
+17.  
+17.
+
+Beech KE, Biddlecombe JG, Van Der Walle CF, Stevens LA, Rigby SP, Burley JC, et al. Insights into the influence of the cooling profile on the reconstitution times of amorphous lyophilized protein formulations. Eur J Pharm Biopharm. 2015;96:247–54.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26253503)
+
+18.  
+18.
+
+Kulkarni SS, Patel SM, Bogner RH. Reconstitution time for highly concentrated lyophilized proteins: role of formulation and protein. J Pharm Sci. 2020;109\(10\):2975–85.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32534031)
+
+19.  
+19.
+
+Liao X, Krishnamurthy R, Suryanarayanan R. Influence of the active pharmaceutical ingredient concentration on the physical state of mannitol—implications in freeze-drying. Pharm Res. 2005;22\(11\):1978–85.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16132343)
+
+20.  
+20.
+
+Neergaard MS, Kalonia DS, Parshad H, Nielsen AD, Møller EH, van de Weert M. Viscosity of high concentration protein formulations of monoclonal antibodies of the IgG1 and IgG4 subclass–prediction of viscosity through protein–protein interaction measurements. Eur J Pharm Sci. 2013;49\(3\):400–10.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23624326)
+
+21.  
+21.
+
+Yearley EJ, Godfrin PD, Perevozchikova T, Zhang H, Falus P, Porcar L, et al. Observation of small cluster formation in concentrated monoclonal antibody solutions and its implications to solution viscosity. Biophys J. 2014;106\(8\):1763–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24739175)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4008822)
+
+22.  
+22.
+
+Depaz RA, Pansare S, Patel SM. Freeze-drying above the glass transition temperature in amorphous protein formulations while maintaining product quality and improving process efficiency. J Pharm Sci. 2016;105\(1\):40–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26580140)
+
+23.  
+23.
+
+Pikal MJ, Shah S. The collapse temperature in freeze drying: dependence on measurement methodology and rate of water removal from the glassy phase. Int J Pharm. 1990;62\(2–3\):165–86.
+
+24.  
+24.
+
+Tang XC, Pikal MJ. Measurement of the kinetics of protein unfolding in viscous systems and implications for protein stability in freeze-drying. Pharm Res. 2005;22\(7\):1176–85.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16028019)
+
+25.  
+25.
+
+Cleland JL, Lam X, Kendrick B, Yang J, Yang T, Overcashier D, et al. A specific molar ratio of stabilizer to protein is required for storage stability of a lyophilized monoclonal antibody. J Pharm Sci. 2001;90\(3\):310–21.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11170024)
+
+26.  
+26.
+
+Weinbuch D, Hawe A, Jiskoot W, Friess W. Introduction into formulation development of biologics. In: Challenges in protein product development. Springer; 2018. p. 3–22.
+
+27.  
+27.
+
+Franks F, Hatley RHM, Friedman HL. The thermodynamics of protein stability: cold destabilization as a general phenomenon. Biophys Chem. 1988;31\(3\):307–15.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3233305)
+
+28.  
+28.
+
+Marqués MI, Borreguero JM, Stanley HE, Dokholyan NV. Possible mechanism for cold denaturation of proteins at high pressure. Phys Rev Lett. 2003;91\(13\):138103.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14525339)
+
+29.  
+29.
+
+Privalov PL. Cold denaturation of protein. Crit Rev Biochem Mol Biol. 1990;25\(4\):281–306.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2225910)
+
+30.  
+30.
+
+Dill KA, Alonso DOV, Hutchinson K. Thermal stabilities of globular proteins. Biochemistry. 1989;28\(13\):5439–49.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2775715)
+
+31.  
+31.
+
+Shortle D. The denatured state \(the other half of the folding equation\) and its role in protein stability. FASEB J. 1996;10\(1\):27–34.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8566543)
+
+32.  
+32.
+
+Tang XC, Pikal MJ. The effect of stabilizers and denaturants on the cold denaturation temperatures of proteins and implications for freeze-drying. Pharm Res. 2005;22\(7\):1167–75.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16028018)
+
+33.  
+33.
+
+Franks F. Freeze-drying: from empiricism to predictability. The significance of glass transitions. Dev Biol Stand. 1992;74:9–18.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592188)
+
+34.  
+34.
+
+Dong J, Hubel A, Bischof JC, Aksan A. Freezing-induced phase separation and spatial microheterogeneity in protein solutions. J Phys Chem B. 2009;113\(30\):10081–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19580250)
+
+35.  
+35.
+
+Roos Y. Melting and glass transitions of low molecular weight carbohydrates. Carbohydr Res. 1993;238:39–48.
+
+36.  
+36.
+
+Fang R, Bogner RH, Nail SL, Pikal MJ. Stability of freeze-dried protein formulations: contributions of ice nucleation temperature and residence time in the freeze-concentrate. J Pharm Sci. 2020;109\(6\):1896–904.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32112825)
+
+37.  
+37.
+
+Pikal MJ. Mechanisms of protein stabilization during freeze-drying and storage: the relative importance of thermodynamic stabilization and glassy state relaxation dynamics. In: Freeze-drying/lyophilization of pharmaceutical and biological products, vol. 213. CRC Press; 2004. p. 210–44.
+
+38.  
+38.
+
+Strambini GB, Gabellieri E. Proteins in frozen solutions: evidence of ice-induced partial unfolding. Biophys J. 1996;70\(2\):971–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8789114)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1224997)
+
+39.  
+39.
+
+Chang BS, Kendrick BS, Carpenter JF. Surface-induced denaturation of proteins during freezing and its inhibition by surfactants. J Pharm Sci. 1996;85\(12\):1325–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8961147)
+
+40.  
+40.
+
+Arsiccio A, McCarty J, Pisano R, Shea J-E. Heightened cold-denaturation of proteins at the ice–water interface. J Am Chem Soc. 2020;142\(12\):5722–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32122128)
+
+41.  
+41.
+
+Hottot A, Vessot S, Andrieu J. Freeze drying of pharmaceuticals in vials: influence of freezing protocol and sample configuration on ice morphology and freeze-dried cake texture. Chem Eng Process Process Intensif. 2007;46\(7\):666–74.
+
+42.  
+42.
+
+Nakagawa K, Hottot A, Vessot S, Andrieu J. Influence of controlled nucleation by ultrasounds on ice morphology of frozen formulations for pharmaceutical proteins freeze-drying. Chem Eng Process Process Intensif. 2006;45\(9\):783–91.
+
+43.  
+43.
+
+Carpenter JF, Chang BS, Garzon-Rodriguez W, Randolph TW. Rational design of stable lyophilized protein formulations: theory and practice. Pharm Biotechnol. 2002:109–33.
+
+44.  
+44.
+
+Chang BS, Randall CS. Use of subambient thermal analysis to optimize protein lyophilization. Cryobiology. 1992;29\(5\):632–56.
+
+45.  
+45.
+
+Heller MC, Carpenter JF, Randolph TW. Application of a thermodynamic model to the prediction of phase separations in freeze-concentrated formulations for protein lyophilization. Arch Biochem Biophys. 1999;363\(2\):191–201.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10068440)
+
+46.  
+46.
+
+Heller MC, Carpenter JF, Randolph TW. Manipulation of lyophilization-induced phase separation: implications for pharmaceutical proteins. Biotechnol Prog. 1997;13\(5\):590–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9336978)
+
+47.  
+47.
+
+Forney-Stevens KM, Pelletier MJ, Shalaev EY, Pikal MJ, Bogner RH. Optimization of a Raman microscopy technique to efficiently detect amorphous–amorphous phase separation in freeze-dried protein formulations. J Pharm Sci. 2014;103\(9\):2749–58.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25275170)
+
+48.  
+48.
+
+Padilla AM, Ivanisevic I, Yang Y, Engers D, Bogner RH, Pikal MJ. The study of phase separation in amorphous freeze-dried systems. Part I: Raman mapping and computational analysis of XRPD data in model polymer systems. J Pharm Sci. 2011;100\(1\):206–22.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20602453)
+
+49.  
+49.
+
+Rupley JA, Careri G. Protein hydration and function. Adv Protein Chem. 1991;41:37–172.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2069077)
+
+50.  
+50.
+
+Kuhlman B, Yang HY, Boice JA, Fairman R, Raleigh DP. An exceptionally stable helix from the ribosomal protein L9: implications for protein folding and stability. Elsevier; 1997.
+
+51.  
+51.
+
+Prestrelski SJ, Tedeschi N, Arakawa T, Carpenter JF. Dehydration-induced conformational transitions in proteins and their inhibition by stabilizers. Biophys J. 1993;65\(2\):661–71.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7693001)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1225768)
+
+52.  
+52.
+
+Liao Y-H, Brown MB, Quader A, Martin GP. Protective mechanism of stabilizing excipients against dehydration in the freeze-drying of proteins. Pharm Res. 2002;19\(12\):1854–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12523665)
+
+53.  
+53.
+
+Hédoux A, Paccou L, Achir S, Guinet Y. In situ monitoring of proteins during lyophilization using micro-Raman spectroscopy: a description of structural changes induced by dehydration. J Pharm Sci. 2012;101\(7\):2316–26.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22539408)
+
+54.  
+54.
+
+Nagendra HG, Sukumar N, Vijayan M. Role of water in plasticity, stability, and action of proteins: the crystal structures of lysozyme at very low levels of hydration. Proteins: Struct Funct Bioinforma. 1998;32\(2\):229–40.
+
+55.  
+55.
+
+Pikal MJ. Freeze-drying of proteins. Part II: Formulation selection. BioPharm. 1990;3\(9\):26–30.
+
+56.  
+56.
+
+Van den Berg L, Rose D. Effect of freezing on the pH and composition of sodium and potassium phosphate solutions: the reciprocal system KH2PO4-Na2HPO4-H2O. Arch Biochem Biophys. 1959;81\(2\):319–29.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=13637993)
+
+57.  
+57.
+
+Kerwin BA. Polysorbates 20 and 80 used in the formulation of protein biotherapeutics: structure and degradation pathways. J Pharm Sci. 2008;97\(8\):2924–35.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17973307)
+
+58.  
+58.
+
+Zhang MZ, Pikal K, Nguyen T, Arakawa T, Prestrelski SJ. The effect of the reconstitution medium on aggregation of lyophilized recombinant interleukin-2 and ribonuclease A. Pharm Res. 1996;13\(4\):643–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8710761)
+
+59.  
+59.
+
+Liu J, Nguyen MDH, Andya JD, Shire SJ. Reversible self-association increases the viscosity of a concentrated monoclonal antibody in aqueous solution. J Pharm Sci. 2005;94\(9\):1928–40.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16052543)
+
+60.  
+60.
+
+Dixon D, Tchessalov S, Barry A, Warne N. The impact of protein concentration on mannitol and sodium chloride crystallinity and polymorphism upon lyophilization. J Pharm Sci. 2009;98\(9\):3419–29.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18781637)
+
+61.  
+61.
+
+Tang XC, Nail SL, Pikal MJ. Freeze-drying process design by manometric temperature measurement: design of a smart freeze-dryer. Pharm Res. 2005;22\(4\):685–700.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15889467)
+
+62.  
+62.
+
+Tang XC, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15032301)
+
+63.  
+63.
+
+Perez-Ramirez B, Geiger C, Mezhebovsky T, Bussemer T. Approaches in subcutaneous delivery of monoclonal antibodies. Eur Pharm Rev. 2016;4
+
+64.  
+64.
+
+Shamblin SL, Tang X, Chang L, Hancock BC, Pikal MJ. Characterization of the time scales of molecular motion in pharmaceutically important glasses. J Phys Chem B. 1999;103\(20\):4113–21.
+
+65.  
+65.
+
+Chang LL, Shepherd D, Sun J, Tang XC, Pikal MJ. Effect of sorbitol and residual moisture on the stability of lyophilized antibodies: implications for the mechanism of protein stabilization in the solid state. J Pharm Sci. 2005;94\(7\):1445–55.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15920766)
+
+66.  
+66.
+
+Chauhan VM, Zhang H, Dalby PA, Aylott JW. Advancements in the co-formulation of biologic therapeutics. J Control Release. 2020;327:397–405.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32798639)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7426274)
+
+67.  
+67.
+
+Du J, Shah A. Compositions comprising coformulation of anti-PD-L1 and anti-CTLA-4 antibodies. Google Patents; 2019.
+
+68.  
+68.
+
+Adamson AW. Contact angle physical chemistry of surfaces; 1990. p. 385–8.
+
+69.  
+69.
+
+Geidobler R, Konrad I, Winter G. Can controlled ice nucleation improve freeze-drying of highly-concentrated protein formulations? J Pharm Sci. 2013;102\(11\):3915–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23963664)
+
+70.  
+70.
+
+Tang X, Nail SL, Pikal MJ. Evaluation of manometric temperature measurement, a process analytical technology tool for freeze-drying: part I, product temperature measurement. AAPS PharmSciTech. 2006;7\(1\):E95–E103.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28290029)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750721)
+
+71.  
+71.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+72.  
+72.
+
+Stärtzel P, Gieseler H, Gieseler M, Abdul-Fattah AM, Adler M, Mahler H-C, et al. Freeze drying of l-arginine/sucrose-based protein formulations, part I: influence of formulation and arginine counter ion on the critical formulation temperature, product performance and protein stability. J Pharm Sci. 2015;104\(7\):2345–58.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25994980)
+
+73.  
+73.
+
+Rambhatla S, Obert JP, Luthra S, Bhugra C, Pikal MJ. Cake shrinkage during freeze drying: a combined experimental and theoretical study. Pharm Dev Technol. 2005;10\(1\):33–40.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15776811)
+
+74.  
+74.
+
+Roy ML, Pikal MJ. Process control in freeze drying: determination of the end point of sublimation drying by an electronic moisture sensor. PDA J Pharm Sci Technol. 1989;43\(2\):60–6.
+
+75.  
+75.
+
+Rambhatla S, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying, I: atypical radiation and the edge vial effect. AAPS PharmSciTech. 2003;4\(2\):22–31.[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750592)
+
+76.  
+76.
+
+Pikal MJ. Use of laboratory data in freeze drying process design: heat and mass transfer coefficients and the computer simulation of freeze drying. PDA J Pharm Sci Technol. 1985;39\(3\):115–39.
+
+
+

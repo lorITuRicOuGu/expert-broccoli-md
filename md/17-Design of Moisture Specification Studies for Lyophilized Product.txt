@@ -1,0 +1,568 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_17](https://doi.org/10.1007/978-3-031-12634-5_17)
+
+
+**
+# Design of Moisture Specification Studies for Lyophilized Product
+**
+
+
+Feroz Jameel1 
+
+
+\(1\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+
+
+
+**1 **Introduction
+
+**2 **Stopper Moisture Studies
+
+**2.1 **Stoppers Equilibrium Moisture Studies
+
+**2.2 **Sterilization and Drying Studies
+
+**3 **Lyophilized Product Moisture Studies
+
+**3.1 **Moisture Equilibration
+
+**3.2 **Sample Preparation
+
+**3.3 **Moisture Analysis by Karl Fischer
+
+**4 **Specifications
+
+References
+
+
+## Abstract
+
+Residual moisture is a common reactant that promotes degradation reactions leading to insufficient storage stability or shelf-life of a lyophilized product. Additionally, the mechanism by which the drug molecules are stabilized in the lyophilized state is attributed to the formation of highly viscous amorphous glassy states with low molecular mobilities and low reactivities. The glassy/amorphous state is characterized by glass transition temperature, and *T*g and *T*g values are impacted by water which acts as a plasticizer. Hence, it is important that systematic studies be performed to determine the acceptable levels of residual moisture in the product by exposing the lyophilized product to various levels of moisture content, time, and temperature. Since water also ingresses into the product from stoppers over the period of time, residual water in the stoppers after processing should also be determined. This chapter describes various methods that are commonly used to determine the residual moisture in the stoppers and lyophilized cake, and how to set moisture specifications is illustrated with an example.
+
+
+**Keywords**
+Moisture specifications Stoppers Residual moisture Lyophilized product Moisture sorption isotherm Relative humidity
+
+
+## **1 **Introduction
+
+Moisture labile molecules are often dried to enhance the storage stability. Freeze-drying has been the most attractive choice among the drying technologies as it allows better control of moisture and headspace oxygen. Residual moisture and headspace oxygen are the common reactants that promote the degradation reactions leading to insufficient storage stability or shelf-life \[1–3\].
+
+The mechanism by which the drug molecules are stabilized in the lyophilized state is attributed to the formation of highly viscous amorphous glassy states with low molecular mobilities and low reactivities. The glassy/amorphous state is characterized by the glass transition temperature, *T*g, and exposure of the lyophilized product to a temperature greater than its glass transition temperature \(*T*g\) will transform the viscous glass into a less viscous “rubbery” state with increased heat capacity, molecular mobility, and thus, decreased stability \[4–6\]. Exposure of the lyophilized product above *T*g will also carry the risk of devitrification, i.e., crystallization of some crystallizable excipients further compromising the stability of the product. Thermal characterization of the lyophile and determination of the *T*g value is important in the design of the accelerated stability studies as the accelerated stability data generated at temperatures above the *T*g value will not be predictive of behavior at lower storage temperatures and cannot be used to estimate shelf life \[7–11\]. It is recommended to perform accelerated stability studies at temperatures at least 10 °C below the *T*g value. Chang et al. reported higher rates of deamidation and aggregation in IL-2 when stored above its *T*g value \[12\]. Strickley et al. reported increased aggregation rates in insulin with the increased storage temperature approaching to exceed the *T*g value, but deamidation occurred even in the glassy state \[1, 3\], while other research groups have reported no large effect of *T*g on stability monitored by enzyme activity \[14\].
+
+Residual moisture in the lyophile influences the *T*g as water acts as a plasticizer and overdrying is also detrimental to stability \[15\]. Moisture studies performed with an antibody-vinca conjugate also exhibited increasing rates of aggregation and conjugate decomposition with increasing moisture due to plasticization and depression of *T*g value \[16\].
+
+In addition to “vitrification hypothesis,” the stability of protein molecules in the lyophilized state is described by “water substitution” hypothesis where lyoprotectants \(stabilizers\) such as sugars are believed to hydrogen bond with the protein in the same manner as water, conserving native structure by replacing water lost on drying and stabilizing the product during lyophilization and storage \[17–20\].
+
+The amount of water that needs to be removed in order to enhance product storage stability varies from molecule to molecule. Hence, for every lyophilized product, the effect of residual moisture content in the cake on the product quality attributes need to be evaluated through a systematic moisture study. The outcome of this study would inform the design of moisture specifications for the product. There are two ways the final lyophilized moisture studies can be performed which are briefly described.
+
+It is not uncommon to receive complaints from the customers, especially form tropical countries, that the vials are empty, no freeze-dried cake but only a residue. This situation is widely seen with product having low solid content and low fill volumes. Upon testing of these vials, it is often found that there exists 100% activity but just no cake. The cause for this situation is due to ingress of moisture from the stoppers over the period of storage time into low solid content cake at accelerated temperature conditions due to unoptimized heating and drying cycle or change in the stoppers without optimization of heating and drying cycle. Since water is a plasticizer and depresses the Tg of the dry powder resulting into collapse of the cake back into liquid. It is known through moisture transfer studies that show rapid uptake of moisture from the stopper to the lyophilized product \[21–24\].
+
+Hence, in addition to the composition of the formulation of lyophilized product and the product fill mass, stopper moisture control is a critical factor in assessing the overall risk of moisture content on product stability particularly in dealing with the hygroscopic products, in low-fill, low solid content dosage presentations. Attention needs to be paid in the selection of the right size of the stoppers and evaluating them for the influence of the processing and storage on the residual moisture content and setting up the specifications prior to setting up the residual moisture content specifications for the whole product. Several systematic studies of his type have been cited in the literature \[21–30\] where two-step approach is adopted.
+
+## **2 **Stopper Moisture Studies
+
+The first step involves the selection of the stoppers with right formulation composition as the formulation ingredients influences the two critical properties of the stoppers the moisture absorption and the moisture vapor transmission rate \(MVTR\) \[23–26, 28, 29\]. The ideal stopper should have a formulation that provides both low MVT and water absorption. Tables 1 and 2 below show a correlation between drying time and stopper moisture loss, as well as variations in the amount of water loss with variation in the stopper rubber formulation. Thus, both the MVT and moisture absorption are function of formulation and they are not parallel. 
+
+
+***Table 1*** 
+Effect of drying on residual moisture
+
+
+
+**Formulation**
+
+**Unprocessed**
+
+**After autoclave**
+
+**After drying**
+
+Butyl A
+
+0.03%
+
+0.14
+
+<0.01%
+
+Butyl B
+
+0.35
+
+1.22
+
+0.12
+
+Butyl C
+
+0.26
+
+0.94
+
+0.17
+
+Butyl D
+
+0.4
+
+0.92
+
+0.14
+
+Butyl F
+
+0.27
+
+0.67
+
+0.15
+
+Butyl G
+
+0.22
+
+0.48
+
+0.1
+
+
+
+
+***Table 2*** 
+MVT vs. moisture absorption
+
+
+
+**Formulation**
+
+**MVT: g/m2/day**
+
+**% wt gain**
+
+EPDM 1
+
+2.15
+
+0.48
+
+Butyl D
+
+0.65
+
+0.87
+
+Butyl E
+
+0.5
+
+1.95
+
+Butyl 2
+
+0.4
+
+1.39
+
+Butyl A
+
+0.35
+
+0.27
+
+Butyl C
+
+0.1
+
+1.31
+
+
+
+Once the rubber formulation is identified, the stopper processing steps \(steam sterilization, heating, and drying\) need to be optimized to achieve the target moisture level.
+
+### **2.1 ****Stoppers** Equilibrium **Moisture** Studies
+
+Stoppers are typically sterilized at 123 °C for 1 h and then subjected to drying cycle typically 8–12 h, and a 0-h dry cycle \(“wet”\) is used as a control. The stoppers are then exposed to various relative humidities using salt solutions that provide relative humidity conditions of approximately 15%, 40%, 55%, and 75%. The stoppers are placed in vacuum tight desiccators containing salt solution and stored at room temperature \(25 °C\) for 6 months; however, an equilibrium between sorption and desorption occurs typically at 3 months. Samples are pulled at appropriate time points and analyzed for residual moisture content using Karl Fisher. A moisture isotherm is created similar to shown in the previous section \(Fig. 1\) and an estimation of equilibrium moisture content of stoppers at a standard storage condition \(25 °C, 60% RH\) can be extrapolated using the linear regression of moisture isotherms. This study helps in two ways: firstly in the design of the drying times following steam sterilization and secondly in storage conditions prior to use. 
+![](images/000000.gif)
+
+
+***Fig. 1*** 
+Effect of drying time on the residual moisture content of the stopper \(13 mm Daikyo\)
+
+
+
+### **2.2 **Sterilization and Drying Studies
+
+Stoppers are placed in the sterilization bags and steam sterilization is carried out typically for 45–60 min at 123 °C. The drying cycle includes vacuum pulses \(5\), pre- and post-vacuum depth \(0.200 bar\), exposure temperature, and the drying times. The drying parameters influence the final moisture content of stoppers and are therefore critical parameters in assuring drug product stability and are dependent on several factors, including fill mass of the final product, moisture specifications of the drug product, as well as type of elastomer used.
+
+The effect of drying time on stopper moisture is examined following the 60-min exposure period by drying stoppers for 0, 2, 4, 8 and 12 h in the autoclave with chamber temperature maintained at approximately 121.6 °C and vacuum of 0.200 bar. Samples are pulled at random and a composite of three samples per assay is used to determine the residual moisture and plotted as illustrated in Fig. 1.
+
+The above data indicates that drying for 2 h under vacuum following steam sterilization could bring down the occluded moisture levels in the lyophilization stoppers approximately to 0.62 mg of water per stopper. If the given average weight of 690 mg for an individual 13 mm Daikyo lyophilization stopper this would be equivalent to approximately 0.08% \(w/w\) occluded moisture per stopper.
+
+## **3 **Lyophilized Product Moisture Studies
+
+
+**Method 1**
+
+
+
++ 
+*Moisture Sorption Isotherms*
+
+
+
+
+Initially moisture sorption isotherm for the formulation/product is created which is illustrated in Fig. 2. Moisture sorption isotherms relate water activity \(αw\) to the corresponding lyophilized material and are unique for each material and temperature. They are usually obtained gravimetrically using a sorption microbalance. To obtain moisture absorption isotherms, an initially dry sample is placed in environments of increasing relative humidity \(RH\), typically up to 70% RH. For each water activity level, the weight of the sample is measured continuously until equilibrium is observed. In theory equilibrium is established when the weight of the sample remains constant over time. However, in practice the sample is considered at equilibrium when the change of weight over a predefined period of time is sufficiently small \[21\]. 
+![](images/000001.jpeg)
+
+
+***Fig. 2*** 
+Adsorption isotherm of a protein formulation at 25 °C
+
+
+
+At higher level of RH, some components/excipients of the formulation could crystallize which will be evident from the desorption of water. The crystallization of some excipients could be determined through polarized light microscopy as the recovered samples show birefringence as illustrated in the Fig. 3. The crystallization can be confirmed through powder X-ray diffraction. 
+![](images/000002.jpeg)
+
+
+***Fig. 3*** 
+Polarized light microscopy view of the sample recovered from the sorption microbalance indicating crystallization of some formulation component/s
+
+
+
+
+### **3.1 ****Moisture** Equilibration
+
+Once the sorption isotherm is created, the maximum amount of residual water that may remain in the product without impacting product stability can be studied in two ways. One way is to equilibrate the lyophilized cake at different RH to obtain different levels of residual moisture content. Different RH can be achieved by NaOH solutions at different concentrations, see Table 3, or using saturated solution of different salts providing varies relative humidities as illustrated in Table 4. 
+
+
+***Table 3*** 
+Sodium hydroxide salt concentrations to achieve various moisture contents
+
+
+
+**NaOH solution measured moisture content \(%\)**
+
+**Concentration \(molal\)**
+
+**R.H \(%\)**
+
+**Expected moisture content \(%\)**
+
+**Measured moisture content \(%\)**
+
+**Gravimetrically**
+
+**Karl Fischer titration**
+
+23.05
+
+11
+
+1.3
+
+1.7
+
+1.7
+
+14.96
+
+25
+
+2.4
+
+3.1
+
+2.8
+
+12.53
+
+35
+
+3.2
+
+3.8
+
+3.5
+
+10.64
+
+45
+
+4.3
+
+4.9
+
+4.8
+
+
+
+
+***Table 4*** 
+Expected moisture content vs. actual moisture in the product after exposure to salt solutions
+
+
+
+**Salt solution**
+
+**Control**
+
+**LiCl**
+
+**LiI**
+
+**MgCl2**
+
+**Mg\(NO3\)2**
+
+% Relative humidity \(RH\)
+
+N/A
+
+11
+
+18
+
+33
+
+53
+
+% Moisture in the drug product vial
+
+0.6
+
+1.2
+
+1.6
+
+2.7
+
+4.2
+
+
+
+The samples are equilibrated overnight over these solutions under vacuum. The moisture content of the samples after overnight equilibration is measured gravimetrically as well as using Karl Fischer titration. The results are tabulated in Table 3.
+
+These different residual moisture contents are placed at accelerated \(37 °C\) condition for up to 3 months and at the recommended storage condition \(2° to 8 °C\) for up to 2–3 years. Based on this data a residual moisture specification for the dry cake is defined and used in the release testing.
+
+### **3.2 **Sample Preparation
+
+The dishes containing saturated salt solutions are placed in the desiccators or in the glove box along with hygrometer and allowed to equilibrate overnight. If glove/dry box is used, purge the dry box with nitrogen until the RH is below the level expected from the salt solution. Place the vials in the desiccators or glove box and uncap them inside the box or desiccator and close it. Sample vials are pulled out at time, *t* = 0, *t* = 24 h, and *t* = 48 h and tested for moisture content using Karl Fischer.
+
+### **3.3 ****Moisture** Analysis by Karl Fischer
+
+The moisture content as measured by Karl Fischer after exposure to various percentages of relative humidity is summarized in Table 4 and Fig. 4. 
+![](images/000003.jpeg)
+
+
+***Fig. 4*** 
+Average residual moisture values vs. % relative humidity
+
+
+
+
+**Method 2**
+
+In this method at the end of primary dryin,g when the Pirani pressure converges with the capacitance manometer \(CM\), vials from various locations are pulled at regular intervals during the ramp to and during the secondary drying. Sample thief is used to stopper and pull them out of the freeze drye,r or vials on each shelf are stoppered sequentially at approximately 1–3 h intervals between the ramp and at the beginning of secondar drying.
+
+
+## **4 **Specifications
+
+One has to be careful in setting up the specification of the stopper and the final product and be mindful that when the fill mass is reduced or the vial and stopper size is increased, the risk of exceeding the water specification over the shelf-life 2 years increases dramatically with reduced cake mass. As an example, Table 5 illustrates a hypothetical scenario of the importance of stopper moisture control in relation to product fill mass. 
+
+
+***Table 5*** 
+Illustration of risk of failing moisture specifications by reducing the fill mass
+
+
+
+**Attributes**
+
+**Product A**
+
+**Product B**
+
+Product moisture limit
+
+2%
+
+Cake weight
+
+500 mg
+
+50 mg
+
+Stopper weight
+
+2.5 gm
+
+Stopper residual moisture
+
+0.2% = 5 mg
+
+Potential product moisture
+
+1% \(pass specification\)
+
+10% \(fail specification\)
+
+
+
+
+**References**
+
+1.  
+1.
+
+Pikal MJ. Mechanisms of protein stabilization during freeze drying and storage: the relative importance of thermodynamic stabilization and glassy state relaxation dynamics. In: Rey L, May J, editors. Freeze drying/lyophilization of pharmaceutical freeze drying 1831d biological products. Marcel, Dekker, Inc.; 1993.
+
+2.  
+2.
+
+Carpenter JR, Pikal MJ, Chang BS, Randolph TW. Rational design of stable lyophilized protein formulations: some practical advice. Pharm Res. 1997;14:969–75.[Crossref](https://doi.org/10.1023/A:1012180707283)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9279875)
+
+3.  
+3.
+
+Pikal MJ, Dellerman K, Roy ML. Formulation and stability of freeze-dried proteins: effects of moisture and oxygen on the stability of freeze-dried formulations of human growth hormone. Dev Biol Stand. 1992;74:21–37.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592171)
+
+4.  
+4.
+
+Saleki-Gerhardt A. Ph.D. thesis, University of Wisconsin Madison, 1990.
+
+5.  
+5.
+
+Duddu S, Zhang G, Dal Monte P. The relationship between protein aggregation and molecular mobility below the glass transition temperature of lyophilized formulations containing a monoclonal antibody. Pharm Res. 1997;14:596–600.[Crossref](https://doi.org/10.1023/A:1012196826905)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9165529)
+
+6.  
+6.
+
+Shamblin SL, Tang X, Chang L, Hancock BC, Pikal MJ. Characterization of the time scales of molecular motion in pharmaceutically important glasses. J Phys Chem B. 1999;103:4113–21.[Crossref](https://doi.org/10.1021/jp983964+)
+
+7.  
+7.
+
+Pikal MJ, Rigsbee D, Roy ML, Galreath D, Kovach KJ, Wang W, Carpenter JF, Cicerone MT. Solid state chemistry of proteins: II. The correlation of storage stability of freeze-dried human growth hormone \(hGH\) with structure and dynamics in the glassy solid. J Pharm Sci. 2008;97\(12\):5106–21.[Crossref](https://doi.org/10.1002/jps.21374)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18351639)
+
+8.  
+8.
+
+Pikal MJ, Rigsbee DR. The stability of insulin in crystalline and amorphous solids: observation of greater stability for the amorphous form. Pharm Res. 1997;14:1379–87.[Crossref](https://doi.org/10.1023/A:1012164520429)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9358550)
+
+9.  
+9.
+
+Yoshioka S, Aso Y, Kojima S. Usefulness of the Kohlrausch-Williams-Watts stretched exponential function to describe protein aggregation in lyophilized formulations and the temperature dependence near the glass transition temperature. Pharm Res. 2001;18:256–60.[Crossref](https://doi.org/10.1023/A:1011082309058)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11442261)
+
+10.  
+10.
+
+Abdul-Fattah AM, Dellerman K, Bogner RH, Pikal MJ. The effect of annealing on the stability of amorphous solids: chemical stability of freeze-dried moxalactam. J Pharm Sci. 2007;96:1237–50.[Crossref](https://doi.org/10.1002/jps.20947)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17455341)
+
+11.  
+11.
+
+Cicerone MT, Soles CL, Chowdhuri Z, Pikal MJ, Chang LL. Fast dynamics as a diagnostic for excipients in preservation of dried proteins. Am Pharm Rev. 2005;8\(6\):22.
+
+12.  
+12.
+
+Chang BS, Beauvais RM, Dong AC, Carpenter JF. Physical factors affecting the storage stability of freeze-dried interleukin-1 receptor antagonist—glass transition and protein conformation. Arch Biochem Biophys. 1996;331:249–58.[Crossref](https://doi.org/10.1006/abbi.1996.0305)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8660705)
+
+13.  
+13.
+
+Strickley RG, Anderson BD. Solid-state stability of human insulin. 2. Effect of water on reactive intermediate partitioning in lyophiles from pH 2-5 solutions—stabilization against covalent dimer formation. J Pharm Sci. 1997;86:645–53.[Crossref](https://doi.org/10.1021/js9700311)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9188045)
+
+14.  
+14.
+
+Mazzobre MF, Buera MD, Chirife J. Glass transition and thermal stability of lactase in low-moisture amorphous polymeric matrices. Biotechnol Prog. 1997;13:195–9.[Crossref](https://doi.org/10.1021/bp9700014)
+
+15.  
+15.
+
+Hsu CC, Ward CA, Pearlman R, Nguyen HM, Yeung DA, Curley JG. Determining the optimum residual moisture in lyophilized protein pharmaceuticals. Dev Biol Stand. 1992;74:255–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592175)
+
+16.  
+16.
+
+Roy ML, Pikal MJ, Rickard EC, Maloney AM. The effects of formulation and moisture on the stability of a freeze dried monoclonal antibody-vinca conjugate: a test of the WLF glass transition theory. Dev Biol Stand. 1992;74:323–39.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592182)
+
+17.  
+17.
+
+Green JL, Angell CA. Phase relations and vitrification in saccharide-water solutions and the trehalose anomaly. J Phys Chem. 1989;93:2880–2.[Crossref](https://doi.org/10.1021/j100345a006)
+
+18.  
+18.
+
+Franks F, Hatley RHM, Mathias SF. Materials science and the production of shelf stable biologicals. BioPharm. 1991:38–42.
+
+19.  
+19.
+
+Levine H, Slade L. Another view of trehalose for drying and stabilizing biological materials. BioPharm. 1992;5:36–40.
+
+20.  
+20.
+
+Crowe JH, Carpenter JF, Crowe LM. The role of vitrification in anhydrobiosis. Annu Rev Physiol. 1998;60:73–103.[Crossref](https://doi.org/10.1146/annurev.physiol.60.1.73)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9558455)
+
+21.  
+21.
+
+Pikal MJ, Shah S. Moisture transfer from stopper to product and resulting stability implications. In International symposium on biological product and freeze-drying and formulation, Bethesda, MD, 1990; Develop Biol Standard 1990;74:165–79; Karger: Basel; 1991.
+
+22.  
+22.
+
+Templeton AC, Placek J, Xu H, Mahajan R, Hunke WA, Reed RA. Determination of the moisture content of bromobutyl rubber stoppers as a function of processing: implications for the stability of lyophilized products. PDA J Pharm Sci Technol. 2003;57\(2\):75–87.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14674509)
+
+23.  
+23.
+
+DeGrazio F, Flynn K. Lyophilization closures for protein based drugs. J Parenter Sci Technol. 1992;46\(2\):54–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1588459)
+
+24.  
+24.
+
+Earle JP, Bennett PS, Larson KA, Shaw R. The effects of stopper drying on moisture levels of Haemophilus influenzae conjugate vaccine. Dev Biol Stand. 1990;74:203.
+
+25.  
+25.
+
+Vromans H, van Laarhoven JAH. A study on water permeation through rubber closures of injection vials. Int J Pharm. 1992;79:301–8.[Crossref](https://doi.org/10.1016/0378-5173(92)90122-I)
+
+26.  
+26.
+
+Corveleyn S, De Smedt S, Remon JP. Moisture absorption and desorption of different rubber lyophilization closures. Int J Pharm. 1997;159:57–65.[Crossref](https://doi.org/10.1016/S0378-5173(97)00263-9)
+
+27.  
+27.
+
+Wang Z, Frankel BA, Lambert WJ. Determination of moisture in rubber stoppers: effect of Karl Fischer oven temperatures. PDA J Pharm Sci Technol. 2001;55\(3\):162–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11417106)
+
+28.  
+28.
+
+Kruszynski M, Tempel J, Akers MJ. Drying effects on residual moisture of lyophilization rubber closures. PDA J Pharm Sci Technol. 2004;58\(5\):250–3.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15568645)
+
+29.  
+29.
+
+Held HR, Landi S. Water permeability of elastomers. J Biol Stand. 1977;5:111–9.[Crossref](https://doi.org/10.1016/0092-1157(77)90005-1)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=881425)
+
+30.  
+30.
+
+Donovan PD, Corvari V, Burton MD, Rajagopalan N. Effect of stopper processing conditions on moisture content and ramifications for lyophilized products: comparison of “low” and “high” moisture uptake stoppers. PDA J Pharm Sci Technol. 2007;61\(1\):51–8. PMID: 17390704.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17390704)
+
+
+

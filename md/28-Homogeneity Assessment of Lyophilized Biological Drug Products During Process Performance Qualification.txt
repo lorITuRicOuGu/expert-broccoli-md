@@ -1,0 +1,1602 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_28](https://doi.org/10.1007/978-3-031-12634-5_28)
+
+
+**
+# Homogeneity Assessment of Lyophilized Biological Drug Products During Process Performance Qualification
+**
+
+
+Fuat Doymaz1  , Brenda S. Ramirez2 and Chris Cherry3
+
+
+\(1\) 
+Amgen Global CMC Statistics, Thousand Oaks, CA, USA
+
+
+\(2\) 
+Kite Pharma Statistical Sciences and Analytics, West Greenwich, RI, USA
+
+
+\(3\) 
+BioMarin MSAT, Greystones, County Wicklow, Ireland
+
+
+
+
+
+**Fuat Doymaz**
+
+**Email: **fdoymaz@amgen.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Methodology
+
+**2.1 **Experimental Design
+
+**2.2 **Statistical Model
+
+**2.3 **Equivalence Testing and the Homogeneity Acceptance Criterion \(HAC\)
+
+**3 **Results and Discussion
+
+**3.1 **Protocol Phase
+
+**3.2 **Protocol Execution Phase
+
+**3.3 **Report Phase
+
+**4 **Summary
+
+Appendix: SAS Code for Generating Simulated Data in Example 1 and its Analysis
+
+References
+
+
+## Abstract
+
+This chapter provides practitioners with a step-by-step guide for assessing homogeneity of lyophilized drug product batches manufactured during process performance qualification of commercial manufacturing processes. Specific activities involved in different phases of this evaluation such as selection of product attributes, homogeneity acceptance criteria, sample size, testing, and analysis of data are explained. Two examples are given to illustrate the approach using simulated datasets. The proposed framework provided facilitates assessment of process capability to manufacture homogeneous drug product batches and generation of a robust data package for marketing application purposes.
+
+
+**Keywords**
+Drug product homogeneity Lyophilization Sample size Homogeneity acceptance criteria Homogeneity study design
+
+
+## **1 **Introduction
+
+Drug product \(DP\) homogeneity \(uniformity\) refers to the sameness of quality attribute\(s\) across the units that make up a batch. Manufacturing of lyophilized biological parenteral drug products involves the use of multiple interconnected and complex unit operations including drug substance thawing, formulation, 0.2-μm filtration, filling, lyophilization, capping, inspection, and finishing steps \[1\]. From a drug product quality and regulatory perspective, homogeneity within a batch and consistency between manufactured batches are key to guard public health against various sources of variability \[2\]. Furthermore, quality control testing performed at release and during stability studies necessitates that homogeneity assessment of DP batches be performed for the justification of sample size used. Results obtained from process performance qualification \(PPQ\) batches included in the homogeneity study can then be used for biological license applications \(BLAs\).
+
+An approach that describes how filling homogeneity of parenteral DP batches manufactured during PPQ campaigns are described in the work by Doymaz et al. \[3\]. Lyophilization homogeneity differs from filling homogeneity because samples are separated in a three- dimensional \(3D\) space in such a way that filled units are arranged according to lyophilizer design. Following drying, samples for homogeneity analysis are drawn from the process at experimentally relevant shelves and locations within shelves.
+
+In the biopharmaceutical industry, lyophilizers can vary from horizontal chamber condenser designs to more standard vertical chamber condenser designs. This chapter focuses on describing a sampling approach from large-scale vertical industrial lyophilizers of two-story construction with a rectangular chamber mounted above the condenser. To assess whether the lyophilization process consistently and uniformly produces homogeneous DP product batches, PQAs are selected from a group of analytical methods tested at release, based on their ability to elucidate the impact to product quality induced by lyophilization.
+
+We next describe a step-by-step approach to design, execute, and assess homogeneity of lyophilized DP during PPQ that shows the capability of manufacturing process to produce homogeneous batches. These activities can be grouped under three main phases: protocol phase, protocol execution phase, and report phase. 
+
+1. 
+1.1
+
+
+Protocol phase: In this phase, a homogeneity assessment protocol is established, which includes relevant process steps and product attributes, acceptance criteria, and appropriate experimental study designs. 
+
+	1. 
+1.1.1
+
+
+Identify Process Steps for Homogeneity Assessments
+
+DP process steps at which homogeneity testing will be conducted are first identified. Depending on the product nature, involved steps may vary. For example, for the post formulation step and during filling operation, one may want to check if formulated drug product is homogeneous prior to filling into final containers. For lyophilized DP, lyophilization step is performed subsequent to formulation and filling steps.
+
+
+
+
+	2.  
+1.1.2
+
+
+Identify Product Quality Attributes \(PQA\) and Analytical Test Methods
+
+To assess the impact of involved process steps of DP manufacturing, orthogonal and relevant analytical test methods should be identified. Methods that measure protein concentration, aggregation, oxidation, moisture, and/or subvisible particle counts should be used to elucidate process impact \(if any\) on product quality.
+
+
+
+
+	3.  
+1.1.3
+
+
+Establish Homogeneity Acceptance Criteria \(HAC\)
+
+For each selected product quality attribute at each identified process step, one should establish homogeneity acceptance criteria. Setting an appropriate HAC requires understanding of how much variability is due to analytical method and how much is due to variation among filled drug product units. HAC is typically established based on quantifiable uncontrollable source of \(common cause\) variability \(in standard deviation\), such as three times the intermediate precision standard deviation of the analytical method. Note the HAC must relate to the statistical analysis approach used to evaluate product homogeneity.
+
+
+
+
+	4.  
+1.1.4
+
+
+Generate the Experimental Study Design
+
+A statistical approach suitable for assessing batch homogeneity requires collecting data for attributes from each identified process steps with sufficient number of test results \(i.e., sample size, N\). The experimental design, or sampling plan, must align with the statistical approach that will be used to assess homogeneity. For lyophilized product, a test of mean equivalence will be used to evaluate the maximum difference in the mean level of the observed PQAs \(e.g., moisture content\) due to lyophilization. Average change in the PQAs will be assessed both across and within the shelves of the lyophilizer. This difference is obtained by fitting a multiple linear regression \(MLR\) model to the generated data \[4\]. This model is referred to as a full quadratic model and includes first- \(main effects\) and second-order terms \(two-way interactions, quadratics\) involving three lyophilizer process parameters or factors: shelf location and length and width of each shelf. Design of experiments \(DoE\) techniques associated with response surface designs \(RSM\) can be used to generate the experimental worksheet with the conditions \[4\]. The final sample size should ensure adequate statistical power that takes into account the statistical distribution of the PQA, HAC, number of shelves and locations on each shelf that will be sampled, and confidence level in the statistical equivalency test.
+
+
+
+
+	5.  
+1.1.5
+
+
+Prepare for the Execution of the Study
+
+Using a risk-based approach, DP PPQ campaign typically consists of manufacturing multiple at scale batches designed to demonstrate consistency from batch-to-batch \[5\]. The purpose of homogeneity study, however, is to evaluate consistency within individual batches. Therefore, consideration should be given to selecting a batch from the campaign that represents the worst-case challenge in terms of process-induced effects quantifiable by the selected PQAs \(analogous to liquid-filled DP homogeneity assessment\).
+
+Clear instructions on the collection, handling, and transfer of these samples to quality control \(QC\) laboratories should be provided to involved personnel.
+
+
+
+
+
+2.  
+1.2
+
+
+Protocol Execution Phase
+
+Two critical steps are involved in this phase. 
+
+	1. 
+1.2.1
+
+
+Handling \(storage and transfer of\) representative batch samples collected for each method at each process step during validation runs.
+
+
+
+
+	2.  
+1.2.2
+
+
+Creating a randomized testing schematic for QC testing of these samples by the respective analytical method and data verification of the test results for data analysis.
+
+
+
+
+
+1. 
+1.3
+
+
+Report Phase 
+
+	1. 
+1.3.1
+
+
+Reporting deviations \(if any\) from the executed protocol.
+
+
+
+
+	2.  
+1.3.2
+
+
+Analysis of the collected test results per statistical methodology used in the study design.
+
+
+
+
+	3.  
+1.3.3
+
+
+Comparison of the analysis results to each performance parameter\(s\) HAC at each process step.
+
+
+
+
+
+Next, we provide more details on the statistical methodologies mentioned above and then illustrate the framework with examples.
+
+## **2 **Methodology
+
+This section discusses the selection of the experimental design, data analysis approach, and sample size determination.
+
+### **2.1 **Experimental Design
+
+As was discussed in Section 1.1.4, RSM designs can be used to generate the run conditions needed to fit a full quadratic model. In these designs, the factors are quantitative and must have at least three levels: −1, 0, and 1. For sampling DP vials from a lyophilizer with vertical condenser chamber design, Fig. 1 illustrates the three factors, shelf location and length, and width within a shelf, and their three levels. The vertical dimension \(axis 1\) denotes the number of shelves and is marked as top shelf \(−1\), middle shelf \(0\), and bottom shelf \(\+1\). The other two dimensions represent the width \(axis 2\) and length \(axis 3\) of rectangular-shaped individual shelf layout with sample location designations 1 to 9. Axis 2 shows the width and is marked as left \(−1\), middle \(0\), and right \(\+1\), while axis 3 shows length and is marked as front \(\+1\), middle \(0\), and back \(−1\) in Fig. 1. Sampling from top, middle, and bottom of the lyophilizer shelves is analogous to sampling from filling stages of beginning, middle, and end \[3\] for a representative sample of the entire batch. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Lyophilizer shelves and sampling locations. Coded level of shelves and conversion of sample locations to width and length dimensions for mathematical modeling purposes to quantify effect of lyophilization onto measured PQAs
+
+
+
+A full factorial 33 design was selected to model a PQA response. This design includes 27 unique run conditions, using all combinations of the factor levels. A portion of the unrandomized design is shown in Table 1. The first row indicates that the sample vial came from the left corner in the back of the top shelf. The first nine rows that contain the nine combinations of length and width are repeated for shelf = 0 and shelf = 1. The factors are coded using −1, 0, and 1, so the design is orthogonal, allowing for unconfounded estimates of all model terms. Each condition is replicated once, for generating a total of *N* = 54 observations. 
+
+
+***Table 1*** 
+Partial 33 experimental design for lyophilizer homogeneity study
+
+
+
+**Sample vial number**
+
+**Shelf**
+
+**Length**
+
+**Width**
+
+***Y* response**
+
+1
+
+−1
+
+−1
+
+−1
+
+.
+
+2
+
+−1
+
+−1
+
+0
+
+.
+
+3
+
+−1
+
+−1
+
+1
+
+.
+
+4
+
+−1
+
+0
+
+−1
+
+.
+
+5
+
+−1
+
+0
+
+0
+
+.
+
+6
+
+−1
+
+0
+
+1
+
+.
+
+7
+
+−1
+
+1
+
+−1
+
+.
+
+8
+
+−1
+
+1
+
+0
+
+.
+
+9
+
+−1
+
+1
+
+1
+
+.
+
+10
+
+0
+
+−1
+
+−1
+
+.
+
+11
+
+0
+
+−1
+
+0
+
+.
+
+12
+
+0
+
+−1
+
+1
+
+.
+
+
+
+The experiment will be run using a unique drug product batch, where 2 vials will be taken from each of the 27 positions of the lyophilizer shelves and processed together. Note the lyophilizer may be run fully loaded with vials in order to observe the performance under manufacturing conditions. The samples taken from these 27 positions are assumed to be independent samples and will subsequently be tested in a randomized way in QC laboratory by the specified analytical methods.
+
+Hence, for a batch, there will be 54 independent test results that would aid in elucidating whether the lyophilization process has impact on measured product quality. This data will be analyzed by the statistical model described next.
+
+### **2.2 **Statistical Model
+
+As was described in Section 1.1.4, a full quadratic model is used to estimate the maximum difference in the moisture content across the lyophilizer shown in Fig. 1. The equation for the three factors, shelf, width, and length, is provided in Eq. \(1\):
+
+
+
+
+
+![$$ {\displaystyle \begin{array}{c}Y={\beta}_0+{\beta}_1\textrm{shelf}+{\beta}_2\textrm{width}+{\beta}_3\textrm{length}\\ {}+{\beta}_4\textrm{shelf}\times \textrm{width}+{\beta}_5\textrm{shelf}\times \textrm{length}+{\beta}_6\textrm{width}\times \textrm{length}\\ {}{\beta}_7{\textrm{shelf}}^2+{\beta}_8{\textrm{width}}^2+{\beta}_9{\textrm{length}}^2+\varepsilon \end{array}} $$](images/000002.jpeg)
+
+
+\(1\)
+
+
+where *Y* is measured response, *β*0, …, *β*9 are model coefficients, and *ε* denotes model residuals due to measurement error and model misspecification.
+
+The model in Eq. \(1\) will be fit to the moisture content results and the impact of the factors on the response is assessed using the F-test statistic and corresponding *p*-value. A reduced model is fit after removing statistically not significant \(insignificant\) terms from the model and then checked for accuracy. A model term is deemed as insignificant if *p*-value >0.05. Note that the model hierarchy is preserved for prediction purposes by including statistically insignificant main effects that are involved in statistically significant second-order effects. The adequacy of the reduced model is checked using residuals plots to examine the model assumptions, including constant variance, normally distributed errors, and lack of fit. Once the reduced model is deemed acceptable, it is used to obtain the maximum and minimum predicted moisture content result among the 27 conditions in Table 1. These predicted values are used to construct the equivalence test, described next.
+
+### **2.3 **Equivalence Testing and the Homogeneity Acceptance Criterion \(HAC\)
+
+A statistical test of equivalence is used to provide strong evidence of homogeneity for a filled batch. General references on statistical equivalence can be found in \[6–9\]. We recommend the use of this method for assessing lyophilization homogeneity because it provides customer protection at preset level against incorrectly concluding homogeneity when in fact the batches are not homogeneous. The preset level is usually fixed at 5%.
+
+While a test of mean equivalence is best known, the approach can be adapted to demonstrate equivalency between other parameters, like two slopes from a linear regression model. For this application, equivalence between the maximum \(*Y*max\) and minimum \(*Y*min\) moisture content values from the model shown in Eq. \(1\) is of interest. This difference can be expressed as *θ* = *Y*max − *Y*min. To demonstrate equivalence \(or homogeneity in this scenario\), it is necessary to show *θ* is less than some value deemed to be practically important. The definition of “practically important” is provided by the homogeneity acceptance criterion \(HAC\). Once HAC has been defined, equivalency assessment is performed using two one-sided t-tests \(TOST\), with 95% confidence, to determine if the two quantities are equivalent \(or *θ* is\) within the stated bounds. The following two sets of hypotheses are tested using the TOST:
+
+
+
+
+
+![$$ {\displaystyle \begin{array}{cc}\textrm{Hypotheses}\ A:&amp; \textrm{Hypotheses}\ B:\\ {}\begin{array}{c}{H}_0:\kern0.5em {Y}_{\textrm{Max}}\hbox{--} {Y}_{\textrm{Min}}\le -\textrm{HAC}\\ {}{H}_1:\kern0.5em {Y}_{\textrm{Max}}\hbox{--} {Y}_{\textrm{Min}}&gt;-\textrm{HAC}\end{array}&amp; \begin{array}{c}{H}_0:\kern0.5em {Y}_{\textrm{Max}}\hbox{--} {Y}_{\textrm{Min}}\ge +\textrm{HAC}\\ {}{H}_1:\kern0.5em {Y}_{\textrm{Max}}\hbox{--} {Y}_{\textrm{Min}}&lt;+\textrm{HAC}\end{array}\end{array}} $$](images/000003.jpeg)
+
+
+\(2\)
+
+
+
+
+The TOST is carried out by computing a two-sided 90% confidence interval around *θ* and comparing it to ±HAC. The interval for *θ* is a bit more complicated to obtain and requires the use of a reputable statistical software package, like SAS. Once the reduced model is obtained, a contrast is written to estimate *θ* and compute the 90% confidence interval. This is accomplished using SAS PROC MIXED, for example, to obtain a custom hypothesis test for *θ*. The design matrix, *X*, is used to construct the contrast statement, and illustrative SAS code is provided in the Appendix. For example, if the reduced model is 
+
+
+
+![$$ {\displaystyle \begin{array}{c}Y={\beta}_0+{\beta}_1\textrm{shelf}+{\beta}_3\textrm{width}+{\beta}_9{\textrm{width}}^2\\ {}\textrm{then}\\ {}{Y}_{\textrm{max}}={\beta}_0+{\beta}_1{\textrm{shelf}}_{\textrm{max}}+{\beta}_3{\textrm{width}}_{\textrm{max}}+{\beta}_9{{\textrm{width}}^2}_{\textrm{max}}\\ {}\textrm{and}\\ {}{Y}_{\textrm{min}}={\beta}_0+{\beta}_1{\textrm{shelf}}_{\textrm{min}}+{\beta}_3{\textrm{width}}_{\textrm{min}}+{\beta}_9{{\textrm{width}}^2}_{\textrm{min}}\\ {}\textrm{therefore},\textrm{thedifferenceis}\\ {}{Y}_{\textrm{max}}-{Y}_{\textrm{min}}=\left({\beta}_0+{\beta}_1{\textrm{shelf}}_{\textrm{max}}+{\beta}_3{\textrm{width}}_{\textrm{max}}+{\beta}_9{{\textrm{width}}^2}_{\textrm{max}}\right)-\left({\beta}_0+{\beta}_1{\textrm{shelf}}_{\textrm{min}}+{\beta}_3{\textrm{width}}_{\textrm{min}}+{\beta}_9{{\textrm{width}}^2}_{\textrm{min}}\right)\\ {}\textrm{so}\\ {}{Y}_{\textrm{max}}-{Y}_{\textrm{min}}=\left({\beta}_1{\textrm{shelf}}_{\textrm{max}}-{\beta}_1{\textrm{shelf}}_{\textrm{min}}\right)+\left({\beta}_3{\textrm{width}}_{\textrm{max}}-{\beta}_3{\textrm{width}}_{\textrm{min}}\right)+\left({\beta}_9{{\textrm{width}}^2}_{\textrm{max}}-\kern0.5em {\beta}_9{{\textrm{width}}^2}_{\textrm{min}}\right)\end{array}} $$](images/000004.jpeg)
+
+
+\(3\)
+
+
+
+
+The values for the factors in this equation are obtained from the design matrix *X*, which is Table 1 plus six more columns that contain the second-order effects. For example, the column for length × width is simply the multiplication of the length and width. Since the factor levels are −1, 0, and 1, all entries in the design matrix *X* will be −1, 0, or 1. The appropriate values for the maximum and minimum predictions are plugged into the difference above, and the contrast is obtained: 
+
+
+
+![$$ {Y}_{\textrm{max}}-{Y}_{\textrm{min}}=\left({\beta}_1\times 1-{\beta}_1\times -1\right)+\left({\beta}_3\times 1-{\beta}_3\times 0\right)+\left({\beta}_9\times 1-{\beta}_9\times 0\right)=2{\beta}_1+{\beta}_3+{\beta}_9 $$](images/000005.jpeg)
+
+
+\(4\)
+
+
+and the contrast that is used in PROC MIXED is a vector of the coefficients \(2, 1, 1\). This will be illustrated in the Results section.
+
+If the lower one-sided 95% confidence limit on *θ* is greater than -HAC and the upper one-sided 95% confidence limit on *θ* is less than \+HAC, then the equivalence between the maximum and minimum locations is demonstrated.
+
+The graph in Fig. 2 depicts the various outcomes from the TOST. When the entire confidence interval is fully contained within the ± HAC \(scenario 1 and scenario 4\), equivalency has been demonstrated. Equivalency is not demonstrated if the confidence interval is completely outside of the \+HAC \(scenario 3\) or partially outside of the -HAC \(scenario 2\), which requires further investigation. 
+![](images/000006.jpeg)
+
+
+***Fig. 2*** 
+Outcomes of a statistical test of equivalence
+
+
+
+For setting HAC, variability in the analytical method of the measured response \(if available\) should be considered. During method development of a quantitative response, intermediate precision standard deviation \(*σ**E*\) is one of the studied parameters. It is also common to conduct studies for gauging variability of the measured analyte \(*σ**P*\) prior to PPQ. It is recommended that an initial estimate of the HAC be based on the intermediate precision, as it is shown below: 
+
+
+
+![$$ \textrm{HAC}=3{\sigma}_E $$](images/000007.jpeg)
+
+
+\(5\)
+
+
+
+
+A multiplier of 2 \[7\] or 3 \[3\] is commonly used in applications for a test of equivalence. The initial HAC in Eq. \(5\) provides the smallest difference that should be considered for this acceptance criteria, since it is based upon the measurement error. The initial HAC should be reviewed by subject matter experts \(SMEs\) and adjusted accordingly with consideration of impact on product performance at a target level, product lot-to-lot variability under normal operating conditions, and lot release specification limits \(where exist\). A robust review of the HAC provides a basis for establishing a “practically important” threshold for assessing the level of variability in the measured product quality attributes during PPQ campaigns.
+
+## **3 **Results and Discussion
+
+In this section, we demonstrate the proposed DP homogeneity assessment during PPQ using simulated datasets for a product quality response. We will follow the steps described in the Introduction section.
+
+
+**Examples:**
+
+During PPQ, lyophilized DP batch homogeneity needs to be demonstrated. The following steps describe this process. For illustration of the methodology, two simulated examples are provided: Example 1 shows a DP batch manufactured with no deviations encountered. Example 2 illustrates a dataset collected under unexpected operating conditions.
+
+
+### **3.1 **Protocol Phase
+
+
+
+1. 
+3.1.1
+
+
+DP process step: lyophilization.
+
+Post formulation, filtration, and filling of DP, vials are loaded onto lyophilizer shelves. The purpose is to assess whether the lyophilization operation has any impact beyond a threshold on product quality.
+
+
+
+
+2.  
+3.1.2
+
+
+Analytical method: moisture content.
+
+Homogeneity of the batch will be tested by means of a moisture method.
+
+
+
+
+3.  
+3.1.3
+
+
+Establish homogeneity acceptance criteria \(HAC\) for moisture content. Intermediate precision \(*σ**M*\) reported for the moisture content analytical method is 0.10 \(as percentage of water content over total weight of material, %\(w/w\)\). 
+
+
+
+![$$ {\displaystyle \begin{array}{c}\textrm{HAC}=\pm 3\times {\sigma}_M\\ {}=\pm 3\times 0.10\\ {}=\pm 0.3\%\left(\textrm{w}/\textrm{w}\right)\ \end{array}} $$](images/000008.jpeg)
+
+
+
+
+
+In this case, an SME defined the HAC = 0.5 based upon prior process knowledge obtained through development and scale-up phase. 
+
+1. 
+3.1.4
+
+
+Statistical approach appropriate for assessing batch homogeneity: Average equivalence approach described in Sect. 2 will be used.
+
+
+
+
+2.  
+3.1.5
+
+
+Sampling: Post lyophilization and during unloading, drug product vials from designated locations of each of the top, middle, and bottom shelves, as shown in Figure 1, will be taken.
+
+
+
+
+3.  
+3.1.6
+
+
+Sample size: The moisture content attribute is assumed to have a normal distribution. Per the DoE approach described in Sect. 2, sample size *N* = 54 \(2 samples to be taken from each of the 27 locations\). It should be noted that this sample size represents the number reportable values that should be generated for batch homogeneity assessment. Therefore, if the product volume in a DP container does not meet the test method’s sample volume requirement, then the content of the sufficient number of DP vials should be pooled to generate stated number of reportable values.
+
+
+
+
+4.  
+3.1.7
+
+
+Samples should be handled per procedure to preserve sample integrity until testing.
+
+
+
+
+
+### **3.2 **Protocol Execution Phase
+
+
+
+1. 
+3.2.1
+
+
+Collected samples from the batch are transferred to QC laboratory for testing.
+
+
+
+
+2.  
+3.2.2
+
+
+Randomized testing schematic for the samples shown in Table 2 is created, and test results are readied for data analysis.
+
+
+
+
+
+***Table 2*** 
+Example of original and randomized test order of samples
+
+
+
+**Original order**
+
+**Randomized testing order**
+
+**Vial number**
+
+**Sample description**
+
+**Vial number**
+
+**Sample description**
+
+1
+
+S1-Loc1-Vial1
+
+53
+
+S3-Loc9-Vial1
+
+2
+
+S1-Loc1-Vial2
+
+31
+
+S2-Loc7-Vial1
+
+3
+
+S1-Loc2-Vial1
+
+47
+
+S3-Loc6-Vial1
+
+4
+
+S1-Loc2-Vial2
+
+48
+
+S3-Loc6-Vial2
+
+5
+
+S1-Loc3-Vial1
+
+24
+
+S2-Loc3-Vial2
+
+6
+
+S1-Loc3-Vial2
+
+40
+
+S3-Loc2-Vial2
+
+7
+
+S1-Loc4-Vial1
+
+34
+
+S2-Loc8-Vial2
+
+8
+
+S1-Loc4-Vial2
+
+5
+
+S1-Loc3-Vial1
+
+9
+
+S1-Loc5-Vial1
+
+45
+
+S3-Loc5-Vial1
+
+10
+
+S1-Loc5-Vial2
+
+46
+
+S3-Loc5-Vial2
+
+11
+
+S1-Loc6-Vial1
+
+44
+
+S3-Loc4-Vial2
+
+12
+
+S1-Loc6-Vial2
+
+10
+
+S1-Loc5-Vial2
+
+13
+
+S1-Loc7-Vial1
+
+11
+
+S1-Loc6-Vial1
+
+14
+
+S1-Loc7-Vial2
+
+39
+
+S3-Loc2-Vial1
+
+15
+
+S1-Loc8-Vial1
+
+36
+
+S2-Loc9-Vial2
+
+16
+
+S1-Loc8-Vial2
+
+13
+
+S1-Loc7-Vial1
+
+17
+
+S1-Loc9-Vial1
+
+54
+
+S3-Loc9-Vial2
+
+18
+
+S1-Loc9-Vial2
+
+51
+
+S3-Loc8-Vial1
+
+19
+
+S2-Loc1-Vial1
+
+3
+
+S1-Loc2-Vial1
+
+20
+
+S2-Loc1-Vial2
+
+32
+
+S2-Loc7-Vial2
+
+21
+
+S2-Loc2-Vial1
+
+9
+
+S1-Loc5-Vial1
+
+22
+
+S2-Loc2-Vial2
+
+18
+
+S1-Loc9-Vial2
+
+23
+
+S2-Loc3-Vial1
+
+1
+
+S1-Loc1-Vial1
+
+24
+
+S2-Loc3-Vial2
+
+28
+
+S2-Loc5-Vial2
+
+25
+
+S2-Loc4-Vial1
+
+42
+
+S3-Loc3-Vial2
+
+26
+
+S2-Loc4-Vial2
+
+33
+
+S2-Loc8-Vial1
+
+27
+
+S2-Loc5-Vial1
+
+37
+
+S3-Loc1-Vial1
+
+28
+
+S2-Loc5-Vial2
+
+43
+
+S3-Loc4-Vial1
+
+29
+
+S2-Loc6-Vial1
+
+21
+
+S2-Loc2-Vial1
+
+30
+
+S2-Loc6-Vial2
+
+17
+
+S1-Loc9-Vial1
+
+31
+
+S2-Loc7-Vial1
+
+49
+
+S3-Loc7-Vial1
+
+32
+
+S2-Loc7-Vial2
+
+26
+
+S2-Loc4-Vial2
+
+33
+
+S2-Loc8-Vial1
+
+2
+
+S1-Loc1-Vial2
+
+34
+
+S2-Loc8-Vial2
+
+22
+
+S2-Loc2-Vial2
+
+35
+
+S2-Loc9-Vial1
+
+16
+
+S1-Loc8-Vial2
+
+36
+
+S2-Loc9-Vial2
+
+20
+
+S2-Loc1-Vial2
+
+37
+
+S3-Loc1-Vial1
+
+7
+
+S1-Loc4-Vial1
+
+38
+
+S3-Loc1-Vial2
+
+35
+
+S2-Loc9-Vial1
+
+39
+
+S3-Loc2-Vial1
+
+29
+
+S2-Loc6-Vial1
+
+40
+
+S3-Loc2-Vial2
+
+19
+
+S2-Loc1-Vial1
+
+41
+
+S3-Loc3-Vial1
+
+38
+
+S3-Loc1-Vial2
+
+42
+
+S3-Loc3-Vial2
+
+8
+
+S1-Loc4-Vial2
+
+43
+
+S3-Loc4-Vial1
+
+41
+
+S3-Loc3-Vial1
+
+44
+
+S3-Loc4-Vial2
+
+25
+
+S2-Loc4-Vial1
+
+45
+
+S3-Loc5-Vial1
+
+6
+
+S1-Loc3-Vial2
+
+46
+
+S3-Loc5-Vial2
+
+23
+
+S2-Loc3-Vial1
+
+47
+
+S3-Loc6-Vial1
+
+27
+
+S2-Loc5-Vial1
+
+48
+
+S3-Loc6-Vial2
+
+30
+
+S2-Loc6-Vial2
+
+49
+
+S3-Loc7-Vial1
+
+52
+
+S3-Loc8-Vial2
+
+50
+
+S3-Loc7-Vial2
+
+14
+
+S1-Loc7-Vial2
+
+51
+
+S3-Loc8-Vial1
+
+50
+
+S3-Loc7-Vial2
+
+52
+
+S3-Loc8-Vial2
+
+15
+
+S1-Loc8-Vial1
+
+53
+
+S3-Loc9-Vial1
+
+4
+
+S1-Loc2-Vial2
+
+54
+
+S3-Loc9-Vial2
+
+12
+
+S1-Loc6-Vial2
+
+
+
+### **3.3 **Report Phase
+
+
+**Example 1**
+
+This example presents a situation whereby a small increasing gradient of residual moisture is observed from the top to bottom shelves. This situation is possible in large-scale industrial lyophilization processes from an expected worst-case mass transfer challenge utilizing an optimized drying process.
+
+
+
+
+1. 
+3.3.1
+
+
+Protocol was executed without any deviations.
+
+
+
+
+2.  
+3.3.2
+
+
+Moisture content test results were analyzed using Eq. 1 and average equivalency approach described in Sect. 2. Figure 3 depicts test results from sampled shelves. Tables 3, 4, and 5 tabulate summary statistics and the results from equivalency assessment for the maximum difference quantified from the fitted model.
+
+
+
+
+
+![](images/000009.jpeg)
+
+
+***Fig. 3*** 
+Plot of simulated moisture content test results for Example
+
+
+
+
+***Table 3*** 
+Summary statistics of simulated moisture content test results from Example 1
+
+
+
+**Number of observations**
+
+**Minimum**
+
+**Maximum**
+
+**Mean**
+
+**Standard deviation**
+
+54
+
+0.5141717
+
+0.4140362
+
+0.6230539
+
+0.0394962
+
+
+
+
+***Table 4*** 
+Fitted full and reduced model to moisture content for Example 1. Significant effects are highlighted in yellow in full model
+
+
+
+![](images/000010.jpeg)
+
+
+
+
+
+***Table 5*** 
+Equivalency assessment among sample positions for simulated moisture content test results for Example 1. Homogeneity acceptance criteria = ± 0.5
+
+
+
+**Difference label**
+
+**Difference estimate**
+
+**StdErr**
+
+**DF**
+
+***t* Value**
+
+**Probt**
+
+**Alpha**
+
+**Lower one-sided 95% confidence limit**
+
+**Upper one-sided 95% confidence limit**
+
+***Y*****max** **−** ***Y*****min**
+
+0.09554
+
+0.01416
+
+46
+
+6.75
+
+<0.0001
+
+0.1
+
+0.07177
+
+0.1193
+
+
+
+
+
+1. 
+3.3.3
+
+
+Comparison of analysis results in Table 5 against HAC of moisture content shows that the confidence intervals for the difference in means among sample positions are within the homogeneity AC.
+
+
+
+
+
+These results demonstrate that the lyophilization process is capable of producing homogeneous drug product batches.
+
+
+**Example 2**
+
+This example presents one of the many failure scenarios in lyophilizer operations. In this hypothetical failure mode, anomalous higher residual moisture content on top shelf was postulated. In the simulated dataset, failure of the upper shelf hydraulic system leads to unexpectedly variable and high moisture content test results. In this case, above the upper shelf is a temperature compensation shelf that ensures uniform heat transfer and enables shelf stoppering of the upper shelf first within the chamber. Therefore, if the upper shelf is accidentally partially stoppered, this would affect the mass and subsequent heat transfer of the sublimation process by restricting water vapor flow from the vials, leading to multiple failure modes dependent upon the degree of restriction to water vapor flow. If the vial is fully stoppered, the likelihood is that the vial would not dry and would leave the process as a liquid. A large restriction to water vapor flow could lead to product collapse, and a smaller restriction to water could allow the product to dry at a temperature above collapse temperature; however, both restrictions could potentially dry to a lower moisture than expected. In this situation the vials on this shelf would not represent a uniform drying process and would either have moisture levels well in excess of the upper acceptance limit \(liquid\) or possibly excessively dry \(collapsed and non-collapsed\) when compared to the rest of the batch; if these manifestations where considered as random across the shelf and taken as averages at the sampling zones, then a hypothetically higher moisture level could potentially be observed. The other shelves and vials in the batch would be unaffected.
+
+
+
+
+1. 
+3.3.4
+
+
+Protocol was executed with deviations.
+
+
+
+
+2.  
+3.3.5
+
+
+Moisture content test results were analyzed using Eq. 1 and average equivalency approach described in Sect. 2. Figure 4 depicts test results from sampled shelves. Tables 6, 7, and 8 tabulate summary statistics and the results from equivalency assessment for maximum difference quantified between sample positions.
+
+
+
+
+
+![](images/000011.jpeg)
+
+
+***Fig. 4*** 
+Plot of simulated moisture content test results for Example 2
+
+
+
+
+***Table 6*** 
+Summary statistics of simulated moisture content test results from Example 2
+
+
+
+**Number of observations**
+
+**Minimum**
+
+**Maximum**
+
+**Mean**
+
+**Standard deviation**
+
+54
+
+0.4216773
+
+1.5339050
+
+0.8125539
+
+0.4930769
+
+
+
+
+***Table 7*** 
+Fitted full and reduced model to moisture content for Example 2. Significant effects are highlighted in yellow in full model
+
+
+
+![](images/000012.jpeg)
+
+
+
+
+
+***Table 8*** 
+Equivalency assessment among sample positions for simulated moisture content test results for Example 2. Homogeneity acceptance criteria = ± 0.5
+
+
+
+**Difference label**
+
+**Difference estimate**
+
+**StdErr**
+
+**DF**
+
+***t* Value**
+
+**Probt**
+
+**Alpha**
+
+**Lower one-sided 95% confidence limit**
+
+**Upper one-sided 95% confidence limit**
+
+***Y*****max** **−** ***Y*****min**
+
+1.0432
+
+0.008076
+
+51
+
+129.17
+
+<0.0001
+
+0.1
+
+1.0297
+
+1.0567
+
+
+
+
+
+1. 
+3.3.6
+
+
+Comparison of analysis results against HAC of moisture content shows that the confidence intervals for the difference in means among sample positions exceeds the homogeneity acceptance criteria.
+
+These results illustrate that the failure in the magnitude of shelf hydraulic system led to ~1% difference in the moisture content across the lyophilizer.
+
+
+
+
+
+## **4 **Summary
+
+A step-wise approach for assessing homogeneity of lyophilized drug product batches during process performance qualification of a commercial biomanufacturing process was detailed with illustrations using simulated datasets. Results clearly demonstrate the utility of the framework for robust assessment of the process capability to manufacture homogeneous drug product and for generating a robust data package for drug product filing purposes.
+
+
+## Appendix: SAS Code for Generating Simulated Data in Example **1** and its Analysis
+
+
+
+
+\*\* Simulate noise and a shelf effect = - 0.4% to 0.55%;
+
+\*\* Random noise – with slight increase, y
+
+**data** doa;
+
+do shelf = -**1**, **0** , **1**;
+
+do length = -**1**, **0** , **1**;
+
+do width = -**1**, **0**, **1**;
+
+do rep=**1**, **2**;
+
+y = **0.475** \+ **0.025**\*rannor\(**293837**\);
+
+if shelf=-**1** then ys = **0.475** \+ **0.025**\*rannor\(**384736**\);
+
+if shelf = **0** then ys = **0.5** \+ **0.025**\*rannor\(**49284**\);
+
+if shelf = **1** then ys = **0.54** \+ **0.025**\*rannor\(**444049**\);
+
+group="S="||trim\(left\(shelf\)\)||" L="||trim\(left\(length\)\)||" W="||trim\(left\(width\)\);
+
+output;
+
+end;
+
+end;
+
+end;
+
+end;
+
+**run**;
+
+
+
+**proc print** data=doa;
+
+**run**;
+
+
+
+**proc means** data=doa n mean min max std;
+
+var ys;
+
+**run**;
+
+
+
+symbol1 v=dot c=red h=**2**;
+
+symbol2 v=trianglefilled c=green h=**2**;
+
+symbol3 v=trianglefilled c=blue h=**2**;
+
+axis1 order=\(**0.2** to **1** by **0.2**\) offset= \( **5** pct, **5** pct\) label=\( rotate=**0** angle=**90** "Moisture Content, %\(w/w\)" height=**8**pt\) minor=none major=\(number=**10**\);
+
+axis2 offset= \(**5** pct, **5** pct\) label=\( rotate=**0** angle=**0** "Sample Location" height=**9**pt \) value=\(height=**8**pt color=blue\) minor=none major=none;
+
+
+
+**proc gplot** data=doa;
+
+plot ys\*group=shelf/vaxis=axis1 haxis=axis2; \*cvref=red vref=3.0;
+
+**run**;
+
+**quit**;
+
+ds html;title;
+
+
+
+\*\*\* Data Set;
+
+**data** x1\(rename=\(ys=Value shelf=S length=L width=W\)\);
+
+set doa;
+
+**run**;
+
+
+
+\*\*\* Full Model in RSREG;
+
+**proc rsreg** data=x1;
+
+model value = S L W;
+
+**run**;
+
+**quit**;
+
+
+
+\*\*\* Full Model;
+
+**proc mixed** data=x1;
+
+model value = S W L S\*W S\*L W\*L S\*S W\*W L\*L / outpm=new2 ;
+
+**run**;
+
+**quit**;
+
+
+
+\*\*\* Reduced Model;
+
+ods output SolutionF=params;
+
+**proc mixed** data=x1;
+
+model value = S L S\*L/ solution outpm=new;
+
+**run**;
+
+**quit**;
+
+
+
+**proc print** data=params;
+
+**run**;
+
+
+
+\*\* Sort predictions from largest to smallest;
+
+**proc sort** data=new out=news;
+
+by descending pred ;
+
+**run**;
+
+
+
+\*\* Output min and max predictions;
+
+**proc means** data=news min max;
+
+var pred;
+
+output out=desc min=min max=max;
+
+**run**;
+
+
+
+**data** desc2;
+
+set desc;
+
+diff= max - min;
+
+**run**;
+
+
+
+**data** \_null\_;
+
+set desc2;
+
+call symput\('yhat\_max', max\);
+
+call symput\('yhat\_min', min\);
+
+call symput\('diff', diff\);
+
+**run**;
+
+
+
+\*\*\* The beta’s should match the full model fit - in the same order;
+
+\*\*\* From this, the first and the last rows are needed;
+
+**data** newf\(keep=beta1-beta9\);
+
+set news\(keep=value pred s l w\);
+
+beta1=S;
+
+beta2=L;
+
+beta3=W;
+
+beta4=S\*L;
+
+beta5=S\*W;
+
+beta6=L\*W;
+
+beta7=S\*S;
+
+beta8=L\*L;
+
+beta9=W\*L;
+
+if \_n\_=**1** or \_n\_=**54**;
+
+**run**;
+
+
+
+\*\*\* The data should be transformed;
+
+**proc transpose** data=newf out=tanalyze;
+
+**run**;
+
+
+
+\*\* Compute difference column;
+
+**data** dd;
+
+set tanalyze;
+
+diff=col1-col2;
+
+**run**;
+
+\*\*;
+
+**proc sql**;
+
+select diff into: beta1-:beta9 from DD noprint;
+
+**quit**;
+
+
+
+%put & beta1 & beta2 & beta3 & beta4 & beta5 & beta6 & beta7;
+
+%put & yhat\_min & yhat\_max & diff;
+
+
+
+ods output estimates=est;
+
+**proc mixed** data=x1;
+
+model value = S L W S\*L S\*W L\*W S\*S/ outpm=new;
+
+estimate 'max-min'
+
+S & beta1
+
+L & beta2
+
+S\*L & beta4/cl alpha=**0.1**;
+
+**run**;
+
+**quit**;
+
+
+
+
+
+**References**
+
+1.  
+1.
+
+Agalloco J, Carleton FJ. Validation of pharmaceutical processes, 3rd Edition. New York: Informa Healthcare; 2008.
+
+2.  
+2.
+
+FDA – Guidance for Industry. Process validation: general principles and practices. U.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research \(CDER\), Center for Biologics Evaluation and Research \(CBER\), Center for Veterinary Medicine \(CVM\), Current Good Manufacturing Practices \(CGMP\), Revision 1. 2011.
+
+3.  
+3.
+
+Doymaz F, Ye F, Burdick RK. Product homogeneity assessment during validation of biopharmaceutical drug product manufacturing processes. In: Jameel F, Hershenson S, Khan MA, Martin-Moe S, editors. Quality by design for biopharmaceutical drug product development. New York: American Association of Pharmaceutical Scientists Press and Springer; 2015. p. 649–59.[Crossref](https://doi.org/10.1007/978-1-4939-2316-8_26)
+
+4.  
+4.
+
+Myers RH, Montgomery DC, Anderson-Cook CM. Response surface methodology: process and product optimization using designed experiments. 4th ed. Hoboken: Wiley; 2016.
+
+5.  
+5.
+
+Parenteral Drug Association. Technical report 60. Process validation: a life cycle approach. 2013. p. 35.
+
+6.  
+6.
+
+Limentani GB, Ringo MC, Ye F, Bergquist ML, McSorley EO. Beyond the t-test: statistical equivalence testing. Anal Chem. 2005;77\(11\):221–6.[Crossref](https://doi.org/10.1021/ac053390m)
+
+7.  
+7.
+
+Chambers D, Kelly G, Limentani G, Lister A, Lung KR, Warner E. Analytical method equivalency: an acceptable analytical practice. Pharm Technol. 2005;29:64–80.
+
+8.  
+8.
+
+Richter S, Richter C. A method for determining equivalence in industrial applications. Qual Eng. 2002;14\(3\):375–80.[Crossref](https://doi.org/10.1081/QEN-120001876)
+
+9.  
+9.
+
+Burdick RK, Sidor L. Establishment of an equivalence acceptance criterion for accelerated stability studies. J Biopharm Stat. 2013;23\(4\):730–43.[Crossref](https://doi.org/10.1080/10543406.2013.789891)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23799811)
+
+
+

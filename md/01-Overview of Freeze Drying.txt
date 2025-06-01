@@ -1,0 +1,799 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_1](https://doi.org/10.1007/978-3-031-12634-5_1)
+
+
+**
+# Overview of Freeze Drying
+**
+
+
+Feroz Jameel1 
+
+
+\(1\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+
+
+
+**1 **Why Freeze Drying?
+
+**2 **Equipment
+
+**2.1 **Chamber
+
+**2.2 **Condenser
+
+**2.3 **Vacuum System
+
+**2.4 **Control System
+
+**3 **Formulation
+
+**4 **Process
+
+**4.1 **Freezing
+
+**4.2 **Primary Drying
+
+**4.3 **Secondary Drying
+
+**4.4 **Process Control
+
+**5 **Stability
+
+References
+
+
+## Abstract
+
+Freeze drying which is also termed as lyophilization is one of the drying technologies that is commonly used to enhance the storage stability of products that have marginal stability in liquid state. The chapter starts with discussing the advantages and disadvantages of lyophilization, and situations where its use can be beneficial. It describes in detail the equipment involved in freeze drying, the various phases of freeze drying process, the design and composition of the formulation for freeze drying and various techniques to monitor and control the process. Finally, it also briefly describes the kinetics in the lyophilized solid state and model to predict the stability and shelf-life of the product.
+
+
+**Keywords**
+Lyophilization Freezing Primary drying Secondary drying Stabilizers Bulking agents Collapse temperature Glass transition temperature Shelf temperature Chamber pressure Sublimation rate
+
+
+## **1 **Why Freeze **Drying**?
+
+It is central to the discovery and development of a new therapeutic entity that it is filled and finished in the right dosage form that has adequate shelf-life and meets patient compliance, otherwise all the years of efforts will not bring any benefit to the pharmaceutical/biopharmaceutical industry. Therapeutic molecules that have marginal stability in the aqueous systems are often dried to improve the stability and enhance the shelf-life as it is known that the stability of most \(small\) molecules normally increases in the order of solution < glassy solid < crystalline solid, due to the increasingly restricted mobility of the reacting species in these phases \[1–3\]. Several drying technologies are currently available to the formulation scientist, such as lyophilization, spray drying, spray-freeze drying, supercritical fluid technology, foam drying, and vacuum drying microwave drying, and every technology has merits and demerits that limit its use \[4\]. Although process yields with spray drying continues to be a challenging disadvantage, spray drying, which is increasingly becoming the most important method for dehydration in the food industry, is seeing success in producing pharmaceutical and also biopharmaceutical powders where the size and morphology are central to the delivery and performance of the protein powder \[5\]. However, hot air, control of residual moisture content, and stresses imposed by atomization and interfaces continue to be other challenging factors in meeting stability requirements specifically for biopharmaceuticals. Given the limitations of other drying technologies, historically lyophilization remained the drying method of choice for both pharmaceuticals and biopharmaceutical industry due to its overwhelming advantages as noted below \[6\].
+
+Lyophilization which is also termed as freeze drying is a dehydration process that converts water in to ice and removes it through sublimation, which is termed as primary drying phase. The unfrozen water is removed through desorption by the application of heat which is called secondary drying. Thus, it converts solutions into solids thereby improving/enhancing the storage stability of materials that otherwise have marginal stability in solutions. The removed water from the product is reconverted into ice on the chilled coils in the condenser. 
+
+*Advantages:*
+
+1.  
+1.
+
+
+It is a low-temperature process, and hence is expected to cause less thermal degradation compared to a “high temperature” process, such as spray drying;
+
+
+
+
+2.  
+2.
+
+
+It does not involve a terminal sterilization step and maintains sterility and “particle-free” characteristics of the product much more easily than do other processes;
+
+
+
+
+3.  
+3.
+
+
+It offers a method for controlling residual moisture content and headspace gas composition in the vial for those products whose storage stability is influenced by residual moisture content and vial headspace gas composition such as oxygen;
+
+
+
+
+4.  
+4.
+
+
+Its scale-up is easy and it provides reasonable process yields.
+
+
+
+
+
+## **2 **Equipment
+
+The Main Function of the integrated Freeze Dryers and Automated System is to facilitate lyophilization \(freeze drying\) of aseptically filled drug product while preserving its aseptic integrity. In order to preserve the aseptic integrity, the unit must be capable of executing Clean In Place and Sterilize in Place cycles, to defined Acceptance Criteria. Upon completion of the freeze drying process, the unit must be capable of removing ice buildup on the condenser surfaces through a Defrost cycle. The unit will also be capable of performing recipe defined major sub-system tests as part of a Plant Test cycle to verify system integrity, evaluate performance, or for maintenance troubleshooting purposes.
+
+The integrated Freeze Dryer and Automated system will feature automatic loading, unloading, and processing. The specific process, along with its associated parameters and alarm limits, will be recipe selectable by the user. Additionally, at the start of a process, a Cycle Run Report will initiate automatically to collect critical data and events for that batch. The Cycle Run Report will become an integral part of the batch record for that process. The Automated System will continuously track a user defined set of data which will be available for real-time or future access.
+
+A lyophilizer consists of two major components, the drying chamber and a condenser, in addition to refrigeration system, vacuum system, and control system \[7\].
+
+### **2.1 **Chamber
+
+The drying chamber consists of several shelves made up of AISI type 316L stainless steel on which the vials or containers partially stoppered containing the solution are placed and these shelves are temperature-controlled ranging from 60 °C to −50 °C through the flow of the heat transfer fluid. The shelves are moved via a hydraulic ram of sufficient diameter to generate stoppering forces. The shelf movement facilitates the loading/unloading of vials and the cleaning process. The common refrigeration systems provide cooling to the shelves through heat exchangers within the shelf heat transfer fluid systems. Depending upon the purpose the number of shelves and vials varies, a research grade typically has three shelves accommodating a few hundred vials, while a typical production scale freeze dryer may have 10–20 shelves \(Fig. 1\) accommodating 50,000 to 100,000 vials depending upon size. 
+![](images/000000.jpeg)
+
+
+***Fig. 1*** 
+Freeze Dryer Chamber with shelves. \(Courtesy SP Scientific\)
+
+
+
+### **2.2 **Condenser
+
+The condenser chamber consists of coils capable of maintaining very low temperature, −70 °C to −100 °C, and connected to the drying chamber through a tube/spool. The water vapors generated from sublimation of ice travel through the tube into the condenser chamber and condense on the surface of the cooled coils. Various methods are used to chill the condenser such as by direct expansion of refrigerant which can provide operating temperature ranging from −45 °C to −100 °C, liquified gases such as liquid nitrogen which provide an operating temperature of −70 °C and below, and a circulated brine which can provide an operating temperature range of −50 °C to −70 °C. Liquid nitrogen is believed to be more cost-effective from an energy consumption point of view. Condensers come in two designs: internal and external. External condensers are preferred as they offer a few advantages: \(1\) barometric control possible \(iso valve\), \(2\) faster turnaround, \(3\) less oil back streaming, \(4\) temperatures more uniform, and \(5\) higher ice capacities.
+
+### **2.3 **Vacuum System
+
+A set of redundant dry vacuum pumps with blowers, operating in tandem or individually, are incorporated for reducing pressure in the chamber, condenser, and associated piping. The desired pressure of 50–150 mTorr is maintained through vacuum pump and bleeding of nitrogen or other gas.
+
+#### ***2.3.1 ***Chamber Pressure Control
+
+The chamber pressure control system consists of the sterile vacuum vessel containing the shelves onto which the product is placed, sterile nitrogen supply piping, the gas bleed control valve, the dual serial nitrogen gas filters, the redundant booster pumps, the redundant dry vacuum pumps, the redundant chamber MKS vacuum gauges, and the control system. The gas bleed control valve is an element requiring PID control logic. The system uses the chamber MKS gauge as the basis for the PID-controlled chamber pressure loop.
+
+Chamber pressure is controlled in the freeze drying process by specifying the chamber pressure setpoint. After the recipe download and cycle initialization is completed, a recipe variable indicator is used to determine if one of the vacuum systems will be shut down when the chamber reaches the evacuation pressure. The system selects and maintains activation of one of the redundant dry vacuum pumps based on whichever was inactive in the previous process. Pressure control at the specified setpoint is accomplished by modulating the gas bleed control valve based on the difference between the actual chamber pressure measured in the chamber above the shelves and the setpoint pressure in the logic. If the actual pressure is greater than setpoint, then the sterile nitrogen gas flow is reduced according to the PID control algorithm. Similarly, if the actual pressure is less than setpoint, then additional nitrogen is requested according to the control loop tuning.
+
+The pressures in the drying and condenser chambers are controlled through pressure gauge capacitance manometer and monitored by the pirani gauge installed in both chamber and condenser.
+
+### **2.4 **Control System
+
+The Control System Specifications constitutes the sophisticated controls including full HMI and PL. Global functions of the control system include system security, general batch management, data storage/archiving, cycle Initiation, recipe download, process monitoring, equipment monitoring, alarm monitoring, alarm responses, trend monitoring, cycle run report generation, E-Stop \(emergency stop\), process modification, and equipment maintenance.
+
+## **3 **Formulation
+
+In addition to drug active, a typical formulation for freeze drying consists of several ingredients often referred to as excipients are included in the formulation with intended role. Although the rule of thumb is to keep the formulation simple, a dilute solution consisting of ≤1% solids is practically not feasible to freeze dry into a cake as there will not be enough solids to form a structure. In those cases where the drug active is potent and required in small quantities, a bulking agent/filler is added to provide both mechanical strength and elegance to the cake. The bulking agents could be crystallizable \(mannitol, glycine\) or amorphous \(sucrose, trehalose\) in nature. In the case of protein products, stabilizers are included in the formulation to stabilize the protein against the stresses encountered during freezing, drying, and upon storage. Surfactants \(Polysorbates 20 or 80\) are used to stabilize the protein against ice–air or/and ice–solution interfaces during freezing/thawing \[8–12\]. Cryoprotectants such as disaccharides \(sucrose, trehalose\) and polyols \(sorbitol, PEG\) are added to the formulation to protect the protein against freezing-induced denaturation, while lyoprotectants are included in the formulation to protect the protein against drying stresses during freeze drying and upon storage \[13\]. In situations where the collapse temperature of the formulation is low and in order to improve the collapse temperature to be able dry warmer and faster and again process efficiency, collapse temperature enhancers \(cyclodextrins, hydroxy ethylstarch\) are added to the formulation \[6\]. Some protein products may require stabilizers to address the chemical instability associated with protein such as buffers to control pH, antioxidants to address oxidation, and chelators to address metal-induced reactions.
+
+The formulation and the freeze drying process are interrelated, freeze drying properties of the excipients affects the overall collapse temperature/*T*g’ of the formulation which in turn dictates the selection of lyophilization process conditions and the efficiency or ease with which it can be dried, hence, selection of excipients is central to design of the formulation and process. The selection of these excipients, their weight ratios, and processing conditions are critical to final product quality attributes and is described in detail in chapter “[Concepts and Strategies in the Design of Formulation for Freeze Drying](https://doi.org/10.1007/978-3-031-12634-5)”.
+
+The collapse temperature and the *T*g’ can be measured directly using freeze-drying microscopy \(FDM\) and modulated differential scanning calorimetry \(MDSC\) respectively. The *T*g’ of a monophasic multicomponent system can also be estimated from the *T*g’ values of the individual components using the Fox equation \[14\]. 
+
+
+
+![$$ \frac{1}{T_{\textrm{g}}}=\frac{W_{\textrm{i}}}{T_{\textrm{g}\textrm{i}}}+\frac{W_2}{T_{\textrm{g}2}} $$](images/000001.jpeg)
+
+
+\(1\)
+
+
+where *W*i is the weight fraction of component “i” and *T*gi is the glass transition temperature of pure component “i”. Equation \(1\) can be applied to determine the *T*g’ of systems containing two or more amorphous components wherein *T*gi is the *T*g’ of aqueous component “i” and *W*i is the weight fractions of the solute relative to the total mass of solutes. The value of *T*g’ determined by DSC is approximately 2–3 degrees lower than the actual *T*c measured using FDM.
+
+A eutectic system is a mixture of two or more crystalline compounds that melt together at the lowest freezing temperature. In a mixed formulation system where crystalline phase constitutes the major weight fraction of the matrix, the *T*e will be the critical temperature of the formulation. Freeze drying with the product temperature above the *T*g’ of the amorphous phase of the formulation but below *T*e of the crystalline component will result in the collapse of the amorphous component; however, the crystalline phase will provide the necessary mechanical support to maintain the cake structure and elegance. This is an effective strategy to enable fast and robust freeze drying cycles, but the impact of drying above the collapse temperature on the product stability needs to be evaluated \[6\].
+
+## **4 **Process
+
+Freeze drying process is classified into three phases: freezing, primary drying, and secondary drying \(Fig. 2\). The liquid solution that contains drug active along with other excipients \(buffer, stabilizers, and bulking agent\) to be freeze dried is filled in the glass vials and placed on the shelves of the freeze dryer that are temperature-controlled. The freezing phase starts with the lowering of the shelf temperature typically from −40 °C to −45 °C and held there for a few hours depending upon the fill volume to ensure complete conversion of water into ice and ensure complete solidification of ice. 
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Depiction of events in the various phase of freeze drying
+
+
+
+Once the all the vials are frozen the next step is to carry out primary drying which is a sublimation phase where the pressure is reduced to deep vacuum typically in the range of 60–150 mTorrs. As it can be seen from the phase diagram below \(Fig. 3\), lowering of the pressure enables direct conversion of the ice into phase through sublimation. 
+![](images/000003.jpeg)
+
+
+***Fig. 3*** 
+Phase diagram of water - phase curves and triple point of water
+
+
+
+Additionally, heat is applied to expedite the drying process. Primary drying is the longest phase in the freeze drying process and can take from few days up to a week depending upon the components in the solution and selection of chamber pressure and the shelf temperature. Not all vials dry at the same time due to differences in heat transfer across the shelf and between the shelves, care is taken through a soak period to ensure all vials have completed primary drying prior to advancing to secondary drying.
+
+During the freezing phase not all the water is converted to ice due to depression of freezing point with increase in concentration of solutes as the freezing progresses. Depending upon the composition of the solution, there will be still 10–15% of water remaining unfrozen and it can remain free or bound to excipients. This water is removed during secondary drying through the application of heat by carrying out secondary drying at an elevated of temperature 25–40 °C.
+
+### **4.1 **Freezing
+
+#### ***4.1.1 ***Physics of the ***Freezing*** and ***Crystallization*** Process \(Adapted from Book Chapter in “Development of Biopharmaceutical Drug-Device Product”\)
+
+The physicochemical changes and the thermal events that take place during the process of freezing and crystallization depend on the composition of the solution. Figure 4 depicts the freezing profile of two solutions: pure water \(ABCDE\) and a sucrose aqueous solution \(A’B’C’D’\). In pure water, upon lowering the temperature from point A, the nucleation or critical mass of nuclei is not formed until point B. Once the nuclei are formed, the crystallization process starts. Since crystallization is an exothermic reaction, the latent heat of fusion is given out, and the temperature rises from B to C. The event shown as the solution progresses from point A to B is described as the degree of supercooling the water undergoes prior to nucleation. This degree of supercooling is dependent upon the cooling rates employed, and the purity of water \(free of particles which serve as nucleation sites\), with the lower number of free particles leading to a higher degree of supercooling. Point C, which corresponds to 0 °C, is the equilibrium freezing point of pure water, and at this point, the water continues to crystallize until point D. Once point D is achieved, all of the water is converted into ice, and because the crystallization process is complete and no heat is given out, the temperature starts dropping to the set point, E. The freezing time is usually defined as the time from the onset of nucleation to the end of the crystal growth phase. The size of ice crystals formed during crystallization \(from C to D\) is dependent upon the degree of supercooling: faster cooling rates lead to higher degrees of supercooling and smaller ice crystal size \(Fig. 5\) \[14\]. A different freezing behavior is expected once a solute is added to pure water. A solute-containing solution is governed by Roult’s law which relates the vapor pressure of the solution to that of the pure solvent based upon solute concentration. Figure 4 shows the key differences that exist between pure water and a sucrose solution. First, B’ is not the same as B in terms of temperature; a sucrose solution nucleates earlier than B because of the presence of sucrose molecules, which act as nuclei. Secondly, C’, the freezing point temperature, is not as high as C, due to the initial freezing point depression caused by the presence of sucrose. Both of these events are dependent on the concentration of solutes in the solution. Additionally, in aqueous solutions containing solutes, a phenomenon called cryoconcentration is observed \[15, 16\]. As the water starts converting to ice upon cooling, the freezing front moves forward leaving behind the solutes to concentrate, resulting in pockets rich of solutes. These pockets rich in solutes further depress the freezing point of free water, and this phenomenon continues \(C’D’\) with the cooling, leaving some residual unfrozen water, regardless of how low the cooling temperature is set. Also, as cryoconcentration increases, the viscosity of the free water increases, which decreases the mobility and diffusion properties of the system and inhibits the crystallization process. The cryoconcentration process establishes the freezing curve as shown in Fig. 6. This curve can be used to predict the amount of ice at any given temperature, which in turn, is a function of the freezing point depression caused by the concentration of solutes in the solution. 
+![](images/000004.jpeg)
+
+
+***Fig. 4*** 
+Freezing profiles of pure water \(ABCDE\) and a sucrose solution \(A’B’C’D’\)
+
+
+![](images/000005.jpeg)
+
+
+***Fig. 5*** 
+Effect of freezing rate on the morphology of ice
+
+
+![](images/000006.jpeg)
+
+
+***Fig. 6*** 
+Freezing curves of mixtures. \(Adapted from Ref. \[18\]\)
+
+
+
+
+**Recrystallization of Ice/Ostwald Ripening**
+
+Ostwald ripening is a phenomenon where the bigger ice crystals become larger at the expense of the smaller ice crystals during warming and cooling. Smaller ice crystals are unstable and tend to melt upon temperature fluctuations due to the cycling of the freezers and/or the automatic defrosts. As a result of the smaller ice crystals melting, the amount of unfrozen water in the freeze concentrate phase increases, which will refreeze upon a decrease in temperature, but does not renucleate.
+
+Instead of forming new ice crystals, they get deposited on the surface of existing larger crystals so the net result is that the total number of crystals diminishes and the mean crystal size increases \(Fig. 7\). This advantage of this phenomenon is utilized in freeze drying to achieve homogeneity in ice crystal size and favor larger ice crystals to facilitate faster drying. 
+![](images/000007.jpeg)
+
+
+***Fig. 7*** 
+Cryo-scanning electron micrograph images illustrating the effect of temperature fluctuations on crystal size. The top panel shows images before the temperature fluctuation, the middle panel illustrates the tremendous increase in crystal size that has occurred after heat shock, and the bottom panel shows an example of accretion, where crystals fuse as they grow. \(Adapted from the work of A. Flores and H. D. Goff. [https://​www.​uoguelph.​ca/​foodscience/​book-page/​temperature-fluctuations-and-ice-recrystallizatio​n](https://www.uoguelph.ca/foodscience/book-page/temperature-fluctuations-and-ice-recrystallization)\)
+
+
+
+
+
+**Formation of the Glassy Phase in Frozen Systems**
+
+Upon lowering the cooling temperature, the water starts to form ice through a two-step crystallization process: nucleation followed by propagation. As the temperature continues to decrease, water is converted into ice, resulting in the concentration of the solutes in the free, unfrozen water. An equilibrium freezing temperature exists for each ice/unfrozen phase ratio, which is a function of the solute concentration. Figure 8 depicts the equilibrium thermodynamic process modelled on a phase diagram as an equilibrium freezing \(liquidus\) curve, which goes from the melting temperature \(*T*m\) of pure water \(0 °C\) to the eutectic temperature \(*T*e\) of the solute. *T*e is the point at which the solute has been freeze-concentrated to its saturation concentration. If the solutes reach supersaturation, then crystallizable excipients such as mannitol or glycine will crystallize and precipitate. The other solutes will remain amorphous, and when the critical solute-dependent concentration is reached, the unfrozen amorphous freeze concentrate exhibits restricted mobility. At this point, the physical state of the system changes from viscoelastic liquid to an amorphous solid phase called “glass” \[16\]. The temperature at which this occurs is called the glass transition temperature of maximally freeze-concentrated systems \(*T*g’\), and the corresponding unfrozen water and amorphous solutes concentrations are termed *W*g’ and *C*g’, respectively \(Fig. 8\). A glass is defined as a non-equilibrium, metastable, amorphous, disordered solid of extremely high viscosity \(e.g., viscosity coefficient ranging from 1010 to 1014 Pa.s.\) as a function of temperature and concentration. The glass transition curve extends from the glass transition temperature \(*T*g\) of pure water \(−134 °C\) to the *T*g of pure solute. The equilibrium phase diagram and the kinetically derived state diagram can be modelled together to form a supplemented state diagram. The supplemented state diagram illustrating the solid/liquid coexistence boundaries and glass transition profile for a binary sucrose/water system is shown in Fig. 8. Below and to the right of the glass transition line, the solution exists in the amorphous glass state, with or without ice present, depending on the temperature and freezing path followed. On the other hand, above and to the left of the glass transition line, the solution is in the liquid state, with or without ice, depending on the temperature. Point A in Fig. 8 depicts the initial concentration of 20% of sucrose at room temperature, and point B depicts the initial glass transition temperature \(*T*g\) of the 20% sucrose solution \(if the solution could be undercooled to this temperature without ice formation\). Upon slowly cooling the sucrose solution, nucleation and subsequent crystallization begin at point C. This occurs after some degree of supercooling due to the presence of sucrose, which initiates the freeze concentration process following the water removal as ice. As ice crystallization proceeds, the continual increase in solute concentration \(removal of water\) further depresses the equilibrium freezing point of the unfrozen water phase in a manner which follows the liquidus curve \(shown as path C\). The increased concentration results in the glass transition line being moved up with a rapid increase in viscosity \(path B\), thus improving the *T*g of the unfrozen water phase. Co-crystallization of solute at the *T*e is unlikely to happen as sucrose is not a crystallizable excipient, and thus freeze concentration continues past *T*e into a nonequilibrium state because the solute becomes supersaturated. When a critical solute-dependent concentration is reached, the unfrozen liquid exhibits very restricted mobility, and the physical state of the unfrozen water phase changes from a viscoelastic liquid to a brittle, amorphous solid glass. At the *T*g’, the supersaturated solute takes on solid properties because of reduced molecular motion, which is responsible for the tremendous reduction in translational, and not rotational, mobility. It is this intrinsically low mobility below *T*g’ that dictates that protein products to be stored frozen below their *T*g’. Warming from the glassy state to temperatures above the *T*g’ provides tremendous increases in mobility and diffusion, not only from the effects of the amorphous to viscous liquid transition but also from increased dilution due to the melting of small ice crystals that occurs almost simultaneously \(*T*g’ = *T*m’\). The time scale of molecular rearrangement continually changes as the *T*g is approached. Therefore, some enhanced stability at temperatures above *T*g’ can be gained by minimizing the delta *T* between the storage temperature and *T*g’, which can be achieved either by reducing the storage temperatures or enhancing the *T*g’ through freezing methods or formulation. Hence, knowledge of the glass transition temperature provides a clear indication of molecular diffusion and reactivity and, therefore, shelf-stability. 
+![](images/000008.gif)
+
+
+***Fig. 8*** 
+Phase diagram of equilibrium freezing for binary sucrose-water system. \(Adapted from Ref. \[18\]\)
+
+
+
+
+#### ***4.1.2 ***Impact of ***Freezing*** Process on ***Protein*** Solutions and Modes of Denaturation
+
+The freezing process can denature the protein through three mechanisms: \(1\) cryoconcentration, \(2\) ice surface denaturation, and \(3\) cold denaturation. 
+
+1. 
+1.
+
+
+Cryoconcentration
+
+The objective of freezing is to lower the temperature to a point that the solution is completely solidified, thereby enabling sublimation and also arresting reactions that lead to degradation of the protein in the liquid state. As the solution is cooled, the liquid may supercool to a temperature well below the equilibrium freezing temperature, particularly in the case of vials and small containers. With sufficient supercooling, nucleation of ice proceeds rapidly, and the system freezes quickly. During the freezing of bulk solution in large-scale containers, freezing occurs slowly, and as the liquid water converts to ice, the protein and formulation excipients are progressively concentrated in the regions between the ice crystals. After the initial ice nucleation and crystallization, the product cools with continuous conversion of water to ice. As this occurs, the amount of water in the remaining liquid phase decreases, and the concentration of the solute in the remaining solution increases. This freeze concentration effect results in an increase in protein concentration, which dramatically increases the probability of molecular collisions. The bimolecular collisions between protein molecules can lead to denaturation of the protein through aggregation. For example, although a reduction in temperature from 5 °C to −40 °C would reduce the rate constant significantly, the increase in the concentration factor due to the increase in concentration has a more significant impact, thus resulting in a net increase in reaction rate. If excipients such as ionic salts and buffer species are present in the formulation, they will also concentrate during the freezing process. For example, during the freezing process, a formulation containing 0.15 M NaCl will increase to 6 M NaCl before it forms eutectic with ice. Exposure of protein to high ionic strengths could contribute to the instability of the native conformation \[19\]. In addition, the effect of freezing on buffer choice must be considered. Buffers are included in the formulations to help maintain a stable pH. However, during the freezing process, decreases in solubility with a simultaneous increase in concentration can cause selective crystallization of the buffer component and result in dramatic pH shifts. The classic example is the sodium phosphate buffer system. It shows a dramatic decrease in pH of about four units due \*to the crystallization of the basic component. On the other hand, the potassium phosphate system shows an increase in pH upon freezing \[20\].
+
+*Mitigation Strategies for Cryoconcentration Effects* 
+
+	1. 
+1.
+
+
+The ice front velocity should be higher than the diffusion rate of solutes so that the protein molecules/solutes become entrapped by the freezing front. This can be achieved through the combination of shorter freezing path lengths and efficient external heat transfer.
+
+
+
+
+	2.  
+2.
+
+
+Increase the temperature differential between the heat transfer fluid and the product, which shortens freezing path lengths.
+
+
+
+
+	3.  
+3.
+
+
+Minimize the product residence time within the cryoconcentrated stage.
+
+
+
+
+	4.  
+4.
+
+
+Control the freezing rate within known limits.
+
+
+
+
+	5.  
+5.
+
+
+Use small-scale containers for efficient heat transfer and rapid liquid-to-solid phase transition.
+
+
+
+
+	6.  
+6.
+
+
+Do not mix while freezing. Mix during thawing and aim for uniform melting with mixing.
+
+
+
+
+
+2.  
+2.
+
+
+Ice–Liquid interface Denaturation
+
+Through phosphorescence lifetime decay of tryptophan residues, it was demonstrated that freezing of aqueous solutions of proteins causes perturbation or loosening of the native fold due to denaturation at the ice-liquid interface, which often results in the loss of secondary and tertiary structure \[21, 22\]. In some cases, this denaturation is largely reversible upon melting of the ice, and in other cases, substantial loss of activity is observed. This variation is believed to be due to its dependence on the residual volume of liquid water in equilibrium with ice and on the morphology of the ice.
+
+*Strategies to Minimize Ice–Liquid Interface* 
+
+	1. 
+1.
+
+
+Avoid extensive undercooling which leads to flash nucleation and smaller ice crystals.
+
+
+
+
+	2.  
+2.
+
+
+Optimize freezing rate to achieve low ice surface area.
+
+
+
+
+	3.  
+3.
+
+
+Investigate the use of formulation components to avoid surface interaction. The addition of cryoprotectants such as polyols and disaccharides \(e.g., sorbitol, glycerol, sucrose\) and surfactants profoundly attenuates or even eliminates the perturbation.
+
+
+
+
+
+3.  
+3.
+
+
+Cold Denaturation
+
+While some proteins survive freezing with little or no measurable loss in activity, the freezing process irreversibly inactivates others. Just as proteins undergo thermal denaturation at elevated temperatures, proteins also undergo spontaneous unfolding at very low temperatures, denoted “cold denaturation” \[23\]. This is partly because of the unsuitable environment created during freezing. As discussed above, as solute species are concentrated, the ionic strength increases, the pH may shift, and most importantly, the “hydrophobic interactions” that stabilize the native conformation of the protein in water are reduced or eliminated as bulk water is removed from the protein phase. The transition between the denatured and native state is described by changes in enthalpy \(Δ*H*\), entropy \(Δ*S*\), and Gibbs free energy \(Δ*G*\) through the following equation: 
+
+
+
+![$$ \Delta G=\Delta H-T\Delta S $$](images/000009.jpeg)
+
+
+
+
+
++ 
+Gibbs free energy relates to the amount of work required to disrupt the structure of a protein molecule and is used to describe the protein stability. The Gibbs free energy equation has a parabolic shape \(Fig. 9\), which suggests that both high and cold denaturation is thermodynamically possible. The maximum stability of the protein at its native state temperature \(*T*s\) occurs when the entropy difference between the native and denatured state is zero. This means that the stability depends mainly on the enthalpy differences between the native and denatured states. The enthalpy of transition can be determined as a function of temperature using either microcalorimetry or modulated DSC. Cold denaturation is not easy to determine experimentally since the declining part of the Gibbs free energy curve below *T*s may be below 0 °C. Although cold denaturation is not widely reported for protein drugs, it remains a possibility.
+
+The denaturation of protein resulting from cryoconcentration effects and ice–liquid interface adsorption can be eliminated or attenuated through the optimization of critical freezing parameters. If the cause for the protein denaturation during freezing is due to cold denaturation, then addition of small amounts of one of the “excluded solutes,” termed cryoprotectants \(amino acids, polyols, sugars, and poly\(ethylene\) glycols\), in molar concentrations will increase the free energy of denaturation. Therefore, the protein is protected against cold denaturation through the preferential exclusion of solutes from the surface of the protein \[25–34\].
+
+*Strategies to Minimize Cold Denaturation* 
+
+	1. 
+1.
+
+
+Formulation additives to increase freeze-thaw stability: \(a\) thermodynamic stabilizers, \(b\) cryoprotectants, \(c\) glass forming substances
+
+
+
+
+	2.  
+2.
+
+
+Rapid liquid-to-solid phase transition
+
+
+
+
+
+![](images/000010.jpeg)
+
+
+***Fig. 9*** 
+Schematic representation of the protein stability curve illustrating the temperature dependence of the free energy of unfolding, Δ*G*. \(Replotted from Ref. \[24\]\)
+
+
+
+#### ***4.1.3 ***Freezing Rate
+
+The main purpose of the freezing phase is to convert water into ice and achieve complete solidification of ice. In order to achieve complete solidification, the formulation solution needs to be frozen to at least 5–10 °C below the *T*g’ and to be held at it for at least 1–2 h depending on the fill volume to ensure the complete crystallization of water. Failure to achieve this will potentially result in the upliftment of the cake when vacuum is applied during primary drying as indicated in Fig. 1. The morphology and size of the ice crystals formed during the freezing phase influence the performance of the subsequent phases of freeze drying. Both features are dependent on the freezing protocol such as the cooling rates and the annealing time and temperature.
+
+The freezing process is characterized by two parameters, the degree of undercooling and ice crystallization rate. The degree of undercooling which is also loosely called degree of supercooling is the difference between the equilibrium freezing point and the temperature at which ice crystals are first formed in the solution. It is dependent on cooling rates and particle environment. The faster the cooling rate the higher would be the degree of undercooling. It is an important parameter for freeze drying because it determines the number of nuclei which determines the number of ice crystals which in turn determines the size of the ice crystals as the total amount of water that freezes is fixed. Ice crystals after sublimation leaves behind the pores, the size of the ice crystals determines the size of the pores which impacts/influences the mass transfer rate/drying rate. Hence, higher the degree of undercooling the smaller will be the size of ice crystals more resistance to mass transfer \[35\], longer will be the primary drying time and shorter will be the secondary drying time. Since secondary drying is a desorption phenomenon and dependent upon specific surface area, smaller the size of ice crystals bigger will the surface area and faster will be the secondary drying.
+
+The degree of undercooling and the size of the ice crystals will also impact the product quality as protein tends to denature at the ice/air interface, bigger the number of ice crystals greater will be the potential of interfacial denaturation of labile proteins \[15, 37, 38\]. Additionally, the freezing protocol influences the physical state of the excipients and their intended role in the formulation. Certain excipients either remain amorphous or crystallize depending upon several factors like molecular structure, solubility, concentration, and the presence of other formulation components \[39\].
+
+The second freezing parameter, ice crystal growth rate determines the time the product spends in a freezeconcentrated fluid state. As indicated above it is in the freezeconcentrated state where all the deleterious reactions occur, hence, it is prudent to minimize the residence time of the product in that stage by having a rapid rate of ice crystal growth. Generally speaking, in freezing process, the heat removal rate dictates the rate of ice crystal growth. In vial freeze drying, since heat removal occurs through the bottom of the vial, three things can be done to expedite the ice crystal growth: \(1\) low shelf temperature, \(2\) small fill volume-to-container area ratio \(i.e., small fill depth\), and \(3\) good contact between the container bottom and the freeze dryer shelf. Another important aspect of freezing protocol is not to place warm vials on the cold shelf as it will produce a product with two distinct cakes as the solution at the bottom will freeze with faster freezing rate and the upper part of the vial will freeze with a slower rate as the freezing front travels from bottom to top especially in cases with high fill height. Hence, it is recommended that the shelves be pre-cooled to −5 °C and the vials are allowed to equilibrate to −5 °C before cooling down to low shelf temperatures to produce uniform degree of undercoolings and uniform cake structure across the vial.
+
+#### ***4.1.4 ***Annealing
+
+Annealing is included in the freezing protocol as a thermal treatment step with one of the two reasons either to achieve bigger size of ice crystals through a phenomenon called Ostwald ripening to facilitate faster homogenous/uniform primary drying or to achieve complete crystallization of crystallizable excipients such as mannitol and glycine sodium chloride. Ostwald ripening is a phenomenon where large ice crystals grow at the expense of the smaller ice crystals. Whatever the intention might be in both cases, the solution needs to be frozen 10 degrees below the *T*g’ and warmed up and annealed at least 10 degrees above the *T*g’ to provide mobility and nuclei to grow into crystal. The optimal temperature and time can be determined through DSC, XRD \[40\], and/or FDM \[39\]. Complete crystallization can then be confirmed using several techniques including \(1\) *T*g’ annealing temperature curves, \(2\) the area under the eutectic melting endotherm in a frozen system, \(3\) the area under the bulking agent melting endotherm in dry powder system, and/or \(4\) the absence of an exotherm upon heating the dry pow der on DSC.
+
+#### ***4.1.5 ***Effect of Thermocouples on Freezing Rates
+
+Typically, during development stages temperature probes/thermocouples are placed inside the vials to monitor the product temperature.
+
+Vials containing thermocouples/sensors undergo less degree of undercooling causing nucleation of ice at a lower temperature, freeze faster than vials without temperature sensors \[41\] resulting in larger ice size crystals, leaving larger pores after sublimation, less resistance to mass transfer, freeze dry at lower temperature consequently less time to dry than the rest of the vials. Hence, vials with thermocouples are not considered representative of the whole batch, hence, a soak period of 10–15% are allocated for rest of the vials to catch up with the non-thermocouples vials and to compensate for the bias in drying time.
+
+This effect is particularly significant in manufacturing where the particle-free environment is due to class 100 area. The placement of temperature sensors in the vials introduces a significantly higher level of heterogeneous nucleation sites, thereby causing nucleation of ice at a lower temperature than in vials without temperature sensors \(see Fig. 10\). Additionally, location of the monitored vials in the vial array on the shelf is also an important factor in recording representative data. 
+![](images/000011.gif)
+
+
+***Fig. 10*** 
+Experimental observation of freezing bias. \(From Ref \[6\]\)
+
+
+
+### **4.2 **Primary Drying
+
+The primary drying phase in freeze drying process is considered to be the longest phase. Its understanding and optimization through right selection of shelf temperature and chamber pressure is central to the design of an efficient process. A right balance between the fast-drying rate and product elegance, and in some cases degradation \(avoidance of collapse of the product is of essence\) is important. The drying rate or the sublimation rate is governed by a simple equation, illustrated below, 
+
+
+
+![$$ \frac{\textrm{d}m}{\textrm{d}t}=\frac{P_0-{P}_{\textrm{c}}}{R_{\textrm{p}}+{R}_{\textrm{s}}} $$](images/000012.jpeg)
+
+
+
+Where d*m*/dt is the rate of change in mass, and is proportional to the driving force, the difference between the vapor pressure of ice at the temperature of the frozen product *P*0 and the chamber pressure *P*c and inversely proportional to the mass transfer represented as sum of resistance due the product *R*p and stopper *R*s.
+
+The sublimation rate during primary drying depends on the product resistance *R*p, which in turn depends on the cross-sectional area of the product \(i.e., internal diameter of the container used, *A*p\), nature of the product \(solid content and nature of excipients\), and the thickness of the dried product. Thus, the product resistance increases during primary drying due to the increase in the dried layer thickness \(Fig. 11\) \[35, 42\]. 
+![](images/000013.jpeg)
+
+
+***Fig. 11*** 
+Product resistance as a function of dried layer thickness
+
+
+
+At each temperature, drying time is roughly proportional to the square of the fill depth, and drying a product at target temperatures below 40 °C with 2-cm fill depths becomes challenging. Thus, fast freeze drying requires both high target product temperature and a small fill depth.
+
+### **4.3 **Secondary Drying
+
+Similar to primary drying, the product needs to be dried below the collapse temperature to be able to dry with retention of cake structure. The collapse temperature during secondary drying is mostly the *T*g of the product. Exposure of the product to elevated temperature of secondary drying immediately after the end of primary drying phase carries risk of structural collapse as there will be still 5–15% residual moisture depending upon formulation components. If the system is amorphous in nature, then the residual moisture content would be expected towards higher end otherwise it is expected to be towards lower end in case of crystalline system.
+
+Since water acts as a plasticizer and lowers the *T*g, the *T*g of the product at the end of primary drying will be quite low and it sharply improves with the removal of water as shown in Fig. 12, hence, a gradual ramping from primary drying to secondary drying shelf temperature at a ramp rate of 0.22 °C/min is recommended. 
+![](images/000014.gif)
+
+
+***Fig. 12*** 
+Variation of glass transition temperature and product temperature for moxalactam di-sodium during secondary drying. \(Calculated from data Refs. \[43, 44\]\)
+
+
+
+The concept of using low chamber pressures during primary drying is quite reasonable as the sublimation rate is directly proportional to *P**0* – *P*c. However, it is reported that \[44\] the secondary drying is insensitive to chamber pressures in the range of 0–0.2 Torr, but either diffusion in the solid or evaporation at the solid–vapor boundary is the rate-limiting step to mass transfer process for drying an amorphous solid, suggesting that relatively high chamber pressures \(0.1–0.2 Torr\) will be useful.
+
+One of the main objectives of freeze drying is to enhance the storage stability of the products that has marginal stability in liquid state and design of secondary drying conditions are central to it. Stability of protein or non-protein product is dependent on the mobility as it supports reactivity and the mobility is dependent on the residual moisture of the product. Since the moisture affects the glass transition temperature \(*T*g\) and mobility is related to *T*g, it is imperative that the residual moisture is targeted in such a way that *T*g value is significantly much higher than the temperature the product will be exposed to during transportation and storage. This targeted residual moisture value that may remain in the product without impacting product stability needs to be determined. Empirical moisture studies are performed by exposing the lyophilized product to saturated salt solutions corresponding to different relative humidities and creation of water sorption isotherm \[for details on moisture studies, please refer to Chapter “Design of moisture studies for a lyophilized product”\]. The optimal residual moisture level is quite specific and varies from product to product, usually it is less than 1% w/w for proteins and varies between 2% and 3% for vaccines.
+
+The optimization of secondary drying involves two process parameters: the temperature and time. The maximum temperature the product that can be exposed during secondary drying varies from formulation to formulation, and molecule stability as a function of the temperature. Once the optimal temperature is determined, the optimum secondary drying time can be determined by extracting samples from the freeze dryer at various time intervals using a “sample thief/extractor” without interrupting the freeze drying cycle and measuring the moisture content using either Karl Fischer titrimetry \(KFT\), thermal gravimetric analysis \(TGA\), or near-IR spectroscopy \(NIR\).
+
+In our experience we have found that drying at low temperatures for a longer time than at high temperatures for a shorter time provides better chances of uniformity of moisture across the cake and between the vials. Generally, for heat labile molecules and formulations secondary drying at 25–30 °C for 5–6 h is adequate. For some formulations such as mannitol-based where mannitol hemihydrates are formed during freezing and/or primary drying phase, secondary drying is used as an opportunity to desolvate the mannitol hemihydrates. Secondary drying at elevated temperatures of 50–55 °C for 2–3 h helps to eliminate mannitol hemihydrates \[45\].
+
+One has to be cognizant of the fact that the moisture content increases during storage and is most often related to moisture release by the stopper. It is often observed after few months of storage at elevated temperatures, and this moisture exchange between stopper and product may have important stability impact. The moisture transfer from stoppers can be addressed through extensive high temperature vacuum drying of the stoppers after steam sterilization.
+
+### **4.4 **Process Control
+
+Primary drying is controlled through the control of the critical process parameters, the product temperature and the sublimation rate which are dependent on the independent process variables shelf temperature and chamber pressure.
+
+Product temperature is the balance between the heat transfer and mass transfer, and heat is transferred to the vial and to the product through conduction \(shelf temperature\), convection \(through the collisions of gas molecules with the hot shelf surface and the cold vial bottom\), and radiation. The mass transfer is again dependent upon the chamber pressure as the driving force for mass transfer is the difference between vapor pressure of ice and chamber pressure. Thus, the product temperature is determined by shelf temperature, chamber pressure, the heat transfer characteristics of the vials, and the mass transfer characteristics of the product and semi-stoppered vials.
+
+The product temperature needs to be monitored and controlled during the freeze drying as it is the critical process parameter that impacts the product quality attributes.
+
+Typically, during the development of the lyophilization process, thermocouples are utilized to determine the product temperature in order to optimize/adjust the input parameters shelf temperature and chamber pressure so that the product temperature is below the target product temperature to avoid collapse. During the validation of the process, thermocouples are also placed in the vials at various locations of the shelf and between the shelves to verify and demonstrate the uniformity of the product temperature and the drying rate. However, during commercial manufacturing due to sterility concerns it is not feasible to place thermocouples in the vials, and one has to rely on the robustness of the process and the validation data.
+
+Thus, vials containing thermocouples/sensors undergo less degree of undercooling causing nucleation of ice at a lower temperature, freeze faster than vials without temperature sensors \[41\] resulting in larger ice size crystals, leaving larger pores after sublimation, less resistance to mass transfer, freeze dry at lower temperature consequently less time to dry than the rest of the vials. Secondly, due to the variations in the heat transfer across the shelf and between the shelves, thermocouple data at the edges will be warmer than the center. Hence, vials with thermocouples are not considered representative of the whole batch.
+
+Due to the above cited limitations of using thermocouples to directly measure and monitor the product temperature and the process, indirect ways of measuring product temperature have emerged lately. Manometric temperature measurement \(MTM\) is one of the techniques that has been developed to determine the product temperature at the sublimation front in addition to determination of sublimation rate and end of primary drying phase. It is based on pressure rise data when the valve between the chamber and the condenser is swiftly closed for a brief period of 15 s. The pressure rise data is fitted to bunch of differential equations relating to heat and mass transfer to obtain the average product temperature at the ice–vapor interface. It gives a representative temperature of the product vials of the whole batch without the risk of sterility compromise. Its applicability has been proven, demonstrated, and in use at lab scale; however, its applicability at commercial scale is far from reach \[46\].
+
+LyoPAT is another technology that is emerging again limited to lab studies where they use heat flux sensors to measure and control the heat transfer dynamics to be able measure Critical Process Parameters, mass flow, product temperature, cake resistance and additionally, vial thermal conductivity \(*K*v\), and heat transfer parameters \(heat flux\).
+
+Another technique that is currently being used at lab scale and proving to be promising at commercial scale is the Tunable Diode Laser Spectroscopy \(TDLAS\) \[47\]. TDLAS-based sensor, LyoFlux, measures water vapor concentration and gas flow velocity in the duct connecting a freeze-dryer chamber and condenser. The near-IR spectrometer provides real-time measurements of water concentration and gas flow velocity that are used to determine the water mass flux \(grams/second/cm2\) in the duct. The flux measurements are combined with the knowledge of the duct’s cross-sectional area to provide a determination of the water vapor flow \(grams/second\) exiting the product drying chamber. The flow measurements are integrated during the product drying cycle to provide a determination of the total water removed \(grams\). Through the combination of gravimetric determinations of mass flow and the well-accepted steady state model of heat and mass transfer of vial-based freeze drying, now it is feasible to determine the Product temperature at the sublimation interface, Product temperature at the bottom center of the vial, Product resistance to drying, Residual moisture content, Primary and secondary drying endpoints, Vial heat transfer coefficients, Continuous determination of the ice and dryer layer thickness, and the maximum lyophilizer equipment capability: mass flow as a function of pressure.
+
+#### ***4.4.1 ***Chamber Pressure Control and Monitoring
+
+The chamber and the condenser pressure is controlled through the capacitance manometer, which is installed both in the chamber and pressure. The capacitance manometer determines the absolute pressure and controls the chamber pressure.
+
+The chamber pressure could be controlled in three ways: \(1\) nitrogen leak into the drying chamber through opening and closing of PTD valve, \(2\) conductance control, and \(3\) control of the condenser temperature.
+
+
+**Controlled Nitrogen Leak**
+
+The commonly used and preferred technique is the controlled nitrogen leak where the PTD valve is connected to a nitrogen source at atmospheric pressure and sterile nitrogen is leaked into the drying chamber in response to the deviation from the set point as measured by capacitance manometer.
+
+
+
+**Conductance Control**
+
+It is based upon opening and closing of the valve at the entrance of the duct connecting the drying chamber from the condenser \[48\].
+
+It works fine during primary drying where the pressure could be controlled through the flow of the water vapors into the condenser; however, during secondary drying when the sublimation rate tapers off, and no water vapors, it will be unable to control the pressure. The chamber pressure will reduce to whatever ultimate vacuum the system will produce and potential for product contamination by adsorption of volatile stopper impurities or any other foreign vapors in the freeze dryer \[49\] and deprive one from carrying out secondary drying at a somewhat elevated level of chamber pressure of for example 200 mTorr.
+
+
+
+**Control of Condenser Temperature**
+
+The other option of controlling chamber pressure is through the control of condenser temperature, provided the lyophilizer offers the option of fine control of condenser temperature \[49\], where control of condenser temperature controls the vapor pressure of ice on the condenser, thereby controlling the partial pressure of water in the drying chamber.
+
+A process where the chamber pressure is controlled through a nitrogen leak to provide pressure control is not necessarily the same as the corresponding process run with pressure control via control of condenser temperature, however, the difference is not expected to be of practical significance. One disadvantage of this process would be the inability to provide process control options for determining the end point of primary drying as it will not produce the change in gas composition as the process moves from primary drying to secondary drying.
+
+
+#### ***4.4.2 ***Condenser Pressure Control and Monitoring
+
+Controlling the condenser pressure is critical to the control of chamber pressure as the driving force for mass transfer is the pressure gradient between chamber and condenser. The condenser temperature should be low enough, −50 °C, to allow control of the chamber pressure at the desired set point.
+
+It should be noted that an aggressive process with very high sublimation rate may overload the condenser causing a loss of chamber pressure control leading to high product temperature and ultimately loss of the batch due to product collapse or ice melt. This phenomenon is referred to as choke flow or when it hits Mach 1, i.e., when the velocity of water vapor hits the velocity of sound.
+
+An overloaded condenser may also be manifested by nonuniform buildup of the ice on the coils of the condenser due to the inability of the refrigerating system to remove heat from rapidly condensing water vapor \(i.e., from very high sublimation rate\) and yet maintain the condenser plate temperature low.
+
+#### ***4.4.3 ***Determination of the End Point of Primary Drying
+
+One of the important determinations that needs to be made during primary drying as part of process control is when to stop the primary drying phase and advance to secondary drying. An inaccurate measurement carries a risk of melt back or collapse, as advancing to secondary drying with still ice left will depress the *T*g of the product and collapses the product structure. Hence, some indicator of the end of primary drying is required for optimum process control.
+
+Traditionally, product temperature response and Pirani gauge are the most commonly used indicators of the end of primary drying and can be used at both lab scale and commercial scale. When product temperature is used as the indicator then the end of primary drying is determined when the coldest running vials \(usually center or back side vials\) product temperature approaches the shelf temperature. Since the fact that the vials containing temperature sensors run warmer and are not typical of the batch as a whole, a soak period of 10–15% is given for cold vials to catch up with warm vials. Since the determination of 10–15% is arbitrary and what is determined at lab scale may not translate and hold good for manufacturing due to freezing bias, using product temperature sensors to determine the end point of primary drying is far from being accurate. The vacuum data obtained from the Pirani gauge is widely used as a more reliable indicator at both development and manufacturing level. As it is based on the thermal conductivity of nitrogen gas which is 1.6 times less than the thermal conductivity of water vapors, the inflection point or when the value drops and equals to capacitance manometer indicates a change in the gas composition from water to nitrogen suggesting end of primary drying.
+
+Another sensitive method that can be used for measurement of vapor composition is through an electronic moisture sensor with output in dew point or partial pressure of water \[41, 50\]. An electronic moisture sensor has the sensitivity to determine the presence of residual ice in less than 1% of the vials \[41\].
+
+## **5 **Stability
+
+Generally speaking stability increases in the following order: solution < glassy solid < crystalline solid \[1–3\]; this is likely due to restricted mobility in solids with the high degree of order in the crystalline solid retarding reactivity even further. With freeze drying it is often easy to achieve residual moisture contents in the cake ≤1%, but in some cases that may not be enough to attain a shelf life of ≥2 years at ambient temperature and may have to be refrigerated. In other cases either freezing or drying or both processes may inflict some damages to the drug active especially biological molecules that have fragile native conformation that could be perturbed due to removal of hydration layer needed to maintain the native conformation and may require stabilizers to protect them during freeze drying and/or upon storage. In-process stability and storage stability are often addressed through a combination of formulation and process optimization. Excipients or stabilizers that protect the drug active during freezing are called cryoprotectants and are often added to the formulation to protect the drug active against degradation or denaturation. If the drug active is sensitive to freeze drying process and exhibits instability during freeze drying and upon storage, stabilizers called lyoprotectants are often added to the formulation to protect the drug active against degradation or denaturation.
+
+Optimization of process conditions is equally critical to the stability of the product both during process as well as upon storage. Freeze drying should be carried out below the critical temperature called collapse temperature. It is the maximal allowable product temperature below which the product will dry with the retention of structure of the cake and drying above which will result in the collapse of the cake structure. The critical process parameters, shelf temperature and chamber pressure, should be selected and optimized in such a way that the resulting product temperature remains below the collapse temperature during drying, yielding a product that looks pharmaceutically elegant with short reconstitution time and desired low residual moisture content, while, from process efficiency point of view the freeze drying process should not be long. A collapsed product will not only cosmetically look inelegant but also will have repercussions on the integrity of the drug active and other product quality attributes, often accompanied by high residual moisture and reconstitution time.
+
+Formulation design without process considerations and process design without knowledge of manufacturing capabilities and limitations are the main causes of flawed/unsuccessful scale-up and technology transfers to manufacturing.
+
+In freeze drying, the formulation and process are interrelated. What is in the formulation dictates the process and vice versa, hence, selection of the components of the formulation and their characterization to understand their physical state and behavior during freezing and drying is key to efficient freeze drying process. The details of materials characterization and the techniques are covered or summarized in chapter “[Concepts and Strategies in the Design of Formulation for Freeze Drying](https://doi.org/10.1007/978-3-031-12634-5)”.
+
+
+**References**
+
+1.  
+1.
+
+Pikal MJ, Lukes AL, Lang JE. Thermal decomposition of amorphous β-lactam antibacterials. J Pharm Sci. 1977;66:1312.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=903872)
+
+2.  
+2.
+
+Pikal MJ, Lukes AL, Lang JE, Gaines K. Quantitative crystallinity determinations for beta-lactam antibiotics by solution calorimetry: correlations with stability. J Pharm Sci. 1978;67:767.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=660451)
+
+3.  
+3.
+
+Pikal MJ, Dellerman M. International stability testing of pharmaceuticals by high-sensitivity isothermal calorimetry at 25°C: cephalosporins in the solid and aqueous solution states. J Pharm. 1989;50:233–52.
+
+4.  
+4.
+
+Abdul-Fattah AM, Truong VL. Drying process methods for biopharmaceutical products: an overview. In: Jameel F, Hershenson S, editors. Formulation and process development strategies for manufacturing biopharmaceuticals. Wiley; First published: 26 July 2010. p. 705–38.
+
+5.  
+5.
+
+Searles J, Mohan G. Spray drying of biopharmaceuticals and vaccines. In: Jameel F, Hershenson S, editors. Formulation and process development strategies for manufacturing biopharmaceuticals. Wiley; First published: 26 July 2010. p. 705–38.
+
+6.  
+6.
+
+Pikal MJ. Lyophilization. In: Swarbrick J, Boylan J, editors. Encyclopedia of pharmaceutical technology. New York: Marcel Dekker; 2002. p. 1299–326.
+
+7.  
+7.
+
+Trappler E. Validation of lyophilization: equipment and process. In: Costantino HR, Pikal MJ, editors. Lyophilization of biopharmaceuticals. Arlington: AAPS press; 2004. p. 43.
+
+8.  
+8.
+
+Chang BS, Kendrick BS, Carpenter JF. Surface-induced denaturation of proteins during freezing and its inhibition by surfactants. J Pharm Sci. 1996;85:1325–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8961147)
+
+9.  
+9.
+
+Mumenthaler H, Hsu C, Pearlman R. Feasibility study on spray-drying protein pharmaceuticals; recombinant growth harmone and tissue-type plasminogen activator. Pharm Res. 1994;11:12–20.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8140042)
+
+10.  
+10.
+
+Barn NB, Cleland JL, Yang J, Manning MC, Carpenter JF, Kelley RF, Randolph TW. Tween protects recombinant human growth hormone against agitation-induced damage via hydrophobic interactions. J Pharm Sci. 1998;87:1554–9.
+
+11.  
+11.
+
+Barn NB, Randolph TW, Cleland JL. Stability of protein formulations: investigation of surfactant effects by a novel EPR spectroscopic technique. Pharm Res. 1995;12:2–11.
+
+12.  
+12.
+
+Kerwin BA, Heller MC, Levin SH, Randolph TW. Effects of Tween 80 and sucrose on acute short-term stability and long-term storage at-20 degrees of a recombinant haemoglobin. J Pharm Sci. 1998;87:1062–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9724555)
+
+13.  
+13.
+
+Townsend MW, DeLuca PP. Use of lyoprotectants in the freeze-drying of a model protein, ribonuclease A. J Parenter Sci Technol. 1988;42:190–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3221279)
+
+14.  
+14.
+
+Hancock BC, Zografi G. The relationship between the glass transition temperature and the water content of amorphous pharmaceutical solids. Pharm Res. 1994;11:471–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8058600)
+
+15.  
+15.
+
+Franks F. Protein destabilization at low temperatures. Adv Protein Chem. 1995;46:105–39.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7771316)
+
+16.  
+16.
+
+Franks F. Freeze-drying: from empiricism to predictability. The significance of glass transitions. Dev Biol Stand. 1992;74:9–18; discussion 19[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592188)
+
+17.  
+17.
+
+Bradley R. Plotting freezing curves for frozen desserts. Dairy Record. 1984;85:114–5.
+
+18.  
+18.
+
+Jameel F, Searles J. Development and optimization of the freeze-drying processes. In: Formulation and process development strategies for manufacturing biopharmaceuticals. Hoboken: Wiley; 2010.
+
+19.  
+19.
+
+Pikal MJ. Freeze-drying of proteins. Part II: Formulation selection. BioPharm. 1990;3\(9\):26–30.
+
+20.  
+20.
+
+Gomez G, Pikal MJ, Rodriguez-Hornedo N. Effect of initial buffer composition on pH changes during far-from-equilibrium freezing of sodium phosphate buffer solutions. Pharm Res. 2001;18\(1\):90–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11336359)
+
+21.  
+21.
+
+Gabellieri E, Strambini GB. Perturbation of protein tertiary structure in frozen solutions revealed by 1-anilino-8-naphthalene sulfonate fluorescence. Biophys J. 2003;85\(5\):3214–20.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14581221)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1303597)
+
+22.  
+22.
+
+Gabellieri E, Strambini GB. ANS fluorescence detects widespread perturbations of protein tertiary structure in ice. Biophys J. 2006;90\(9\):3239–45.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16461396)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1432122)
+
+23.  
+23.
+
+Privalov PL. Cold denaturation of protein. Crit Rev Biochem Mol Biol. 1990;25\(4\):281–306.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2225910)
+
+24.  
+24.
+
+Becktel WJ, Schellman JA. Protein stability curves. Biopolymers. 1987;26:1859–77. [https://​doi.​org/​10.​1002/​bip.​360261104](https://doi.org/10.1002/bip.360261104).[Crossref](https://doi.org/10.1002/bip.360261104)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3689874)
+
+25.  
+25.
+
+Carpenter JF, Crowe JH. The mechanism of cryoprotection of proteins by solutes. Cryobiology. 1988;25\(3\):244–55.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3396389)
+
+26.  
+26.
+
+Lee JC, Timasheff SN. The stabilization of proteins by sucrose. J Biol Chem. 1981;256\(14\):7193–201.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7251592)
+
+27.  
+27.
+
+Arakawa T, Timasheff SN. Stabilization of protein structure by sugars. Biochemistry. 1982;21\(25\):6536–44.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7150574)
+
+28.  
+28.
+
+Arakawa T, Timasheff SN. Preferential interactions of proteins with salts in concentrated solutions. Biochemistry. 1982;21\(25\):6545–52.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7150575)
+
+29.  
+29.
+
+Arakawa T, Timasheff SN. Mechanism of poly\(ethylene glycol\) interaction with proteins. Biochemistry. 1985;24\(24\):6756–62.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=4074726)
+
+30.  
+30.
+
+Arakawa T, Timasheff SN. Protein stabilization and destabilization by guanidinium salts. Biochemistry. 1984;23\(25\):5924–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6525341)
+
+31.  
+31.
+
+Arakawa T, Kita Y, Carpenter JF. Protein – solvent interactions in pharmaceutical formulations. Pharm Res. 1991;8\(3\):285–91.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2052513)
+
+32.  
+32.
+
+Arakawa T, et al. Factors affecting short-term and long-term stabilities of proteins. Adv Drug Deliv Rev. 2001;46\(1–3\):307–26.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11259845)
+
+33.  
+33.
+
+Carpenter JF, Izutsu K, Randolph TW. Freezing and drying-induced perturbations of protein structure and mechanisms of protein protection by stabilizing additives. In: Rey L, May JC, editors. Freeze-drying/lyophilization of pharmaceutical and biological products, vol. 96. New York: Marcel Dekker, Inc; 1999.
+
+34.  
+34.
+
+Carpenter JF, et al. Rational design of stable lyophilized protein formulations: theory and practice. In: Carpenter JF, Manning MC, editors. Rational design of stable protein formulations, Pharmaceutical biotechnology, vol. 13. Springer; 2002.
+
+35.  
+35.
+
+Pikal MJ, Shah S, Senior D, Lang JE. Physical chemistry of freeze drying: measurement of sublimation rates for frozen aqueous solutions by a micro balance technique. J Pharm Sci. 1983;72:635–50.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6875825)
+
+36.  
+36.
+
+Cao E, et al. Effect of freezing and thawing rates on denaturation of proteins in aqueous solutions. Biotechnol Bioeng. 2003;82\(6\):684–90.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12673768)
+
+37.  
+37.
+
+Pikal MJ. Mechanisms of protein stabilization during freeze drying and storage: the relative importance of thermodynamic stabilization and glassy state relaxation dynamics. In: Rey L, May J, editors. Freeze drying/lyophilization of pharmaceutical and biological products. Marcel Dekker, Inc; 1999.
+
+38.  
+38.
+
+Chang BS, Kendrick BS, Carptenter JF. Surface-induced denaturation of proteins during freezing and its inhibition by surfactants. J Pharm Sci. 1996;85:1325–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8961147)
+
+39.  
+39.
+
+Kim AI, Akers MJ, Nail SL. The physical state of mannitol after freeze-drying: effects of mannitol concentration, freezing rate, and a noncrystallizing cosolute. J Pharm Sci. 1998;87\(8\):931–5.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9687336)
+
+40.  
+40.
+
+Cavatur RK, Suryanarayanan R. Characterization of phase transitions during freeze-drying by in situ X-ray powder diffractometry. Pharm Dev Technol. 1998;3\(4\):579–86.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9834962)
+
+41.  
+41.
+
+Roy ML, Pikal MJ. Process control in freeze drying: determination of the end point of sublimation drying by an electronic moisture sensor. J Parenter Sci Technol. 1989;43:60–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2709237)
+
+42.  
+42.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73:1224–37.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+43.  
+43.
+
+Pikal MJ, Shah S. The collapse temperature in freeze drying: dependence on measurement methodology and rate of water removal from the glassy phase. Int J Pharm. 1990;62:165–86.
+
+44.  
+44.
+
+Pikal MJ, Shah S, Roy ML, Putman R. The secondary drying stage of freeze drying: drying kinetics as a function of temperature and chamber pressure. Int J Pharm. 1990;60:203–17.
+
+45.  
+45.
+
+Jameel F, Bjornson E, Hu L, Kabingue K, Besman M, Pikal M. Effects of formulation and process variations on the stability of lyophilized recombinant human factor VIII. Haemophilia. 2000;6\(4\):343–68.
+
+46.  
+46.
+
+Milton N, Nail SL, Roy ML, Pikal MJ. Evaluation of manometric temperature measurement as a method of monitoring product temperature during lyophilization. PDA J Pharm Sci Technol. 1997;51:7–16.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9099059)
+
+47.  
+47.
+
+Sharma P, Kessler WJ, Bogner R, Thakur M, Pikal MJ. Applications of the tunable diode laser absorption spectroscopy: in-process estimation of primary drying heterogeneity and product temperature during lyophilization. J Pharm Sci. 2019;108:416–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30114403)
+
+48.  
+48.
+
+Kobayashi M. Development of new refrigeration system and optimum geometry of the vapor condenser for pharmaceutical freeze dryers proceedings of the 4th International drying symposium, Kyoto, Japan, July 9–12, 1984; Toei RR, Mujumdar A, editors; 2, 464–71.
+
+49.  
+49.
+
+Pikal MJ, Lang JE. Rubber closures as a source of haze in freeze dried parenterals: test methodology for closure evaluation. J Parenter Drug Assoc. 1978;32:162.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=249783)
+
+50.  
+50.
+
+Bardat A, Biguet J, Chatenet J, Courteille F. Moisture measurement: a new method for monitoring freeze drying cycles. J Parenter Sci Technol. 1993;47:293–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8120734)
+
+
+

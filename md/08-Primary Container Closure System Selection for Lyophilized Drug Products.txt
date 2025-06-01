@@ -1,0 +1,953 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_8](https://doi.org/10.1007/978-3-031-12634-5_8)
+
+
+**
+# Primary Container Closure System Selection for Lyophilized Drug Products
+**
+
+
+Robert Ovadia1  , Phillippe Lam2  , Holger Roehl3  , Renaud Janssen4 and Roger Asselta5  
+
+
+\(1\) 
+Gilead Sciences, Inc., Foster City, CA, USA
+
+
+\(2\) 
+Amgen Inc., Cambridge, MA, USA
+
+
+\(3\) 
+F. Hoffmann-La Roche AG, Basel, Switzerland
+
+
+\(4\) 
+Datwyler Pharma Packaging, Alken, Belgium
+
+
+\(5\) 
+Auxilium Packaging Advisors LLC, South Harrison Township, NJ, USA
+
+
+
+
+
+**Robert Ovadia \(Corresponding author\)**
+
+**Email: **robert.ovadia@gilead.com
+
+
+
+
+
+**Phillippe Lam**
+
+**Email: **philippe.lam6@gilead.com
+
+
+
+
+
+**Holger Roehl**
+
+**Email: **holger.roehl@roche.com
+
+
+
+
+
+**Roger Asselta**
+
+**Email: **roger@auxpaxadvisors.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Primary Containers
+
+**2.1 **Overall Considerations
+
+**2.2 **Heat Transfer \(Glass Vials\)
+
+**2.3 **Glass Versus Polymer
+
+**2.4 **Extractables and Leachables
+
+**2.5 **Fogging
+
+**2.6 **Coated Vials
+
+**3 **Elastomeric Closures
+
+**3.1 **Closure Geometry
+
+**3.2 **Moisture Absorption/Desorption and Permeability Behavior
+
+**3.3 **Fluoropolymer Coatings
+
+**4 **Container Closure Fit and Integrity
+
+**4.1 **Strategies and Methods for Assessing Component Fit
+
+**4.2 **Common Causes of Loss of Vacuum and/or CCI: Raised Stoppers and Dried Product
+
+**5 **Future Trends
+
+**5.1 **Dual-Chamber Containers
+
+**5.2 **Nested Vial Configurations and Press-Fit Caps
+
+**6 **Conclusion
+
+References
+
+
+## Abstract
+
+For lyophilization applications, the selection of the primary container system \(i.e. vial, stopper, seal\) must be given careful consideration in order to avoid surprises in the later stages of development and potentially costly issues throughout the product’s life cycle. The system must provide a sterile barrier, enable robust fill/finish and lyophilization processes, and preserve the headspace conditions. It may not be possible to arrive at the perfect system and compromises need to be made. In this chapter, we hope to give the reader the tools and understanding needed to make the best decision for their application.
+
+
+**Keywords**
+Parenteral packaging Vial Stopper Seal Container closure integrity
+
+
+## **1 **Introduction
+
+
+**Philippe Lam**
+
+
+For lyophilization applications, the selection of the primary container system \(i.e., vial, stopper, seal\) must be given careful consideration in order to avoid surprises in the later stages of development and potentially costly issues throughout the product’s life cycle. For example, Dr. Pikal discussed how vial type and geometry affect drying \[1\]. His studies revealed that while there are obvious physical differences between molded and tubing glass vials, it is the exterior shape and not the thickness of the glass at the bottom of the vial that has the greatest impact on heat transfer and, therefore, on primary drying. Consequently, even vials of the same type and size from different manufacturers may exhibit substantially different heat transfer characteristics and should not be used interchangeably without first determining their contribution to the process. The stopper is the other component that can also have a substantial impact on lyophilized product quality over its shelf life. Specifically, Dr. Pikal presented data showing the transient residual moisture profile for various lyophilized products and how the stopper elastomeric material properties and stopper processing conditions dictate the characteristic of environmental water vapor permeation and initial water release \(from the stopper\), respectively \[2\]. Selecting the appropriate stopper and allowing sufficient drying time post-steam sterilization of the processed stoppers will minimize risks of excessive moisture uptake by the lyophilizate during storage. These are a few aspects of the primary container system that have long been recognized to be significant to lyophilized drugs manufacturing. There are other factors that are less obvious and sometimes overlooked but are also of prime importance, as discussed in this chapter.
+
+The role of the primary container, other than to function as a container, is to provide a sterile barrier and to maintain controlled internal conditions so as to preserve the product it contains. For liquid products, the time between stoppering and the application of the seal \(typically an aluminum crimp cap with or a without removable protective top cover\) is mere seconds as the vials are moved along the line from filling to stoppering to capping. For lyophilized products, the primary container system faces additional challenges.
+
+For instance, it may be many hours between stoppering at the end to the drying cycle \(where the stoppers are fully pushed into the vials by the hydraulic ram of the lyophilizer\) to when the crimp caps are finally applied. As the vials await to be sequentially unloaded and transported to the capping station, container closure needs to be maintained to ensure sterility and to preserve the low humidity/reduced pressure condition within the vials.
+
+It has been argued that for product vials that are stoppered under reduced pressures, the inside-outside pressure differential results in a net force that pushes the stopper inwards and helps keep it in place until capping. Indeed, the force exerted from atmospheric pressure can be substantial. For example, at a pressure differential of 500 mbar, the vial with 20 mm finish and an opening ID of 12.6 mm, the stopper will be pushed in with about 6 N of force; for the 13 mm finish vial with an opening ID of 7 mm, the force will be about 2 N. However, it must be pointed out that this state can only be attained if the vial-stopper system is already integral immediately after full stopper insertion at the end of the drying cycle and remains integral thereafter. A vial-stopper system that is “leaky” will not result in a pressure differential; as the lyophilizer chamber is equilibrated to ambient conditions, so will the vial.
+
+There are various reasons for which leaks can occur. The components may simply fit poorly together and not form a proper seal in the first place. The top of the stopper may adhere to the lyophilizer shelf above during the stoppering phase and be pulled out of the vial when the hydraulic ram is retracted. The most spectacular seal failure is that which has been anecdotally reported by many experienced practitioners as “stopper pop up.” Here, the stopper, after having been fully seated, spontaneously moves back out of the vial opening. This is caused by a combination of non-optimal stopper and vial geometry and stopper processing conditions where excessive silicone oil has been applied. Specialized equipment, “raised stopper detectors,” have been developed and installed ahead of the capper to cull out vials with unseated stoppers, which speaks to the prevalence of this type of defect.
+
+The primary container system needs to perform other functions besides providing a robust barrier. The lyophilization stopper features vent hole\(s\) to allow for egress of water vapor during drying. To function properly, the stopper must remain securely in the “up” or “lyophilization” position from the time the stopper is placed on the vial post-filling until it is finally pushed into the fully seated position on the vial by the hydraulic ram. A stopper that fits too loosely may be dislodged during transport and loading operations or fall too far into the vial opening, occluding the path for water vapor flow. Conversely, a too tight-fitting stopper may require high insertion force during stoppering, and, depending on the number of vials per shelf, the necessary total stoppering force may exceed the lyophilizer hydraulic ram capabilities.
+
+The stopper elastomeric material itself should provide good sealing \(to the vial\) and barrier properties as mentioned earlier. Furthermore, the final drug product vial \(vial, stopper, crimp cap\) should be evaluated for compatibility with closed system transfer devices \(CSTD\), as their usage have been much more prevalent in the field in recent years \[3\]. Many CSTDs employ a very large \(diameter > 2 mm\) “spike” to puncture the stopper, potentially causing excessive rubber fragmentation which can introduce particles in the reconstituted drug product solution.
+
+As alluded to previously, the vial geometry is critical not just for consistency of heat transfer during the drying operation but also for proper interaction with the stopper to obtain a robust container closure. In addition, the shape of the vial bottom impacts machinability. Most modern lyophilizers are equipped with automatic loading systems. Issues can arise during lyophilizer loading and unloading operations as the movement of a vial pack is sensitive to slight misalignment between the shelf and loading system transfer ramp. The shape of the heel on the vial has a major impact on how smoothly vials move over this transition. Additionally, vials with very flat bottoms may exhibit higher friction when moved across the shelf surface, especially if there is condensation present \(due to a cold shelf surface\).
+
+We pointed out some of the aspects of the primary container that should be considered while developing a lyophilized drug product process. The following sections in this chapter give more detailed discussion on these topics and offer solutions to some of the issues raised. Ultimately, it may not be possible to arrive at the perfect system, and compromises need to be made. To that end, we hope to give the reader the tools and understanding needed to make the best decision for their application.
+
+## **2 **Primary Containers
+
+
+**Holger Roehl**
+
+
+There are multiple options to choose from for containers used for lyophilization applications. This not only includes vials, syringes, or dual-chamber cartridges but also the container material \(glass or polymer/plastics\); all these may be had with or without inner-surface coatings. For glass vials, there is even another dimension of complexity, as one can either use tubular or molded containers. There are pros and cons for all the different options. For a robust process with minimal vial breakage and machinability issues and with optimal product properties, it is crucial to identify the right components. This section intends to cover the most important topics that influence the performance of the containers for lyophilization.
+
+### **2.1 **Overall Considerations
+
+In general, a container for pharmaceuticals must protect the content in a way that sterility and drug product quality are maintained and that interactions between the drug and the container are minimized \(drug container interaction, ion leaching, etc.\) \[4\]. Tubular vials are normally made from Type I borosilicate glass. The other common types, Type II or III, refer to glasses that are treated \(e.g., ammonium sulphate treatment\) in a way to reduce the sodium content in the region near the surface.
+
+Type I glasses consist mainly of SiO2 \(70–80%\) and B2O3 \(7–13%\) which form the backbone of the glass \(network formers\). The addition of network modifiers like alkaline metals \(Na2O and/or K2O, up to 8%\), earth alkaline metals \(BaO and/or CaO, 0–5%\), and intermediates like Al2O3 \(2–7%\) results in the desired physical \(e.g., lower forming temperatures, strength, etc. …\) and chemical properties \[4\]. Other optional components such as Fe2O3 \(approx. 1%\) or TiO2 \(approx. 5%\) are added to obtain amber glass which exhibits additional protection from UV light.
+
+Plastic/polymer vials are injection molded and made from either COP \(Cyclo Olefin Polymer\) or COC \(Cyclo Olefin Copolymer\) \[4\]. Due to the material composition, inorganic metal ion leaching issues are eliminated.
+
+### **2.2 **Heat Transfer \(Glass Vials\)
+
+In order to understand the influencing factors on the performance of the containers, it is crucial to capture the different stages of lyophilization \[4–6\]: 
+
++ 
+Freezing
+
++  
+Sublimation \(primary drying\)
+
++  
+Desorption \(secondary drying\)
+
+
+
+
+All three processes require good heat transfer either to or from the filled drug product. This is the pre-requisite to achieve an optimized lyophilization cycle as the current temperature of the drug product has the highest impact on drying time and final product quality \[7\]. Energy needs to be moved from the product to the heat transfer liquid in the shelves during the freezing stage; the direction of heat transfer is reversed during drying as the frozen product must be heated for the sublimation process \[8\]. The vial heat transfer coefficient during drying, *K*v, is an indicator for the rate of energy transfer per area, temperature differential, and time between the shelf and the container. *K*v is a useful parameter to consider when selecting containers.
+
+There are three main mechanisms for the heat transfer during primary drying, see Fig. 1 \[5\]: 
+
++ 
+Heat convection \(through gap between shelf and vial bottom\)
+
++  
+Heat conduction \(from the shelf to the containers at contact areas\)
+
++  
+Heat radiation
+
+
+
+![](images/000001.gif)
+
+
+***Fig. 1*** 
+Heat transfer mechanisms during primary drying
+
+
+
+The container exhibits a specific resistance to heat transfer depending upon the shelf temperature and the chamber pressure, thereby directly impacting the duration of the lyophilization process and the quality of the final product.
+
+Studies revealed that the gas-filled gap between the vial bottom and the shelf surface contributes up to 90% to the heat resistance and, therefore, is the main culprit for the poor heat transfer \[7\]. Thus, the vial bottom geometry has the highest impact \(in conjunction with chamber pressure\) to heat transfer while the thickness of the vial wall is only of minor importance \[7\]. This observation is confirmed by various other studies revealing that the vial bottom curvature is limiting the heat transfer as it defines the direct surface contact between the vial and the shelf \[9\].
+
+The considerations made above lead to the conclusion that the vial geometry \(bottom\) must be flat, thin, and uniform to achieve the highest heat transfer rates. Figure 2 displays lateral cuts of different molded vials in comparison to a standard tubular glass vial \[4, 8\]. 
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Example lateral cuts of different vial systems \(BB blow-blow, PB press-blow, ST standard tubular vials\)
+
+
+
+The images provided above therefore would indicate a superior behavior of the tubular glass over molded vials with respect to heat transfer as molded vials traditionally have a higher bottom curvature and wall thickness \(due to the manufacturing process\). As a direct consequence, a much better lyophilization performance of tubular vials is expected. However, improvements in the manufacturing of molded vials \(e.g., EasyLyo® from SGD\) result in similar *K*v values than state-of-the-art TopLyo® vials from Schott \(only 4% difference at 100 mbar chamber pressure\) \[10\]. In addition, the absolute values and the dependence of *K*v on the chamber pressure were in the same range for both the molded and the tubular vials over the pressure range of 50–200 mbar. These observations were confirmed by further studies \[11\]. Therefore, improved manufacturing processes for molded vials result in bottom geometries comparable to tubular glass vials and, as a consequence, in similar heat transfer properties of the respective containers. At 200 mbar, the drug product even dried 15% faster with molded glass vials. However, the differences in the structural properties of the vials also need to be taken into consideration.
+
+A comparison of the manufacturing process of the molded vials \(PB = press-blow vs. BB = blow-blow\) reveals that the manufacturing and the different glass composition of the respective vials has a direct impact on the heat transfer: *K*v values for PB vials are slightly higher than for BB vials with identical design \[8\]. The BB process results in a more heterogeneous glass distribution and hence in a different cooling process. PB are supposed to have marginally better heat transfer characteristics.
+
+With regard to the glass composition, studies performed on clear and amber glass vials come to an inconsistent conclusion \[8\]. Cannon et al. reported significantly differences in sublimation rates between clear and amber glass vials of the same size, while Hibler et al. reported identical *K*v values for a different pair of geometrically identical clear and amber vials \[10, 12\]. Additional studies revealed that the addition of coloring agents like Ti or Fe do not affect *K*v values of molded amber glass vials \[10\]. Such an effect could be anticipated as the amber glass exhibits a faster cooling and solidification during manufacturing of the vials.
+
+### **2.3 **Glass Versus Polymer
+
+#### ***2.3.1 ***Heat Transfer
+
+Polymer or plastic vials are normally chosen for their superior breakage properties \[4\]. This is why they are commonly used for larger volumes or drugs with increased hazard potential \[7\]. From a geometrical perspective, tubing vials have superior heat transfer properties because of better direct contact and enhanced gas conduction \(reduced bottom concavity\). Thus, tubing vials dominate freeze-drying of small-volume parenterals, as discussed earlier \[7\].
+
+From a thermal conductivity perspective, glass is better than polymer because of a higher thermal conductivity coefficient, i.e., it conducts heat more efficiently \[4, 6\]: 
+
++ 
+Glass: approx. 1.05 W∙m−1∙K−1
+
++  
+Polymer: approx. 0.2 W∙m−1∙K−1
+
+
+
+
+Hibler et al. report a 30% higher heat transfer for the glass TopLyo® vials from Schott at a pressure chamber of 400 mTorr, but heat transfer was reported as very homogeneous for the polymeric TopPac® vials \[7, 10\]. Other studies revealed a 9% longer primary drying time at 68 and 100 mTorr for polymer vials in comparison to a variation of only 3–4% in glass vials \[11\].
+
+In general, according to Schott, COC is outperforming other polymers like polypropylene \(PP\), polyethylene terephthalate \(PET\), or polyvinyl chloride \(PVC\). The TopLyo® glass vials, which are referred to as the “gold standard” for lyophilization, exhibit only an 8% higher *K*v value than the TopPac® vials \(at a 100 mTorr chamber pressure\), but are still lower than the molded glass SGD EasyLyo® vials \[7\]. In addition, the water vapor permeation and the diffusion of oxygen and/or carbon dioxide through the polymer container walls during storage over the shelf life need to be taken into consideration.
+
+#### ***2.3.2 ******Breakage***
+
+##### ***2.3.2.1 ***Lyophilization
+
+Though vial breakage during lyophilization is rare, the impact on the production process is very high: not only is product lost, but downtimes of the production lines are high because of the necessity of line stoppage and cleaning \[13\].
+
+Increased amounts of vial breakage is in general associated with the following: 
+
++ 
+Higher concentrations of excipients in the drug product \[14\]
+
++  
+Higher fill volumes \(a max. of 35% of the full vial fill capacity is therefore recommended\) \[5, 14\]
+
++  
+Fast freeze-thaw cycles showed more vial breakage during thawing \[14\]
+
++  
+While a slow freeze-thaw at 0.1 °C/min accounted for more vial breakage during freezing \[14\]
+
++  
+Vial tend to break at the endpoint of complete freezing \[15\]
+
++  
+Stresses in the glass are caused by an internal force from product expansion during freezing \[15, 16\]
+
+
+
+
+Though the bottom wall thickness has only a minimal impact on the heat transfer, high variability of the wall thickness can lead to increased rates of breakage \[5, 7\]. Both the bottom inside and outside radius have a significant impact on vial breakage \[5\]. The greater the bottom cavity, the sharper the inside angle and the higher the breakage probability. Freezing material will expand in that region and will exert a pressure that could lead to the so-called “lens-out” effect. The shape of the outside surface is important for the contact area of the vial bottom with the lyo shelf. If the angle is too sharp, it could result in the same vial breakage behavior as described for the inside radius.
+
+##### ***2.3.2.2 ***Storage at Low Temperatures
+
+Freeze-thaw temperature conditions have great impact on vial integrity \[17\]. Vial breakage of protein products occurred at −70 °C freeze-thaw, but was found to be negligible during −30 °C freeze-thaw. Major root cause for vial breakage during freezing was identified as the thermal contraction of protein formulation when cooled to below −30 °C, causing inward deformation of glass adhering to the frozen plug and subsequent rapid movement of glass when the sidewall separated from frozen plug \(“plugging off”\). Conversely, thermal expansion during thawing resulted in positive strains and explained the occasional breakage during thawing. This is why it is recommended to freeze down to −30 °C only to avoid vial breakage during freeze-thaw. If temperatures of −70 °C storage are unavoidable, there will be a risk of glass vial breakage, as the thermal contraction is an inherent property of the frozen formulations.
+
+Maurer et al. provide an in-depth overview of glass vial properties and their respective breakage behavior and the theory of glass breakage \[5\].
+
+#### ***2.3.3 ***Delamination and Chemical Durability
+
+These topics are, under normal circumstances, not in scope for lyophilized products as the time of interaction between the liquid and the container surface is reduced to a minimum. But it needs to be mentioned that delamination issues are eliminated when using polymer vials which also exhibit in general a higher durability against extreme pH values \[4\].
+
+#### ***2.3.4 ***Other Important Practical Consideration
+
+It should be noted that polymeric vials cannot be depyrogenated and, therefore, are not compatible with conventional fill lines that employ a wash-heat depyrogenation process. Polymeric containers are typically supplied in a pre-sterilized format, requiring aseptic procedures for introduction onto the fill line.
+
+### **2.4 **Extractables and Leachables
+
+The lyophilization process itself is not eliminating the interactions of the drug product with the container \[4\]. After filling, before the freeze-drying, ionic species in the glass like sodium, potassium, calcium, silicone, or aluminum could migrate into the solution. But the absolute amounts are fairly low due to the short time of interaction, which is in the range of hours up to \(in total\) a very few days. This is why the risk can be considered as very low and the levels of leacheates from the glass are unlikely to exceed the permissible limits of metal ions as defined in the ICH Q3D elemental impurities guideline \[18\].
+
+But even at a frozen stage, volatile components must be taken into consideration \[4\]. They originate from polymer components \(rubber stopper or container\) during the reduced pressure cycles of lyophilization and during the storage of the drug product at low pressure conditions inside the vial to facilitate reconstitution. These volatile components can adsorb on the product and can lead to interactions with the product after reconstitution. This is why the FDA clearly indicates that extraction studies are needed to determine if “a material of construction used in the manufacture of a packaging component is safe for its intended use.”
+
+### **2.5 **Fogging
+
+Under specific circumstances, the drug product liquid can creep up the sidewall of the container \(Marangoni effect\). After lyophilization, this thin dried product film is visible as a haze and often considered a cosmetic defect, though, studies revealed that “fogging” is typically not compromising container closure integrity \(CCI\) \[12, 19\]. The haze exhibits irregular structures like streaks, branches, spots, or even uniform thin layers \(see Fig. 3\). 
+![](images/000003.jpeg)
+
+
+***Fig. 3*** 
+Fogging behavior of different vial types
+
+
+
+The occurrence of these structures is inconsistent between vials of the same batch \[19\]. Despite the fact that fogging is classified as cosmetic defect, impacted vials are often discarded as severe cases often reach the shoulder or even vial neck region. Even if experiments show no impact on CCI, this is rated as unacceptable. Furthermore, the presence of fogging may present a significant challenge for automated visual inspection equipment and result in an excessive level of rejects.
+
+The glass vial surface properties, in combination with the pre-treatments of the container and the various processing parameters during lyophilization, were identified to have a significant impact on fogging propensity \[12, 19\]. However, a prediction of the fogging behavior of a single container currently proves to be an unsolvable challenge. This is why containers with a hydrophobic surface \(siliconized vials, vials with a hydrophobic inner surface coating or polymer vials\) are considered as the only reliable solution as they prevent the creeping of the drug product solution \[12, 19\].
+
+### **2.6 **Coated Vials
+
+Coatings on the inner vial surface fall into two different categories: silicone oil or hydrophobic Si-O-C-H layers \(see Fig. 4\) that are applied by vapor deposition processes as PI\(E\)CVD \(Plasma Induced \(or Enhanced\) Chemical Vapor Deposition\). Examples include the TopLyo® glass vials from Schott and polymer vials from SiO2 Material Sciences. The container itself is used as the reaction chamber for the layer deposition. This ensures that only the inner surface is coated. TopLyo® vials can be depyrogenated at approx. 300 °C as the coating withstands these temperatures without losing its functionality, and therefore, these vials are compatible with traditional fill lines. 
+![](images/000004.gif)
+
+
+***Fig. 4*** 
+\(**a**\) Comparison of hydrophilic \(top\) and hydrophobic \(down\) surfaces for standard type I glass and TopLyo® and \(**b**\) difference in cake appearance
+
+
+
+TopLyo® vials claim to exhibit \[6\]: 
+
++ 
+Better cake appearance \(see Fig. 4\)
+
++  
+Prevention of cake collapse
+
++  
+Less residual volume
+
++  
+Optimized vial bottom geometry
+
+
+
+
+## **3 **Elastomeric Closures
+
+
+**Renaud Janssen**
+
+
+By permission of Springer adapted from Springer, Janssen \[6\] .
+
+### **3.1 **Closure Geometry
+
+Lyophilization closures have to be compatible with the freeze-drying process. The first step in the process is the filling of vials with drug solution, followed by partial stoppering of the vials, meaning that the lyophilization closures are only partially inserted in the vial neck \(Fig. 5\). A major part of the stopper plug is still protruding above the vial neck opening. The partially stoppered vials are then transported into a freeze-drying chamber, where the freeze-drying cycle takes place. Only at the end of the cycle the vials are fully stoppered. In most cases, the stoppering takes place with a vacuum still being present in the chamber. What comes out of the freeze-dryer are vials under a certain vacuum level containing the drug product in the form of a freeze-dried cake and closed with stoppers that are not yet secured with a crimp cap. 
+![](images/000005.jpeg)
+
+
+***Fig. 5*** 
+Half-stoppered vial with drug solution \(right\) and totally stoppered with freeze-drying cake \(left\). In front of the vials: freeze-drying closures with their vent openings facing forward
+
+
+
+During the primary drying phase, when the water in the vial is converted from the frozen state \(ice\) into the gaseous state \(water vapor\), the gases are evacuated from the vial via the vent opening of the lyophilization stopper. Since the pressure is so low, the volumes of gas exiting the vial are appreciable, meaning that for a good functioning the vent opening has to be of a certain size. Studies have shown however that the size of the vent opening is not rate determining for the common freeze-drying process \[1, 20\]. The size of the vent opening is far less important than the resistance formed by the already dried product, through which additional gases have to make their way to be evacuated from the vial.
+
+As a result of the freeze-drying process and the transport stages of the vials from the filling station to the freeze-dryer in half-stoppered condition and from the freeze-dryer to the capping station in stoppered but still uncapped condition, the design and the dimensioning of lyophilization stoppers have a number of particularities that are not seen with stoppers that are used for a liquid or a dry powder fill.
+
+#### ***3.1.1 ***Flange Thickness and Flange Design
+
+The flange of the lyophilization stopper is that part of the stopper that is above the rim of the vial mouth, when the stopper has been firmly brought into its final seating position. The closure manufacturer has to keep flange thickness well under control for the reason of vial capping. At the time of package development, an aluminum/plastic cap has been chosen where the inner height of the skirt of the cap is capable of gripping the flange height of the stopper plus the height of the vial neck collar, while at the same time being well folded under the collar of the vial to firmly hold the stopper and assure container closure integrity. If stopper flange thickness is excessively high, crimping the cap under the collar could become difficult and container closure integrity may be impacted, while too low a flange thickness could result in an excess of folded aluminum, which is considered a cosmetically imperfect crimp.
+
+Of special importance for a lyophilization stopper are its top flange marking. The functionality of flange markings \(see Fig. 6\) for all elastomeric closures can be described in terms of prevention of stopper clumping during storage, steam sterilization, and machining. This functionality is also valid for lyophilization closures; however, there is an additional functionality that is related to the final stoppering of the vials inside the lyophilization chamber at the end of the freeze-drying cycle. As explained above, the stoppers are pressed down by the shelf that is located above them. During this stage, a significant pressure is exerted on the stopper at the time it contacts the vial neck. The pressure is transferred to the stopper flange that is in contact with the underside of the shelf, in other words, the stoppers are firmly pressed with the top of their flanges against a stainless steel plate that for reasons of good cleanability has only a low degree of surface roughness. These conditions are ideal to make the stoppers stick to the underside of the shelf. After pressing the stoppers down, the shelves are separated again. At this stage, it is absolutely undesired that the stoppers adhere to the shelf above. If they do, then the shelf may pull the stopper slightly out of its seated position and thereby impair the integrity of the seal until the aluminum seal is applied during capping. Another consequence of stopper adhesion to the shelf is that the entire vial may be lifted out from the vial pack and then, under the influence of gravity, falls down again but out of position \(Fig. 7\). This phenomenon has highly undesired consequences that reach from product loss and outside contamination of neighboring vials to the inability to automatically unload the shelves. Therefore, the flange marking on the stoppers, along with other stopper properties and shelf properties, plays an important role in preventing this problem. If the flange markings are well designed, the probability of shelf sticking can be substantially reduced. Of the flange markings that are depicted in Fig. 6, the one at the right-hand side is the worst in terms of sticking to shelves because the uninterrupted circle on the flange can act as a suction cup on the underside of the shelf that presses the stopper down. With the flange design in the middle, which consists of two interrupted circles of different diameters, this is extremely less likely. The design on the left-hand side in this respect shows an intermediate behavior. 
+![](images/000006.gif)
+
+
+***Fig. 6*** 
+Lyo stoppers with one, two, and three vent openings, and with different flange markings
+
+
+![](images/000007.jpeg)
+
+
+***Fig. 7*** 
+A shelf of a pilot lyophilization chamber after unsuccessful insertion of the stoppers. Stoppers adhered to the shelf above and the stoppers/vials were pulled out of the vial pack upon raising the shelves. This situation would present a great challenge to automatic unloading systems
+
+
+
+As an alternative to flange markings, there is another solution to prevent hang-up to shelves. That solution consists of laminating the stopper flange top with a non-sticky coating, typically a fluoropolymer film \(Fig. 8\). The result is that no siliconized rubber surface contacts the shelf but the plastic film that is completely non-tacky. Yet another solution is to coat the complete stopper with a non-tacky fluoropolymer film. The presence of such a film on the top of the flange will prevent shelf hang-up, while its presence on the plug part is favorable for improved drug compatibility. It is to be noted that coating or laminating the stopper to prevent shelf sticking has a significant impact on stopper cost because, apart from the cost of coating or film, the standard stopper manufacturing process cannot be used and a more complex, costlier method must be employed. Other aspects of fluoropolymer-coated lyo stoppers will be discussed later on in this chapter. 
+![](images/000008.jpeg)
+
+
+***Fig. 8*** 
+A stopper with film coating on the top flange \(left\) and completely coated stopper \(right\)
+
+
+
+#### ***3.1.2 ***Penetration Thickness
+
+The penetration thickness of an elastomeric closure is the thickness of the stopper in the area where it is penetrated with a needle.
+
+This thickness is an important dimension since it plays a significant role in determining the coring \(fragmentation\) behavior, the resealing behavior and the needle penetration behavior of the stopper. All other factors like needle quality, needle bevel design, rubber compound, etc., remaining equal, a higher penetration thickness definitely leads to a higher penetration force, and to a higher likelihood that during penetration rubber fragments are “scraped off” by the needle \(named fragmentation or coring\). When penetrating with larger diameter needle such as these used on Closed System Transfer Devices \(CSTD\), as is becoming more and more common, the coring behavior is often even more prominent. At the same time, at least in theory, a higher penetration thickness leads to a higher probability of adequate resealing upon withdrawal of the needle, which could be important for multi-use vials.
+
+Additionally, after capping of the vial, when it has been ascertained that the closure/vial interface is tightly sealed so that no gas can come in via that route, penetration thickness of the closure determines the permeability to gases of the stopper/vial/cap combination. Given a certain rubber material, higher penetration thicknesses lead to higher resistance to permeation of air \(oxygen may be of concern\) and moisture into the vial and thus into the drug. This aspect of the membrane in the center of the stopper acting as a gas barrier after crimping of the vial is especially significant for freeze-drying stoppers. The background of this is twofold. First of all, many freeze-dry vials are stoppered with the lyophilization chamber under vacuum. This vacuum is present mainly to facilitate lyophilizate reconstitution by assisting the transfer of reconstitution liquid, which is in a syringe at atmospheric pressure and will therefore be drawn into the vial by the pressure differential. Obviously, it is the intention that this vacuum is preserved over the lifetime of the drug product. Therefore, after capping of freeze-drying vials, the role of the penetration area of the stopper as gas barrier is of very high importance. The higher the penetration thickness, the longer ingress of air is delayed. Secondly, the reason for freeze-drying a product is that it is not stable in an aqueous environment. The purpose of the primary and secondary drying phases is to remove as much as possible water from the freeze-dried cake in order to ensure drug stability. Consequently, again after capping, the penetration area of the stopper also plays a role as a moisture barrier. \(Of course, atmospheric moisture is also a gas\!\) In order to improve barrier property against the ingress of air and moisture into the freeze-dried vial, the penetration thickness of a lyophilization closure is therefore typically higher than for a stopper that is used for a liquid fill. This is particularly true for 13 mm parenteral lyophilization closures.
+
+#### ***3.1.3 ***Plug Design
+
+The role of the plug of a freeze-drying closure is more critical from a functional point of view than that of a closure used for a liquid or dry powder fill. The plug design for the lyo stopper is more intricate in order to address the different phases of transport and of freeze-drying. The different functionalities of the plug are illustrated using the stopper drawing in Fig. 9. The discussion below holds for this particular design but may be transferable only in part to lyophilization stoppers of a different design. 
+![](images/000009.jpeg)
+
+
+***Fig. 9*** 
+A particular design of a freeze-drying closure and important dimensions
+
+
+
+A first feature that is typical of a lyophilization stopper is that the plug wall does not form a full cylinder over an angle of 360°. It is interrupted for the creation of a vent opening that during freeze-drying allows the evacuation of the sublimated ice. In this example, the plug wall is interrupted twice. Thereby two “legs” are created.
+
+Next, it is easily recognizable that the above stopper has a plug with different diameters at various positions along the height of the plug. Dimension D1 is the diameter of the plug that before capping ensures closure/vial seal integrity. D1 is slightly larger than diameter D2. This D2 is the diameter that, when positioning the stopper after filling of the freeze-dry solution, is the first to enter in the vial neck. For that purpose, it is advantageous to have a smaller diameter. D2 on the other hand must not be too small either. It must be larger than the internal neck diameter of the vial since this oversizing will contribute to the stability of the stopper in half-way down position. Of course, during all of the transport stages on the filling line itself, on the way to the lyophilizer, and during loading of the vials into the freeze-dryer, the stopper must firmly stay on the vial without tilting or falling down, because this would jeopardize subsequent steps in the process. Stability of the stopper in half-way down position however is not only dependent on the oversizing of D2 versus the internal vial neck diameter. There is another diameter that plays a role, namely D3. D3 is larger than D2 and also larger than internal neck diameters. The transition between the two diameters D2 and D3 is made by a chamfer, so that a rib is formed that runs over the circumference of the 2 legs of the stopper. In half-way down position, this rib is resting on the rim of the vial. Thereby, it forms an obstacle against the tilting and tumbling of the stopper in a plane that is “parallel” to the two vent openings. Equally of interest is a second, this time partial rib that is located a little bit lower on the plug. The rib that is described above, together with this partial rib, over a limited angle form an annular space that can accommodate the blowback rim of the vial on which the stopper is placed. Also this increases the stability of the stopper in half-way down position since a second obstacle against tilting and tumbling is formed. This statement is valid provided that the stopper and the vial are designed to match with each other. If this is not the case, the partial rib will not exert its functionality, but on the other hand, it is not likely to negatively influence stopper stability.
+
+After complete insertion of the stopper and before capping, closure/vial seal integrity is assured by the plug diameter D1 that is oversized versus the internal vial neck diameter. The seal however will only stretch over the height H1 underneath the stopper flange and above the vent openings. The sealing height is a very important dimension for a lyophilization stopper. If the stopper after full insertion, e.g., as a result of flange/shelf sticking or of mechanical agitation during transport to the capping station would creep out of the vial neck, then part of the sealing height is lost and the quality of the seal before capping is affected, in part or in full. Raised stoppers may cause loss of the vacuum that was present before stopper insertion. This is seen as a critical quality attribute for a finished lyophilization vial. Illustration and discussion of this phenomenon can be found in publications like \[21\]. Additional provisions in the stopper plug design can be made to control and prevent stopper pop-up after full seating, e.g., by providing a blowback ring below the flange and/or an annular ring that is located on the plug body below the flange and that engages the blowback of the vial. These provisions are not present in the stopper that is illustrated above. They also will only have their effect if the stopper and the vial are designed to perfectly match with each other. If this is not the case, then seal integrity before capping worst case may even be harmed. Interesting illustrations of exemplary and non-exemplary stopper/vial matches can be found in \[22\].
+
+#### ***3.1.4 ***Standardization of Lyophilization Stoppers Geometry
+
+There are ISO standards for lyophilization closures. These standards are not exhaustive when it comes to stopper dimensioning. Only a minimum number of dimensions are standardized. This is a consequence of so many lyophilization stopper geometries having been developed and being made available to the market over time so comprehensive universal standard dimensions cannot be easily defined. One feature that leads to diversity is the number of vent openings. In Fig. 9, there are two vent openings that are symmetrically located over the plug circumference \(“2-leg-lyo-stopper”\). Other designs have three vent openings \(“3-leg lyo stopper”\). Yet another frequently encountered stopper type has only one, but wider vent opening \(“igloo stopper”\). All of these styles of stoppers are illustrated in Fig. 6.
+
+Splitting the vent area over multiple openings also has other consequences that become apparent at the time of lyo cake reconstitution and preparation of the injection into the patient. The single large vent opening of the igloo type stopper shown on the left-hand side in Fig. 6 allows to visually follow the introduction of the needle through the stopper penetration area into the vial, at least if the turbidity of the reconstituted solution and the size of the stopper both permit this. The needle is attached to a syringe in which the drug solution is collected before injection into the patient. With the igloo type of stopper, it is possible to easily visually monitor how much of the vial drug solution is withdrawn into the syringe and eventually delivered to the patient. With a 2-leg stopper, this is already not easy anymore. With a 3-leg stopper, it is not possible at all anymore, since the cannula tip will always be hidden, if not by the crimp cap, then the legs of the rubber stopper. Moreover, with this type of stopper, there is the additional disadvantage that when the stopper is in fully seated position, the legs are forced to come together. Thereby, capillaries are formed between the legs in which reconstituted drug solution is held up. Such 3-leg designs therefore increase the residual volume in the vial. A last disadvantage of 3-leg designs is that during packaging at the closure manufacturer or during transport to the user of the closures, the legs get entangled, resulting in “twin pairs” of stoppers that do not separate again and that disturb good machineability behavior on filling lines.
+
+### **3.2 **Moisture Absorption/Desorption and Permeability Behavior
+
+Lyophilization is a process that is applied if the drug product on the longer run is not stable in an aqueous medium, and where identity, strength, quality, and purity can only be guaranteed if the product is brought in the form of a lyophilized cake. Upon storage, it is therefore also of importance to keep moisture away from the freeze-dried product. In general, the lower the active dose is, the more important it is to shield the product from moisture. This shielding can be done via appropriate choices of packaging components and crimping conditions.
+
+For a lyophilized drug product there are three principal routes by which, after packing, it can be “contaminated” with water: ingress of water via the closure/vial interface \(path “I” in the Fig. 10\), desorption of water from the elastomeric closure \(path “D”\), and permeation of water through the closure \(path “P”\). 
+![](images/000010.jpeg)
+
+
+***Fig. 10*** 
+Moisture paths into freeze-dried vials
+
+
+
+The ingress route would point to insufficient container/closure integrity and therefore is problematic, both from the point of view of microbial ingress as from the perspective of moisture ingress and loss of underpressure in the vial. For a more extensive discussion, reference is made to other parts in this chapter that discuss container closure integrity. Desorption and permeability will be discussed further below.
+
+Elastomeric closures for parenteral use, at the end of their manufacturing process, are always subjected to a washing and drying process. The purpose of this process is to bring the closures in a controlled state of microbiological and particulate cleanliness and to satisfy regulatory requirements that are imposed by various regulations \[23\]. During the washing and rinsing phases of this process, the closures are for a certain period exposed to water, while also in the step before washing, the closures are for a certain time remaining in wet condition. This means that right before and during the washing and rinsing, there is time for the closures to absorb water. The absorption of the water takes place at the surface of the stopper and will not reach into the bulk of it. Most of the water will be dried during the drying phase that follows washing and rinsing, but part of it will remain in the stopper. The percentage of moisture that is left in the stoppers will depend on parameters such as stopper compound, duration of the exposure to water before washing, duration of the drying cycle after washing, temperature at drying, storage conditions after drying, etc. Typical numbers for moisture content of elastomeric stoppers as delivered by closure manufacturers are in the order of magnitude of 0.1–0.4% \[24\]. Before aseptic filling, elastomeric closures are however subjected to sterilization. In most of the cases, this is done by steam sterilization of the closures, followed by drying. During the first part of this process, closures are brought in a saturated steam environment, typically for 30 min at 121 °C \(2 bar\). The objective of this process obviously is to bring stoppers in a sterile state, ready to be used for filling. However, the side effect of it is that stoppers again will absorb water \(steam\!\) and that the moisture level of the stoppers increases to levels that are 4–5 times the initial level before sterilization. At longer sterilization times, the effect is even more pronounced \[25, 26\]. In order to reduce this level again, stoppers are dried. The moisture level after drying can be influenced by varying temperature and pressure during drying and by the length of the drying cycle \[24–28\]. Lately, the use of ready-to-use stoppers is becoming more and more popular. Such stoppers are sterilized either by steam or by radiation. In the latter case, the moisture uptake during sterilization obviously will not take place, but the radiation dose must not be excessive as to degrade the elastomer. Low rate water absorption during storage after sterilization however cannot be excluded and must be mitigated if needed.
+
+A number of “low residual moisture” rubber formulations have been brought to the market that are characterized by a considerably lower moisture pick-up during steam sterilization in comparison with other, traditional rubber formulations that are used for lyophilization stoppers. This feature of those formulations can be attributed to their composition in that they do not or only contain little rubber ingredients that easily absorb moisture. Furthermore, they are also characterized by drying rates that are comparable to those of other, more moisture absorbing formulations. The moisture absorption and drying behavior of such rubber formulation is illustrated here below \(Fig. 11\). 
+![](images/000011.jpeg)
+
+
+***Fig. 11*** 
+Moisture absorption/desorption of a low moisture absorption rubber compound in comparison with a typical compound \(both bromobutyl\)
+
+
+
+The advantage of this type of rubber formulation is that the stoppers at the beginning of the drug life cycle contain less moisture. Since the moisture in the stopper is in the immediate vicinity of the lyophilized drug and is therefore, by desorption from the stopper, easily accessible, the use of low residual moisture stoppers is beneficial for drug stability. For this reasoning to be valid, there are however a number of conditions to be met. The first of those conditions is that the stoppers that are sterilized and dried do not pick up moisture again between the time of drying and the time of being placed on vials. Under normal practical conditions this is not an issue, since the duration of the storage and the storage conditions of the stoppers after drying are not excessive, and since stoppers that pick up less moisture during steam sterilization display the same behavior upon exposure to atmospheric moisture. A second condition however is that the moisture desorption mechanism from the stopper is not outscored by a second mechanism of moisture transfer to the drug product, namely permeation through the stopper. Desorption of moisture from the stopper and permeation of moisture through the stopper are 2 phenomena that run in parallel. However, whereas moisture absorption/desorption \(“D” in Fig. 10\) is determined by stopper composition and the presence of materials with a “hydrophilic” character, stopper permeation \(“P” in the figure\) is related to stopper permeability, which relies on a different physical principle. The moisture that is most readily transferred to a lyophilization cake is the moisture that is left in the stopper after steam sterilization and drying. This water has the shortest way to the cake, as it does not need to permeate through the stopper. Desorption of water from the stopper is a phenomenon that starts right away after complete stoppering of the vials. Permeation of water through the stopper is an effect that plays a role on the longer term, since the water that reaches the cake in this way first has to permeate through the entire thickness of the rubber stopper in its penetration zone. The ideal lyophilization stopper shall therefore have both a low residual moisture level at stoppering and a low moisture permeability, or more generally, a low gas permeability. Stopper permeability equally depends from stopper composition, but not in the same way as absorption/desorption does. Stopper permeability is primarily dictated by the permeability of the elastomer that is used as the base polymer in the rubber and, in second place, by the type of fillers that are used in the rubber. Low gas permeability is always achieved by the use of halobutyl elastomer \(bromobutyl or chlorobutyl\) as elastomer base in lyophilization closures. Fillers that are currently used are always silicates, but depending on the type, a lower or higher permeability will be reached. Blending of bromobutyl or chlorobutyl with elastomers that have a higher permeability such as polyisoprene in rubber formulations for lyophilization closures from a perspective of stopper permeability is not indicated. Such blending sometimes is undertaken in rubber formulations for vial stoppers for liquid fill applications or for plungers for prefilled syringes, in order to improve the mechanical performance of the material, e.g., by increase of its elasticity. A discussion of the role of water/absorption and of water permeability can be found in \[28\].
+
+### **3.3 **Fluoropolymer Coatings
+
+Whereas the base polymer used for rubber compounds for lyophilization closures is always halobutyl, more and more lyophilization closures, especially for biologicals, are closures that at their surface are covered with a fluoropolymer coating. If a coating of this nature is applied, then it will always be present in the area of the stopper that is facing the lyophilization cake \(“drug contacting area”\), and it may or may not be present on the top surface of the stopper flange. The primary reason for applying such a type of coating in the drug contacting area is to achieve a better compatibility of the stopper with the freeze-dried cake. Improving compatibility in fact comes down to further reducing the probability of interaction between the closure and the freeze-dried drug product. Reduction of interaction is achieved by the barrier effect of the coating, meaning that a fluoropolymer coating further reduces the extractability of chemical compounds from the stopper. The extractables level from a coated stopper therefore is lower than the level from a stopper in the same rubber compound but without fluoropolymer coating. The coating in this respect acts as a barrier between the stopper and the drug product. Choosing stoppers with a fluoropolymer coating in the drug contacting area gives the advantage of achieving substantially higher success rates in drug stability studies and in shortening time to market for the drug product.
+
+The reason for applying a fluoropolymer coating on the stopper flange is different. Obviously, the barrier effect of the coating on this part of the stopper does not serve a purpose. The fluoropolymer coating however, very much unlike the halobutyl substrate for the coating, has a totally different tackiness. The fluoropolymer coating makes the stopper completely non-sticky, also without silicone being applied to it. Therefore, stoppers that are fluoropolymer coated on the top of their flanges will not stick to the underside of lyophilizer shelves when they are pressed down. Application of a fluoropolymer coating in the flange area is the most powerful, however also the most expensive measure to avoid stoppers sticking to shelves. A further benefit of a closure that is fluoropolymer coated over its entire surface, not only in the drug contacting area and in the flange area, but also present on the sidewall and on the underside of the flange, is that such a closure does not need any surface siliconization at the end of its manufacturing process and yet will not clump together. The absence of surface silicone is beneficial again from a compatibility point of view for silicone sensitive drugs, such as certain biologicals.
+
+Whereas fluoropolymer coated stoppers offer many advantages, there are also some considerations to make. The first one is that the fluoropolymer coating does not act as a water vapor barrier. The absorption/desorption behavior of a fluoropolymer coated stopper is not governed by the coating but by the behavior of the rubber compound on which the coating is placed. An illustration of the absence of impact of the fluoropolymer coating on moisture absorption/desorption behavior of a totally coated stopper in steam sterilization and drying can be found in \[26\]. As a result, there is also no effect on headspace moisture levels in vials that are stoppered with uncoated and with fluoropolymer coated stoppers of this type. A second consideration is that the fluoropolymer coating in the drug contacting area is not limited to just this area, but that the coating extends to the outer surface of the igloo or of the legs that form the plug of the stopper. The latter surface comes in contact with the vial neck when the stopper is in half-way down position before lyophilization and when it is fully down after complete stoppering of the vial in the freeze-drier. The fluoropolymer layer behaves differently in comparison with a typically siliconized surface of an uncoated stopper. Fluoropolymer-coated stoppers are more slippery in comparison with their siliconized versions, and, all other things such as the vial remaining the same, are more sensitive to displacement in half-way down position. They are also are seen to more easily lead to rising of stoppers after full stopper insertion and before capping. This in turn can lead to a transient container/closure integrity failure that ends when the stoppered vial is crimped, but in the meantime may have led to effects on the composition of the vial head space and potentially to a lack of sterility assurance. Altogether the behavior of the stopper/vial combination in transport phases right after filling, during loading and unloading of the freeze-drier and between unloading and vial crimping need to be closely monitored.
+
+## **4 **Container Closure Fit and Integrity
+
+
+**Robert Ovadia and Roger Asselta**
+
+
+Selecting each individual primary packaging component for a lyophilized drug product requires careful consideration, as alluded to in the earlier sections. Pharmaceutical companies must also consider the compatibility and dimensional fit between the chosen vial, stopper, and cap. Health agencies require all pharmaceutical drug product primary containers systems to have demonstratable container closure integrity \(CCI\) after the crimping operation; however, for lyophilized drug products, stoppered but uncrimped vials must also maintain CCI and the prescribed level of vacuum before the crimping operation because they may remain uncrimped for at least hours and potentially, days.
+
+There are three main sealing surfaces between a stopper and vial: \(1\) the plug seal, also known as the valve seal, \(2\) the transition seal, and \(3\) the land seal, also known as the flange seal, as shown in Fig. 12 \[22, 29\]. It has long been established that the flange seal is the primary seal and occurs at the interface of the top of the vial finish and the bottom surface of the stopper flange \[29\]. It is considered the only seal which can be consistently relied upon due to the many stresses \(temperature, pressure, transportation, vibration, etc. …\) that a final CCS may experience. Prior to crimping of the aluminum seal, the vial is considered closed but not sealed. The plug seal, formed between the stopper plug and the inner neck of the vial, is considered a secondary seal. With lyophilized products, the plug seal plays a critical role in maintaining the quality characteristics of the headspace after full stopper insertion at the conclusion of the lyophilization cycle; the plug seal is responsible for maintaining the integrity of the CCS prior to the crimping operation \[29\]. 
+![](images/000012.jpeg)
+
+
+***Fig. 12*** 
+The sealing surfaces of a vial-stopper system: \(1\) plug, \(2\) transition, and \(3\) flange seals
+
+
+
+Many companies opt to use components that have standardized dimensions and properties, such as those proposed by the International Organization for Standardization \(ISO\), because they are perceived to be suitable off-the-shelf options \[30–32\]. Yet, pairing any ISO vial with any ISO stopper does not guarantee that the system will have a robust fit due to three main reasons. First, ISO vials may have one of three different blowback options and a particular stopper type may not fit well with all three \[30\]. Second, ISO stoppers have varying vent configurations of “igloo,” “2-leg,” and “3-leg” \(described in Sect. 3\), and may or may not have a no-pop ring; a single vial type may not fit well with every stopper option. Third, two “identical” ISO components from different manufacturers, or even the same manufacturer but produced at a different manufacturing site, may look and feel different even though they are considered “equivalent.” This is not necessarily the fault of the component manufacturer since there may be multiple interpretations for what ISO has suggested or differences in raw materials \(i.e., different glass tubing sources for vials\). Companies may also have a strong business or technical justification to select a non-ISO conforming component. Due to the many variations in components, assessing the fit of both a crimped and uncrimped container closure system \(CCS\) is an essential part in the development of a robust lyophilization CCS to ensure a safe drug product.
+
+### **4.1 **Strategies and Methods for Assessing Component Fit
+
+The concepts of Quality by Design \(QbD\) should be used to mitigate issues during the packaging development phase for each product. That is building in quality with a deep understanding of the components and their processes and addressing potential risks. Proper component selection enhances manufacturability by minimizing risk and reducing loss. There are several tools that can be utilized during package development to assess the fit between components. Each method has benefits and drawbacks so pharmaceutical companies should utilize multiple complimentary techniques when selecting their primary CCS, troubleshooting existing configurations, or designing custom configurations.
+
+#### ***4.1.1 ***Visualization Techniques
+
+Visualization techniques provide a means to qualitatively assess how components fit together and the contact surface areas between them, allowing a rapid elimination of obvious poor matches. Three different visualization methods have been reported that allow for direct observation of critical sealing surfaces \[22, 33–35\]. The first two methods, reported by the same authors, assess stoppered but uncrimped systems by \(1\) using novel image generation techniques and superimposing the images of each component and \(2\) immersing the stoppered vial in oil for photography using a camera equipped with a telephoto lens \[22\]. In this work, four different configurations were evaluated for their sealing surfaces and stopper retention features. The images and analysis of all four systems under both methods are reproduced in Fig. 13. 
+![](images/000013.gif)
+
+
+***Fig. 13*** 
+For \(**a**–**d**\), the top represents superimposed images and the bottom represents oil-immersed photographs. \(**a**\) Components with adequate sealing surfaces but an inward pressure on the stopper legs can deform the stopper flange so that the sealing surface above the vent is raised slightly, \(**b**\) components with adequate sealing surfaces but lack a mechanism to keep the stopper fully inserted \(i.e., raised stoppers are observed\), \(**c**\) components with poor sealing surfaces and frequently lose vacuum despite having a stopper no-pop ring, and \(**d**\) components with robust sealing surfaces and stopper retention features
+
+
+
+The first two methods are quick, experimentally facile, and inexpensive ways to assess uncrimped systems. One potential drawback is that they cannot visualize crimped systems since a cap hinders the “optical viewing” of sealing surfaces. Micro-computed tomography \(micro-CT\) is an X-ray-based technique capable of generating images at micrometer level resolution for direct visual analysis of not only uncrimped but also crimped CCSs \[33–35\]. In addition, 3-D renderings of each individual component can be generated, and the component’s features of interest can be analyzed in Fig. 14. Micro-CT is not a high throughput method and requires costly, complex equipment and software. The benefits of generating micro-CT images and 3-D renderings should be compared against the high cost and time-consuming process. Superimposition and oil immersion methods are cheaper and faster for screening uncrimped systems whereas micro-CT could be applied for crimped systems. Finally, it’s worth noting that micro-CT is the only method capable of visualizing in-situ systems under deep cold storage conditions such as −80 °C \[36\]; however, this is not a concern for most lyophilization drug products since they are stored at room temperature or refrigerated conditions. Direct visual analysis of critical component contact surfaces could be evaluated using any of the three methods. All three techniques complement each other and the other approaches listed in this chapter. 
+![](images/000014.jpeg)
+
+
+***Fig. 14*** 
+Top, bottom \(Bot\), and side views of a micro-CT scanned CCS that was rendered into 3D models; models before and after segmentation are shown. Segmentation provides a means to analyze the individual features of interest on the vial, cap, and stopper
+
+
+
+#### ***4.1.2 ***Interference Fit Calculation: Assessment of the Plug Seal
+
+The previous section introduced qualitative and rapid ways of assessing component pairing. Interference fit calculation is a complementary method that provides quantitative comparison between different promising configurations.
+
+The plug seal is formed between the stopper plug and the vial bore. The interference fit percentage, an indirect measurement of lateral stopper compression, can be calculated to assess the effectiveness of the plug seal between a vial and a stopper. The equation is shown below: 
+
+
+
+![$$ \frac{\textrm{Stopper}\ \textrm{plug}\ \textrm{diameter}-\textrm{vial}\ \textrm{inner}\ \textrm{neck}\ \textrm{diameter}}{\textrm{Stopper}\ \textrm{plug}\ \textrm{diameter}}\times 100=\%\textrm{interference}\ \textrm{fit} $$](images/000015.jpeg)
+
+
+
+
+
+The strain of the compressed rubber stopper creates a surface stress that establishes the seal inside the vial. While this non-subjective calculation provides a quantitative value, the results may not always be easily interpreted. Values that approach zero percent suggest that there is not enough lateral compression on the stopper plug to form a seal with the vial bore \(i.e., a loose fitting stopper\). On the other hand, very high values may present other challenges such as over deformation and increased stoppering force in the lyophilizer or increased chance of stopper pop-up. In both scenarios, the CCS may lose CCI and the required headspace attributes. There are reported recommended target values of 2–10% \[37\]; however, different vial-stopper combinations will have different optimal values. Understanding the influence of the dimensional variation of the components’ diameters and the mating of the configured geometries of the selected components are critical to establishing a suitable CCS. The most robust interference fit percentage for a configuration depends on not only the dimensions but also other factors such as: the rubber formulation and durometer, the geometries of the vial and stopper, and the size of the components \(13 mm, 20 mm, etc. …\).
+
+Ideally, one would have access to a library of components for a given vial and stopper that have incremental variations, such as 0.1 mm, at key dimensions \(i.e., stopper outer diameter and vial neck inner diameter\). This would allow the user to experimentally assess multiple interference fit percentages and select the most robust value for a specific configuration by using CCIT \(container closure integrity testing\); however, fabricating a library is costly and time consuming for component suppliers. The interference fit percentage can be used during early stages of initial component selection to rule out any configurations that have values too low or too high. Pharmaceutical companies should assess component fit by complementing the calculation with alternate methods.
+
+#### ***4.1.3 ***Dimensional Stack-Up Analysis: Assessment of Flange Seal and Skirt Length
+
+The flange seal is formed under appropriate stopper compression during application of a crimp cap. Sufficient compression, which can be measured by residual seal force testing \(described later\), is required to maintain robust CCI of the CCS; the integrity of the system may be compromised if the stopper is under low compression \[38, 39\]. On the other hand, over compressed stoppers increase the risk of cosmetic defects and while they may not always have an impact on CCI, they should be avoided \[33, 39, 40\]. The target level of stopper compression to maintain CCI and avoid defects must be balanced with the aluminum seal skirt length as seen in Fig. 15 \[39, 40\]. Seals can be supplied with different target skirt lengths in which shortest and longest offerings may vary as little as 1.0 mm; this small difference could impact CCI of a system if the seal was not correctly sized to the vial and stopper. Systems that use seals with short skirt lengths may lead to an accidental over compression of stoppers during capping to avoid assembly challenges at target compression in which the aluminum cannot be fully tucked under the vial flange \(Fig. 16\). Over compressing stoppers could lead to an increased rate of defects such as deformation, dimpling, or rupture of the stopper, which may impact CCI, as seen in Fig. 17 \[33\]. Using seals with long skirt lengths may lead to an accidental under compression of stoppers to avoid visual defects seen at target compression, such as excessive aluminum overhang, and may impact CCI \(Fig. 18\). Exclusively relying on crimp visual appearance exacerbates the outcome of using seals with skirt lengths that are either too short or too long. Each CCS has a performance window that should be identified and characterized to ensure robust sealing \[40\]. 
+![](images/000016.jpeg)
+
+
+***Fig. 15*** 
+Mapping a balance of container closure system performance window to avoid defects
+
+
+![](images/000017.jpeg)
+
+
+***Fig. 16*** 
+CCS with a short skirt length. \(**a**\) Target stopper compression cannot be achieved since the aluminum cannot be fully tucked under the vial. \(**b**\) Over stopper compression is likely in order to obtain proper crimp aesthetics
+
+
+![](images/000018.jpeg)
+
+
+***Fig. 17*** 
+Photograph \(left\) and micro-CT scanned image \(right\) of a dimpled stopper, which may not be easily detected without removing the plastic flip-off button
+
+
+![](images/000019.jpeg)
+
+
+***Fig. 18*** 
+CCS with a long skirt length. \(**a**\) Target stopper compression cannot be achieved since the aluminum wraps below the vial neck. \(**b**\) Under stopper compression is likely in order to obtain proper crimp aesthetics
+
+
+
+Dimensional stack-up analysis is a calculative method capable of assessing the amount of aluminum available for crimping and can predict if the stopper can be robustly compressed to maintain CCI while minimizing any potential defects. The equation to calculate the excess skirt length \(i.e., the portion that will get tucked under the vial flange\) is shown below: 
+
+
+
+![$$ {\displaystyle \begin{array}{l}\left(\textrm{Skirt}\ \textrm{length}-\textrm{Aluminum}\ \textrm{thickness}\right)-\textrm{Vial}\ \textrm{flange}\ \textrm{thickness}-\left(\textrm{Stopper}\ \textrm{flange}\ \textrm{thickness}\times \left(1-\%\textrm{Stopper}\ \textrm{compression}\right)\right)\\ {}=\textrm{Excess}\ \textrm{skirt}\ \textrm{length}\end{array}} $$](images/000020.jpeg)
+
+
+
+
+
+Previous reports have suggested that the target parameters for 20 mm configurations are around 20% stopper compression and an excess skirt length between 0.75 mm and 1.5 mm \[40, 41\]. The target stopper compression and excess skirt length for each configuration may vary and should be correlated to a CCIT method for robust protection. The calculation may also be supplemented with statistical variability data on the critical dimensions for each component and the capping process \[33, 40\]. Calculating the skirt length by relying exclusively on the target dimensions may result in operating close to an edge of failure. Dimensional stack-up analysis should be applied when assessing the robustness of the flange seal and can aid in characterizing the performance window for a CCS.
+
+#### ***4.1.4 ***Container Closure Integrity and Seal Quality Test Methods
+
+Container closure integrity \(CCI\) is the ability of the packaging system to protect and maintain the quality of the drug product though delivery to the patient or expiry. USP <1207> states: “…the maximum allowable leakage into and out of intact packages should be so minimal that there is no impact on product safety, and no consequential impact on the product’s physicochemical stability.” CCI or package integrity is defined as “the absence of package leakage greater than the product package maximum allowable leakage limit \(MALL\).”
+
+An integral package must: 
+
++ 
+Prevent microbial ingress \(ensure sterility\)
+
++  
+Maintain drug product quality
+
++  
+Limit loss of product contents
+
++  
+Prevent transmission of debris or detrimental gasses
+
+
+
+
+Per USP <1207>, MALL is the smallest gap \(leak\) or leak rate that puts product quality at risk \(sometimes called the “critical leak”\). Inherent package integrity is the leakage rate of a well-assembled \(sealed\) CCS using defect-free \(conforming to specifications\) components. Lyophilized products typically require a lower MALL as it is often important to maintain defined headspace requirements which may include partial vacuum, inert gasses, and moisture ingress prevention. CCSs for lyophilized drug products must have a higher inherent package integrity \(IPI\). Any evaluation of the suitability of the CCS should consider storage and transportation.
+
+CCI and seal quality test methods are commonly used to assess component fit. These methods are described in USP <1207> and have been thoroughly studied \[41–44\]; each has benefits and drawbacks. No single method should be exclusively applied during CCS development and method selection will depend on the drug product and primary CCS. CCI test methods are split into two categories: deterministic and probabilistic. USP <1207>, EU GMP Annex 1, and health agencies prefer deterministic methods, such as he-leak and laser headspace \(both discussed later\), over probabilistic methods, such as dye ingress, for improved method sensitivity, reliability, and patient safety. Residual seal force represents the only non-subjective and quantifiable seal quality test applicable to parenteral CCSs. The methods discussed in this section are not inclusive of all those that can be used during development of a lyo CCS. Instead, the focus is on a select few that can support assessing the component fit for both uncrimped and crimped CCSs.
+
+Demonstrating CCI on the crimped CCS is a regulatory requirement; however, the redundant sealing surfaces \(plug, flange, and transition\) of a CCS may all contribute to an integral system. For example, a system with a robust plug seal will pass CCI when crimped even in absence of a flange seal \(i.e., not enough stopper compression\). Understanding which surfaces contribute to the integrity of a CCS is essential to developing a robust configuration, and while there is no regulatory requirement mentioning which sealing surface must be present, it is understood that both plug \(uncrimped\) and flange \(crimped\) seals must be present for a lyophilization CCS.
+
+##### ***4.1.4.1 ***Helium Leakage
+
+Helium leakage \(he-leak\) is considered the most sensitive CCI test method and can be applied in combination with other techniques when assessing component fit. There are numerous publications that describe the he-leak method, application with crimped CCSs, leak rate limits, and testing CCSs at deep cold storage conditions \[33, 34, 42, 43\].
+
+A recent study reported a method to independently assess the redundant sealing surfaces of a CCS using he-leak \[38\]. Lyo rubber stoppers were sectioned to compromise either flange or plug seals; the procedure can be seen in Fig. 19. This technique allows for direct measurement of the one sealing surface, without interference from the other, and should be used in combination with other methods when testing for CCI and/or vacuum retention prior to the capping operation. 
+![](images/000021.jpeg)
+
+
+***Fig. 19*** 
+Procedure to section stoppers that enable independent assessment of the plug seal \(**a**\) or flange seal \(**b**\)
+
+
+
+Results on the plug-only configuration demonstrated that integrity was maintained in absence of a flange seal \(for that particular stopper and vial configuration\), which represents an uncrimped configuration \(i.e., after stoppering and before capping\), while the flange-only configuration failed CCI testing at instances in which residual seal forces were < 20 N. A separate study was conducted to assess the same CCS using intact, not modified, stoppers at residual sealing forces of < 20 N and all tested vials passed CCI testing, which suggests that the plug seal is the major/only contributor at low stopper compression. Scenarios in which the stopper is not sufficiently compressed by the cap will likely go undetected during routine batch CCI testing. Patient safety and product efficacy is at risk since the flange seal is the only seal which provides robust sealing behavior under stress conditions \(e.g., cold storage, air transportation etc. …\). Most pharmaceutical companies perform CCI testing only on intact systems, yet these results highlight the importance of independently assessing the sealing surfaces during development. To mitigate the risk of insufficient stopper compression, methods could be implemented during routine manufacturing such as 100% in-line CCI testing via laser headspace, or residual seal force testing when combined with a statistical approach to estimate batch-wide stopper compression; both topics are discussed later.
+
+While there are many benefits to using he-leak as a CCI test method, companies should also consider the drawbacks as it pertains to their CCS and product-specific requirements. He-leak is not “operator friendly” since vials must be manipulated, such as cutting their heel using specialized electrically powered tools or applying epoxy to previously punctured stoppers. In addition, the lyophilized powder or cake must be reconstituted and washed out so handling potent compounds, such as antibody drug conjugates, poses other environmental, health, and safety concerns. To mitigate these concerns, a non-destructive method, such as laser headspace, could be used in combination with and correlated to he-leak.
+
+##### ***4.1.4.2 ***Laser-Based Headspace Analysis
+
+Laser-based headspace analysis \(HSA\) is another technique for monitoring CCI. USP <1207> and many publications describe the technology in detail \[44–46\]. In short, a vial’s headspace environment, such as moisture content, oxygen content, or pressure, can be rapidly detected and quantified using modulated diode laser spectroscopy. The technique is applied non-destructively in a laboratory setting or in-line during routine manufacturing for 100% in-line monitoring \(not to be confused with 100% batch inspection\).
+
+Using HSA during routine manufacturing is highly desirable as it provides a means to monitor the integrity of every vial. 100% in-line monitoring should not replace the development efforts needed to qualify a robust CCS because manufacturing challenges will arise, even for a robust CCS. These challenges could be caused by many reasons such as a batch of components that are near their edge of specification for a critical dimension or an equipment operating at the edge of a critical process parameter range \(e.g., capper head pressure\). These scenarios, while uncommon, may increase the likelihood of a CCI failure putting product efficacy and patient safety at risk. Instructions are generally given to the end user \(e.g., health care providers\) to discard any vial that has lost vacuum but this safety precaution, only applicable to lyophilized products, should be used as a last resort because it cannot be consistently relied on; hence, the benefit to monitor every vial during manufacturing and reject those that do not pass the acceptance criteria.
+
+The benefit of implementing 100% in-line monitoring during routine manufacturing should be weighed against the probability of such an event occurring, especially if other in-process controls or alternate strategies are implemented to reduce the frequency of CCI failures \(e.g., RSF, which is discussed later\). Pharmaceutical companies could use ad-hoc 100% CCI testing to support deviations and/or investigations in which the integrity of vials within a batch is unknown. In either scenario \(100% in-line monitoring or ad-hoc\), development work is required before companies can apply the technology for a new drug product and CCS. Finally, the sensitivity of HSA is lower compared to he-leak; thus, there is a strong technical justification to characterize the robustness of a CCS using complementary CCIT methods during development prior to implementation of 100% in-line monitoring or ad-hoc testing \[46\].
+
+##### ***4.1.4.3 ***Residual Seal Force
+
+The residual seal force \(RSF\) is the force exerted by a compressed stopper against a vial finish \[47–50\]. The RSF test method provides an indirect way of measuring percent stopper compression and can be correlated to an appropriate CCIT method to facilitate CCS characterization or technology transfers. Several RSF-related studies have concluded that this non-subjective seal quality test enables consistent and robust sealing across various capping equipment \[33, 35, 38, 51–54\]. RSF measurements, in combination with statistical models, can support to use of acceptable ranges on test samples taken during capper setup to ensure that equipment process parameters and inherent component variations will not impact seal quality or CCI for a given drug product lot \[38\]. RSF acceptable ranges also lower the probability of observing samples that have under or over compressed stoppers \(described earlier\), which could remain undetected after visual inspection.
+
+RSF methodology is best applied after the CCS has been thoroughly characterized by other techniques. The time dependent variability of RSF should be understood for each CCS. Stoppers are viscoelastic so under constant stress \(compression with an aluminum seal\), they not only maintain elastic energy but also dissipate viscous energy; this is known a stress-strain relaxation. Theoretical models of the stoppers’ stress-strain relaxation have proven to be great predictors of experimental data \[54\]. RSF values decrease over time with the largest decrease typically observed over the first 24 h; however, the extent of this effect is dependent on the configuration and initial compression force \[33, 38, 53\]. A well-sealed CCS will maintain a sufficient RSF to assure CCI for the shelf-life of the product. In addition, gathering RSF values during capping development support the setting of appropriate capping parameter ranges. The statistical distribution of the RSF data is a key input to generating a representative statistical model \[38\]. RSF methodology can be applied during capper development and routine setup as a complementary tool to CCIT.
+
+### **4.2 **Common Causes of Loss of Vacuum and/or CCI: Raised Stoppers and Dried Product
+
+Previous studies demonstrate a small but not insignificant number of vials fail to meet headspace attribute requirements \[21, 44\]. The failures are primarily caused by vials that had a “leaky” valve seal prior to capping and the failure rate can vary significantly from lot to lot. One explanation of these failures can be attributed to vials that had raised or displaced stoppers. Once crimped, previously failed vials may become integral and CCIT methods other than HSA will not detect the headspace changes such as loss of vacuum \[44\].
+
+EU GMP Annex 1 requires that vials with lyophilized product be 100% inspected for raised or displaced stoppers prior to capping. Raised stopper detection systems \(RSDSs\) are sophisticated, in-line equipment that utilize multiple camera angles to generate images of CCSs. Image processing software determines the maximum observed distance between the bottom of the stopper flange and the top of the vial finish and CCSs that exceed a safety limit are rejected. Prior to implementation of RSDS, various distances or gaps are correlated to a CCIT method to support setting of the safety limit; this is accomplished by placing shims between the vial and stopper to artificially create a gap. RSDSs can reduce the frequency of CCSs that fail to maintain their headspace requirements, but it may not eliminate their occurrence entirely. The correlation between distances and CCIT is usually based on a small sample set and is probabilistic by nature. RSDSs may also falsely reject samples that are integral.
+
+Designing and selecting components that don’t have tendency to form raised stoppers is the most effective approach at controlling the failure mode. Recent advances in component design have included geometric features, such as a no pop-ring on the stopper, and processing improvements, such as elimination of uncured/unbound silicone oil on the stopper, have mitigated, but not eliminated, the occurrence of raised stoppers. However, companies may not have the option to change the CCS for an older product so in this case, using RSDSs and/or 100% in-line HSA is the most effective way to reject vials that do not meet headspace attribute requirements.
+
+Another potential failure mode for a “leaky” valve seal prior to capping occurs during filling and/or lyophilizer loading processes and may occur regardless if raised stoppers are detected. During these operations, excessive splashing within the vial could occur resulting in liquid DP that is present between the sealing surfaces \(plug, land, or both\) of a vial and stopper \[55\]. After lyophilization, the freeze-dried DP in this region may compromise CCI if present across an entire sealing surface. Vials that are observed to have dried DP in the neck are rejected because of their potential impact on product quality attributes. 100% in-line monitoring via HSA is the only method capable to detecting this defect; therefore, improvements to the filling and/or lyophilizer loading process should be implemented if the failure rate is unacceptable.
+
+## **5 **Future Trends
+
+### **5.1 **Dual-Chamber Containers
+
+Vials are by far the container type which is used most for freeze-drying applications \[6\]. The diluent is delivered in another vial or in a pre-filled syringe. A dual-chamber system \(either a cartridge or a syringe\) offers the advantage of having the lyophilized product and the diluent in one container. A plunger stopper in the middle of the container separates both chambers \(see Fig. 20\). By pressing on the second stopper at the end of the container, the liquid can flow through the bypass at the side and starts the reconstitution. Korpus et al. provide an overview for the heat-transfer during lyophilization for dual-chamber cartridges \[56\]. Despite their obvious in-use convenience, lyophilized products in dual chamber containers require a different, more complex and costly manufacturing process, limiting their general adoption. Furthermore, water permeation properties of the plunger separating the chambers must be thoroughly evaluated. 
+![](images/000022.jpeg)
+
+
+***Fig. 20*** 
+Schematic image of the functionality of dual-chamber syringe \(**a**\) and actual image of the system \(**b**\)
+
+
+
+### **5.2 **Nested Vial Configurations and Press-Fit Caps
+
+The introduction of personalized healthcare for patients within various fields of applications drives the need for more flexible filling concepts, especially for smaller batch sizes. This resulted in the development of standardized robotic aseptic filling technologies like, e.g., the SA25 from Vanrx \(part of Cytiva\) \[20\]. Such isolator-based filling systems are designed to run without human intervention but require ready-to-use components in a nested configuration. Vials in a nest face a different thermal environment than in a hexagonal close-packed configuration \[57\]. This could impact product temperature profiles, primary drying times, and therefore product quality.
+
+New nested press-fit caps were developed in the past years to pair with the nested vials. The caps are supposed to be used within the lyophilization chamber or in the isolators and consist of polymer components like polypropylene or polycarbonate. These sterile caps already include the stopper and allow a single step sealing and “crimping” process by just pressing down the cap onto the vial opening allowing the cap to “snap” into place at the end of the freeze-drying cycle. Thus, the standard post-lyophilization crimping process and equipment is replaced by this procedure \(see Fig. 21\). 
+![](images/000023.jpeg)
+
+
+***Fig. 21*** 
+Nested vial and cap/stopper configurations \(left\) and standard crimped vial and a vial with a Daikyo Plascap® \(right\)
+
+
+
+The capping force within the lyophilization chamber should be thoroughly considered for each configuration. For a conventional aluminum crimp sealed CCS, stoppering a shelf of vials within a lyophilization chamber relates to the force required to stopper a single vial multiplied by the number of vials on a given shelf. In reality, the force is larger than this calculation due to slight variations in component heights; taller vials will get stoppered first and in order to fully stopper the shorter vials, the stoppers on the taller vials will need to get slightly compressed thus increasing the stoppering force. The capping force for press-fit caps is far greater than the stoppering force because each stopper will need to be fully compressed in order to “snap-on” the caps. Like stoppering vials, slight variations in component heights will further increase the capping force. The capping force should be evaluated for smaller, densely nested vials, such as 2R configurations, in which there are more vials to cap within a single shelf and the capping process potentially pose equipment challenges \[58\].
+
+Such caps could potentially interfere with the water vapor flow during sublimation, but studies using LyoSeals® and Plascaps® revealed no interference with the sublimation process and no systematic influence on the product temperature during primary drying \[57\]. The press-fit caps did not affect residual moisture, crystallinity, or the macro- and microscopic product structure. Additionally, no impact of the nest on the water vapor flow was observed. However, the nests had an influence on the macro- and microscopic appearances of the lyo cakes with a trend towards lower product temperatures for the nested vials. This needs to be taken into consideration \[57\]. Finally, ready-to-use components that are supplied in a nest and tub format require more consumables compared to bulk components. Sustainability should be thoroughly evaluated as they relate to each company’s mission.
+
+## **6 **Conclusion
+
+During drug product development, the importance of the primary container is well recognized, though, this is typically only in the context of component compatibility with the drug product solution. Besides chemical compatibility, the selection of primary container components is often just based on availability or convenience, driven by tight timelines. Usually, for the development scientists and their management, container closure integrity is implied. Furthermore, cost is also factor not necessarily visible at that stage, particularly important for high volume, low profit margin products \(e.g., vaccines\) which are still subjected to the same CCI requirements as for high margin products. While the newer and more exotic components available may indeed offer superior performance and other manufacturing benefits, the cost associated with these may be 2–5 times that of the traditional glass vial and off-the-shelf rubber stopper – crimp seal closure. Many organizations lack the resources or the expertise to perform systematic component selection, and the consequences of poor choices do not surface until much later in the development phase where mitigation of the problem is lengthy and costly. For parenteral drugs, preserving container closure integrity throughout their shelf life is absolutely critical to prevent contamination by potential pathogens and to preserve product quality. In that regard, health agencies have very low tolerances for mistakes.
+
+In this chapter, we have presented various aspects pertaining to the function of primary containers, some of which are not widely discussed in most publications primarily focused on lyophilization. It is our hope that the material herein serves as a good introduction to primary container systems and highlights their importance in the overall drug product development and manufacturing processes.
+
+
+**References**
+
+1.  
+1.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73
+
+2.  
+2.
+
+Pikal MJ, Shah S. Moisture transfer from stopper to product and resulting stability implications. Dev Biol Stand. 1991;74:165–79.
+
+3.  
+3.
+
+Sreedhara A, et al. Challenges of using closed system transfer devices with biological drug products: an industry perspective. J Pharm Sci. 2020;109:22–9.[Crossref](https://doi.org/10.1016/j.xphs.2019.10.042)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31697946)
+
+4.  
+4.
+
+Ward K, Matejtschuk P, editors. Lyophilization of pharmaceuticals and biologicals: new technologies and approaches. New York: Humana Press/Springer; 2019.
+
+5.  
+5.
+
+Rey L, May JC. Freeze drying/lyophilization of pharmaceutical and biological products. 3rd ed. New York: Informa Healthcare; 2016.[Crossref](https://doi.org/10.3109/9781439825761)
+
+6.  
+6.
+
+Janssen R. Recent trends in lyophilized delivery devices and packaging. In: Varshney DB, Singh MJ, editors. Lyophilized biologics and vaccines. New York: Springer; 2015. [https://​doi.​org/​10.​1007/​978-1-4939-2383-0\_​16](https://doi.org/10.1007/978-1-4939-2383-0_16).[Crossref](https://doi.org/10.1007/978-1-4939-2383-0_16)
+
+7.  
+7.
+
+Hibler S, Gieseler H. Heat transfer characteristics of current primary packaging systems for pharmaceutical freeze-drying. J Pharm Sci. 2012;101:4025–31.[Crossref](https://doi.org/10.1002/jps.23293)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22893524)
+
+8.  
+8.
+
+Wenzel T, Gieseler H. Molded vial manufacturing and its impact on heat transfer during freeze-drying: vial geometry considerations. AAPS PharmSciTech. 2021;22:57.[Crossref](https://doi.org/10.1208/s12249-021-01926-x)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33502633)
+
+9.  
+9.
+
+Scutella B, Passot S, Bourles E, Fonseca F, Trelea IC. How vial geometry variability influences heat transfer and product temperature during freeze-drying. J Pharm Sci. 2017;106:770–8.[Crossref](https://doi.org/10.1016/j.xphs.2016.11.007)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27939928)
+
+10.  
+10.
+
+Hibler S, Wagner C, Gieseler H. Vial freeze-drying, part 1: new insights into heat transfer characteristics of tubing and molded vials. J Pharm Sci. 2012;101:1189–201.[Crossref](https://doi.org/10.1002/jps.23004)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22161688)
+
+11.  
+11.
+
+Hibler S, Wagner C, Gieseler H. Comparison of product drying performance in molded and serum tubing vials using gentamicin sulfate as a model system. Pharm Dev Technol. 2012;17:541–51.[Crossref](https://doi.org/10.3109/10837450.2012.700937)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22734495)
+
+12.  
+12.
+
+Cannon A, Shemeley K. Statistical evaluation of vial design features that influence sublimation rates during primary drying. Pharm Res. 2004;21:536–42.[Crossref](https://doi.org/10.1023/B:PHAM.0000019309.23212.d3)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15070106)
+
+13.  
+13.
+
+Machak DR, Smay GL. Failure of glass tubing vials during lyophilization. PDA J Pharm Sci Technol. 2019;73:30–8.[Crossref](https://doi.org/10.5731/pdajpst.2017.008276)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30361283)
+
+14.  
+14.
+
+Jiang G, et al. Mechanistic studies of glass vial breakage for frozen formulations. I. Vial breakage caused by & hellip. PDA J Pharm Sci Technol. 2007;61:441–51.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18410045)
+
+15.  
+15.
+
+Chow EJ, Kitaguchi B, Trier M. Effects of subzero temperature exposure and supercooling on glass vial breakage: risk management and other applications in cold chain distribution. PDA J Pharm Sci Technol. 2012;66:55–62.[Crossref](https://doi.org/10.5731/pdajpst.2012.00772)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22307662)
+
+16.  
+16.
+
+Milton N, et al. Vial breakage during freeze-drying: crystallization of sodium chloride in sodium chloride-sucrose frozen aqueous solutions. J Pharm Sci. 2007;96:1848–53.[Crossref](https://doi.org/10.1002/jps.20854)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17299763)
+
+17.  
+17.
+
+Jiang G, et al. Mechanistic studies of glass vial breakage for frozen formulations. II. Vial breakage caused by & hellip. PDA J Pharm Sci Technol. 2007;61:452–60.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18410046)
+
+18.  
+18.
+
+ICH guideline Q3D \(R1\) on elemental impurities. European Union News.
+
+19.  
+19.
+
+Abdul-Fattah AM, et al. Investigating factors leading to fogging of glass vials in lyophilized drug products. Eur J Pharm Biopharm. 2013;85:314–26.[Crossref](https://doi.org/10.1016/j.ejpb.2013.06.007)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23791681)
+
+20.  
+20.
+
+Mungikar A, Ludzinski M, Kamat M. Effect of the design of the stopper including dimension, type, and vent area on lyophilization process. PDA J Pharm Sci Technol. 2010;64
+
+21.  
+21.
+
+Lighthouse-instruments, Application note: detecting raised stoppers in sterile freeze dried vials; 2013.
+
+22.  
+22.
+
+Lam P, Stern A. Visualization techniques for assessing design factors that affect the interaction between pharmaceutical vials and stoppers. PDA J Pharm Sci Technol. 2010;64:182–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21502017)
+
+23.  
+23.
+
+Food and Drug Administration. Guidance for industry: sterile drug products produced by aseptic processing — current good manufacturing practice. Rockville: Center for Biologics Evaluation and Research. US Department of Health and Human Services; 2004.
+
+24.  
+24.
+
+Templeton AC, et al. Determination of the moisture content of bromobutyl rubber stoppers as a function of processing: implications for the stability of lyophilized products. PDA J Pharm Sci Technol. 2003;57
+
+25.  
+25.
+
+Donovan PD, Corvari V, Burton MD, Rajagopalan N. Effect of stopper processing conditions on moisture content and ramifications for lyophilized products: comparison of “low” and “high” moisture uptake stoppers. PDA J Pharm Sci Technol. 2007;61
+
+26.  
+26.
+
+Janssen R. Transmission of moisture into the headspace of lyophilization vials – a study on various lyophilization closures. Webinar; 2012.
+
+27.  
+27.
+
+Kruszynski M, Tempel J, Akers MJ. Drying effects on residual moisture of lyophilization rubber closures. PDA J Pharm Sci Technol. 2004;58
+
+28.  
+28.
+
+Sasaki H, Kikuchi J, Maeda T, Kuboniwa H. Impact of different elastomer formulations on moisture permeation through stoppers used for lyophilized products stored under humid conditions. PDA J Pharm Sci Technol. 2010;64
+
+29.  
+29.
+
+Morton DK. Container/closure integrity of parenteral vials. J Parenter Sci Technol. 1987;41:145–58.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3320318)
+
+30.  
+30.
+
+ISO 8362-1: Injection containers and accessories - Part 1: Injection vials made of glass tubing.
+
+31.  
+31.
+
+ISO 8362-5: Injection containers and accessories - Part 5: Freeze drying closures for injection vials.
+
+32.  
+32.
+
+ISO 8362-6: Injection containers and accessories - Part 6: Caps made of aluminium-plastics combinations for injection vials.
+
+33.  
+33.
+
+Mathaes R, et al. Impact of vial capping on residual seal force and container closure integrity. PDA J Pharm Sci Technol. 2016;70:12–29.[Crossref](https://doi.org/10.5731/pdajpst.2015.005876)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26889053)
+
+34.  
+34.
+
+Nieto A, et al. Evaluation of container closure system integrity for frozen storage drug products. PDA J Pharm Sci Technol. 2016;70:120–33.[Crossref](https://doi.org/10.5731/pdajpst.2015.006098)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26797976)
+
+35.  
+35.
+
+Ovadia R, Lam P, Tegoulia V, Maa YF. Quantifying the vial-capping process: reexamination using micro-computed tomography. PDA J Pharm Sci Technol. 2020;74:171–84.[Crossref](https://doi.org/10.5731/pdajpst.2019.010363)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31420506)
+
+36.  
+36.
+
+Edey M, Duncan D. Developing a readily available primary packaging system for use in an ultra cold chain for COVID19 vaccine global distribution using a scientific approach. PDA Europe Parenteral Packaging Conference; 2021.
+
+37.  
+37.
+
+Curry W, et al. Reducing the risk of contamination of sterile parenteral products via ready-to-use closure components. AAPS PharmSciTech. 2010;11:1572–9.[Crossref](https://doi.org/10.1208/s12249-010-9531-8)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21057904)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3011061)
+
+38.  
+38.
+
+Ovadia R, et al. Quantifying the vial capping process: residual seal force and container closure integrity. PDA J Pharm Sci Technol. 2019;73:2–15.[Crossref](https://doi.org/10.5731/pdajpst.2018.008797)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29954924)
+
+39.  
+39.
+
+Zeng Q. Considerations for achieving an optimal performance window for container closure systems. PDA Letter LV; 2019. p. 30–4.
+
+40.  
+40.
+
+Bucci A, Ho L, Orme L, Zeng Q. A vial container closure system performance optimization case study using comprehensive dimensional stack-up analyses. PDA J Pharm Sci Technol. 2020;74:368–76.[Crossref](https://doi.org/10.5731/pdajpst.2019.010843)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32060224)
+
+41.  
+41.
+
+Asselta R. Parenteral vial sealing and integrity. Webinar, \(April 10, 2019\).
+
+42.  
+42.
+
+Kirsch LE, Nguyen L, Moeckly CS, Gerth R. Pharmaceutical container/closure integrity II: the relationship between microbial ingress and helium leak rates in rubber-stoppered glass vials. PDA J Pharm Sci Technol. 1997;51:195–202.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9357305)
+
+43.  
+43.
+
+Morrical BD, et al. Leak testing in parenteral packaging: establishment of direct correlation between helium leak rate measurements and microbial ingress for two different leak types. PDA J Pharm Sci Technol. 2007;61:226–36.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17933206)
+
+44.  
+44.
+
+Duncan DI, Veale JR. White paper: an introduction to laser-based headspace inspection and the application to 100% container closure inspection of sterile pharmaceutical containers; 2015. p. 1–10.
+
+45.  
+45.
+
+Hede JO, Fosbol PL, Berg SW, Dahl S. Container closure integrity testing-method development for freeze-dried products using laser-based headspace oxygen analysis. PDA J Pharm Sci Technol. 2019;73:170–80.[Crossref](https://doi.org/10.5731/pdajpst.2018.008680)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30361284)
+
+46.  
+46.
+
+Pelaez SS, et al. Comparing physical container closure integrity test methods and artificial leak methodologies. PDA J Pharm Sci Technol. 2019;73:220–34.[Crossref](https://doi.org/10.5731/pdajpst.2018.009332)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30651337)
+
+47.  
+47.
+
+Morton DK, Lordi NG. Residual seal force measurement of parenteral vials. II. Elastomer evaluation. J Parenter Sci Technol. 1988;42:57–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3385543)
+
+48.  
+48.
+
+Morton DK, Lordi NG. Residual seal force measurement of parenteral vials. I Methodology. J Parenter Sci Technol. 1988;42:23–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3361405)
+
+49.  
+49.
+
+Ludwig JD, Nolan PD, Davis CW. Automated method for determining Instron Residual Seal Force of glass vial/rubber closure systems. J Parenter Sci Technol. 1993;47:211–53.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8263661)
+
+50.  
+50.
+
+Ludwig JD, Davis CW. Automated method for determining Instron Residual Seal Force of glass vial/rubber closure systems. Part II. 13 mm vials. PDA J Pharm Sci Technol. 1995;49:253–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7489201)
+
+51.  
+51.
+
+Mathaes R, et al. Influence of different container closure systems and capping process parameters on product quality and container closure integrity \(CCI\) in GMP drug product manufacturing. PDA J Pharm Sci Technol. 2016;70:109–19.[Crossref](https://doi.org/10.5731/pdajpst.2015.005918)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26797971)
+
+52.  
+52.
+
+Mathaes R, et al. The pharmaceutical capping process-correlation between residual seal force, torque moment, and flip-off removal force. PDA J Pharm Sci Technol. 2016;70:218–29.[Crossref](https://doi.org/10.5731/pdajpst.2015.006106)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26797973)
+
+53.  
+53.
+
+Buecheler J, Luemkemann J, Gieseler H, Mohl S, Streubel A. Residual seal force \(RSF\) testing: a suitable method for seal quality determination also for high potent parenterals. PDA J Pharm Sci Technol. 2019;73\(2\):111–20.[Crossref](https://doi.org/10.5731/pdajpst.2018.008870)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30361287)
+
+54.  
+54.
+
+Zeng Q, Zhao X. Time-dependent testing evaluation and modeling for rubber stopper seal performance. PDA J Pharm Sci Technol. 2018;72:134–48.[Crossref](https://doi.org/10.5731/pdajpst.2017.008052)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29158288)
+
+55.  
+55.
+
+Patel SM, et al. Lyophilized drug product cake appearance: what is acceptable? J Pharm Sci. 2017;106:1706–21.[Crossref](https://doi.org/10.1016/j.xphs.2017.03.014)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28341598)
+
+56.  
+56.
+
+Korpus C, Haase T, Sonnichsen C, Friess W. Energy transfer during freeze-drying in dual-chamber cartridges. J Pharm Sci. 2015;104:1750–8.[Crossref](https://doi.org/10.1002/jps.24392)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25712903)
+
+57.  
+57.
+
+Wenzel T, Gieseler H. Evaluation of packaging materials in freeze-drying: use of polymer caps and nested vials and their impact on process and product attributes. AAPS PharmSciTech. 2021;22:82.[Crossref](https://doi.org/10.1208/s12249-021-01953-8)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33624199)
+
+58.  
+58.
+
+Mossman M. Characterization of nested press-fit caps and container closure integrity. PDA Europe Parenteral Packaging Conference. 2020.
+
+
+

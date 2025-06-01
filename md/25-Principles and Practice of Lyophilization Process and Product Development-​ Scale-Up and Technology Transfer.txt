@@ -1,0 +1,1079 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_25](https://doi.org/10.1007/978-3-031-12634-5_25)
+
+
+**
+# Principles and Practice of Lyophilization Process and Product Development: Scale-Up and Technology Transfer
+**
+
+
+A. Bhambhani1, 2, J. Stanbro1  , A. Sethuraman3 and P. Pande4, 5
+
+
+\(1\) 
+Vaccine Drug Product Development, PSCS, MRL, Merck & Co., Inc., West Point, PA, USA
+
+
+\(2\) 
+Drug Product Development, Tech Dev/Tech Ops, Ultragenyx Pharmaceuticals Inc, Brisbane, CA, USA
+
+
+\(3\) 
+Sterile Drug Product Commercialization, GVBC, MMD, Merck & Co., Inc., West Point, PA, USA
+
+
+\(4\) 
+IMALife North America, Tonawanda, NY, USA
+
+
+\(5\) 
+BTS Product and Platforms, MMD, Merck & Co., Inc., West Point, PA, USA
+
+
+
+
+
+**J. Stanbro**
+
+**Email: **justin.stanbro@merck.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Lyophilization Process Overview
+
+**3 **Considerations for Scale-Up and Technology Transfer
+
+**3.1 **Freezing \(Ice-Nucleation\) Differences
+
+**3.2 **Heat and Mass Transfer Differences Due to Equipment Design Differences
+
+**3.3 **Measurement Differences
+
+**4 **Considerations for Successful Technology Transfer from Lab-Scale to Pilot-Scale to Commercial
+
+**4.1 **Process Design Considerations for Scale-Up and Technology Transfer
+
+**4.2 **PPQ Strategies with Process Verification and Sampling Plan
+
+**4.3 **Continuous Process Verification
+
+**4.4 **Drug Product Quality Attributes \(for Lyo Product\)
+
+**5 **Process Analytical Technology \(PAT\) and Next-Generation Advancements
+
+**6 **Summary
+
+References
+
+
+## Abstract
+
+Best practices for lyophilization cycle and product development, in both the development and manufacturing settings, are described here. Scale-up challenges associated with advancing the product from lab-scale setting to pilot-scale to commercial and even site-to-site transfer post launch are also discussed in greater detail. Specifically, the key scale-up issues associated with the freeze-drying process, namely, freezing, heat and mass transfer challenges, other scale-up factors such as time and measurement difference between different facilities and freeze dryers, etc., are highlighted along with recommendations to mitigate them. Finally, current approach for scale-up are shared along with next-generation PAT tools and approaches that may impart meaningful benefit over traditional approaches for cycle development and scale-up and/or complement the current approaches.
+
+
+**Keywords**
+Nucleation Heat transfer coefficient Product collapse Mass transfer resistance Process design Scale-up Uniformity Process validation
+
+
+## **1 **Introduction
+
+Freeze-drying is the gold standard for overcoming the instability barrier of unstable biopharmaceuticals such as live virus vaccines and viral vectors. Over the last 30 years, the science of freeze-drying has advanced from an empirical operation based on “quality by trial-and-error” to a scientific and systematic operation based on a QbD \(quality by design\) approach \[1, 2\]. Improvement in various sensor technologies, automation, PAT integration, etc. have fueled this transformation. Additionally, greater emphasis on process understanding and controls that is grounded in the science of freeze-drying and quality risk management has resulted in robust, scalable products and processes that guarantees an improved product quality. Despite the progress made, in general, the fill/finish processes have presented substantial bottleneck in recent times and in specific circumstances has impacted the supply chain essential for pandemic responses \[3\].
+
+The current SARS-CoV2 pandemic, for example, clearly highlighted the impact of fill/finish process on achieving the desired health care benefit for the end-user. Some of the approved vaccines, for example, require an expensive cold-chain storage and shipping logistics to be in place for ensuring delivery of a safe, efficacious, and quality product \[4\]. Furthermore, the vaccine doses were delivered in diverse healthcare setting ranging from individual patients in doctor’s office to large mass vaccinations in hospital and/or in various communities. The complexity and variability for achieving successful immunization under various setting further highlights the impact of product stability and fill/finish process as it impacts the storage, transportation and shelf-life of drug products. Additionally, the unprecedented demand for dose volumes required to address the pandemic in a prompt manner also showcased the criticality of an efficient operation with a fast turnaround time for maximal throughput. Lyophilization, in this context, serves as one approach to enhance the shelf-life stability of these vaccines and will be the topic of focus for this article.
+
+This chapter provides a brief description of the lyophilization process along with best practices for cycle and product development in both the development and manufacturing setting with a greater emphasis on scale-up challenges associated with advancing the product from lab-scale setting to pilot-scale to commercial and even site-to-site transfer post launch. The key scale-up issues associated with the freeze-drying process such as freezing, heat and mass transfer challenges, scale-up factors such as time and measurement difference between different facilities and freeze-dryers, etc. are highlighted along with recommendations to mitigate them. Furthermore, current approach for scale-up are shared along with next-generation PAT tools and approaches that may impart meaningful benefit over traditional approaches for cycle development and scale-up and/or complement the current approaches. It should be noted, however, that the current chapter is not meant to be exhaustive, and a brief but relevant guidance and recommendation are provided along with appropriate references.
+
+## **2 **Lyophilization Process Overview
+
+Lyophilization, also known as freeze-drying, is the process of removing solvent from a product while frozen and under vacuum conditions. Typically, that solvent is water, though lyophilization can also be used to remove other types of solvents. When the goal is to dehydrate a product, it is usually to improve the stability of the product, which allows for increased storage temperatures and/or durations. Water can be detrimental to stability because it can degrade products via hydrolysis, increase molecular mobility, and enable microbial propagation. In food industry drying also serves to reduce shipping burdens because the water weight has been removed which can constitute most of the final product formulation. The purpose of this article is to focus on freeze-drying of biopharmaceuticals.
+
+The lyophilization process can be broken down into three separate phases \[5\]. The first phase is the freezing step where the liquid product is cooled until the water crystallizes, and the amorphous phase is lowered below its glass transition temperature. For solutions that contain crystallizable solutes, an annealing step may be conducted during this stage. The rate of freezing is often a critical parameter because it determines the size of ice crystals, which subsequently impacts drying process and potentially the product stability \[6\]. Faster freezing results in more nucleating sites and smaller crystals, whereas slower freezing will have the converse effect. Large ice crystals will allow for faster primary drying, but potentially slower secondary drying \[7\]. They also will have a decreased surface area to volume ratio, which may be important if the product is sensitive to interfacial stresses. The slow freezing used to generate large ice crystals may cause a higher degree of freeze concentration where the solute is excluded from the water phase and concentrated into the amorphous phase, which could also be detrimental to stability. For some products, such as live virus vaccines, freezing in the lyophilization unit is not feasible because the product is very unstable in the liquid state, and it cannot wait to be cooled by conventional conduction-based approaches. In those cases, the product may be flash frozen prior to being placed in the lyophilization cabinet, through liquid nitrogen or other means \[8\] \(Fig. 1\). 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Example lyophilization cycle showing primary and secondary drying stages. During primary drying, the shelf temperature set point \(SP\) is typically held constant and the product temperature remains colder than this value due to sublimation. Convergence of the product temperature with the shelf temperature suggests completion of primary drying. This is also evident when the Pirani gauge converges with the capacitance manometer since there is no longer water vapor present in the chamber. Sublimation rate by TDLAS also confirms the end of primary drying. Secondary drying includes a controlled temperature ramp and hold until the target moisture is achieved
+
+
+
+The next phase of the lyophilization process is called primary drying. After the product has frozen, the drying chamber is evacuated using vacuum pumps to reach the target pressure, which is usually in the tens to hundreds of millitorr. During primary drying the pure ice fraction of the frozen solution is removed via sublimation, leaving behind the amorphous solute with any bound water. Sublimation, like evaporation, is an endothermic event and requires that the latent heat of sublimation be provided, or sublimation will come to a halt. The fundamental heat transfer mechanism is conduction from a temperature-controlled shelf within the vacuum chamber \[9\]. Under the low vacuum levels of lyophilization, there is very little convection, though gas conduction does play a role if there is gap between the vial and the shelf. Thus, the vacuum pressure level an important parameter that can alter the heat transfer into the product. Radiation cannot be ignored at least for product situated in the periphery where there is clear line of site to the walls of the drying chamber. The predominant heat transfer mechanism, however, is through conduction which is directly influenced by the shelf temperature and chamber pressure. Thus, during primary drying, these two critical process parameters are essential to control the rate of drying.
+
+Primary drying is the longest portion of a freeze-drying cycle and the goal of any process is to complete it as quickly as possible, while balancing product quality and resource costs. To sublimate faster, we need only to provide more heat which is done by increasing the shelf temperature but can also be influenced by increasing the chamber pressure since this will increase gas conduction under the product. However, as heat transfer increases the sublimation rate, resistance to vapor transport across the semi-dried product also increases. This is known as the mass transfer resistance and is a function of the formulation, fill volume, and freezing protocol among other thing including stoppers \[10\]. Since the cake presents a tortuous path to vapor flow, if sublimation rate goes up, the local pressure at the sublimating interface within the cake will also increase. Based on the phase diagram of water, the temperature at which sublimation takes place is a function of the system pressure. Lower pressures allow sublimation to take place at lower temperatures, and so if local pressure within the cake increases, the product temperature must necessarily increase as well. And this typically defines an upper limit to our shelf temperature since most products have a critical temperature that cannot be exceeded, or cake collapse will occur \[11\]. Usually this temperature is near or slightly warmer than the product’s glass transition temperature and can be determined empirically using freeze-drying microscope \[12\]. Thus, collapse temperature is usually used to define the maximum shelf temperature and pressure combination to minimize primary drying time \(Fig. 2\). 
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Example of partial collapse as excipient concentration was increased from 5% to 10%
+
+
+
+By the end of primary drying, the pure water fraction has been removed through sublimation, but water remains in the amorphous phase and may still represent 10—20% w/v. The final phase of lyophilization is secondary drying where the remaining water is removed via desorption instead of sublimation. Desorption depends most heavily upon time and temperature, and so chamber pressure is usually not as critical \[13\]. Typically chamber pressure is left at the same pressure as during primary drying. Since the frozen water fraction is gone, temperatures can now be run at room temperature or above. Although higher temperatures will result in drier products, and in less time, product quality must be maintained. Many products cannot handle extremely high temperatures, and so secondary drying is often performed in the ~25–40 °C range for biopharmaceuticals.
+
+The shelf ramp rate from primary to secondary drying may also be a critical parameter. The glass transition temperature of amorphous materials is a function of the residual water content, with drier products having higher glass transitions. As secondary drying takes place, the water content is decreasing and the glass transition increasing. If the product temperature is ramped too quickly such that it exceeds its glass transition temperature, product collapse may occur \[14\]. Therefore, the ramp rate is carefully controlled until the desired secondary drying temperature is met.
+
+Once at the final drying temperature, the product will be held for several hours until the desired moisture is reached. This is a process of diminishing returns where residual moisture becomes asymptotic with time \[15\]. It is almost always more efficient to increase temperature than to hold the product longer as a means of drying it further, but this upper temperature is limited as described earlier. Still, some amount of soak time at the terminal temperature is required to reach the final residual moisture level. After that point, the lyophilization cycle can be considered complete. For product in vials, the chamber is backfilled to that target pressure using an appropriate gas for the product and the vials stoppered before unloading.
+
+Successful scale-up and technology transfer of lyophilized product often hinges on establishing a well-defined and well-understood process that can be controlled and scaled for a given product/equipment/facility combination. Proper lyophilization process design space and process controls often complemented with engineering batches and in specific cases with modeling and simulation dataset forms the basis for producing a quality product consistently which is eventually demonstrated as part of process validation. The process validation continuum as defined by the FDA consists of process design, process qualification, and continued process verification and spans from data collection, documentation, and data analysis from the early phases of the program through the commercial production stages that allows establishing the final manufacturing process required for consistent delivery of a quality product. This is further described in detail below.
+
+## **3 **Considerations for Scale-Up and Technology Transfer
+
+Process design elements play a critical role in the physical, chemical, and/or pharmaceutical properties of the product to be lyophilized, and thus all aspects of equipment, facility process itself, and/or the corresponding analytical test methods are required to be well-defined and documented along with their impact on final released product CQAs such as sterility, dose uniformity, moisture, stability \(shelf-life and in-use both\), etc. The goal of this article is to highlight the key challenges in process design and scale-up associated with the unit operation of freeze-drying along with guidance to mitigate them are for enabling product of quality products. Also, emerging technologies for improved process understanding \(e.g., in-line and offline noninvasive PAT tools\) and process controls \(e.g., controlled nucleation\) are also discussed in sections below.
+
+To guarantee the safety and efficacy of lyophilized pharmaceutical products, it is imperative that the freeze-drying cycle be well understood, defined, and controlled \[16\]. This activity begins in the laboratory when the first amount of API becomes available, often in limited quantities. As formulators screen the excipients and their combinations in various ranges, lyophilization cycle development frequently occurs in parallel. The goal of cycle development is to produce the most efficient unit operation that yields the agreed upon quality specifications. This can be challenging in early development as the acceptable range of quality attributes is less understood and not well-defined, while analytical development is often ongoing in parallel. Nonetheless, it is generally believed \(but may not be always true\) that lyophilized products be as dry as possible \(typically <3%\) especially for biologics products and have an elegant cake appearance, though elegance may not impact actual product quality \[17\]. For certain products, such as live virus vaccine \(LVVs\), an optimal moisture content for dry cake may be required as higher moisture may result in stability compromise over shelf-life, while a low moisture may result in poor potency yields post-drying \[18\]. In addition, the dried product should have the highest drying yield as possible, which is some measurement of potency or product activity of the post-dried material compared to the pre-dried material. Finally, the dried product must provide a product that is stable enough for the intended storage temperature and durations. Which lyophilization parameters ultimately impact these quality attributes is for the lyophilization scientist to demonstrate. This is critical to guarantee patient safety and regulatory compliance, however, in addition the business almost always demands that the lyophilization cycle be performed faster and at less energy utilization.
+
+Cycle optimization, like cycle development, almost always takes place at the laboratory scale using limited amount of API, and often placebo is used as a surrogate for active sample. This is the first limitation the lyophilization scientist encounters as placebo formulations may not always behave the same way as active material. For example, it has been demonstrated in the literature that proteins such as monoclonal antibodies can alter both the glass transition temperature and the collapse temperature \[19\]. Bhambhani et al., for example, showed that the difference between glass transition and collapse temperature increases with increasing antibody concentration \[5\]. A placebo with a similar glass transition temperature as the active, in certain cases, could experience collapse, whereas the active material may not \(or vice versa\) for the same lyophilization cycle. Similarly, for live virus vaccines \(LVVs\), the active product can contain carryover material from the cell culture and virus propagation process that is not found in the placebo \[20\]. This can lead to similar differences in the glass transition or collapse temperature but altered freezing behavior of the product and intramolecular interactions. To satisfactorily define the CQAs and specification along with proper controls for any given drying cycle, it is therefore recommended that the boundary values \(i.e., failure modes\) for the critical process parameters \(CPPs\) need to be tested not only with placebo but also with active materials. Thus, the output of the laboratory-scale lyophilization development should identify the failure modes and the CPPs which may also be supplemented through modeling and/or empirical engineering lyophilization runs for scale-up. Various key scale-up differences stem from freezing, heat and mass transfer, load, and/or measurement differences at different phases of clinical development and commercial scale-up that are systematically discussed below.
+
+### **3.1 **Freezing \(Ice-Nucleation\) Differences
+
+Characterization and understanding of freezing process is critical not only from the process impact it has on primary and secondary drying steps but also its impact on product quality and the finished product outcome. A typical recipe for freezing consists of freezing ramp rate, hold time, and freezing temperature. In certain cases, an annealing step is included to enable the crystallization of any bulking agent \(e.g., mannitol or glycine\) present in the formulation or ice crystal growth by subjecting the frozen plug to temperature between *T*g’ of amorphous matrix and *T*eu of the crystalline matrix. To establish the right parameters for the freezing conditions, the development scientist must not lose sight of the fact that the purpose of freezing is to prepare the product for subsequent ice sublimation and “bound” water desorption while maintaining the “pre-lyo” characteristic of the biopharmaceutical molecule. Freezing is an initial crucial step and has recently \(in last three decades\) garnered due attention; however, its optimization in clinical and commercial settings is still pending.
+
+The mechanism of freezing along with the impact of sub-optimal freezing and the associated scale-up considerations is a critical element for successful technology transfer. The process of freezing, for example, needs to be defined by \(1\) the degree of supercooling and \(2\) the rate of ice crystal growth \[21\]. These factors are often characterized in the lab-setting under non-GMP condition; however, during scale-up, freezing is defined by shelf ramp rate to sub-freezing temperature followed by hold time within a given tolerance or in best cases by defining rate of product cooling to a preset freezing temperature along with the corresponding hold time. Failure in selecting the appropriate freezing method is often a cause of failure in product CQAs such as cake appearance, reconstitution time, activity, and stability while potentially resulting in a sub-optimal drying process. These failure modes may further amplify during a scale-up process due to difference in ice-nucleation in moving from a non-GMP setting to clinical or commercial load \[22\]. Such difference in ice-nucleation may manifest as inter- and intra-batch variation in both process \(e.g., primary and secondary drying times\) and product quality \(e.g., protein aggregation and/or unfolding at the ice-water interface\) \[21, 23, 24\].
+
+Under non-GMP conditions, the degree of supercooling is substantially less than in a GMP Grade A condition due to presence of particulates. Class 100 rooms, for example, by definition has ≤100 particle/cubic foot. This contrasts with the unclassified laboratory space wherein the number of particles may range from 0.5 to 1-MM particle per cubic foot. The first step in ice formation is the nucleation event, and the presence of higher number of particulates serves to enable heterogenous nucleating sites with particulates providing the “seeding” effect, thereby resulting in substantially less degree of supercooling under laboratory environment \[25\]. A higher degree of supercooling in the aseptic manufacturing area results in increase in specific surface area \(SSA\) of ice due to the formation of smaller ice crystals. Smaller ice crystals negatively impact the mass transfer by increasing the resistance to vapor flow during primary drying, thereby making the primary drying longer by 10–30% or more during the scale-up process. The secondary drying time, however, may be reduced due to increase in SSA. Thus, it is recommended that the degree of supercooling must be moderate and more importantly should be uniform across the entire batch to minimize variability between center and edge vials on a shelf, between shelves and between varying load conditions. Approaches to reduce variability associated with uncontrolled nucleation may rely on annealing the vials post initial freezing, or alternatively controlled ice nucleation \(CIN\) techniques may be used.
+
+Controlled ice nucleation \(CIN\) techniques, as the name suggests, enable formation of ice nucleation at predetermined shelf temperature and therefore control the degree of supercooling within specification irrespective of environmental conditions \(GMP vs. non-GMP\). ControLyo® \(SP Scientific/Praxair\) uses a rapid pressurization/depressurization technique, while ice-fog seeding approaches \(IMA Life and Millrock, respectively\) are the key approaches in various phases of exploration to achieve CIN. While all three technologies, namely, ControLyo® \(SP Scientific/Praxair\), VERISEQ® \(IMA Life/Linde\), and FreezeBooster® \(Millrock\), are currently available for lab-scale exploration, only ControLyo® \(SP Scientific/Praxair\) and VERISEQ® \(IMA Life/Linde\) are amenable to implantation at full-scale either as part of new unit or through retrofitting of an existing equipment, and a brief description of all three approaches is highlighted in Table 1. 
+
+
+***Table 1*** 
+Compare and contrast between various approaches used to achieve controlled ice-nucleation
+
+
+
+**Attribute**
+
+**ControLyo™**
+
+**VeriSEQ®**
+
+**Freeze-Booster®**
+
+1.
+
+Mode of nucleation
+
+Depressurization
+
+Ice-fog recirculation
+
+Ice-crystal Injection
+
+2.
+
+Seeding
+
+N2, argon
+
+Water
+
+Water
+
+3.
+
+Special requirement
+
+ASME-rated chamber
+
+Inlet and exhaust outlet on door
+
+Inlet port on door
+
+Eye protection, ear protection, and O2 sensor
+
+O2 sensor
+
+None
+
+Non-portable and non-retrofittable to all equipment
+
+Portable and can be used with multiple units
+
+Portable and can be used with multiple units
+
+Venting required
+
+Venting required
+
+No venting
+
+4.
+
+Sterilizable
+
+Unknown
+
+Claims sterility
+
+Claims sterility
+
+5.
+
+Utility
+
+N2, argon with gasifier
+
+Electricity, nitrogen liquid and gas
+
+Electricity
+
+
+
+Successful implementation of CIN at commercial scale requires studying product impact and process suitability setting specification \(CIN temperature and hold time\) for both product and at lab-scale setting but also factors associated with scale-up such as impact of load, valve actuation parameters, safety consideration with sudden depressurization for a relatively large commercial unit \(30–50 m2\) and process sims need must be taken into account. While there has been greater acceptance of the technology and its benefit, the regulatory pathway and acceptance remains to be witnessed in coming year as products launches are made using controlled nucleation technologies.
+
+### **3.2 **Heat and Mass Transfer Differences Due to Equipment Design Differences
+
+There are relatively few parameters that the lyophilization process can control; most notable are the shelf temperature and the chamber pressure besides duration. During primary drying, it is the combination of the shelf temperature and chamber pressure, coupled with the mass transfer resistance of the lyophilized product that determine the product temperature. The product temperature must remain below a critical temperature to avoid collapse. However, to yield the shortest cycle time, it is desired to set the shelf temperature as warm as possible. Therefore, the lyophilization scientist must optimize the cycle to run at the highest product temperature, but not too high to collapse any of the vials within the chamber. After primary drying is complete, the shelf temperature is ramped at a defined rate to the secondary drying temperature. To create the shortest possible cycle time, the fastest ramp rate that the product can tolerate is selected. However, at the end of primary drying, the product’s glass transition temperature is still quite low due to the presence of moisture that is further desorbed in the secondary drying stage. As water is removed during the ramp to secondary drying, the glass transition temperature also proportionally increases as glass transition is inversely proportional to moisture content. If the product temperature is raised too fast, it can exceed the glass transition temperature and result in collapse that was not evident at the end of primary drying. Thus, the ramp rate serves as a CPP, and thus, if quantification is needed, the moisture at end of primary drying and the corresponding *T*c can be obtained using sample thief. Pressure in the secondary drying stage is often kept the same as that in primary drying stage \(50–200 mTorr range\) as it has minimal impact \(if any\) on desorption \[13\].
+
+Finally, during secondary drying, the shelf temperature and hold time become critical because higher temperatures will lead to dryer products and will enable desorption at a faster rate. Conversely, higher temperature can compromise product yield for temperature sensitive pharmaceuticals and vaccines. Therefore, the lyophilization scientist must carefully select the warmest possible temperature to yield a suitably dry product while retaining the optimal activity or potency. This can be further confounded by the fact that some products experience reduced potency or stability if dried in an overkill manner. Thus, through a series of rigorous experiments, the optimal shelf temperature and chamber pressure are defined, for a given lyophilization cabinet. It is recommended to dry at higher temperature and shorter time in contrast to lower temperature for longer duration as extending duration often beyond 6–8 hours results in diminishing return and doesn’t substantially lowers the moisture further \[25\].
+
+It should be realized that the shelf temperature and chamber pressure are the process parameters that the scientist can control to influence the product temperature and local pressure within the lyophilization cake; however, the product CQAs are often a function of product thermal history. The temperature at the sublimating interface is defined by the phase diagram for water based on the pressure at the sublimating interface. As the pressure increases, the temperature required for sublimation must also increase. Although the lyophilization scientist can control the chamber pressure, the pressure at the sublimating interface is not as easy to determine. Rather, it is determined by the sublimation rate, the resistance to mass flow through the dried layers of cake, and the pressure at the outlet of the cake using Eq. 1 \[26\]: 
+
+
+
+![$$ \frac{\textrm{d}m}{\textrm{d}t}=\frac{A_{\textrm{p}}\ \left({P}_{\textrm{i}}-{P}_{\textrm{c}}\right)}{R_{\textrm{p}}} $$](images/000003.jpeg)
+
+
+\(1\)
+
+
+where d*m*/d*t* is the sublimation rate per vial, *A*p is the product cross-sectional area, *P*i is the pressure at the sublimating interface, *P*c is the chamber pressure, and *R*p is the mass transfer resistance term. This equation is just a formulation of the general equation that governs all flow processes: Flow rate is equal to the driving force divided by the resistance to flow.
+
+The lyophilization cabinet can only directly control *P*c, whereas *P*i is consequently determined by the sublimation rate and the dry layer resistance. The sublimating interface pressure will increase as dry layer increases and sublimation rate increases. Coupling this to the phase diagram for water, a local increase in pressure at the sublimating interface will have the net effect of increasing the temperature at the sublimating interface, which could lead to collapse.
+
+The relationship between heat transfer and mass transfer is determined by the enthalpy of sublimation as per Eq. 2 \[13\]. 
+
+
+
+![$$ \frac{\textrm{d}q}{\textrm{d}t}=\Delta {H}_{\textrm{s}}\ \left(\frac{\textrm{d}m}{\textrm{d}t}\right) $$](images/000004.jpeg)
+
+
+\(2\)
+
+
+
+
+The heat transfer rate is often simplified to only the conduction-based term which is proportional to the difference between the shelf temperature \(*T*s\) and product temperature at the bottom of the vial \(*T*b\) as per Eq. 3, where *A*v is the cross-sectional area of the vial and *K*v is the empirically determined heat transfer coefficient \[27\]. 
+
+
+
+![$$ \frac{\textrm{d}q}{\textrm{d}t}={K}_{\textrm{v}}{A}_{\textrm{v}}\left({T}_{\textrm{s}}-{T}_{\textrm{b}}\right) $$](images/000005.jpeg)
+
+
+\(3\)
+
+
+
+
+Because the vial bottom has inherent curvature, there is only a portion of the cross sectional area that is in direct contact with the shelf for proper conduction. There also exists a pocket of gas between the vial and the shelf which influences the observed heat transfer coefficient in a pressure dependent manner and is often referred to as gas conduction. Thus, apparent *K*v is a function of both direct vial conduction, and gas conduction from the shelf and must be measured empirically. Furthermore, because *K*v is empirically determined, it also includes sources of radiation and convection, though these may be less dominant than conduction. Rather than solving these more complicated heat balances, lyophilization scientists often lump these other heat sources into the single value for *K*v, meaning that *K*v will be dependent upon the specific conditions in which it was determined. Furthermore, it is the shelf temperature *T*s that the lyophilization scientist can control, and yet it is the product temperature *T*p that is critical \(Fig. 3\). 
+![](images/000006.jpeg)
+
+
+***Fig. 3*** 
+Sublimation rate is determined by the pressure differential between the sublimating interface and chamber pressure. The pressure at the sublimating interface is determined by the product temperature which depends upon the heat balance between heat provided by conduction, radiation, and gas conduction vs. the heat removed by sublimation
+
+
+
+By running at a higher shelf temperature, the difference between the shelf and product temperature increases leading to an increase in heat transfer and a faster sublimation rate. But due to the mass transfer resistance described earlier, this will invariably lead to a higher product temperature, which must remain below the critical temperature. Like pressure, the parameter that is important to control cannot be controlled directly, but rather is the result of the coupled heat and mass transfer equations. The results thus obtained are therefore based on not only our selection of shelf temperature and chamber pressure but also include equipment specific variables that these oversimplified simplified models \(Eqs. 1, 2, and 3\) may not be taking into consideration, and thus it is recommended to perform actual runs to verify the findings from theoretical calculation and quantitative models.
+
+This dynamic interplay between the controllable parameters and the critical parameters is the reason that cycle transfer to other lyophilization cabinets, and scale-up from laboratory machines to production machines can be so challenging and difficult to predict. The differences between lyophilization cabinets and process scale can further alter this finely tuned selection of optimal chamber pressure and shelf temperature as further described below.
+
+#### ***3.2.1 ***Mass Transfer Differences
+
+The first parameter to explore is the resistance to mass transfer, *R*p. While *R*p is an intrinsic property of the formulation, it is also dependent upon the three-dimensional structure of the cake, which in turn is dependent upon freezing. *R*p is a function of total solid content, state of the solid \(amorphous vs. crystalline\), the associated fill volume, container/closure selection, and actual freezing parameters \[28\]. The degree of nucleation and the freezing rate influence the ice crystal growth and therefore the product mass transfer resistance.
+
+While the fill volume and the container/closure selection can be matched between the lab-scale lyophilization and the commercial setting, the degree of supercooling is always higher in the GMP class 100 area leading to an in increase in specific surface area \(SSA\) of ice \[29\]. This is attributed to the formation of smaller ice crystals which in turn negatively impact the mass transfer and increases the resistance to vapor flow during primary drying. This increase in Rp manifests into longer primary drying; however, the secondary drying time may be reduced as a function of such increase in SSA. Thus, the primary drying is often longer by 10–30% or more during the scale-up process, while the secondary drying time is inversely impacted due to increase in SSA \[21\]. Thus, as noted above, freezing remains a major scale-up issue during technology transfer, and the drying cycle parameters for both primary and secondary drying must be adjusted to account for those changes. These scale-up factors can be determined either empirically through engineering runs, or through historical knowledge with running 10–30% higher PD or scientifically through quantifying the scale-up factors by characterizing the equipment in the given facility and adjusting to account for both mass and heat transfer as further described below.
+
+#### ***3.2.2 ***Heat Transfer Differences
+
+The next set of parameters to explore are the sources of heat to drive sublimation. In traditional lyophilization cabinets, heat is provided via a temperature-controlled shelf. The shelf usually consists of hollow rectangular body that has an inlet and outlet for a heat transfer fluid. The inside of the shelf could be designed with baffles or other features to direct the flow of heat transfer in a specific pattern. This design is often vendor-specific but is often chosen to provide the most uniform temperature across the shelf as possible. However, no system is perfect, and inherently there are temperature gradations across the shelf, which are determined during system qualification and accepted within some specified boundary. The shelf temperature uniformity may not only vary from one vendor design to another but also between lyophilizers from the same vendor and must be evaluated for successful scale-up \[27\]. This information when coupled with the equations described earlier, it is clear that not only the heat transfer, sublimation rate, and product temperature could vary between cabinets but also the worst-case locations \(i.e., hot-spots and cold-spots\) within cabinets may be different for different lyophilizers. The section below further highlights the reasoning for these differences.
+
+An important attribute of the shelf is the shelf thickness and material, which will have a direct impact on its ability to conduct heat from the fluid to the vial. Even for the same equipment vendor, it is possible to purchase lyophilizers that have different shelf thicknesses. Shelf thicknesses can be important for other activities common in a freeze dryer such as vial stoppering or compatibility with steam sterilization. The general equation for heat flux via conduction takes the form of 
+
+
+
+![$$ \frac{\textrm{d}q}{\textrm{d}t}=-k\Delta T $$](images/000007.jpeg)
+
+
+\(4\)
+
+
+where *k* is the material’s thermal conductivity.
+
+Obviously, a change in the material or the corresponding thickness will change the amount of heat transferred to the vial for a given temperature set point which inevitably would impact the sublimation rate and product temperature. Similarly, the fluid and refrigeration system could vary from one machine to another and impact the heat transfer coefficient. Not all refrigeration systems and shelves will be able to heat and cool at the same rate. Therefore, cycle performance in one lyophilizer may not be repeatable in another when considering the temperature ramps from frozen conditions to primary drying or primary drying to secondary drying.
+
+Another issue that can arise when transferring a lyophilization cycle is the use of trays for vial loading systems. Generally, it is better to avoid putting anything between the vial and the shelf, even if it is a conductive metal tray. This will always decrease the heat transfer coefficient and change cycle performance while adding cost and additional unit operation for GMP production. Even the use of a bottomless tray can impact the drying process. Bottomless trays consist of a removable metal bottom with a metal ring to hold the vials on this bottom. This aids in loading the vials into the lyophilization cabinet after which time the bottom is removed. In other instances, rings are used in large lyophilization cabinets to keep the vials packed together during transport and loading. Even with the bottom removed, the metal ring can act as a shield to infrared radiation from the walls \[30\]. Thus the impact of loading and impact of trays cannot be overlooked. Two dryers running the same product at the same shelf temperature, for example, by virtue of the differences in the radiant heat transfer, may result in differences in the apparent heat transfer coefficient and sublimation process and ultimately the product CQAs. This is often the case when load differences are substantially different between runs, thereby impacting the radiative effects on edge and center vials \(Fig. 4\) . 
+![](images/000008.jpeg)
+
+
+***Fig. 4*** 
+Example of bottomless lyophilization tray with vial ring and removable tray bottom
+
+
+
+Freeze-drying equipment can have different radiant heat transfer for multiple reasons, and a few reasons are briefly highlighted here. First, in commercial dryers that undergo steam sterilization, the wall temperature could be hotter immediately following steam-in-place \(SIP\). Some dryers compensate for this by providing wall cooling, but both of these attributes are not frequently seen in laboratory-scale lyophilizers. Additionally, material differences between dryers used for sterile product and those used in development can lead to emissivity differences that would alter radiant heat transfer as per the Stefan-Boltzmann law \[29\]. The differences in radiant heat transfer will be more notable in edge vials than in center vials, which are more shielded from the walls of the machine. Even still, center vials are not immune to radiation. In fact, heat from shelves above will radiate to vials in lower shelves. If the emissivity of the shelf is different between two dryers, than center vials will experience different heat transfer coefficients as well.
+
+The edge effect is also important because as equipment and shelf area gets larger, the ratio of center to edge vials changes. Edge vials will have a higher heat transfer coefficient that causes higher sublimation rates and higher product temperature. In fact, lyophilization cycles must carefully balance this difference even when not scaling from one unit to another. The maximum shelf temperature during primary drying is selected to prevent the warmest edge vials from exceeding the critical temperature. But the primary drying hold time is determined based on the slowest sublimating center vials. The difference in heat transfer between the edge and center vials is often not conserved when changing lyophilization cabinets \(Fig. 5\). 
+![](images/000009.jpeg)
+
+
+***Fig. 5*** 
+An illustrative example of center and edge vial differences. A lyophilization cycle of 2R vials filled with 0.7 mL was stopped during primary drying to weigh how much water was removed from vials throughout the tray. The maximum water was removed in edge vials \(dark circles with maximum value of 668.7 mg of water removed\), and the least amount of water was removed from center vials \(light circles with minimum value of 325.9 mg of water removed\). The edge vials sublimed more water in the same amount of time due to extra heat that they received compared to the center vials via radiation
+
+
+
+Finally, convection or gas conduction can vary between lyophilizers because the gas composition can change in the chamber from machine to machine. While vials are subliming during primary drying, the head space will be mostly composed of water molecules. When sublimation slows or stops, then the chamber pressure is controlled by the introduction of an inert gas, such as nitrogen. The exact ratio of water to gas will be a function of the specific lyophilizer and its vacuum control system. Heat convection through water vapor occurs more readily than from nitrogen, and thus the ratio of nitrogen or argon to water vapor in any given cabinet may also has the potential to alter the apparent heat transfer, sublimation rate, and product temperature \[31\].
+
+As water vapor sublimes, it would accumulate in the chamber and increase pressure if not removed via the condensing system. Some lyophilizers use an internal condenser in which the condensing coils are in the same chamber as the vials. But more frequently external condensers are used which are connected to the drying chamber via a duct. The duct size, geometry, and location in the chamber can all alter the path of water vapor from the chamber to the condenser \[32\]. This could lead to different heat transfer properties of the gas within the drying chamber. It can also lead performance issues in the ability to control chamber pressure. As more water vapor is moved through the duct per unit time, its velocity increases until it reaches its maximum at the speed of sound. At this point, water vapor molecules are moving as fast as possible. If additional sublimation takes place, then a backup of water vapor will occur in the drying chamber increasing the chamber pressure. This is known as “choked flow” and is dependent upon the chamber pressure and equipment design. Choked flow condition defines the maximum sublimation rate that the equipment can handle without losing pressure control. Equipment design and capability thus play a critical role during scale up and equipment limitation in form of “choke-flow” or maximum sublimation rate for a given pressure and load must be characterized.
+
+This loss of pressure control can also occur because of differences in condenser design. Different lyophilizers can have different condenser orientations and surface area that impact how efficiently water vapor is captured on the coil. Furthermore, as ice condenses, the increasing ice thickness will act as an insulating layer and decrease condenser efficiency. Finally, different lyophilization equipment may have condensers that operate at different temperatures. All of these attributes can have detrimental impacts to the equipment’s ability to control to the desired set point. If pressure changes from target, it will clearly impact the freeze-drying process. Finally, even if two lyophilizers were 100% identical in all of the abovementioned attributes, two cycles could behave differently depending upon the load within the chamber. In development, due to limited quantities of API, it is not uncommon that lyophilization cabinets are only partially filled. For example, it may be that only one shelf is loaded or that only part of one shelf is loaded. This changes the ratio of edge to center vial vials and as vials packs get smaller, the heat contribution from radiation and gas conduction will increase. Therefore, under the same shelf temperature condition, a partially loaded lyophilization cabinet may experience faster sublimation rates and higher product temperatures than a fully loaded chamber.
+
+Because of all these equipment-specific effects, it is critical that the heat transfer attributes of lyophilizers are compared when performing tech transfer and scale-up. But it is equally important to understand the limitations of frequently used lyophilization models. The equations described above, though incredibly useful, assume quasi-steady-state conditions, uniform cake structure, uniform behavior across the shelf, and heat supplied solely from conduction. These limitations inevitably lead to departures between model-based predictions and real-world performance. Therefore, lyophilization scientists frequently include safety factors to decrease the likelihood of exceeding critical temperatures and increasing the assurance that all vials have completed primary drying before entering secondary drying. However, advances in these models are being made to account for natural variations intrinsic to lyophilizer design, and the reader is encouraged to review some of the recent literature noted here for specific case studies and improvements \[33–35\] \(Fig. 6\). 
+![](images/000010.jpeg)
+
+
+***Fig. 6*** 
+Differences in vial stopper combination may also impact the drying performance. \(**a**\) A 15-ml Type I glass vial from two different sites may results in different base contours that has potential to impact the heat transfer coefficient. \(**b**\) Choice of slotted or Igloo stopper may not only impact the vapor flow under certain conditions but could also impact the material compatibility parameters \(e.g., extractables and leachable, moisture content based on dry or extra-dry stoppers\)
+
+
+
+### **3.3 **Measurement Differences
+
+Development runs provide the ideal conditions to characterize the CPP and its corresponding impact on product CQAs as the runs in commercial setting not only are relatively expensive to perform but also lack from the availability of all the relevant analytical toolkit to characterize the product and process. Developmental freeze-dryers, for example, may be equipment with various noninvasive tools such as TDLAS, mass spectrometers, dew point sensors, Pirani and capacitance manometers, etc., to monitor the end of drying cycle and could rely on SMART lyo cycle recipe or MTM/pressure rise method to develop the cycle with multiple thermocouples placed on various shelves and location. Commercial lyophilizers, however, are mostly recipe driven and lack the PAT tools such as TDLAS, mass spectrometers, etc., while thermocouples placements are restricted to vials in the front due to sterility concerns. Similarly, measurement of shelf temperature measurement at the inlet of the shelf may mean very different things between different lyophilizers especially when considering a smaller lab-scale units which are typically 0.45–2 m2 vs. the commercial units that may be 30 m2 or even 54 m2 units. As noted in the Table 2 below, the product CQAs essential for ensuring a robust and reproducible delivery of a safe, quality, and efficacious product hinges on its potency, stability, moisture, etc., while the CPP that can be controlled on the unit itself are the chamber pressure, shelf temperature, hold time, and ramp rate. “Process is the product” can be truly implemented if the CPP and CQAs or its corresponding correlate can be measured in real-time by using in-line PAT tools to characterize the batch average sublimation rate, representatives product temperature that brackets both hot and cold-spots, batch average drying endpoints, moisture of the end product, etc. To achieve real-time release using a multi-day batch lyophilization using the “process is the product” philosophy remains a challenge due to lack of PAT integration, capital cost and downtime with retrofitting existing lyophilizers, long cycle times, batch processing, and measurement challenges, perception of regulatory hurdles among others. However, new emerging drying technologies and improvements in sensor technology such as TDLAS, measurement of *K*v using heat sensor in real-time, etc., is a welcome change in recent year that is paving way for continuous manufacturing of freeze-dried products in years to come. 
+
+
+***Table 2*** 
+The primary process controls impact the product CQAs and are often monitored either by evaluating the product temperature, morphology, sublimation rates, drying endpoints, and/or their combination
+
+
+
+**Product CQAs**
+
+**What we measure**
+
+**Primary equipment controls**
+
+Potency
+
+Degradant
+
+Appearance
+
+Moisture
+
+Reconstitution time
+
+Product temperature
+
+Structure/morphology
+
+Drying endpoints
+
+Sublimation rates
+
+Shelf temperature/ramps
+
+Chamber pressure
+
+Time
+
+\(Other factors: fill volume, nature of product, thermal history, vials, lyo, etc.\)
+
+
+
+## **4 **Considerations for Successful Technology Transfer from Lab-Scale to Pilot-Scale to Commercial
+
+During product commercialization, drug product manufacturing processes are transferred from clinical to clinical, clinical to commercial, or commercial to commercial drug product manufacturing sites, and larger production scale lyophilizers are used to meet increasing drug product demand. For lyophilized drug product, it is crucial to consider equipment age, capability, utility availability, process variability, and site-specific manufacturing considerations for suitable lyophilization cycle recommendation and to confirm scalability of parameters. Lyophilization process performance parameters such as product temperature during primary drying, primary drying time, and cake moisture may be compared between different scales to confirm scalability. The section below elaborates on the consideration in advancing the product from development scale to pilot scale and from pilot scale to commercial scale, respectively with an emphasis on process design consideration, PPQ strategy, and continuous process verification .
+
+### **4.1 **Process Design Considerations for Scale-Up and Technology Transfer
+
+As part of characterization activities essential for the technology transfer plan, the robustness of lyophilization cycle along with product impact assessment is performed against worst-case boundary conditions. The critical lyophilization operating parameters \(e.g., shelf temperature, chamber pressure, annealing time, freezing rate, primary drying time\) are varied within the desired operating ranges. A representative example of such a scheme is shown in Table 3. Typically, several lyophilization robustness runs are performed at various combinations \(high, target, and low\) of these critical parameters. Process performance is measured by a combination of impact to product quality and long-term stability. Various approaches to characterize the robustness of the process have been extensively reviewed including QbD principles \[36–40\]. 
+
+
+***Table 3*** 
+An example of parameters varied to evaluate the robustness of the target lyophilization cycle
+
+
+
+**Conditions**
+
+**Shelf temperature \(°C\)**
+
+**Chamber pressure \(mTorr\)**
+
+**Freezing ramp rate \(°C/min\) \(%\)**
+
+**Annealing time \(h\) \(%\)**
+
+**Primary drying time \(h\) \(%\)**
+
+High temperature, high pressure
+
+Target \+3
+
+Target \+15
+
+Target \+50
+
+Target \+50
+
+Target \+20
+
+Low temperature, low pressure
+
+Target −3
+
+Target −15
+
+Target −50
+
+Target −50
+
+Target −20
+
+
+
+Once characterized, the boundary conditions help define the operating ranges within which variation from target conditions can occur during manufacturing without impacting the quality attributes. These robustness parameters and/or failure mode identification are critical part of process design and should consider equipment components and equipment performance as distinctly described below.
+
+#### ***4.1.1 ***Equipment Factors Affecting Scale-Up Process
+
+The major components of a freeze dryer include condenser, vacuum, and system refrigeration systems. From an equipment standpoint, the following factors have a potential to influence the capability of a lyophilizer and therefore, need to be considered during any scale up effort as described below.
+
+##### ***4.1.1.1 ***Condenser Design Differences
+
+The two most common type of condenser configuration seen in lyophilizers are external condenser where the product chamber and condenser separated by a duct \(also called as ducted lyophilizers\) and lyophilizers with an integral condenser where chamber and condenser are separated by a hydraulically actuated plate. The choice between these two condenser types is primarily based on space considerations, but the uniformity of drying rate should not be ignored during scale up process. The location of integral condenser with respected to the chamber can influence the wall temperature and pressure uniformity with a downstream influence on the heat transfer to product vials. For example, a side integral condenser can have a strong potential to cool-down the divider wall due to exposure to the condenser coils with serious implications for any scale-up effort. Overall, the uniformity of the wall temperature in the product chamber is highly desirable for any scale-up effort, and the difference in the uniformity of the heat transfer to product vials between two lyophilizers should be evaluated in any scale-up effort.
+
+##### ***4.1.1.2 ***Temperature Uniformity of Condenser Coil
+
+The uniformity of condenser coil temperature is a complex issue that is influenced by factors like variation in the inlet and outlet temperature of coils, flow structure, and presence of non-condensable gases. In brief, a decrease in a condenser performance with ice formation in the coils increases with reducing condenser temperatures \[41\], and the presence of the non-condensable gas increases the resistance in the chamber \[42\]. Figure 7 below shows the influence of temperature set point on coil temperature uniformity under the load \(IMA Life® unpublished data\). Given the complex interaction of factors affecting the condenser performance, its evaluation under product load is recommended via an equipment characterization tests. 
+![](images/000011.jpeg)
+
+
+***Fig. 7*** 
+The influence of temperature set point on coil temperature uniformity under load. The difference between condenser coil 1, 2, 3, 4, and 5 is amplified as the set point is dropped from −60 °C to −75 °C to −90 °C, to −115 °C, respectively
+
+
+
+##### ***4.1.1.3 ***Cooling Rate Uniformity
+
+During scale-up process, it is important to verify the variations in the cooling rate uniformity between pilot and commercial lyophilizers. It is well known that heat transfer capacity of silicon oil reduces as its temperature goes down \[43\]. While the difference in cooling rate uniformity is typically more apparent between lyophilizers having mechanical compressors vs. lyophilizers with liquid nitrogen-based cooling, the fact is that many lab lyophilizers can accommodate a more aggressive cooling rate than commercial lyophilizers \[44\] \(Fig. 8\). 
+![](images/000012.jpeg)
+
+
+***Fig. 8*** 
+Cooling rate of liquid nitrogen \(LN2\) cooling vs. 4 × 50 hp. screw compressors
+
+
+
+##### ***4.1.1.4 ***Shelf Temperature Uniformity
+
+The uniformity of the shelf temperature across the shelf is a function of its fluid circulation path, narrowing of fluid channel due to contamination, and unacceptable shelf curvature. Due to technology improvements in recent years, the shelf temperature uniformity in a clean dry and empty commercial lyophilizer is ±2 °C \[45\]. However, based on shelf design and construction, shelves between dryer types may have different distributions of “hot” and “cold” spots across their shelf area. Generally, it is safe to assume that shelves in dryers are unable to provide perfectly uniform temperatures across the entirety of the shelf \[46\] \(Fig. 9\). 
+![](images/000013.gif)
+
+
+***Fig. 9*** 
+A representative heat exchange fluid circulation path inside a lyophilizer shelf
+
+
+
+Deviations in shelf uniformity between two lyophilizers generate a risk for unacceptable intra-batch variations in product temperature profiles which can lead to unacceptable variability in the end of primary drying and unacceptable product quality attributes like its residual moisture. During the validation run, placebo vials should be sampled for moisture mapping to understand the position-dependent temperature uniformity in shelves of the commercial lyophilizer. Overall, verification of shelf the temperature uniformity under full placebo load is strongly recommended during scale-up effort to understand the inherent hot/cold spot distribution in the shelf heat map \(Fig. 10\). 
+![](images/000014.jpeg)
+
+
+***Fig. 10*** 
+Moisture mapping schematic with the full product load and the resultant moisture map in a GMP lyophilizer. Product probe location and sample location are listed for a given shelf \(left\) and the minimum, maximum, and average moisture content per shelf is plotted \(right\)
+
+
+
+Additionally, instrumental deviations in shelf temperature measurement can also adversely affect the scale-up process. For example, if the shelf inlet probe is positioned at the chamber entrance, then it is ideal to minimize the lag time from the control point which is the refrigeration solenoid valve. The lag time is referred to as the time it takes for a droplet of fluid to go from the evaporator heat exchanger to the shelf inlet temperature probe. The shelf fluid temperature deviation may become a source of variability when the process is scaled up from a more modern lyophilizer that can sustain a heat exchange fluid velocity of 5–10 ft. per second as compared to some legacy lyophilizers that may show a greater temperature lag due to a lower sustained fluid velocity of 2–4 ft. per second. Additionally, some older lyophilizers have shelf temperature measurement probe positioned at the shelf outlet which can be 2–5 °C warmer than shelf fluid inlet temperature due to passage of the heat exchange fluid through product vials positioned on the shelf. In summary, it is important to quantify the variations in shelf temperature uniformity between laboratory and GMP lyophilizer to minimize the chance of scale-up failure.
+
+#### ***4.1.2 ***Equipment Capability Testing for Scale-Up Transfer
+
+A quality by design \(QbD\) approach in commercial manufacturing recommends that quality must be designed into the entire manufacturing process \[47\]. With an increasing emphasis on QbD by the regulatory authorities worldwide, it is important to understand critical process parameters of the lyophilization process. One of the such critical process parameters that should be monitored during lyophilization is the sublimation rate which may not be constant throughout the primary drying. All lyophilizers are limited by the maximum sublimation rate that they can support, and the determination of maximum sublimation rate at a given chamber pressure is one of the key requirements to limit the boundaries of a QbD design space that factors in both product and equipment limits \[48\]. The recommended equipment capability tests are discussed in the following paragraphs.
+
+##### ***4.1.2.1 ***Minimum Controllable Chamber Pressure Test
+
+The objective of this test is to quantify the equipment limit for dynamic setup of vapor flow at varying shelf temperatures and determine the lowest sustainable pressure limit of a product lyophilization cycle \(Fig. 11\). 
+![](images/000015.jpeg)
+
+
+***Fig. 11*** 
+Representative process and product temperature data obtained from a minimum controllable chamber pressure test. Loss of chamber pressure \(green line\) is observed with increase in shelf temperature
+
+
+
+This test is critical because ducted GMP lyophilizers show a potential to generate turbulent flow due to the higher attainable mass flow rates, whereas a steady laminar flow is the most commonly observed flow regime observed in most lab-scale lyophilizers \[49\]. The influence of equipment factors like duct length, type of isolation valve, valve stroke, and valve separation are known to influence the minimum controllable chamber pressure of a lyophilizer \[48\]. The data obtained from this test is critical to determine the lowest sustainable pressure limit of a product lyophilization cycle during the scale up process.
+
+##### ***4.1.2.2 ***Maximum Sublimation Rate Test
+
+On occasions, aggressive lyophilization cycle developed in laboratory lyophilizers can generate a higher mass flow of water such that a GMP lyophilizer losses its pressure control. The primary cause of loss of pressure control in such situations is a phenomenon commonly described as the choked flow. A choked flow essentially means that the required the mass transfer via the duct connecting the drying and condenser chamber cannot be maintained at the desired pressure control \[47\]. This phenomenon occurs because an increase in the water vapor flow rate due to a decrease in the condenser pressure can be sustained only until the velocity of water vapor reaches speed of sound \(Mach 1, 390 m/s at −25 °C\) at the duct exit beyond which the flow becomes choked, i.e., it becomes independent of pressure on the downstream side of the duct, i.e., the condenser pressure. A further increase in water vapor flow rate results in an unintended increase in the chamber pressure, thereby causing a loss of chamber pressure control which can bring deleterious consequences for the frozen product undergoing lyophilization. The equipment limitations that can contribute to the choked flow in the ducted lyophilizers include refrigeration capacity, condenser surface area or maximum attainable shelf temperature and the sonic velocity in the duct connecting the freeze-dryer chamber to the condenser \[50\] \(Fig. 12\). 
+![](images/000016.jpeg)
+
+
+***Fig. 12*** 
+Pressure vs. mass flow plot obtained from the maximum sublimation rate test and choked flow regime observed at 120 mTorr pressure set point \(insert\) \[51\]. The green line is the condenser pressure. The orange line is the chamber pressure. The purple line is the sublimation rate
+
+
+
+To summarize, the equipment capability limit of a commercial lyophilizer is primarily dependent on the choked flow phenomenon for ducted lyophilizers and the refrigeration capacity of the condenser. The factors that influence the above two factors should be quantified using equipment capability testing that forms a critical boundary for the QbD process development a scale-up approach recommended by the major regulatory bodies worldwide.
+
+### **4.2 **PPQ Strategies with Process Verification and Sampling Plan
+
+Process validation is typically performed in accordance with the current FDA Guidance for Industry \[52\]. This guidance describes a three-stage approach to process validation, which incorporates a product lifecycle concept. The commercial manufacturing process is defined during Stage 1 \(process design\) based on knowledge gained through development and scale-up activities. During Stage 2 \(process qualification\), the process design is evaluated to determine if the process is capable of reproducible commercial manufacturing. During Stage 3 \(continued process verification\), ongoing assurance is gained during routine production that the process remains in a state of control.
+
+The objective of the lyophilization process validation is the demonstration of homogeneity of product critical quality attributes \(CQAs\) within any given batch and their reproducibility across batches \(with varying batch sizes as required\), in order to provide assurance that the quality, safety, and efficacy of the drug product is consistent and hence suitable for commercial distribution.
+
+The approach to process performance qualification \(PPQ\) should be based on sound scientific rationale and leverage the cumulative data from all relevant studies to establish the commercial manufacturing lyophilization process. The PPQ batches involve increased sampling across the lyophilizer, analytical testing, and statistical criteria around process performance compared to routine commercial batches to confirm process consistency and product homogeneity. The PPQ batches are executed under a pre-approved protocol with acceptance criteria. The protocol should include the validation plan for end-to-end drug product unit operations that precede and follow lyophilization.
+
+PPQ has historically relied on three drug product lot validation for a given lyophilization cycle and dose where the validation consists of three consecutive batches of product for a given product image. The number of batches could be minimized or increased depending on prior process knowledge and history with the manufacturing equipment and process conditions. The validation is coupled with expanded sampling across the lyophilizer for critical quality attributes that are most impacted by the lyophilization process, e.g., visual appearance, residual moisture, and reconstitution time \[53, 57\]. PPQ batches are typically run at “target” process conditions. PPQ protocol lists the normal operating range for the lyophilization cycle parameters that have been established and characterized during the process design stage. The process is considered validated across the normal operating range on successful completion of the PPQ batches.
+
+#### ***4.2.1 ***Assessment for Homogeneity
+
+A statistically derived homogeneity testing and analysis is typically performed for each batch produced during process validation. A statistically significant sampling plan may be employed to demonstrate homogeneity of the full-scale lyophilization process during process validation runs. Homogeneity samples are taken exclusively from the lyophilizer, which is the final unit operation that may affect the quality attributes of the bulk drug product material, to comprehensively demonstrate that all unit operations yield an acceptable and uniform drug product quality. Homogeneity is demonstrated when differences due to lyophilization shelf and location within each shelf are shown to be not statistically and/or practically significant.
+
+Some examples of homogeneity test attributes are as follows: 
+
+1. 
+1.
+
+
+Purity: detects aggregation/charges species distribution of the protein molecule and provides a quantitative measure of protein purity and presence of aggregates/dimers. Confirmation of uniformity of main peak results will provide sufficient assurance of uniformity.
+
+
+
+
+2.  
+2.
+
+
+Moisture content: to demonstrate acceptable cake formation and acceptable moisture levels at all locations throughout the freeze dryer unit. Moisture is an attribute that is directly impacted by the lyophilization process.
+
+
+
+
+
+For a lyophilized product, the residual moisture level is a critical quality attribute and is closely monitored during the entire course of product development. Elevated moisture levels \(mostly >2.0%\) in lyophilized product is associated with decreased stability during long-term storage and is widely reported in the literature \[54–56\]. Therefore, a tight control of residual moisture levels during product development and under long term storage is desired.
+
+### **4.3 **Continuous Process Verification
+
+The optimization of a commercial manufacturing process requires process optimization, technology transfer, and scale-up. However, such efforts also need to be backed up with an effective process validation approach which must ensure that the manufacturing process is under control and consistently delivers a product within specifications throughout its life cycle. Unlike the tradition batchwise validation process, a continued process verification \(CPV\) is the process validation approach which relies on a continued monitoring of the critical parameters throughout the product life cycle. The US-FDA defines the continued process verification as “the collection and evaluation of data, from the process design stage through commercial production, which establishes scientific evidence that a process is capable of consistently delivering quality product” \[51\].
+
+This implementation of CPV requires process validation as a recurring data analysis through the complete product life cycle, starting with the late-stage development phase through to the decommissioning of a product, and the “constant verification” of process robustness and capability by scientific methods \[57\].
+
+The key components of a CPV include the following: 
+
+1. 
+1.
+
+
+An alert system to identify process deviations from quality standards.
+
+
+
+
+2.  
+2.
+
+
+A framework for gathering and analyzing data of final product quality and overall process consistency.
+
+
+
+
+3.  
+3.
+
+
+An analysis that includes materials consistency at source and equipment condition; data should be collected in a format that allows for long-term statistical analysis.
+
+
+
+
+4.  
+4.
+
+
+Departures from any predetermined standards should be flagged for review by trained personnel and appropriate measures undertaken to restore end-to-end quality standards.
+
+
+
+
+
+A continuous monitoring and failure detection methodology complements the data-driven manufacturing based on specific signatures of the equipment used for production. The use of smart supporting tools like data analytics for an informed decision-making offers the best probability for the improvement of product quality and process control implemented via CPV approach \[58\].
+
+### **4.4 **Drug Product Quality Attributes \(for Lyo Product\)
+
+Lyophilized drug product, together with lyophilization process, possesses some unique quality attributes different from liquid drug product and production, e.g., appearance at solid state as a lyophilized cake. As a lyophilized product, physical and chemical degradations are significantly reduced with less leachable concern from the container, but moisture level from the stopper and by-products becomes a concern since it may change cake integrity and impact its appearance, stability, and reconstitution time. These unique quality attributes are discussed below \(Table 4\). 
+
+
+***Table 4*** 
+Drug product quality attributes \(as a lyo product\)
+
+
+
+**Quality attribute**
+
+**Justification**
+
+Appearance
+
+Lyophilized cake without cosmetic defect: ideally, lyophilized product should be free from cosmetic defects. Although certain types of lyophilized cake deformation, e.g., crack and dislodge, do not impact drug product stability, altered appearance could lead to customer complaint, perception of low quality, and indication of product quality issues. Cosmetic defect is of high concerns for Japan market
+
+Collapse or meltback: high residual moisture level in lyophilized product or high moisture level of stopper can lead to lyophilized cake collapse or meltback \(an extreme case of cake collapse\). In addition to product appearance deterioration, physical and chemical degradation or even loss of potency may occur in lyophilized cakes with meltback and collapse \[59, 60\]
+
+Cake discoloration: discoloration might occur upon light exposure. Cake browning can be caused by Maillard reaction \[61, 62\]. Maillard reaction was reported to be related to inactivation of lyophilized protein during storage \[63\]
+
+Product in neck: product in neck leads to container closure integrity failure due to improper stopper seating, a critical defect with sterility concern
+
+Product powdered and cake breakage: lyo cake can be powdered during production, distribution, and storage. Typically, no product quality impact is observed
+
+Reconstitution time
+
+Reasonable reconstitution time less than 2 min is preferred
+
+Moisture content
+
+High moisture can cause cake meltback or collapse that can lead to protein degradation and potency loss
+
+5-hydroxymethylfurfural \(HMF\) and furfural \(F\)
+
+HMF/F, known toxic substances, have been previously detected in lyophilized formulations containing sucrose due to the Maillard reaction between reducing sugars and amines or sugar dehydration. Although sucrose is not a reducing sugar, under acidic conditions sucrose can be hydrolyzed to generate glucose and fructose which can undergo reactions mentioned above
+
+Mannitol hydrate
+
+Mannitol hydrate can form during lyophilization cycle with higher moisture level. However, existence of mannitol hydrate does not increase moisture content nor impact product stability
+
+Active content per vial
+
+Active content variability has direct impact on patient dosing which is related to efficacy or toxic side effects. Products with narrow therapeutic window or customized dosing may require narrow limits
+
+
+
+## **5 **Process Analytical Technology \(PAT\) and Next-Generation Advancements
+
+The advent of COVID-19 pandemic-related travel restrictions enabled an accelerated deployment of AR \(augmented reality\) technology for remote real-time support for scale-up process including determination of vial heat transfer coefficient \(*K*v\) tests and sublimation tests and installation feasibility of VERISEQ™-controlled nucleation technology.
+
+AR, for example, is an interactive digital service through which information can be overlaid on objects and live data can be collected in the real time. The concept of AR can be traced back to 1990s to NASA and US Airforce lab \[64\], and in 2014, Google introduced the Google Glass. However, the Google Glass concept was shrouded with privacy concerns and was not designed for GMP safety requirements. For example, IMA life partnered with Augmentir AI-powered platform and Realware HMT-1 wearable AR glasses for pharmaceutical applications including lyophilization scale-up \(Fig. 13\). 
+![](images/000017.jpeg)
+
+
+***Fig. 13*** 
+Left: HMT-1 AR glasses from Realware™, middle: Operator wearing AR glasses, right: Loaded trays for representative *K*v testing
+
+
+
+Similarly, various process analytical technologies exist on the market that enable opportunities for process monitoring and process improvement during the lyophilization development and scale-up process \(Table 5\). 
+
+
+***Table 5*** 
+Various PAT tools are available for integration with lyophilization and provide newer opportunities for process monitoring and process improvements
+
+
+
+**PAT tools**
+
+**Enabling technology**
+
+**Attribute quantified**
+
+**Application**
+
+**Current limitations**
+
+TDLAS \[14\]
+
+Tunable NIR laser diode
+
+Vapor flow
+
+Useful for *K*v and *R*p determination in lab/pilot scale lyos
+
+Works only with ducted Lyophilizers
+
+LyoPAT \[65\]
+
+Heat flux sensor
+
+Heat flux difference between shelf and loaded product
+
+Useful for *K*v determination and construction of primary drying design space
+
+Incompatible with SIP process
+
+Mass spectrometer \[66\]
+
+Miniaturized quadrupole detector
+
+Charge to mass \(m/z\) ratio
+
+None
+
+Currently limited to silicone oil detection
+
+Wireless Temperature monitors/data loggers
+
+1. Tempris: quartz-based resonance circuit \[67\]
+
+2. Ellab Tracksense Lyopro: a patented nest adapter containing the power source \[68\]
+
+Temperature
+
+Process development, scale up and validation
+
+Tempris: sensor head is bulky
+
+Ellab: requires a nest adapter inside product chamber, not fully compatible with stoppering step
+
+
+
+## **6 **Summary
+
+Improved stability of the biopharmaceuticals is the key driving force for freeze-drying of biologics and vaccines; however, other differentiating factors such as potential for self-administration with an auto-injector in specific cases may prompt its usage. Successful commercialization of freeze-dried product hinges on developing a safe, effective, and quality product that is grounded in a robust process design with clear identification of failure modes and risk controls. Linking the material attributes \(e.g., vials, stoppers, and excipients\) and process parameters \(e.g., freezing, primary and secondary drying\) to drug product CQAs \(e.g., assay, purity, moisture, recon, and appearance\) allows understanding of the source of variation, identify, and risk parameters \(e.g., equipment and process\) that may impact product quality and control the variations to overcome the risk to product/process. Well-defined processes with proper monitoring and process control enables reliable and robust supply chain with an efficient technology transfer from lab-scale to pilot-scale and from pilot-scale to commercial at different sites.
+
+
+**References**
+
+1.  
+1.
+
+Patel S, Jameel F, Sane S, Kamat M. Lyophilization process design and development using QbD principles. In: Jameel F, Hershenson S, Khan M, Martin-Moe S, editors. Quality by design for biopharmaceutical drug product development, AAPS advances in the pharmaceutical sciences series, vol. 18. New York, NY: Springer; 2015. [https://​doi.​org/​10.​1007/​978-1-4939-2316-8\_​14](https://doi.org/10.1007/978-1-4939-2316-8_14).[Crossref](https://doi.org/10.1007/978-1-4939-2316-8_14)
+
+2.  
+2.
+
+Porfire A, Tomuta I, Iurian S, Casian T. Chapter 10 – Quality by design considerations for the development of lyophilized products. In: Beg S, Hasnain MS, editors. Pharmaceutical quality by design. Academic Press; 2019. p. 193–207. ISBN 9780128157992. [https://​doi.​org/​10.​1016/​B978-0-12-815799-2.​00011-3](https://doi.org/10.1016/B978-0-12-815799-2.00011-3).[Crossref](https://doi.org/10.1016/B978-0-12-815799-2.00011-3)
+
+3.  
+3.
+
+Grohman G. Bottlenecks to timely production of vaccines in the event of a pandemic, global influenza programme. World Health Organization. [www.​who.​int/​influenza\_​vaccines\_​plan/​GAPIII\_​Session3\_​Grohmann.​pdf](http://www.who.int/influenza_vaccines_plan/GAPIII_Session3_Grohmann.pdf).
+
+4.  
+4.
+
+COVID-19 vaccination: supply and logistics guidance. WHO Interim Guidance, 12 Feb 2021.
+
+5.  
+5.
+
+Bhambhani A, Blue JT. Lyophilization strategies for development of a high-concentration monoclonal antibody formulation: benefits and pitfalls. Am Pharm Rev. 2010:31–8.
+
+6.  
+6.
+
+Awotwe-Otoo D, Agarabi C, Read EK, Lute S, Brorson KA, Khan MA, Shah RB. Impact of controlled ice nucleation on process performance and quality attributes of a lyophilized monoclonal antibody. Int J Pharm. 2013;450\(1–2\):70–8. ISSN 0378-5173. [https://​doi.​org/​10.​1016/​j.​ijpharm.​2013.​04.​041](https://doi.org/10.1016/j.ijpharm.2013.04.041).[Crossref](https://doi.org/10.1016/j.ijpharm.2013.04.041)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23618961)
+
+7.  
+7.
+
+Searles JA, Carpenter JF, Randolph TW. The ice nucleation temperature determines the primary drying rate of lyophilization for samples frozen on a temperature-controlled shelf. J Pharm Sci. 2001;90\(7\):860–71. ISSN 0022-3549. [https://​doi.​org/​10.​1002/​jps.​1039](https://doi.org/10.1002/jps.1039).[Crossref](https://doi.org/10.1002/jps.1039)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11458335)
+
+8.  
+8.
+
+Wasserman A, Sarpal R, Phillips BR. Lyophilization in vaccine processes. In: Vaccine development and manufacturing; 2014. p. 263–85. [https://​doi.​org/​10.​1002/​9781118870914.​ch9](https://doi.org/10.1002/9781118870914.ch9).
+
+9.  
+9.
+
+Ganguly A, Nail SL, Alexeenko A. Experimental determination of the key heat transfer mechanisms in pharmaceutical freeze-drying. J Pharm Sci. 2013;102\(5\):1610–25.[Crossref](https://doi.org/10.1002/jps.23514)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23580359)
+
+10.  
+10.
+
+Overcashier DE, Patapoff TW, Hsu CC. Lyophilization of protein formulations in vials: investigation of the relationship between resistance to vapor flow during primary drying and small-scale product collapse. J Pharm Sci. 1999;88\(7\):688–95.[Crossref](https://doi.org/10.1021/js980445+)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10393566)
+
+11.  
+11.
+
+Meister E, Šaši S, Gieseler H. Freeze-dry microscopy: impact of nucleation temperature and excipient concentration on collapse temperature data. AAPS PharmSciTech. 2009;10\(2\):582–8.[Crossref](https://doi.org/10.1208/s12249-009-9245-y)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19440843)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2690808)
+
+12.  
+12.
+
+Meister E, Gieseler H. Freeze-dry microscopy of protein/sugar mixtures: drying behavior, interpretation of collapse temperatures and a comparison to corresponding glass transition data. J Pharm Sci. 2009;98\(9\):3072–87.[Crossref](https://doi.org/10.1002/jps.21586)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18823013)
+
+13.  
+13.
+
+Pikal MJ, Shah S, Roy ML, Putman R. The secondary drying stage of freeze drying: drying kinetics as a function of temperature and chamber pressure. Int J Pharm. 1990;60\(3\):203–7.[Crossref](https://doi.org/10.1016/0378-5173(90)90074-E)
+
+14.  
+14.
+
+Rambhatla S, Obert JP, Luthra S, Bhugra C, Pikal MJ. Cake shrinkage during freeze drying: a combined experimental and theoretical study. Pharm Dev Technol. 2005;10\(1\):33–40.[Crossref](https://doi.org/10.1081/PDT-35871)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15776811)
+
+15.  
+15.
+
+Assegehegn G, Brito-de la Fuente E, Franco JM, Gallegos C. Understanding and optimization of the secondary drying step of a freeze-drying process: a case study. Dry Technol. 2020:1–15.
+
+16.  
+16.
+
+Awotwe-Otoo D, Khan MA. Lyophilization of biologics: an FDA perspective. In: Lyophilized biologics and vaccines. New York, NY: Springer; 2015. p. 341–59.
+
+17.  
+17.
+
+Patel SM, Nail SL, Pikal MJ, Geidobler R, Winter G, Hawe A, et al. Lyophilized drug product cake appearance: what is acceptable? J Pharm Sci. 2017;106\(7\):1706–21.[Crossref](https://doi.org/10.1016/j.xphs.2017.03.014)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28341598)
+
+18.  
+18.
+
+Bennett PS, Maigetter RZ, Olson MG, Provost PJ, Scattergood EM, Schofield TL. The effects of freeze-drying on the potency and stability of live varicella virus vaccine. Dev Biol Stand. 1992;74:215–21.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1317307)
+
+19.  
+19.
+
+Depaz RA, Pansare S, Patel SM. Freeze-drying above the glass transition temperature in amorphous protein formulations while maintaining product quality and improving process efficiency. J Pharm Sci. 2016;105\(1\):40–9.[Crossref](https://doi.org/10.1002/jps.24705)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26580140)
+
+20.  
+20.
+
+Blue JT, Sinacola J, Bhambhani A. Process scale-up and optimization of lyophilized vaccine products. In: Varshney D, Singh M, editors. Lyophilized biologics, vaccines and cancer drugs modality based approaches; 2015. p. 179–210.[Crossref](https://doi.org/10.1007/978-1-4939-2383-0_9)
+
+21.  
+21.
+
+Pikal MJ. Lyophilization. In: Swarbrick J, Boylan J, editors. Encyclopedia of pharmaceutical technology; 2001. p. 1299–326.
+
+22.  
+22.
+
+Rambhatla S, Ramot R, Bhugra C, Pikal MJ. Heat and mass transfer scale-up issues during freeze drying: II. Control and characterization of the degree of supercooling. AAPS PharmSciTech. 2004;5\(4\):54–62.[Crossref](https://doi.org/10.1208/pt050458)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750483)
+
+23.  
+23.
+
+Wang W. Lyophilization and development of solid protein pharmaceuticals. Int J Pharm. 2000;203:1–60.[Crossref](https://doi.org/10.1016/S0378-5173(00)00423-3)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10967427)
+
+24.  
+24.
+
+Fang R, Tanaka K, Mudhivarthi V, Bogner RH, Pikal MJ. Effect of controlled ice nucleation on stability of lactate dehydrogenase during freeze-drying. J Pharm Sci. 2018;107\(3\):824–30.[Crossref](https://doi.org/10.1016/j.xphs.2017.10.020)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29074380)
+
+25.  
+25.
+
+AP MK, et al. Factors affecting the mechanisms of transformation of ice into water in the freeze-drying process. Ann N Y Acad Sci. 1965;125:522.
+
+26.  
+26.
+
+Tang X, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200. [https://​doi.​org/​10.​1023/​b:​pham.​0000016234.​73023.​75](https://doi.org/10.1023/b:pham.0000016234.73023.75).[Crossref](https://doi.org/10.1023/b:pham.0000016234.73023.75)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15032301)
+
+27.  
+27.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37. [https://​doi.​org/​10.​1002/​jps.​2600730910](https://doi.org/10.1002/jps.2600730910).[Crossref](https://doi.org/10.1002/jps.2600730910)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+28.  
+28.
+
+Pikal MJ, Pande P, Bogner R, Sane P, Mudhivarthi V, Sharma P. Impact of natural variations in freeze-drying parameters on product temperature history: application of quasi steady-state heat and mass transfer and simple statistics. AAPS PharmSciTech. 2018;19\(7\):2828–42. [https://​doi.​org/​10.​1208/​s12249-018-1155-4](https://doi.org/10.1208/s12249-018-1155-4).[Crossref](https://doi.org/10.1208/s12249-018-1155-4)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30259404)
+
+29.  
+29.
+
+Pikal MJ, Rambhatla S, Ramot R. The impact of the freezing stage in lyophilization: effects of the ice nucleation temperature on process design and product quality. Am Pharm Rev. 2002;5:48–53.
+
+30.  
+30.
+
+Pikal MJ, Bogner R, Mudhivarthi V, Sharma P, Sane P. Freeze-drying process development and scale-up: scale-up of edge vial versus center vial heat transfer coefficients, Kv. J Pharm Sci. 2016;105\(11\):3333–43.[Crossref](https://doi.org/10.1016/j.xphs.2016.07.027)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27666376)
+
+31.  
+31.
+
+Patel SM, Pikal MJ. Emerging freeze-drying process development and scale-up issues. AAPS PharmSciTech. 2011;12\(1\):372–8.[Crossref](https://doi.org/10.1208/s12249-011-9599-9)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21347620)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3066344)
+
+32.  
+32.
+
+Sane P, Varma N, Ganguly A, Pikal M, Alexeenko A, Bogner RH. Spatial variation of pressure in the lyophilization product chamber part 2: experimental measurements and implications for scale-up and batch uniformity. AAPS PharmSciTech. 2017;18\(2\):369–80.[Crossref](https://doi.org/10.1208/s12249-016-0502-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26989063)
+
+33.  
+33.
+
+Tchessalov S, Latshaw D II, Nulu S, Bentley M, Tharp T, Ewan S, Chen X. Application of first principles primary drying model to lyophilization process design and transfer: case studies from the industry. J Pharm Sci. 2021;110\(2\):968–81.[Crossref](https://doi.org/10.1016/j.xphs.2020.11.013)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33248058)
+
+34.  
+34.
+
+Ten Have R, Reubsaet K, Van Herpen P, Kersten G, Amorij JP. Demonstrating functional equivalence of pilot and production scale freeze-drying of BCG. PLoS One. 2016;11\(3\):e0151239.[Crossref](https://doi.org/10.1371/journal.pone.0151239)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26981867)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4794149)
+
+35.  
+35.
+
+Shivkumar G, Kshirsagar V, Zhu T, Sebastiao IB, Nail SL, Sacha GA, Alexeenko AA. Freeze-dryer equipment capability limit: comparison of computational modeling with experiments at laboratory scale. J Pharm Sci. 2019;108\(9\):2972–81.[Crossref](https://doi.org/10.1016/j.xphs.2019.04.016)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31004653)
+
+36.  
+36.
+
+Tchessalov S, Warne NW. Lyophlization: cycle robustness and process tolerances, transfer and scale up. Euro Pharm Rev. 2008;3:76–83.
+
+37.  
+37.
+
+Sane S, Hsu C. Considerations for successful lyophlization process scale-up, technology transfer and routine production. In: Jameel F, Hershenson S, editors. Formulation and process development strategies for manufacturing biopharmaceuticals. Hoboken: Wiley; 2010. p. 797–826.[Crossref](https://doi.org/10.1002/9780470595886.ch31)
+
+38.  
+38.
+
+Glodek M, Liebowitz S, McCarthy R, McNally G, Oksanen C, Schultz T, Sudararajan M, Vorkapich R, Vukovinsky K, Watts C, Millili G. Process robustness—a PQRI white paper. Pharm Eng. 2006;26\(6\):1–11.
+
+39.  
+39.
+
+Dixon D, Tchessalov S, Bhatnagar B. Lyophilization: process design, robustness, and risk management. In: Warne NW, Mahler H-C, editors. Challenges in protein product development, AAPS advances in the pharmaceutical sciences series, vol. 38. New York, NY: Springer. p. 407–39.
+
+40.  
+40.
+
+Radhakrishnan V, Davis P, Hiebert D. Scientific approaches for the application of QbD principles in lyophilization process development. In: Warne NW, Mahler H-C, editors. Challenges in protein product development, AAPS advances in the pharmaceutical sciences series, vol. 38. New York, NY: Springer; 2018. p. 441–71.[Crossref](https://doi.org/10.1007/978-3-319-90603-4_20)
+
+41.  
+41.
+
+Kobayashi M. Development of a new refrigeration system and optimum geometry of the vapor condenser for pharmaceutical freeze dryers. In: Proceedings of the 4th international drying symposium. Kyoto, Japan; 1984.
+
+42.  
+42.
+
+Ganguly A, Venkattraman A, Alexeenko AA. Simulations of vapor/ice dynamics in a freeze-dryer condenser. AIP Conference Proceedings 1333; 2011, p. 254.
+
+43.  
+43.
+
+Zhai S, Song L, Lv X. Measurement and analysis of silicone oil characteristics and viscosity-temperature index. IOP Conference Series: Earth and Environmental Science 330; 2019, p. 3.
+
+44.  
+44.
+
+SP Scientific Lyostar IIITM specification sheet, downloaded Apr 2021.
+
+45.  
+45.
+
+Nail SL, et al. Recommended best practices for process monitoring instrumentation in pharmaceutical freeze drying—2017. AAPS PharmSciTech. 2017;18:2379.[Crossref](https://doi.org/10.1208/s12249-017-0733-1)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28205144)
+
+46.  
+46.
+
+Rambhatla S, et al. Heat and mass transfer scale-up issues during freeze-drying, III: control and characterization of dryer differences via operational qualification tests. AAPS PharmSciTech. 2006;7\(2\):E61.[Crossref](https://doi.org/10.1208/pt070239)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750289)
+
+47.  
+47.
+
+Tang Y. Quality by design approaches to analytical method – FDA perspective. AAPS Washington DC; 2011.
+
+48.  
+48.
+
+Patel, et al. Choked flow and importance of Mach I in freeze-drying process design. Chem Eng Sci. 2010;65\(21\):5716.[Crossref](https://doi.org/10.1016/j.ces.2010.07.024)
+
+49.  
+49.
+
+Kshirsagar, et al. Determining maximum sublimation rate for a production lyophilizer: computational modeling and comparison with ice slab tests. J Pharm Sci. 2019;108:382.[Crossref](https://doi.org/10.1016/j.xphs.2018.10.061)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30414868)
+
+50.  
+50.
+
+Searles J. Observation and implications of sonic water vapor flow during freeze-drying. Am Pharm Rev. 2004;
+
+51.  
+51.
+
+Srinivasan J, et al. Equipment capability measurement of laboratory freeze-dryers: a comparison of two methods. AAPS PharmSciTech. 2021;22:53.[Crossref](https://doi.org/10.1208/s12249-021-01921-2)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33469853)
+
+52.  
+52.
+
+FDA. Guidance for industry—process validation: general principles and practices. Rockville, MD; 2011.
+
+53.  
+53.
+
+Jameel F, Alexeenko A, Bhambhani A, Sacha G, Zhu T, Tchessalov S, Kumar L, Sharma P, Moussa E, Iyer L, Fang R, Srinivasan J, Tharp T, Azzarella J, Kazarin P, Jalal M. Recommended best practices for lyophilization validation – 2020 part I: process design and modeling. AAPS PharmSciTech. 2021; Accepted
+
+54.  
+54.
+
+Carpenter JF, Pikal MJ, Chang BS, Randolph TW. Rational design of stable lyophilized protein formulation: some practical advice. Pharm Res. 1997;14:969–75.[Crossref](https://doi.org/10.1023/A:1012180707283)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9279875)
+
+55.  
+55.
+
+Carpenter JF, Chang BS, Garzon-Rodriguez W, Randolph TW. Rational design of stable lyophilized protein formulations: theory and practice. Pharm Biotechnol. 2002;13:109–33.[Crossref](https://doi.org/10.1007/978-1-4615-0557-0_5)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11987749)
+
+56.  
+56.
+
+Chang BS, Randall CS. Use of sub ambient thermal analysis to optimize protein lyophilization. Cryobiology. 1992;29:632.[Crossref](https://doi.org/10.1016/0011-2240(92)90067-C)
+
+57.  
+57.
+
+Rommerskirchen M. Continued process verification – a challenge for the pharmaceutical industry? Eur Pharm Rev. 2015;
+
+58.  
+58.
+
+Jameel F, Alexeenko A, Bhambhani A, Sacha G, Zhu T, Tchessalov S, Kumar L, Sharma P, Moussa E, Iyer L, Fang R, Srinivasan J, Tharp T, Azzarella J, Kazarin P, Jalal M. Recommended best practices for lyophilization validation – 2020 part II: process qualification and continued process verification. AAPS PharmSciTech. 2021; Accepted
+
+59.  
+59.
+
+Chang BS, Randall CS, Lee YS. Stabilization of lyophilized porcine pancreatic elastase. Pharm Res. 1993;10:1478–83.[Crossref](https://doi.org/10.1023/A:1018979410338)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7505940)
+
+60.  
+60.
+
+Allison SD, Randolph TW, Manning MC, Middleton K, Davis A, Carpenter JF. Effects of drying methods and additives on structure and function of actin: mechanisms of dehydration-induced damage and its inhibition. Arch Biochem Biophy. 1998;358:171–81.[Crossref](https://doi.org/10.1006/abbi.1998.0832)
+
+61.  
+61.
+
+Reyes FGR, Poocharoen B, Wrolstad RE. Maillard browning reaction of sugar–glycine model systems: changes in sugar concentration, color and appearance. J Food Sci. 1982;47:1376–7.[Crossref](https://doi.org/10.1111/j.1365-2621.1982.tb07690.x)
+
+62.  
+62.
+
+Buera MDP, Chirife J, Resnik SL, Wetzler G. Nonenzymic browning in liquid model systems of high water activity: kinetics of color changes due to Maillard’s reaction between different single sugars and glycine and comparison with caramelization browning. J Food Sci. 1987;52:1063–7.[Crossref](https://doi.org/10.1111/j.1365-2621.1987.tb14276.x)
+
+63.  
+63.
+
+Schebor C, Burin L, Buera MP, Aguilera JM, Chirife J. Glassy state and thermal inactivation of invertase and lactase in dried amorphous matrices. Biotechnol Prog. 1997;13:857–63.[Crossref](https://doi.org/10.1021/bp970093x)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9413144)
+
+64.  
+64.
+
+Maida J, et al. Dynamic registration correction in augmented-reality systems. Space Life Sci. 2013;
+
+65.  
+65.
+
+LyoPAT® – New technology for FD Research and Development, Millrock Technical Note. Accessed Apr 2021.
+
+66.  
+66.
+
+Ganguly, et al. Mass spectrometry in freeze-drying: motivations for using a bespoke PAT for laboratory and production environment. Eur J Pharm Biopharm. 2018;127:219–98.[Crossref](https://doi.org/10.1016/j.ejpb.2018.02.036)
+
+67.  
+67.
+
+Freeze Drying/Lyophilization with Tempris temperature measuring system, Tempris Sensor Technology Technical Specification sheet. Accessed Apr 2021.
+
+68.  
+68.
+
+TrackSense® LyoPro Wireless Data Logger for Lyophilization: Specification sheet. Accessed Apr 2021.
+
+
+

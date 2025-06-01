@@ -1,0 +1,451 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_10](https://doi.org/10.1007/978-3-031-12634-5_10)
+
+
+**
+# The Nucleation of Ice
+**
+
+
+Gregory A. Sacha1  
+
+
+\(1\) 
+Baxter, Research and Development, Bloomington, IN, USA
+
+
+
+
+
+**Gregory A. Sacha**
+
+**Email: **gregory\_sacha@baxter.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Definitions and the Formation of Ice
+
+**3 **Ice Nucleation in Conventional Lyophilizers
+
+**3.1 **The Effect of Cooling Rate on the Degree of Supercooling
+
+**3.2 **The Effect of Vial Size and Fill Volume on the Degree of Supercooling
+
+**4 **Controlled Ice Nucleation
+
+**4.1 **Controlled Ice Nucleation Using a Reduced Pressure Ice Fog
+
+**4.2 **Controlled Nucleation Using Rapid Depressurization
+
+**4.3 **The Effect of Controlled Ice Nucleation on Process Time and Product Appearance
+
+**5 **Summary
+
+References
+
+
+## Abstract
+
+The primary drying step during a freeze-drying cycle often receives the most attention during development and manufacturing. Less attention is placed on the cooling step, but this step impacts the performance of the entire cycle. The nucleation of ice occurs as the temperature of the formulation cools from approximately room temperature to approximately –40 °C or lower. The challenge is that the temperature at which ice nucleates cannot be controlled in conventional lyophilizers. This means that ice nucleation occurs randomly at different temperatures in each of the containers. Random nucleation equates to different times for the growth of ice crystals in each of the containers and, therefore, different sizes of ice crystals. Small ice crystals lead to smaller pores in the drying solid and longer drying times. This chapter examines the effect of ice crystal size on drying performance.
+
+
+**Keywords**
+Ice nucleation Controlled nucleation Freezing Freeze-drying Ice crystal size Crystal growth Super cooling
+
+
+## **1 **Introduction
+
+The primary drying step during a freeze-drying cycle often receives the most attention during development and manufacturing. Less attention is placed on the cooling step, but this step impacts the performance of the entire cycle \[10, 11, 15, 17\]. The cooling step is complicated because ice nucleation cannot be controlled in conventional lyophilizers, and ice nucleation is completely random. The random nature of ice nucleation means that solutions in some vials in the lyophilizer nucleate sooner than others. The solutions in which ice nucleates early have more time for crystal growth than the solutions that nucleate later. The frozen solutions that have large ice crystals leave behind larger pores, and this allows them to dry faster than the frozen solutions containing small ice crystals. The variability between vials creates challenges for development of the lyophilization cycle.
+
+Options are available to reduce the variability between vials. There are lyophilizers that are equipped with methods of controlling nucleation so that ice nucleates in all vials at the same time. However, there are many lyophilizers throughout the world in manufacturing areas that are not equipped with methods of controlling ice nucleation. This makes it important to understand the behavior of ice nucleation and the factors affecting ice nucleation.
+
+## **2 **Definitions and the Formation of Ice
+
+Terms such as cooling rate and freezing rate are often used interchangeably. However, they are distinctly different phenomena. The cooling rate refers to the rate of decrease in temperature of the item being cooled. If the item is a solution in a vial sitting on the shelf of a lyophilizer, the rate of cooling is dependent on the transfer of heat from the solution through the vial, through the shelf, and into the cooling fluid. The freezing rate refers to the rate of growth of ice in the solution being cooled. The freezing rate depends on the formation and accumulation of ice nuclei to form a crystal and is also referred to as the time dependent freezing rate \[23\].
+
+There are two steps to the formation of ice. The first is the formation of embryos that build on each other to form nuclei as described by Gabor Vali \[23\]. The formation of nuclei is random, and they can occur in different areas of the solution at different times and in different sizes \[13\]. The probability per unit time that nucleation will occur is referred to as the nucleation rate \[23\]. The steps can occur by two different manners. Ice nucleation can be homogeneous or heterogeneous \[23\]. The homogeneous formation of ice requires ultra-pure water that does not contact surfaces or contain any minute contaminants. In this case, nuclei form spontaneously after supercooling. The second and more common method of ice nucleation is the heterogeneous formation of ice. This is when nuclei form as the result of a “seed” that initiates the reaction. The seed is in most cases minute particles within the solution or contact with the imperfect surfaces of the vessel containing the solution.
+
+All solutions supercool before ice nucleation \[2, 14, 23\]. This means that the temperature of the solution is well-below the equilibrium melting temperature of the solution before nucleation occurs. The challenge is that high degrees of supercooling leave little time for the growth of ice crystals, and this can increase the resistance of the flow of water vapor from the drying solid \[17\]. Increasing the resistance to the flow of water vapor results in longer drying times but can also lead to warming of the drying solid as the ice is removed.
+
+All mixtures undergo physical and chemical changes as ice crystals grow. The components of the mixture become concentrated, also known as freeze concentration. The increase in concentration can increase the ionic strength and can bring biologic molecules and suspended particles in close contact. This can lead to protein aggregation, shifts in particle size, and shifts in pH \[8–10, 14, 17, 22, 24\].
+
+## **3 **Ice Nucleation in Conventional Lyophilizers
+
+Conventional lyophilizers offer no control over the temperature at which ice nucleation occurs. Ice nucleation is completely random, but there are factors that affect the degree of supercooling, thus affecting the growth of ice crystals. For example, anything that disturbs the solution being cooled can act as a seed for ice nucleation. Items that can act as seeds include thermocouples inserted into the solution to monitor product temperature, inconsistencies on the inner surfaces of the glass vials, and microparticulate contaminants originating from the environment \[14, 17\]. Although we cannot always control the inner surfaces of the glass vials, we can decide to only use thermocouples during product development, and we can greatly reduce particles in the environment in the aseptic manufacturing area. Monitoring product temperature is important during lyophilization, especially during laboratory-scale studies. However, solutions that contain thermocouples may experience less degrees of supercooling before ice nucleation and have more time for the growth of ice crystals. The solution in vials equipped with thermocouples will now dry faster than the other vials because of the larger ice crystals. This results in variability between the vials, and the variability may result in large differences in drying times for the frozen solids. It is good practice to not include temperature measurement devices in solutions produced in the aseptic manufacturing environment. The inclusion of temperature monitoring devices in the solutions contributes to variability and risks sterility assurance, and the data may not be dependable if the monitoring device changes location in the solution.
+
+Variability in drying time resulting from changes in the degree of ice nucleation temperature may also occur when the process is transferred from a laboratory setting to a GMP, aseptic manufacturing area. Solutions prepared in a laboratory setting may become contaminated by particles in the environment, and the particles can serve as seeds for ice nucleation \[17\]. The levels of particles in the aseptic manufacturing environment are orders of magnitude lower than in a laboratory setting. Therefore, solutions filled into vials in the aseptic manufacturing areas may experience higher degrees of supercooling before ice nucleation occurs because of the lack of contaminants that serve as seeds for nucleation. This may correspond to increases in drying time because the high degree of supercooling leaves less time for the growth of ice crystals.
+
+Process development scientists must be aware that there are methods of influencing the degree of supercooling during cooling of the solutions. The methods include cooling rates, vial size and fill volume, and anything that decreases the difference in temperature at the bottom of the vials where they contact the shelf and the temperature at the top of the solution.
+
+### **3.1 **The Effect of Cooling Rate on the Degree of Supercooling
+
+There are a few different methods of cooling that may be selected for different reasons \(Table 1\). 
+
+
+***Table 1*** 
+Methods of cooling product for lyophilization
+
+
+
+**Method**
+
+**Description**
+
+Rapid cooling
+
+Place containers on shelves at ambient conditions and cool as fast as possible
+
+Slow cooling
+
+Place containers on shelves at ambient conditions and cool as slow as possible
+
+Equilibration before cooling
+
+Equilibrate the product at a specific temperature before continuing to cool
+
+Flash freezing
+
+Submerge containers in liquid nitrogen before placing on pre-cooled shelves
+
+Pre-cooling the shelves
+
+Place containers on shelves pre-cooled to a specific low temperature
+
+Moderate cooling
+
+Place containers on shelves at ambient conditions and cool at approximately 1 °C/min
+
+
+
+There are reasons for using the different approaches to cooling. For example, some molecules are extremely unstable in solution and must be flash frozen as soon as possible. Another reason for using flash freezing is that data in the literature suggest that it aids in maintaining the desired size of liposomes without observing large increases in liposome size after freezing \[4\]. The data from the literature also demonstrate that slow freezing \(rapid cooling\) results in larger ice crystals that facilitate drying but also results in disruption of the liposomal membranes when the internal contents crystallize \[3, 4\].
+
+Overall, any cooling process that allows equilibration of the temperature of the solution in the container or less of a temperature differential from the bottom of the solution to the top will result in higher degrees of supercooling and the production of small ice crystals. Therefore, cycles that utilize cooling rates approximately 0.5 °C/min and less will exhibit high degrees of supercooling which translates into longer primary drying times. In general, laboratory-scale freeze-dryers are capable of a maximum cooling rate of approximately 5 °C/min, and the maximum cooling rate for full-scale freeze-dryers is typically at most 1 °C/min until reaching approximately –30 °C when the cooling rate slows. Therefore, most freeze-drying cycles utilize a cooling rate of approximately 1 °C/min. This cooling rate typically does not present a problem with ice crystal size affecting the primary drying rate. Highly concentrated formulations can become challenging to dry because of the formation of spherulitic ice \[1, 10, 16\]. Dendritic ice is preferred because the dendrites form larger pores that allow for easier drying. However, annealing steps can be incorporated into the thermal treatment to encourage growth of ice crystals which can reduce the resistance to mass flow of water vapor during primary drying \[21\].
+
+Equilibrating the product at a specific temperature before continuing the cooling step can also result in high degrees of supercooling. Equilibrating the temperature creates less of a temperature differential between the bottom and top of the solution.
+
+Although flash freezing sounds like rapid cooling, it actually is rapid formation of ice by submerging the solution in liquid nitrogen. This produces small ice crystals and increases the resistance to mass transfer of water vapor, which makes the product difficult to dry. Incorporating this process into full-scale operations can also be technically challenging.
+
+Using a rapid cooling rate or placing the containers directly on a shelf pre-cooled to a low temperature, such as –40 °C, results in low degrees of supercooling. There is a large temperature differential between the bottom of the solution that is in contact with the shelf and the top of the solution. Ice nucleates rapidly in the solution near the bottom of the container, and the warmer temperatures of the upper regions of the solution favors growth of ice crystals. Low degrees of supercooling are desirable, but transferring containers to a shelf pre-cooled to a low temperature can be challenging in the lab and at full-scale. Condensations forms on the shelves and results in a layer of ice once the door to the lyophilizer is opened. The layer of ice can reduce the rate of heat transfer to the containers and affect primary drying conditions.
+
+### **3.2 **The Effect of Vial Size and Fill Volume on the Degree of Supercooling
+
+Vial size and the fill volume can also affect the degree of supercooling. Hottot et al. observed larger mean diameters of ice crystals in 7 mL vials than in the 4 mL and 5 mL vials in the study \[9\]. In addition, higher fill volumes corresponded to less of a degree in supercooling than for lower fill volumes \[9\]. This was also observed in studies conducted in the Baxter Research and Development Laboratory located in Bloomington, IN \[19\]. The studies were conducted using 3% sucrose solution, sterile-filtered and filled into depyrogenated, glass, tubing vials. The vial sizes were 5 mL, 20 mL, and 50 mL with fill volumes of 2.5 mL, 10 mL, and 25 mL, respectively. A full tray of a single type of vial was used for each study, and the thermocouples were attached to the external surfaces of the vials in the area of the vial which was occupied by the solution. Approximately 10–14 separate thermocouples were used per study and placed on vials throughout the shelf. The average ice nucleation temperature from each of the thermocouples was reported. Vials were cooled slowly at 0.25 °C/min to –40 °C or as fast as possible at approximately 4.5 °C/min to –40 °C. The data demonstrate a large difference in the degree of supercooling depending on the cooling rate \(Figs. 1 and 2\). The ice nucleation temperature was between approximately –9 °C and –13 °C for samples that were slowly cooled and less than approximately −7.5 °C when cooled rapidly. The degree of supercooling was slightly higher for the 20 mL samples and appeared similar for the 50 mL and 5 mL samples. The variability in ice nucleation was higher for samples that were cooled quickly. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Bar graphs representing separate experiments with 5 mL, 20 mL, and 50 mL vials using ice nucleation temperatures averaged for 10–14 thermocouples per experiment. Vials were cooled at 0.25 °C/min to –40 °C. The standard deviation is represented by lines on each bar
+
+
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Bar graphs representing separate experiments with 5 mL, 20 mL, and 50 mL vials using ice nucleation temperatures averaged for 10–14 thermocouples per experiment. Vials were cooled approximately 4.5 °C/min to –40 °C. The standard deviation is represented by lines on each bar
+
+
+
+Quickly cooling the samples resulted in lower degrees of supercooling but with more variability in the ice nucleation temperature than for slowly cooled samples. The ice nucleation temperature for slowly cooled samples was approximately 1.5–4.5 °C colder than for quickly cooled samples. The data suggest that slowly cooling a product results in high degrees of supercooling. High degrees of supercooling result in less time for the growth of ice crystals. The smaller ice crystals will increase the resistance to mass transfer of water vapor during the drying process and extend drying time. In some cases, such as for liposomes, slowly cooling can lead to the destruction of the liposome membrane.
+
+## **4 **Controlled Ice Nucleation
+
+The ability to control the temperature of ice nucleation has been available for a number of years. Geidobler and Winter authored an extensive review of the different techniques under development and available commercially \[5\]. There are two methods currently on the market for laboratory and full-scale equipment. They include inducing nucleation using an ice fog and utilizing rapid depressurization of the product chamber to induce nucleation. There is an additional method available for laboratory-scale equipment that utilizes an ice fog produced in the condenser. All three methods provide the ability to select a product temperature below zero at which to equilibrate the product before inducing ice nucleation. Ice nucleates in all of the containers at the same time for each of the methods, which greatly reduces the variability on and between shelves. Initiating nucleation at warmer temperatures also provides more time for ice crystal growth which should result in less resistance to mass transfer of water vapor \[12, 22\].
+
+### **4.1 **Controlled Ice Nucleation Using a Reduced Pressure Ice Fog
+
+A full-scale method of controlling ice nucleation during manufacturing is available from Linde VERISEQ®, and a laboratory method known as FreezeBooster® is offered by Millrock Technology. Both methods rely on placing the containers, often vials, directly on the shelves of the freeze-dryer, initiating a slight vacuum, and equilibrating the product at a temperature below 0, for example, between –3 and –8 °C. The Linde VERISEQ® method utilizes a heat exchanger that is cooled with liquid nitrogen and through which sterile water flows to produce an ice fog. The flow of the ice fog is directed through entrance and exit ports on the product chamber and may use baffles inside the chamber to rapidly disperse the ice fog.
+
+The FreezeBooster® technique initiates a slight vacuum in the product chamber which is separated from a condenser using an isolation valve. The condenser is cooled, and sterile water is injected into the condenser to form an ice fog. The isolation valve is opened, and the ice fog rapidly disperses throughout the product chamber to induce nucleation.
+
+Both methods result in ice nucleation in every vial within the product chamber at the same time at the desired product temperature.
+
+The Linde VERISEQ® method can be included when purchasing a full-scale freeze-dryer for manufacturing or can be added to a pre-existing freeze-dryer.
+
+### **4.2 **Controlled Nucleation Using Rapid Depressurization
+
+The rapid depressurization method is offered by SP Scientific and was developed by Praxair. This method also relies on placing the containers directly on the shelves of the freeze-dryer, except now the product chamber is pressurized to 18 PSI. The product temperature is equilibrated after pressurization, and then the pressure is rapidly released from the chamber to initiate nucleation in all of the containers at the same time. This method is available at laboratory-scale and full-scale freeze dryers. It can also be added to pre-existing freeze-dryers by placing a rapid release valve on one of the pre-existing ports located on the product chamber.
+
+### **4.3 **The Effect of Controlled Ice Nucleation on Process Time and Product Appearance
+
+Controlling ice nucleation provides a number of advantages for processing and product appearance. First, nucleating ice at a specific temperature greatly decreases the variability observed between vials on and between shelves. This means that all products should require approximately the same drying time. Containers located on the edges of a shelf will still experience warmer temperatures due to the edge effect, but ice crystal size should remain the same for all containers in the lyophilizer. Selecting a temperature for ice nucleation typically requires understanding the equilibrium melting temperature for the product. This information can easily be obtained using differential scanning calorimetry. In general, the temperature should be below the equilibrium melting point but not so low that the ability to control ice nucleation is no longer dependable. For example, the process typically utilizes temperatures between approximately –3 °C and –8 °C. Random ice nucleation begins to be a challenge when trying to control ice nucleation below approximately –8 °C \[5, 6\].
+
+The decrease in variability between containers and the ability to grow larger ice crystals when nucleating ice at warmer temperatures also reduce the drying time for many formulations \[18, 22\].
+
+Similar studies were conducted by Sacha and Sever \[20\] using 10% sucrose solution filled into 10 mL glass, tubing vials at 5 mL per vial. One cycle was conducted by cooling shelves at 1 °C/min to –40 °C and 4 vials on the shelf were equipped with thermocouples. The data demonstrate the wide variability in ice nucleation temperature recorded by the thermocouples \(Fig. 3\). 
+![](images/000003.jpeg)
+
+
+***Fig. 3*** 
+The variability in ice nucleation temperature when cooling 10 mL vials each filled with 5 mL of 10% sucrose solution at 1 °C/min to –40 °C
+
+
+
+Another cycle was conducted using the same vials filled with 10% sucrose solution and cooling them at 1 °C/min to –5 °C, increasing the pressure to 18 PSI, and equilibrating at that temperature for 1 h before rapidly releasing the pressure. The ice nucleation temperature was the same for all vials equipped with thermocouples \(Fig. 4\). 
+![](images/000004.jpeg)
+
+
+***Fig. 4*** 
+Ten percent sucrose solution cooled to –5 °C at 1 °C/min, increasing the pressure to 18 PSI, equilibrating at that temperature for 1 h, and rapidly releasing the pressure. The thermocouples indicate that the solutions nucleated at the same temperature
+
+
+
+The studies continued by investigating the effect of ice nucleation temperature on primary drying time. The studies used 10 mL, glass, tubing vials, each filled with 5 mL of a 10% sucrose solution. An entire tray of vials was used per experiment, and the end of primary drying was identified using the differential pressure comparison between the capacitance manometer \(CM\) and Pirani gauge \(Pirani\). Primary drying was considered complete when the difference between the CM and Pirani was not greater than 7 mTorr. Three cycles were conducted without controlling the ice nucleation temperature \(Conv\) and three cycles were conducted by controlling the ice nucleation temperature at –4 °C and duplicate cycles at –8 °C \(Fig. 5\). The data demonstrate that the cycle that controlled ice nucleation temperature at –4 °C completed primary drying approximately 10 h earlier than the cycles conducted without controlling nucleation. Similar data were presented by authors using different solution components \[5, 8, 22\] 
+![](images/000005.jpeg)
+
+
+***Fig. 5*** 
+The effect of controlled ice nucleation vs. conventional cooling on the primary drying time as determined by comparison of the CM with Pirani
+
+
+
+Additionally, Sacha and Sever noted that larger decreases in drying time could be observed for amorphous formulation than for mixed amorphous/crystalline formulation \(Tables 2 and 3\). A 5% sucrose solution was filled into 10 mL, glass, tubing vials at 5 mL per vial, and the ice nucleation was controlled at –5 °C. The data from the controlled ice nucleation cycle was compared with data from a conventional cycle conducted using the same solution, vials, and fill volume. The data demonstrate that controlling ice nucleation at –5 °C allowed primary drying to be conducted using a shelf temperature 4 °C warmer than for the conventional cycle while keeping the product temperature below the collapse temperature. 
+
+
+***Table 2*** 
+Comparison of primary drying conditions and time for 5% sucrose solution in 10 mL vials at 5 mL per vial cooled with and without controlled nucleation
+
+
+
+**Technique**
+
+**Primary drying shelf temperature \(°C\)**
+
+**Chamber pressure \(mTorr\)**
+
+**Product temperature \(°C\)**
+
+**Total cycle time \(Hours\)**
+
+Conventional
+
+−25
+
+100
+
+−33
+
+**95**
+
+CN-5 °C
+
+−21
+
+100
+
+−34
+
+**70**
+
+
+Cycles were also conducted using a 3% sucrose with 3% mannitol solution using a conventional cycle with annealing and a controlled ice nucleation cycle without annealing. The difference in drying times between the cycles was approximately 7 h
+
+
+
+
+
+***Table 3*** 
+Comparison of primary drying conditions and time for 3% sucrose with 3% mannitol solution in 10 mL vials at 5 mL per vial cooled with and without controlled nucleation
+
+
+
+**Technique**
+
+**Annealing**
+
+**Primary drying**
+
+**Product temperature \(°C\)**
+
+**Total cycle time \(Hours\)**
+
+**Shelf \(°C\)**
+
+**Hold time \(Hours\)**
+
+**Shelf \(°C\)**
+
+**Chamber \(mTorr\)**
+
+Conventional
+
+−15
+
+3
+
+\+30
+
+100
+
+−21
+
+37
+
+CN-5 °C
+
+NA
+
+NA
+
+\+30
+
+100
+
+−22
+
+30
+
+
+
+Controlling nucleation can also affect the appearance of the lyophilized solids. Formulations prepared with a mixed amorphous/crystalline system typically require the amorphous and crystalline components to be present in at least 1:1 concentrations. Crystallization of the crystallizing component may be delayed or not occur when the concentration of the amorphous component is greater than the concentration of the crystallizing components. This was challenged in experiments conducted in the Baxter Research and Development Laboratory in Bloomington, IN \[20\]. Samples prepared with 5% sucrose with 5% glycine and 6% sucrose with 4% glycine were filled into 10 mL, glass, tubing vials at 5 mL per vial and processed with an annealing step to encourage crystallization of glycine or processed with controlled ice nucleation. In both cases, the samples prepared without annealing exhibited poor appearance \(Fig. 6\). The appearance of the samples prepared with controlled ice nucleation and without annealing suggests that glycine did not crystallize resulting in failure of the solid. 
+![](images/000006.jpeg)
+
+
+***Fig. 6*** 
+Comparison of 6% sucrose with 4% glycine \(left\) with 5% sucrose and 5% glycine \(right\) dried after annealing \(left vial in each photograph\) and dried using controlled ice nucleation \(right vial in each photograph\)
+
+
+
+Similarly, solutions of 8% sucrose and 2% mannitol were filled into 10 mL, glass, tubing vials at 5 mL per vial and either annealed before drying or controlling ice nucleation at –5 °C before drying \(Fig. 7\). In this case, the samples that were annealed exhibited poor appearance than the samples that experienced controlled ice nucleation, which appeared acceptable. 
+![](images/000007.jpeg)
+
+
+***Fig. 7*** 
+Appearance of 8% sucrose with 2% mannitol dried after annealing \(left\) and dried after controlling nucleation at –5 °C without annealing \(right\)
+
+
+
+## **5 **Summary
+
+More attention must be directed to the cooling step for freeze-drying cycles. Most scientists and manufacturing areas are more concerned about the primary drying step because of the chance for failure to occur. However, the cooling step can affect the outcome of the entire cycle. For example, cooling at temperatures of 0.25 °C/min or slower can result in high degrees of supercooling. High degrees of supercooling provide less time for the growth of ice crystals after ice nucleation, and this can drastically increase the primary drying time. Conventional freeze-dryers do not offer the ability to control the temperature of ice nucleation; therefore, attention is needed for defining the appropriate shelf cooling rate. Fortunately, there are few choices in the rate of cooling for conventional freeze-dryers due to their capability. The challenge is that there is variability between the containers on a shelf and between shelves when ice nucleation cannot be controlled.
+
+Lyophilizers can now be equipped with methods of controlling the temperature at which ice nucleates. The method include using an ice fog to provide ice crystals as seeds for nucleation or rapidly depressurizing a product chamber to induce nucleation in all containers at the same time. Controlling ice nucleation greatly decreases the variability between the containers, can be used to decrease primary drying time, and can even affect the appearance of the dried solid.
+
+
+**References**
+
+1.  
+1.
+
+Assegehegn G, Brito-de la Fuente E, Franco JM, Gallegos C. The importance of understanding the freezing step and its impact on freeze-drying process performance. J Pharm Sci. 2019;108:1378–95.[Crossref](https://doi.org/10.1016/j.xphs.2018.11.039)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30529167)
+
+2.  
+2.
+
+Bigg EK. The supercooling of water. Proc Phys Soc Sect B. 1953;66\(8\):688–94.[Crossref](https://doi.org/10.1088/0370-1301/66/8/309)
+
+3.  
+3.
+
+Chen C, Han D, Cai C, Tang X. An overview of liposome lyophilization and its future potential. J Control Release. 2010;142:299–311.[Crossref](https://doi.org/10.1016/j.jconrel.2009.10.024)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19874861)
+
+4.  
+4.
+
+Franzé S, Selmin F, Samaritani E, Minghetti P, Cilurto F. Lyophilization of liposomal formulations: still necessary, still challenging. Pharmaceutics. 2018;10\(139\):1–23.
+
+5.  
+5.
+
+Geidobler R, Winter G. Controlled ice nucleation in the field of freeze-drying: fundamentals and technology review. Eur J Pharm Biopharm. 2013;85:214–22.[Crossref](https://doi.org/10.1016/j.ejpb.2013.04.014)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23643793)
+
+6.  
+6.
+
+Geidoler R, Mannschedel S, Winter G. A new approach to achieve controlled ice nucleation of supercooled solutions during the freezing step in freeze-drying. J Pharm Sci. 2012;101\(12\):4409–13.[Crossref](https://doi.org/10.1002/jps.23308)
+
+7.  
+7.
+
+Hansen LJ, Daoussi R, Vervaet C, Remon JP, De Beer TR. Freeze-drying of live virus vaccines: a review. Vaccine. 2015;33:5507–19.[Crossref](https://doi.org/10.1016/j.vaccine.2015.08.085)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26364685)
+
+8.  
+8.
+
+Hottot A, Vessot S, Andrieu J. A direct characterization method of the ice morphology. Relationship between mean crystals size and primary drying times of freeze-drying processes. Drying Technol Int J. 2004;22\(8\):2009–21. [https://​doi.​org/​10.​1081/​DRT-200032717](https://doi.org/10.1081/DRT-200032717).[Crossref](https://doi.org/10.1081/DRT-200032717)
+
+9.  
+9.
+
+Hottot A, Vessot S, Andrieu J. Freeze drying of pharmaceuticals in vials: influence of freezing protocol and sample configuration on ice morphology and freeze-dried cake texture. Chem Eng Process. 2007;46:666–74.[Crossref](https://doi.org/10.1016/j.cep.2006.09.003)
+
+10.  
+10.
+
+Kasper JC, Friess W. The freezing step in lyophilization: physico-chemical fundamentals, freezing methods and consequences on process performance and quality attributes of biopharmaceuticals. Eur J Pharm Biopharm. 2011;78:248–63.[Crossref](https://doi.org/10.1016/j.ejpb.2011.03.010)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21426937)
+
+11.  
+11.
+
+Kochs M, Koerber C, Heschel I, Nunner B. The influence of the freezing process on vapour transport during sublimation in vacuum freeze-drying of macroscopic samples. Int J Heat Mass Transf. 1993;36\(7\):1727–38.[Crossref](https://doi.org/10.1016/S0017-9310(05)80159-0)
+
+12.  
+12.
+
+Kramer M, Sennhenn B, Lee G. Freeze-drying using vacuum-induced surface freezing. J Pharm Sci. 2002;91\(2\):433–43.[Crossref](https://doi.org/10.1002/jps.10035)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11835203)
+
+13.  
+13.
+
+Li C, Gao X, Li Z. The role of surface energy and temperature in heterogeneous ice nucleation. J Phys Chem. 2017;121:11552–9.
+
+14.  
+14.
+
+MacKenzie AP. The phsyico-chemical basis for the freeze-drying process. Int Symp Freeze-Dry Biol Products. 1976;36:51–67.
+
+15.  
+15.
+
+Patapoff TW, Overcashier DE. The importance of freezing on lyophilization cycle development. BioPharm. 2002;15:16–22.
+
+16.  
+16.
+
+Petzold G, Aguilera JM. Ice morphology: fundamentals and technological applications in foods. Food Biophy. 2009;4:378–96.[Crossref](https://doi.org/10.1007/s11483-009-9136-5)
+
+17.  
+17.
+
+Pikal MJ, Rambhatla S, Ramot R. The impact of the freezing stage in lyophilization: effect of ice nucleation temperature on process design and product quality. Am Pharma Rev. 2002;5:48–52.
+
+18.  
+18.
+
+Rambhatla S, Ramot R, Bhugra C, Pikal MJ. Heat and mass transfer scale-up issues during freeze-drying: II. Control and characterization of the degree of supercooling. AAPS PharmSciTech. 2004;5\(4\):1–9.[Crossref](https://doi.org/10.1208/pt050458)
+
+19.  
+19.
+
+Sacha GA. The effect of cooling rate on ice nucleation temperature. In: Freeze drying of pharmaceuticals & biologicals. Garmisch-Partenkirchen: The Center for Pharmaceutical Processing Research; 2018.
+
+20.  
+20.
+
+Sacha GA, Sever R. Controlled nucleation in lyophilization. The effects on lyophilization time and physical appearance of lyophilized pharmaceutical excipients. Breckinridge: The Center for Pharmaceutical Processing Research; 2012. p. 1–16.
+
+21.  
+21.
+
+Searles JA, Carpenter JF, Randolph TW. Annealing to optimize the primary drying rate, reduce freezing-induced drying rate heterogeneity, and determine *T*g’ in pharmaceutical lyophilization. J Pharm Sci. 2001a;90\(7\):872–87.[Crossref](https://doi.org/10.1002/jps.1040)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11458336)
+
+22.  
+22.
+
+Searles JA, Carpenter JF, Randolph TW. The ice nucleation temperature determines the primary drying rate of lyophilization for sampels frozen on a temperature-controlled shelf. J Pharm Sci. 2001b;90\(7\):860–71.[Crossref](https://doi.org/10.1002/jps.1039)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11458335)
+
+23.  
+23.
+
+Vali G. Freezing rate due to heterogeneous nucleation. J Atmos Sci. 1994;51\(13\):1843–56.[Crossref](https://doi.org/10.1175/1520-0469(1994)051%3C1843:FRDTHN%3E2.0.CO%3B2)
+
+24.  
+24.
+
+Xiaolin CT, Michael JP. Design of freeze-drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200.[Crossref](https://doi.org/10.1023/B:PHAM.0000016234.73023.75)
+
+
+

@@ -1,0 +1,2497 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_4](https://doi.org/10.1007/978-3-031-12634-5_4)
+
+
+**
+# Concepts and Strategies in the Design of Formulations for Freeze Drying
+**
+
+
+Feroz Jameel1 
+
+
+\(1\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+
+
+
+**1 **Introduction
+
+**2 **Requirements and Expectations of a Lyophilized Product
+
+**3 **Pre-formulation
+
+**3.1 **Forced Degradation/Stress Studies
+
+**3.2 **Chemical Instability
+
+**3.3 **Physical Instability
+
+**4 **Formulation Development
+
+**4.1 **Rational Design of the Formulation
+
+**4.2 **Strategies to Mitigate Liabilities and Protein Aggregation
+
+**5 **Stability Testing
+
+**5.1 **Kinetics of Degradation in the Amorphous Solid State
+
+**5.2 **Selection of Accelerated Testing Conditions, Temperature, and Time
+
+References
+
+
+## Abstract
+
+In order to enhance the storage stability of water labile molecules the common practice is to employ lyophilization \(freeze drying\) process to create dry glassy state dosage form. The lyophilization process is not free of imparting stresses during the processing, and since what is in the formulation dictates the design of the processing conditions, both the formulation and process should be designed in such a way that the drug entity, especially protein molecule, behaves well against the stresses during the various steps or phases of freeze drying, namely, in-process stability, long-term storage stability, and sufficient stability post-reconstitution until it is administered into the patient body. Understanding of key attributes/liabilities of the protein molecules and the selection of excipients and design of process parameters is key to robust formulation and lyophilization process that can produce a product that has adequate stability, quality, and commercial manufacturing viability. The objective of this chapter is to discuss briefly the concepts and strategies that would help to design a robust formulation and a lyophilization process.
+
+
+**Keywords**
+Pre-formulation Formulation Protein Physical instability Chemical Instability Physico-chemical characterization Stresses Forced degradation Colloidal instability Conformational instability pH Surfactant Stabilizers TPP CQAs Design space Kinetics
+
+
+## **1 **Introduction
+
+It is well recognized that the years of efforts in discovery and research in identifying a therapeutic entity will not bring full revenue to the efforts and investments until it is delivered in the right dosage form that ensures a minimum of 2 years of shelf-life and meets patient compliance. With the burst of novel formats of both small and large molecules, scientists are increasingly facing challenges in formulating them to address the marginal stability of these entities in the liquid state. The dogma suggests that the stability of most molecules normally increases in the order of solution < glassy solid < crystalline solid due to the increasingly restricted mobility of the reacting species in solid phases \[1–3\]. Lyophilization \(freeze drying\) stands out as the choice of drying technology to provide a solid-state product that can enhance the storage stability compared to other drying technologies such as spray drying, spray freeze drying, vacuum drying, and supercritical fluid technology. However, all of these techniques have pros and cons associated with them either related to processing conditions or scalability or yield or cost of goods manufactured \(COGM\).
+
+Although lyophilization in the biopharmaceutical and pharmaceutical industry is recognized as a technique of choice for stabilization of water labile molecules, it presents several challenges and requirements that the formulation scientist must be aware of before embarking on formulation design. The objective of this chapter is to discuss briefly the concepts and strategies that would help to overcome those challenges and design a robust formulation.
+
+## **2 **Requirements and Expectations of a Lyophilized Product
+
+The general requirements and expectations of a freeze drying process is to produce a product that has adequate stability, quality, and commercial manufacturing viability, and the formulation design influences all these attributes directly or indirectly.
+
+As noted above the lyophilization process is not free of imparting stresses during the processing, and since what is in the formulation dictates the design of the processing conditions, both the formulation and process should be designed in such a way that the drug entity especially protein molecule behave well against the stresses during the various steps or phases of freeze drying, namely, in-process stability, long-term storage stability, and sufficient stability post-reconstitution until it is administered into the patient body. It should also have low residual moisture content, rapid/easy reconstitution, and ease of administration; and should be compatible with the device \(reconstitution kit\). The aesthetic aspect of the lyophilized product is also equally important from patient and marketing compliance perspective, and hence should appear pharmaceutically elegant without collapse or meltback; The process should be efficient, i.e., the total cycle time should be within few days, typically not more than 4–5 days, easily scalable without “major equipment restrictions/modifications,” and be robust enough to be implemented on any typical production freeze dryer at any site.
+
+## **3 **Pre-formulation
+
+Typically, the formulation development begins with the pre-formulation evaluation that involves forced degradation of the drug entity coupled with physicochemical characterization, the findings of which are intended to guide the formulation design.
+
+The drug entity, the protein in the case of biologicals, is subjected to appropriate levels of stress conditions such as high temperature, extreme pH, light exposure, oxidizing agents, freezing and thawing, and/or mechanical stress and the objective of this study is twofold. Firstly, to understand and elucidate its pathway\(s\) of degradation, chemical and/or physical degradation/instability. Secondly, to develop/validate stability-indicating assays needed for future formulation development work. This opportunity can also be used to identify preliminary critical quality attributes \(CQAs\), which is subject to changes as the development work moves from early to late stage \[4\].
+
+### **3.1 ****Forced Degradation**/**Stress** Studies
+
+The conditions that are generally recommended for forced degradation/stress studies are summarized below 
+
++ 
+*Temperature Stress* : Elevated temperature \(at least 10 °C increment above the accelerated testing temperature as recommended in ICH Q1A and below the lowest melting temperature *T*m\).
+
++  
+*Freeze Thaw Stress* : Relevant freezing and thawing cycles \(3×\) & conditions \(−40 °C, −20 °C & 2–8 °C or room temperature \(RT\)\)
+
++  
+*Low and High pH Stress* : \(For instance, below pH 4 and above pH 8 also combined with elevated temperature if needed, to facilitate deamidation\)
+
++  
+*Oxidation Stress* : Oxidizing conditions \(chemical agents such as hydrogen peroxide or relevant metals\) 
+
+	+ 
+*For Methionine* – tert-butyl hydroperoxide \(t-BHP\)
+
+	+  
+*For Tryptophan* – 2,2-azobis\(2-amidinopropane\) dihydrochloride \(AAPH\)
+
+
+
+
++  
+*Light Stress* *:* UV and visible light \(for example, using conditions prescribed in ICH Q1B or milder conditions depending on the molecule\)
+
++  
+*Agitation Stress* : Relevant agitation conditions
+
+
+
+
+To be “smart from the start” and to avoid surprises and failures in late-stage development, it is becoming increasingly important to perform some of these pre-formulation activities early on during candidate screening and selection so that the liabilities are identified upfront and resolved through mutagenesis if possible while ensuring that the molecule has suitable drug-like properties \(e.g., acceptable degradation profile, high solubility, and low viscosity\) \[5–7\]
+
+### **3.2 **Chemical Instability
+
+As noted above before embarking on formulation development it is imperative that the molecule is subjected to forced degradation to understand what chemical and physical liabilities that the molecule has. The chemical instabilities which are referred to as those reactions that involve cleavage of the double bond leading to chemical modifications are briefly described below
+
+
+**Oxidation**
+
+Depending upon the location, the residues that undergo oxidation are mostly methionine and tryptophan, but occasionally histidine, cysteine, phenylalanine, or tyrosine are also quite susceptible to oxidation. Oxidation occurs when the molecule is exposed to either light or peroxide or atmospheric oxygen or Redox active metal ions \(such as iron, copper, or nickel\) \[8\].
+
+The most powerful oxidant is the hydroxyl radical and/or reactive oxygen species \(ROS\) that readily reacts with the susceptible amino acids. Oxidation of methionine results in the formation of chemically modified methionine sulfone while the oxidation of tryptophan forms kynureine vial hydroxytryptophan intermediate. It is important to characterize the drug active \(protein molecule\) and determine if there exists any oxidation propensity and address the liability accordingly, as oxidation of amino acid side chains can lead to changes in the protein conformation, affecting stability, efficacy \(effector function\), and decrease plasma half-life time \[9–15\].
+
+The oxidation study is recommended to be conducted in the commercial primary package using the formulation components identified, and testing should be conducted after exposure to relevant oxidation stress conditions such as hydrogen peroxide, UV light, relevant LUX hours, and relevant amounts of appropriate transition metals.
+
+
+
+**Deamidation**
+
+Asparagine \(Asn\) deamidation is a chemical modification that occurs in protein molecules via a succinimide intermediate, resulting in either aspartic acid \(Asp\) or iso-aspartic acid \(iso-Asp\) residue formations. It results in the creation of acidic charge variant through the introduction of the negatively charged carboxylic acid in place of the neutral amide. Certain sequences, such as Asn-Gly or Gly-Asn, are more susceptible to deamidation and are pH sensitive. Asparagine deamidation is more likely to occur at high pH and ion exchange chromatography, isoelectric focusing, mass spectrometry, and if site identification is needed, tryptic peptide mapping \(TPM\) may be required. Asp isomerization is more likely to occur at low pH, and high-throughput bioluminescent assays have been used to quantify iso-Asp formation \[16, 17\]. If the susceptible asparagine is located in a structurally and/or functionally impactful location, efficacy and/or stability can be affected \[18\].
+
+
+
+**Disulfide Exchange \(Scrambling\) - Unpaired Cysteine Residues**
+
+Disulfide bonds are responsible for maintaining the stability of the protein in a compact three-dimensional structure through crosslinking distant regions. They are also susceptible to hydrolytic and oxidative degradative pathways to form non-native disulfide bonds and other reactive species. Disulfide bonds can form by oxidation, between the thiol \(-SH\) groups on two adjacent cysteine residues. The free cysteine thiols of proteins can alter existing disulfide bonds, resulting in disulfide bond exchange \[19\]. This phenomenon is known as disulfide scrambling that can take place intra- and intermolecularly causing conformational changes leading to formation of aggregates.
+
+
+
+**Glycation**
+
+Glycation is a reaction in which free amino groups of proteins, lipids, and nucleotides are modified by monosaccharides. During the reaction, a Schiff base, Amadori products, various intermediate compounds, and eventually advanced glycation end products \(AGEs\) are formed. This sequence is also referred to as “nonenzymatic glycosylation” or the “Maillard reaction” \[20\].
+
+Glycation is one of the most important unwanted posttranslational modifications \(PTM\), which modifies protein three-dimensional decoration and triggers its abnormalities. The large hydrophilic carbohydrate moiety attached to proteins has been implicated in various biological processes, including modification on protein folding \[22\], modulation of protein stability, oligomerization and aggregation \[21, 23\], and modulation of enzyme activity \[24\].
+
+
+
+**N-terminal Pyroglutamate**
+
+Cyclization of N-terminus glutamine into pyroglutamic acid is one of the posttranslational or co-translational event and is greatly facilitated by the enzyme glutaminyl cyclase where the N-terminal glutamic acid \(Glu\) is cyclized to form pyroglutamate \(pGlu\). As a formulation scientist, one need to be aware of the fact that it is favored at pH 4 and 8, but is less common at the neutral pH; however, it is believed that this type of N-terminal modification is not expected to have a substantial effect on structural stability, efficacy, and safety of the product \[25\].
+
+
+### **3.3 **Physical Instability
+
+Physical instability as opposed to chemical instability does not involve chemical bond but manifest as aggregates \(soluble and insoluble\) or fragmentation or adsorption.
+
+Two most common forms of physical instabilities are fragmentation \(clipping\) and aggregation. Fragmentation most of the time is not a major concern as long as it is not part of CDR region affecting the potency/biological activity; however, aggregation regardless would be highly undesirable. Aggregation compromises \(1\) biological functions \(effector functions\) \(2\) Potential immunogenicity implications as it can induce immune responses by breaking B-cell tolerance, evoke antibody clearance machinery in vivo, formation of anti-drug antibodies \(Neutralization of Drug\) and conceptual parallels drawn between ‘aggregates displaying repeats of monomers’ and ‘repetitive nature of the antigens that trigger immune responses with higher efficiency’ – Cytokine release syndrome \(CRS\) caused by an overactive immune response \[26\].
+
+Thus, the above-mentioned disadvantages make the control of protein/antibody aggregation imperative in the route to developing successful therapeutics.
+
+The formulation scientist should be aware of that the chemical modifications such as methionine oxidation in an IgG1 Fc region lead to an altered secondary and tertiary structure, which can be assessed by Mass spec, circular dichroism, and NMR, higher aggregation propensity upon heat stress, histidine of an antibody may be oxidized and form a covalently linked aggregate, antibody containing unpaired cysteine may form reducible aggregate through intermolecular disulfide bond upon agitation, and deamidation and glycation promote aggregation. Most recently, protein carbonylation was reported to positively correlate to higher antibody aggregation burst rate.
+
+Generally speaking, there are two forms or pathways of aggregation, the colloidal instability and the conformational instability.
+
+#### ***3.3.1 ***Colloidal Instability
+
+In this form of instability the protein remains in the native state or conformation but tends to aggregate due to intrinsic properties, specifically the charge distributions on the surfaces of the protein. It depends on the attractive and repulsive interactions between the molecules in the solution where non-covalent forces like electrostatic forces, van-der-Waals forces, and hydrophobic and hydration forces are involved resulting in self-association/loosely associated. These weak solute–solute interactions resulting in self-association is protein concentration dependent, which means it self-associates only above a critical protein concentration and is reversible in nature, which means it goes back to monomer upon dilution. The colloidal instability or the aggregate formation is thermodynamically unstable but kinetically stable \(see Fig. 1\) and often accompanies the increase in viscosity & opalescence \[27\]. It can manifest as submicron \(soluble\) aggregates, subvisible and visible particles, or as other phase behaviors. 
+![](images/000022.jpeg)
+
+
+***Fig. 1*** 
+Free energy and colloidal instability
+
+
+
+
+**Metrics of Colloidal Stability**
+
+The osmotic second virial coefficient \(B22\), a fundamental physiochemical property that describes the molecular interactions between proteins in solution which could result in aggregation, is commonly used as an indicator of colloidal stability where attractive protein–protein colloidal interactions are dominant \[28\].
+
+Static light scattering \(SLS\) is the most commonly used and established technique employed to determine the B22 experimentally \[29\]. The other techniques such as self-interaction chromatography \(SIC\) \[30\], membrane osmometry \(MO\) \[31\], and analytical ultracentrifugation \(AUC\) \[32, 33\] can also be used and they provide equally comparable results. Negative B22 values denote net attractive protein–protein interactions, which means potential/propensity for aggregate formation whilst positive B22 values represent overall repulsive interactions which means stable.
+
+The other parameter that is widely used to asses/gauge the propensity for colloidal stability is the diffusion interaction parameter, *K*d. It is expressed by the slope of the linear relationship of diffusion coefficient vs. concentration, and can be determined by dynamic light scattering in a high-throughput manner. If the diffusion coefficient increases with the increasing protein concentration due to decreased protein–protein distance it is indicative of repulsive interactions. Attractive interactions or aggregation propensity can be suspected when the diffusion coefficient decreases with the increasing protein concentration due to decreased protein–protein distance \[34, 35\]. The concept is schematically illustrated below \(Fig. 2\) 
+![](images/000023.jpeg)
+
+
+***Fig. 2*** 
+Mutual diffusion coefficient as a function of protein concentration
+
+
+
+They are related through Harding and Johnson eqn. 
+
+
+
+![$$ {k}_{\textrm{D}}=2{B}_{22}\ M\hbox{--} {k}_{\textrm{s}}-v $$](images/000024.jpeg)
+
+
+
+where *M* is the molar mass, *k*s the first order concentration coefficient of sedimentation velocity and, ν is the partial specific volume
+
+Other techniques such as opalescence, small angle-X-ray scattering \(SAXS\), and measurement of net charge utilizing the principle of electrophoretic mobility, e.g., capillary zone electrophoresis \(CZE\), membrane confined electrophoresis \(MCE\), and a new technique called massively parallel phase analysis light scattering \(MP-PALS\), Mobius mobility instrument \(Wyatt\), and effective surface charge potential \(zeta potential\) using electrophoretic light scattering help to understand the charge distribution/colloidal stability and eventually the propensity to aggregate.
+
+
+#### ***3.3.2 ***Conformational Instability
+
+Conformational instability, which is defined as the difference in free energy between the folded and unfolded states of a protein molecule, is due to interfacial denaturation, shear stresses, and solution conditions resulting in hydrophobic interactions leading to non-covalent irreversible aggregates. As opposed to colloidal, it is a non-native aggregation which means perturbation of conformation causing partial or full unfolding is a pre-requisite and is triggered by external conditions. It is thermodynamically stable but kinetically unstable which means it grows over the period of time \[28\]. It is not dependent on protein concentration, irreversible in nature, and not necessarily accompanied with increase in viscosity. It is extrinsic in nature and is caused by external factors solution conditions \(pH, ionic strength, temperature, etc.\) and processing conditions which includes interfaces \(i.e., air–water, ice crystal–bulk solution, intermediate/product contact surfaces\), freeze-thaw, mechanical stresses \(cavitation, shear\), ambient light, temperature, and time
+
+Conformational stability can be assessed and evaluated as a function of various solution and process conditions using various biophysical techniques such as circular dichroism \(Far-UV \(190–250 nm for secondary structure\) and near-UV \(250–350 nm for tertiary structure\), Analytical ultracentrifugation/Sedimentation velocity experiments for higher order aggregates, Differential scanning calorimetry \(DSC\), MicroCal for melting temperatures/thermal transition midpoint \(*T*m\) \[36\].
+
+The intrinsic fluorescence of aromatic rings containing residues such as tryptophan is dependent upon the overall 3D structure and the surroundings. When a protein is perturbed due to chemical or physical stresses leading to unfolding, the hydrophobic groups are exposed which always results in changes in the intensities of fluorescence and shifts in emission maxima.
+
+Differential Scanning Fluorimetry \(DSF\) which utilizes this principle has become a high-throughput method of choice for the analysis of protein stability, thermal protein unfolding, and melting temperature analysis. The unfolding transition midpoint *T*m \(°C\), which is the point where half of the protein is unfolded is used as an indicator of conformational stability of protein.
+
+## **4 **Formulation Development
+
+During the early stages of molecular assessments for developability, in silico software tools are used to identify regions that are potentially susceptible to chemical \(example: oxidation, deamidation sites\) and physical instabilities such as unfolding \(hydrophobic sites\), self-association \(charge distribution\), aggregation, and higher viscosities associated with high protein concentrations, and the molecules are engineered to mitigate them.
+
+Since this strategy helps to moderate the problem but not always possible to completely eliminate the liabilities, as some of the residues may be part of CDR regions and requires biological activity, formulation development is required.
+
+### **4.1 **Rational Design of the Formulation
+
+Formulation development is the interplay of selection and optimization of solution conditions and process conditions with the aid of excipients. Thus, the overall objective of the formulation development effort is to identify the optimal conditions of the final drug product composition, primary container configuration that can maintain the stability, safety, and efficacy of the drug as it is processed through the various unit operations of drug substance, drug product through administration to the patients.
+
+Since the posttranslational changes, chemical modifications/instabilities, and the physical instabilities eventually end in the formation of aggregates \[37\], it is central to the formulation development to understand the mechanism or how does a protein aggregate. The following schematic put together by Christ Roberts et al. \[28\] provides insight into the various pathways that lead to aggregate formation \(Fig. 3\). 
+![](images/000025.jpeg)
+
+
+***Fig. 3*** 
+Schematic of aggregation pathways, the red arrows represent the non-native aggregation, while the *dark blue arrows* denote the *native* aggregation. The bidirectional arrows show the reversible steps, and the mono-directional arrows account for the irreversible process. \(Adapted from Ref. \[28\]\)
+
+
+
+### **4.2 **Strategies to Mitigate Liabilities and Protein Aggregation
+
+Based on the above scheme the overall strategy would be to target the aggregation Stages 1, 2, and 3 for conformational stability/non-native aggregation where protein unfolding and the nucleation are the key steps for aggregation and stage 1 for colloidal stability/native state aggregation. The corresponding approaches for mitigating aggregation would be 
+
++ 
+Stabilizing the native monomer which means decreasing free energy for folding \(GF\) or destabilizing the partially unfolded monomer which means increasing free energy for unfolding \(GU\) to reduce the potential of protein unfolding at Stage I;
+
++  
+Altering the protein surface charge distributions to increase the electronic repulsion between the unfolded monomers at Stage II & native monomers
+
++  
+Disturbing the structural rearrangements of unfolded monomers in Stage III to disfavor hydrophobic contacts and the packing of *β* strands
+
+
+
+
+A stepwise approach to the design of the formulation is proposed below.
+
+
+**Step 1: Define the commercial target product profile**
+
+Compiling the target product profile \(TPP\) is the first step in the development of the product, as it defines/summarizes the product attributes or specifications and describes how the product will be utilized by the end user. It serves as an essential tool in the development and strategic management of a new or modified Drugs/Biologics/Device and should be prepared jointly by the all departments of the company involved in the development of the product. It is a “living document” evolving and maturing with increasing knowledge and experience and FDA strongly advocates the use of a TPP although it does not mandate it
+
+An example of a common template that can be used to assemble TPPs for each product entering development and each new indication for an existing drug/biologic is illustrated in Table 1. 
+
+
+***Table 1*** 
+Target product profile \(TPP\) for a lyophilized dosage form
+
+
+
+**Product attribute**
+
+**Acceptable profile**
+
+**Comments**
+
+Target indication
+
+Oncology treatment of leukemia
+
+Dosage form
+
+Sterile lyophilized powder for reconstitution with WFI
+
+Final presentation
+
+Vial configuration, 20 cc
+
+Container 20 cc glass tubing vial
+
+Route of administration
+
+IV infusion
+
+Represents worst case for lyo with a large volume vial
+
+Dose \(protein\)
+
+125 mg per vial
+
+Dose range
+
+50–250 mg
+
+≤350 mg per week
+
+Dose frequency
+
+Every 2 weeks \(preferred\)
+
+Every 1 week is acceptable
+
+Setting for use
+
+Clinic-based administration
+
+Assisted by medical personnel
+
+Single or multidose
+
+Multidose vial with elastomeric closure
+
+Volume per dose
+
+Based on patient weight
+
+IV bag
+
+50 mL or 100 mL bag
+
+Mention type and size of the bag along with type of tubing: normal saline or dextrose
+
+Target recon volume
+
+5.3 mL
+
+Nominal final volume 5.6 mL
+
+Diluent \(reconstitution medium\)
+
+Commercially available WFI
+
+Target recon time
+
+<10 mins
+
+pH
+
+6 ± 0.5
+
+Anything in pH 5–7 range is acceptable/suitable
+
+Osmolality
+
+280–350 mOsm
+
+Based upon USP Isotonic Solution desirable
+
+Recommended storage conditions
+
+Refrigerated \(2°C–8°C\)
+
+Shelf-life
+
+≥2 years at 2°C–8°C
+
+1 week at 2°C–8°C and 72 hours at RT following reconstitution
+
+Main degradation route
+
+Aggregation
+
+Secondary degradation route
+
+Deamidation and oxidation
+
+
+
+
+
+**Step 2: Selection of pH and Buffer Species**
+
+Screening and identification of optimal pH, buffer salts, and ionic strength is an important study after defining the TPP, as they influence solubility, stability, and viscosity of a protein solution. Solubility increases as the solution pH gets further away from the isoelectric point \(pI\). Identify the pI of the mAb from the primary sequence, typically using a commonly available software such as ExPASy or Sednterp or through zetapotential measurements using instruments such as Zetasizer Nano ZSP \[38\]. The solution pH changes the protein surface charge and may interfere with the favorable electrostatic interactions required for maintenance of the native folded structure. The solution pH also affects the various pathways of chemical degradation as depicted in Fig. 4**.** 
+![](images/000026.gif)
+
+
+***Fig. 4*** 
+Reaction rates as a function of pH – Darker color indicates a faster reaction rate at designated pH range \[39\]
+
+
+
+It is suggested that a pH study in the range of 4–7.5 with increments of 0.2–0.5 units be carried out to identify the optimal pH while keeping other formulation components constant. While selecting the buffer species/salts the formulation scientist needs to consider the following, 
+
++ 
+Selection of a buffer species with pKa value close to the desired pH will provide higher buffer capacity and will require lower quantities, and a range of 15–25 mM may be sufficient. Low quantities of buffer salts prevent from depressing the collapse temperature and also prevents from increasing the total solid content both of which helps lyophilization process
+
++  
+Caution must be exercised while selecting buffer salts, as selective crystallization of the less soluble buffer component \(acid or base\) during freezing \(Bulk freeze thaw in a container or vial freezing during lyophilization\) can result in massive pH shifts in the freeze concentrate than would have been obtained in an unbuffered system \[40–44\]. Figure 5 depicts the physical state \(amorphous or crystalline\) of the buffer salts as a function of temperature and Fig. 6 shows the degree of pH shifts as a function of temperature.
+
+
+
+![](images/000027.jpeg)
+
+
+***Fig. 5*** 
+Crystallization potential of some common buffers on freezing and thawing \[39\]
+
+
+![](images/000028.gif)
+
+
+***Fig. 6*** 
+pH shifts during freezing due to crystallization of buffer salts \[40\]
+
+
+
+It is interesting to note that the commonly used buffer salts such as phosphates, citrate, and histidine undergo pH shifts, sodium phosphate being the most dramatic. The sodium phosphate buffer system shows a dramatic decrease in pH of about 4 pH units due to crystallization of the basic buffer component, Na2HPO4 2H2O. Conversely, the potassium phosphate system shows only a modest increase in pH of about 0.8 pH unit \(Fig. 7\). 
+![](images/000029.jpeg)
+
+
+***Fig. 7*** 
+Curve 1-sodium phosphate, pH 7.0: curve 2- sodium citrate, pH 6.2; curve 3-sodium succinate, pH 5.5; curve 4-sodium acetate, pH 5.6; curve 5-histidine HCl, pH 5.4; curve 6-histidine acetate pH 5.5; curve 7-tris HCl, pH 7.4 \[39\]
+
+
+
++ 
+The cause for crystallization of buffer components during freezing is due to decrease in solubility due to decrease in temperature leading to supersaturation resulting into salting out of the solution as crystals.
+
+
+
+
+Avoid salts that crystallize. If no alternative is available use them in small quantities which will not result in crystallization \[45\]. For example, sodium phosphate buffer in quantities less than 30 mM tend to crystallize and there will be no shift in the pH. The other alternative for sodium phosphate buffer is to use potassium salt instead of sodium salt, which tends to eliminate or moderate the problem 
+
++ 
+It has been observed that when sodium acetate buffer was used for lyophilized product there was dramatic shift in pH during filling as well as during lyophilization due to the volatile nature of acetic acid, see Table 2.
+
+
+
+
+
+***Table 2*** 
+Comparison of Citrate and Acetate Data: In-process pH vs. Reconstitution pH \[46\]
+
+
+
+**Description**
+
+**pH of vehicle**
+
+**pH of manufactured solution**
+
+**pH of reconstituted with WFI**
+
+0.05M citrate pH 3.5
+
+3.569
+
+3.578
+
+3.661
+
+pH 4.0
+
+4.083
+
+4.070
+
+4.170
+
+pH 4.5
+
+4.546
+
+4.557
+
+4.670
+
+0.05M acetate pH 4.0
+
+4.045
+
+4.050
+
+6.716
+
+pH 4.5
+
+4.548
+
+4.554
+
+7.300
+
+pH 5.0
+
+5.009
+
+5.040
+
+6.966
+
+pH 4.0 citrate 0.01M
+
+4.139
+
+4.174
+
+4.277
+
+0.10M
+
+4.049
+
+4.042
+
+4.114
+
+pH 4.0 acetate 0.01M
+
+4.115
+
+4.128
+
+6.737
+
+0.10M
+
+4.015
+
+4.024
+
+6.248
+
+
+
+
+
+**Step 3: Selection of Surfactant and Identification of Optimal Concentration**
+
+Transportation stress, air–water interface and protein interactions with glass or siliconized surfaces results in surface denaturation of the biological molecules/antibodies resulting in the formation of sub-visible particles and/or aggregation which can potentially manifest into visible particle formation \[47–49\]. A systematic agitation study should be performed that involves an orbital shaker and a speed of 250–300 rpm with and without siliconized glass beads, \(Spray, Wipe: DOW 360, 1000CSt\) spike various levels 0–2×, place on real time and accelerated stability; Spray-Baked: DOW 365, 1–3% emulsion, baked, spike at various levels \(0–2×\) place on stability\) in the presence & absence of surfactants \[50\] The study should involve the screening of various nonionic surfactants such as polysorbates 80 and 20, poloxamer 188 \(Pluronic® F-68\) and poloxamer 407 \(Pluronic® F-127\), PEG dodecyl ether \(Brij 35\), and FM 1000 in concentrations in the range from 0.0001% to 0.1% \(w/v\). The plausible mechanisms of protection proposed are due to either one of them or a combination of their amphipathic \(polar head nonpolar tail\) nature, nonspecific binding i.e., energy-driven than interaction-driven, reduce surface tension/energy, preferentially accumulating/adsorbs at the interfaces and acts as chaperone and keeps protein in folded state \[51–54\]. The outcome of this study should provide insight into propensity of the molecule to form particles with silicone oil, if so, at what levels? and identification of optimal surfactant concentration. There is no negative impact of any particular type of surfactant and its level reported in the literature but always as a rule of thumb it is advisable to keep the solid content of the excipients to minimum from the lyophilization perspective.
+
+
+
+**Step 4: Screening Excipients/Stabilizers to Address Instabilities/Liabilities**
+
+Typically, a formulation consists of several components in addition to the drug entity and these additional components are called excipients. They are included in the formulation to serve a specific function, either to improve stability or/and process performance, and may constitute the major fraction of the freeze dried solid.
+
+In principle this step should be guided by the pre-formulation data and excipients should be added to the formulation based on the instability identified.
+
+**Chemical Instability** 
+
+*Deamidation and Asp-Isomerization*
+
+Deamidation of Asparagine \(Asn\) is a modification that occurs in protein molecules via a succinimide intermediate, resulting in either aspartic acid \(Asp\) or iso-aspartic acid \(iso-Asp\) residues. Deamidation and isomerization are pH-dependent as well as sequence-dependent, and use of pH optimization and use of divalent cations can be considered. Asn deamidation is more likely to occur at high pH and Asp isomerization is more likely to occur at low pH. Deamidation reactions are base-catalyzed and increase between pH 5 and 8. The optimal pH for preventing deamidation is usually pH 3–5. Isomerization reactions are acid-catalyzed and occur usually at pH 4–6 and the preferred pH to stabilize against isomerization is pH > 7. Since pH also has a significant impact on solubility and aggregation, it is recommended that deamidation is monitored and that a sweet spot for the pH value is determined early on during development
+
+*Oxidation*
+
+Although several amino acids such as methionine, cysteine, histidine, tryptophan, and tyrosine are susceptible to oxidation; however, the oxidation of methionine is fastest and more common than others. Oxidation of conserved heavy chain methionine residues located at the interface of the CH2 and CH3 domains decreases the thermal stability, Protein A binding, FcRn binding, and circulation half-life. Oxidation of methionine residues in the CDRs could potentially impact antigen binding and hence the efficacy of the molecule. Accordingly, it is essential to characterize the effect of methionine oxidation \(if any\) on the structure, stability, and biological activity of the antibody in the drug product. Once it is determined that it is critical for stability and efficacy, investigate the root cause of oxidation and determine whether 
+
++ 
+It occurs only during quiescent storage
+
++  
+It is caused by exposure to metal surfaces
+
++  
+It is a temperature-induced formation of free radicals
+
++  
+It is induced by oxidative degradants of the excipients
+
++  
+It occurs due to exposure to light.
+
+
+
+
+Some of the remedies or measures that can be taken to address or prevent the oxidative degradations are briefly discussed below.
+
+Antioxidants, such as methionine, sodium thiosulfate, ascorbic acid, BHT, BHA, sodium bisulfite, glutathione, and propyl gallate are believed to serve as free radicals or oxygen scavengers and are used to decrease oxidation propensity in parenteral products \[55, 56\].
+
+In protein therapeutic products, sacrificial antioxidants, such as methionine, have been the most commonly used excipients. The minimum effective levels \(molar ratios of protein to antioxidant\) required to inhibit temperature-induced oxidation is generally observed to be 1:5 and 1:25 for methionine and thiosulfate, respectively. It has been reported by Genentech group that stoichiometric amounts of methionine and thiosulfate are sufficient to eliminate temperature-induced oxidation of rhuMAb HER2 caused by free radicals that were generated by the presence of metal ions and peroxide impurities in the formulation, other examples being Actemra™ and Cosentyx™. Some products like Campath® and Ajoyv® have seen success in using EDTA as a chelator to avoid hydroxyl radical formation. In addition to using antioxidants, overlaying/filling the vial head space with nitrogen and implementing tight control strategies on the impurities in raw materials, especially polysorbate, are also commonly used strategies.
+
+**Physical Instability** 
+
+As indicated earlier, physical instability can be categorized into conformational instability \(partial or full unfolding\) and colloidal instability:
+
+*Conformational*
+
+If the conformational instability is identified due to interfacial denaturation or shear stresses, or due to solution conditions resulting in hydrophobic interactions leading to non-covalent irreversible aggregates, then the following excipients are typically screened and they have historically shown success with several products.
+
+Screen exclusion solutes such as disaccharides – sucrose or trehalose, PEG 400, glycerol, sorbitol etc., at various concentrations or weight ratios, a weight ratio of 1:1, protein:stabilizer serves the purpose and is generally recommended. Its effectiveness should be assessed by its ability to induce a change in the tertiary structure through circular dichroism spectrum and/or the unfolding transition midpoint *T*u/*T*m \(°C\) through differential scanning fluorimetry \(DSF\).
+
+The mechanism of protection behind it is believed to be due to be solutes are preferentially excluded from the protein domain, increasing the free energy of the unfolded system, thermodynamically this leads to folded form as it will have decreased free energy. This is graphically illustrated in the Fig. 8. 
+![](images/000030.jpeg)
+
+
+***Fig. 8*** 
+Preferential exclusion of solutes
+
+
+
+From lyophilization point of view polyols, sorbitol, glycerol, and PEGs are not desirable, as they possess very low *T*g’ values \(see Table 1, Chapter “Characterization​ and Determination of Freeze-Drying Properties of Frozen Formulations:​ Case Studies”\) and they significantly depress the overall *T*g’ or collapse temperature of the formulation. Formulations containing these excipients will require long drying times as they need to be freeze dried at very low temperatures and in some cases not practically feasible in commercial setting. Disaccharides such as sucrose and trehalose are preferable as they relatively possess higher *T*g’ values and practically feasible to freeze dry at commercial setting. Trehalose is preferred over sucrose from freeze drying point view, as it has few advantages over sucrose 
+
+1. 
+1.
+
+
+It has higher *T*g’ and *T*g values compared to sucrose
+
+
+
+
+2.  
+2.
+
+
+It works as an effective stabilizer and does not hydrolyze to glucose and fructose over a wide range of pH, especially in the acidic range while sucrose hydrolyses to reducing sugars, glucose, and fructose in the acidic range that can form adduct with protein leading to glycation/Maillard reaction or browning of sugar, a discoloration in the cake appearance.
+
+
+
+
+
+However, one disadvantage of trehalose use is, it is 10 times more expensive that sucrose.
+
+As indicated above, while the main objective of the formulation design is to achieve both liquid stability \(at least for few weeks to months at both room temperature and 2–8 °C\) and lyophilized stability \(≥ 2 years\), due diligence needs to be paid while selecting the excipients so that both stability and ease of processing/manufacturability are achieved.
+
+*Colloidal Instability* \(Native protein–protein interactions resulting in self-association\)
+
+Colloidal instability can be due to hydrophobic and electrostatic interactions, which is briefly discussed below.
+
+***Hydrophobic Interactions Leading to Non-covalent Aggregates***
+
+If the colloidal instability is identified and the cause is believed to be due to hydrophobic interactions between the hydrophobic groups present on the surface of the protein leading to non-covalent aggregates, generally it is recommended to screen cyclodextrins. The two common forms of cyclodextrins that have demonstrated protective effect through solubilization are 2-hydroxypropyl-beta-cyclodextrin \(HPCD\) and the Sulfobutylether-β-Cyclodextrin \(SBE-β-CD\). Their solubilization and stabilization effect are believed to be due the presence of hydrophilic and hydrophobic groups and their ability to form inclusion bodies.
+
+***Electrostatic Interactions***
+
+When the attractive forces exceed the repulsive forces due to imbalance of charge distribution on the surface of the protein, self-association occurs resulting in the formation of reversible aggregates.
+
+In situations when there is a single pI \(isoelectric point\) and the pI is in the basic region, it is recommended to adjust pH 2–3 units away from pI. The further pH away from pI, i.e., towards low pH, the more net charge mAb carries, leading to stronger repulsive electrostatic interaction between molecules and higher would be the solubility/stability. Adding any salts or increasing the ionic strength in this situation will make the situation worse, as it is known to screen charge–charge interactions, and thus decrease the proximity energy \[57\]. Decrease in proximity energy has been proposed to be the cause of colloidal instability, and thus increase in aggregation \[57, 60\].
+
+So, keeping the ionic strengths low ≤15–20 mM with pH 5 ish would be helpful as illustrated in Fig. 9. 
+![](images/000031.gif)
+
+
+***Fig. 9*** 
+Interaction parameter, *k*D, for mAb-G and mAb-R as a function of buffer pH \(pH 5 to pH 8\) at ionic strength of \(**a**\) 15 mM and \(**b**\) 150 mM. \(Printed with permission, Ref. \[57\]\)
+
+
+
+Thus, use of salt as a potential stabilizer of biopharmaceuticals requires careful assessment both from liquid stability and its lyophilization. Solutions containing salts especially sodium chloride \(NaCl\) are very difficult to lyophilize, as they depress the *T*g’ of the formulation significantly and tend to crystallize over storage
+
+In situations where you have pI in the acidic range or more than one pI and spread over in the acidic and basic range, one needs to screen both pH and salts. On addition of standard salts like arginine HCl, phosphate, sulfate, and citrate, CaCL2, Ca\(C2H3O2\)2, MgCl2, and Hofmeister ions will increase electrostatic repulsion between protein molecules, suppress colloidal aggregation, and also help in solubilization. At high concentrations, the effect on solubility and conformational stability has been proposed to follow the Hoffmeister series \[58, 59\]. For anions, the stabilizing effect has been reported to increase as one moves from right to left in the series and for cations right to left as shown in Fig. 10. 
+![](images/000032.jpeg)
+
+
+***Fig. 10*** 
+Hoffmeister series
+
+
+
+Combination of arginine hydrochloride with sodium glutamate is receiving much attention due to a seemingly synergetic effect when the two solutes are combined in an equimolar ratio \[61\].
+
+
+
+**Step 5: Screening of Bulking Agents**
+
+Generally, the intended role of bulking agents in pharmaceuticals is to simply function as fillers to increase the density of the product cake, prevent product blow-out, enhance product elegance, and act as inert and not intended to provide enhanced chemical or physical stability of the drug substance. There are two situations where the inclusion of bulking agents in the formulation makes lyophilization easy and more efficient.
+
+*Situation 1*: When the quantity of drug per vial is extremely small
+
+With the advent of more potent drugs both in the small molecule world like peptides and large molecule world such as engineered antibodies \(ADCs, DVDs, Diabodies, Bispecific, fabs, etc.\) it is becoming increasingly important to consider addition of bulking agents to mitigate risks/challenges associated with processing, testing, and delivery systems. Dilute solutions containing 1% or less solid content is practically difficult to lyophilize with the retention of cake structure as during primary drying the flow of water vapor may create enough force on the fragile cake to break the cake structure and potentially carry some of the product out of the vial with the water vapor stream and this phenomenon is referred to as product blow-out \[62\]. In such situations inclusion of bulking agents becomes indispensable.
+
+*Situation 2*: Improve/enhance collapse temperature
+
+One of the main objectives of formulation development is to achieve the desirable stability of the product in the liquid state as well in the lyophilized state through the screening of excipients \(buffer salts and stabilizers\). At times it is not possible/feasible to achieve the required stability with lyophilization-friendly excipients that have high collapse temperature but end up in choosing an excipient that has very low collapse temperature, which will result in long freeze drying cycle and may not be practically feasible in commercial setting. In such situations, although the total solid content may be adequate enough to freeze dry without product “blow-out,” addition of collapse temperature enhancers to the formulation composition in bulk quantities becomes very desirable from lyophilization point of view, as it will serve two purposes: \(1\) shorten freeze drying cycle significantly and \(2\) enhance product elegance.
+
+There are several excipients that serve as bulking agents and can be categorized into amorphous and crystalline.
+
+*Amorphous* *Bulking Agents*
+
+Some of the amorphous bulking agents such as sucrose \(approx. –34 °C\), trehalose \(approx. –28 °C\), lactose \(approx –30 °C\), and PEGs \(approx −50 °C\) are not suitable as bulking agents, as they have low collapse temperature and therefore require low drying temperatures and long processing times. Although lactose is commonly used as a bulking agent in small molecules, besides its low collapse temperature, it is a reducing sugar and can form adducts with amine in protein products and must be questioned. Hydroxyethyl starch, which is used as a plasma expander in clinicals, is an inert amorphous excipient, which has high collapse temperature \(−10 °C\) and could function as an amorphous bulking agent without requiring long processing times. However, it is believed to undergo some cake shrinkage and cracking during drying and therefore and may provide less elegance to the cake.
+
+Disaccharides, sucrose, and trehalose are commonly used as stabilizers for protein products and are also used as amorphous bulking agents in situations when the drug quantity is less and/or need to adjust the osmolality for subcutaneous administration. However, they are not suitable for enhancing the collapse temperature of the formulations as they possess low collapse temperatures. Addition of any quantities of sucrose or trehalose more than minimum needed for stabilization of protein should be questioned. Since protein has a *T*g’ of −10 °C while sucrose has a *T*g’ of −34 °C, it would be prudent to have formulations where the protein concentration/weight ratio is higher than sucrose or trehalose as it is known to start contributing positively or enhance the overall collapse temperature in concentrations >20 mg/mL.
+
+Cyclodextrins like 2-hydroxypropyl-beta-cyclodextrin \(HPCD\) and the Sulfobutylether-β-Cyclodextrin \(SBE-β-CD\) serve as good amorphous bulking agents in combination with sucrose or trehalose as stabilizers. They possess high collapse temperature of approximately −9 °C and serve as collapse temperature enhancers in bulk quantities enhancing the overall collapse of the formulation \[63\]. For protein products a formulation with a combination of sucrose or trehalose as a stabilizer and either 2-hydroxypropyl-beta-cyclodextrin \(HPCD\) or Sulfobutylether-β-Cyclodextrin \(SBE-β-CD\) as a bulking agent will serve as a good amorphous system for lyophilization and elegant-looking cake structure. It must be noted that for a collapse temperature enhancer to work as a collapse temperature enhancer it should form a predominant component of the formulation, i.e., should be minimum 2× the other total amorphous components in the formulation.
+
+*Crystallizable Bulking Agents*
+
+The two most commonly used crystallizable bulking agents are mannitol and glycine, and they provide crystalline matrix to the cake. For their crystallization they should be the major solute component at least 2× greater than the sum of the concentrations of all other solute components They perform superior to amorphous bulking agents in many aspects as indicated below: 
+
++ 
+They possess high collapse temperature \(eutectic temperature\) in the range of –3 °C to –5 °C, which enables drying carried out at higher shelf temperature/pressure shortening the freeze drying cycle significantly. It does not collapse.
+
++  
+Provides mechanical strength to the cake and prevents cake from reducing to powder during transportation.
+
++  
+Provides elegant looking crystalline cake that reconstitutes easily.
+
++  
+Enables design of robust freeze drying cycles with larger design space offering wide flexibility in tech transfer and operations., see Fig. 11
+
+
+
+![](images/000033.jpeg)
+
+
+***Fig. 11*** 
+Design space created using CFD and quasi-steady-state models to predict the equipment and process performance and guide operation
+
+
+
+Mannitol-based formulations besides offering several advantages over amorphous systems presents a couple of potential challenges; one relating to vial breakage and the other one is relating to formation of hydrate form that the process engineer should be aware of. The potential of vial breakage occurs if the freezing protocol is not designed properly to ensure its complete crystallization during the freezing phase. If the mannitol is not completely crystallized during freezing phase it will crystallize during primary drying phase as the product temperature warms up but still below 0 °C. Since crystallization process is an exothermic reaction and always accompanied by release of water which converts it into ice, both factors contribute to unequal expansion of glass causing the vial to break from the sides and/or from bottom \(lensing\) \[64–66\].
+
+In order to avoid vial breakage the following steps are recommended: 
+
++ 
+Ensure first freezing is 10 °C below the *T*g’ of the formulation and hold it for adequate time based on fill volume to ensure formation of nuclei followed by an annealing step \(heat treatment\). The optimal time and temperature for annealing step should be determined through freeze drying microscopy to ensure complete crystallization of mannitol
+
++  
+Avoid high fill depths and higher concentrations of mannitol
+
+
+
+
+Mannitol tends to form hydrate forms during freezing phase and hydrate crystals desolvate at temperatures ≥50 °C. In the author’s view it should be of little concern, as there are no practical implications on the product quality, since it is bound to the crystal lattice and not a free water unless the product is exposed to elevated temperatures of around 50 °C when it desolvates and release water compromising the stability of the product.
+
+Glycine functions equally well compared to mannitol and crystallizes easily to form an elegant product that reconstitutes quickly. One of the advantages of glycine is that it does not induce vial breakage. However, a glycine cake is believed to be slightly fragile than a mannitol cake, and is generally perceived as being relatively less elegant than a mannitol cake.
+
+Mannitol or glycine-based formulations are binary systems where both amorphous and crystalline components coexist. Stabilizers and other buffer species constitute minor amorphous component while mannitol or glycine will constitute the major crystalline system. Since mannitol or glycine constitutes the major component of the formulation and represents the major collapse of the system, the product can be dried above the collapse temperature of minor amorphous component and below the eutectic temperature of major crystalline component. Thus, freeze drying such a mannitol or glycine-based formulation amounts to freeze drying with microscopic or partial collapse \(i.e., complete collapse of the amorphous phase\) but cake structure is maintained by the crystalline component. Here, the drug form is that of an amorphous coating on the crystalline mannitol, with stability properties normally close to that of a system freeze dried without the mannitol \[62\]. This enables one to achieve both elegance and efficient drying with fast reconstitution time and low residual moisture content.
+
+
+
+**Step 6: Upfront Manufacturability Assessment**
+
+The two main causes for unsuccessful tech-transfer and manufacturing issues are designing a formulation without process considerations and a process design without the knowledge of manufacturing capabilities and limitations. They need to go hand-in-hand, sometimes the liability may be either better addressed through formulation design or may be through process conditions or may be combination of both. Hence, it is imperative that both formulation scientist and process engineer work together performing upfront manufacturability assessment of formulation candidates and this is especially true in the case of development of a lyophilized product.
+
+The objective of this study is to assess the compatibility of the formulation candidates and the manufacturing process to meet the TPP, and to identify and mitigate any liability by fine tuning formulation and/or process parameters as needed. The top 2–3 formulation candidates with optimal solution conditions should be subjected to unit operation of manufacturing \(freezing and thawing, mixing, filtration, holding in stainless steel vessels or disposable bags, filling, lyophilization, and inspection\) using scale-down models that are representative of manufacturing conditions to assess their manufacturability. Typically, the effects of processing conditions on the integrity of the molecule are studied at the lab scale, and these studies can potentially be misleading as they are not necessarily representative of or mimic the large-scale process. It is thus suggested here that scaled-down models be built that would be representative of large-scale unit operations and that these models be used to screen formulation candidates to identify the best ones and backup units.
+
+The lyophilized drug product vials should then finally be subjected to shipping conditions using the transportation simulation testing system \(TSTS\) before being placed on accelerated and real-time storage stability. For each formulation, both in-process and drug product samples from the scale-down studies be analyzed for relevant pCQAs. The final best and back-up commercial formulation recommendation should be made based on manufacturability and 6 months stability data from the manufacturability assessment study.
+
+
+## **5 **Stability Testing
+
+### **5.1 **Kinetics of Degradation in the Amorphous Solid State
+
+Generally, one thinks kinetics in terms of reaction order, which is true but applies only in liquid or gaseous solutions \[67\]; with solids, the elucidation of kinetics refers to the evaluation of the time dependence of the reaction rate, or alternatively, the time dependence of the loss of parent or appearance of degradation products. The degradation kinetics in the amorphous solid state, or glassy state, is often “stretched time” kinetics, meaning that the relationship between parent \(or purity, *P*\) and time is governed by the following equation, 
+
+
+
+![$$ P(t)=P\left(t=0\right).\exp \left(-k.{t}^{\beta}\right) $$](images/000034.jpeg)
+
+
+
+where *k* is the rate constant on the stretched timescale *t**β* and *β* is a constant between zero and unity. Amorphous solids are believed to follow stretched time kinetics as they are composed of distribution of microstates with each state having a distinct degradation rate, and these microstates are not in structural equilibrium \[67–71\]. Normally, one can find empirically, that *β* ≈ 1/2, and the kinetics is “square-root of time kinetics.”
+
+### **5.2 **Selection of Accelerated Testing Conditions, Temperature, and Time
+
+When designing the accelerated stability studies, the selection of temperature becomes critical to the successful outcome otherwise it can be misleading. The highest test temperature in the study should be at least 10 °C below the glass transition temperature \(*T*g\) of the dried solid, at the same time should be sufficiently high such that the level of degradation characteristic of that produced during the shelf life of the product is produced in a relatively short period of time. The difference between the test temperature and the anticipated storage temperature should not be so great that nonrepresentative results are obtained.
+
+If one has a system where two \(or more\) degradation pathways are significant, but these pathways are characterized by very different activation energies, for an example a system that undergoes both a hypothetical oxidation, with an activation energy of 15 kcal/mol, and a hypothetical deamidation reaction, with an activation energy of 25 kcal/mol one may find that the dominant reaction at the accelerated test condition is not even important at the actual temperature of interest. At high temperature, particularly above 50 °C, the reaction is predominantly a higher-activation-energy reaction, but in the range of refrigerated storage, deamidation is insignificant, and oxidation is the dominant reaction. Thus, if a formulation is being optimized using high-temperature stability data, optimization is being carried out for a reaction that does not occur to an appreciable extent at the intended storage temperature of 5 °C, and the test results may well be meaningless. Clearly, one needs to verify that the degradation products that are produced at the accelerated test conditions are essentially those, in roughly the same proportions, as produced at the intended storage temperature. Early in a project, this is difficult at best, and thus there is significant risk in accepting predictions based on accelerated test conditions run at very high temperatures. The time required for an accelerated test to produce the same level of a particular degradation product as would be found at the end of the shelf life at the intended product storage conditions may be estimated from the Arrhenius equation and assumed time dependence of the degradation process. Such estimates are provided in Fig. 9 where calculations were performed for both reactions with a low activation energy \(15 kcal/mol\) and a high activation energy \(25 kcal/mol\). Of course, the times are shorter with the higher activation energy, and are also much shorter with the square root of time kinetics than for exponential \(effective First-order\) degradation kinetics. Note that the equivalent times are relatively short, even when the activation energy is low and the difference between accelerated test temperature and intended storage temperature is only 10–15 °C, particularly for the square root of time kinetics. This is a significant point since degradation in glassy systems commonly follows the square root of time kinetics. The implication of this observation is that one does not necessarily need to employ accelerated test temperatures enormously higher than the intended storage temperature to ensure rapid turnaround of data. However, it must also be recognized that if the objective is to produce sufficient degradation to allow evaluation of a precise rate constant that, in turn, allows a quantitative assessment of differences in stability of trial formulations, one may need to produce significantly more degradation during the accelerated test than would result during the shelf life of a product. In such cases, the times would obviously need to be longer than indicated by Fig. 12. 
+![](images/000035.gif)
+
+
+***Fig. 12*** 
+Equivalent Times for Accelerated Stability Testing for Refrigerated \(5 °C\) and Room Temperature \(25 °C\) Storage. Symbols Key: Diamonds = 15 kcal/mol, Circles = 25 kcal/mol; Filled symbols = exponential kinetics \(1st order\), Open symbols = square root of time kinetics. \(**a**\) Product storage at 5 °C, \(**b**\) Product storage temperature, °C
+
+
+
+
+**References**
+
+1.  
+1.
+
+Pikal MJ, Lukes AL, Lang JE. Thermal decomposition of amorphous beta-lactam antibacterials. J Pharm Sci. 1977;66:1312–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=903872)
+
+2.  
+2.
+
+Pikal MJ, Lukes AL, Lang JE, Gaines K. Quantitative crystallinity determinations of beta-lactam antibiotics by solution calorimetry: correlations with stability. J Pharm Sci. 1978;67:767–73.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=660451)
+
+3.  
+3.
+
+Pikal MJ, Dellerman KM. Stability testing of pharmaceuticals by high-sensitivity isothermal calorimetry at 25C: cephalosporins in the solid and aqueous solution states. Int J Pharm. 1989;50:233–52.
+
+4.  
+4.
+
+Gervais A, Angiuoni G, O’Hara J, Juul Jensen K, Sewerin K, Rossi M, Nedved M, Dillon P, Uddin S, Cornen S, Schnaible V. Forced degradation studies for therapeutic proteins. Brussels: European Biopharmaceutical Enterprises; 2015.
+
+5.  
+5.
+
+Siedler M, Kumar V, Chari R, Saluja S, Fraunhofer W. Development of drug product formulations: molecular design and early candidates screening. In: Jameel F, Hershenson S, Khan MA, Martin-Moe S, editors. Quality by design for biopharmaceutical drug product development. New York: Springer New York; 2015. p. 61–85.
+
+6.  
+6.
+
+Perez-Ramírez B, Guziewicz N, Simler R, Sreedhara A. Approaches for early developability assessment of proteins to guide quality by design of liquid formulations. In: Jameel F, Hershenson S, Khan MA, Martin-Moe S, editors. Quality by design for biopharmaceutical drug product development. New York: Springer New York; 2015. p. 87–114.
+
+7.  
+7.
+
+Jarasch A, Koll H, Regula JT, Bader M, Papadimitriou A, Kettenberger H. Developability assessment during the selection of novel therapeutic antibodies. J Pharm Sci. 2015;104\(6\):1885–98.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25821140)
+
+8.  
+8.
+
+Folzer E, Diepold K, Bomans K, Huwyler J, Mahler H-C, Koulov AV. Selective oxidation of methionine and tryptophan residues in a therapeutic IgG1 molecule. J Pharm Sci. 2015;104\(9\):2824–31.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26010344)
+
+9.  
+9.
+
+Hermeling S, Crommelin DJ, Schellekens H, Jiskoot W. Structure-immunogenicity relationships of therapeutic proteins. Pharm Res. 2004;21\(6\):897–903.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15212151)
+
+10.  
+10.
+
+Liu D, Ren D, Huang H, Dankberg J, Rosenfeld R, Cocco MJ, Li L, Brems DN, Remmele RL Jr. Structure and stability changes of human IgG1 Fc as a consequence of methionine oxidation. Biochemistry. 2008;47\(18\):5088–100.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18407665)
+
+11.  
+11.
+
+Houde D, Peng Y, Berkowitz SA, Engen JR. Post-translational modifications differentially affect IgG1 conformation and receptor binding. Mol Cell Proteomics. 2010;9\(8\):1716–28.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20103567)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2938052)
+
+12.  
+12.
+
+Bertolotti-Ciarlet A, Wang W, Lownes R, Pristatsky P, Fang Y, McKelvey T, Li Y, Li Y, Drummond J, Prueksaritanont T, Vlasak J. Impact of methionine oxidation on the binding of human IgG1 to Fc Rn and Fc gamma receptors. Mol Immunol. 2009;46\(8–9\):1878–82.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19269032)
+
+13.  
+13.
+
+Pan H, Chen K, Chu L, Kinderman F, Apostol I, Huang G. Methionine oxidation in human IgG2 Fc decreases binding affinities to protein A and FcRn. Protein Sci. 2009;18\(2\):424–33.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19165723)
+
+14.  
+14.
+
+Zhang A, Hu P, MacGregor P, Xue Y, Fan H, Suchecki P, Olszewski L, Liu A. Understanding the conformational impact of chemical modifications on monoclonal antibodies with diverse sequence variation using hydrogen/deuterium exchange mass spectrometry and structural modeling. Anal Chem. 2014;86\(7\):3468–75.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24597564)
+
+15.  
+15.
+
+Wang W, Vlasak J, Li Y, Pristatsky P, Fang Y, Pittman T, Roman J, Wang Y, Prueksaritanont T, Ionescu R. Impact of methionine oxidation in human IgG1 Fc on serum half-life of monoclonal antibodies. Mol Immunol. 2011;48\(6–7\):860–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21256596)
+
+16.  
+16.
+
+Pace AL, Wong RL, Zhang YT, Kao Y-H, Wang YJ. Asparagine deamidation dependence on buffer type, pH, and temperature. J Pharm Sci. 2013;102\(6\):1712–23.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23568760)
+
+17.  
+17.
+
+Wakankar AA, Borchardt RT. Formulation considerations for proteins susceptible to asparagine deamidation and aspartate isomerization. J Pharm Sci. 2006;95\(11\):2321–36.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16960822)
+
+18.  
+18.
+
+Vlasak J, Bussat MC, Wang S, Wagner-Rousset E, Schaefer M, Klinguer-Hamour C, Kirchmeier M, Corvaïa N, Ionescu R, Beck A. Identification and characterization of asparagine deamidation in the light chain CDR1 of a humanized IgG1 antibody. Anal Biochem. 2009;392\(2\):145–54.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19497295)
+
+19.  
+19.
+
+Wedemeyer WJ, Welker E, Narayan M, Scheraga HA. Disulfide bonds and protein folding. Biochemistry. 2000;39\(15\):4207–16.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10757967)
+
+20.  
+20.
+
+Wei B, Berning K, Quan C, Zhang YT. Glycation of antibodies: modification, methods and potential effects on biological functions. MAbs. 2017;9\(4\):586–94.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28272973)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5419079)
+
+21.  
+21.
+
+Mitra N, Sinha S, Ramya TN, Surolia A. N-linked oligosaccharides as outfitters for glycoprotein folding, form and function. Trends Biochem Sci. 2006;31:156–63. \[PubMed\] \[Google Scholar\].[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16473013)
+
+22.  
+22.
+
+Hanson SR, et al. The core trisaccharide of an N-linked glycoprotein intrinsically accelerates folding and enhances stability. Proc Natl Acad Sci U S A. 2009;106:3131–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19204290)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2651298)
+
+23.  
+23.
+
+Bosques CJ, Imperiali B. The interplay of glycosylation and disulfide formation influences fibrillization in a prion protein fragment. Proc Natl Acad Sci U S A. 2003;100:7593–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12805563)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC164631)
+
+24.  
+24.
+
+Skropeta D. The effect of individual N-glycans on enzyme activity. Bioorg Med Chem. 2009;17:2645–53.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19285412)
+
+25.  
+25.
+
+Liu H, Ponniah G, Zhang H-M, Nowak C, Neill A, Gonzalez-Lopez N, Patel R, Cheng G, Kita AZ, Andrien B. In vitro and in vivo modifications of recombinant and human IgG antibodies. MAbs. 2014;6\(5\):1145–54. [https://​doi.​org/​10.​4161/​mabs.​29883](https://doi.org/10.4161/mabs.29883).[Crossref](https://doi.org/10.4161/mabs.29883)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25517300)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4622420)
+
+26.  
+26.
+
+Ratanji KD, Derrick JP, Dearman RJ, Kimber I. Immunogenicity of therapeutic proteins: influence of aggregation. J Immunotoxicol. 2014;11\(2\):99–109.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23919460)
+
+27.  
+27.
+
+Salinas BA, Sathish HA, Bishop SM, Harn N, Carpenter JF, Randolph TW. Understanding and modulating opalescence and viscosity in a monoclonal antibody formulation. J Pharm Sci. 2010;99\(1\):82–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19475558)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927449)
+
+28.  
+28.
+
+Roberts CJ, Das TK, Sahin E. Predicting solution aggregation rates for therapeutic proteins: approaches and challenges. Int J Pharm. 2011;418\(2\):318–33.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21497188)
+
+29.  
+29.
+
+Velev OD, Kaler EW, et al. Protein interactions in solution characterized by light and neutron scattering: comparison of lysozyme and chymotrypsinogen. Biophys J. 1998;75\(6\):2682–97.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9826592)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1299943)
+
+30.  
+30.
+
+Tessier PM, Lenhoff AM, et al. Rapid measurement of protein osmotic second virial coefficients by self-interaction chromatography. Biophys J. 2002;82\(3\):1620–31.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11867474)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1301960)
+
+31.  
+31.
+
+Moon YU, Curtis RA, et al. Protein-protein interactions in aqueous ammonium sulfate solutions. Lysozyme and bovine serum albumin \(BSA\). J Solut Chem. 2000;29\(8\):699–717.
+
+32.  
+32.
+
+Alford JR, Kendrick BS, et al. Measurement of the second osmotic virial coefficient for protein solutions exhibiting monomer-dimer equilibrium. Anal Biochem. 2008;377\(2\):128–33.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18395000)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2518745)
+
+33.  
+33.
+
+Atul Saluja R, Fesinmeyer M, Hogan S, Brems DN, Gokarn YR. Diffusion and sedimentation interaction parameters for measuring the second virial coefficient and their utility as predictors of protein aggregation. Biophys J. 2010;99\(8\):2657–65.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20959107)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2955502)
+
+34.  
+34.
+
+Thiagarajan G, Semple A, James JK, Cheung JK, Shameem M. A comparison of biophysical characterization techniques in predicting monoclonal antibody stability. MAbs. 2016;8\(6\):1088–97.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27210456)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5037989)
+
+35.  
+35.
+
+Connolly BD, Petry C, Yadav S, Demeule B, Ciaccio N, Moore JMR, Shire SJ, Gokarn YR. Weak interactions govern the viscosity of concentrated antibody solutions: high-throughput analysis using the diffusion interaction parameter. Biophys J. 2012;103\(1\):69–78.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22828333)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3388210)
+
+36.  
+36.
+
+Pace CN. Conformational stability of globular-proteins. Trends Biochem Sci. 1990;15\(1\):14–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2107612)
+
+37.  
+37.
+
+Li W, Prabakaran P, Chen W, Zhu Z, Feng Y, Dimitrov DS. Antibody aggregation: insights from sequence and structure. Antibodies. 2016;5\(3\):19.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31558000)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6698864)
+
+38.  
+38.
+
+[https://​www.​americanpharmace​uticalreview.​com/​25604-Pharmaceutical-Particle-Size-Analyzers/​12040038-Zetasizer-Nano-ZSP-System/​](https://www.americanpharmaceuticalreview.com/25604-Pharmaceutical-Particle-Size-Analyzers/12040038-Zetasizer-Nano-ZSP-System/)
+
+39.  
+39.
+
+Nema S. Key formulation challenges of protein \(mAb\) drugs, Pfizer, [http://​users.​unimi.​it/​gazzalab/​wordpress/​wp-content/​uploads/​2011/​12/​9-Key-formulation-challenges-of-protein-drugs](http://users.unimi.it/gazzalab/wordpress/wp-content/uploads/2011/12/9-Key-formulation-challenges-of-protein-drugs)
+
+40.  
+40.
+
+Larsen SS. Studies on stability of drugs in frozen systems. Arch Pharm Chem Sci Ed. 1973;1:41–53.
+
+41.  
+41.
+
+Murase N, Franks F. Salt precipitation during the freeze concentration of phosphate buffer solutions. Biophys Chem. 1989;34:293–300.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2611352)
+
+42.  
+42.
+
+Gomez G, Rodriguez-Hornedo N, Pikal MJ. Effect of freezing on the pH of sodium phosphate buffer solutions. Pharm Res. 1994;11:S-265, PPD 7364.
+
+43.  
+43.
+
+Szkudlarek BA, Rodriguez-Hornedo N, Pikal MJ. Analysis of pH changes of potassium phosphate buffer salt solutions during freezing. Pharm Res. 1994;11:S-228, PPD 7215.
+
+44.  
+44.
+
+Pikal MJ, Dellerman KM, Roy ML, Riggin RM. The effects of formulation variables on the stability of freeze dried human growth hormone. Pharm Res. 1991;8:427–36.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1871037)
+
+45.  
+45.
+
+Gomez G, Pikal MJ, Rodriguez-Horned N. Effect of initial buffer composition on pH changes during far-from equilibrium freezing of sodium phosphate buffer solutions. Pharm Res. 2001;18:90–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11336359)
+
+46.  
+46.
+
+Milton N. Eli Lilly, presentation in IIR, Sept, 2005.
+
+47.  
+47.
+
+Mahler H-C, Friess W, Grauschopf U, Kiese S. Protein aggregation: pathways, induction factors and analysis. J Pharm Sci. 2009;98\(9\):2909–34.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18823031)
+
+48.  
+48.
+
+Narhi L. Characterization and biological relevance of protein aggregates and other particles 100–200,000 nm in size \(sub micron and subvisible\), https://​www.​casss.​org/​resource/​resmgr/​hos\_​speaker\_​slides/​2019\_​narhi\_​linda\_​slides
+
+49.  
+49.
+
+Das TK. Protein particulate detection issues in biotherapeutics development--current status. AAPS PharmSciTech. 2012;13\(2\):732–46.[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3364383)
+
+50.  
+50.
+
+Thirumangalathu R, Krishnan S, Ricci MS, Brems DN, Randolph TW, Carpenter JF. Silicone oil- and agitation-induced aggregation of a monoclonal antibody in aqueous solution. J Pharm Sci. 2009;98\(9\):3167–81.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19360857)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2751612)
+
+51.  
+51.
+
+Lee HJ, McAuley A, Schilke KF, McGuire J. Molecular origins of surfactant-mediated stabilization of protein drugs. Adv Drug Deliv Rev. 2011;63:1160–71.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21763375)
+
+52.  
+52.
+
+Barn NB, Cleland JL, Yang J, Manning MC, Carpenter JF, Kelley RF, Randolph TW. Tween protects recombinant human growth hormone against agitation-induced damage via hydrophobic interactions. J Pharm Sci. 1998;87:1554–9.
+
+53.  
+53.
+
+Barn NB, Randolph TW, Cleland JL. Stability of protein formulations: investigation of surfactant effects by a novel EPR spectroscopic technique. Pharm Res. 1995;12:2–11.
+
+54.  
+54.
+
+Kerwin BA, Heller MC, Levin SH, Randolph TW. Effects of tween 80 and sucrose on acute short-term stability and long-term storage at-20 degrees of a recombinant haemoglobin. J Pharm Sci. 1998;87:1062–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9724555)
+
+55.  
+55.
+
+Narang AS, Rao VM, Desai DS. Effect of antioxidants and silicates on peroxides in povidone. J Pharm Sci. 2012;101\(1\):127–39.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22109686)
+
+56.  
+56.
+
+Akers MJ. Excipient-drug interactions in parenteral formulations. J Pharm Sci. 2002;91\(11\):2283–300.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12379914)
+
+57.  
+57.
+
+Pindrus M, Shire SJ, Kelley RF, Demeule B, Wong R, Yiren X, Yadav S. Solubility challenges in high concentration monoclonal antibody formulations: relationship with amino acid sequence and intermolecular interactions. Mol Pharm. 2015;12\(11\):3896–907.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26407030)
+
+58.  
+58.
+
+Gokarn YR, Matthew Fesinmeyer R, Saluja A, Razinkov V, Chase SF, Laue TM, Brems DN. Effective charge measurements reveal selective and preferential accumulation of anions, but not cations, at the protein surface in dilute salt solutions. Protein Sci. 2011;20:580–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21432935)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3064836)
+
+59.  
+59.
+
+Fesinmeyer RM, Hogan S, Saluja A, Brych SR, Kras E, Narhi LO, Brems DN, Gokarn YR. Effect of ions on agitation- and temperature-induced aggregation reactions of antibodies. Pharm Res. 2009;26:903–13.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19104916)
+
+60.  
+60.
+
+Laue T. Proximity energies: a framework for understanding concentrated solutions. J Mol Recognit. 2012;25:165–73.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22407980)
+
+61.  
+61.
+
+Schneider CP, Shukla D, Trout BL. Arginine and the Hofmeister series: the role of ion-ion interactions in protein aggregation suppression. J Phys Chem B. Author manuscript; available in PMC 2012 Jun 9. Published in final edited form as: J Phys Chem B. 2011;115\(22\):7447–7458.
+
+62.  
+62.
+
+Pikal MJ. Lyophilization. In: Swarbrick J, Boylan J, editors. Encyclopedia of pharmaceutical technology. New York: Marcel Dekker; 2002. p. 1299–326.
+
+63.  
+63.
+
+Haeuser C, Goldbach P, Huwyler J, Friess W, Allmendinger A. Be aggressive\! Amorphous excipients enabling single-step freeze-drying of monoclonal antibody formulations. Pharmaceutics. 2019;11:616.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31744221)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6920930)
+
+64.  
+64.
+
+Williams NA, Dean T. Vial breakage by frozen mannitol solutions: correlation with thermal characteristics and effect of sterioisomerism, additives, and vial configuration. J Parenter Sci Technol. 1991;45:94–100.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1904931)
+
+65.  
+65.
+
+Williams NA, Lee Y, Polli GP, Jennings TA. The effects of cooling rate on solid phase transitions and associated vial breakage occurring in frozen mannitol solutions. J Parenter Sci Technol. 1986;40\(135\):71.
+
+66.  
+66.
+
+Williams NA, Guglielmo J. Thermal mechanical analysis of frozen solutions of mannitol and some related steroisomers: evidence of expansion during warming and correlation with vial breakage during lyophilization. J Parenter Sci Technol. 1993;47:119–23.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8360803)
+
+67.  
+67.
+
+Pikal MJ, Rigsbee D, Roy ML, Galreath D, Kovach KJ, Wang W, Carpenter JF, Cicerone MT. Solid state chemistry of proteins: II. The correlation of storage stability of freeze-dried human growth hormone \(hGH\) with structure and dynamics in the glassy solid. J Pharm Sci. 200;97\(12\):5106–21.
+
+68.  
+68.
+
+Pikal MJ, Rigsbee DR. The stability of insulin in crystalline and amorphous solids: observation of greater stability for the amorphous form. Pharm Res. 1997;14:1379–87.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9358550)
+
+69.  
+69.
+
+Yoshioka S, Aso Y, Kojima S. Usefulness of the Kohlrausch-Williams-Watts stretched exponential function to describe protein aggregation in lyophilized formulations and the temperature dependence near the glass transition temperature. Pharm Res. 2001;18:256–60.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11442261)
+
+70.  
+70.
+
+Abdul-Fattah AM, Dellerman K, Bogner RH, Pikal MJ. The effect of annealing on the stability of amorphous solids: chemical stability of freeze-dried moxalactam. J Pharm Sci. 2007;96:1237–50.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17455341)
+
+71.  
+71.
+
+Cicerone MT, Soles CL, Chowdhuri Z, Pikal MJ, Chang LL. Fast dynamics as a diagnostic for excipients in preservation of dried proteins. Am Pharm Rev. 2005;8\(6\):24–7.
+
+
+
+
+
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_2](https://doi.org/10.1007/978-3-031-12634-5_2)
+
+
+**
+# Characterization and Determination of Freeze-Drying Properties of Frozen Formulations: Case Studies
+**
+
+
+Feroz Jameel1 
+
+
+\(1\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+
+
+
+**1 **Introduction
+
+**2 **Definition of Freeze-Drying Properties
+
+**2.1 **Collapse Temperature
+
+**2.2 **Eutectic Melting Temperature \(*T*e\)
+
+**3 **Characterization Techniques
+
+**3.1 **Differential Scanning Calorimetry \(DSC\)
+
+**3.2 **Freeze Drying Microscopy \(FDM\)
+
+**3.3 **Estimation of *T*g’
+
+References
+
+
+## Abstract
+
+It is quite critical prior to design of the lyophilization process to completely characterize the formulation and understand the thermal events and physical state changes that occurs as a function of cooling and warming. Definitions of various freeze drying properties are described and illustrated with examples/figures. Various techniques such as MDSC and FDM that can be used to characterize under various conditions and determine the freeze drying properties/values of the formulation along with the science behind the design of the experiments, analyze and interpret the data is described and Illustrated with case studies. Finally, how some freeze drying properties can be predicted theoretically using Gordon & Taylor equations is discussed with example.
+
+
+**Keywords**
+Lyophilization Freeze drying properties Frozen formulation Modulated DSC Freeze drying microscopy Collapse temperature Eutectic melting temperature Glass transition temperature of freeze concentrate Melt-back Crystallization Amorphous state
+
+
+## **1 **Introduction
+
+It is quite common to see lyophilized products in the market that the freeze drying of which takes several days to weeks and yet produce a product that lacks pharmaceutical elegance, reconstitutes with difficulty with high reconstitution time, and lot-to-lot and vial-to-vial variability/heterogeneity in quality attributes; and most important is failure to achieve ambient storage stability and requires cold chain for shipment and storage. These issues arise from the lack of clear understanding of thermal behavior and freeze drying properties of the excipients, their selection, and their weight ratios while designing the formulation and process. Additionally, it is important to consider during the design of formulation and process that the commercial manufacturing requires that the process should be short \(i.e., economically viable\), operative within the capabilities of the equipment with appropriate safety margins and efficient plant utilization. Thus, the above expectations require the design of formulation and lyophilization cycles to be such that the collapse temperatures are maximized and drying rates are as high as possible and robust enough to be implementable on typical production freeze dryers \[1\].
+
+As Freeze drying is a cold process, it is time-consuming process and accurate determination of freeze drying properties of the formulation such as eutectic melting temperature \(*T*e\), the glass transition temperature of the maximum freeze concentrated solution \(*T*g’\), crystallization and annealing temperatures and times, residual unfrozen water content at the *T*g’ temperature \(*W*g’\) and the glass transition temperature of the dry powder \(*T*g\) is not only the first step but also central to the design of the freeze drying process. The onset of crystallization and the annealing temperature guide the freezing parameters and the protocol, with *T*g’ and/or *T*e values inform the selection of primary drying conditions \(shelf temperature, chamber pressure, and time\). The *W*g’ value also forms the basis for selection of secondary drying conditions, ramping rate advancing from primary to secondary drying, temperature and time of secondary drying. The *T*g of the freeze dried cake informs the selection of accelerated stability studies conditions and forms the basis for the recommended transportation and storage conditions of the product \[2\].
+
+The overall values of the abovementioned freeze drying properties for a given formulation depend heavily on the values of these properties for individual excipients/ingredients present in the formulation and their weight ratios in the mixture. Biopharmaceutical formulations typically end up in a multicomponent salt system in an effort to stabilize the labile biologic coupled with end-use requirements. Thus, it becomes critical to characterize the thermal behavior of these components both individually and in a mixture and determine the values of these properties before selecting the excipients/composition of the formulation and process conditions.
+
+Most of the excipients that are used in the biopharmaceutical formulations includes buffers, surfactants, stabilizers, bulking agents, and tonicity modifiers and they behave differently because of the variations in their concentrations, temperature \(cooling and warming\), and presence and absence of other excipients \[3\].
+
+Formulation and process development are interdependent and the formulation candidate screening should consider the freeze drying properties of the prototypes besides the stability aspects. There are two techniques: the freeze drying microscopy \(FDM\) and modulated differential scanning calorimetry \(MDSC\), that are commonly employed to understand the thermal behavior/thermal events, physical state of the excipients individually and in mixture in the frozen state and determine the abovementioned freeze drying properties, see Tables 1 and 2. 
+
+
+***Table 1*** 
+Collapse Temperature, *T*c \(°C\) and Glass Transition Temperature, *T*g’ \(°C\) data for selected excipients
+
+
+
+**Material**
+
+***T*g’\(°C\)**
+
+**Reference**
+
+***T*c \(°C\)**
+
+**Reference**
+
+BSA
+
+−11
+
+6
+
+Dextran
+
+−10
+
+6, 5
+
+−10
+
+\[16\]
+
+Ficol
+
+−19
+
+5
+
+−20
+
+\[17\]
+
+Gelatin
+
+−9
+
+5
+
+−8
+
+\[17\]
+
+PVP \(40k\)
+
+−20
+
+5
+
+−23
+
+\[17\]
+
+Dextrose
+
+−44
+
+5
+
+Hydroxypropyl β cyclodextrin
+
+−10.3
+
+5,10
+
+Lactose
+
+−28
+
+6,
+
+−32
+
+\[7\]
+
+Mannitol
+
+−35
+
+6, 5
+
+Raffinose
+
+−27
+
+7
+
+−26
+
+\[7\]
+
+Sorbitol
+
+−46
+
+5
+
+−27
+
+\[7\]
+
+Sucrose
+
+−33
+
+5
+
+−32
+
+\[7\]
+
+Trehalose
+
+−29.5
+
+5, 7
+
+β Alanine
+
+−65
+
+6
+
+Glycine
+
+−62
+
+8
+
+Histidine
+
+−33
+
+6
+
+Acetate, potassium
+
+−76
+
+6
+
+Acetate, sodium
+
+−64
+
+6
+
+CaCl2
+
+−95
+
+6
+
+Citric acid
+
+−54
+
+6
+
+Citrate, potassium
+
+−62
+
+6
+
+Citrate, sodium
+
+−41
+
+6
+
+HEPES
+
+−63
+
+6
+
+NaHCO3
+
+−52
+
+6
+
+Phosphate, KH2PO4
+
+−55
+
+6
+
+Phosphate K2HPO4
+
+−65
+
+6
+
+Phosphate, NaH2PO4
+
+−45
+
+6
+
+Tris base
+
+−51
+
+6
+
+Tris HCl
+
+−65
+
+6
+
+Tris acetate
+
+−54
+
+6
+
+ZnCl2
+
+6
+
+
+
+
+***Table 2*** 
+Glass Transition Temperatures, *T*g, of selected excipients measured by DSC
+
+
+
+**Compound**
+
+***T*g, °C**
+
+**Reference**
+
+Citric acid
+
+11
+
+\[9\]
+
+Glycine
+
+~30
+
+\[11, 12\]
+
+Lactose
+
+114
+
+\[12–14\]
+
+Maltose
+
+100
+
+\[12, 14, 15\]
+
+Mannitol
+
+13
+
+\[12, 14, 15\]
+
+Raffinose
+
+114
+
+\[12, 14, 15\]
+
+Sorbitol
+
+−1.6
+
+\[12, 14, 15\]
+
+Sucrose
+
+75
+
+\[12, 14, 15\]
+
+Trehalose
+
+118
+
+\[12, 14, 15\]
+
+Maltodextrin 860
+
+169
+
+\[12, 14, 15\]
+
+PVP k90
+
+176
+
+\[12, 14, 15\]
+
+
+Consult the references for details of the techniques, value in the parenthesis is extrapolated from mixtures using Fox equation and is highly approximate
+
+
+
+
+Collapse temperature data were obtained with freeze drying microscopy and *T*g’ data were obtained using DSC at roughly 10 °C/min heating rates and represent mid-points of the glass transition region. Values in parenthesis were estimated by extrapolation from non-crystallizing mixtures to the pure compound
+
+## **2 **Definition of Freeze-Drying Properties
+
+### **2.1 **Collapse Temperature
+
+In a system where all the excipients form a single amorphous system post-freezing, the maximum allowable product temperature during primary drying without the loss of porous “cake-like” structure with the dimensions equivalent to those of the frozen solid \[4, 18\] is termed as collapse temperature. As illustrated in Fig. 1a there are various degrees of collapse, onset of collapse, partial collapse, and full collapse, depending upon how much the product temperature is away from collapse temperature. Drying a product above the collapse temperature results in the material becoming rubbery and is subject to viscous flow causing porous structure to collapse. Advancing to secondary drying without the full completion of sublimation of ice in the primary drying phase results in the melting of the remaining ice causing melt back. Figures 1b illustrates various degrees of melt back. Collapse temperature can be measured through direct microscopic observation of collapse/loss of structure during freeze drying using freeze drying microscopy. Pikal et al. \[4, 18\] investigated the differences between collapse temperatures determined by laboratory procedures and the observation of collapse in production processes. They observed that the collapse temperature increased as the sublimation rate increased \(i.e., as the solute concentration decreases\), and at constant sublimation rate, the collapse temperature may increase as the surface area of the solid increases. They also noted that in general, product freeze drying in a vial will collapse at a slightly higher temperature than collapse measured by the microscopic method. 
+![](images/000000.jpeg)
+
+
+***Fig. 1*** 
+\(**a**\) Various degrees of collapse: \(A\) micro or onset of collapse, \(B\) partial collapse, \(C\) full collapse. \(**b**\) Various degrees of melt back. \(Courtesy lyophilizationworld\)
+
+
+
+*T*g’ is the glass transition temperature of the maximally freeze concentrated solute \(*T*g’\), and collapse temperature and glass transition temperature, *T*g’, are not identical. The collapse temperature when measured using DSC or MDSC will be 2–3 °C higher than the *T*g’ value because the system will not undergo viscous flow, and loss of structure will not be observed until the product temperature exceeds the *T*g’ value by a 2–3 °C when measured at low rates of temperature increase.
+
+### **2.2 **Eutectic Melting Temperature \(***T*****e**\)
+
+A eutectic mixture is a physical mixture of two or more crystalline compounds that melt together at the same temperature as one compound and that temperature is referred as eutectic temperature. As illustrated in Fig. 2 there are various degrees of melt depending upon the composition of the solution and how far the product temperature is from the eutectic melting temperature. In a system where all the excipients crystallize upon freezing then *T*e would be the collapse temperature/critical temperature. In a binary system where both amorphous and crystalline systems present and if crystalline constitutes the major component then performing primary drying with the product temperature above *T*g’ but below *T*e will dry the product with the collapse of the amorphous component on the surface of the crystalline phase, and the crystalline phase will render the necessary mechanical support to the cake structure \[3\]. On the other side if the amorphous phase constitutes the major component and crystalline phase the minor component, then, under those situations drying above *T*g’ but below *T*e will be risky and will depend on how far the product temperature is from the *T*g’ as the crystalline structure will not provide the sufficient mechanical support needed. 
+![](images/000001.jpeg)
+
+
+***Fig. 2*** 
+Examples of various degrees of eutectic melt: \(**a**\) full eutectic melt, \(**b**\) partial eutectic melt, \(**c**\) elegant crystalline cake
+
+
+
+## **3 **Characterization Techniques
+
+The characterization techniques that are commonly employed to determine the freeze drying properties are \(1\) freeze-drying microscopy, \(2\) modulated differential scanning calorimetry \(MDSC\), and \(3\) electrical resistance.
+
+### **3.1 **Differential Scanning Calorimetry \(DSC\)
+
+This technique has been around since many years, and since thermal events involve heat flow, this technique has been successfully used to quantitatively measure changes in heat flow and heat capacity resulting from first-order irreversible/kinetic thermal events such as crystallization and eutectic melt \(exotherms or endotherms\), and from second-order reversible events such as glass transitions a function of time and temperature.
+
+
+**Principle**
+
+The underlying principle behind the standard or conventional DSC is based on the Ohm’s law that governs the heat flow, Eq. 1 
+
+
+
+![$$ \frac{\textrm{d}Q}{\textrm{d}t}=\frac{\Delta T}{R_{\textrm{D}}} $$](images/000002.jpeg)
+
+
+\(1\)
+
+
+Where  ![$$ \frac{\textrm{d}Q}{\textrm{d}t} $$](images/000003.jpeg)  is the heat flow and Δ*T* is the temperature difference between reference and sample, and *R*D is the thermal resistance of the constantan disc. An aluminum pan containing the sample and the empty pan as a reference are placed on the discs made up of constantan through which the heat transfers from the sample and the reference to the thermocouples made up of CHROMEL that are placed beneath the discs. These thermocouples measure the differential heat flow.
+
+Although in the standard DSC the chamber is purged with nitrogen or argonon gas through an orifice in the heating block to ensure uniform and stable thermal environment resulting in a controlled flat baseline, sometimes a crooked baseline can be observed due to some impurities on the discs which makes some real transitions questionable. To confirm whether these transitions are real in nature it is often repeated. To overcome such difficulties and resolve some complex transitions Mike Reading came up with an idea of modulated differential scanning calorimetry \(MDSC\) where a sinusoidal modulation is imposed on the conventional underlying linear heating or cooling ramp, thus the guiding principle of MDSC is to apply two heating rates simultaneously and measure how they affect the rate of heat flow \[5, 19\]. As a result of which the sample experiences two heating rates or cooling profiles or as if two experiments, one conventional linear \(average\) heating rate \[dashed line in Fig. 3\] and the other at a sinusoidal \(instantaneous\) heating rate \[dashed-dot line in Fig. 3\], are being run simultaneously. 
+![](images/000004.gif)
+
+
+***Fig. 3*** 
+Heating rate profiles in MDSC. \(Adapted from Refs. \[6, 20\]\)
+
+
+
+
+The average heating rate provides total heat flow information while the sinusoidal heating rate provides heat capacity information from the heat flow that responds to the rate of temperature change. The advantage of doing this is that it will enable separation of the reversible and irreversible heat flows from the total heat flow as indicated in the following Eq. 2.
+
+
+
+
+
+![$$ \frac{\textrm{d}Q}{\textrm{d}t}=\frac{C_{\textrm{p}}\Delta T}{t}+f\left(T,t\right) $$](images/000005.jpeg)
+
+
+\(2\)
+
+
+
+
+The standard or conventional DSC measures only the total heat flow \( ![$$ \frac{\textbf{d}\boldsymbol{Q}}{\textbf{d}\boldsymbol{t}} $$](images/000006.jpeg) \), whereas MDSC measures total heat flow \( ![$$ \frac{\textbf{d}\boldsymbol{Q}}{\textbf{d}\boldsymbol{t}} $$](images/000007.jpeg) \), reversible heat flow which is a function of the sample’s heat capacity and rate of temperature change, and irreversible heat flow which is a function of absolute temperature and time. Reversible heat flow and heat capacity are associated with glass transitions which are reversible in nature while the crystallization melts and heat of enthalpy are associated with irreversible heat flow and kinetic in nature, see Fig. 4. 
+![](images/000008.gif)
+
+
+***Fig. 4*** 
+Depicting three heat flows for a quenched material. \(Adapted from Ref. \[20\]\)
+
+
+
+
+
+*Advantages of MDSC over standard DSC:*
+
+1.  
+1.
+
+
+Ability to resolve complex transitions such as enthalpy of relaxation from glass transition temperature which appear together and can make the glass transition appear to be a melting transition. Similarly, crystallization of an excipient prior to or during melting make it difficult to determine the real crystallinity of the sample
+
+
+
+
+2.  
+2.
+
+
+Ability to detect weak transitions which are often overshadowed by drifting of baseline in standard DSC
+
+
+
+
+3.  
+3.
+
+
+One of the disadvantages of standard DSC is that some measurements such as heat capacity and thermal conductivity require more than a single experiment
+
+
+
+
+4.  
+4.
+
+
+Conventional DSC results are always a compromise between sensitivity and resolution.
+
+
+
+
+
+Resolution or separating transitions that are only few degrees apart require the use of small samples and low heating rates but the size of the heat flow signal decreases with reduced sample size and heating rate. This suggests that any improvement in resolution comes with reduction in sensitivity and vice versa. The sensitivity of the weak transitions can be improved by \(1\) increasing the sample size, which enhances the amplitude of the transition; \(2\) increasing the scanning rates; and \(3\) increasing the concentration but keeping the mass ratio of the components in the mixture constant. The downside with these increasing sample size and scanning rates are that they move the transitions to higher temperatures and can also cause merging of the nearby thermal events. The dependence of glass transitions on heating rates needs to be corrected as heating rates employed in freeze drying are much lower and the real values will be lower by a few degrees, especially in cases where drying is carried out at product temperatures close to *T*g’. Further resolution and sensitivity in the determination of *T*g’ can be obtained using the derivative of the power–time curve \[21, 22\].
+
+#### ***3.1.1 ***Method Design Considerations \[***23***\]
+
+As indicated above, in MDSC as opposed to standard DSC the sample is subjected to two heating rates simultaneously to obtain all the information relating to thermal events, and optimization of the values of these heating rates is key to obtaining quality data. Prior to selecting and optimizing the values, three key parameters, average heating rate, temperature modulation period and amplitude, should be considered: average heating rate, temperature modulation period, and amplitude.
+
+
+
+1. 
+1.
+
+
+Keep the average heating rate \(°C/min\) slow enough to get sufficient number of modulation cycles over transitions of interest.
+
+
+
+
+2.  
+2.
+
+
+The modulation period should be selected in such a way that there is enough time for the heat to flow between the sensor and the sample
+
+
+
+
+3.  
+3.
+
+
+Modulation amplitude \(± °C\) affects both the sensitivity and the resolution. Keep the amplitude larger to achieve greater sensitivity but not so large that it will reduce the resolution
+
+
+
+
+
+**Selection of Modulation Temperature Period**
+
+The temperature modulation period is the time, in seconds, required to complete one modulation cycle. The selection of the period varies between 10 and 200 s and depends on the sample weight, its thickness, and conductivity in addition to sample pan and objective of the experiment. The following are the recommendations or guidelines that can be used as starting points and can be further optimized if needed.
+
+One key point that needs to be considered during the selection of period is that it should not be longer than necessary for quantitative heat flow, otherwise it will require a reduction in the average heating rate.
+
+
+
++ 
+A period of 45 s is recommended for samples containing 15 mg in crimped aluminum pans and 60 s in samples up to 15 mg contained in hermetic aluminum pans.
+
++  
+For heat capacity measurement of materials 100 s is recommended
+
++  
+For large volumes in stainless steel hermetic pans a period of 200 s is recommended
+
+
+
+
+
+**Selection of Modulation Temperature Amplitude**
+
+Similar to standard DSC, MDSC also provides increased sensitivity for transitions involving change in heat capacity with the increased modulation temperature amplitude due to larger changes in the heating rate. The instrument allows to select amplitude values from ±0.001 °C to 10 °C; however, generally amplitudes greater than ±2.0 °C have been found to decrease the resolution and amplitudes less than ±0.1 °C are not recommended for use because they give poor sensitivity.
+
+Amplitudes can be selected in a way to provide cooling or not to provide cooling. For determination of glass transition \(*T*g\) temperatures which are function of changes in heat capacity both heating and cooling during the temperature modulation are found to be best.
+
+For example, in Fig. 5, where the average heating rate is 1.0 °C/min with a modulation period of 60 s and modulation amplitude of ±0.319 °C this condition provides modulated temperature to increase and decrease as the average temperature increases. The time-based derivative of this signal indicates that the average heating rate is 1.0 °C/min, while the modulated heating rate ranges from approximately −1.0 to 3.0 °C/min. This overall range of 4.0 °C/min is the result of the selected period and amplitude. Such conditions that provide both heating and cooling during the temperature modulation are found to be best for measurement of glass transitions temperatures. 
+![](images/000009.jpeg)
+
+
+***Fig. 5*** 
+The modulated temperature is seen to increase and decrease as the average temperature increases. The time-based derivative of this signal shows that the average heating rate is 1.0 °C/min, while the modulated heating rate ranges from approximately −1.0 to 3.0 °C/min \[23\]
+
+
+
+For determination of crystallization temperatures, the “heat-iso” conditions would be ideal where the heating rate is designed to go to zero \(isothermal\) with no cooling. This is well illustrated in Fig. 6 where the modulation period \(60 s\) and modulation amplitude \(± 0.319 °C\) are the same as for that shown in Fig. 5, but the average heating rate has been increased to 2 °C/min. As can be noticed these conditions still provide a range of 4 °C/min involved \(0–4 °C/min\), but now there is no cooling during the modulation. 
+![](images/000010.jpeg)
+
+
+***Fig. 6*** 
+Results from selection of conditions involving the same modulation period \(60 s\) and same modulation amplitude \(± 0.319 °C\) as for that shown in Fig. 3. The difference is that the average heating rate has been increased to 2 °C/min \[23\]
+
+
+
+Based on experience the TA instruments has come up with a table, Table 3, that eases the selection of the modulation temperature amplitude, following is the guidelines 
+
+
+***Table 3*** 
+This table is additive, i.e., the heat only amplitude for a period of 40 s and heating rate of 2.5 °C/min is sum of the values for 2.0 °C/min and 0.5 °C/min
+
+
+
+**Period \(s\)**
+
+Heating rate
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+0.1
+
+0.011
+
+0.013
+
+0.016
+
+0.019
+
+0.021
+
+0.024
+
+0.027
+
+0.2
+
+0.021
+
+0.027
+
+0.032
+
+0.037
+
+0.042
+
+0.048
+
+0.053
+
+**0.5**
+
+**0.053**
+
+0.066
+
+0.080
+
+0.093
+
+0.106
+
+0.119
+
+0.133
+
+**1.0**
+
+0.106
+
+0.133
+
+0.159
+
+0.186
+
+0.212
+
+0.239
+
+0.265
+
+**2.0**
+
+**0.212**
+
+0.265
+
+0.318
+
+0.371
+
+0.424
+
+0.477
+
+0.531
+
+**5.0**
+
+**0.531**
+
+0.663
+
+0.796
+
+0.928
+
+1.061
+
+1.194
+
+1.326
+
+
+*Amplitude \(40s, 2.5 °C/min\) = 0.212 ± 0.053 = ±0.265 °C*, \[23\]
+
+
+
+
+
+1. 
+1.
+
+
+First select the modulated period and average heating rate that will be used for the experiment
+
+
+
+
+2.  
+2.
+
+
+To run experiment under heat-iso conditions for a given period and heating rate, the corresponding amplitude values can be taken directly from Table 3
+
+
+
+
+3.  
+3.
+
+
+For heat-cool conditions any amplitude value greater than indicated will produce cooling during modulation. The amplitude values should be increased by factors as suggested below as starting conditions and can be further optimized based on the thermal event of interest
+
+
+
+
+
+*Glass Transitions \(Tg\)*
+
++  
+*For standard T*g*”*: 
+
+Sample size: 10–15 mg
+
+Amplitude: 2× Table 1
+
+Period: 40 s
+
+Heating Rate: 3 °C/min
+
+
+
++  
+*T*g *is Hard to Detect* 
+
+Sample size: 10–20 mg
+
+Amplitude: 4× Table 1
+
+Period: 40 s
+
+Heating Rate: 2 °C/min
+
+
+
++  
+*T**g* *has Large Enthalpic* *Relaxation* 
+
+Sample size: 5–10 mg
+
+Amplitude: 1.5× Table 1
+
+Period: 40 s
+
+Heating Rate: 1 °C/min
+
+
+
+
+
+In case of standard *T*g determinations with sample sizes in the range of 10–15 mg, use heating rate of 3 °C/min, a period of 40 s and use amplitudes 2× the value indicated in the Table 3
+
+In cases where the *T*g values are difficult to determine as shown in Fig. 6, sample sizes in the weight range of 10–20 mg, use heating rate of 2 °C/min, period of 60 s, and an amplitude of 4× the value indicated in the Table 3.
+
+In cases where the *T*g are associated with large enthalpic relaxations use sample sizes in the range of 5–10 mg, slower heating rates of 1 °C/min, period of 40 s, and an amplitude of 1.5× the value indicated in the Table 3.
+
+In general, for most experiments, a starting weight of 10 mg is advised, and it can be increased for improved sensitivity or decreased for improved resolution.
+
+
+**Selection of Average Heating Rate**
+
+The average heating rate should be selected in such a way that at least 3–4 modulation cycles should fit over the temperature range of the transition either glass transition or other thermal events involving a step-change in heat capacity in order to call the transition/thermal event under consideration with confidence and with no ambiguity. The number of modulation cycles should be determined between the extrapolated on-set and extrapolated end-set of the step and should be 3–4 cycles.
+
+For transitions involving peaks, the minimum is determined at half-height of the peak as illustrated in Fig. 7. At temperature near 250 °C, at half-height of the melting peak near 250 °C, there are roughly 6–7 cycles, which meets the requirement of four \(4\) or more. However, at half-height of the cold-crystallization peak near 150 °C there are only 3 cycles suggesting that the average heating rate is slightly too fast. It is to be noted that this experiment was performed at 4 °C/min and better results would be obtained if it is performed at 3 °C/min as all transitions involving peaks would have four or more cycles at half-height of the peak and meets the requirement. 
+![](images/000011.jpeg)
+
+
+***Fig. 7*** 
+Demonstration of number of modulation cycles within the transitions dependence on the heating rate \[23\]
+
+
+
+
+### **3.2 **Freeze Drying Microscopy \(FDM\)
+
+Freeze drying microscopy is another technique that enables direct observation of physical behavior of the components of the formulation during freezing and freeze drying under a polarized light microscope. It allows the determination of freeze-drying properties such as collapse temperature, crystallization temperature, optimal annealing temperature and time, and eutectic melting temperature.
+
+It involves placing a sample between the cover slips and cryostage chamber which is placed under the microscope, the whole set up acts like a micro freeze-dryer. The sample is then frozen down to a pre-selected temperature and cooling rate, after which a vacuum is pulled down in the chamber to begin the drying process. The structure behind the drying front is watched under the microscope to see whether it is drying with the retention of structure or not. If it is drying with the retention of the structure the temperature is raised slowly in increments until the structure starts breaking. The level of severeness of the breakage of the structure is defined in terms of onset, partial, or full collapse. The temperature of the stage can then be manipulated in order to identify the temperature at which the product will collapse or melt.
+
+#### ***3.2.1 ***Equipment and Experimental Procedure
+
+It is composed of three major components: a \(1\) temperature-controlled freeze-drying stage \(cryostage\), \(2\) an optical window through which the progress of freezing or/and drying in sample can be observed via a microscope, and \(3\) a programmable temperature controller.
+
+
+**Procedure**
+
+Insert the sample holder on the Cryostage and align the XY manipulator so that the sample holder is in the middle of the silver block. Place the quartz crucible within the sample holder and to get a perfect thermal seal between Cryostage and the crucible a small drop of silicon oil on the Cryostage will be helpful. Load approximately 3–5 μL of sample in the center of the quartz crucible and cover it up through a 9 mm glass cover slip using vacuum tweezers. Using XY manipulators move the sample holder so that the edge of the sample sits across the aperture hole of the Cryostage which helps in locating the sample boundary once the analysis starts. Adjust the microscope and focus on edge of sample first with the 10× objective and then with the 20×. Open the software and enter the temperature profile for the experiment.
+
+Before loading and analyzing the product sample it is always a good idea to run some standards such as potassium chloride or sodium chloride to ensure the temperature sensors are calibrated and the findings are reliable.
+
+
+#### ***3.2.2 ***Applications of Freeze-Drying Microscopy
+
+##### ***3.2.2.1 ***Crystalline Systems
+
+In the case of crystalline systems where a crystallizable excipient is included in the formulation and the intended role of it is to provide crystalline matrix besides improving the overall collapse temperature, it is imperative to ensure its complete crystallization during the freezing phase.
+
+It is important to note that the determination of collapse temperature of the crystalline system should be made only after complete annealing of the crystallizable excipient \(example, Mannitol\). The collapse temperature will be the eutectic melting temperature if the system is predominantly crystalline in nature.
+
+In order to achieve complete crystallization of the crystallizable excipient, the temperature and time at which the kinetics of maximum crystallization occurs be identified, and FDM helps to accomplish that.
+
+The experimental procedure should involve first freezing the sample below the *T*g’ of the formulation, at least 6–10 °C below the *T*g’, to create nuclei, prior to annealing. To pinpoint the optimal temperature, bring the temperature to approximately 10 °C above the *T*g’ value to provide mobility and growth of nuclei into crystals and slowly raise the temperature in increments of 2 °C while holding for 15–20 mins at each temperature increment to observe rate of the crystallization growth. Once the annealing temperature is determined at which maximum growth occurs then determine the time needed for complete crystallization as evidenced by a higher collapse temperature in the frozen solution. This identified annealing time and temperature on FDM translates well in the vial and can further be optimized.
+
+An example of the cooling and heating profiles typically used for the determination of collapse temperature of a crystalline system is provided below
+
+
+
+1. 
+1.
+
+
+Ramp down to −45 °C at 10 °C/min
+
+
+
+
+2.  
+2.
+
+
+Hold at −45 °C for 5 min
+
+
+
+
+3.  
+3.
+
+
+Ramp up to −15 °C at 0.25 °C/min
+
+
+
+
+4.  
+4.
+
+
+Hold at −15 °C for 180 min \(Annealing Step\)
+
+
+
+
+5.  
+5.
+
+
+Ramp down to −45 °C at 10 °C/min
+
+
+
+
+6.  
+6.
+
+
+Hold at −45 °C
+
+
+
+
+7.  
+7.
+
+
+Apply Vacuum
+
+
+
+
+8.  
+8.
+
+
+Heat at 5 °C/min till −35 °C
+
+
+
+
+9.  
+9.
+
+
+Heat at 2 °C/min increments and hold for 5 mins at each temperature and observe for drying with loss of structure/when the structure starts breaking either partially called partial collapse and fully called full collapse/eutectic melt till 0 °C.
+
+
+
+
+
+Similar freezing protocol can be used on MDSC to obtain thermal behavior of mannitol or glycine-based formulations as schematically illustrated in Fig. 8. 
+![](images/000012.jpeg)
+
+
+***Fig. 8*** 
+An illustration of determination of thermal events of a crystalline system on MDSC
+
+
+
+##### ***3.2.2.2 ***Case Studies
+
+
+**Amorphous Systems**
+
+Determination of collapse temperature of pure excipient such as sucrose or trehalose, which are the commonly used disaccharides in pharmaceutical/biopharmaceutical, is not difficult as their values are known in the literature and just requires careful attention of the drying front/sublimation front as it gets closer to the known literature values. It would serve as a good amorphous system standard for checking the temperature probe/sensor calibration prior to start of any experiment involving determination of collapse temperature of an amorphous system.
+
+Sometimes if the coverslip is not placed properly on the quartz crucible, the solution squeezes out of the edges and a very thin layer is left in the center and makes observation difficult. Additionally, the squeezed-out sucrose or trehalose dries/crystallizes at the edges making the vacuum penetrate the coverslip difficult and inhibits drying and will not see sublimation front. In Fig. 9a you can see clearly the start of breaking of the structure of sucrose around −31 °C and a full collapse at any temperatures above it, and in Fig. 9b you see for a 2% Raffinose an onset of collapse at −24 °C and full collapse at −21 °C. 
+![](images/000013.jpeg)
+
+
+***Fig. 9*** 
+\(**a**\) Example of 10% sucrose. \(**b**\) Freeze drying microscopy images of 2% Raffinose \(A\) showing onset of collapse at –24 °C \(B\) showing full collapse at −21 °C \[18\]
+
+
+
+Addition of buffer salts or other excipients affects positively or negatively to the overall collapse temperature and *T*g’ of the formulation depending upon the nature of the excipient. For example, Fig. 10 below depicts the collapse temperature depression of sucrose to −37 °C by the addition or presence of Tris. 
+![](images/000014.jpeg)
+
+
+***Fig. 10*** 
+Freeze drying microscopy of a formulation solution containing Sucrose:Tris \[24\]
+
+
+
+Similarly, it can be seen on MDSC thermograms in Fig. 11 the depression of *T*g’ value of pure trehalose from −30 °C to −48 °C by the addition of buffer salts \(in this example the solution contains Tris, phosphate, PEG, and Arginine\). 
+![](images/000015.jpeg)
+
+
+***Fig. 11*** 
+Thermograms of pure Trehalose and a formulation solution containing Tris, phosphate, PEG, and Arginine
+
+
+
+
+However, there are excipients such as cyclodextrin and protein the addition of which will positively improve the overall collapse of the formulation. There are some minimum concentrations required to start seeing positive effects. For example, inclusion of protein will show positive effect only above 20 mg/mL as shown below \[25, 26\]. This is illustrated in Fig. 12 and Table 4. Additionally, a continuous transition from onset to full collapse over a few degrees in temperature instead of a distinct collapse behavior is generally observed, mostly due to the high protein concentration. 
+![](images/000016.jpeg)
+
+
+***Fig. 12*** 
+Freeze drying microscopy photographs depicting effect of protein concentration on the collapse temperature of \(**a**\) 20 mg/mL protein in trehalose formulation \(**b**\) 100 mg/mL protein in sucrose formulation
+
+
+
+
+***Table 4*** 
+Comparison of DSC and FDM results obtained for mAb formulated at various protein concentrations in a formulation buffer
+
+
+
+**mAB concentration \(mg/mL\)**
+
+**DSC**
+
+**Freeze drying microscopy**
+
+***T*g’ ± SD \(°C\)**
+
+***T*c, on \(°C\)**
+
+***T*c, com \(°C\)**
+
+0
+
+−32.6 ± 0.7
+
+−33
+
+−31
+
+10
+
+−31.4 ± 0.4
+
+−32
+
+−30
+
+20
+
+−30.5 ± 0.4
+
+−29
+
+−24
+
+40
+
+−28.7 ± 0.2
+
+−27
+
+−23
+
+60
+
+−26.9 ± 0.1
+
+−27
+
+−17
+
+80
+
+−25.9 ± 0.2
+
+−19
+
+−12
+
+100
+
+−25.9 ± 0.3
+
+−21
+
+−13
+
+
+Data from Ref. \[26\]
+
+
+
+
+The temperature at which initial changes in the structure are observed is referred to as *T*c, on \(onset of collapse or partial collapse\) while when complete loss of structure \(collapse\) is observed it is referred to as *T*c, com.
+
+It is interesting and important to note from Fig. 11 and Table 4 that not only the difference or width between the onset temperature and end of either collapse or end of glass transition increases quite significantly with increase in protein concentration but also the difference between *T*g’ value and the collapse temperature increases. In some cases, especially high protein concentration formulations, the viscous flow is not observed until 13–14 °C away from onset temperature. Hence, it is always prudent/recommended to use FDM to determine the upper temperature limit for a given formulation during primary drying rather than just relying on DSC data.
+
+Additionally, for high protein concentration formulations it is possible, and advantage can be taken to carry out primary drying above the *T*g’ and at or slightly above the *T*c, on without evidence of lack of elegance and stability. This is based on the hypothesis that at high protein concentrations the solids are thickly/densely populated, thereby increasing the viscosity and restricting the mobility resulting in the prevention of macroscopic collapse under the time scale of freeze drying \[26\].
+
+##### ***3.2.2.3 ***Crystalline Systems
+
+As indicated above it is always prudent to calibrate the systems with a standard, and sodium chloride and potassium chloride serve as good standards for determination of eutectic melting temperatures as their eutectic melting temperatures are known to be −21 °C and −11 °C, respectively. They are isotropic in nature, has cubic crystalline lattice structure, where all of the sodium or potassium and chloride ions are arranged with uniform spacing along three mutually perpendicular axes which means you will not see birefringence as you can see with the water or mannitol or glycine or calcite as they are anisotropic.
+
+In a formulation, if all the excipients are crystallizable and crystallize upon freezing, then the collapse temperature would be the eutectic melting temperature \(*T*e\).
+
+Since *T*e are much higher than the *T*c, advantage is taken by creating formulations with the crystalline component being a major component that would enable to perform primary dying with the product temperature above *T*g’ but below *T*e resulting in a significantly shorter lyophilization process. In this situation the product will dry with the collapse of the amorphous component on the surface of the crystalline phase, and the crystalline phase will render the necessary mechanical support to the cake structure, but the impact on the product stability must evaluated \[1, 3\]. On the other hand, if the amorphous phase constitutes the major component and crystalline phase the minor component, then, under those situations *T*e would not be the collapse temperature. The crystallizable excipient will not crystallize as the predominant amorphous component will inhibit its crystallization process and the crystallizable excipient will remain mostly amorphous and contribute to the overall collapse temperature of the formulation.
+
+Pure mannitol has a *T*e in the range of −3 °C to −5 °C. When a sugar like sucrose is added, depending upon the weight ratio, the crystallization of mannitol is inhibited and will remain amorphous and one has to determine the collapse temperature using FDM. Annealing or thermal treatment of mannitol will impact the collapse temperature. For example, in a formulation containing mannitol, sucrose, and protein where mannitol was the predominant component, the collapse temperature was determined to be −20 °C to −23 °C without annealing. However, optimization of annealing conditions \(time & temp\) led to identification of optimal annealing conditions at which the collapse temperature improved from −23 °C to −9 °C as depicted in Figs. 13 and 14, and Table 5. 
+![](images/000017.jpeg)
+
+
+***Fig. 13*** 
+Freeze drying microscopy of an mAb solution formulated in mannitol and sucrose
+
+
+![](images/000018.jpeg)
+
+
+***Fig. 14*** 
+Optimization of annealing temperature and time to improve the *T*g’ value of an mAb solution formulated in mannitol and sucrose
+
+
+
+
+***Table 5*** 
+Freeze drying microscopy and DSC results of optimization of annealing temperature and time for an mAB formulated in mannitol and sucrose
+
+
+
+**S. No.**
+
+**Annealing temperature \(°C\)**
+
+***T*g’ \(°C\)**
+
+**Partial collapse\(°C\)**
+
+1.
+
+No annealing
+
+−34.9
+
+−23
+
+2.
+
+−40
+
+−35.5
+
+−
+
+3.
+
+−30
+
+−23.5
+
+−10
+
+4.
+
+−25
+
+−21.7
+
+−
+
+5.
+
+−20
+
+−15.1
+
+−9
+
+6.
+
+−15
+
+−14.0
+
+−6
+
+7.
+
+−12
+
+−13.3
+
+−6
+
+8.
+
+−10
+
+−12.9
+
+−8
+
+9.
+
+−7
+
+−18.9
+
+−
+
+10.
+
+−5
+
+−21.0
+
+−
+
+
+
+
+**Effect of NaCl on Trehalose and Mannitol**
+
+Freeze drying microscopy was performed on formulation containing trehalose and mannitol in the presence and absence of NaCl to compare the effect of the salt on critical temperatures of the freeze-drying process, especially on the collapse event \[27\]. This analysis showed a significant difference between the collapse temperature \(*T*col\) of these two conditions as expected. As shown in Fig. 15, *T*col was −24.1 °C for the sample without NaCl, and −35.4 °C for the sample with NaCl. Since salts exhibit low *T*g’ values, even low NaCl concentrations \(0.2% m/v or 34 mM\) can significantly depress the *T*g’ values \[27\]. When the product temperature exceeds the *T*g’ value during the lyophilization process, the rigid glass softens to become a highly viscous rubbery material and collapses. 
+![](images/000019.jpeg)
+
+
+***Fig. 15*** 
+Images of freeze-drying microscopy of recombinant human factor IX formulation solution containing Trehalose and mannitol \(**a**\) with NaCl \(**b**\) and without NaCl. The temperature at which the collapse began to be observed was −35.4 and −24.1 °C, respectively. The annealing conditions used were −10 °C for 10 min. \(Adapted from Ref. \[27\]\)
+
+
+
+
+### **3.3 **Estimation of ***T*****g**’
+
+The glass transition temperature of a maximal freeze concentrate \(*T*g’\) of a monophasic multicomponent system can be estimated from the *T*g’ values of the individual components using the Fox equation \[28, 29\] as indicated in Eq. 3.
+
+
+
+
+
+![$$ \frac{1}{T_{\textrm{g}}} = \frac{W_1\ }{T_{\textrm{g}\ 1}}+\frac{W_2}{T_{\textrm{g}\ 2}} $$](images/000020.jpeg)
+
+
+\(3\)
+
+
+Where *W*1 is the weight fraction component 1 and *T*g1 is the glass temperature of pure component 1.
+
+Since the Fox equation applies to multicomponent systems, the impact of a second solute component on *T*g’ of a formulation can be estimated from the equation if *T*gi in Eq. 3 is identified as *T*g’ of aqueous component i, and *W*i are weight fractions of solute relative to the total mass of solute. As illustrated in Fig. 16, the effect of glycine on *T*g’ of aqueous sucrose systems \[30\] is in agreement with Eq. 3, where the *T*g’ value of aqueous glycine is obtained by fitting the data to the Fox equation, as it is difficult to determine the value of *T*g’ of glycine as it readily crystallizes upon freezing. 
+![](images/000021.gif)
+
+
+***Fig. 16*** 
+Effect of glycine on the *T*g’ of amorphous sucrose:glycine frozen systems. \(Data adapted from Shalaev and Kanev \[30\]
+
+
+
+
+**References**
+
+1.  
+1.
+
+Pikal M. Lyophilization. In: Swarbrick J, Boylan JC, editors. Encyclopedia of pharmaceutical technology, vol. 6. New York: Marcel Dekker; 2002. p. 1299–326.
+
+2.  
+2.
+
+Pikal MJ. Mechanisms of protein stabilization during freeze-drying and storage: the relative importance of thermodynamic stabilization and glassy state relaxation dynamics. In: Louis Rey L, May J, editors. Freeze-drying/lyophilization of pharmaceutical and biological products. New York: Marcel Dekker; 1999, Chapter 6.
+
+3.  
+3.
+
+Franks F. Freeze-drying: from empiricism to predictability. Cryo-Letters. 1990;11:93–110.
+
+4.  
+4.
+
+Pikal MJ, Shah S. The collapse temperature in freeze drying: dependence on measurement methodology and rate of water removal from the glassy phase. Int J Pharm. 1990;62:165–86.[Crossref](https://doi.org/10.1016/0378-5173(90)90231-R)
+
+5.  
+5.
+
+Her LM, Nail SL. Measurement of glass transitions of the maximally freeze-concentrated solutes by differential scanning calorimetry. Pharm Res. 1994;11:54–9.[Crossref](https://doi.org/10.1023/A:1018989509893)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8140056)
+
+6.  
+6.
+
+Chang BS, Randall CS. Use of subambient thermal analysis to optimize protein lyophilization. Cryobiology. 1992;29:632–56.[Crossref](https://doi.org/10.1016/0011-2240(92)90067-C)
+
+7.  
+7.
+
+Franzé S, Selmin F, Samaritani E, Minghetti P, Cilurzo F. Lyophilization of liposomal formulations: still necessary, still challenging. Pharmaceutics. 2018;10\(3\):139.[Crossref](https://doi.org/10.3390/pharmaceutics10030139)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30154315)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6161153)
+
+8.  
+8.
+
+Chongprasert S, Knopp SA, Nail SL. Characterization of frozen solutions of glycine. J Pharm Sci. 2001;90\(11\):1720–8.[Crossref](https://doi.org/10.1002/jps.1121)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11745729)
+
+9.  
+9.
+
+Qun L, Zografi G. Properties of citric acid at the glass transition. J Pharm Sci. 1997;86\(12\):1374–8.[Crossref](https://doi.org/10.1021/js970157y)
+
+10.  
+10.
+
+Siow C. Pharmaceutical application scientist, Roquette, M0930-05-34 – insights into the thermal properties and freeze-drying of Hydroxypropyl-beta-Cyclodextrin formulations. AAPS PharmSci. 2019:360.
+
+11.  
+11.
+
+Toru SUZUKI, Rikuo TAKAI, Tsuneo KOZIMA, Felix FRANKS. Effect of glycine on glass transition temperature of sucrose solution \(Papers presented at the 39th Annual Meeting\). Japan J Freez Dry. 1993;39:31–5.
+
+12.  
+12.
+
+Hancock BC, Zografi G. The relationship between glass transition temperature and the water content of amorphous pharmaceutical solids. Pharm Res. 1994;11:471–7.[Crossref](https://doi.org/10.1023/A:1018941810744)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8058600)
+
+13.  
+13.
+
+Jouppila K, Roos YH. Glass transition and crystallization in milk powders. J Dairy Sci. 1994;77:2907–15.[Crossref](https://doi.org/10.3168/jds.S0022-0302(94)77231-3)
+
+14.  
+14.
+
+Saleki-Gerhardt A. Role of water in the solid-state properties of crystalline and amorphous sugars, Ph.D. thesis, Univ. Wisconsin—Madison; 1993.
+
+15.  
+15.
+
+Saleki-Gerhardt A, Zografi G. Non-isothermal and isothermal crystallization of sucrose from the amorphous state. Pharm Res. 1994;11:1166–73.[Crossref](https://doi.org/10.1023/A:1018945117471)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7971719)
+
+16.  
+16.
+
+Pikal MJ, Shah S. unpublished data. Eli Lilly & Co; n.d.
+
+17.  
+17.
+
+Mackenzie AP. Basic principles of freeze drying for pharmaceuticals. Bull Parenter Drug Assoc. 1966;26:101–29.
+
+18.  
+18.
+
+Kett V. Development of freeze-dried formulations using thermal analysis and microscopy. Am Pharm Rev. 2010;
+
+19.  
+19.
+
+Reading M, Hourston DJ. Modulated-temperature differential scanning calorimetry. New York: Springer; 2006.[Crossref](https://doi.org/10.1007/1-4020-3750-3)
+
+20.  
+20.
+
+Modulated DSC® Basics; Calculation and Calibration of MDSC® Signals, Leonard C. Thomas TA Instruments, New Castle.
+
+21.  
+21.
+
+Slade L, Levine H. Glass transitions and water-food. Structure interactions. Crit Rev Food Sci Nutr. 1995;30:115–360.[Crossref](https://doi.org/10.1080/10408399109527543)
+
+22.  
+22.
+
+Levine H, Slade L. Principles of cryostabilization technology from structure/property relationships of carbohydrate/water systems—a review. Cryo-Letters. 1988;9:21–63.
+
+23.  
+23.
+
+Thomas LC. Modulated DSC® paper \#3, modulated DSC® basics; optimization of MDSC® experimental conditions, TA Instruments.
+
+24.  
+24.
+
+Baxter presentation. Courtesy of Gregory Sacha, Senior scientist, Baxter, Bloomington.
+
+25.  
+25.
+
+Liao X, Krishnamurthy R, Suryanarayanan R. Influence of the active pharmaceutical ingredient concentration on the physical state of mannitol—implications in freeze-drying. Pharm Res. 2005;22\(11\):1978–85.[Crossref](https://doi.org/10.1007/s11095-005-7625-x)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16132343)
+
+26.  
+26.
+
+Colandene JD, Maldonado LM, Creagh AT, Vrettos JS, Goad KG, Spitznagel TM. Lyophilization cycle development for a high-concentration monoclonal antibody formulation lacking a crystalline bulking agent. J Pharm Sci. 2007;96:1598–608.[Crossref](https://doi.org/10.1002/jps.20812)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17117409)
+
+27.  
+27.
+
+Almeida AG, Pinto RCV, Smales CM, et al. Investigations into, and development of, a lyophilized and formulated recombinant human factor IX produced from CHO cells. Biotechnol Lett. 2017;39:1109–20. [https://​doi.​org/​10.​1007/​S10529-017-2353-Y](https://doi.org/10.1007/S10529-017-2353-Y), [https://​link.​springer.​com/​article/​10.​1007/​s10529-017-2353-y](https://link.springer.com/article/10.1007/s10529-017-2353-y)[Crossref](https://doi.org/10.1007/S10529-017-2353-Y)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28484912)
+
+28.  
+28.
+
+Fox TG. Influence of diluent and of copolymer composition on the glass temperature of a poly-mer system. Bull Am Phys Soc. 1956;1:123.
+
+29.  
+29.
+
+Gordon M, Taylor JS. Ideal co-polymers and the second order transitions of synthetic rubbers. J Appl Chem. 1952;2:493–500.[Crossref](https://doi.org/10.1002/jctb.5010020901)
+
+30.  
+30.
+
+Shalaev EY, Kanev AN. Study of the solid-liquid state diagram of the water-glycine-sucrose system. Cryobiology. 1994;31:374–82.[Crossref](https://doi.org/10.1006/cryo.1994.1045)
+
+
+

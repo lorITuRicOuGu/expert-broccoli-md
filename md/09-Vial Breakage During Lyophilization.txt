@@ -1,0 +1,362 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_9](https://doi.org/10.1007/978-3-031-12634-5_9)
+
+
+**
+# Vial Breakage During Lyophilization
+**
+
+
+Jim A. Searles1 and Ekneet K. Sahni2  
+
+
+\(1\) 
+Pfizer Biotherapeutics Pharmaceutical Research and Development, Chesterfield, MO, USA
+
+
+\(2\) 
+Pfizer Global Supply, Global Technology and Engineering, McPherson, KS, USA
+
+
+
+
+
+**Ekneet K. Sahni**
+
+**Email: **ekneet.sahni@pfizer.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Use of Strain Gauges to Understand Vial Breakage
+
+**3 **Parameters That Affect Vial Breakage
+
+**3.1 **Vial Handling, Washing, Depyrogenation, and Other Handling in a Production Setting
+
+**3.2 **Product Fill Volume
+
+**3.3 **The “Break-Free” or “Plugging-Off” Event During Freezing
+
+**3.4 **Warming of the Frozen Plug
+
+**3.5 **Crystallizing Solutes
+
+**4 **Conclusions and Recommendations
+
+References
+
+
+## Abstract
+
+This chapter reviews causes of breakage of borosilicate glass vials during lyophilization and provides advice for troubleshooting. Such breakage can contaminate neighboring vials with glass particulate, damage equipment, and disrupt manufacturing operations. Key vial breakage mechanisms are the crystallization of solutes like mannitol; thermal expansion of the frozen plug during warming, and a rapid break-free/plugging-off event during freezing. Volume expansion of water upon freezing is not a major cause of breakage because the fill volume is usually half the vial capacity. We describe how strain gauges can be used at small scale to reveal underlying mechanisms and eliminate the problem. Remediation options include external vial coatings to protect vials from damage in washing and depyrogenation tunnel equipment; internal hydrophobic coating to reduce adherence between the vial and the frozen plug; annealing to ensure full solute crystallization before drying begins; and use of lower initial primary drying product temperature.
+
+
+**Keywords**
+Lyophilization Glass vials Breakage Strain gauges Crystallization Annealing Depyrogenation Mannitol
+
+
+## **1 **Introduction
+
+Glass vials have been used as a primary container closure for many pharmaceuticals with a history of maintaining the container closure integrity, assurance of sterility, and product compatibility while offering low cost \[1, 2\]. However, current pharmaceutical borosilicate glass compositions are nearly the same as they were in the 1930s \[3\]. Limitations of traditional borosilicate glass vials include susceptibility to difficult-to-detect damage during shipping and processing, chemical erosion called delamination, and outright cracking and breakage.
+
+It is of utmost importance to ensure that pharmaceutical products are free from extraneous materials. Cracking or breakage of glass vials in aseptic product manufacturing facilities can lead to the presence of glass particulates within sealed final containers \[4\]. Injection of such particulates can cause life-threatening adverse consequences, including pulmonary emboli and infarction, stroke, and heart attack. In spite of layers of controls and prevention, glass particles in sterile injectable product have caused 8 recalls in the United States between Aug 2017 and May 2021, encompassing 14 lots of 7 products \[5\].
+
+This review will focus upon vial breakage, specifically during the lyophilization process, and mitigations through formulation and process changes. Without considering the product filled into them, the vials that are used for sterile products are able to withstand the temperature changes during lyophilization and freeze-thaw \[6\]. Breakage of vials that occurs during the lyophilization and freeze-thaw processes are the result of excessive forces placed upon the vials by the product within them. Even a small number of broken vials \(<1%\) can cause significant problems in a commercial manufacturing environment, such as impacting the product throughput, jeopardizing the integrity of the unbroken vial due to glass particulates, increased line clearance, potential damage to the equipment and its functionality as well as risking the safety of the personnel.
+
+These challenges are part of the rationale for the development of Schott TopLyo®, EasyLyo by SGD Pharma, and Corning Valor® vials. Pfizer and Merck have partnered with Corning to develop the Valor® vials \[7\], which are composed of aluminium silicate instead of the historical borosilicate glass. They have been shown to be immune from damage or breakage during even the most challenging tests \[8, 9\]. Valor® vials are in the early stages of commercialization, so, therefore, the remainder of this chapter is applicable mainly to borosilicate vials that have been in use for decades.
+
+The 9% volume expansion of water upon freezing can rupture or crack containers, pipes, geologic formations, roads, biological cells, etc. However, during the freezing step of lyophilization, this phenomenon does not break the vials. As we will see below, it does play a role after the initial freezing, during the crystallization of solutes. Why isn’t it a cause of vial breakage during freezing? As discussed below, when vials are filled normally \(to ~50% volume\), there is only a small positive \(expansion\) strain measured upon vials during the ice crystallization phase of freezing \[10–13\]. During freezing on the lyophilizer shelves, the initial ice nucleation event creates a “slushy” mix of ice crystals and a slightly concentrated solute phase \[14\]. This mixture has sufficiently low viscosity \(sufficient flowability\) throughout the liquid volume to allow displacement into the free surface at the top of the liquid fill as the remainder of the freezable water crystallizes from the bottom up.
+
+In this chapter, we will refer to the fully frozen solution in the vial as the “frozen plug” or just “plug.” This is not to be confused with the dried cake present after the lyophilization process.
+
+## **2 **Use of Strain Gauges to Understand Vial Breakage
+
+It can be difficult to simulate vial breakage rates in lab lyophilizers. As detailed below, a major cause of vial breakage can depend upon subtle differences in solute crystallization and product temperature in early primary drying. Such factors can be very difficult to replicate exactly in the lab. The much smaller number of vials in laboratory lyophilizers compared to production also makes it difficult to obtain statistically significant results unless one is dealing with relatively high breakage rates. Strain gauges are an effective laboratory method to understand lyophilization and freeze-thaw product and process aspects that are putting the greatest strain upon vials. While the exact levels of strain would probably differ between the lab and production, the points of a lyophilization cycle causing the highest strain will likely not.
+
+Strain is defined as a change in the physical dimension, for example, length or circumference. Strain has a positive sign for a greater length \(or circumference\) and a negative sign for smaller length. Electrical resistance strain gauge technology has been used in various fields, namely aerospace, railways, bridging cables, and rotating equipment \[15\]. Electrical resistance strain gauges, as the name suggests, undergoe a change in electrical resistance due to dimensional changes in a specific direction. The first use of strain gauges for lyophilization was presented by Gordon Craig et al. of Eli Lilly & Co. in 2004 \[10\]. Subsequent published papers have also utilized strain gauges to study vial breakage during freeze-thaw and lyophilization \[11–13\]. We have also found them to be useful for these purposes.
+
+The electrical resistance of the gauge changes in proportion to the extent of strain experienced and can measure the strain in both axial \(along the vertical direction\) and hoop direction \(along the circumference of the vial and perpendicular to the axis\). As illustrated in the examples below, the strain profile, coupled with knowledge of the formulation, can be used to modify process parameters to reduce the magnitude of the strain events and thereby reduce vial breakage.
+
+## **3 **Parameters That Affect Vial Breakage
+
+### **3.1 **Vial Handling, Washing, Depyrogenation, and Other Handling in a Production Setting
+
+It has been reported in literature that vials are damaged on pharmaceutical fill-finish lines during handling on conveyor belts , impact events, washing, and depyrogenation \[9\]. During these operations, the vials are in frequent contact with one another, in the form of impact events and “frictive sliding \[4\].” Recently, Ditter et al. showed that vial washing and depyrogenation create pits in the glass that impact the surface properties of the glass \[16\]. Residual water from vial washing was found to contribute to greater damage.
+
+Using a very challenging product and laboratory lyophilization cycle, we have found that vials taken from a commercial filling line after filling and before loading into the commercial lyophilizer break at a significantly higher rate than those used direct from the packaging upon receipt \(unpublished data\). The subject vials were conventional uncoated borosilicate glass. The glass had been weakened by damage incurred on the conveyor belts, washing, and depyrogenation tunnel. Chapman et al. \[8\] tested the crush strength of borosilicate and corning Valor® vials before and after commercial-scale vial washing, depyrogenation, filling, lyophilization, and depyrogenation. They found that the conventional borosilicate vials had been significantly weakened by the processing.
+
+Automated loading and unloading systems for lyophilizers can create more damage to vials than manual loading. Imprecise vertical alignment between the lyophilizer shelves and loading/unloading table can cause the bottom heel of vials to impact the transition, checking, or cracking of the vials.
+
+Exterior vial coatings such as tin oxide and polymers can help protect vials from damage during shipping and commercial-scale filling operations.
+
+### **3.2 **Product Fill Volume
+
+Numerous studies have found higher vial and ampoule breakage rates at higher fill volumes. In their 1959 paper, Verma and Rowe found that the percentage breakage was consistently higher, corresponding to higher fill volumes \[17\].
+
+Williams in 1986 studied vial breakage during lyophilization of mannitol solutions \[18\]. The vial had a maximum capacity of 12.5 mL. They found a maximum of 40% breakage at the maximum fill volume tested \(5 mL\). The percent breakage decreased monotonically with lower fill volumes. In 1993, the same authors tested dulcitol \(galactitol\), mannitol, and sorbitol using the same sized vial \[19\]. The same dependence upon fill volume was observed.
+
+In two 2007 papers, Jiang et al. explored freeze-thaw vial breakage for mannitol \[12\] amorphous protein \[13\] formulations. In the first paper, fill volumes from 17% to 50% demonstrated consistently higher breakage rates with higher fill volumes. Breakage reached as high as 100%. In the second paper, with amorphous protein formulations, the breakage rates were lower overall \(maximum was 17% of the vials\), although fill volumes were as high as 75% of capacity.
+
+#### ***3.2.1 ***Interior Vial Coating
+
+Polydimethylsiloxane was patented in 1950 as a surface treatment to enable nearly complete removal of aqueous pharmaceutical liquids from glass containers \[20\]. This “siliconization” treatment is still widely used today for a number of purposes, not the least of which is to reduce vaccine wastage by reducing the required overfill in each vial. In addition, siliconization reduces surface pitting and delamination potentially caused by washing and depyrogenation \[16\], inhibits vial “fogging” during lyophilization \[21\], and can dramatically reduce vial breakage \[17, 18\].
+
+In their 1959 ampoule breakage paper, Verma and Rowe included the effect of siliconization \[17\]. Siliconization of the ampoule interiors reduced the breakage rate in every experiment. In the most dramatic case, breakage was reduced from 95% to 0%. The authors observed that the coating prevented adhesion of the frozen plug to the vial. The Williams et al. 1986 work used siliconized vials and did not find breakage with freezing, but did with warming \[18\]. The lack of freezing-related breakage could be due to the vial siliconization.
+
+Implementation of an internal vial coating should include extensive consideration of interaction between the product and the coating, especially for biologics \[22\].
+
+### **3.3 **The “Break-Free” or “Plugging-Off” Event During Freezing
+
+During freezing, once the vial contents have fully solidified, further cooling will cause contraction. The plug is behaving as any solid does in this case. The thermal expansion coefficient of ice is greater than that of borosilicate glass, so if the frozen plug is adhered to the vial, the thermal contraction will pull the vial walls inward, creating negative strain. At this point, there is potential energy stored in the strained vial. If the adhesion between the plug and the vial is lost, the potential energy will be expended by the vial walls snapping back outward. This “break-free” event, termed “plugging off” in some papers, is the sudden release of the adhesion between the frozen plug and the vial walls. It is characterized by rapid relief of negative vial strain. Figure 1 shows an example strain gauge profile, including plugging off/break-free. It has been posited by Jiang et al. that the sudden shock of this event can break the vial \[13\]. 
+![](images/000001.gif)
+
+
+***Fig. 1*** 
+Comparison of strain profiles at different positions from the fill line of 10-cc vials filled with 70 mg/mL antibody B product during freeze-thaw \(RT 2– 8 °C, –30 °C staging –70 °C, 25 °C\). Three relative positions were examined: close to the top of the solution, in the middle of the solution, and close to the bottom of the solution. \(From Jiang et al. \[13\]\)
+
+
+
+Verma et al. described adhesion of the ice to the ampoule in their 1959 paper \[17\], and Craig et al. observed break-free in their 2004 poster but did not link it explicitly with breakage \[10\]. The break-free event was also described by Milton et al. \[11\]. Jiang et al. \[13\] conducted studies to explain vial breakage mechanism for amorphous protein formulations. An ultimate freezing temperature of −70 °C resulted in more vial breakage than higher freezing temperature of −30 °C. Their studies were supported by Thermal Mechanical Analysis \(TMA\) and strain gauge showing thermal contraction of the amorphous protein formulation when cooled to freezing temperatures below −30 °C, resulting in break-loose event \(their term was “plugging-off”\). The authors mentioned internal vial coatings as a potential mitigation for this breakage mechanism.
+
+The risk of vial breakage due to cooling the frozen plug applies not only to the freezing step but as well to post-annealing re-cooling and product cooling that may occur during initial establishment of vacuum.
+
+### **3.4 **Warming of the Frozen Plug
+
+The fully solidified frozen plug will expand on warming. This has been observed using strain gauges by every study that used strain gauges \[10–13\]. Additional expansion, sometimes happening suddenly, can occur upon the crystallization of any solutes during such warming. Issues presented by crystallizing solutes can be found in the next section below. With an amorphous formulation and a very aggressive lyophilization cycle, we have observed this to cause vial breakage during the shelf temperature increase during early primary drying \(unpublished\).
+
+### **3.5 **Crystallizing Solutes
+
+Crystallizing solutes are common in lyophilized products, and their physical chemistry has been the subject of extensive study. This section is limited to those works that include vial breakage caused by solute crystallization events \[10–12, 18, 19, 23–25\].
+
+It can be beneficial to include a crystallizing solute such as mannitol in lyophilized formulations \[26\]. When fully crystallized during the process \(in a manner that avoids vial breakage\), mannitol increases the effective collapse temperature during drying and helps form a “pharmaceutically elegant” lyophilized cake that has a eutectic melt temperature of −1.5 °C. Crystalline mannitol has even been shown in some cases to improve the reconstitution time of lyophilized high-concentration monoclonal antibodies \[27\]. A preferred method of achieving controlled crystallization of solute during lyophilization is to use an annealing step. A properly designed formulation and annealing step will ensure complete solute crystallization before beginning primary drying, avoiding vial breakage, and assuring complete crystallization at the end of the process.
+
+Williams et al. in 1986 is the earliest publication found that attributes vial breakage to a solute crystallization event \[18\]. In their study of mannitol solutions, they observed that the breakage was occurring during warming after freezing. The breakage event corresponded with a sharp increase in electrical resistance of the frozen plug, and they found the root cause to be crystallization of mannitol. Fast freezing rates of 10–30 °C/min resulted in higher breakage rates during warming than slower freezing rates of 0.3–1.0 °C/min. This was attributed to there being more crystallization of mannitol during freezing at lower rates, and therefore less amorphous mannitol to crystallize during warming. Use of higher concentrations of mannitol corresponded with higher breakage rates. In a 1991 paper, the same group found that even small amounts of an additional solute could inhibit mannitol crystallization and therefore vial breakage \[23\]. A third paper by the group in 1993 used thermal mechanical analysis to observe that volume expansion of the frozen plug accompanied the mannitol crystallization events \[19\].
+
+In their strain gauge study of vial breakage during lyophilization and freeze-thaw, Craig et al. in 2004 studied mannitol solutions \[10\]. They confirmed the previous findings of expansion due to mannitol crystallization upon warming of frozen solutions. Staging at −25 °C during freezing helped reduce the strain that occurred upon heating after freezing. Better results were obtained by annealing at −25 °C.
+
+Hirakura et al. in 2004 published a study of a recombinant protein lyophilized with phosphate buffer and glycine \[24\]. Lyophilization without freezing-hold steps or annealing caused vial breakage and turbidity upon reconstitution. To rectify the problem, they used a pre-treatment consisting of a −6 °C overnight hold after ice nucleation before complete freezing then lyophilization. This staging step allowed crystallization of the sodium dibasic phosphate, avoiding this crystallization with damaging effects later in the cycle.
+
+Ito et al. in 2006 demonstrated that aqueous solutions of 100 mg/mL sodium thiopental with 6 mg/mL sodium carbonate caused 9% ampoule breakage during freeze-drying \[25\]. Increasing amounts of added sodium chloride led to reduced breakage, reaching 0 at 1 mg/mL They also reported that potassium chloride also prevented vial breakage. Other additives lactose, sucrose, and mannitol provided partial reduction of breakage. The authors suggest that the reduction breakage was due to the added solute reducing the amount of water that crystallized as hexagonal ice. This study has not been replicated by others in the published literature.
+
+In a 2007 paper on vial strain with sodium chloride plus sucrose solutions, Milton et al. correlated thermal events on differential scanning calorimetry with strain for freeze-thaw cycles \[11\]. After freezing without staging or annealing, warming caused an increase in strain corresponding a sodium chloride crystallization exotherm. Addition of a −25 °C annealing step significantly reduced the later crystallization and strain upon warming. The authors were the first to reason that vial breakage from solute crystallization is due to volume expansion of crystallizing water molecules rejected from the amorphous phase during the solute crystallization. This paper is an excellent example of the use of appropriate formulation characterization to understand the physical chemistry of crystallization events to determine the appropriate lyophilization or freeze-thaw cycle.
+
+In 2007, Jiang et al. performed an extensive parametric study to investigate different breakage mechanisms for the crystallizable systems utilizing strain gauges and TMA \[12\]. The authors studied different mannitol concentrations \(5% and 15%\), varying fill configurations \(fill volume/vial size ratio\), and different freeze-thaw conditions \(slow, fast, and staging\). As expected, maximum breakage rate was observed for worst case condition with high mannitol concentration and high fill volume. While slow freeze-thaw caused more vial breakage during freezing, fast freeze-thaw resulted in higher breakage rate during thawing. The authors attributed lensing to higher strain experienced in the axial direction as compared to the hoop direction. The breakage mechanism for a crystallizable excipient was due to sudden volume expansion by the authors which was mitigated by introducing a staging step at −30 °C prior to further decrease in temperature to final freezing temperature that allowed complete crystallization of mannitol.
+
+In summary, vial breakage can be caused by rapid solute crystallization events during warming. Staging during freezing or annealing are options for achieving complete solute crystallization and minimizing vial strain. One should utilize Differential Scanning Calorimetry \(DSC\) and powder X-ray diffraction to design these steps to ensure complete crystallization.
+
+## **4 **Conclusions and Recommendations
+
+This chapter provides an extensive overview of the factors impacting vial breakage not only during the lyophilization process but also insight into the stresses experienced by the vials during handling, processing, and line operations weakening the glass before it is introduced into the lyophilizer.
+
+Key aspects to reduce the potential for vial breakage are: 
+
++ 
+The vials should always be subjected to robust inspection for correct packaging, vial damage, flaws, and inclusions.
+
++  
+The formulation should be fully characterized, and the lyophilization cycle should be designed using this information to ensure that crystallizable components in the formulation \(e.g., mannitol or glycine\) are fully crystallized using an annealing step before drying. This will avoid vial breakage during uncontrolled crystallization upon warming during primary drying.
+
++  
+Fill volume should not be greater than about half of the vial’s capacity.
+
++  
+An external vial coating can improve not only line handling but also result in vials that have sustained less damage and are therefore stronger entering the lyophilization process.
+
++  
+The freezing temperature should not be lower than necessary.
+
++  
+An internal hydrophobic coating \(e.g., silicone\) may reduce the risk of breakage during cooling due to break-free/plugging off.
+
+
+
+
+Recommendations for investigating vial breakage in lyophilization: 
+
++ 
+Look for changes in the lyophilization cycle recipe as well as the measured temperatures and pressures for the cycles.
+
++  
+Check for available data on the amount of vial breakage by location in the lyophilizer and between different lyophilizers.
+
++  
+Do not overlook an obvious potential cause for breakage due to excessive or uneven stoppering force. This could be during the vial loading, hydraulic ram or hydraulic pressure gauge malfunction.
+
++  
+A qualified laboratory should be used to inspect broken vials to detect flaws or damage that weakened the vial.
+
++  
+Laboratory lyophilization studies of vial breakage should use vials taken from an appropriate point in the manufacturing line downstream of depyrogenation if replication of production lyophilization breakage is to be attempted. Depyrogenation of vials in the absence of high-force frictive sliding \(e.g., in a lab oven where the vials are stationary\) will probably not weaken the glass in a manner representative of production conditions.
+
++  
+Strain gauges can be used in laboratory lyophilization to identify points during the lyophilization cycle that could cause vial breakage.
+
++  
+To address the strength of the vials entering the lyophilization process, check for vial production or shipping changes that could affect the strength of the vials \[4, 28, 29\].
+
++  
+Any changes to the line operational parameters could also cause an increase in vial damage, which would only be detected downstream as a change in breakage rates. This includes guides and rails on the lines, alignment at transition points \(e.g., automatic lyophilizer loading and unloading\), vial impact events, and changes in quantities of silicone oil used to lubricate the line.
+
+
+
+
+
+**Acknowledgements**
+
+The authors acknowledge Eric Owen, Mark Nachtigall, David Hiebert, and Frank Kanka.
+
+
+
+**References**
+
+1.  
+1.
+
+Sacha GA, Saffell-Clemmer W, Abram K, Akers MJ. Practical fundamentals of glass, rubber, and plastic sterile packaging systems. Pharm Dev Technol. 2010;15\(1\):6–34.[Crossref](https://doi.org/10.3109/10837450903511178)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20088708)
+
+2.  
+2.
+
+Bhambhani A, Medi BM. Selection of containers/closures for use in lyophilization applications: possibilities and limitations. Am Pharm Rev. 2010;13\(4\):86–91.
+
+3.  
+3.
+
+Schaut RA, Weeks WP. Historical review of glasses used for parenteral packaging. PDA J Pharm Sci Technol. 2017;71\(4\):279–96.[Crossref](https://doi.org/10.5731/pdajpst.2016.007377)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28196916)
+
+4.  
+4.
+
+Timmons CL, Liu CY, Merkle S. Particulate generation mechanisms during bulk filling and mitigation via new glass vial. PDA J Pharm Sci Technol. 2017;71\(5\):379–92.[Crossref](https://doi.org/10.5731/pdajpst.2017.007724)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28512178)
+
+5.  
+5.
+
+[https://​www.​fda.​gov/​safety/​recalls-market-withdrawals-safety-alerts](https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts). Accessed 31 May 2021.
+
+6.  
+6.
+
+Machak DR, Smay GL. Failure of glass tubing vials during lyophilization. PDA J Pharm Sci Technol. 2019;73\(1\):30–8.[Crossref](https://doi.org/10.5731/pdajpst.2017.008276)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30361283)
+
+7.  
+7.
+
+Corning Incorporated press release 20 July 2017 Merck and Pfizer collaborate with corning to modernize pharmaceutical glass packaging.
+
+8.  
+8.
+
+Chapman C, Flynn CR, Hoff K. Corning Valor vials demonstrate superior performance by resisting breakage during low temperature processing. 2019. [https://​www.​corning.​com/​media/​worldwide/​global/​documents/​ValorLyoPaper061​819v3.​pdf](https://www.corning.com/media/worldwide/global/documents/ValorLyoPaper061819v3.pdf).
+
+9.  
+9.
+
+Watson D, Cremi J. New vial technology shows promise for manufacturing productivity. PDA Letter 23 April 2020.
+
+10.  
+10.
+
+Craig GD, Moreno M, Mishra D, Milton N, Roy M, Yu L. Presentation at Breckenridge Protein Stability Conference, Breckenridge, CO, 28–31 July 2004. Slides available from gcraig7@att.​net.
+
+11.  
+11.
+
+Milton N, Gopalrathnam G, Craig GD, Mishra DS, Roy ML, Yu L. Vial breakage during freeze-drying: crystallization of sodium chloride in sodium chloride-sucrose frozen aqueous solutions. J Pharm Sci. 2007;96\(7\):1848–53.[Crossref](https://doi.org/10.1002/jps.20854)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17299763)
+
+12.  
+12.
+
+Jiang G, Akers M, Jain M, Guo J, Distler A, Swift R, Wadhwa MS, Jameel F, Patro S, Freund E. Mechanistic studies of glass vial breakage for frozen formulations. I. Vial breakage caused by crystallizable excipient mannitol. PDA J Pharm Sci Technol. 2007;61:441–51.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18410045)
+
+13.  
+13.
+
+Jiang G, Akers M, Jain M, Guo J, Distler A, Swift R, Wadhwa MS, Jameel F, Patro S, Freund E. Mechanistic studies of glass vial breakage for frozen formulations: II. Vial breakage caused by amorphous protein formulations. PDA J Pharm Sci Technol. 2007;61:452–60.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18410046)
+
+14.  
+14.
+
+Searles JA, Carpenter JF, Randolph TW. The ice nucleation temperature determines the primary drying rate of lyophilization for samples frozen on a temperature-controlled shelf. J Pharm Sci. 2001;90\(7\):860–71.[Crossref](https://doi.org/10.1002/jps.1039)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11458335)
+
+15.  
+15.
+
+[https://​www.​sensing-systems.​com/​blog/​strain-gauge-technology-in-field-testing](https://www.sensing-systems.com/blog/strain-gauge-technology-in-field-testing). Accessed 5 Aug 2021.
+
+16.  
+16.
+
+Ditter D, Mahler H, Gohlke L, Nieto A, Roehl H, Huwyler J, Wahl M, Allmendinger A. Impact of vial washing and depyrogenation on surface properties and delamination risk of glass vials. Pharm Res. 2018;35:146.[Crossref](https://doi.org/10.1007/s11095-018-2421-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29796727)
+
+17.  
+17.
+
+Verma NS, Rowe TWG. The breakage of glass ampoules during freeze-drying. Vacuum. 1959;9\(1\):21–7.[Crossref](https://doi.org/10.1016/0042-207X(59)90552-4)
+
+18.  
+18.
+
+Williams NA, Lee Y, Poll GP, Jennings TA. The effects of cooling rate on solid phase transitions and associated vial breakage occurring in frozen mannitol solutions. PDA J Pharm Sci Technol. 1986;40\(4\):135–41.
+
+19.  
+19.
+
+Williams NA, Guglielmc NJ. Thermal mechanical analysis of frozen solutions of mannitol and some related stereoisomers: evidence of expansion during warming and correlation with vial breakage during lyophilization. PDA J Pharm Sci Technol. 1993;47\(3\):119–23.
+
+20.  
+20.
+
+Goldman R. Drain-clear container for aqueous-vehicle liquid pharmaceutical preparations U.S. Patent No. 2,504,482. Washington, DC: U.S. Patent and Trademark Office; 1950.
+
+21.  
+21.
+
+Huang M, Childs E, Roffi K, Karim F, Juneau J, Bhatnagar B, Tchessalov S. Investigation of fogging behavior in a lyophilized drug product. J Pharm Sci. 2019;108\(3\):1101–9.[Crossref](https://doi.org/10.1016/j.xphs.2018.10.015)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30339866)
+
+22.  
+22.
+
+Gerhardt A, Nguyen BH, Lewus R, Carpenter JF, Randolph TW. Effect of the siliconization method on particle generation in a monoclonal antibody formulation in pre-filled syringes. J Pharm Sci. 2015;104\(5\):1601–9.[Crossref](https://doi.org/10.1002/jps.24387)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25740412)
+
+23.  
+23.
+
+Williams NA, Dean T. Vial breakage by frozen mannitol solutions: correlation with thermal characteristics and effect of stereoisomerism, additives, and vial configuration. PDA J Pharm Sci Technol. 1991;45\(2\):94–100.
+
+24.  
+24.
+
+Hirakura Y, Kojima S, Okada A, Yokohama S, Yokota S. The improved dissolution and prevention of ampoule breakage attained by the introduction of pretreatment into the production process of the lyophilized formulation of recombinant human Interleukin-11 \(rhIL-11\). Int J Pharm. 2004;286\(1–2\):53–67.[Crossref](https://doi.org/10.1016/j.ijpharm.2004.07.030)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15501002)
+
+25.  
+25.
+
+Ito T, Yoshioka Y, Sonoda T, Yoshihashi Y, Yonemochi E, Terada K. Mechanism of glass ampoule breakage prevention during the freeze-drying process of sodium thiopental lyophilization products on addition of sodium chloride. J Therm Anal Calorim. 2006;85\(3\):731–9.[Crossref](https://doi.org/10.1007/s10973-006-7663-6)
+
+26.  
+26.
+
+Johnson RE, Kirchhoff CF, Gaud HT. Mannitol–sucrose mixtures—versatile formulations for protein lyophilization. J Pharm Sci. 2002;91\(4\):914–22.[Crossref](https://doi.org/10.1002/jps.10094)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11948529)
+
+27.  
+27.
+
+Kulkarni SS, Suryanarayanan R, Rinella JV Jr, Bogner RH. Mechanisms by which crystalline mannitol improves the reconstitution time of high concentration lyophilized protein formulations. Eur J Pharm Biopharm. 2018;131:70–81.[Crossref](https://doi.org/10.1016/j.ejpb.2018.07.022)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30056143)
+
+28.  
+28.
+
+Eberle L, Svensson A, Graser A, Luemkemann J, Sugiyama H, Schmidt R, Hungerbuehler K. Innovative approach for identifying root causes of glass defects in sterile drug product manufacturing. Eur J Pharm Sci. 2017;104:162–70.[Crossref](https://doi.org/10.1016/j.ejps.2017.03.015)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28315466)
+
+29.  
+29.
+
+Srinivasan C, Ma Y, Liu Y, Wang Y, Hengst L, Liu X, et al. Quality attributes and evaluation of pharmaceutical glass containers for parenterals. Int J Pharm. 2019;568:118510.[Crossref](https://doi.org/10.1016/j.ijpharm.2019.118510)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31302170)
+
+
+

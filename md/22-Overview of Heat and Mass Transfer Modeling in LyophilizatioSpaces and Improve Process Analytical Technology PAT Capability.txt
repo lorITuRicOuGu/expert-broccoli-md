@@ -1,0 +1,709 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_22](https://doi.org/10.1007/978-3-031-12634-5_22)
+
+
+**
+# Overview of Heat and Mass Transfer Modeling in Lyophilization to Create Design Spaces and Improve Process Analytical Technology \(PAT\) Capability
+**
+
+
+Tong Zhu1, 2  , Feroz Jameel3, Pasita Pibulchinda2, Vaibhav Kshirsagar2 and Alina Alexeenko2
+
+
+\(1\) 
+Drug Product Development, AbbVie Inc., North Chicago, IL, USA
+
+
+\(2\) 
+School of Aeronautics and Astronautics, College of Engineering, Purdue University, West Lafayette, IN, USA
+
+
+\(3\) 
+Nimble BioSolutions, Gurnee, IL, USA
+
+
+
+
+
+**Tong Zhu**
+
+**Email: **tzhu@abbvie.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Heat and Mass Transfer Modeling for Process Development
+
+**2.1 **Vial Heat and Mass Transfer Studied by Quasi-Steady One-Dimensional Modeling
+
+**2.2 **Equipment Capability of Lyophilizers Studied by Quasi-Steady 3-D CFD Modeling of Choked Flow Conditions
+
+**2.3 **Creation of the Design Spaces of Various Types
+
+**3 **Heat and Mass Transfer Modeling for Process Monitoring and Optimization
+
+**3.1 **Experimental Data of Chamber and Condenser Pressures, *P*ch and *P*cd
+
+**3.2 **Sublimation Flow Rate Studied by Quasi-Steady 3D CFD Modeling of Subsonic Non-choked Flow Conditions
+
+**3.3 **Model-Based Process Monitoring Using the Chamber to Condenser Pressures Drops
+
+**4 **Summary
+
+References
+
+
+## Abstract
+
+Lyophilization or freeze-drying is a process of removing water by sublimation. It is commonly used to extend the shelf life of drugs in the pharmaceutical industries. Due to a relatively high operational cost and long process time compared with other typical drying approaches, lyophilization process conditions including the pressure and temperature need to be optimized with the help of process analytical technology.
+
+In this chapter, we present an overview of the steady state heat and mass transfer modeling of the drying process both in the vial and in the lyophilizer. The quasi-1D steady state heat and mass transfer modeling for drying in the vial is first reviewed, and then we presented the CFD-based modeling of choked flow limiting conditions to obtain equipment capability of lyophilizers as well as a detailed procedure to create the various types of primary drying design spaces. In addition, CFD modeling is used to find the sublimation rate as a function of pressure drop across the pipe connecting the chamber and the condenser for a wide range of operating conditions, which can be used as an advanced PAT tool for process monitoring and optimization.
+
+
+**Keywords**
+Freeze-drying In-process flow meter Fluid flow modeling CFD Fluid mechanics Lyophilization Pressure variation Process analytical technologies
+
+
+## **1 **Introduction
+
+Lyophilization or freeze-drying is a process of removing water from a drug product containing an active pharmaceutical ingredient with the main goal of providing a prolonged, stable shelf life to the product. Through freezing and subsequent sublimation in such a way that the efficacy and potency of the product is not negatively impacted \[1\]. Thus far, the freeze-drying technique has been applied to manufacturing of pharmaceuticals, biotech products \[2–5\], and emergency food supplies \[5–7\].
+
+The three main phases of freeze-drying relevant for creating design spaces are freezing, primary drying, and secondary drying. First, the solution is frozen during the freezing phase. A low-pressure environment is achieved prior to the drying phase. Water is removed via sublimation of the ice in primary drying and the bound water is removed during the secondary drying phase. During the primary drying phase, the water vapor sublimes from the frozen product, leaving behind a porous lyophilized cake structure. Over a processing time ranging from a few hours to a few days, the sublimation rate decreases as the sublimation front progresses and the cake’s resistance to the flow of water vapor through it grows with its length during the drying process, nitrogen gas is commonly used to help maintain constant pressure inside the chamber. Both water vapor and nitrogen gas flow out of the chamber to the condenser, but only water vapor is condensed into ice on the cold trap in the condenser. The non-condensable gases, mostly nitrogen gas, are removed by the vacuum pump.
+
+One of the indicators of a stable controlled process is the sublimation rate of water vapor. Monitoring this process parameter can be a beneficial tool to determine whether the freeze-drying cycle is running within acceptable limits. In addition, sublimation rate may be required to generate design spaces \[8\] using quality-by-design principles. The design space takes into account the allowable limits on the product, process, and equipment. From a product quality standpoint, it is important that cake collapse is avoided by keeping the sublimation rate such that the product temperature does not exceed critical limits, and cake structure is maintained. On the other hand, the freeze-drying cycle usually has a relatively long process time, where the operating cost can be very high. Developing process conditions that enable the cycle to run at minimum time without affecting the quality of the product is very important. Running the freeze-dryer under full load conditions is recommended to efficiently utilize the machine capabilities. However, if the sublimation rate exceeds a maximum limit, then the flow speed may reach sonic condition and potentially result in “choked flow,” resulting in the loss of pressure control \[9, 10\]. Choking usually first occurs inside the duct where the local velocity of the flow exceeds Mach number Ma = 1, which is the velocity of the speed of the sound. The sound barrier hindered the further increase of vapor flow rate from the chamber to the condenser. As a result, the chamber pressure increases from the setpoint and subsequently increases the product temperature and eventually may lead to cake collapse or failure of the entire batch of product.
+
+Although it is beneficial and important to continuously monitor the sublimation rate in real time, it remains a challenging task. Various mass flow rate measurement technologies have been reviewed \[11\] such as mass spectrometers, near infrared \(NIR\) spectroscopy, manometric temperature measurement and tunable diode laser absorption spectroscopy \(TDLAS\). The TDLAS is a power noninvasive in-line process analytics technology \(PAT\) that measures the concentration and velocity of the water vapor in a duct. While the TDLAS has several advantages over traditional temperature probes or sensors \[12\] and has been implemented on lab scale equipment, it still faces challenges in applications to production lyophilizers. Most of the abovementioned mass flow measurements except TDLAS are intrusive, i.e., they interfere with the product in the vial during the drying process. Although TDLAS is an ideal device with state-of-art technology, it is also significantly more expensive than the simple pressure gauges. Literature has successfully showed that there is a correlation of the pressure drop across the duct and the mass flow rate by simulating asymmetric \(2D\) water vapor flow and comparing the calculated mass flow rate with TDLAS \[9\]. Therefore, due to a lack of real-time PAT tools that can be retrofitted to production scale GMP freeze-dryers coupled with a growing need to monitor the sublimation rate, it may be necessary to look at alternative methods for mass flow measurement. The study presented in this book chapter aims to address the issue.
+
+Previous studies \[13–17\] have shown the applications of numerical methods such as computational fluid dynamics \(CFD\) to evaluate the flow characteristics in a freeze-dryer. Not only have the previous studies shown to produce results that agree with experimental data, but they have also shown the effectiveness of using CFD to investigate into important factors that may influence the freeze dryer process parameters such as chamber pressure or sublimation rate. This study focuses on exploring a new modeling-based method of estimating the sublimation rate by using CFD and pressure measurement. This involves both a numerical analysis in ANSYS FLUENT and experiments using ice slabs to find sublimation rate as a function of pressure drop across the pipe connecting the chamber and the condenser. The experiments are set up by varying the shelf temperature, which in turn governs the sublimation rate. Using condenser pressure and chamber pressure as inputs for flow simulation, the verification is done by comparing the simulated and measured sublimation rate. It was found that sublimation rate and pressure drop show a positive nonlinear correlation and is also dependent on the geometry of each freeze dryer. The authors also present a methodology to apply this CFD based technique at scale to estimate real time sublimation rate using measured chamber and condenser pressures. Such software-based prediction tool, also known as a soft-sensor, can help in-line process monitoring as well as provide insights into the process robustness and validation aspects \[5, 18, 19\].
+
+## **2 **Heat and Mass Transfer Modeling for Process Development
+
+In this section, we discuss modeling of heat and mass transfer in product and equipment that together determine the limits on process inputs which can be used to construct the design space of the primary drying stage.
+
+### **2.1 **Vial Heat and Mass Transfer Studied by Quasi-Steady One-Dimensional Modeling
+
+First, one-dimensional \(1D\) modeling is good for the heat and mass transfer of the primary drying process in a vial, in terms of accuracy and practical prediction/validation along with the typical thermocouple or wireless sensor temperature history data. There are a number of literature that has presented the 1D model \[20–23\], and specifically the accuracy of one-dimensional reduction is validated against a more detailed 2D model \[23\], with the error assessed theoretically. These critical process parameters \(CPPs\) have impact on possible critical quality attributes \(pCQAs\) of the final lyophilized product and are modeled to support the creation of design spaces, which is detailed in Sect. 2.3.
+
+Figure 1 shows a summary of the four types of core input data to a typical 1D-Lyo-Calculator. The basic inputs for the vial and product solution, the three-parameter fitting inputs for *K*v as a function of *P*ch, the three-parameter inputs for *R*p as a function of lck, and finally the typical single step process ramp rate and hold temperature and chamber pressure setpoints. The units typically used are also listed in the table and is consistent with those used in literature \[20\]. 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Four types of core input data to a 1D-Lyo-Calculator, listed with units typically used for lyophilization
+
+
+
+In terms of heat transfer for typical batch drying process, different vials are exposed to nonuniform heating especially near the edge of the shelves, at which the wall contribution may be taken into account by using more detailed modeling \[14, 18\] incorporating the dried cake, the vial glass, and the wall. Nevertheless, in the present work, we focus on the center vial which is representative of the majority of the whole batch. Therefore, the one-dimensional steady-state modeling with a focus on the frozen layer \[5, 19\] has been used.
+
+The total heat transfer to the product in a vial from all the heat sources during lyophilization is characterized by *K*v \[19\]. Normalizing by a reference area, *K*v is defined as: 
+
+
+
+![$$ {K}_{\textrm{v}}=\frac{\dot{Q}}{\left({T}_{\textrm{sh}}-{T}_{\textrm{pr}}\right)\times {A}_{\textrm{v}}} $$](images/000002.jpeg)
+
+
+\(1\)
+
+
+where  ![$$ \dot{Q} $$](images/000003.jpeg)  is the heat transfer rate to the product vial, *T*sh is the heat source temperature, *T*pr is the product bottom temperature, and *A*v is the reference area available for heat transfer which is typically taken as the outer area of the vial bottom. The average shelf surface temperature *T*sh = *T*surf or the heat transfer fluid inlet temperature *T*sh = *T*inlet is often taken as the reference heat source temperature. The latter approach is usually referred to as “total/apparent *K*v” which is easier to obtain since *T*inlet is a controlled cycle parameter, whereas *T*surf is typically not directly measured or controlled. The corresponding *K*v is dependent on the chamber pressure \(*P*ch\) and can be written as: 
+
+
+
+![$$ {K}_{\textrm{v}}\left({P}_{\textrm{c}\textrm{h}}\right)={K}_{\textrm{c}}+\frac{K_{\textrm{p}}\times {P}_{\textrm{c}\textrm{h}}}{1+{K}_{\textrm{D}}\times {P}_{\textrm{c}\textrm{h}}} $$](images/000004.jpeg)
+
+
+\(2\)
+
+
+where *K*C, *K*p, and *K*D are the fitting parameters that can be obtained using regression analysis.
+
+In terms of mass transfer in 1D modeling, the mass transfer coefficient *R*p characterizes the resistance of the dried layer of the cake to the flow of water vapor subliming from the frozen layer beneath, and *l*pr, o is the initial length of the frozen product. *R*p has a typical hyperbolic dependence on the dried layer length, *l*ck, as follows: 
+
+
+
+![$$ {R}_{\textrm{p}}\left({l}_{\textrm{ck}}\right)={R}_0+\frac{A_1\times {l}_{\textrm{ck}}}{1+{A}_2\times {l}_{\textrm{ck}}} $$](images/000005.jpeg)
+
+
+\(3\)
+
+
+where, *R*0, *A*1, and *A*2 are the three fitting parameters for *R*p, and *l*ck = *l*pr, o − *l*pr is the cake length. The workflow of fitting *R*p by fitting to the probed product temperature history using the quasi-steady 1-D Lyo-Calculator follows the literature work \[17, 24\].
+
+Figures 2a to 2c show the 1D Lyo-Calculator model in a vial side-by-side with an illustrated vial in primary drying, where the three stages of heat/mass transfer identified by the three thick arrows. Figures 2d–2f show an example study where *K*v and *R*p are the two main heat and mass transfer characteristic inputs, with which we can predict the product *T*pr\(*t*\) as well as *t*PriDry using the lyophilization cycle input parameters described in Table 1. 
+![](images/000006.jpeg)
+
+
+***Fig. 2*** 
+\(**a**–**c**\) 1D Lyo-calculator model in a vial shown with an illustrated vial in primary drying as well as the typical dried cake. The three stages of heat/mass transfer identified by the three thick arrows. \(**d**–**f**\) An example study where *K*v and *R*p are the two main heat and mass transfer characteristic inputs, as well as predicted product *T*pr\(*t*\) and primary drying time *t*PriDry based on cycle inputs
+
+
+
+
+***Table 1*** 
+Product and process inputs for a mock-up crystalline mannitol-based formulation as a standard case/typical condition
+
+
+
+**Inputs**
+
+**Value**
+
+**Unit**
+
+*V*fill
+
+1.8
+
+ml
+
+*A*p
+
+5.98
+
+cm2
+
+*A*v
+
+7.07
+
+cm2
+
+*C*solid
+
+5%
+
+\(% w/v\)
+
+*T*crit
+
+–31.5
+
+°C
+
+*K*v
+
+*K*c
+
+1.25
+
+10−4 cal/s/K/cm2
+
+*K*p
+
+33.20
+
+10−4 cal/s/K/cm2/Torr
+
+*K*D
+
+2.52
+
+/Torr
+
+*R*p
+
+*R*p, max
+
+4.0
+
+cm2-Torr-hr/g
+
+
+
+### **2.2 **Equipment Capability of Lyophilizers Studied by Quasi-Steady 3-D CFD Modeling of Choked Flow Conditions
+
+Next, we consider equipment capability of lyophilizers which limits how aggressive or how fully loaded on a particular lyophilizer can the process operates at, therefore, also impacting the design space as the product aspect does. Although the chamber pressure in the lyophilizer is controlled, it is usually only controlled in a one-sided fashion by adding inert gases \(e.g., dry nitrogen\) when the vapor pressure in the chamber is lower than the set-point of *P*ch. There are cases where the vapor pressure itself gets higher than of *P*ch and the process goes “out of control” for a duration of time. For a properly functioning lyophilizer \(without condenser being overloaded\), this usually may happen due to a larger sublimation rate than the equipment can deliver before the vapor flow reach the sonic limit in the throat of the flow path \(usually in the duct connecting the chamber and condenser\) regardless of the pumping capacity.
+
+In order to determine this equipment capability of maximum vapor flow rate for any given set point of *P*ch, the heat and mass transfer in a lyophilizer can be modeled using CFD modeling. Figure 3 shows a typical end-to-end workflow starting from obtaining key equipment and process information all the way to set up CFD cases of choked flow conditions occurred due to high chamber-to-condenser pressure ratio, and the details of these procedure can be found from our prior studies \[16, 17\]. As an outcome, the equipment capability can be evaluated as the maximum attainable sublimation rate under a target chamber pressure without losing control on the process. 
+![](images/000007.jpeg)
+
+
+***Fig. 3*** 
+A typical workflow to obtain key equipment and process information to set up CFD cases of choked flow conditions to compute equipment capabilities \(Note: Schematics from various lyophilizers are used, for demonstration purpose only\)
+
+
+
+Figure 4 shows as an example a typical boundary condition set up in CFD cases for a lab scale lyophilizer, LyoStar3®. The nitrogen gas inlet boundary was located at the top wall of the Lyostar 3 chamber. The ice slabs and the nitrogen inlet were specified as pressure inlet boundaries to match the experimental chamber pressure set points. Specifically for choked flow conditions, as was mentioned above that nitrogen inlet is shut off due to high vapor pressure reaching the chamber pressure set-point on its own. The outlet boundary or condenser outlet was specified as a pressure outlet that is equal to the time-averaged condenser pressure from the measurements during a specific freeze-drying process. Note that in the experimental choked flow conditions, the condenser pressure is usually very low \(e.g., <20 mTorr\) and is not going to impact the choked flow rate upstream of the sonic line in the flow field. 
+![](images/000008.jpeg)
+
+
+***Fig. 4*** 
+Typical boundary condition set up in CFD cases for a lab scale lyophilizer, LyoStar3
+
+
+
+Shelve surfaces \(except for their top face modeled as the sublimation front\) and supporting cages were modeled as adiabatic walls because they are located inside the chamber and the convective heating is insignificant. The flow inlet temperature from the sublimation front was set to the shelf temperature. The chamber wall temperature was set as isothermal wall at 0 °C according to the measurements \[25\] on the inner surfaces of the door and walls of the chamber from a typical lyophilization run performed on LyoStar3.
+
+Figure 5 shows a three-view drawing \(shown as surface plots\) of the CFD-modeled pressure distribution on the center plane as viewed from the side of LyoStar3 in a choked flow case. From Fig. 5b, one can see that the pressure drop in the lyophilizer is mostly along the *Y*-axis, i.e., from the chamber to the condenser, following the pressure gradient created by the condensation coil trapping water vapor. The overall pressure drop from chamber to condenser is discussed as follows. There is at first a modest pressure drop from the chamber to the duct due to the entrance flow effect at around *Y* = –0.2 m, followed by linear drop of pressure along the duct due to subsonic Poiseuille-type pipe flow. Then a significant pressure drop is observed across the butterfly valve in the duct at around *Y* = –0.4 m where the narrowest cross-section of the duct flow becomes the throat for choked flow to occur. Near the exit of the duct at around *Y* = –0.45 m, there is a nonlinear pressure drop due to the further supersonic expansion of the vapor flow into the condenser. From Fig. 5c, the relatively high pressure gradient regions in the surface plot is revealed by the gray scale \(especially near the valve, entrance and exit of the duct\). From Fig. 5d, we can see that the asymmetry of the pressure distribution is minimal in both the chamber and the duct despite of the front-positioned duct, mostly due to the very slow flow velocities in the chamber and a relatively long duct for the flow to fully develop within. 
+![](images/000009.jpeg)
+
+
+***Fig. 5*** 
+A three-view drawing of the surface plot of the pressure distribution on the center plane as viewed from the side of LyoStar3 in the choked flow case. \(**a**\) 3D perspective view. \(**b**\) 2D view in the *Y–Z* plane. \(**c**\) 2D view in the *X–Y* plane. \(**d**\) 2D view in the *X–Z* plane
+
+
+
+Figure 6 shows a similar three-view drawing for a pilot-scale lyophilizer \(manufactured by HOF Sonderanlagenbau GmbH\), where the pressure distribution pattern is different from LyoStar3 mostly due to its duct-free, internal condenser design, with only a rectangular valve to separate the chamber and condenser. Particularly, it can be seen in all the subfigures that the pressure drop is mostly due to the entrance flow effect near the opening of the rectangular value at around *Y* = 0 m location. This is much less restriction to the vapor flow compared to the LyoStar3 case, leading to a higher equipment capability. 
+![](images/000010.jpeg)
+
+
+***Fig. 6*** 
+A three-view drawing of the surface plot of the pressure distribution on the center plane as viewed from the side of a pilot-scale lyophilizer in the choked flow case. \(**a**\) 3D perspective view. \(**b**\) 2D view in the *Y–Z* plane. \(**c**\) 2D view in the *X–Y* plane. \(**d**\) 2D view in the *X–Z* plane
+
+
+
+### **2.3 **Creation of the Design Spaces of Various Types
+
+With heat and mass transfer modeling within the frozen product as well as the lyophilizer demonstrated in the preceding subsections, a design space of the primary drying stage can be created in either of the two following ways: empirical or systematic design.
+
+In the early stage of development, an empirical approach can be employed to recommend the design of process inputs independently in an uncoupled way \[26\] corresponding to univariate PAR ranges. However, when the lyophilization process is to be scaled-up to later stage manufacturing, the efficiency of the process time and the safety of the product quality become increasingly important \[7\]. In the past decade, the concept of quality by design \(*QbD*\) in process development has been recommended, emphasizing on the creation of process design spaces as an efficient process development tool \[8, 17, 27–29\] to enable cycle optimization with robustness assessed.
+
+There are a few ways to construct the process design space. First, there is the static design space for selecting single-step primary drying setpoints, and then there is the dynamic design space for selecting multistep or continuously varying primary drying setpoints based on real-time cake length \[30\]. Furthermore, with extensive product-process characterization of product *R*p when dried at various conditions, it is possible to construct the design space with variable *R*p as a function of cake length \(e.g., due to microcollapse\). In this chapter, however, we focus on building a static design space for the single-step primary drying \(*T*sh, *P*ch\) setpoints when dried with a static/nondeforming cake structure \(with little to no microcollapse\), which is the most popular design approach that is safe and robust, yet easy to implement. In this approach, the design space is based on computations using the quasi-steady state 1-D model for heat and mass transfer in freeze drying with reliable *K*v and *R*p characterized for the relevant primary drying conditions referred to as the knowledge space, and the critical process parameters \(CPPs\) can be computed as: 
+
+
+
+![$$ \left[\ {T}_{\textrm{p}\textrm{r},\max },{\left(\frac{dm}{dt}\right)}_{\textrm{max}},{t}_{\textrm{PriDry}}\ \right]=f\left(\ {T}_{\textrm{sh}},{P}_{\textrm{ch}},{K}_{\textrm{v}}\left({P}_{\textrm{ch}}\right),{A}_{\textrm{v}},{l}_{\textrm{p}\textrm{r},0},{R}_{\textrm{p}},{c}_{\textrm{solid}}\%\right) $$](images/000011.jpeg)
+
+
+\(4\)
+
+
+where  ![$$ {l}_{\textrm{pr},0}=\frac{V_{\textrm{fill}}}{A_p} $$](images/000012.jpeg) .  ![$$ {T}_{\textrm{pr},\max }\ \textrm{and}\ {\left(\frac{dm}{dt}\right)}_{\textrm{max}} $$](images/000013.jpeg)  are the maximum product temperature and sublimation rate, respectively. *t*PriDry is the primary drying time, *A*v is the outer area of the vial cross section, and *l*pr, 0 is the initial frozen product thickness.
+
+The occurrence of the max product temperature is usually close to the end of drying with the thickest dried layer. A fast-design space was proposed \[7\] for application of this approach with the benefit of getting an analytical expression of the *T*crit-based boundary of design space. The effect of *T*crit, *K*v, and *R*p on the size and shape of the design space can be easily visualized and studied. In addition, it is important to note that the maximum sublimation rate occur in the early stage of primary drying \(close to the end of shelf ramping\), instead of close to the end of drying where the sublimation rate may be 10–20% lower. In order to capture this behavior more accurately, it is recommended to compute the complete sublimation rate history over time for each \(*T*sh, *P*ch\) setpoint studied within the knowledge space and record its maximum in the entire process.
+
+As an example, we study a mock-up crystalline mannitol-based formulation in a development freeze dryer, and Table 1 summarizes all the input conditions.
+
+We compute the following chosen combinations of *T*sh and *P*ch seeded from a wide knowledge space of *T*sh between −20 and 100 °C and *P*ch from 0 to 350 mTorr \(note that these ranges are wider than the typical capabilities of lyophilizers and are intended solely for mapping out the theoretical design space\): 
+
+
+
+![$$ {T}_{\textrm{sh}}\left({}^{{}^{\circ}}\textrm{C}\right)=\left[-20\hbox{--} 10\ 0\ 20\ \textrm{60,100}\right] $$](images/000014.jpeg)
+
+
+
+
+
+![$$ {P}_{\textrm{ch}}\left(\textrm{mTorr}\right)=\left[0\ 50,100,150,200,250,300,350\right] $$](images/000015.jpeg)
+
+
+
+
+
+The sublimation flux and product temperature histories in primary drying are modeled based on Eq. \(4\) for these 6 × 8 = 48 *T*sh and *P*ch combined conditions, and the two key outputs of  ![$$ {T}_{\textrm{pr},\max }\ \textrm{and}\ {\left(\frac{dm}{dt}\right)}_{\textrm{max}} $$](images/000016.jpeg)  are recorded for creation of the design spaces.
+
+There are multiple ways to present the design space for the primary drying stage \[7\], centered around the representation of  ![$$ {T}_{\textrm{pr},\max }\ \textrm{and}\ {\left(\frac{dm}{dt}\right)}_{\textrm{max}} $$](images/000017.jpeg)  as functions of two selected input parameters in rectilinear coordinate system. As was shown in Fig. 7, the *X*-axis represents the chamber pressure in both types of design space diagrams, whereas the *Y*-axis represents the sublimation flux \(type 1, Fig. 7a\) and the shelf temperature \(type 2, Fig. 7b\), respectively. 
+![](images/000018.jpeg)
+
+
+***Fig. 7*** 
+Illustration of various types of design space created with the following input parameters as the *X* and *Y*-axes \(**a**\) Type 1: Pch and *dm/dt/dA* \(**b**\) Type 2: *T*sh and *P*ch. Note: *P*ch is the chamber pressure, *T*sh is the shelf temperature, *dm/dt/dA* is the sublimation flux. The red \(solid\) and blue \(dashed\) lines are the isotherms for *T*sh and *T*pr, respectively. The green \(solid\) and blue \(solid\) lines are the equipment and the product limit, respectively
+
+
+
+The type 1 design space is the most widely used in the literature for conveniently including the equipment limit \(solid green line\), as well as the product limit \(solid blue line\) to form a safe zone of operation \(shaded yellow region\). On the contrary, the type 2 design space is the most useful for the selection of an operating condition since *P*ch and *T*sh are represented in *X–Y* linear scales, respectively. In a previous study \(cite \[27\]\), step-by-step guidance to create the type 1 design space was provided. In the current work, we propose an alternative approach to create both the type 1 and type 2 design spaces. This approach uses a Matlab®-based Lyo-Calculator tool to model the heat and mass transfer at various conditions and is illustrated in details below.
+
+Figure 8 shows the step-by-step construction of the type 1 design space. Figure 8a shows the points on various isolines of maximum sublimation flux for a target input *T*sh = 60 °C at four selected Pch conditions \(red dots\), and these were obtained from Fig. 8b based on the maximum sublimation flux computed for the relevant \(*T*sh, *P*ch\) conditions \(red hollow circles\). Figure 8c shows the isotherms for various maximum product temperatures, *T*pr, max, at the relevant combinations of \(*T*sh, *P*ch\) conditions, which can be identified in subfigure \(d\) at the four \(*T*sh, *P*ch\) conditions studied above \(red circles\). Eventually in Fig. 8c again, the various *T*sh and *T*pr, max isotherms are integrated, shown along with the equipment capability \(green solid line\) and the product critical temperature limit \(blue solid line\). 
+![](images/000019.jpeg)
+
+
+***Fig. 8*** 
+Step-by-step construction of the type 1 design space. \(**a**\) and \(**b**\) illustrate the construction of one isoline of maximum sublimation flux; \(**c**\) and \(**d**\) further integrate the maximum product temperatures, *T*pr, max into the final design space which is summarized in \(**c**\)
+
+
+
+Figure 9 shows the construction of the type 2 design space, where Fig. 9a shows *T*sh – *P*ch conditions \(red dots\) on various product temperature isotherms which is obtained from Fig. 9b based on the maximum product temperature, *T*pr, max, computed for the relevant \(*T*sh, *P*ch\) conditions \(red circles\). In Fig. 9c, the complete isotherms for various maximum product temperatures, *T*pr, max, at the relevant combinations of \(*T*sh, *P*ch\) conditions are created. Eventually in Fig. 9d, the product critical temperature limit \(blue solid line\) and the equipment capability \(green dashed line\) are integrated into Fig. 9c. As an example, at the yellow star location, the process condition of *T*sh = 60 °C and *P*ch = 100 mT is reaching the equipment capability without choking the lyophilizer. 
+![](images/000020.jpeg)
+
+
+***Fig. 9*** 
+Step-by-step construction of the type 2 design space. \(**a**\) and \(**b**\) illustrate the computation of maximum product temperature for an given Pch; \(**c**\) shows all the isoline of maximum product temperature, and \(**d**\) has integrated critical temperature limit \(blue solid line\) and the equipment capability \(green dashed line\) into the design space
+
+
+
+## **3 **Heat and Mass Transfer Modeling for Process Monitoring and Optimization
+
+Computational methods can also be used for determining in process variables such as a mass flow rate for cases where the flow is not choked. This is an application of more systematic CFD modeling and can be especially useful when PAT such as TDLAS or heat flux sensors are not available. For this method, we rely on the flexibility of CFD simulations to generate a soft sensor, from which sublimation rates can be determined as well as validated based on known process variables such as chamber and condenser pressure.
+
+### **3.1 **Experimental Data of Chamber and Condenser Pressures, ***P*****ch** and ***P*****cd**
+
+The experimental work for this study was conducted at Baxter Pharmaceutical Solutions LLC, Bloomington, IN, using a laboratory scale freeze-dryer, Lyostar 3 \(SP Industries, Inc. Warminster, PA, USA\) with the key dimensions shown in Table 2. This freeze dryer was equipped with TDLAS \(Lyoflux 200\) in the duct, capacitance manometers in both the chamber and the condenser as well as a Pirani gauge in the chamber. 
+
+
+***Table 2*** 
+Basic dimensions of the lyophilizer
+
+
+
+**Dimension**
+
+**Lyostar 3**
+
+Diameter of the duct \(cm\)
+
+10.5 cm
+
+Length of the duct
+
+61.05 cm
+
+Duct extension into condenser
+
+0.9 cm
+
+One shelf surface area \(m2\)
+
+0.1409
+
+Shelf clearance \(three-shelf configuration\)
+
+7.3 cm
+
+Type of connection duct valve
+
+Butterfly
+
+
+
+Specifically, ice slabs were carefully prepared by covering three bottomless trays with trash bags that were checked for leakage. The ice slabs were created on the shelves of the freeze dryer. Then each ice slab was poured with ~2 liters of ultrapure, deionized water. Freezing was carried out overnight at −40 °C. After freezing was done, the system was evacuated, and the pressure was controlled initially at 100 mTorr using a nitrogen bleeding valve. The shelf temperature was ramped up in steps and held at −10, 0, and −20 °C, respectively, for a certain amount of time to reach thermal equilibration with the product to enable getting a good time average of the measured vapor flow rate. Figure 10a shows the process temperature history measured at the inlets of shelf, *T*sh, and condenser, *T*cd, on the left axis as well as the instantaneous mass flow rate measured using TDLAS on the right axis. Figure 10b shows the chamber and condenser pressure history measured by the capacitance manometer, as well as the Pirani pressure in the chamber. Table 3 shows the time-averaged chamber and condenser pressure over each step as well as the time-averaged mass flow rate measured by TDLAS, with data corresponding to chamber pressure at 50 and 100 mT shown consecutively. 
+![](images/000021.jpeg)
+
+
+***Fig. 10*** 
+\(**a**\) Process temperature history measured at the inlets of shelf, *T*sh and condenser, *T*cd on the left axis as well as the instantaneous mass flow rate measured using TDLAS on the right axis. \(**b**\) Chamber and condenser pressure history measured by the capacitance manometer, as well as the Pirani pressure in the chamber
+
+
+
+
+***Table 3*** 
+The time-averaged chamber and condenser pressure over each step as well as the time-averaged mass flow rate measured by TDLAS in comparison with those modeled by CFD
+
+
+
+**Pch \(mTorr\)**
+
+**Pcd \(mTorr\)**
+
+**\(g/hr\)**
+
+**\(g/hr\)**
+
+**% of difference between CFD and TDLAS**
+
+50
+
+24
+
+60.4
+
+50.4
+
+19.84
+
+100
+
+34
+
+218
+
+189.7
+
+14.92
+
+100
+
+53
+
+199.8
+
+193.3
+
+3.36
+
+100
+
+62
+
+183
+
+139
+
+31.65
+
+100
+
+66
+
+173
+
+137.2
+
+26.09
+
+100
+
+73
+
+152
+
+129.6
+
+17.28
+
+100
+
+81
+
+121
+
+97.6
+
+23.98
+
+
+
+### **3.2 **Sublimation Flow Rate Studied by Quasi-Steady 3D CFD Modeling of Subsonic Non-choked Flow Conditions
+
+The CFD modeling for non-choked flow conditions in Sect. 3.1 is set up in a very similar way as the choked flow cases which was shown in Fig. 4, with the only difference in the boundary condition where a non-zero nitrogen flow rate inlet is used \[31\]. The steady-state vapor flowrate was computed by CFD modeling using Pch and Pcd as the two independent inputs.
+
+
+**Important Note**
+
+In recent literature \[14, 32\], it is found that the details of the vapor and nitrogen flow in the condenser have an impact on the behavior of the chamber to condenser flow and need to be included for a state-of-art understanding of the moisture distribution in the entire lyophilizer as well as the condenser performance. Nevertheless, we show here an example of the construction of a soft-sensor with the condenser not represented in detail, but rather an average condenser pressure is represented at the exit of the duct. This approach was earlier suggested \[9\] as fit-for-purpose when modeling of the product chamber is of most interest and later validated in studying the pressure variation in product chamber \[33, 34\]. Our modeling approach has been verified by repeating a particular case in the prior modeling study \[33\], which is shown in Fig. 11 by a three-view drawing of the surface plot of the pressure distribution. From Fig. 11b, we can see that the pressure drop in the lyophilizer is steepest mostly along the *Y*-axis, similar to the choked flow case in Fig. 5. There is a linear drop of pressure throughout the duct due to subsonic pipe flow \(the valve was also omitted in this modeling study\). Near the inlet of nitrogen in the product chamber, there is a local peak in total pressure due to the stagnation effect of the inlet nitrogen impinging on the uppermost shelf. From Fig. 11c, regions with high pressure gradient in the surface plot are revealed by the gray scale \(higher near the nitrogen inlet and entrance of the duct\). From Fig. 11d, we can see a hyperbolic-type local pressure distribution between the shelf area due to the restriction of the relatively small shelf gap. These results were verified as well as validated with experimental studies \[34\] and support the reliability of our current CFD modeling setup moving forward. 
+![](images/000022.jpeg)
+
+
+***Fig. 11*** 
+A three-view drawing of the surface plot of the pressure distribution \(non-choked, LyoStar3\). \(**a**\) 3D perspective view. \(**b**\) 2D view in the *Y–Z* plane. \(**c**\) 2D view in the *X–Y* plane. \(**d**\) 2D view in the *X–Z* plane
+
+
+
+
+Using the verified CFD modeling settings described above, we have performed five series of simulations at fixed chamber pressures of *P*ch = 50, 100, 150, and 200 mTorr and various condenser pressures, *P*cd for each *P*ch in order to generate a wide range of mass flow rate as well as pressure ratio conditions. As an example, Fig. 12 shows the computed mass flow rates \(blue line, left axis\) and the Mach number \(red line, right axis\) at various condenser pressures for the *P*ch = 200 mTorr case. Also inserted in this graph are the modeled pressure contours corresponding to the five selected *P*cd cases. 
+![](images/000023.jpeg)
+
+
+***Fig. 12*** 
+Computed mass flow rates \(blue line, left axis\) and the Mach number \(red line, right axis\) at various condenser pressures for the *P*ch = 200 mTorr case. Inserted contour plots: modeled pressure contour plots corresponding to the five selected *P*cd cases
+
+
+
+Figure 13 shows the computed mass flow rates at various condenser pressures, *P*cd for all the chamber pressures of *P*ch = 50, 100, 150, and 200 mTorr, which are compared with the experimental data \(in the orange “×” symbols\) that was obtained at *P*ch = 50 and 100 mTorr conditions. 
+![](images/000024.jpeg)
+
+
+***Fig. 13*** 
+Computed mass flow rates at various condenser pressures, *P*cd for all the chamber pressures of *P*ch = 50, 100, 150, and 200 mTorr. Red-shaded region represents the conditions that flow’s velocity exceeds Mach 1. Blue-shaded region represents the incompressible Poiseuille flow region. The symbols represent the computed mass flow rate. Green “×” and pink “\+” symbols represent the mass flow rate from TDLAS for *P*ch = 100 and 50 mTorr, respectively
+
+
+
+The Ideal choked flow \(Mach = ~1\) and incompressible flow regimes \(Mach < 0.3\) are identified from modelling results and are shaded with red and blue regions in the graph, respectively. The white region in-between are compressible flow conditions that are typically encountered in the majority of the primary drying stage.
+
+The mass flow rate obtained using the CFD and measured by TDLAS are also shown in the third and fourth columns of Table 3, respectively. The percentage difference between the two or the relative error in CFD prediction is stored in the last column, which is less than ~25% for most of the flow rate conditions studied. Typically in lab scale equipment, the TDLAS has an error ranging between 5% and 10%. It should however be noted that the accuracy of TDLAS can be as high as 20% in production scale freeze-dryers \[35\] where the duct dimensions increase and the flow asymmetry becomes more prominent. In contrast, the accuracy of CFD simulations is less size-independent and have a numerical error of up to 10% in the current set-up. These uncertainties excluded, the remaining difference of ~10% between modeled and experimental flow rate is mostly attributed to the simplification of the condenser details in the CFD models, as was pointed out in the “Important Notes” in Sect. 3.2. Therefore, the CFD predictions are in considerably good agreement with the TDLAS data and is fit-for-purpose in the current study.
+
+### **3.3 **Model-Based Process Monitoring Using the Chamber to Condenser Pressures Drops
+
+Ultimately, the goal of our pressure based soft-sensor is to computationally determine the mass flow rate by using the measured chamber and condenser pressure. Figure 14 illustrates the pressure based soft-sensor that was built as a contour plot based on interpolation of the CFD computational mass flow rate discussed in Fig. 13 over chamber pressure range 50–200 mTorr and condenser pressure range from 0 mTorr up to the chamber pressure. The black circles represent the conditions where CFD cases were computed at. Choked flow occurs where the chamber to condenser pressure ratio is high and is represented as the region to the left side of the Mach 1 limit line. The non-choked region is shown to the right side of the Mach 1 limit line. 
+![](images/000025.jpeg)
+
+
+***Fig. 14*** 
+Lyostar 3 mass flow rate soft-sensor illustrated as a contour plot based on interpolation of the CFD computational mass flow rate, with a resolution of 20 g/hr per color scale. Choked and non-choked regions of operating conditions were distinguished clearly by the white line at Mach 1 limit. The black circles represent the conditions where CFD cases were computed at. Red star: an example non-choked condition with mass flow rate of \(300 ± 10\) g/hr
+
+
+
+As an example, we show how to use this pressure based soft-sensor for a specific condition on Lyostar 3 where no direct experimental data was obtained \(such as gravimetric or TDLAS\). The operating condition is at *P*ch of 150 mTorr and the condenser pressure *P*cd at approximately 100 mTorr. Using the soft-sensor in Fig. 14, the steady state flow solution at this condition can be found at the red star marked in Fig. 14, which is a non-choked condition with mass flow rate of \(300 ± 10\) g/hr as indicated by the contour legend. Such use of a soft-sensor can be quite convenient for in-line PAT purpose in process monitoring, as well as can provide insights into the robustness of the operating condition with respect to the control and deviation analysis of the chamber pressure.
+
+## **4 **Summary
+
+The quasi-1D steady state heat and mass transfer modeling for primary drying in the vial is reviewed, and then the CFD-based modeling of choked flow limiting conditions to obtain equipment capability of lyophilizers as well as a detailed procedure to create the various primary drying design spaces is presented. In addition, CFD modelling on non-choked flow conditions are shown to find the sublimation rate as a function of pressure drop across the pipe connecting the chamber and the condenser for a wide range of operating conditions. This can aid in building a soft-sensor, which can be used as an advanced PAT tool for process monitoring and optimization.
+
+
+**Acknowledgment**
+
+The authors would like to sincerely thank Drs. Steve Nail and Greg Sacha from Baxter, Bloomington, IN for their insights, discussion, and help during experimental data collection. This work was supported in part through a grant offered to the Purdue-Baxter collaboration by the Indiana Manufacturing Competitiveness Center \(IN-MAC\).
+
+
+
+**References**
+
+1.  
+1.
+
+Jennings TA. Lyophilization: introduction and basic principles. CRC Press: Boca Raton; 1999.
+
+2.  
+2.
+
+Jameel F, Searles J. Development and optimization of the freeze-drying processes. In: Formulation and process development strategies for manufacturing biopharmaceuticals. Hoboken: Wiley; 2010.
+
+3.  
+3.
+
+Jameel F, Zhu T, Mills BJ. Design of a bulk freeze-thaw process for biologics. In: Development of biopharmaceutical drug-device products, vol. 35. Cham: Springer; 2020. p. 461.
+
+4.  
+4.
+
+Jameel F, et al. Development and scale-up of the mixing process for biopharmaceuticals. In: Development of biopharmaceutical drug-device products. Cham: Springer; 2020. p. 539–65.
+
+5.  
+5.
+
+Moussa EM, Zhu T, Jameel F. Development of robust lyophilization process for therapeutic proteins: a case study. In: Development of biopharmaceutical drug-device products, vol. 35. Cham: Springer; 2020. p. 391.
+
+6.  
+6.
+
+Ganguly A, Nail SL, Alexeenko AA. Rarefied gas dynamics aspects of pharmaceutical freeze-drying. Vacuum. 2012;86\(11\):1739–47.[Crossref](https://doi.org/10.1016/j.vacuum.2012.03.025)
+
+7.  
+7.
+
+Jameel F, et al. Rational design of a freeze-drying process for protein products. In: Development of biopharmaceutical drug-device products. Cham: Springer; 2020. p. 499–537.
+
+8.  
+8.
+
+Nail SL, Searles JA. Elements of quality by design in development and scale-up of freeze-dried parenterals. Biopharm Int. 2008;21:44.
+
+9.  
+9.
+
+Patel SM, Chaudhuri S, Pikal MJ. Choked flow and importance of Mach I in freeze-drying process design. Chem Eng Sci. 2010;65\(21\):5716–27.[Crossref](https://doi.org/10.1016/j.ces.2010.07.024)
+
+10.  
+10.
+
+Searles J. Observation and implications of sonic water vapor flow during freeze-drying. Am Pharm Rev. 2004;7:58–68\+75.
+
+11.  
+11.
+
+Gieseler H, et al. Evaluation of tunable diode laser absorption spectroscopy for in-process water vapor mass flux measurements during freeze drying. J Pharm Sci. 2007;96\(7\):1776–93.[Crossref](https://doi.org/10.1002/jps.20827)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17221854)
+
+12.  
+12.
+
+Jiang X, et al. Multi-point wireless temperature sensing system for monitoring pharmaceutical lyophilization. Front Chem. 2018;6:288.[Crossref](https://doi.org/10.3389/fchem.2018.00288)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30065924)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6056747)
+
+13.  
+13.
+
+Alexeenko AA, Ganguly A, Nail SL. Computational analysis of fluid dynamics in pharmaceutical freeze-drying. J Pharm Sci. 2009;98\(9\):3483–94.[Crossref](https://doi.org/10.1002/jps.21862)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19569225)
+
+14.  
+14.
+
+Barresi AA, Rasetto V, Marchisio DL. Use of computational fluid dynamics for improving freeze-dryers design and process understanding. Part 1: Modelling the lyophilisation chamber. Eur J Pharm Biopharm. 2018;129:30–44.[Crossref](https://doi.org/10.1016/j.ejpb.2018.05.008)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29775665)
+
+15.  
+15.
+
+Kshirsagar V, et al. Determining maximum sublimation rate for a production Lyophilizer: computational modeling and comparison with ice slab tests. J Pharm Sci. 2019;108\(1\):382–90.[Crossref](https://doi.org/10.1016/j.xphs.2018.10.061)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30414868)
+
+16.  
+16.
+
+Shivkumar G, et al. Freeze-dryer equipment capability limit: comparison of computational modeling with experiments at laboratory scale. J Pharm Sci. 2019;108:2972–81.[Crossref](https://doi.org/10.1016/j.xphs.2019.04.016)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31004653)
+
+17.  
+17.
+
+Zhu T, et al. Predictive models of lyophilization process for development, scale-up/tech transfer and manufacturing. Eur J Pharm Biopharm. 2018;128:363–78.[Crossref](https://doi.org/10.1016/j.ejpb.2018.05.005)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29733948)
+
+18.  
+18.
+
+Jameel F, et al. Recommended best practices for lyophilization validation—2021 part I: process design and modeling. AAPS PharmSciTech. 2021;22\(7\):1–18.[Crossref](https://doi.org/10.1208/s12249-021-02086-8)
+
+19.  
+19.
+
+Jameel F, et al. Recommended best practices for lyophilization validation 2021 part II: process qualification and continued process verification. AAPS PharmSciTech. 2021;22\(8\):266.[Crossref](https://doi.org/10.1208/s12249-021-02107-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34750693)
+
+20.  
+20.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37.[Crossref](https://doi.org/10.1002/jps.2600730910)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+21.  
+21.
+
+Tchessalov S, Dassu D, Latshaw II Nulu S. An industry perspective on the application of modeling to lyophilization process scale up and transfer. Am Pharm Rev. 2017;20
+
+22.  
+22.
+
+Shivkumar G, et al. LyoPRONTO: an open-source lyophilization process optimization tool. AAPS PharmSciTech. 2019;20\(8\):1–17.[Crossref](https://doi.org/10.1208/s12249-019-1532-7)
+
+23.  
+23.
+
+Velardi SA, Barresi AA. Development of simplified models for the freeze-drying process and investigation of the optimal operating conditions. Chem Eng Res Des. 2008;86\(1\):9–22.[Crossref](https://doi.org/10.1016/j.cherd.2007.10.007)
+
+24.  
+24.
+
+Kuu WY, Hardwick LM, Akers MJ. Rapid determination of dry layer mass transfer resistance for various pharmaceutical formulations during primary drying using product temperature profiles. Int J Pharm. 2006;313\(1–2\):99–113.[Crossref](https://doi.org/10.1016/j.ijpharm.2006.01.036)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16513303)
+
+25.  
+25.
+
+Pikal MJ, et al. Freeze-drying process development and scale-up: scale-up of edge vial versus center vial heat transfer coefficients, Kv. J Pharm Sci. 2016;105\(11\):3333–43.[Crossref](https://doi.org/10.1016/j.xphs.2016.07.027)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27666376)
+
+26.  
+26.
+
+Tang XC, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200.[Crossref](https://doi.org/10.1023/B:PHAM.0000016234.73023.75)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15032301)
+
+27.  
+27.
+
+Patel SM, Pikal MJ. Lyophilization process design space. J Pharm Sci. 2013;102\(11\):3883–7.[Crossref](https://doi.org/10.1002/jps.23703)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23946165)
+
+28.  
+28.
+
+Sane SU, Hsu CC. Considerations for successful lyophilization process scale-up, technology transfer, and routine production. In: Jameel F, editor. Formulation and process development strategies for manufacturing biopharmaceuticals. Hoboken: Wiley; 2010.
+
+29.  
+29.
+
+Sinha K, et al. Application of integrated modeling approach for quality-by-design \(QbD\) process development of lyophilization. In: 2018 AIChE annual meeting. AIChE. 2018.
+
+30.  
+30.
+
+Fissore D, Pisano R, Barresi AA. Advanced approach to build the design space for the primary drying of a pharmaceutical freeze-drying process. J Pharm Sci. 2011;100\(11\):4922–33.[Crossref](https://doi.org/10.1002/jps.22668)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21702051)
+
+31.  
+31.
+
+Pibulchinda P, et al. Design and validation of pressure based flow rate soft sensor for freeze-drying. 2017.
+
+32.  
+32.
+
+Petitti M, Barresi AA, Marchisio DL. CFD modelling of condensers for freeze-drying processes. Sadhana. 2013;38\(6\):1219–39.[Crossref](https://doi.org/10.1007/s12046-013-0155-z)
+
+33.  
+33.
+
+Ganguly A, et al. Spatial variation of pressure in the lyophilization product chamber part 1: computational modeling. AAPS PharmSciTech. 2016;18\(3\):577–85.[Crossref](https://doi.org/10.1208/s12249-016-0513-3)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27151134)
+
+34.  
+34.
+
+Sane P, Varma N, Ganguly A, Pikal M, Alexeenko A, Bogner RH. Spatial variation of pressure in the lyophilization product chamber part 2: experimental measurements and implications for scale-up and batch uniformity. AAPS PharmSci Tech. 2017;18\(2\):369–380. [https://​doi.​org/​10.​1208/​s12249-016-0502-6](https://doi.org/10.1208/s12249-016-0502-6)
+
+35.  
+35.
+
+Nail S, Tchessalov S, Shalaev E, et al. Recommended best practices for process monitoring instrumentation in pharmaceutical freeze drying-2017. AAPS PharmSciTech. 2017;18\(7\):2379–2393. [https://​doi.​org/​10.​1208/​s12249-017-0733-1](https://doi.org/10.1208/s12249-017-0733-1)
+
+
+

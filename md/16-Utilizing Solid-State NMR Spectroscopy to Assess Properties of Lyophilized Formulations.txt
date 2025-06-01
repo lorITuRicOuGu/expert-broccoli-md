@@ -1,0 +1,1028 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_16](https://doi.org/10.1007/978-3-031-12634-5_16)
+
+
+**
+# Utilizing Solid-State NMR Spectroscopy to Assess Properties of Lyophilized Formulations
+**
+
+
+Ashley Lay-Fortenbery1, 2  , Yongchao Su2 and Eric J. Munson3
+
+
+\(1\) 
+Department of Pharmaceutical Sciences, College of Pharmacy, University of Kentucky, Lexington, KY, USA
+
+
+\(2\) 
+Merck & Co., Inc., Rahway, NJ, USA
+
+
+\(3\) 
+Department of Industrial and Physical Pharmacy, College of Pharmacy, Purdue University, West Lafayette, IN, USA
+
+
+
+
+
+**Ashley Lay-Fortenbery**
+
+**Email: **ashley.lay-fortenbery@merck.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Analytical Challenges for Lyophilized Formulations
+
+**3 **Basics of Solid-State NMR Spectroscopy
+
+**3.1 **Relaxation
+
+**4 **Characterization of Lyophilized Formulations by SSNMR
+
+**4.1 **Identification of Formulation Components
+
+**4.2 **Ionization Changes
+
+**4.3 **Homogeneity of Formulation Components
+
+**4.4 **Case Study: Phase Separation in Bovine Serum Albumin \(BSA\) and Lysozyme-Containing Formulations
+
+**4.5 **Mobility
+
+**5 **Comparison with Other Analytical Techniques
+
+**6 **Conclusion
+
+References
+
+
+## Abstract
+
+Solid-state nuclear magnetic resonance \(NMR\) spectroscopy \(SSNMR\) is a powerful analytical technique that can be utilized to study lyophilized formulations. This chapter details basics of SSNMR spectroscopy and ways that SSNMR can be utilized to assess important properties of lyophilized formulations including excipient solid form, excipient and drug interactions in the solid state, changes in ionization of a formulation component, and mobility in the lyophilized solid. A case study is presented that utilizes SSNMR to look at the interaction of sucrose, trehalose, and mannitol with the model proteins lysozyme and bovine serum albumin.
+
+
+**Keywords**
+Solid-state NMR spectroscopy Protein formulation stability Mobility Relaxation Homogeneity
+
+
+## **1 **Introduction
+
+Solid-state NMR \(nuclear magnetic resonance\) spectroscopy \(SSNMR\) is a powerful and versatile analytical technique that utilizes both spectral characteristics and relaxation times to study those properties in a lyophilized matrix that may impact the stability of a protein in the solid state. For example, the solid form of the excipients can be identified, including quantification of amorphous content and polymorphic form of crystalline material. Proton relaxation times \(1H T1 and 1H T1ρ\) can be used to access molecular dynamics from picosecond to nanosecond timescales and determine sample homogeneity at 5–100 nm scales within a lyophilized matrix, which may be important predictors of stability \[1\]. Additionally, SSNMR is a nondestructive and noninvasive technique that can be used to investigate low levels of an excipient or drug within a formulation by taking advantage of isotopic labeling \[2–4\]. SSNMR can provide information on multiple aspects of the sample at both a higher resolution and more quantitatively than would a combination of several other analytical techniques, such as differential scanning calorimetry and powder X-ray diffraction \[5\].
+
+Many past and recent advances in SSNMR have resulted in increased resolution of the line width and decreased acquisition times. Past advances, including the use of high-power proton decoupling, magic angle spinning \(MAS\), and cross polarization \(CP\), are briefly discussed in this chapter. Cutting-edge techniques including ultrafast MAS and dynamic nuclear polarization \(DNP\) can significantly enhance sensitivity by factors of 102–103 and have been recently utilized in pharmaceutical sciences \[6–11\]. Measurement of 1H T1 relaxation times is a central focus of this chapter, as the information acquired in lyophilized formulations from 1H T1 may lead to stability prediction. This chapter gives an introduction to advances in collecting NMR spectra in the solid state and details specific applications of SSNMR for analyzing lyophilized formulations with case studies.
+
+## **2 **Analytical Challenges for Lyophilized Formulations
+
+Lyophilization is a processing method that is used in order to convert a solution into a solid form. The three main processes in lyophilization involve freezing the solution, primary drying \(sublimation of ice\), and secondary drying \(desorption of water\) \[12\]. For pharmaceutical purposes, freeze-drying typically takes place in a vial, and the solid cake that is formed in the vial during freeze-drying is then capped and stored until needed for use. The formulation likely consists of a buffer, a stabilizer \(typically a sugar such as sucrose or trehalose\), and a surfactant. In addition to formulation screening, the lyophilization process parameters such as shelf set points and ramp rates must be rationally designed based on the formulation chosen. The intertwining of formulation and process variables on product impact leads to extensive effort that must be performed in order to optimize the lyophilization process \[13\].
+
+Formulation development requires a wide range of analytical testing to be completed in order to understand the potential degradation pathways of a drug and the effects of excipients and processing on these degradation pathways. Table 1 shows the analytical techniques that are typically measured for lyophilized formulations. These properties are typically assessed over time during an accelerated stability study. In forced degradation studies temperature and/or residual moisture in the cakes may be increased for an extended period of time. A stability study in a solid-state formulation may take months in order to distinguish differences amongst the formulations. Waiting months to determine which formulation to move forward with for clinical testing is a significant barrier in bringing medications to patients. Therefore, it is valuable to read out the biophysical and biochemical risks at an earlier stage of formulation development. 
+
+
+***Table 1*** 
+Examples of analytical techniques used during formulation development of lyophilized proteins \[14–21\]
+
+
+
+**Type of test**
+
+**Test**
+
+Compendial
+
+pH, clarity and degree of opalescence, appearance, and visible particles
+
+Thermal and microscopic analysis
+
+Differential scanning calorimetry \(DSC\)
+
+Freeze-drying microscopy
+
+Lyo cake specific
+
+Reconstitution time
+
+Residual moisture
+
+Structure
+
+Fourier-transform infrared spectroscopy \(FTIR\)
+
+Circular dichroism \(CD\)
+
+Liquid chromatography-mass spectrometry \(LC-MS\)
+
+Chemical degradation
+
+Ion exchange chromatography \(IEX\)
+
+LC-MS peptide mapping
+
+Reverse phase high-performance liquid chromatography \(RP-HPLC\)
+
+Hydrophobic interaction chromatography \(HIC\)
+
+Capillary isoelectric focusing \(cIEF\)
+
+Capillary electrophoresis \(CE/CE-SDS\)
+
+Aggregation and particle formation
+
+Size-exclusion chromatography \(SEC\)
+
+Dynamic light scattering \(DLS\)
+
+Light obscuration methods, e.g., HIAC
+
+Micro-flow imaging \(MFI\)
+
+Solid form
+
+Powder X-ray diffraction \(PXRD\)
+
+DSC
+
+
+
+All of the analytical testing in the table above is related to determining the degradant profile or to a specific critical quality attribute \(reconstitution time, residual moisture, etc.\) that may or may not be relevant to stability of the protein. In order to decrease formulation screening time, it would be ideal to use analytical techniques that can measure properties that impact long-term stability such as molecular interaction and miscibility, excipient form, and mobility within the lyophilized matrix. Of the analytical techniques listed above, FTIR, DSC, and PXRD are used to detect properties of the solid. FTIR is capable of identifying hydrogen-bonding interactions between protein and sugar in the solid \[22\]. However, there have been reports that the structure determined by FTIR does not change once hydrogen bonding sites on a protein have been saturated, even though stability continues to increase as sugar content increases \[23, 24\]. PXRD is capable of detecting whether an excipient crystallizes during lyophilization or during storage, but cannot differentiate proteins and excipients in amorphous forms \[25\]. DSC is used to measure the glass transition temperature \(*T*g\) of the solid cake, which is thought to have implications on the global mobility. However, studies have shown the *T*g has little correlation with protein stability \[23, 24, 26, 27\]. DSC can also be used to look for phase separation, as multiple *T*g values are observed if there is a protein-rich region and a sugar-rich region \[28\]. Unfortunately, dried proteins show a minimal change in heat capacity, so it is hard to detect a protein rich region in the solid-state lyophilized product \[29\]. FTIR, PXRD, and DSC may provide some useful information, but they are not capable of rank ordering the formulations by stability at time-zero.
+
+More advanced analytical techniques are required to study the role of homogeneity and mobility within a lyophilized cake and how they relate to stability. One such technique that may study hydrogen bonding interaction \(homogeneity\) between sugars and protein, solid-state hydrogen deuterium exchange \(ssHDX-MS\), has shown success in rank ordering formulations by stability \[24, 30, 31\]. Raman mapping and confocal fluorescence microscopy \(CFM\) have also been used to look for phase separation, but they are limited in detection to micron sized domains on the particle surface \[32–34\]. Solid-state NMR spectroscopy \(SSNMR\) is capable of detecting phase separation on a nanometer range, making it a powerful tool to detect potential phase separation \[35\]. Identification of phase separation by SSNMR was able to rank order time-zero formulations from least to most stable \[1, 36\].
+
+Recent studies by Cicerone and coworkers have shown that local motion \(*β*fast or high frequency *β*JG\) on the picosecond to nanosecond timescale trends better with protein stability than the global motion \(*α*-relaxation\) of seconds to milliseconds \[23, 27, 37\]. SSNMR can access different time-scales \(ps-ns and μs-ms\) using proton relaxation times, allowing for determination of mobility within the lyophilized matrix \[1\]. While neutron backscattering has previously been used to measure fast dynamics, it is not a method that can be used for routine formulation screening, and SSNMR is typically more accessible. A previous study also showed indication that local mobility, as measured for 1H T1 relaxation times, trended with stability \[1, 36\]. This chapter will further highlight the capabilities of SSNMR to predict stability in time-zero formulations by focusing on homogeneity and mobility as important critical quality attributes of lyophilized formulations.
+
+## **3 **Basics of Solid-State NMR Spectroscopy
+
+This chapter’s primary focus is the application of SSNMR for analyzing lyophilized solids. For an in-depth introduction to NMR and SSNMR theory, please see the text by Duer \[38\] and Schmidt-Rohr \[39\]. The focus of this section will be on the brief introduction of NMR theory and advances in SSNMR spectroscopy that are relevant for understanding the applications to lyophilized pharmaceutical systems.
+
+NMR spectroscopy relies on the nuclear spin being quantized, with the number of available quantum states being reflected in the spin quantum number. Nuclei that possess spin \(*I* = 1/2 or *I* > 1/2 in multiples of 1/2, e.g., for 1H and 13C\) carry charge and an angular momentum as the spin, which can be described as the magnetic moment \(*μ*\): 
+
+
+
+![$$ \mu =\gamma hI $$](images/000001.jpeg)
+
+
+\(1\)
+
+
+
+
+The gyromagnetic ratio \(*γ*\) is a constant unique to each nucleus, and h is Planck’s constant. When a nucleus is placed in an external magnetic field \(*B*0\), the magnetic moments align into orientations based on their energy state. The static field \(*B*0\) imposes motion on the magnetic moment, causing it to move in a circular path \(precession\). The rate of precession is described by the Larmor frequency \(*ω*0\): 
+
+
+
+![$$ {\omega}_0=-\gamma {B}_0 $$](images/000002.jpeg)
+
+
+\(2\)
+
+
+
+
+In the case study presented later in this chapter, a 9.4 Tesla magnetic field strength is used, which corresponds to a Larmor frequency of ~400 MHz for 1H and ~ 100 MHz for 13C. For the spin-1/2 nuclei present in the NMR sample, the population distribution of spins is given by the Boltzmann distribution: 
+
+
+
+![$$ \frac{N_{\textrm{upper}}}{N_{\textrm{lower}}}={e}^{\frac{-\Delta E}{kT}} $$](images/000003.jpeg)
+
+
+\(3\)
+
+
+
+
+In this equation *N*upper and *N*lower are the population in the upper and lower energy states, *E* is the energy of a particular level, *k* is the Boltzmann constant, and *T* is temperature. Spin \+1/2 nuclei align with the magnetic field, while spin −1/2 nuclei align opposite to the field. A net or bulk magnetization vector \(*M*0\) aligns along the \+*z*-axis as an excess of spins are in the lower energy spin \+1/2 state. Transitions between energy levels are achieved by applying energy to the sample through a radio frequency \(rf\) pulse. The magnetic component of the rf pulse \(*B*1\), which oscillates at *ω*0, is applied perpendicular to *B*0. The bulk magnetization undergoes precession along the *x-y* plane, which generates oscillating voltage in the coil that surrounds the sample. This voltage is detected as the free induction decay \(FID\), where the signal starts to decay as the magnetization relaxes back to the *z*-axis. The FID is converted from the time domain to the frequency domain using Fourier transformation. Each nucleus within a molecule will resonate at a slightly different frequency, as the local electronic environment surrounding each nucleus is different. The variation in the resonance frequency of a nuclei is the chemical shift. The chemical shifts in the NMR spectrum enable detailed information to be collected about each molecule in the sample.
+
+There are several advances that have led to the ability to obtain high resolution solid-state NMR spectra. High-power proton decoupling fields average dipolar interactions to zero in the solid \[40, 41\]. Dipolar interactions lead to broad spectra, therefore, this increases resolution. Magic angle spinning \(MAS\) is another technique employed to increase resolution. The “magic angle” at which chemical shift anisotropy \(dependence on orientation\) is canceled is 54.74°, as the 3 cos2*θ*-1 term is equal to zero when *θ* = 54.74° \[42\]. The pulse sequence total suppression of side bands \(TOSS\) has been employed to decrease the presence of sidebands that are still present after MAS is applied \[43\]. Cross polarization \(CP\) is a technique that is used in order to increase the signal to noise ratio for low abundance nuclei \(i.e., 13C or 15N\) by transferring bulk magnetization \(*M*0\) from 1H \(abundant nuclei\) to the nuclei of interest \[44\]. This technique is especially useful because the 1H T1 relaxation time is often lower than the 13C T1 relaxation time. When the magnetization is transferred from 1H to 13C, the 1H relaxation time dominates. This allows for shorter recycle delay for relaxation recovery and therefore faster collection of SSNMR data due to large increases in sensitivity per scan.
+
+### **3.1 **Relaxation
+
+When a radio-frequency \(RF\) pulse is applied to a molecular system in an NMR experiment, the equilibrium of the spin states is perturbed. Over time the perturbed system will relax back to the equilibrium state, a physical phenomenon called relaxation. The relaxation observed in spin states of organic compounds can often last from microseconds to minutes, depending on the material properties, the nuclei being observed, and the kind of relaxation \[39\]. For example, longitudinal relaxation \(T1\) and transverse relaxation \(T2\) are often measured in peptides and proteins to probe molecular dynamics and conformational homogeneity \[45, 46\].
+
+The longitudinal relaxation time corresponds to equilibrium being re-established along the *z*-axis after a perturbation. The spin states are perturbed by a RF pulse and then return to equilibrium energy by transferring the energy to the surroundings \(lattice\). Hence, T1 relaxation times are termed as spin-lattice relaxation \[40\]. The T1 can be measured through an inversion recovery or saturation recovery pulse sequence. The saturation recovery equation that is used to fit the T1 data from experimental values is given below: 
+
+
+
+![$$ M={M}_0\left(1-{e}^{\raisebox{1ex}{$-\tau $}\!\left/ \!\raisebox{-1ex}{${\textrm{T}}_1$}\right.}\right) $$](images/000004.jpeg)
+
+
+\(4\)
+
+
+
+
+Here, *M*0 is an amplitude parameter from the fit, and peak area \(*M*\) is plotted against the recovery pulse delay times \(*τ*\). An example of the 1H T1 fit for a saturation recovery pulse sequence of a lyophilized formulation containing bovine serum albumin \(BSA\) is shown in Fig. 1. 
+![](images/000005.gif)
+
+
+***Fig. 1*** 
+Fitting of the 1H T1 relaxation time for the 175 ppm \(carbonyl peak\) of BSA in a lyophilized formulation from the case study presented later in this chapter. This fit gives a 1H T1 value of 0.90 s ± 0.03 s
+
+
+
+Another type of relaxation measured is 1H T1rho, which is the proton spin-lattice relaxation time in the rotating frame. The T1rho is characterized by an exponential decay and the equation used here is below: 
+
+
+
+![$$ M={M}_0{e}^{\raisebox{1ex}{$-\tau $}\!\left/ \!\raisebox{-1ex}{${\textrm{T}}_{1\textrm{rho}}$}\right.} $$](images/000006.jpeg)
+
+
+\(5\)
+
+
+
+
+In literature, the 1H T1 and 1H T1rho are the parameters most often measured by SSNMR in lyophilized formulations \[36, 47, 48\]. This is due to the length scale and time scales associated with these measures of relaxation \[49\]. The applications of the 1H T1 and 1H T1rho relaxation times in lyophilized systems are described in the next section.
+
+## **4 **Characterization of Lyophilized Formulations by SSNMR
+
+SSNMR can be used to study how the lyophilization process parameters and formulation composition behave. The following will be discussed in the next section: identification of formulation components, ionization changes, homogeneity of formulation components, and mobility in the solid matrix.
+
+### **4.1 **Identification of **Formulation** Components
+
+For lyophilized systems 13C SSNMR is particularly useful for identifying formulation components. 1H SSNMR spectra become very crowded because the chemical shift range is 0–12 ppm. The 13C SSNMR has a wide range of chemical shifts from 0 to 220 ppm, making identification of different functional groups much easier. In lyophilized protein formulations, the main components are often the protein and the sugar stabilizers. Sugars contain C-OH bonds which resonate between 60 and 80 ppm. Protein and sugar peaks have areas that do not overlap in 13C SSNMR spectra. For example, proteins have aromatic carbons while sugar molecules do not. Figure 2 shows spectra of lyophilized sucrose, trehalose, and lysozyme. This allows for identification of formulation components, which is useful for determining homogeneity and mobility as described in the following sections. 
+![](images/000007.jpeg)
+
+
+***Fig. 2*** 
+13C SSNMR spectra of lyophilized trehalose, sucrose, and lysozyme
+
+
+
+Another advantage of SSNMR is the ability to differentiate between amorphous and crystalline components based on distinct linewidth and peak positions. Figure 3 shows the 13C SSNMR spectra for crystalline α-trehalose dihydrate and the amorphous form of trehalose generated through lyophilization. A compound in the amorphous form will exhibit peak broadening due to the unordered structure as compared to the crystalline form. The proton relaxation times can also be used to distinguish the nature of the solid form. For this lot of trehalose dihydrate, the crystalline form had a 1H T1 of 455 s ± 19 s, while the lyophilized form had a 1H T1 of 6.73 s ± 0.19 s. 
+![](images/000008.gif)
+
+
+***Fig. 3*** 
+13C CPTOSS SSNMR spectra of crystalline trehalose dihydrate \(top\) and amorphous trehalose dihydrate \(bottom\)
+
+
+
+SSNMR has also been shown to be a great analytical tool for detection of polymorphs and quantitation of different forms in pharmaceutical formulations. Isotopic labeling of a specific excipient or functional group of a drug allows solid form changes at very low solid loading. For example, 13C-labeled asparagine was used to determine the form of asparagine that was loaded into a lyophilized PVP matrix at a level of 0.4% \[50\]. Offerdahl et al. used neotame in order to show quantification of two neotame polymorphs in a mixture. They were also able to quantify the amount of amorphous form present in a mixture of crystalline and amorphous neotame \[51\]. Quantification and identification of amorphous and crystalline content and polymorphic forms are important for studying lyophilized systems. During lyophilization many of the sugars used as stabilizers become amorphous. Crystallization of a stabilizer may lead to phase separation or release of heat and water into the formulations during storage, which may pose a risk for drug stability. Mannitol has been shown to have multiple forms, and crystallization of mannitol hemihydrate has been observed during storage \[52–54\]. The 13C SSNMR spectra of polymorphs of mannitol have been presented in the literature \[55\]. These factors make SSNMR an attractive analytical technique for identifying components in a lyophilized matrix.
+
+### **4.2 **Ionization Changes
+
+During the freezing process of lyophilization, a shift in microenvironment protonation can occur during super-saturation due to change in temperature and hydrophobicity of the environment as water crystallizes out as ice. These shifts could lead to stability issues of drug molecules which are sensitive to the microenvironmental pH. For proteins, this could result in denaturation and unfolding \[56, 57\]. Buffers are typically added in order to decrease pH shift. However, some buffers have been shown to partially or full crystallize during freezing. One example is sodium phosphate \[56, 58–62\].
+
+The addition of sugars may inhibit buffer crystallization. A study using phosphate-buffered saline \(PBS\) showed that in the absence of trehalose, there was a decrease in pH as measured by a low temperature pH probe, whereas, in the presence of 5% w/v trehalose, there was only a 1.6-unit pH decrease \[63\]. The absence of PBS crystallization in the presence of trehalose was seen in both the frozen solid and lyophilized solid by XRD. Interestingly, this study suggests that even when buffer crystallization is suppressed by an amorphous stabilizer, ionization changes still occur during freezing. UV diffuse reflectance spectroscopy \(UVDRS\) has been used to measure ionization change in both the solution and solid state by employing ionizable probe molecules such as the dye bromocresol blue. This method could potentially pick up on ionization changes in the amorphous phase but would require for the pH indicator dye to be present in the same phase as the stabilizer and drug. While it is unclear if the indicator is in the amorphous phase with the stabilizer and excipient, there have been reports of changes in ionization from solution to solid state as measured using UVDRS.
+
+NMR spectroscopy can also be used to measure changes in ionization for species predominantly found in large molecules, such as amines and carboxylic acids \[64\]. Protonation or deprotonation, a change of chemical environment, can result in the changes of 1H, 13C, and 15N chemical shifts. The inclusion of an ionizable probe in the formulation could be used to track ionization states in the solution and solid state. Acid-base equilibria has been studied by Munowitz et al. using 15N SSNMR and by Henry et al. using 13C SSNMR \[65, 66\]. However, these reports studied histidine that was not lyophilized in the presence of sugars and appeared to be crystalline. The ionization study was likely at the crystalline histidine, and may not have any implication on the final protonation state of the formulation after histidine had crystallized out. In a study by Li et al., histidine has been utilized as a molecular probe to identify the microenvironmental acidity in lyophilized protein and vaccine formulations \[67\]. A correlation between chemical shift change of amorphous histidine in the lyo-cake and the pH of starting solution has been successfully established.
+
+Another study used Raman spectroscopy and 13C SSNMR to measure ionization change of sodium citrate in buffered formulations, while also employing bromophenol blue which was monitored by UVDRS \[68\]. The author’s concluded that the ratio of buffer species in the freeze-dried solid that was measured by SSNMR and Raman spectroscopy was determined by the amount of sodium ion present, and may not reflect ionization changes incurred to other components of the formulation. This suggests that to understand ionization change within the solid, a probe molecule must be employed. The authors of this book chapter have used various 13C-labeled acids \(butyric, fumaric, and succinic\) to show acidity shifts in lyophiles prepared from various buffer and pH conditions \(currently unpublished\) with success by following the change in ionization of probe molecules in the carboxylic acid region. This would be a technique that could be employed in the instance of formulating a drug that is very sensitive to pH change.
+
+### **4.3 **Homogeneity of Formulation Components
+
+There are two different categories of inhomogeneity in lyophilized formulations: \(1\) excipient crystallization out of the amorphous phase and \(2\) amorphous-amorphous phase separation. Detecting excipient crystallization is more straightforward and has been studied by PXRD, DSC, and SSNMR in lyophilized formulations \[25, 36, 52, 54, 69–75\]. Amorphous-amorphous phase separation is much more challenging to identify. Two techniques that have been proposed to detect phase separation in the literature are Raman mapping and confocal fluorescence microscopy \[32–34, 76\]. These two detection methods are limited to detection of phases at the micron level and on the surface of the particles. DSC can be used to look for phase separation, as multiple *T*g values could be observed if there is a protein-rich region and a sugar-rich region \[28\]. DSC has been proposed to have a smaller domain size as compared to other techniques of ~30 nm \[77\]. Unfortunately, dried proteins show a minimal change in heat capacity, making it hard to detect a protein rich region in the dry lyophilized product \[29\]. SSNMR has a distinct advantage over these methods as it is able to detect sugar and protein-rich regions down to a level of 2–5 nm as described in the next paragraph.
+
+Solid-state NMR spectroscopy can detect phase separation on the nanometer length scale in lyophilized formulations by comparing the 1H T1 and 1H T1rho relaxation times of formulation components in the solid matrix. This technique has been used in amorphous solid dispersions and in lyophilized protein formulations \[1, 78\]. Protons exchange spin polarization through a process known as spin diffusion, which allows for calculation of domain sizes from relaxation measurements \[79\]. The spin diffusion equation is below, where L is the diffusive path length, t is the relaxation time measured, and *D* is the diffusion coefficient. 
+
+
+
+![$$ L=\sqrt{6 Dt} $$](images/000009.jpeg)
+
+
+\(6\)
+
+
+
+
+The diffusion coefficient used here is 10−12 cm2/s \[80\]. The domain sizes correlate to around 20–50 nm and 2–5 nm domain sizes, for 1H T1 and 1H T1rho measurements in most amorphous systems, which is much smaller than other analytical techniques \[78\]. Besides the semi-quantification of the domain size by utilizing relaxation time, the homogeneity can be quantified through spin diffusion measnurement \[81\].
+
+Homogeneity is determined by measuring and comparing the 1H T1 and 1H T1rho times for the components in the formulation. If the components have similar T1 and T1rho times, the components are close enough for magnetization to be transferred between the nuclei and are assessed to be homogenous down to 2–5 nm. If the components have the same T1, but differing T1rho times, the system is homogeneous down to 20–50 nm. If both the T1 and T1rho times for the components are different, the system is not homogeneous on a domain greater than 50 nm, as shown in Fig. 4. It should be noted that the relaxation times for the two components of interest must be different in order to utilize this technique. This method has been used in sugar-IgG systems where it was found that trehalose was homogeneous with the model protein \(IgG\). The trehalose formulation was more stable by size-exclusion chromatography \(SEC\) and ELISA activity measurements than larger sugars \(dextrans and inulins\), which were shown to be inhomogeneous at the 2–5 nm range \[1\]. It has also been shown by 1H T1 measurements that trehalose was homogeneous with lysozyme while lactose not homogenous with the lysozyme \[70\]. 
+![](images/000010.jpeg)
+
+
+***Fig. 4*** 
+Homogeneity on the nanometer length scale can be determined using SSNMR 1H T1 and 1H T1rho relaxation times. Figure adapted from Mensink et al. \[48\]
+
+
+
+In another study, Park et al. measured 1H T1 relaxation times in formulations containing 5 mg/mL of an IgG1, 40 mg/mL of mannitol with and without 20 mg/mL sucrose at various pH values \(pH 3, 5, and 7 in 10 mM sodium citrate buffer\) \[82\]. 1H T1 relaxation times were measured in the systems. A biexponential fit of T1 values relating to a mannitol-rich phase or protein-rich phase showed that the mannitol-rich phase had a much longer relaxation time \(15–20 s longer\) than the protein-rich phase. The systems that contained sucrose showed a greater depression in T1 relaxation time, as some mannitol was kept in the amorphous form. The two most stable formulations by SEC and CEX \(cation exchange chromatography\) were the pH 5 and 7 formulations that contained sucrose. The mannitol-only formulations showed large changes in the amide I band using FTIR, with the pH 5 formulation showing the greatest retention of structure. This study was effective in showing that protein structure and glass dynamics are both important for evaluating lyophilized protein formulations.
+
+Most recently, Chen et al. have utilized the ssNMR to explore BSA-sugar interaction and miscibility in spray-dried formulations \[36\]. Leucine recrystallization, identified from the sharp 13C peaks, results in phase separation and the worst protein stability. 1H T1 and T1rho comparisons suggest a better protein-sugar mixing of trehalose-containing formulations than the mannitol ones, which agree well with the rank order of the protein stability . Moreover, the relatively narrower 13C linewidth of the trehalose formulation suggests a better conformational homogeneity. In this study, chemical shift change of Arginine Cξ has been identified, which suggests BSA-sugar interactions as a mechanism to stabilize solid proteins.
+
+### **4.4 **Case Study: Phase Separation in Bovine Serum Albumin \(BSA\) and Lysozyme-Containing Formulations
+
+BSA and lysozyme have been used as model proteins in lyophilized formulation in many studies \[22, 28, 29, 32, 33, 70, 83–95\]. The sugars that are used in this study are commonly found in lyophilized formulations. Sucrose and trehalose are disaccharide stabilizers that are added to the formulation to increase stability. Sucrose and trehalose have been shown to interact with protein in multiple studies \[22, 33, 37, 89, 96–101\]. Mannitol is typically used as a bulking agent, in order to create an elegant cake. There are reports that mannitol crystallizes during the freeze-drying process and should, therefore, show phase separation \[52, 95, 102–104\]. The purpose of this study is to show that SSNMR is capable of detecting interactions between protein and stabilizer that exhibit hydrogen bonding and will detect separate phases in a formulation that contains a crystalline component \(mannitol\).
+
+These formulations contain a total solid content of 5% w/v with a 1:1 ratio of the sugar to protein. The sugar composed of 95% natural abundance \(12C\) excipients and 5% of 13C-labeled excipients. The formulations also contained 10 mM potassium phosphate and were adjusted to pH 7 for BSA and pH 6.5 for lysozyme. Three milliliters of each formulation was filled into 20 mL serum vials and vials were partially stoppered with gray butyl stoppers prior to lyophilization. These formulations were dried using a conservative lyophilization cycle that did not contain an annealing step and after completion, exhibited a moisture content less than 1%.
+
+The 13C CPTOSS SSNMR spectra for BSA only and BSA formulated with the three sugars are shown in Fig. 5. The chemical structure and 13C chemical shift attributed to each carbon are shown in Fig. 6. The peak that was used for relaxation time determination of the protein is the carbonyl peak at 174 ppm. The labeled mannitol peak showed some overlap with the protein peaks at 64 ppm, so the peak at 74 ppm was used. The labeled sucrose peak at 93 ppm was used, and the 73 ppm peak was used for trehalose. The peaks chosen show the highest signal-to-noise ratios for peaks that do not overlap with the protein. Mannitol appears to be in the crystalline state, as the peaks are much sharper for mannitol than for sucrose, trehalose, or the protein. 
+![](images/000011.gif)
+
+
+***Fig. 5*** 
+13C CPTOSS SSNMR spectra of bovine serum albumin \(BSA\) and BSA formulated with mannitol, sucrose, or trehalose
+
+
+![](images/000012.jpeg)
+
+
+***Fig. 6*** 
+Chemical structures of sucrose, trehalose, and sucrose with resulting 13C chemical shifts in SSNMR \[105\]
+
+
+
+Figure 7 shows that the 1H T1 relaxation times \(measured using a saturation recovery pulse sequence on a 9.4 T spectrometer\) for the protein and sugar are the same within the standard error of the fit for both the sucrose and trehalose formulations, with the magnitude of the relaxation times being higher for sucrose than for trehalose \(1.9 s vs. 1.6 s\). In the formulation containing mannitol, the mannitol relaxation time was 3.8 s while the BSA relaxation time was 2.5 s. This shows that within a 20–50 nm domain, mannitol and BSA are not interacting with each other and, therefore, are inhomogeneous at this domain. The 1H T1rho measurements show that trehalose and sucrose are both homogeneous with BSA down to the 2–5 nm domain. Again, the mannitol shows separation form the protein on this smaller length scale. 
+![](images/000013.gif)
+
+
+***Fig. 7*** 
+Proton relaxation times for BSA formulations
+
+
+
+The 1H T1 and 1H T1rho relaxation times show the same trends in the lysozyme formulations. The same peaks were used to measure relaxation times for the lysozyme formulations as in the BSA formulations, and the SSNMR spectra are shown in Fig. 8. Figure 9 shows that sucrose and trehalose are homogeneous with lysozyme, as both the T1 and T1rho relaxation times are similar for lysozyme and trehalose or sucrose. Again, the mannitol shows phase separation, as the T1 and T1rho values are much higher for mannitol than for lysozyme. This leads to the same conclusions that trehalose and sucrose are homogeneous with lysozyme down to the 2–5 nm domain, while mannitol is not homogeneous with the lysozyme on a domain greater than 50 nm. 
+![](images/000014.gif)
+
+
+***Fig. 8*** 
+13C CPTOSS SSNMR spectra of lysozyme formulated in a 1:1 ratio with mannitol, sucrose, or trehalose
+
+
+![](images/000015.gif)
+
+
+***Fig. 9*** 
+Proton relaxation times of lysozyme formulations
+
+
+
+This study demonstrates that SSNMR can be used to characterize the phase behavior of excipients with protein in the solid state. Mannitol was shown to be phase separated, as it is in the crystalline state in the lyophilized cake. Sucrose and trehalose remained amorphous and interacted with the protein down to a 2–5 nm domain. This study shows that these “good” stabilizers are homogeneous with two different proteins and that these interactions may be stabilizing against protein unfolding during the lyophilization process and during long-term storage. The authors would like to point out that sucrose and trehalose may not always be homogenous with the protein, and the following factors could affect phase behavior: total solid content, protein to stabilizer ratio, and changes in lyophilization process parameters \(i.e., changes in freezing\).
+
+An interesting observation made in this study is that the 1H T1 relaxation times for sucrose-containing formulations show a higher relaxation time than the trehalose-containing formulations. The magnitude of the 1H T1 relaxation time is an indicator of the local mobility in the system, as these measurements are made on a picosecond to nanosecond timescale. Even though sucrose and trehalose are both able to hydrogen bond with the protein and keep it folded, there may be differences in the ability of the two sugars to stabilize proteins. The observation that the 1H T1 relaxation times are higher means that these sucrose-containing formulations have less mobility within the cake matrix than the trehalose-containing formulations. The impact mobility may have on stability is discussed next.
+
+### **4.5 **Mobility
+
+SSNMR can access a full timescale of protein dynamics using a few parameters including relaxation times and dipolar coupling and chemical-shift anisotropy order parameters \[106\]. For example, proton relaxation times allow for determination of mobility within the lyophilized matrix. While neutron backscattering is typically used to measure fast dynamics, it is not a method that can be used for routine formulation screening, and SSNMR is typically more accessible. The 1H T1 proton relaxation time \(MHz frequency regime\) measured by SSNMR can also be used to measure local motion \(*β*fast or high frequency *β*JG\) that has been shown to be important for predicting protein stability in the solid state \[48, 70\]. The 1H T1rho relaxation time \(kHz frequency regime\) measures microsecond to millisecond motion.
+
+A study by Mensink et al. showed that the SSNMR 1H T1 trended with stability of an IgG in various sugars \[1\]. In this study an IgG was formulated with a disaccharide \(trehalose\) and various polymers \(dextran and inulin\). The trehalose formulation had the highest 1H T1 relaxation time and showed the lowest amount of aggregates over time as measured by size-exclusion chromatography. The polymers showed decreased 1H T1 relaxation times as compared to trehalose. The 1H T1 continues to decrease as polymer molecular weight increased. Another study by Lam et al. showed that the addition of disaccharide sugars to lysozyme increased the 1H T1 of the protein \[70\]. An increase in proton relaxation times indicates that mobility has decreased in the matrix, as less mobile matrices take longer to relax. SSNMR proton relaxation times may be useful for predicting stability in lyophilized formulations. Moreover, there is a study that shows that 13C T1 and T1rho increase during post-lyophilization annealing, which correlated with aspartame stability. However, the aspartame and sugars were not in the same phase \(aspartame had a much lower relaxation time than the sugars it was freeze-dried with – sucrose and trehalose\) \[107\]. A study in a freeze-dried IgG1 formulation showed no change in 13C T1rho after annealing \(the T1rho for protein and sucrose were very different\); however, stability was better in annealed samples \[108\].
+
+## **5 **Comparison with Other Analytical Techniques
+
+Ideally, it would be useful if a technique could characterize the physiochemical properties of the time-zero samples in the solid state, as shown in Table 1, which could then be used to predict long-term stability. This requires chemical resolution to differentiate proteins and excipients and the capability to probe structure and molecular dynamics upon thermal and mechanism stresses. Common solid-state techniques are typically used to characterize lyophilized cakes including differential scanning calorimetry \(DSC\), Fourier transform infrared spectroscopy \(FTIR\), circular dichroism \(CD\), powder x-ray diffraction \(PXRD\), and Raman spectroscopy. PXRD is used to look for crystallinity of excipients and to identify polymorphs of crystallizing excipients such as mannitol \[25\]. FTIR and CD are used to look for changes in secondary structure of proteins as the formulation is aged. While changes in secondary structure may impact stability, there have been reports of no change in secondary structure even though there are stability differences \[98\]. Raman mapping techniques have been developed to look for phase separation between the stabilizers and the proteins. This technique is limited to detection of phase separation in the micron range \[32, 33\]. DSC is used to look at the glass transition temperature \(*T*g\) of the solid. A higher glass transition temperature corresponds to a lower degree of global mobility within the solid matrix. DSC can also be used to look for phase separation, as multiple *T*g values are observed if there is a protein-rich region and a sugar-rich region \[28\]. Dried proteins show a minimal change in heat capacity, so it is hard to detect a protein rich region in the solid-state lyophilized product \[29\].
+
+Looking at local motion, or beta-relaxation, has become more common as these fast motions are on the same time scales \(picoseconds to nanoseconds\) as movement of protein side chains and diffusion of small reactive species \[70\]. Neutron back scattering and dielectric relaxation can both be used to look at this local mobility in a solid. Decreases in local motion as measured by neutron back scattering have been shown to correlate with increased stability \[108\]. Unfortunately, neutron back scattering is not a commercially available characterization technique and is not feasible for routine use in the pharmaceutical industry. A technique that is more readily available in the pharmaceutical industry that is capable of measuring local mobility is solid-state nuclear magnetic resonance spectroscopy \(SSNMR\). Table 2 shows the common solid-state characterization techniques and what they are capable of measuring. SSNMR has the added benefit that it is capable of also looking at ionization changes, polymorphic form, crystalline vs. amorphous quantitation, and phase separation, in addition to local mobility. 
+
+
+***Table 2*** 
+Comparison of analytical techniques used to assess solid-state properties in lyophilized formulations \[109\]
+
+
+
+**Techniques**
+
+**Pharmaceutical and structural properties**
+
+**Crystallinity**
+
+**Polymorphic form**
+
+**Miscibility/phase separation**
+
+**Ionization changes**
+
+**Mobility**
+
+**Interaction**
+
+**Protein structure**
+
+Differential scanning calorimetry
+
+x
+
+x
+
+x
+
+Powder X-ray diffraction
+
+x
+
+x
+
+Neutron scattering
+
+x
+
+x
+
+x
+
+Dielectric spectroscopy
+
+x
+
+Raman spectroscopy
+
+x
+
+x
+
+x
+
+x
+
+Fourier transform infrared spectroscopy
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Circular dichroism
+
+x
+
+Solid-state NMR spectroscopy
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+
+
+## **6 **Conclusion
+
+SSNMR is a tool that can be used to measure many important properties of lyophilized formulation, including excipient form, amorphous-amorphous phase separation, and mobility within the lyophilized matrix. There are still many areas of interest that have not been studied using NMR. Particularly, it would be interesting to employ solution and solid-state NMR in tandem to understand the transition from solution to solid state during the freezing portion of lyophilization in an in situ manner. Many process-related changes \(i.e., annealing time and temperature\) have not been studied by NMR and may yield a better understanding of extent of crystallization of excipients and any changes in protein-sugar interaction during annealing. The information gained through using NMR may lead to a mechanistic understanding of stabilization through lyophilization and may serve as a stability indicating tool for formulation development.
+
+
+**Acknowledgements**
+
+We thank Cole Tower, Richard Rustandi, and Adam Procopio for reviewing this chapter.
+
+
+**Disclaimer**
+
+Eric Munson is a partial owner of Kansas Analytical Services \(KAS\), a company that provides solid-state NMR services to the pharmaceutical industry. No data from KAS is provided here. All data presented here is from author A. Lay-Fortenbery’s dissertation work at the University of Kentucky.
+
+
+
+
+**References**
+
+1.  
+1.
+
+Mensink MA, et al. Influence of miscibility of protein-sugar lyophilizates on their storage stability. AAPS J. 2016;18:1225–32.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27301753)
+
+2.  
+2.
+
+Yuan X, et al. Hydrogen bonding interactions in amorphous indomethacin and its amorphous solid dispersions with poly\(vinylpyrrolidone\) and poly\(vinylpyrrolidone-co-vinyl acetate\) studied using 13C solid-state NMR. Mol Pharm. 2015;12\(12\):4518–28.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26512737)
+
+3.  
+3.
+
+Lu X, et al. Molecular interactions in posaconazole amorphous solid dispersions from two-dimensional solid-state NMR spectroscopy. Mol Pharm. 2019;16\(6\):2579–89.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31021639)
+
+4.  
+4.
+
+Jermain SV, et al. Homogeneity of amorphous solid dispersions–an example with KinetiSol®. Drug Dev Ind Pharm. 2019;45\(5\):724–35.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30653376)
+
+5.  
+5.
+
+Berendt RT, et al. Solid-state NMR spectroscopy in pharmaceutical research and analysis. TrAC Trends Anal Chem. 2006;25\(10\):977–84.
+
+6.  
+6.
+
+Su Y, Andreas L, Griffin RG. Magic angle spinning NMR of proteins: high-frequency dynamic nuclear polarization and 1H detection. Annu Rev Biochem. 2015;84\(1\):465–97.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25839340)
+
+7.  
+7.
+
+Kubicki DJ, et al. Amplifying dynamic nuclear polarization of frozen solutions by incorporating dielectric particles. J Am Chem Soc. 2014;136\(44\):15711–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25285480)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4671102)
+
+8.  
+8.
+
+Ni QZ, et al. In situ characterization of pharmaceutical formulations by dynamic nuclear polarization enhanced MAS NMR. J Phys Chem B. 2017;121\(34\):8132–41.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28762740)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5592962)
+
+9.  
+9.
+
+Li M, et al. Quantifying pharmaceutical formulations from proton detected solid-state NMR under ultrafast magic angle spinning. J Pharm Sci. 2020;109\(10\):3045–53.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32679211)
+
+10.  
+10.
+
+Li M, et al. Understanding molecular interactions in rafoxanide-povidone amorphous solid dispersions from ultrafast magic angle spinning NMR. Mol Pharm. 2020;17\(6\):2196–207.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32392076)
+
+11.  
+11.
+
+Lu X, et al. Molecular packing of pharmaceuticals analyzed with paramagnetic relaxation enhancement and ultrafast magic angle pinning NMR. Phys Chem Chem Phys. 2020;22\(23\):13160–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32495810)
+
+12.  
+12.
+
+Xiaolin T, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200.
+
+13.  
+13.
+
+Patel S, Pikal M. Emerging freeze-drying process development and scale-up issues. AAPS PharmSciTech. 2011;12\(1\):372–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21347620)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3066344)
+
+14.  
+14.
+
+Allmendinger A, Fischer S, Mueller R. Analytical characterization and predictive tools for highly concentrated protein formulations. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 139–61.
+
+15.  
+15.
+
+Dixon D, Gudinas A. Biotherapeutic drug product manufacturing and process development. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 353–83.
+
+16.  
+16.
+
+Dixon D, Tchessalov S, Bhatnagar B. Lyophilization: process design, robustness, and risk management. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 407–39.
+
+17.  
+17.
+
+Grauschopf U, et al. Line sterilization considerations and VHP. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 385–406.
+
+18.  
+18.
+
+Jahn M. Leachables and extractables: from regulatory expectations to laboratory assessment. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 337–51.
+
+19.  
+19.
+
+Mahler H-C, Matter A. Solubility, opalescence, and particulate matter. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 125–37.
+
+20.  
+20.
+
+Ravuri KSK. Polysorbate degradation and quality. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 25–62.
+
+21.  
+21.
+
+Weinbuch D, et al. Introduction into formulation development of biologics. In: Warne NW, Mahler H-C, editors. Challenges in protein product development. Cham: Springer International Publishing; 2018. p. 3–22.
+
+22.  
+22.
+
+Allison SD, et al. Hydrogen bonding between sugar and protein is responsible for inhibition of dehydration-induced protein unfolding. Arch Biochem Biophys. 1999;365\(2\):289–98.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10328824)
+
+23.  
+23.
+
+Wang BQ, et al. Impact of sucrose level on storage stability of proteins in freeze-dried solids: II. Correlation of aggregation rate with protein structure and molecular mobility. J Pharm Sci. 2009;98\(9\):3145–66.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19067392)
+
+24.  
+24.
+
+Moorthy BS, et al. Solid-state hydrogen–deuterium exchange mass spectrometry: correlation of deuterium uptake and long-term stability of lyophilized monoclonal antibody formulations. Mol Pharm. 2018;15\(1\):1–11.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29182876)
+
+25.  
+25.
+
+Jena S, Suryanarayanan R, Aksan A. Mutual influence of mannitol and trehalose on crystallization behavior in frozen solutions. Pharm Res. 2016;33\(6\):1413–25.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26908047)
+
+26.  
+26.
+
+Pikal MJ, et al. Solid state chemistry of proteins: II. The correlation of storage stability of freeze-dried human growth hormone \(hGH\) with structure and dynamics in the glassy solid. J Pharm Sci. 2008;97\(12\):5106–21.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18351639)
+
+27.  
+27.
+
+Cicerone MT, Douglas JF. Beta-relaxation governs protein stability in sugar-glass matrices. Soft Matter. 2012;8\(10\):2983–91.
+
+28.  
+28.
+
+Izutsu K, et al. Impact of heat treatment on miscibility of proteins and disaccharides in frozen solutions. Eur J Pharm Biopharm. 2013;85\(2\):177–83.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23692695)
+
+29.  
+29.
+
+Pikal MJ, Rigsbee DR, Roy ML. Solid state chemistry of proteins: I. Glass transition behavior in freeze dried disaccharide formulations of human growth hormone \(hGH\). J Pharm Sci. 2007;96\(10\):2765–76.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17621677)
+
+30.  
+30.
+
+Moorthy BS, et al. Predicting protein aggregation during storage in lyophilized solids using solid state amide hydrogen/deuterium exchange with mass spectrometric analysis \(ssHDX-MS\). Mol Pharm. 2014;11\(6\):1869–79.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24816133)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4051254)
+
+31.  
+31.
+
+Moorthy BS, Iyer LK, Topp EM. Mass spectrometric approaches to study protein structure and interactions in lyophilized powders. Jove-J Vis Exp. 2015;98:12.
+
+32.  
+32.
+
+Padilla AM, Pikal MJ. The study of phase separation in amorphous freeze-dried systems, part 2: investigation of Raman mapping as a tool for studying amorphous phase separation in freeze-dried protein formulations. J Pharm Sci. 2011;100\(4\):1467–74.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20967837)
+
+33.  
+33.
+
+Forney-Stevens KM, et al. Optimization of a Raman microscopy technique to efficiently detect amorphous-amorphous phase separation in freeze-dried protein formulations. J Pharm Sci. 2014;103\(9\):2749–58.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25275170)
+
+34.  
+34.
+
+Koshari SHS, et al. Characterization of protein-excipient microheterogeneity in biopharmaceutical solid-state formulations by confocal fluorescence microscopy. Mol Pharm. 2017;14\(2\):546–53.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28094996)
+
+35.  
+35.
+
+Yuan X, Sperger D, Munson EJ. Investigating miscibility and molecular mobility of nifedipine-PVP amorphous solid dispersions using solid-state NMR spectroscopy. Mol Pharm. 2014;11\(1\):329–37.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24256090)
+
+36.  
+36.
+
+Chen Y, et al. Understanding the impact of protein–excipient interactions on physical stability of spray-dried protein solids. Mol Pharm. 2021;18\(7\):2657–68.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34096731)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10042268)
+
+37.  
+37.
+
+Chang LQ, et al. Mechanism of protein stabilization by sugars during freeze-drying and storage: native structure preservation, specific interaction, and/or immobilization in a glassy matrix? J Pharm Sci. 2005;94\(7\):1427–44.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15920775)
+
+38.  
+38.
+
+Duer MJ. Solid-state NMR spectroscopy principles and applications. Oxford/Malden, MA: Blackwell Science; 2002.
+
+39.  
+39.
+
+Schmidt-Rohr K, Spiess HW. Multidimensional solid-state NMR and polymers. London: Academic Press; 1994.
+
+40.  
+40.
+
+Bugay DE. Solid-state nuclear magnetic resonance spectroscopy: theory and pharmaceutical applications. Pharm Res. 1993;10\(3\):317–27.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8464803)
+
+41.  
+41.
+
+Bennett AE, et al. Heteronuclear decoupling in rotating solids. J Chem Phys. 1995;103\(16\):6951–8.
+
+42.  
+42.
+
+Andrew ER, Bradbury A, Eades RG. Removal of dipolar broadening of nuclear magnetic resonance spectra of solids by specimen rotation. Nature. 1959;183\(4678\):1802–3.
+
+43.  
+43.
+
+Dixon WT, et al. Total suppression of sidebands in CPMAS C-13 NMR. J Magn Reson. 1982;49\(2\):341–5.
+
+44.  
+44.
+
+Pines A, Gibby MG, Waugh JS. Proton-enhanced NMR of dilute spins in solids. J Chem Phys. 1973;59\(2\):569–90.
+
+45.  
+45.
+
+Su Y, Hong M. Conformational disorder of membrane peptides investigated from solid-state NMR line widths and line shapes. J Phys Chem B. 2011;115\(36\):10758–67.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21806038)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222302)
+
+46.  
+46.
+
+Su Y, et al. Membrane-bound dynamic structure of an arginine-rich cell-penetrating peptide, the protein transduction domain of HIV TAT, from solid-state NMR. Biochemistry. 2010;49\(29\):6009–20.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20550193)
+
+47.  
+47.
+
+Lam Y-H, et al. A solid-state NMR study of protein mobility in lyophilized protein–sugar powders. J Pharm Sci. 2002;91\(4\):943–51.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11948532)
+
+48.  
+48.
+
+Mensink MA, et al. Influence of miscibility of protein-sugar lyophilizates on their storage stability. AAPS J. 2016;18\(5\):1225–32.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27301753)
+
+49.  
+49.
+
+Li M, Xu W, Su Y. Solid-state NMR spectroscopy in pharmaceutical sciences. TrAC Trends Anal Chem. 2021;135:116152.
+
+50.  
+50.
+
+Lubach JW, et al. Solid-state NMR studies of pharmaceutical solids in polymer matrices. Anal Bioanal Chem. 2004;378\(6\):1504–10.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15214410)
+
+51.  
+51.
+
+Offerdahl T, et al. Quantitation of crystalline and amorphous forms of anhydrous neotame using 13C CPMAS NMR spectroscopy. J Pharm Sci. 2005;94\(12\):2591–605.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16258988)
+
+52.  
+52.
+
+Izutsu K, Yoshioka S, Terao T. Effect of mannitol crystallinity on the stabilization of enzymes during freeze-drying. Chem Pharm Bull. 1994;42\(1\):5–8.
+
+53.  
+53.
+
+Liao XM, Krishnamurthy R, Suryanarayanan R. Influence of processing conditions on the physical state of mannitol - implications in freeze-drying. Pharm Res. 2007;24\(2\):370–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17177113)
+
+54.  
+54.
+
+Mehta M, Bhardwaj SP, Suryanarayanan R. Controlling the physical form of mannitol in freeze-dried systems. Eur J Pharm Biopharm. 2013;85\(2\):207–13.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23643784)
+
+55.  
+55.
+
+Grindley TB, McKinnon MS, Wasylishen RE. Towards understanding c-13-NMR chemical-shifts of carbohydrates in the solid-state - the spectra of d-mannitol polymorphs and of dl-mannitol. Carbohydr Res. 1990;197:41–52.
+
+56.  
+56.
+
+Pikal-Cleland KA, Carpenter JF. Lyophilization-induced protein denaturation in phosphate buffer systems: monomeric and tetrameric beta-galactosidase. J Pharm Sci. 2001;90\(9\):1255–68.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11745778)
+
+57.  
+57.
+
+Bhatnagar BS, Pikal MJ, Bogner RH. Study of the individual contributions of ice formation and freeze-concentration on isothermal stability of lactate dehydrogenase during freezing. J Pharm Sci. 2008;97\(2\):798–814.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17506511)
+
+58.  
+58.
+
+Alkhamis KA. Influence of solid-state acidity on the decomposition of sucrose in amorphous systems II \(effect of buffer\). Drug Dev Ind Pharm. 2009;35\(4\):408–16.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19016102)
+
+59.  
+59.
+
+Chang BS, Reeder G, Carpenter JF. Development of a stable freeze-dried formulation of recombinant human interleukin-1 receptor antagonist. Pharm Res. 1996;13\(2\):243–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8932444)
+
+60.  
+60.
+
+Gomez G, Pikal MJ, Rodriguez-Hornedo N. Effect of initial buffer composition on pH changes during far-from-equilibrium freezing of sodium phosphate buffer solutions. Pharm Res. 2001;18\(1\):90–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11336359)
+
+61.  
+61.
+
+Kolhe P, Amend E, Singh SK. Impact of freezing on pH of buffered solutions and consequences for monoclonal antibody aggregation. Biotechnol Prog. 2010;26\(3\):727–33.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20039442)
+
+62.  
+62.
+
+Pyne A, Chatterjee K, Suryanarayanan R. Crystalline to amorphous transition of disodium hydrogen phosphate during primary drying. Pharm Res. 2003;20\(5\):802–3.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12751637)
+
+63.  
+63.
+
+Suryanarayanan R, Thorat AA. Characterization of phosphate buffered saline \(PBS\) in frozen state and after freeze-drying. Pharm Res. 2019;36\(7\):1–11.
+
+64.  
+64.
+
+Cistola DP, Small DM, Hamilton JA. Ionization behavior of aqueous carboxylic-acids studied by C-13 NMR-spectroscopy. Biophys J. 1982;37\(2\):A204.
+
+65.  
+65.
+
+Munowitz M, et al. Acid-base and tautomeric equilibria in the solid-state - N-15 NMR-spectroscopy of histidine and imidazole. J Am Chem Soc. 1982;104\(5\):1192–6.
+
+66.  
+66.
+
+Henry B, Tekely P, Delpuech JJ. pH and pK determinations by high-resolution solid-state C-13 NMR: acid-base and tautomeric equilibria of lyophilized L-histidine. J Am Chem Soc. 2002;124\(9\):2025–34.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11866617)
+
+67.  
+67.
+
+Li M, et al. Probing microenvironmental acidity in lyophilized protein and vaccine formulations using solid-state NMR spectroscopy. J Pharm Sci. 2021;110\(3\):1292–301.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33249049)
+
+68.  
+68.
+
+Li JJ, et al. Acid-base characteristics of bromophenol blue-citrate buffer systems in the amorphous state. J Pharm Sci. 2004;93\(3\):697–712.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14762908)
+
+69.  
+69.
+
+Kim AI, Akers MJ, Nail SL. The physical state of mannitol after freeze-drying: effects of mannitol concentration, freezing rate, and a noncrystallizing cosolute. J Pharm Sci. 1998;87\(8\):931–5.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9687336)
+
+70.  
+70.
+
+Lam YH, et al. A solid-state NMR study of protein mobility in lyophilized protein-sugar powders. J Pharm Sci. 2002;91\(4\):943–51.
+
+71.  
+71.
+
+Li B, et al. Effects of sucrose and mannitol on asparagine deamidation rates of model peptides in solution and in the solid state. J Pharm Sci. 2005;94\(8\):1723–35.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15986465)
+
+72.  
+72.
+
+Pikal MJ, Rigsbee DR. The stability of insulin in crystalline and amorphous solids: observation of greater stability for the amorphous form. Pharm Res. 1997;14\(10\):1379–87.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9358550)
+
+73.  
+73.
+
+Sundaramurthi P, Suryanarayanan R. Trehalose crystallization during freeze-drying: implications on lyoprotection. J Phys Chem Lett. 2010;1\(2\):510–4.
+
+74.  
+74.
+
+Varshney DB, et al. Glycine crystallization in frozen and freeze-dried systems: effect of pH and buffer concentration. Pharm Res. 2007;24\(3\):593–604.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17245648)
+
+75.  
+75.
+
+Varshney DB, et al. Phase Transitions in frozen systems and during freeze-drying: quantification using synchrotron X-ray diffractometry. Pharm Res. 2009;26\(7\):1596–606.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19326191)
+
+76.  
+76.
+
+Padilla AM, et al. The study of amorphous phase separation in a model polymer phase-separating system using Raman microscopy and a low-temperature stage: effect of cooling rate and nucleation temperature. J Pharm Sci. 2011;100\(4\):1362–76.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20890911)
+
+77.  
+77.
+
+Krause S, Iskandar M. Phase separation in styrene-alpha-methyl styrene block copolymers. Abstr Pap Am Chem Soc. 1977;173\(MAR20\):130–0.
+
+78.  
+78.
+
+Yuan XD, Sperger D, Munson EJ. Investigating miscibility and molecular mobility of nifedipine-PVP amorphous solid dispersions using solid-state NMR spectroscopy. Mol Pharm. 2014;11\(1\):329–37.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24256090)
+
+79.  
+79.
+
+Meier BH. Polarization transfer and spin diffusion in solid-state NMR. Adv Magn Opt Reson. 1994;18:1–116.
+
+80.  
+80.
+
+Bovey FA. In: Mirau PA, editor. NMR of polymers. San Diego: Academic Press; 1996.
+
+81.  
+81.
+
+Duan P, et al. Quantifying molecular mixing and heterogeneity in pharmaceutical dispersions at Sub-100 nm resolution by spin diffusion NMR. Mol Pharm. 2020;17\(9\):3567–80.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=32787281)
+
+82.  
+82.
+
+Deechongkit S, et al. Physical and biophysical effects of polysorbate 20 and 80 on darbepoetin alfa. J Pharm Sci. 2009;98\(9\):3200–17.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19388064)
+
+83.  
+83.
+
+Belton PS, Gil AM. IR and Raman-spectroscopic studies of the interaction of trehalose with hen egg-white lysozyme. Biopolymers. 1994;34\(7\):957–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8054473)
+
+84.  
+84.
+
+Hedoux A, et al. Mechanism of protein stabilization by trehalose during freeze-drying analyzed by in situ micro-raman spectroscopy. J Pharm Sci. 2013;102\(8\):2484–94.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23754549)
+
+85.  
+85.
+
+Hedoux A, et al. Analysis of sugar bioprotective mechanisms on the thermal denaturation of lysozyme from Raman scattering and differential scanning calorimetry investigations. J Phys Chem B. 2006;110\(45\):22886–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17092040)
+
+86.  
+86.
+
+Lerbret A, et al. How strongly does trehalose interact with lysozyme in the solid state? Insights from molecular dynamics simulation and inelastic neutron scattering. J Phys Chem B. 2012;116\(36\):11103–16.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22894179)
+
+87.  
+87.
+
+Lewis LM, et al. Characterizing the freeze-drying behavior of model protein formulations. AAPS PharmSciTech. 2010;11\(4\):1580–90.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21057905)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3011077)
+
+88.  
+88.
+
+Liao YH, Brown MB, Martin GP. Investigation of the stabilisation of freeze-dried lysozyme and the physical properties of the formulations. Eur J Pharm Biopharm. 2004;58\(1\):15–24.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15207533)
+
+89.  
+89.
+
+Liao YH, et al. Protective mechanism of stabilizing excipients against dehydration in the freeze-drying of proteins. Pharm Res. 2002;19\(12\):1854–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12523665)
+
+90.  
+90.
+
+Povey JF, et al. Investigating variables and mechanisms that influence protein integrity in low water content amorphous carbohydrate matrices. Biotechnol Prog. 2009;25\(5\):1217–27.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19691119)
+
+91.  
+91.
+
+Prestrelski SJ, et al. Dehydration-induced conformational transitions in proteins and their inhibition by stabilizers. Biophys J. 1993;65\(2\):661–71.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7693001)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1225768)
+
+92.  
+92.
+
+Sundaramurthi P, Suryanarayanan R. Influence of crystallizing and non-crystallizing cosolutes on trehalose crystallization during freeze-drying. Pharm Res. 2010;27\(11\):2384–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20824310)
+
+93.  
+93.
+
+Yoshioka S, et al. Effect of sugars on the molecular motion of freeze-dried protein formulations reflected by NMR relaxation times. Pharm Res. 2011;28\(12\):3237–47.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21706266)
+
+94.  
+94.
+
+Jena S, et al. Effects of excipient interactions on the state of the freeze-concentrate and protein stability. Pharm Res. 2017;34\(2\):462–78.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27981449)
+
+95.  
+95.
+
+Kadoya S, et al. Freeze-drying of proteins with glass-forming oligosaccharide-derived sugar alcohols. Int J Pharm. 2010;389\(1–2\):107–13.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20097277)
+
+96.  
+96.
+
+Allison SD, et al. Optimization of storage stability of lyophilized actin using combinations of disaccharides and dextran. J Pharm Sci. 2000;89\(2\):199–214.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10688749)
+
+97.  
+97.
+
+Chang LQ, et al. Effect of sorbitol and residual moisture on the stability of lyophilized antibodies: implications for the mechanism of protein stabilization in the solid state. J Pharm Sci. 2005;94\(7\):1445–55.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15920766)
+
+98.  
+98.
+
+Cleland JL, et al. A specific molar ratio of stabilizer to protein is required for storage stability of a lyophilized monoclonal antibody. J Pharm Sci. 2001;90\(3\):310–21.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11170024)
+
+99.  
+99.
+
+Crowe JH, Carpenter JF, Crowe LM. The role of vitrification in anhydrobiosis. Annu Rev Physiol. 1998;60:73–103.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9558455)
+
+100.  
+100.
+
+Han Y, et al. Effects of sugar additives on protein stability of recombinant human serum albumin during lyophilization and storage. Arch Pharm Res. 2007;30\(9\):1124–31.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17958330)
+
+101.  
+101.
+
+Heller MC, Carpenter JF, Randolph TW. Protein formulation and lyophilization cycle design: prevention of damage due to freeze-concentration induced phase separation. Biotechnol Bioeng. 1999;63\(2\):166–74.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10099593)
+
+102.  
+102.
+
+Izutsu K, Yoshioka S, Terao T. Decreased protein-stabilizing effects of cryoprotectants due to crystallization. Pharm Res. 1993;10\(8\):1232–7.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8415413)
+
+103.  
+103.
+
+Kreilgaard L, et al. Effects of additives on the stability of Humicola lanuginosa lipase during freeze-drying and storage in the dried solid. J Pharm Sci. 1999;88\(3\):281–90.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10052984)
+
+104.  
+104.
+
+Liao XM, Krishnamurthy R, Suryanarayanan R. Influence of the active pharmaceutical ingredient concentration on the physical state of mannitol-implications in freeze-drying. Pharm Res. 2005;22\(11\):1978–85.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16132343)
+
+105.  
+105.
+
+SDBSWeb. \[cited 2019\]; Available from: [https://​sdbs.​db.​aist.​go.​jp](https://sdbs.db.aist.go.jp).
+
+106.  
+106.
+
+Lewandowski JR. Advances in solid-state relaxation methodology for probing site-specific protein dynamics. Acc Chem Res. 2013;46\(9\):2018–27.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23621579)
+
+107.  
+107.
+
+Luthra SA, Pikal MJ, Utz M. Solid state C-13 NMR investigation of impact of annealing in lyophilized glasses. J Pharm Sci. 2008;97\(10\):4336–46.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18240306)
+
+108.  
+108.
+
+Wang B, et al. The impact of thermal treatment on the stability of freeze-dried amorphous pharmaceuticals: II. Aggregation in an IgG1 fusion protein. J Pharm Sci. 2010;99\(2\):683–700.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19798764)
+
+109.  
+109.
+
+Lay A, Munson E, Su Y. Solid-state NMR spectroscopy: predicting stability in lyophilised biological products. Eur Pharm Rev. 2018.
+
+
+

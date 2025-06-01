@@ -1,0 +1,914 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_21](https://doi.org/10.1007/978-3-031-12634-5_21)
+
+
+**
+# Advances in Process Analytical Technology: A Small-Scale Freeze-Dryer for Process Analysis, Optimization, and Transfer
+**
+
+
+T. N. Thompson1   and Spencer Holmes1
+
+
+\(1\) 
+Millrock Technology, Inc, Kingston, NY, USA
+
+
+
+
+
+**T. N. Thompson**
+
+**Email: **tn@millrocktech.com
+
+
+
+
+
+**1 **Introduction
+
+**2 **Development of the MicroFD®
+
+**3 **Lyophilization Design Space
+
+**4 **Vial Thermal Conductivity \(Kv\)
+
+**5 **Product Cake Resistance \(Rp\)
+
+**6 **PAT Technologies
+
+**6.1 **AccuFlux® Heat Flux Sensor
+
+**7 **AutoDry™ Product Temperature Control
+
+**8 **End of Primary Drying: Pirani Versus Capacitance Manometer Pressure Differential
+
+**9 **FreezeBooster® Controlled Nucleation
+
+**9.1 **Freezing Process PAT
+
+**10 **Nucleation \(Intra-vial\)
+
+**11 **Nucleation \(Inter-vial\)
+
+**11.1 **Freezing of Freeze Concentrate
+
+**11.2 **Measurement and Control of Freezing Heat Flow Post-controlled Nucleation
+
+**12 **Freezing Events
+
+**12.1 **The Effect of Freezing and Heat Flow Control on Primary Drying
+
+**12.2 **Summary of Experiments on the Different Freezing Methods on Primary Drying Times
+
+**13 **Developing Transferrable Protocols
+
+**14 **Summary
+
+References
+
+
+## Abstract
+
+*Process analytical technology* \(*PAT*\) is a mechanism to design, analyze, and control pharmaceutical manufacturing processes through the measurement of critical process parameters \(CPP\) which affect critical quality attributes \(CQA\). Performing in-process measurement and control of the freeze-drying process ensures product quality and process efficiency.
+
+This chapter will investigate several PAT methods for improving both freezing and primary drying using a small bath of product, for example, 7–37 vials. The process analytical technologies include a heat flux sensor, controlled nucleation, and closed-loop product temperature control.
+
+A heat flux sensor enables measurement and control of the critical process parameters, including vial thermal conductivity \(Kv\), cake resistance \(Rp\), heat and mass flow, and significant process events. One unique feature of heat flux is the ability to measure and identify events that occur during the freezing process.
+
+
+**Keywords**
+MicroFD Micro freeze-dryer Freeze-drying Pharmaceutical freeze-drying PAT Process analytical technology Critical process parameters Vial thermal conductivity Kv Critical quality attributes CQA
+
+
+## **1 **Introduction
+
+*Process* *analytical* *technology* \(*PAT*\) is a mechanism to design, analyze, and control pharmaceutical manufacturing processes through the measurement of critical process parameters \(CPP\) which affect critical quality attributes \(CQA\). Performing in-process measurement and control of the freeze-drying process ensures product quality and process efficiency.
+
+In this chapter, we will discuss the use of a small-scale freeze-dryer with several PAT methods for analyzing and improving both the freezing and primary drying steps of the freeze-drying process. This chapter will also explore the concept of using PAT in small batches to analyze, optimize, and transfer freeze-drying protocols.
+
+The ideal process analytical technologies for freeze-drying should have the following characteristics: 
+
++ 
+Can be implemented in any freeze-dryer at a low cost
+
++  
+Works with a wide range of batch sizes and during all phases of the freeze-drying process
+
++  
+Works in-process and provides direct, continuous measurement of critical process parameters
+
++  
+Incorporates closed-loop process control
+
+
+
+
+Today’s common PAT tools determine a limited number of critical process parameters, and the batch sizes require a significant amount of active pharmaceutical ingredients \(API\) for testing. Most PAT technologies and techniques are used on these larger batches; however, due to the increasing costs and reduced amounts of API available for testing, there is a growing need for development using small batches of vials.
+
+A scaled-down freeze-dryer with an appropriately sized drying chamber, shelf, and condenser is needed for testing and developing lyophilization protocols using much fewer vials than typically required for a full shelf on a lab-scale unit. Although miniaturized, this equipment needs to produce lyophilization cycles comparable to larger dryers with a fewer number of vials. A small-scale freeze-dryer, named the MicroFD®, has been developed to address this need and is capable of processing and controlling small batches of 7–37 vials. The MicroFD’s combination of system technologies is designed to provide real-time measurement of critical process parameter information, such as heat transfer coefficients, cake resistance, product temperature, and mass flow. At the same time, the MicroFD also provides control of the process for optimization.
+
+The MicroFD includes several technologies to aid in the analysis and optimization of protocols; these include FreezeBooster® controlled nucleation, AccuFlux® heat flow measurement and control, LyoSIM® edge vial conditioning, and AutoDry**™** primary drying product temperature control. LyoPAT® software provides the platform for measuring, monitoring, controlling, and reporting on the critical process parameters during freezing and primary drying \(Photo 1\). 
+![](images/000001.jpeg)
+
+
+***Photo 1*** 
+Photo of MicroFD® by Millrock Technology
+
+
+
+## **2 **Development of the MicroFD**®**
+
+When freeze-drying is performed on a batch that occupies less than a full shelf, the result is significantly shorter primary drying processing times. For example, the processing time for 19 vials placed on a shelf in a hexagonal array, compared to that of a full tray, is 30% faster. Additionally, there will be considerable nonuniformity between the outer vials and inner vials within this small array. Altogether, the critical process parameters determined using this method would not be representative of a larger batch.
+
+It has been commonly accepted that 19 vials, and particularly the outer edge vials, dry faster because they are exposed to more radiant energy. Therefore, eliminating radiation should eliminate the difference in processing times. However, experimentation does not support this concept. The following describes the experiments and actions taken to eliminate the edge vial effect.
+
+A small freeze-dryer prototype was built with the ability to control the wall temperature. The concept behind this design is that one could eliminate the edge vial effect by operating the wall at a low temperature, which results in reduced heat transfer from radiation sources. Initial experiments with a reduced wall temperature were conducted, both with and without the vials insulated from any potential radiation sources. However, this resulted in minimal change in primary drying time and minimal improvement of sublimation uniformity across the batch of vials. Reducing the wall temperature had only a marginal effect on eliminating the edge vial effect and was not able to produce uniform sublimation rates across all vials. Therefore, these initial experiments could not eliminate the edge vial effect by simply reducing heat transfer from radiation sources. Reducing the wall temperature further, below −40 °C, is not possible; the wall would act like a condenser, collecting the vapor on its surface \(Photo 2\). 
+![](images/000002.jpeg)
+
+
+***Photo 2*** 
+Photo of initial apparatus where the effectiveness of cooling the wall was tested. Cooling the wall did not enable sufficient process control to produce a uniform sublimation rate across the batch
+
+
+
+It is commonly held that the sum of energy influencing the vials includes heat from the shelf in the form of conduction and gas conduction, gas convection on the sides of the vials, and radiation. Eliminating the radiation component by cooling the walls did not eliminate the edge vial effect; thus, a different method of edge vial control needed to be developed.
+
+Another way to look at the problem is to consider the question: “Why do the center vials dry slower than the edge vials?” If eliminating the radiation did not achieve uniformity of the small vial batch, then there must be more components to the edge vial effect than just radiation.
+
+A major factor in the difference between drying rates of the center vials versus the edge vials is that a sublimating vial is a heat sink, and edge vials are not surrounded by sublimating vials. Sublimation is an endothermic event, which requires a massive amount of energy absorption. Each gram of sublimating material absorbs 2830 joules of energy to change from a solid to a vapor. In large batches, the center vials are packed together, where they compete for the available energy. The net effect is less energy available for each vial, which results in slower drying and lower heat transfer to the product in that vial. Therefore, the center vials in a large batch dry slower due to the limited energy available. The challenge here is to develop a method to cool the edge vials to simulate center vials; specifically, a method that would act like a heat sink on the vials on the outside to simulate the sublimating vials in the middle of the batch.
+
+In order to control the heat transfer on the outside vials, a temperature-controlled ring is implemented around the small batch of vials, and thermally conductive blocks are used to bridge the gap between the outer edge vials and the ring. The blocks or thermal conductors can be made from various materials and, in various configurations and sizes, to ensure good contact and thermal transfer between the ring and the edge vials. The blocks are designed for various sizes and quantities of vials, typically from 7 to 37 vials. This concept of temperature-controlled ring and thermal blocks is called LyoSim®.
+
+The LyoSIM ring produces a heat flow path that can be adjusted to simulate the local heat flow of the center vials. LyoSIM has a direct impact on the heat transfer of the outer two rows of vials. With this design, the edge vial heat flow is controlled, enabling the edge vial effect to be eliminated. As a result, the batch of vials sublimate uniformly \(Photo 3\). 
+![](images/000003.jpeg)
+
+
+***Photo 3*** 
+Temperature controlled LyoSIM® ring and thermal conductors for intimate contact to vials for optimum process control. The temperature-controlled apparatus enabled simulation of center vials
+
+
+
+To prove the effectiveness of the LyoSim ring concept, a freeze-drying run was performed with the ring slightly below the product temperature during the primary drying cycle. The outcome of this run was that the overall sublimation rate was reduced, and the batch uniformity was better than that of center vials in a larger batch. To determine the uniformity, the thermal conductivity \(Kv\) for each vial was calculated gravimetrically. The following figure shows the uniformity across the batch \(Fig. 1\). 
+![](images/000004.jpeg)
+
+
+***Fig. 1*** 
+Uniform Kv distribution across 19 vials using the LyoSIM ring. The Kv uniformity was superior than to that found in center vials in large batches
+
+
+
+The LyoSIM apparatus temperature is independently controlled by programmed steps or from product temperature feedback using an appropriate product temperature sensing method. The temperature can be programmed to simulate the product temperature at the bottom of the vial or the sublimation interface temperature – or somewhere in between – to eliminate the edge vial effect. Recent studies have shown that an offset of −4 to −5 °C from the product temperature produces a sublimation rate uniformity better than center vials in a production system \[1\].
+
+A method for automatically adjusting the temperature of the LyoSIM is incorporated in the system. Multiple thermocouples are placed in the vials and the LyoSIM ring temperature is adjusted to minimize the temperature difference across the batch to ensure optimal process uniformity.
+
+The MicroFD has demonstrated the ability to process small batches, and with additional process analytical technologies, one can study the process to determine critical process parameters, optimize protocols, and develop protocols that are transferable to larger freeze-dryers for scale-up. In addition, the same techniques can be used to scale-down processes from larger systems to perform quality studies.
+
+The advantages of a small batch freeze-dryer includes simplified test processing as well as reduced need for API. With evolution of technology and understanding of science of scale, we are on the way to developing a robust commercial process with a handful of small-scale experiments, in a material-sparing manner. Recent publications by Goldman \[1\] show that the Kv of the process can be adjusted to mimic a larger freeze-dryer, and this makes direct protocol transfer feasible.
+
+## **3 **Lyophilization Design Space
+
+Successful lyophilization of a product is dependent on drying the vials while maintaining the frozen product below the critical temperature of the given formulation. The product temperature is not directly controlled during the lyophilization process, but rather is indirectly controlled through the shelf temperature and the chamber pressure, which determine the dynamics of sublimation within the vials. The combination of acceptable process conditions \(shelf temperature and chamber pressure\) that will yield a maximum sublimation rate while also maintaining the product temperature below its critical temperature is known as a design space. A given design space is applicable only to the specific formulation, vial, and freeze-dryer combination for which it is developed, and developing a design space requires determining the critical process parameters for each vial/formulation/freeze-dryer combination over the course of several cycles. For this reason, PAT tools that are able to reduce the time and materials required to develop a design space can provide a tremendous advantage to the end user. A lyophilization design space can also be a valuable tool in evaluating batch quality during excursion events where a process deviated from its control setpoints. If the shelf temperature or chamber pressure deviates outside of their respective control setpoints but remains within the acceptable bounds of the design space, it can be determined that no adverse quality impact on the product will result from this deviation \(Fig. 2\). 
+![](images/000005.jpeg)
+
+
+***Fig. 2*** 
+Typical design space for a 5% sucrose formulation in a 6R vial. Safe design space in yellow is determined by the product temperature isotherm at the solution’s critical temperature of −32 °C \(green\) and the equipment capability limit \(red\)
+
+
+
+## **4 **Vial Thermal Conductivity \(Kv\)
+
+Thermal conductivity of the vial \(Kv\) is a commonly used critical process parameter \(CPP\) during lyophilization cycle development and is critical to establishing the safe design space for a given product formulation. Kv is determined by measuring the sublimation rate in a vial at a specific shelf temperature and chamber pressure and is a result of the all the heat sources that impact the vial. The contribution of the different heat sources changes with both shelf temperature and chamber pressure; therefore, Kv changes. Kv provides insight into the effective heat transfer into the vial; it is also used to calculate other critical process parameters and to develop transferable protocols. Because the Kv is strongly dependent on the chamber pressure, it must be calculated at several control pressures to determine an accurate design space across a range of chamber pressures. It is important to understand the concept and methods of determining Kv.
+
+The most common method for determining Kv is to measure the mass loss of water over a period during the primary drying cycle. For example, the vial mass is measured prior to a freeze-drying process. After a product is frozen, a vacuum is pulled on the product chamber, and the shelf temperature is raised to its control point. After a period, while the product is still in the steady state zone of primary drying, the cycle is interrupted. The mass of the vials is again measured, and Kv can be calculated as follows: 
+
+
+
+![$$ \textrm{Kv}\ \textrm{grav}=\frac{\left(\frac{dm}{dt}\right)\textrm{Hs}}{\textrm{Av}\left(\textrm{Ts}-\textrm{Tb}\right)}. $$](images/000006.jpeg)
+
+
+
+
+
++ 
+Av – area of the vial bottom, cm2
+
++  
+*dm/dt* – mass loss per period of time, gram/sec
+
++  
+Hs – heat of sublimation, 2830 joules/gram
+
++  
+Kv grav – Vial thermal conductivity as calculated by gravimetrically measuring the mass loss over a period, watts/cm2-°C
+
++  
+Ts – shelf surface temperature, °C
+
++  
+Tb – product temperature at the bottom of the vial, °C
+
+
+
+
+Although the concept is simple, the execution is difficult, and there are pitfalls that the operator must consider.
+
+When performing a gravimetric analysis, the user must load a full tray into the freeze-dryer. This requires several hundred vials to be marked, weighed, and then reweighed, with the position of each vial documented.
+
+Kv gravimetric is a batch average which takes all vials in the batch into consideration. This leads to error, since the edge vials dry significantly faster than the center vials. The edge vials have a much higher Kv than the center vials, so averaging them together produces a higher overall batch average. It is recommended that Kv be calculated with, and then without, the outer two to three rows of vials in order to get a good understanding of which vials represent the batch best for your analysis \(Fig. 3\). 
+![](images/000007.jpeg)
+
+
+***Fig. 3*** 
+Thermal conductivity \(Kv\) distribution across a shelf of vials on a 2 sq ft shelf. Edge vials have a 50% higher Kv. The center vial Kv varies ±10%, but the average is consistent when the edge vials are removed from the calculation
+
+
+
+When performing gravimetric calculations, it is important to define, and keep consistent, the starting point for the time period used for calculating the average sublimation rate. The best method is to allow the shelf temperature to reach its primary drying setpoint before the timer is started. Starting the timer during the ramp-up to temperature can result in calculation errors and make reproducibility difficult.
+
+The advantages of determining Kv gravimetrically are that one can select the data set that best represents one’s application and that this method can be performed on any freeze-dryer. The disadvantages of determining Kv gravimetrically are numerous: it is labor-intensive, time-consuming, and subject to error due to the large number of measurements, can be skewed based on the determination of the start time, and is a major challenge for determining production units. It is very important to be consistent in the methods of measurement.
+
+An alternate method for measuring Kv that simplifies the process will be described later in this chapter \(Fig. 4\). 
+![](images/000008.jpeg)
+
+
+***Fig. 4*** 
+Kv variation with pressure and temperature. Pressure has a major effect on Kv. Shelf temperature has a lessor, but still significant effect on Kv
+
+
+
+Notes on Kv: 
+
++ 
+Kv changes dramatically with chamber pressure. This is due to changes in the heat transfer sources when pressure changes. The gas conduction portion of heat transfer increases with higher chamber pressure levels and Kv increases as a result.
+
++  
+Many publications assume that Kv is not affected by shelf temperature. This is not true: Kv does in fact change with shelf temperature. Kv changes about 10% as the temperature of the shelf increases from −20 to \+20 °C.
+
++  
+Kv across the center vials in a batch can vary by ±10% or more
+
++  
+Kv between center vials and edge vials can vary by 50% or more.
+
++  
+If Kv is known, the temperature of the product can be determined without a thermocouple by measuring the heat flow. Tproduct = Tshelf – \(Heat flow / Kv\)
+
+
+
+
+## **5 **Product Cake Resistance \(Rp\)
+
+In addition to the Kv, the product cake resistance \(Rp\) is another critical process parameter that is vital to accurately determining a safe design space for lyophilization of a given formulation. The product cake resistance is a measurement of how restrictive the dried layer of the product cake is to the flow of water vapor from sublimation of the frozen product beneath. As the product dries, the height of the dried layer and the total cake resistance increase, which in turn results in an increase in the product temperature. It is recommended that a design space be determined to account for the Rp at its maximum value, which occurs near the end of primary drying when the cake height is at its maximum. Due to inaccuracies of thermocouple measurements at this point in the cycle, it is difficult to directly calculate the Rp at this point. Instead, the Rp must be calculated at at least three different cake heights and then mathematically fitted to determine what the maximum cake resistance would be at the end of primary drying \(Fig. 5\). 
+![](images/000009.jpeg)
+
+
+***Fig. 5*** 
+Rp vs Cake Height evolution throughout primary drying. A plotted trendline \(dashed line\) is used to estimate the maximum cake resistance at the end of primary drying, where direct measurement is difficult or inaccurate \(square\)
+
+
+
+Similar to the Kv, the Rp is commonly calculated through gravimetric measurements. The process of conducting a gravimetric study for calculating the Rp is the same as the above process for calculating the Kv and in fact can be conducted at the same time. For calculating the Rp, the below equation is used: 
+
+
+
+![$$ \textrm{Rp}\ \textrm{grav}=\frac{\textrm{Ap}\left(\textrm{Pice}-\textrm{Pc}\right)}{\left(\frac{dm}{dt}\right)} $$](images/000010.jpeg)
+
+
+
+
+
++ 
+Ap – area of the product, based on the inner vial diameter, cm2
+
++  
+*dm/dt* – mass loss per period of time, gram/hr
+
++  
+Pc *– controlled* chamber pressure, Torr
+
++  
+Pice *–* pressure of sublimation interface calculated from product temperature, Torr
+
++  
+Rp grav – product cake resistance as calculated by gravimetrically measuring the mass loss over a period, cm2-Torr-hr/g
+
+
+
+
+Calculation of the cake resistance based on gravimetric measurements is prone to the same challenges and disadvantages as the gravimetric measurements for calculating Kv. Similarly, an alternate method for measuring Rp that simplifies the process will be described later in this chapter.
+
+Notes on Rp 
+
++ 
+The Kv is heavily dependent on the concentration and type of excipients used in the formulation
+
++  
+The Rp is also dependent on the freezing dynamics and resulting crystal structure from how the formulation is frozen.
+
+
+
+
+## **6 **PAT Technologies
+
+### **6.1 **AccuFlux**®** Heat Flux Sensor
+
+With AccuFlux, a heat flux sensor is mounted between the shelf and vial to continuously measure the heat flow during the entire freeze-drying process. This makes possible the direct and continuous measurement of critical process parameters that cannot be measured with any other technology \(Photo 4\). 
+![](images/000011.jpeg)
+
+
+***Photo 4*** 
+Heat flux sensor on the shelf of the MicroFD®
+
+
+
+A heat flux sensor enables continuous measurement and control of the critical process parameters \(CPP\), including vial thermal conductivity \(Kv\), cake resistance \(Rp\), and heat and mass flow. One unique feature of heat flux is the ability to measure and identify events that occur during the freezing process, such as nucleation, the end of freezing, and secondary crystallization \[3\].
+
+Many of the existing PAT technologies calculate the critical process parameters based on assumptions and estimations, which leads to process measurement errors. In contrast, when one uses heat flow for direct measurement, this eliminates the calculations and assumptions associated with other types of PAT tools.
+
+Determination of critical process parameters using heat flow measured by a heat flux sensor:
+
+Definitions 
+
++ 
+Av – area of the vial bottom – cm2
+
++  
+Hs – heat of sublimation – 2830 joules/gram
+
++  
+Heat flux – the heat flow per unit area *measured* using a heat flux sensor – W/m2
+
++  
+Kv shelf – vial thermal conductivity as *measured* between the shelf and the vial – W/m2-°C
+
++  
+Kv total – vial thermal conductivity as determined using the shelf to vial thermal conductivity and a full primary drying cycle – W/m2-°C
+
++  
+Rp – cake resistance – cm2-Torr-hr/g
+
++  
+Ts – *measured* shelf surface temperature – °C
+
++  
+Tb – *measured* product temperature at the bottom of the vial – °C
+
+
+
+
+*Shelf to* *Vial Thermal Conductivity* 
+
+
+
+![$$ \textrm{Kv}\ \textrm{shelf}=\frac{\textrm{Heat}\ \textrm{Flux}}{\textrm{Tshelf}\ \textrm{surface}-\textrm{Tproduct}} $$](images/000012.jpeg)
+
+
+
+
+
+*Percent Heat Flow from Shelf* 
+
+
+
+![$$ \%Q\textrm{shelf}=\frac{\textrm{Heat}\ \textrm{Flux}\ \textrm{accummulated}}{\textrm{Heat}\ \textrm{of}\ \textrm{sublimation}} $$](images/000013.jpeg)
+
+
+
+
+
+*Percent Dried* 
+
+
+
+![$$ \%\textrm{Dried}=\frac{\textrm{Heat}\ \textrm{Flux}\ \textrm{Shelf}\times \textrm{Time}\ \textrm{in}\ \textrm{Second}\times \textrm{Avial}\times \textrm{NV}}{\textrm{Total}\ \textrm{Heat}\ \textrm{of}\ \textrm{Sublimation}} $$](images/000014.jpeg)
+
+
+
+
+
+*Vial Thermal Conductivity* 
+
+
+
+![$$ \textrm{Kv}\ \textrm{total}=\frac{\textrm{Kv}\ \textrm{shelf}}{\%Q\textrm{shelf}} $$](images/000015.jpeg)
+
+
+
+
+
+*Mass Flow Per Vial* 
+
+
+
+![$$ \textrm{Mass}\ \textrm{Flow}\ \textrm{Per}\ \textrm{Vial}=\frac{\textrm{Heat}\ \textrm{Flux}\ \textrm{Shelf}\times \textrm{Avial}\times 3600}{\textrm{Total}\ \textrm{Heat}\ \textrm{of}\ \textrm{Sublimation}\times \%Q\textrm{shelf}} $$](images/000016.jpeg)
+
+
+
+
+
+*Total Mass Removed* 
+
+
+
+![$$ \textrm{Mass}\ \textrm{Removed}=\frac{\textrm{Total}\ Q\ \textrm{measured}}{\textrm{Heat}\ \textrm{of}\ \textrm{Sublimation}\ \textrm{Constant}}\times \textrm{MWA} $$](images/000017.jpeg)
+
+
+
+
+
+*Product Cake Resistance* 
+
+
+
+![$$ \textrm{Rp}=\frac{\textrm{Aprod}\times \left(\textrm{Pice}-\textrm{Pchamber}\right)}{\textrm{Mass}\ \textrm{Flow}\ \textrm{Per}\ \textrm{Vial}} $$](images/000018.jpeg)
+
+
+
+
+
+*Product Temperature* 
+
+
+
+![$$ \textrm{Tproduct}=\textrm{Tshelf}\ \textrm{surface}-\frac{\textrm{Heat}\ \textrm{Flux}\ }{\textrm{KvShelf}} $$](images/000019.jpeg)
+
+
+
+
+
+## **7 **AutoDry™ Product Temperature Control
+
+AutoDry provides closed loop control of the shelf temperature during primary drying based on the product temperature: this will be either the warmest thermocouple in the batch or an average of batch temperature.
+
+The user selects the product temperature for control based on the critical temperature for the product, which is either the melting temperature or the collapse temperature. Typically, a temperature of two degrees below the critical temperature is chosen for control; this is a temperature low enough to ensure no collapse but high enough to produce an efficient primary drying cycle.
+
+AutoDry adjusts the shelf temperature to maximize the heat input to the product, while also ensuring the product temperature does not exceed the safe control temperature set by the user. To ensure the product temperature is being measured using only thermocouples in ice, the pressure in the chamber is periodically reduced for a short period of time and the thermocouple temperatures are monitored. As the pressure is reduced, thermocouples in ice will drop in temperature due to the reduced vapor pressure. A thermocouple reading that does not decrease in temperature during the pressure reduction is no longer in ice and is removed from the control algorithm. This ensures that the entire batch is processed using only the proper product temperature.
+
+A typical AutoDry cycle will start with a relatively high initial shelf temperature, which then deceases through primary drying as the height of the dried layer increases. In current development, a protocol can be generated based on the results \(Fig. 6\). 
+![](images/000020.jpeg)
+
+
+***Fig. 6*** 
+Primary drying cycle using AutoDry for closed loop shelf temperature control. The shelf temperature is dynamically adjusted to optimize the product temperature at –34 °C
+
+
+
+## **8 **End of Primary Drying: Pirani Versus Capacitance Manometer Pressure Differential
+
+The most robust method for determining the end of primary drying is through a comparative measurement between two different vacuum gauges: a capacitance manometer and a Pirani gauge. The Pirani gauge determines the pressure of the system by measuring the heat loss of a heated filament, which is directly related to the pressure of the system, as well as the moisture content. The presence of moisture in the system will cause the Pirani to read a higher pressure than the absolute pressure of the system, due to an increase of heat removal from the filament. The capacitance manometer, used for vacuum control, has a very high level of accuracy and precision and provides the reading for the absolute pressure of the chamber, unaffected by moisture. In a dry system, the measurements of the capacitance manometer and the Pirani gauge will be very close, and the inherent offset between their readings can be determined, to use as a reference for the “dry” state.
+
+During primary drying, when moisture is driven from the product and into the chamber through sublimation, the reading of the Pirani gauge will be skewed, reading higher than the capacitance manometer. As the product nears the end of primary drying, the remaining moisture in the system will gradually be removed and condensed, which will lower the measured pressure reading of the Pirani gauge. The end of primary drying is determined when the readings of the Pirani gauge and capacitance manometer have converged within their inherent offset for a dry system.
+
+## **9 **FreezeBooster**®** **Controlled Nucleation**
+
+The goal for controlled nucleation is to have the solution in all the vials nucleate at the same time, temperature, and rate; this produces a uniform initial crystal structure across the entire batch. The result is more consistent drying across the batch and, in some cases, shortened primary drying cycles.
+
+To produce a controlled nucleation event, the material in the vials is super-cooled to a predetermined temperature – typically −5 °C – and allowed to reach equilibrium. A “catalyst” is then introduced to synchronize the nucleation event, often at the top surface of the material in the vial. As a result, the ice crystal growth starts at the top surface versus the bottom of the vial during an uncontrolled nucleation event.
+
+In the case of Millrock Technology’s FreezeBooster™ technique, seed ice crystals are introduced into the product chamber to induce nucleation. The FreezeBooster approach offers many advantages, including simplicity of implementation on any freeze-dryer and an ability to nucleate almost any type of freeze-drying container.
+
+Proper super-cooling prior to controlled nucleation produces reductions in primary drying times due to lower cake resistances; however, control of post-nucleation crystal growth is also required to produce a significant reduction in primary drying time. Control of ice formation post-nucleation can be performed using heat flow monitoring and control. A super-cooled product temperature of –3 to –5 °C is typically used for initiating nucleation. Lower super-cooling temperatures have been determined to produce ice structures that have higher cake resistances and therefore take longer to dry.
+
+### **9.1 ****Freezing** Process **PAT**
+
+Most of the effort for process analysis and improvement has focused on the primary drying process since it is the longest step in the freeze-drying process. During this analysis, the user measures and controls the product temperature as close to its critical point as possible in order to shorten the cycle. However, it is in fact the freezing process that provides the foundation for a robust and optimized cycle. To produce a better product in a shorter period, the freezing process must be optimized. Producing a better ice crystal structure, by way of an optimized freezing protocol, can result in higher yields due to more uniform cake structures. This also achieves shorter primary drying cycles due to reduced cake resistance that enables higher shelf temperatures during primary drying \(Fig. 7\). 
+![](images/000021.jpeg)
+
+
+***Fig. 7*** 
+Percent of ice formed during the steps of freezing – 100% at end of crystallization. Only 10% of the water crystallizes during nucleation. The bulk ice forms post-nucleation
+
+
+
+Freezing of solutions occurs in three major stages: \(a\) nucleation, \(b\) crystallization of the equilibrium freeze concentrate, and \(c\) solidification of the maximal freeze concentrate. Each stage of freezing offers an opportunity for developing a uniform frozen matrix across the batch as well as inside the vial. Each of these stages has its own unique challenges, since the heat transfer from shelf to product can change dramatically when using a simple controlled shelf temperature ramp rate.
+
+Product temperature is typically used for monitoring the freezing process. Unfortunately, the product temperature does not significantly change between the time crystal growth has initiated and when it is completed. A better method for monitoring and controlling the freezing process is heat flow, which can be used to determine critical process events and measure the critical process parameters.
+
+## **10 **Nucleation \(Intra-vial\)
+
+Nucleation is the initial formation of a crystal in a super-cooled solution. During this formation, a small number of molecules become arranged in a stable structure, upon which additional molecules are more easily deposited. Nucleation typically initializes on a particle or surface aberration.
+
+The formation of ice is an exothermic event; it generates heat which increases the temperature of the solution. Once nucleation is initialized, a crystal matrix forms inside the vial, increasing the temperature of the product until it reaches approximately 0 °C. At that point, the ice formation stops. During nucleation, a small portion of the water in the pre-lyophilized solution crystalizes.
+
+Why does only a portion of the solution form ice during the nucleation event? Nucleation occurs in a supercooled solution with a product temperature of typically −5 to −15 °C. As the ice forms – an exothermic reaction – the temperature of the solution increases until there is no more energy available to form ice crystals. As the solution reaches 0 °C, ice can no longer form without further heat being removed by the shelf. The initial ice propagation is limited to the heat capacity of the solution and vial to absorb the latent heat of fusion of ice generated by the crystallization of water \(Fig. 8\). 
+![](images/000022.jpeg)
+
+
+***Fig. 8*** 
+Percentage of water that forms ice crystals during nucleation depends on the supercooling temperature. At a supercooling temperature of –5 °C 10% of the water forms ice
+
+
+
+
+
+![$$ \%\textrm{Nucleation}=\frac{\boldsymbol{m}w\boldsymbol{Cp}w\Delta \boldsymbol{T}+\boldsymbol{m}g\boldsymbol{Cp}g\Delta \boldsymbol{T}}{\Delta \boldsymbol{H}w\times \boldsymbol{m}w} \times 100 $$](images/000023.jpeg)
+
+
+
+
+
++ 
+***m****w* – mass of water – grams
+
++  
+***Cp****w* – specific of water – joules/\(gram ∙ degree Celsius\)
+
++  
+***m****g* – mass of glass vial – grams
+
++  
+***Cp****g* – specific heat of glass – joules/\(gram ∙ degree Celsius\)
+
++  
+Δ***T*** – temperature difference – degrees Celsius
+
++  
+Δ***H****w* – heat of fusion of water – joules per gram
+
+
+
+
+The amount of water that initially crystalizes depends on the mass of the solution, the mass of the vial, and the degree of super-cooling. Between 3% and maximum of 19% of the solution can form ice crystals during nucleation. A 2 ml fill in a 6R vial, with a −5 °C supercooled temperature, will only convert 9% of the solution into ice.
+
+Once nucleation has completed, the solution forms an equilibrium freeze concentrate. The solution has been concentrated due to a portion of the water having formed ice crystals. The remaining unfrozen water, around 90%, begins to crystalize as heat is further removed from the vial by the cold shelf. Ice crystalizes from the equilibrium freeze concentrate as the shelf temperature is reduced and further energy is removed. The rate of crystal growth during this freezing stage is not well controlled, and the ice forms at different rates; this creates a heterogeneous ice structure inside the vial. The rate of ice crystal growth varies due to changes in heat flow from the shelf to the vial.
+
+A maximal freeze concentrate is formed when all the freezable water is converted to ice. The point where the maximal freeze concentrate is formed can be identified by the end of latent heat production. The maximal freeze concentrate either goes through freeze separation \(if it is a eutectic material\) or solidification \(if it is an amorphous material\). Once the temperature of an amorphous product has been reduced below its glass transition temperature, and the heat flow between the shelf and vial has reduced to a steady state condition, the product can be considered frozen and stable. The end of freezing can be identified when the heat flow approaches zero and stabilizes, indicating there is no longer a phase change or product temperature change \[4\].
+
+## **11 **Nucleation \(Inter-vial\)
+
+In a freeze-dryer, where the vials sit on a cold shelf, the vials nucleate at different times and temperatures. This is often referred to as heterogeneous nucleation. However, upon observation there is a pattern to the nucleation between vials.
+
+During the super-cooling process, the temperature of the solution in all the vials is uniform. Once a nucleation event occurs in one vial, the temperature of that vial quickly rises toward 0 °C. As the ice crystals form in the nucleating vial, heat is generated; this adds heat to the adjacent vials and reduces the likelihood of these vials nucleating. The vial with crystal growth formation will remain at a temperature near 0 °C until all the available water is frozen. Once the water has frozen, the temperature of the vial will drop. As the temperature of the vial drops, the adjacent vials super-cool further and can then nucleate. Once another vial nucleates, adjacent vials still in solution are once again subjected to heat which prevents them from nucleating. This process repeats itself four or five times during the freezing process until all the vials are frozen. The result of this dynamic is that the product in the vials is subjected to totally different freezing patterns that result in different ice formations. Since a batch can only dry as fast as the slowest vial, it only takes a small number of poorly frozen vials to slow down the entire freeze-drying cycle.
+
+### **11.1 **Freezing of Freeze Concentrate
+
+In the pharmaceutical freeze-drying world, vials are placed on a liquid filled shelf where the fluid is temperature controlled. The shelf temperature is reduced at 0.5 °C/min down to a predetermined hold temperature, such as –40 °C. Once the shelf has reached the hold temperature, the shelf is maintained for a period, such as 90 minutes, to allow the product in the vials to reach the same temperature.
+
+The result of simply placing vials on a shelf and reducing the shelf temperature is heterogeneous nucleation across the batch. The “randomness” of nucleation is caused by different degrees of super-cooling, both in the vial across the batch as well as temperature differences across the shelf and the interaction between vials. Some vials may nucleate at –10 °C, while others at –15 °C. In cleaner processing environments, the product in the vial achieves lower super-cooled temperatures due to the lack of nucleation sites. The lower the nucleation temperature, the smaller the pores – which results in higher product cake resistance and longer drying times.
+
+Uncontrolled nucleation starts at the bottom of the vial and proceeds toward the top. As the ice crystal structure forms, the rate of crystal growth slows, resulting in smaller crystals at the bottom and larger crystals at the top. The result of nonuniform crystal structures is nonuniform drying, which brings the potential for melt-back or collapse. When one performs studies with sucrose, this is evident by excessive shrinkage at the bottom of the cake toward the end of primary drying.
+
+Adding to the complexity of the process, the same shelf inlet temperature does not translate to a uniform shelf surface temperature or uniform heat flow from the shelf to the vial. During freezing, the inlet shelf temperature will be several degrees cooler than the outlet temperature. The temperature differential across the shelf varies by equipment design, fluid flow, type of fluid inside the shelf, and the load on the shelf. The heat flow varies depending on shelf finish, fluid flow, vial type, and other variables. During temperature transition on a fully loaded shelf, the temperature difference across the shelf can be significant; for example, greater than 10 °C.
+
+Millrock Technology’s AccuFlux® technology provides a method to measure the heat flow between the shelf and the vial during the freezing process. Measuring the heat flow provides a new level of information, previously unavailable to the freeze-drying community, about both the freezing and drying processes \(Fig. 9\). 
+![](images/000024.jpeg)
+
+
+***Fig. 9*** 
+Heat flow for a standard shelf ramp to –40 °C at –1 °C/min. The depth of the heat flow “V” pattern indicates massive changes in heat flow that result in uniform ice crystal formation, which results in longer primary drying cycle times
+
+
+
+During a –1 °C/min shelf freezing cycle, the temperature differential between the shelf and product temperature increases with time. This causes the heat flow between the shelf and the vial to increase significantly. Observing the heat flux line on the graph in Fig. 7, the random nucleation events and massive change in heat flow are evident. The result is nonuniform crystal growth rate. The random nucleation results in different initial ice structures across the batch, while the changing heat flow results in an inconsistent ice structure inside the vial.
+
+The heterogeneous ice formation results in some vials having a poor ice structure, and this in turn causes longer primary drying times. Since the primary drying cycle cannot be completed until all the vials are dried, a poorly frozen vial can hold up the entire batch.
+
+To reduce the effect of the heterogeneous crystal structures created, both between vials and intra-vial, an annealing step is often added. Annealing is a process where the frozen product temperature is raised to allow the crystals and the interstitial pores to increase in size. Although this does help reduce the cake resistance, the crystal structure inside the vial is still inconsistent and the crystal structure throughout the batch is nonhomogeneous. Therefore, only marginal improvement in product consistency is achieved. Annealing can also potentially lead to changes in the protein structure.
+
+### **11.2 **Measurement and Control of Freezing Heat Flow Post-controlled Nucleation
+
+Most of the ice formation – approximately 90% – takes place post-nucleation. During this step in the process, there is minimal product temperature change as the water shifts phase from liquid to solid. Therefore, measuring product temperature provides no significant information about crystal growth. Measurement of the heat leaving the vials provides the information needed to monitor and control the ice crystal growth rate.
+
+Using AccuFlux for monitoring and control, the product temperature is lowered to a predetermined super-cooled level and held for a period to achieve thermal equilibrium. When the measured heat flow to the vials stabilizes, the product is ready to be nucleated. Measuring the heat flow eliminates the guesswork of the time required to reach thermal equilibrium and reduces processing time overall.
+
+Control of the shelf temperature post-nucleation is critical. Post-nucleation, the shelf temperature is typically cooled at a controlled rate of 1 °C/min. As the shelf temperature reduces , the heat flow out of the vial changes significantly. Controlled nucleation produces a uniform initial ice crystal structure across the batch; however, as the temperature of the shelf is reduced, the crystal growth rate inside the vial changes, resulting in a nonuniform ice crystal structure inside that vial \(Fig. 10\). 
+![](images/000025.jpeg)
+
+
+***Fig. 10*** 
+Heat flow profile for a controlled nucleation cycle with a shelf ramp to –40 °C at –1 °C/min. The depth of the heat flow “V” pattern is reduced which improves the crystal structure. In this case, with 2 ml the impact of controlled nucleation only had a minor effect, −1200 W/sq m vs −1400 W/sq m without controlled nucleation
+
+
+
+Controlling the heat flow between the shelf and the vial post-nucleation is necessary to create a uniform and porous structure intra-vial. Using AccuFlux, the shelf temperature can be adjusted to produce a consistent level of heat flow to/from the vials. Controlling the heat flow during this portion of the freezing process enables the ice crystal structure formation to be controlled, and a uniform structure intra-vial is achieved. The result is significantly better ice crystal structures and better product uniformity, which lowers cake resistance and promotes more efficient primary drying.
+
+The combination of controlled nucleation and heat flux control could, in principle, allow control of pore size formation during freezing. After initial nucleation of ice, product could be frozen at a rate controlled by heat flux sensors to form pores of desired size. This could be used to explore different scenarios of freezing product in vials of interest \(Fig. 11\). 
+![](images/000026.jpeg)
+
+
+***Fig. 11*** 
+Heat flow of controlled nucleation with heat flow control post-nucleation. The heat flow pattern is significantly different which will result in a better ice formation both across the batch and inside the vial and therefore a lower cake resistance
+
+
+
+## **12 **Freezing Events
+
+Heat flow can also be used to monitor and identify critical process events. Critical process events include \(Fig. 12\): 
+
++ 
+End of super-cooling when using controlled nucleation
+
++  
+Nucleation
+
++  
+End of freezing
+
++  
+Secondary crystallization \[3\]
+
+
+
+![](images/000027.jpeg)
+
+
+***Fig. 12*** 
+Freezing events that can be identified and measured. Examples: \(1\) End of supercooling, \(2\) controlled nucleation, \(3\) end of freezing. Not shown is the ability to identify secondary crystallization
+
+
+
+### **12.1 **The Effect of **Freezing** and Heat Flow Control on **Primary Drying**
+
+Controlled nucleation has been promoted as a method to reduce primary drying times. The main benefit of controlled nucleation is creating a consistent ice crystal structure across a batch, promoting more uniform primary drying results. However, to have a dramatic improvement in drying times, a method to control the ice crystal growth post-nucleation is needed.
+
+To determine the effect of different freezing methods on primary drying time, a series of experiments were performed. The concept of uncontrolled versus controlled nucleation and post-nucleation heat flow control were tested.
+
+The experiments were performed using a 2 ml fill of 5% sucrose in a 6R vial. When controlled nucleation was used, the product was super-cooled to –5 °C. This level of super-cooling induced approximately 9% of the available water to nucleate \(Tables 1 and 2\). 
+
+
+***Table 1*** 
+Cake resistance vs freezing process
+
+
+
+**Controlled nucleation**
+
+**AccuFlux heat flow control during freezing**
+
+**Ice crystal structure across the batch**
+
+**Ice crystal structure inside the vial**
+
+**Cake resistance \(Torr\*cm2/Hr\)**
+
+No
+
+No
+
+Nonuniform
+
+Nonuniform
+
+4.5
+
+Yes
+
+No
+
+Uniform
+
+Nonuniform
+
+3.9
+
+Yes
+
+Yes
+
+Uniform
+
+Uniform
+
+2.2
+
+
+
+
+***Table 2*** 
+Table of experiments
+
+
+
+**Figure**
+
+**Controlled nucleation**
+
+**Post-nucleation freezing method**
+
+**Shelf temperature primary drying \(°C\)**
+
+**Primary drying time \(hrs.\)**
+
+**Comment**
+
+13
+
+No
+
+−1.0 C/min
+
+−25
+
+26.7
+
+Nonuniform crystal structure across the batch and inside the vial
+
+14
+
+Yes
+
+−1.0 C/min
+
+−25
+
+26.1
+
+Uniform cake structure across the batch. Nonuniform cake structure inside the vial
+
+15
+
+Yes
+
+AccuFlux
+
+−25
+
+23.9
+
+FreezeBooster-controlled nucleation combined with AccuFlux freezing control resulted in much lower cake resistance. Uniform cake structure across the batch and inside the vial. During primary drying the product temperature was several degrees lower
+
+16A
+
+Yes
+
+AccuFlux
+
+AutoDry conservative
+
+15.2
+
+Conservative closed loop control of the shelf ramps the shelf temperature to the setpoint and keeps the shelf temperature maximized while keeping product below its critical temperature throughout the entire primary drying cycle
+
+16B
+
+Yes
+
+AccuFlux
+
+AutoDry aggressive
+
+14.3
+
+Aggressive closed loop control increases the shelf temperature to a maximum point while there is no dry layer in the product. The shelf temperature is reduced as the dry layer forms and the shelf temperature maximized while keeping product below its critical temperature throughout the entire primary drying cycle. A 46% reduction in primary drying time while producing a more uniform result
+
+
+
+### **12.2 **Summary of Experiments on the Different **Freezing** Methods on **Primary Drying** Times
+
+Controlled nucleation has a positive impact on primary drying. It produces a uniform starting point across the batch. However, only 9% of the water nucleates and the majority \(91%\) of ice crystal formation takes place post-nucleation. So, a method for understanding and controlling post-nucleation is needed.
+
+Controlled nucleation without controlled post-nucleation freezing resulted in a reduction in primary drying from 26.7 hours to 26.1 hours, while the product temperature decreased from −35.5 to −36.2 °C. To further improve the process, AccuFlux heat flow control was used post-nucleation. The heat flow is controlled at a predetermined level to enable consistent crystal growth in the vial. The result of AccuFlux heat flow control during freezing is greatly improved ice crystal structure and reduced cake resistance. AccuFlux reduced primary drying to 23.9 hours and a product temperature of −37.9 °C. In addition, when reviewing the graphic information \(Fig. 13\), we can see that the product temperature was reduced during primary drying due to the improved cake resistance. With a lower cake resistance, the shelf temperature can be increased. 
+![](images/000028.jpeg)
+
+
+***Fig. 13*** 
+Primary drying cycle as a result of a standard shelf ramp freezing process
+
+
+
+The ability to monitor and control the freezing process enables the operator to develop a fully controllable and repeatable ice and cake structure. Further testing and field results will provide more information on the best heat flow control levels and profiles during freezing to produce the best pore structure, as well as the lowest cake resistance for a specific vial/product combination. If desired, controlling the heat flow can also be used to produce a consistent collapsed structure. The combination of controlled nucleation with controlled heat flow during freezing resulted in lower product temperatures during primary drying due to lower cake resistance. This enabled the shelf temperature to be increased, and shorter primary drying times were achieved.
+
+Closed loop shelf temperature control based on the product temperature allows the shelf temperature to be controlled in order to maintain the product close to, but not exceeding, its critical temperature. For example, in Fig. 14, the shelf temperature was increased to –7 °C while keeping the product temperature at Tcritical – 2 °C. In this case, the Tcritical temperature used was –32 °C, so the product was held at or below –34 °C. The result was a further reduction in primary time, down to 14.3 hours \(Figs. 15, 16, 17, 18 and 19\). 
+![](images/000029.jpeg)
+
+
+***Fig. 14*** 
+Primary drying cycle after freezing using controlled nucleation and then a shelf ramp to –40 °C at –1 °C/min. The primary drying time is slightly improved, and the product temperature is slightly lower
+
+
+![](images/000030.jpeg)
+
+
+***Fig. 15*** 
+Primary drying cycle after a controlled nucleation and controlled heat flow freezing process. The primary drying time is further improved, and the product temperature is further reduced
+
+
+![](images/000031.jpeg)
+
+
+***Fig. 16*** 
+Primary drying cycle using closed loop control maintaining the product temperature at –34 °C. The cycle time is dramatically improved. The overall cycle time improvement is about 50%
+
+
+![](images/000032.gif)
+
+
+***Fig. 17*** 
+Cake resistance \(Rp\) before and after process improvements
+
+
+![](images/000033.jpeg)
+
+
+***Fig. 18*** 
+Heat flow and product temperature comparison between the MicroFD and a 6 sq ft Revo laboratory freeze-dryer. With the same shelf temperature, the heat flow and product temperature in the Revo was lower
+
+
+![](images/000034.jpeg)
+
+
+***Fig. 19*** 
+Heat flow and product temperature comparison between the MicroFD and a 6 sq ft Revo laboratory freeze-dryer. To transfer the cycle using Kv, the shelf of the Revo was calculated and increased to \+4 °C. The resulting heat flow was similar, and the product temperature history also closely matched
+
+
+
+The following figure shows the cake resistance Rp before and after the optimization.
+
+The ability to fully analyze and control the freezing cycle, which previously was unexplored, combined with closed-loop shelf temperature control, results in shorter and more robust freeze-drying cycles that can be transferred to production.
+
+## **13 **Developing Transferrable Protocols
+
+When transferring protocols between freeze-dryers, the goal is to maintain the same product thermal history. The thermal history must take into consideration both the freezing and primary drying cycles.
+
+The MicroFD has been used in different manners for transferring protocols: first, by developing an optimized freeze-drying protocol and using Kv to determine the target system shelf temperature and, second, by adjusting either the MicroFD shelf temperature or the LyoSIM to a temperature that mimics the target freeze-dryer \[1, 2\].
+
+Protocols developed in the laboratory will be conservative enough to transfer to a larger production system by simply adding time to the primary drying cycle. Products process slower in production systems due to lower product temperature supercooling during the freezing process and lower Kv values. Lower supercooling temperature results is smaller ice crystals, which require longer primary drying times. Lower Kv values are due to fewer edge vials, the difference in heat source contributions of large freeze-dryers \(such as significantly more vials\), and reduced sources of radiation and other sources of heat. 
+
++ 
+Method 1 – Adjust primary drying cycle time
+
+
+
+
+The simplest way to transfer a protocol from the laboratory to production is to develop a protocol using parameters that are attainable in a production system which ensures that the shelf ramp rates and pressures are within the operating performance of the larger system. Then one simply transfers the protocol and adds time to the primary drying portion. Since production systems have lower product temperatures compared to laboratory systems at the same shelf temperature, the protocol will be conservative; only the time needs to be increased to allow primary drying to complete. 
+
++ 
+Method 2 – Kv and shelf temperature – scale-up and scale-down
+
+
+
+
+Scale-Up – If Kv of both the source and target freeze-dryers are known, then the shelf temperature of the target system can be calculated. The result will be the same thermal history during primary drying. As an example, when transferring from the MicroFD to an 8 square foot freeze-dryer, the shelf temperature in the larger freeze-dryer is increased about 3 °C to produce the same thermal history. 
+
+
+
+![$$ \textrm{Ts}\ \textrm{target}=\left(\frac{\textrm{Kv}\ \textrm{source}}{\textrm{Kv}\ \textrm{target}}\times \left(\textrm{Tshelf}\ \textrm{Source}-\textrm{Tbsource}\right)\right)+\textrm{Tb}\ \textrm{target} $$](images/000035.jpeg)
+
+
+
+
+
++ 
+Ts target *– shelf temperature* *of target system*
+
++  
+Tb *– product temperature* *, source, or target system*
+
++  
+Kv source *–* *vial thermal conductivity* *of the source system*
+
++  
+Kv target *–* *vial thermal conductivity* *of the target system*
+
+
+
+
+Scale-Down – Alternatively, if a protocol exists in a production system and Kv is known, then the MicroFD shelf temperature can be determined, and the MicroFD can be used to scale down the process to perform studies. The same calculation can be used where the target freeze-dryer is the MicroFD. As an example, if the processing temperature in production is −20 °C, the MicroFD shelf temperature might be adjusted to −25 °C to produce the same thermal history. 
+
++ 
+Method 3 – LyoSIM and seven vials mimicking of larger freeze-dryers
+
+
+
+
+Although the LyoSIM ring is designed to produce uniform processing across the batch of vials, when seven vials are processed, the heat flow can be adjusted to mimic the performance of larger freeze-dryers. As previously described, the LyoSIM ring affects the heat flow in the outer two rows of vials. When seven vials are used, there are only two rows, with the center vial being the second row. By reducing the LyoSIM temperature during primary drying, while keeping the shelf temperature constant, the heat flow can be reduced to the point where the rate of drying is similar to larger freeze-dryers. This method works for a 7-vial batch, but may not work for 19 and 37 vial batches.
+
+Goldman demonstrated that using only seven vials and adjusting the LyoSIM temperature to −5 °C below the product temperature resulted in a thermal history equivalent to that of a laboratory freeze-dryer that was being used to develop and transfer protocols to production systems. The conclusion of this testing provides the groundwork for using seven vials to optimize and develop protocols that can be transferred directly to production \[1, 2\].
+
+## **14 **Summary
+
+The goal of process analytical technology is to produce a quality product efficiently each and every time. As PAT applies in freeze-drying, the more we know about the critical process parameters and process dynamics, the better decisions we can make when developing and transferring freeze-drying protocols. Analytical methods that can provide the necessary information in real-time while using a small amount of raw materials reduces costs, saves time, and simplifies the development process. The technologies described in this chapter provide insight into the possibilities of dramatically improving freeze-drying protocols by reducing processing times while improving the quality of freeze-dried products, using as few as 7–37 vials.
+
+Duplication of the product thermal history is required for successful transfer between freeze-dryers. The thermal history is better defined by heat flow, rather than temperature, and must include measurement and control during the freezing process as well as the primary drying process.
+
+For the first time, the entire freezing and primary drying processes can be monitored and controlled while using a small volume of active pharmaceutical ingredients. The entire process can be verified and repeated to ensure that a quality product is produced each run. When used together, FreezeBooster and AccuFlux heat flow control provides a true real-time process analytical technology that determines the critical process parameters and enables cycle optimization. This combination of technologies is referred to as LyoPAT™. Implementing LyoPAT enables control of both the freezing and the primary drying processes, which results in a significant reduction in processing time, a more uniform finished product, a method to qualify that the product has been freeze-dried properly, a method for determining the crucial process parameters, and method for developing transferrable protocols, all while using a minimal amount of raw material. The system can be used for both scale-up and scale-down of freeze-drying protocols.
+
+Features and processes described in this article are patent pending.
+
+
+**References**
+
+1.  
+1.
+
+Goldman JM, Register JT, Chen X, Nesarikar V, Rowe J. Heat transfer adjustment in a scale-down 7-vial micro freeze-dryer for at-scale lyophilization cycle development and optimization.
+
+2.  
+2.
+
+Goldman JM, Chen X, Register JT, Nesarikar V, Iyer L, Wu Y, Rowe J. Representative scale-down Lyophilization cycle development using a seven vial freeze-dryer \(MicroFD®\). In: Poster. Freeze-drying of pharmaceuticals and biologicals 2018. Garmisch.
+
+3.  
+3.
+
+Shavelaev E, Wang Q. Process analytical technology in freeze-drying: detection of the secondary solute\+water crystallization with heat flux sensors. NCBI. [Pubmed.​gov](http://pubmed.gov). 2017.
+
+4.  
+4.
+
+Patapoff TW, Overcashier DE. The importance of freezing on lyophilization cycle development. BioPharm. 2002;15:16–21.
+
+
+

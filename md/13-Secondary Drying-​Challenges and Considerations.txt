@@ -1,0 +1,1319 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_13](https://doi.org/10.1007/978-3-031-12634-5_13)
+
+
+**
+# Secondary Drying: Challenges and Considerations
+**
+
+
+Kyu Yoon1 and Vivek Narsimhan1  
+
+
+\(1\) 
+Davidson School of Chemical Engineering, Purdue University, West Lafayette, IN, USA
+
+
+
+
+
+**Vivek Narsimhan**
+
+**Email: **vnarsim@purdue.edu
+
+
+
+
+
+**1 **Introduction
+
+**2 **Modeling of Secondary Drying
+
+**2.1 **Desorption Kinetics Model
+
+**2.2 **Heat Transfer Model
+
+**3 **Characterization of Secondary Drying Process and the Lyophilized Cake
+
+**3.1 **Temperature Measurement
+
+**3.2 **Heat Flux Measurement
+
+**3.3 **Moisture Content
+
+**3.4 **Properties of Lyophilized Cake
+
+**4 **Critical Process Variables During Secondary Drying
+
+**4.1 **General Operational Conditions
+
+**4.2 **Effect of Temperature
+
+**4.3 **Effect of the Vial
+
+**4.4 **Effect of Specific Surface Area
+
+**4.5 **Effect of Excipients
+
+**4.6 **Process Parameters Not Affecting Secondary Drying
+
+**5 **Challenges in Secondary Drying
+
+**5.1 **Moisture vs. Stability
+
+**5.2 **Uncertainties in Heat Transfer Coefficient
+
+**5.3 **Inefficient Heat Transfer
+
+**5.4 **Defects in Dried Cake
+
+**5.5 **Scaleup
+
+**5.6 **Temperature and Moisture Uniformity
+
+**6 **Concluding Remarks
+
+References
+
+
+## Abstract
+
+Secondary drying refers to the final stage of lyophilization where one removes bound water from the remaining product. Optimizing secondary drying is essential for pharmaceutical products because 10–20% of the total drying time and 12–20% of the operational cost comes from this process. This chapter will provide a literature review of secondary drying and describe the current state-of-the-art in this field. Topics covered include an overview of heat and mass transfer modeling, experimental characterization techniques, critical process variables affecting the secondary drying, and technical challenges in the field. Such information will hopefully provide basic insight into the secondary drying process and act as a starting point for those seeking advice to understand and optimize this process.
+
+
+**Keywords**
+Secondary drying Lyophilization Freeze-drying Characterization of secondary drying Desorption Processing Pharmaceuticals
+
+
+## **1 **Introduction
+
+Freeze-drying or lyophilization is a water removal process that is widely used for the long-term preservation of biological materials and pharmaceuticals such as proteins, vaccines, antineoplastics, peptide hormones, and high-quality foods \[1, 2\]. This process has three consecutive steps: 
+
+1. 
+\(a\)
+
+
+*Freezing**:* The material’s temperature is lowered to turn water into ice.
+
+
+
+
+2.  
+\(b\)
+
+
+*Primary drying* *\(sublimation\):* The ice is sublimated into vapor by lowering the chamber pressure to near vacuum conditions and adding heat to the material. A porous cake is left behind.
+
+
+
+
+3.  
+\(c\)
+
+
+*Secondary drying* *\(**desorption**\):* After primary drying, a certain amount of water is physically or chemically bound to the solid matrix of the cake \(5–35% by weight\). This bound water is removed by raising the cake temperature above that in the primary drying stage. The cake is typically heated for 3–25 h at temperatures between 15 and 40 °C to achieve the desired residual moisture content of 1 wt% or below in the final product \[3\].
+
+
+
+
+
+Of the three stages discussed above, the secondary drying stage is probably the least well understood. Secondary drying is important because the storage stability of pharmaceutical products depends on the final residual moisture content, and the proper removal of bound water allows products to be stored for months or years at room temperature. In addition, the secondary drying stage is also essential for improving overall drying efficiency because 10–20% of the total drying time and 12–20% of the operational cost comes from this stage \[4\].
+
+This review will focus on the physics and chemistry of secondary drying. Before we begin, we note that there have been several excellent papers in the literature that discuss various aspects of this process. This includes examining the rate-limiting steps for water desorption \[1, 5, 6\], the influence of critical process variables \(i.e., shelf temperature, chamber pressure, specific surface area, and partial pressure of water vapor, etc.\) on the secondary drying kinetics \[1, 7\], real-time observation of the desorption kinetics \[8–14\], and modeling of secondary drying process \[11, 15–18\]. Despite these studies, one of the key challenges in secondary drying is a lack of robust models with comparable accuracy and flexibility as primary drying models. Therefore, revisiting the previous studies and clarifying the uncertainties in secondary drying will be essential to further understanding and optimizing this process.
+
+The aim of this chapter is to introduce important observations, state-of-the-art technology, and technical challenges for secondary drying that will be helpful to understand this process. We hope that this chapter will help eliminate some of the uncertainties associated with secondary drying for future investigations and industrial applications. In Sect. 2, we describe empirical and theoretical models developed for mass and heat transfer. In Sect. 3, we introduce monitoring and characterization methods for secondary drying and the lyophilized cake. In Sect. 4, we describe the critical process variables that play a major role in secondary drying. Section 5 goes over current challenges in secondary drying. Conclusions follow in Sect. 6.
+
+## **2 **Modeling of Secondary Drying
+
+### **2.1 **Desorption Kinetics Model
+
+After sublimation, 5–35% of the initial moisture content can remain as bound water. The presence of the bound water can arise due to a combination of physical adsorption to the porous cake and/or chemical adsorption by forming a chemical bond with the solid structural matrix \(e.g., mannitol hydrate\). During secondary drying, there are several modes of mass transport that play a role in the kinetics of water removal: \(a\) diffusion of molecular water in the solid state, \(b\) evaporation at the solid-vapor interface, \(c\) transportation of the water vapor through the pores of the cake, and \(d\) Knudsen flow of the water vapor to the condenser. Extensive experimental observations indicate that the thickness of the cake \[1\] and the chamber pressure \(up to 200 mTorr\) \[1, 7\] do not alter the removal rate of bound water appreciably, while the water removal rate is increased when the specific surface area is increased \[1, 16, 19\]. These observations suggest that that the rate-limiting steps during secondary drying are either the diffusion of water molecules within the solid state or evaporation at the solid-gas interfaces \[1, 7, 20\]. The vapor transport in the lyophilized cake is rarely a rate-limiting factor.
+
+Various model equations have been suggested to describe rate of removal of bound water from the cake in terms of the cake’s moisture content \[11, 13, 16, 20, 21\]. The most common expression states that the concentration of bound water obeys first-order kinetics with a rate proportional to the difference between the current moisture content in the cake and the equilibrium moisture content: 
+
+
+
+![$$ \frac{\partial {c}_{\textrm{w}}}{\partial t}=-{k}_{\textrm{g}}\ \left({c}_{\textrm{w}}-{c}_{\textrm{w}}^{\ast}\right) $$](images/000001.jpeg)
+
+
+\(1\)
+
+
+
+
+In the above equation, *c*w is the moisture content, *k*g is an effective desorption rate constant, and  ![$$ {c}_{\textrm{w}}^{\ast } $$](images/000002.jpeg)  is the equilibrium moisture content. The rate constant *k*g is calculated based on experimental data such as evolution of the moisture content over time \(See Sect. 3.3.1\). As shown in Fig. 1, the general trend of *k*g shows that it increases when temperature increases, following an Arrhenius relationship \[15, 16, 20\]: 
+![](images/000003.gif)
+
+
+***Fig. 1*** 
+Arrhenius plot of the desorption rate constant evaluated from secondary drying data. A fit to the Arrhenius equation results in an activation energy *E*a= 8136 J/mol and a preexponential factor of *k*g, 0= 3.34 × 10−3 s−1. \(Ref. Fig. 5 of Pikal et al. \[20\]\)
+
+
+
+
+
+![$$ {k}_{\textrm{g}}={k}_{\textrm{g},0}\ \exp\ \left(-\frac{E_{\textrm{a}}}{R_{\textrm{g}}}\left(\frac{1}{T}-\frac{1}{T^{\textrm{ref}}}\right)\right) $$](images/000004.jpeg)
+
+
+\(2\)
+
+
+where *k*g, 0 is the rate constant at reference temperature *T*ref, *E*a is the activation energy for water diffusion through the solid, and *R*g is the natural gas law constant. Here, *k*g, 0 is suggested to correlate with pore size \[19\] and specific surface area of the product \[1, 16\] for a given excipient when other factors are constant. For the specific case when the rate limiting step is moisture diffusion through the solid, the rate constant *k*g is sometimes described in terms of the diffusion constant *D*eff of water in the solid. In this case, *k*g exhibits the scaling *k*g~*D*eff/*L*2 in the long time limit \(*t* ≫ *L*2/*D*eff\), where *L* is the average distance diffused in the solid phase before reaching a pore, and *D*eff exhibits the temperature dependence 
+
+
+
+![$$ {D}_{\textrm{eff}}={D}_0\ \exp\ \left(-\frac{E_{\textrm{a}}}{R_{\textrm{g}}T}\left(\frac{1}{T}-\frac{1}{T^{\textrm{ref}}}\right)\right). $$](images/000005.jpeg)
+
+
+\(3\)
+
+
+
+
+The equilibrium moisture content  ![$$ {c}_{\textrm{w}}^{\ast } $$](images/000006.jpeg)  in Eq. \(1\) was neglected in some earlier works \[9, 22, 23\], although it was found to be important in quantitatively capturing the bound water kinetics. Fundamental modeling of this equilibrium moisture content is still an open field as there has been little fundamental work on the thermodynamics of bound water adsorption/desorption at the microscopic scale for pharmaceutical applications. Nevertheless, there have been several suggested empirical and semi-empirical equations for equilibrium moisture content as a function of the water activity and/or product temperature \[12, 15, 16, 18, 20, 21, 24–26\] where water activity *a*w is defined as the vapor pressure of the cake divided by the vapor pressure of pure water at the same temperature and chamber pressure. The equilibrium moisture content  ![$$ {c}_{\textrm{w}}^{\ast } $$](images/000007.jpeg)  is generally described by various desorption/sorption isotherm equations such as GAB equation, Langmuir equation, a modified Langmuir isotherm, piecewise linear model, or empirical fitted models \(see Table 1\). 
+
+
+***Table 1*** 
+Theoretical models for equilibrium moisture content  ![$$ {c}_{\textrm{w}}^{\ast } $$](images/000008.jpeg) , where *A*, *B*, *C*, *D*, *E*, and *F* are parameters, *T* is temperature, and *a*w is water activity
+
+
+
+**Model names**
+
+**Model equations**
+
+**References**
+
+GAB
+
+![$$ {c}_{\textrm{w}}^{\ast }=\frac{ABC{a}_{\textrm{w}}}{\left(1-A{a}_{\textrm{w}}\right)\left(1-A{a}_{\textrm{w}}+ AB{a}_{\textrm{w}}\right)} $$](images/000009.jpeg) 
+
+Mascarenhas et al. \[24\], Trelea et al. \[12\], Vilas et al. \[26\]
+
+Langmuir \(or BET\)
+
+![$$ {c}_{\textrm{w}}^{\ast }=\frac{AB{a}_{\textrm{w}}}{\left(1+A{a}_{\textrm{w}}\right)} $$](images/000010.jpeg) 
+
+Liapis and Bruttini \[5\]
+
+Modified Langmuir
+
+![$$ {c}_{\textrm{w}}^{\ast }=A{a}_{\textrm{w}}^{\textrm{B}}\frac{C{a}_{\textrm{w}}}{\left(1+D{a}_{\textrm{w}}\right)} $$](images/000011.jpeg) 
+
+Pikal et al. \[20\], Sahni and Pikal \[16\]
+
+Piecewise linear model
+
+![$$ {c}_{\textrm{w}}^{\ast }=\left\{\begin{array}{c}A,\kern1.75em for\ {a}_{\textrm{w}}&lt;E\ \\ {}B{a}_{\textrm{w}}+C,\kern0.5em for\kern0.5em E&lt;{a}_{\textrm{w}}&lt;F\\ {}D,\kern1.50em for\ {a}_{\textrm{w}}&gt;F\end{array}\right. $$](images/000012.jpeg) 
+
+Trelea et al. \[25\]
+
+Empirical model \(1\)
+
+![$$ {c}_{\textrm{w}}^{\ast } $$](images/000013.jpeg) =*A* exp \(*B*\(*C*-*D*\(*T*-*T*0\)\)
+
+Mascarenhas et al. \[24\], Sadikoglu and Liapis \[27\], Sadikoglu \[28\], Ravnik et al. \[30\]
+
+Empirical model \(2\)
+
+\( ![$$ {c}_{\textrm{w}}^{\ast } $$](images/000014.jpeg) \)0.5 = *AT* \+ *B*
+
+Kodama et al. \[15\], Yoon and Narsimhan \[18\]
+
+
+
+Kodama et al. \(2014\) suggested another correlation between equilibrium moisture content and temperature for a 10 wt% sucrose cake where *T* = –10, 30, 40, and 50 °C and *P*ch = 1 Pa during secondary drying \[15\]. The equilibrium moisture content appears to satisfy the relationship as 
+
+
+
+![$$ \sqrt{c_{\textrm{w}}^{\ast }}={m}_1T+{m}_2 $$](images/000015.jpeg)
+
+
+\(4\)
+
+
+where *m*1 and *m*2 are scaling parameters. Yoon and Narsimhan \(2022\) show that 5 wt% sucrose cake also agrees with this trend, and the moisture content for mannitol exhibits two regimes when secondary drying is performed at 20 °C < *T* < 40 °C and *P*ch = 100 mTorr \(see Fig. 2\) \[18\]. For mannitol, the equilibrium moisture content appears independent of temperature in the first regime \(*T* < 14.3 °C\) while for *T* ≥ 14.3 °C it exhibits the same scaling  ![$$ \sqrt{c_{\textrm{w}}^{\ast }}={m}_1T+{m}_2 $$](images/000016.jpeg) as sucrose. 
+![](images/000017.jpeg)
+
+
+***Fig. 2*** 
+Relationship between the equilibrium residual water content and the equilibrium product temperature for aqueous solutions containing 5 w/v% sucrose \(rectangles\) and 5 w/v% mannitol \(circle\) during secondary drying. \(Ref. Fig. 6 of Yoon and Narsimhan \[18\]\)
+
+
+
+Trelea et al. \(2016\) measured the moisture content of lactic acid bacteria during secondary drying and observed two different drying timescales – fast drying kinetics \(up to 3 h\) followed by slower kinetics \[12\]. They proposed that the multiple time scales correspond to desorption of different forms of bound water \(monolayer, multilayer, cluster of water molecules, etc.\), with each form undergoing first-order kinetics like in Eq. \(1\). These results indicate that a system with a more complex physical structure may need a more accurate drying model that includes other mechanisms in addition to water diffusion to describe the moisture movement in solids.
+
+### **2.2 **Heat Transfer Model
+
+One needs to determine the product temperature during secondary drying in order to use the desorption models discussed in the previous section. While the product temperature can be measured during experiment, it can also be estimated by heat transfer modeling. Below, we discuss several heat transfer models used in the literature as well as the relative merit of each.
+
+#### ***2.2.1 ***Empirical/Simplified Models
+
+Empirical heat-transfer models were originally determined by performing many experiments under different chamber temperatures, chamber pressures, product formulations \(excipients and their concentration\), and positions of the vial in the freeze dryer \[11, 15–17\]. The simplest form of an empirical model was suggested by Pisano et al. \[11\] and Kodama et al. \[15\]. They assumed that the temperature of the cake, stopper, and vial are uniform and the same throughout drying. If the heat supplied to the vial is *Q*, the temperature of the cake will evolve over time as 
+
+
+
+![$$ \frac{dT}{dt}=Q/C $$](images/000018.jpeg)
+
+
+\(5\)
+
+
+where *C* is an empirical heat capacity that is used as a fitting parameter from a preliminary run \[11, 15\]. If one neglects the heat of desorption on the temperature profile, the above model is equivalent to a lumped capacitance model \(see Sect. 2.2.2.3\).
+
+Sahni and Pikal \(2017\) developed an Excel-based toolbox to estimate the temperature and moisture content of the cake \[16\]. In this toolbox, the dry layer is regarded as two equally sized regions \(top and bottom\) with homogenous temperature and moisture content. The moisture content in the top and bottom regions \(*c*w, bot and *c*w, top\) follow the first-order desorption kinetics \(Eq. 1\). The temperature in the bottom region changes due to a heat transfer coefficient from the bottom shelf and latent heat from the moisture removed in this region  ![$$ \left(\frac{1}{2}{m}_{\textrm{cake}}{C}_{\textrm{p}}\frac{\Delta {T}_{\textrm{bot}}}{\Delta t}={K}_{\textrm{bot}}A\left({T}_{\textrm{sh}}-{T}_{\textrm{bot}}\right)+\frac{1}{2}{m}_{\textrm{cake}}\Delta {H}_{\textrm{v}}\frac{\Delta {c}_{\textrm{w},\textrm{bot}}}{\Delta t}\right) $$](images/000019.jpeg) . A similar equation is performed for the top region of the cake using a different heat transfer coefficient from the top vial  ![$$ \left(\frac{1}{2}{m}_{\textrm{cake}}{C}_{\textrm{p}}\frac{\Delta {T}_{\textrm{top}}}{\Delta t}={K}_{\textrm{top}}A\left({T}_{\textrm{sh}}-{T}_{\textrm{bot}}\right)+\frac{1}{2}{m}_{\textrm{cake}}\Delta {H}_{\textrm{v}}\frac{\Delta {c}_{\textrm{w},\textrm{top}}}{\Delta t}\right) $$](images/000020.jpeg) . Here, the top and bottom region do not communicate with each other \(i.e., fully decoupled\). The Excel toolbox finds the best fit for the activation energy *E*a and rate constant *k*g, 0 based on experimental data and then computes cake temperature moisture content under different conditions. Another model suggested by Assegehegn et al. \(2021\) is a regression model correlated by its input and output parameters \[17\]. In this model, residual moisture content, glass transition temperature, and reconstitution time are estimated as a function of drying temperature and drying time from given input parameters \(chamber pressure, shelf temperature, and drying time\) and used to optimize the process design space.
+
+#### ***2.2.2 ***Theoretical Models
+
+Temperature during secondary drying also has been studied mathematically via non-steady partial differential equations \[5, 20, 23, 24, 27, 28\]. In this section, we will introduce how to solve the temperature equations and the kinetic model with specified initial conditions. Different models with varying degrees of complexity will be shown depending on the application of interest.
+
+##### ***2.2.2.1 ***High Fidelity Model: Full 3D Simulation
+
+Temperatures of the cake, air, and vial are determined by solving the full, three-dimensional energy and mass balance for the vial geometry shown in Fig. 3a. In recent studies, the heat and mass transfer equations are discretized by the finite element method and solved in multi-physics software \[13, 18\]. Each element in the simulation is assigned different physical properties \(e.g., density, heat capacity, conductivity\), depending on whether the element corresponds to the cake, air, or glass. We solve the following energy balance equations: 
+
+
+
+![$$ {\rho}_{\textrm{ck}}{C}_{\textrm{p},\textrm{ck}}\frac{\partial T}{\partial t}={k}_{\textrm{ck}}{\nabla}^2T+{\rho}_{\textrm{ck}}\Delta {H}_{\textrm{w}}\frac{\partial {c}_{\textrm{w}}}{\partial t}\ \left(\textrm{for}\ \textrm{cake}\right), $$](images/000021.jpeg)
+
+
+\(6a\)
+
+
+
+
+
+![$$ {\rho}_i{C}_{\textrm{p},i}\frac{\partial T}{\partial t}={k}_i{\nabla}^2T\ \left(i=\textrm{other}\ \textrm{materials}\right) $$](images/000022.jpeg)
+
+
+\(6b\)
+
+
+
+![](images/000023.jpeg)
+
+
+***Fig. 3*** 
+System definition of each theoretical models. \(**a**\) High fidelity \(HF\) model based on 3D simulation, \(**b**\) low fidelity \(LF\) model based on 0D lumped capacitance approximation, and \(**c**\) intermediate fidelity \(IF\) model based on 1D averaged equations using thermal circuits. \(Ref. Fig. 7 of Yoon and Narsimhan \[18\]\)
+
+
+
+In the above equations, subscript *i* is the index of the material \(*i* = air or glass\), with the quantities \(*ρ**i*, *C*p, *i*, *k**i*\) being the associated density, heat capacity, and thermal conductivity. The quantities \(*ρ*ck, *C*p, ck, *k*ck\) are the density, heat capacity, and thermal conductivity of the cake. The quantity *T* is temperature, *t* is time, Δ*H*v is the latent heat for removing bound water, and *c*w is moisture content at the dried cake. For Eq. \(6a\), the left hand side represents accumulation of energy, while the right hand side represents energy transfer from conduction and desorption. Due to effect of the vial \(see Sect. 4.3\), the latent heat Δ*H*v does not contribute much to the overall temperature profile, and thus, in most situations, the rightmost term in Eq. \(6a\) can be neglected.
+
+At the interface between any two materials, the temperature and heat flux are assumed to be continuous. The other heat transfer boundary conditions are: 
+
+
+
+![$$ {q}_{\textrm{bottom}}={K}_{\textrm{v}}^{\textrm{sec}}\left({T}_{\textrm{sh}}-T\right)\kern0.5em \textrm{at}\ z=0, $$](images/000024.jpeg)
+
+
+\(7a\)
+
+
+
+
+
+![$$ n\cdotp \nabla T=0\ \textrm{at}\ r={R}_{\textrm{v}}, $$](images/000025.jpeg)
+
+
+\(7b\)
+
+
+
+
+
+![$$ {q}_{\textrm{top}}={K}_{\textrm{top}}\left({T}_{\textrm{top}}-T\right)\ \textrm{at}\ z={L}_{\textrm{v}} $$](images/000026.jpeg)
+
+
+\(7c\)
+
+
+
+
+In the above equations, *q*bottom is the heat flux at the bottom,  ![$$ {K}_{\textrm{v}}^{\textrm{sec}} $$](images/000027.jpeg)  is heat transfer coefficient at the bottom of the vial for secondary drying, *T*sh is the shelf temperature, *T* is the temperature of the material, *K*top is the effective heat transfer coefficient between the chamber and the top of the vial, and *T*top is the bulk temperature of the chamber. Note: the boundary conditions may vary depending on the system \(i.e., radiation heat transfer, effective \(combined\) heat transfer, no heat flux\). The parameters  ![$$ {K}_{\textrm{v}}^{\textrm{sec}} $$](images/000028.jpeg) , *K*top, and *T*top are generally determined from experiments.
+
+The mass transfer equation for moisture content *c*w is the desorption kinetic model \(Eq. 1\) discussed in Sect. 2.1. Because the temperature profile in this model can vary spatially in the cake, the moisture content in the cake can vary spatially as well.
+
+Figure 4a shows typical temperature and moisture profiles predicted from this model at different snapshots in time. The initial conditions are the same experimental conditions at the end of primary drying \(*T* = −11 °C, *c*w = 4.1%\). Overall, we see that the temperature profile varies spatially in the *z* direction but does not vary considerably in the *r* direction for a vial, in case *n* · ∇ *T* = 0 *at r* = *R*v under uniform heat transfer in the freeze dryer. When the heat transfer is inhomogeneous such as when the position of the vial is near the chamber wall or front door, a full 3D simulation is more useful and accurate compared to other simplified methods \(1D and 0D models\). In this case, heat transfer in the radial direction should be taken into account as a boundary condition at the side wall, or heat transfer needs to be solved in the entire freeze dryer rather than a single vial. 
+![](images/000029.jpeg)
+
+
+***Fig. 4*** 
+\(**a**\) Temperature and moisture profile predicted from 3D simulations at different snapshots in time \(0, 0.5, 1, 3, and 6 h into secondary drying\). The initial conditions are the same experimental conditions at the end of primary drying \(0.5 wt% sucrose cake, *T* = −11 °C, *c*w = 4.1%\). \(Ref. Fig. 8 of Yoon and Narsimhan \[18\]\)
+
+
+
+##### ***2.2.2.2 ***Intermediate Fidelity Model: 1D Averaged Equations
+
+The 1D averaged equation approach is good when there are little temperature variations in the radial direction. By assuming an axisymmetric geometry and dominant heat transfer only in the *z*-direction, one can develop an effective, 1D equation to describe the temperature profile along the vial during secondary drying. We will split our vial into two regions along the *z*-direction \(Fig. 3c\) – the region containing the cake \(0 ≤ *z* ≤ *L*b \+ *L*ck\) and the empty part of the vial \(*L*b \+ *L*ck ≤ *z* ≤ *L*v\). The effective thermal conductivity of each region will be given by a thermal circuit diagram \(Fig. 7c\), and the total thermal mass of each region will be the sum of the thermal masses of the constitutive parts. We will also neglect the latent heat of removing bound water in the energy balance. The governing energy equations are: 
+
+
+
+![$$ {C}_1\frac{\partial {T}_1}{\partial t}={k}_{\textrm{eff},1}\frac{\partial^2T}{\partial {z}^2}\ \textrm{for}\ 0\le z\le {L}_{\textrm{b}}+{L}_{\textrm{ck}} $$](images/000030.jpeg)
+
+
+\(8a\)
+
+
+
+
+
+![$$ {C}_2\frac{\partial {T}_2}{\partial t}={k}_{\textrm{eff},2}\frac{\partial^2T}{\partial {z}^2}\ \textrm{for}\ {L}_{\textrm{b}}+{L}_{\textrm{ck}}\le z\le {L}_{\textrm{v}} $$](images/000031.jpeg)
+
+
+\(8b\)
+
+
+
+
+In the above equations, *T*1, *k*eff, 1, and *C*1 are the temperature, effective conductivity, and thermal mass per unit volume in the first region \(0 ≤ *z* ≤ *L*b \+ *L*ck\), while *T*2, *k*eff, 2, and *C*2 are the corresponding quantities in the second region \(*L*b \+ *L*ck ≤ *z* ≤ *L*v\). The expressions for *C*1 and *C*2 are: 
+
+
+
+![$$ {C}_1=\left({\sum}_{\alpha \in \textrm{region}\ 1}{\rho}_{\alpha }{C}_{\textrm{p},\alpha }{V}_{\alpha}\right)/\left({\sum}_{\alpha \in \textrm{region}\ 1}{V}_{\alpha}\right) $$](images/000032.jpeg)
+
+
+\(9a\)
+
+
+
+
+
+![$$ {C}_2=\frac{\left({\sum}_{\alpha \in \textrm{region}\ 2}{\rho}_{\alpha }{C}_{\textrm{p},\alpha }{V}_{\alpha}\right)}{\left({\sum}_{\alpha \in \textrm{region}\ 2}{V}_{\alpha}\right)} $$](images/000033.jpeg)
+
+
+\(9b\)
+
+
+where *α* is an index for a material \(cake, air, or glass\), and *ρ**α*, *C*p, *α*, and *V**α* are the density, heat capacity, and volume of the material in the region of interest. The effective thermal conductivities are determined by the thermal circuit in Fig. 3c. Their expressions are \[29\]: 
+
+
+
+![$$ {k}_{\textrm{eff},1}=\frac{\left({L}_{\textrm{b}}+{L}_{\textrm{ck}}\right)\left({k}_{\textrm{ck}}{A}_{\textrm{ck}}+{k}_{\textrm{air}}{A}_{\textrm{air}1}+{k}_{\textrm{glass}}{A}_{\textrm{wall}}\right){k}_{\textrm{glass}}}{L_{\textrm{b}}\left({k}_{\textrm{ck}}{A}_{\textrm{ck}}+{k}_{\textrm{air}}{A}_{\textrm{air}1}+{k}_{\textrm{glass}}{A}_{\textrm{wall}}\right)+{k}_{\textrm{glass}}{L}_{\textrm{ck}}{A}_{\textrm{v}}}, $$](images/000034.jpeg)
+
+
+\(10a\)
+
+
+
+
+
+![$$ {k}_{\textrm{eff},2}=\frac{\left({k}_{\textrm{air}}{A}_{\textrm{air}2}+{k}_{\textrm{glass}}{A}_{\textrm{wall}}\right)}{A_{\textrm{v}}} $$](images/000035.jpeg)
+
+
+\(10b\)
+
+
+where *k*air is thermal conductivity of the air, *k*ck is thermal conductivity of the cake, *k*glass is thermal conductivity of the glass vial, *A*v is the cross-sectional area of the vial, *A*air1 is the cross-sectional area occupied by air at region 1, *A*air2 is the cross-sectional area occupied by air at region 2, *A*ck is the cross-sectional area occupied by cake, and *A*wall is the cross-sectional area of the glass wall \(in the *z*-direction\). The heat transfer boundary conditions for Eq. 10 are expressed as: 
+
+
+
+![$$ -{k}_{\textrm{eff},1}\frac{\partial {T}_1}{\partial z}={K}_{\textrm{v}}^{\textrm{sec}}\ \left({T}_{\textrm{sh}}-{T}_1\right)\kern0.75em at\kern0.5em z=0 $$](images/000036.jpeg)
+
+
+\(11a\)
+
+
+
+
+
+![$$ -{k}_{\textrm{eff},1}\frac{\partial {T}_1}{\partial z}=-{k}_{\textrm{eff},2}\frac{\partial {T}_2}{\partial z}\kern1em \textrm{at}\ z={L}_{\textrm{b}}+{L}_{\textrm{ck}} $$](images/000037.jpeg)
+
+
+\(11b\)
+
+
+
+
+
+![$$ {T}_1={T}_2\kern0.5em \textrm{at}\ z={L}_{\textrm{b}}+{L}_{\textrm{ck}} $$](images/000038.jpeg)
+
+
+\(11c\)
+
+
+
+
+
+![$$ {k}_{\textrm{eff},2}\frac{\partial {T}_2}{\partial z}={K}_{\textrm{top}}\ \left({T}_{\textrm{top}}-{T}_2\right)\kern0.5em at\ z={L}_{\textrm{v}} $$](images/000039.jpeg)
+
+
+\(11d\)
+
+
+
+
+Because of the one-way coupling nature of the equations, the kinetics of bound water removal do not affect the temperature profile, but the temperature profile will alter the bound water removal. The equation for moisture content *c*w is the desorption kinetic model \(Eq. 1\) discussed in Sec. 2.1. The initial conditions correspond to the temperature and moisture content of the vials at the end of primary drying in experiments.
+
+##### ***2.2.2.3 ***Low Fidelity Model: 0D Lumped Capacitance Model
+
+The low fidelity model assumes uniform temperature throughout the entire vial and cake. The energy balance consists of energy accumulation in the entire vial, heat transfer from the shelf, heat transfer from the top of the vial, and enthalpy from releasing bound water: 
+
+
+
+![$$ \frac{dT}{dt}\ \left({\sum}_{\gamma }{\rho}_{\gamma }{C}_{\textrm{p},\gamma }{V}_{\gamma}\right)={K}_{\textrm{v}}^{\textrm{sec}}{A}_{\textrm{v}}\left({T}_{\textrm{sh}}-T\right)+{K}_{\textrm{top}}{A}_{\textrm{v}}\left({T}_{\textrm{top}}-T\right)+{\rho}_{\textrm{ck}}{V}_{\textrm{ck}}\Delta {H}_{\textrm{v}}\frac{d{C}_{\textrm{w}}}{dt};\kern1.25em 0&lt;z&lt;{L}_{\textrm{v}} $$](images/000040.jpeg)
+
+
+\(12\)
+
+
+
+
+In the above equation, \(∑*γ**ρ**γ**C*p, *γ**V**γ*\) is the thermal mass of the entire vial \(cake, glass, and air\), *A*v is the area of the bottom of the vial, Δ*H*v is latent heat of desorption, and *c*w is moisture content at the dried cake. We note that this lumped capacitance approach should give us a qualitative picture of how temperature evolves over time but should not be expected to be quantitative as the lumped capacitance assumption is strictly valid for Biot number  ![$$ Bi\equiv \frac{K_{\textrm{v}}^{\textrm{sec}}{L}_{\textrm{v}}}{k_{\textrm{eff}}}&lt;0.1 $$](images/000041.jpeg) , where *k*eff is the effective thermal conductivity of the entire vial based on thermal circuits. In general, if one looks at freeze-drying data in the literature, the Biot number *Bi* ~ *O*\(1\) in most setups \[16, 30\], with the temperature distribution spatially uniform in the cake but spatially varying in the vial’s air region due to the air’s higher thermal resistance. Since the temperature is spatially uniform, the energy and mass balances simplify to two ordinary differential equations for temperature and moisture content \(*T*, *c*w\) in time, where the equation for *c*w is desorption Eq. \(1\) discussed previously. These differential equations are solved with specified initial conditions using a Runge-Kutta scheme.
+
+## **3 **Characterization of Secondary Drying Process and the Lyophilized Cake
+
+This section describes several experimental techniques to characterize heat transfer and bound water removal during secondary drying. Such measurements are critical for monitoring the drying process and for obtaining material and process parameters needed for heat and mass transfer modeling.
+
+### **3.1 **Temperature Measurement
+
+Temperature measurements are arguably one of the most important pieces of information used in industry to make decisions about developing, optimizing, and scaling up freeze drying operations without producing major product defects such as collapse, melting, or cracking \[31\]. Nail et al. \(2017\) introduced the state-of-art in monitoring methods and emphasized the importance of the temperature measurements \[32\].
+
+There are two types of devices commonly used for monitoring the product temperature – \(a\) thermocouple and \(b\) resistance temperature detector \(RTD\). A thermocouple is made of two wires having different combinations of metals \(i.e., chrome, aluminum, iron, constantan, copper, platinum, and rhodium\), and the two wires form an electrical junction. The Seebeck effect occurs when the two wire ends are exposed to different temperatures. It generates an electric current in the circuit and a voltage difference proportional to the temperature difference between the two junctions. A  thermocouple generally shows a fast response time and measures the temperature in a certain small spot. However, only limited combination of metals can be applied for freeze drying due to low temperatures involved, and the thermocouple is sensitive to the position in the vial which may affect the measured data. The other measuring device – i.e., RTD – is based on the manipulation of the resistance of a metal \(i.e., platinum\) that varies precisely depending on the temperature. Here, a Wheatstone bridge circuit is used to measure the resistance of the metal probe \(sensing element\), which is used to calculate the temperature. In a given setup, a RTD measures the temperature as a surface average of the sensing element. Compared to a thermocouple, RTD shows better performance in terms of wider temperature range, accuracy, precision, linearity, and stability. However, it may give a misleading product temperature if the measuring element detects the temperature partially from ice and dried cake, and it has limitations in regard to cable length \[32\]. Both thermocouple and RTD have unique pros and cons; therefore, it should be selected with considering their characteristics to monitor the secondary drying process properly.
+
+Currently, wired probes are mainly used to monitor the product temperature in process development, especially at laboratory and pilot scales. These probes are usually limited to a one-time loading system at the laboratory level rather than automatic loading at commercial levels. Looking towards the future, next-generation wireless temperature sensing systems are emerging for freeze drying \[32–37\]. These temperature sensors have potential to avoid invasive measurement and are likely to be a high priority for technological development in the near the future since it is promising for a good manufacturing practice \(GMP\) setting.
+
+### **3.2 **Heat Flux Measurement
+
+Heat flux measurement is a new technique for obtaining thermal properties of the system and monitoring product temperature and critical end points during freeze drying. Recently, some researchers monitored heat flux during lyophilization and performed measurements of vial heat transfer coefficient *K*v by placing temperature probes at the shelf and the bottom of the cake, as well as a heat flux sensor underneath several vials \[14, 18, 38\]. Figure 5a shows the temperature profile over time for the shelf and cake during primary and secondary drying, and Fig. 5b shows the corresponding measurements of heat flux versus temperature difference \(*T*sh – *T*p\) between the shelf and cake. Yoon and Narsimhan \(2022\) labeled the graph into six distinct regions \[18\]. Typically, primary drying heat transfer coefficients are measured during the first and second stage \(0 < *t* < 10 h\) where the heat flux versus temperature difference has a constant slope \[14, 18, 38–40\]. The secondary drying heat transfer coefficients are measured during the fifth and sixth stage. 
+![](images/000042.jpeg)
+
+
+***Fig. 5*** 
+\(**a**\) The temperature profile over time for the shelf and cake during primary and secondary drying with 6 distinct regions \(Region 1: the ramping stage of primary drying \(0 < *t* < 0.33 h\) where the shelf temperature increases from the freezing temperature to the primary drying temperature; Region 2: the sublimation stage where the shelf temperature and cake temperatures are relatively constant; Region 3: the transition from ice to cake at the observation point; Region 4: the end stage of primary drying, where most sublimation has finished and the cake temperature increases; Region 5: the ramping stage during secondary drying; Region 6: secondary drying stage when the shelf temperature is constant\). \(**b**\) Measurements of heat flux versus temperature difference \(*T*sh – *T*p\) between the shelf and cake during primary and secondary drying. \(Ref. Figs. 4a and b of Yoon and Narsimhan \[18\]\)
+
+
+
+To estimate the vial heat transfer coefficient *K*v, first the overall heat transfer coefficient of the sensor *K*tot is defined as the ratio of the measured heat flux and the temperature difference from Fig. 5b: i.e., *K*tot = *q*/\(*T*sh – *T*p\). Note that this heat transfer coefficient contains contributions from the vial and the air since the sensor is partially occupied by vials \(i.e., *N* vials in total\) \[38\]. Thus to obtain the vial heat transfer coefficient, one must subtract from *K*tot the contribution from the air \(which is made via a measurement without the vials, the details of which are shown in Yoon and Narsimhan \(2022\)\) \[18\].
+
+A cursory glance at Fig. 5b shows that the heat transfer coefficient during secondary drying is quite different compared to primary drying. It is believed that this observation arises due to the change in water vapor in the freeze dryer, which alters the conductivity of gas between the vial bottom and shelf, and also alters the flow rate in the chamber due to sublimation. This phenomenon plays a major consequence in heat and mass transfer modeling. More details are discussed in Sect. 5.
+
+### **3.3 **Moisture Content
+
+Moisture content of the dried cake is used to estimate the kinetic parameters for bound water removal such as rate constant \(*k*g\), activation energy \(*E*a\), and equilibrium moisture content \( ![$$ {c}_{\textrm{w}}^{\ast } $$](images/000043.jpeg) \). Furthermore, moisture content is one of the most important pieces of information that determines the long-term stability of the final product. Because of these reasons, there have been many methods developed over the years to measure moisture content during lyophilization.
+
+The moisture content can be measured directly from the sample using Karl Fischer titration \(KFT\) \[1, 16, 41, 42\], thermal gravimetric analysis \(TGA\) \[42, 43\], moisture analysis device \(for example, Vapor Pro\) \[18, 44\], or near-IR spectroscopy \(NIR\) \[45\].
+
+Karl Fischer Titration \(KFT\) is based on the oxidation reaction between sulfur dioxide and iodine: 
+
+
+
+![$$ {H}_2O+S{O}_2+{I}_2\to S{O}_3+2 HI $$](images/000044.jpeg)
+
+
+
+
+
+By adding small amounts of equimolar iodine and sulfur dioxide to the vial until they are present in excess, one can calculate the amount of moisture in the vial. Thermal Gravimetric Analysis \(TGA\) tracks the mass loss compared to a reference system when gradually increasing temperature. A moisture analysis device applies high temperature to a sample vial to evaporate all the water, injects a dry gas through the heated sample, and measures the moisture content leaving the sample via a sensor. NIR measures the water signal \(absorbance\) in the infrared spectrum which has two different bands centered around 6897 cm−1 and 5155 cm−1. For direct residual moisture content determination, a sample thief method can be applied to take vials periodically from the freeze dryer during secondary drying.
+
+Below discusses in detail two other techniques for measuring moisture content during secondary drying: pressure rise test \(PRT\) \[9, 11, 26, 46, 47\] and tunable diode laser absorption spectroscopy \(TDLAS\) \[9, 10, 14, 48\]. These two ideas have been gaining popularity recently for secondary drying as non-invasive methods for real-time monitoring of moisture content.
+
+#### ***3.3.1 ***Pressure Rise Test \(PRT\)
+
+Chamber pressure is one of the representative process input parameters used for predetermined settings in current lyophilization practices using open-loop controls \[31\]. Pressure is generally measured by the combination of a capacitance-manometer and a Pirani gauge. Since Pirani gauge is sensitive to the relative amount of water vapor in the chamber, the difference between the Pirani and capacitance-manometer readings indicate the composition of water vapor in the chamber. This idea has been used to estimate end of primary drying \[26, 32, 42, 49, 50\].
+
+Chamber pressure not only indicates the end point of the primary dying but can also non-invasively infer the residual moisture during secondary drying by using a similar idea known as a pressure rise test \(PRT\) \[9, 11, 46, 49\]. If one assumes that the chamber pressure is expressed by the ideal gas law and that the change in chamber pressure comes predominantly from the removal of bound water, then one gets the following expression for the rate of change of water in the chamber \( ![$$ \frac{\partial {m}_{\textrm{w}}}{\partial t} $$](images/000045.jpeg) \): 
+
+
+
+![$$ \frac{\partial {m}_{\textrm{w}}}{\partial t}=\frac{M_{\textrm{w}}\ {V}_{\textrm{ch}}}{R_{\textrm{g}}T}\frac{\partial {P}_{\textrm{ch}}}{\partial t} $$](images/000046.jpeg)
+
+
+\(13\)
+
+
+where *P*ch is chamber pressure, *V*ch is volume of the chamber, *R*g is ideal gas constant, and *M*w is molecular weight of water. Monitoring the pressure enables real-time calculation of the residual moisture content and vapor flow rates in the system and can help to determine whether to extend the process time for the current drying stage \[7\].
+
+#### ***3.3.2 ***Tunable Diode Laser Absorption Spectroscopy
+
+Vapor flow also can be measured from tunable diode laser absorption spectroscopy \(TDLAS\). This technique measures the concentration of certain chemical species \(i.e., water vapor\) in a gas mixture. The idea is that gas molecules absorb light with a specific wavelength \(frequency\) from the electromagnetic spectrum. Since concentration of the target gas is proportional to absorbance, the species concentration is calculated from the length of the beam pathway and the adsorption coefficient via Lambert-Beer law \[42\]. TLDAS requires a long enough duct connecting the drying chamber and condenser to allow for an absorption measurement at an angle sufficiently different from the normal direction of the vapor flow \[46\].
+
+When compared to other methods, TDLAS has several advantages. TDLAS is non-contact measurement, and it can detect very low concentration of water vapor. It is also possible to measure other quantities such as temperature, pressure, and mass flux of the gas in a real-time measurement \[9, 10, 14, 48, 51, 52\]. Figure 6 shows an example of mass flow rate of the water vapor detected by TDLAS \[10\]. If one knows the initial moisture content at the beginning of secondary drying, one can also obtain the residual moisture of the vial by integrating the measured mass flow rate over time. Figure 6 also shows the residual moisture content predicted by TDLAS compared to direct measurements from Karl Fischer titration \[10\]. Overall, TDLAS slightly overestimates the residual moisture content below 3% in case of *T*sh = 0 °C; however, it generally shows a good agreement with Karl Fischer titration. From the integration of mass flow, Schneid et al. \(2011\) concluded that the mass integrated from TDLAS is possible for the calculation of residual moisture reduction. 
+![](images/000047.jpeg)
+
+
+***Fig. 6*** 
+Overview of average TDLAS mass flow rate and corresponding moisture content computation. Integrating the TDLAS mass flow rate over time allows one to calculate the residual moisture content at *T*sh = −10 °C and *T*sh = 0 °C, respectively. Small open triangle: TDLAS mass flow rate \(−10 °C\); small asterisk: TDLAS mass flow rate \(0 °C\); big filled square: Karl Fischer residual moisture content \(−10 °C\); big open squares: residual moisture content by TDLAS \(−10 °C\), big filled circle: Karl Fischer residual moisture content \(0 °C\); big open circle: residual moisture content by TDLAS \(0 °C\). \(Data reformatted from Figs. 5 and 9 of Schnieid et al. \[10\]\)
+
+
+
+### **3.4 **Properties of Lyophilized Cake
+
+#### ***3.4.1 ***Structure of the Lyophilized Cake
+
+The pore structure of the lyophilized cake plays a major role in controlling mass transfer during primary and secondary drying. For example, smaller pores increase primary drying time as they reduce the vapor flow rate through the cake during sublimation \[52–54\]. However, the same effect accelerates secondary drying as smaller pores increase the surface area for bound water removal \[1, 13, 53\]. What sets the pore structure is generally determined by the freezing of water into ice and is strongly affected by the freezing rate, controlled/uncontrolled nucleation, annealing, and nucleating agent \[13, 52–54\]. In the porous media literature, there are many descriptors for the pore structure of a material, each useful for different applications and having varying levels of detail. The one that finds the most use in the lyophilization community is the specific surface area \(SSA\), which is defined as the surface area of pores per unit mass of cake.
+
+One of the most common methods to determine SSA of lyophilized cakes is by measuring gas adsorption isotherms of N2 at different pressures. By fitting the data to the Brunauer-Emmett-Teller \(BET\) theory of adsorption, one can estimate the maximum surface coverage of gas and hence the specific surface area of the pores \[42, 55\]. Similarly, fitting the data to the Barret-Joyner-Halenda \(BJT\) theory allows one to obtain an estimate for the pore size distribution. Other methods that can be used to measure SSA are micro-X-ray computed tomography \(CT\) scanning \[56, 57\] or scanning electron microscopy \(SEM\) imaging of a cross section of the cake \[56, 58\].
+
+Once the SSA is experimentally determined, the average pore size can be estimated using a capillary tube model: 
+
+
+
+![$$ \textrm{SSA}=\frac{2\epsilon }{\rho_{\textrm{s}}\left(1-\epsilon \right)}\frac{1}{r_{\textrm{e}}}, $$](images/000048.jpeg)
+
+
+\(14\)
+
+
+
+
+In the above equation, *ρ*s is density of the dried cake, *ϵ* is solid content, and *r*e is effective radius of pores \[54, 59\]. For example, Konstantinidis et al. \(2011\) determined SSA for lyophilized cake of 5 wt% mannitol under controlled and uncontrolled nucleation \[54\]. For uncontrolled nucleation, the operating conditions were freezing: *T*sh = −3 °C, primary drying: *T*sh = −40 °C to −15 °C at temperature ramping rate of 0.4 °C/min and *P*ch = 100 mTorr, secondary drying: *T*sh = −15 °C to 45 °C at temperature ramping rate of 1 °C/min for 3 h. Controlled nucleation occurred under the same conditions except that the chamber was pressurized and depressurized in a precise manner during freezing with an additional holding time for 15 min. In the case of uncontrolled nucleation, *r*e is 11.7–14.9 μm and averaged SSA is 5.54 m2/g, and the controlled nucleation shows that *r*e is 21.3–25.3 μm and averaged SSA is 2.78 m2/g, respectively \[54\]. Note that pore size is highly influenced by the degree of supercooling, and SSA is only determined by pore size at given solid content.
+
+#### ***3.4.2 ***Glass Transition Temperature and Collapse Temperature
+
+The glass transition temperature *T*g is characterized by the transition between an oversaturated freeze concentrate and a glassy solid, while the collapse temperature *T*c experimentally represents the temperature when collapse is visually observed. Understanding both of these temperature transitions for the dried product is important for a freeze-drying cycle, as drying above these temperatures may create defects that could severely impact product quality such as deformation, shrinkage, cracking, collapse, melting, and protein instability \[60–63\]. When temperature is above the glass transition temperature, the fluidity of the porous cake increases and causes loss of cake structure. In practical applications, the collapse temperature is a bit higher \(2–5 °C\) than the glass transition temperature when measured at low temperature ramping rates typical for freeze-drying \[64\]. Thus, the glass transition temperature is generally used as a conservative estimate to prevent the collapse of the cake.
+
+In general, most of the failure in the cake structure occurs during primary drying when the product temperature goes above the glass transition temperature. The collapse in the cake structure is also possible during secondary drying since the shelf temperature during this stage is increased higher than that of the primary drying for the purpose of the desorption of bound water \[62\]. Therefore, to avoid structural failure, careful consideration should be taken for manipulating the product temperature not to exceed the *T*g or *T*c of the formulation.
+
+The glass transition temperature \(*T*g\) of the lyophilized product can be recorded by differential scanning calorimetry \[65–67\]. In this equipment, the sample and a reference material are heated at a certain ramping rate, and the difference in heat supplied to the two materials is recorded. This information allows one to infer the thermal transition temperatures such as the glass transition temperature \(*T*g\) and the eutectic melt temperature \(*T*e\). Meanwhile, freeze-dry microscopy \(FDM\) can also capture the collapse temperature \(*T*c\) with optical observations of the cake structure during freeze drying cycle. The FDM equipment consists of a small freeze-drying chamber, flow system for coolant \(liquid nitrogen\), microscope, and imaging sensor. The drying cycle is monitored via the imaging unit and the visual data is recorded for analysis. The onset temperature is experimentally determined when the dried cake shows the collapse in the structure \[67–70\].
+
+## **4 **Critical Process Variables During Secondary Drying
+
+### **4.1 **General Operational Conditions
+
+The chamber pressure during secondary drying can be operated at the same pressure as the primary drying stage, or it can be operated at an elevated pressure. Generally, a chamber pressure \(up to 200 mTorr\) \[1, 7\] does not alter the removal rate of bound water appreciably.
+
+In terms of temperature, secondary drying is completed at an increased temperature from the primary drying stage, typically at shelf temperatures between 20 °C and 50 °C. In general, secondary drying at 25–30 °C for 3–4 h is acceptable for protein formulations \[71\]. However, especially for some cases such as mannitol-based formulations, certain metastable hydrates may cause the redistribution of the residual hydrate water which leads the structural relaxation during storage \[72\]. Therefore, secondary drying should be performed much higher temperature \(50–55 °C\) than other formulations for 2–3 h to remove mannitol hemihydrates \[71, 73\].
+
+One other key consideration is the temperature ramping rate at the beginning of secondary drying. In the extreme case, the temperature ramping rate is up to 2.5 °C/min in some papers \[1, 7, 62\], but amorphous products may require a slower temperature ramping rate to avoid collapse during secondary drying. Amorphous products are recommended to ramp slowly at 0.20 °C/min until reaching to the set point, while a slightly faster temperature ramping rate \(0.3–0.4 °C/min\) is suggested for crystalline formulations because the collapse temperature would be higher in the case of crystalline structures.
+
+The target moisture content of the final product is quite specific and varies depending on the product itself. A typical range of the final moisture content in the dried product is between 0.5% and 3%. Specifically, it is less than 1 wt.% for proteins and ranges from 2% to 3% for vaccines \[71\]. Since stability is highly influenced by the moisture content of the final product, less moisture in the product is more favorable for long-term storage in most cases \(see Sect. 5.1\). However, dehydration stresses can arise for certain complex biological formulations, which may change protein structure \[74\]. These considerations must be taken into account for secondary drying.
+
+### **4.2 **Effect of Temperature
+
+The main parameter controlling secondary drying is the shelf temperature. The shelf temperature profile allowed for drying varies depending on the formulation. It is because \(1\) cake collapse can occur by too quick of a temperature ramping rate or a product temperature over *T*g or *T*c, \(2\) the stability of proteins is a function of the temperature, and \(3\) secondary drying rate \(desorption\) is significantly affected by shelf temperature and the thermal mass of the system. Therefore, the shelf temperature during secondary drying must be carefully considered while developing the freeze-drying cycles for formulations.
+
+To accelerate secondary drying, the shelf temperature should be as high as possible without causing cake failure or protein denaturation, since the kinetics of bound water removal highly depends on the temperature as an Arrhenius form \[15, 16, 20\].
+
+As noted in the previous sections, 5–35% of residual water will remain at the end of primary drying, and both the glass transition temperature and the collapse temperature will still remain as quite low. However, the glass transition temperature will rise as moisture inside the cake gets removed. Thus, a general rule of thumb is to make sure that the shelf temperature is increased at a rate slower than the rate of increase of *T*g so that defects in the cake such as shrinkage, cracking, collapse, melting, aggregation, and chemical degradation will not occur \[1, 62, 75\]. This means that the fast temperature ramping to the setpoint of the shelf temperature in secondary drying brings the high risk of product defects relevant to the morphology of the product.
+
+In some cases, freeze-drying above *T*g may reduce the drying time. The freeze-drying between *T*g and *T*c would produce pharmaceutically acceptable appearance if protein concentration is high enough. It has been shown that protein stability for a collapsed cake is improved or similar to the uncollapsed cake \[76–78\]. However, cake appearance is generally a critical quality attribute for a lyophilized product; therefore, it may not be preferred.
+
+### **4.3 **Effect of the Vial
+
+The importance of considering the vial in freeze drying has been recognized \[79\] because it contributes to the heat transfer during lyophilization. In a recent study, Yoon and Narsimhan \(2022\) point out that the thermal mass of the vial plays an outsized role in determining the temperature profile of the cake during secondary drying, since 90–95% of the heat supplied is absorbed by the vial walls rather than the cake \[18\]. Thus, the thermal properties of the cake and the latent heat of bound water removal have a minimal effect on the product temperature \[17\]. Figure 7 shows the temperature profile for mannitol and sucrose during secondary drying at different shelf temperatures \(15 °C ≤ Tsh ≤ 35 °C\). The temperature profiles of the two excipients are indistinguishable even though \(a\) they have different thermal properties \(e.g., thermal conductivity and heat capacity\), and \(b\) the sucrose cake shrinks and partially loses contact with the glass wall \[62, 80\]. This is strong evidence that the cake’s thermal properties play a minor role in the overall heat transfer. The same authors also reported that the average temperature profiles in the cake are indistinguishable when one includes the enthalpy of desorption, and when one neglects this term. This observation suggests that one can considerably simplify governing equations by neglecting the heat of desorption in the energy balance, which allows the mass balance to be described using one-way coupling. 
+![](images/000049.jpeg)
+
+
+***Fig. 7*** 
+Comparison of measured product temperature profiles during secondary drying of an aqueous solution containing 5 w/v% sucrose \(red\) and 5 w/v% mannitol \(blue\). The shelf temperature during secondary drying process is \(**a**\) 15 °C, \(**b**\) 25 °C, and \(**c**\) 35 °C. \(Ref. Fig. 3 of Yoon and Narsimhan \[18\]\)
+
+
+
+### **4.4 **Effect of Specific Surface Area
+
+To explain the effect of specific surface area \(SSA\), we will start from the freezing stage of lyophilization. During the freezing step, the degree of supercooling determines the rate of nucleation and the size of the ice nuclei formed. When this ice sublimes, it leaves behind a porous cake with a structure \(geometry and pore size distribution\) related to its nuclei size \[52–54\]. Thus, factors that affect supercooling play a large role in determining the specific surface area of the cake \[54\]. For example, a lower degree of supercooling caused by a variety of factors such as ultrasound nucleation, higher nucleation temperature, and depressurization generates a larger radius of pore size, hence smaller SSA \[54\].
+
+The SSA correlates strongly with the mass transfer resistance of the dry product layer during primary drying \[59\]. In other words, one should target a small SSA for primary drying as the larger pore sizes give rise to a faster vapor flowrate through the cake during sublimation. However, the effect of SSA is opposite during secondary drying as a higher surface area is important to increase the mass transfer of bound water removal. Thus, it is essential to consider these two competing effects when considering SSA on drying. Generally, since primary drying stage takes a longer time in the freeze-drying process, a large pore size \(small SSA\) is more favorable \[1\].
+
+As shown in Fig. 8, Oddone et al. \(2017\) had a good agreement with general trend about residual moisture content and SSA as reported in literature \[13\]. SEM images and moisture distribution show that the controlled freezing \(vacuum induced nucleation\) creates larger pore sizes than uncontrolled freezing \(shelf-ramped freezing\). The larger pore sizes lead a slower removal of bound water and more residual moisture at the end of secondary drying. 
+![](images/000050.gif)
+
+
+***Fig. 8*** 
+\(**a**\) Example of residual moisture distribution within a batch of vials as observed at the end of primary drying \(full symbols\) and secondary drying \(empty symbols\) for the case of Vacuum Induced Nucleation \(circle\) and shelf-ramped freezing \(square\). SEM micrographs are also shown for two mannitol samples lyophilized by \(**b**\) Vacuum Induced Nucleation and \(**c**\) shelf-ramped freezing. \(Ref. Fig. 1 of Oddone et al. \[13\]\)
+
+
+
+### **4.5 **Effect of Excipients
+
+Unless the morphologies \(crystalline or amorphous\) of the excipients are different, it is experimentally observed that different excipients do not significantly alter the pore structure \(shape, cell size, and cell wall thickness\) of the dried cake, as long as one uses the same concentrations and the same process conditions \(freezing temperatures, primary and secondary drying time, etc.\). Hedberg et al. \(2019\) reported that lyophilized cakes of sucrose and trehalose show a similar microstructure except that the sucrose cake has a slightly thicker cell wall and a larger cell size compared to trehalose for both 20 wt.% and 40 wt.%, respectively \[81\]. However, even when the pore structures are similar, different excipients still show differences in the removal of bound water. We note that the chemistry of the excipient alters the equilibrium moisture isotherm of the cake, as well as the kinetic parameters for bound water removal \(e.g., kinetic constant *k*g, 0 and activation energy *E*a\). As shown in Table 2, Fakes et al. \(2000\) studied the moisture sorption behavior of six common bulking agents used in lyophilization – mannitol, anhydrolactase, sucrose, trehalose, dextran 40, and providone K24. These materials were lyophilized at the same concentration under identical conditions, and their moisture sorption behavior before and after lyophilization were determined as a function of relative humidity at 25 °C \[82\]. Although all products were processed under the same cycle, they showed different sorption and required different level of moisture content for optimal stability, depending on the excipients or the crystalline structure formed during lyophilization. 
+
+
+***Table 2*** 
+Moisture content of bulking agents before and after lyophilization
+
+
+
+**Bulking agents**
+
+**Moisture content before lyophilization \(% w/w\)**
+
+**Moisture content after lyophilization \(% w/w\)**
+
+Mannitol
+
+0.12
+
+0.15
+
+Lactose anhydrous
+
+0.86
+
+1.63
+
+Sucrose
+
+0.15
+
+2.51
+
+Trehalose
+
+9.2
+
+1.17
+
+Dextran 40
+
+5.8
+
+0.24
+
+Povidone K24
+
+8.6
+
+0.37
+
+
+Ref. Table 1 of Fakes et al. \[82\]
+
+
+
+
+When the concentration of the excipient changes, the pore size and SSA will change, which alters the bound water removal rate. Devi and Williams \(2014\) also compared the cellular structure of the dried cake with the different concentrations \[83\]. Figure 9 shows that the size of the unit cell become smaller as the concentration is increased and structure changes from an open cell to a closed cell. Similar behavior has been found in other lyophilized materials such as collagen-glycosaminoglycan and chitosan-gelatin \[84, 85\]. 
+![](images/000051.jpeg)
+
+
+***Fig. 9*** 
+SEM images of cellular structures in freeze-dried sucrose for different initial concentrations of sucrose \(1%, 20%, and 40 w/w%\). \(Ref. Fig. 3 of Devi et al. \[83\]\)
+
+
+
+### **4.6 **Process Parameters Not Affecting Secondary Drying
+
+In contrast to the critical process parameters that mentioned above sections, there also exist several process parameters that do not significantly contribute to the kinetics of bound water removal during secondary drying. As briefly mentioned in Sects. 2.1 and 4.1, chamber pressure is generally maintained during secondary drying without changing from that the value during primary drying. This is because bound water removal during secondary drying is not affected by the chamber pressure at least up to 200 mTorr \[1, 7, 79\]. In other words, lowering chamber pressure extremely does not appear to reduce the secondary drying time.
+
+A recent study performed by Searles et al. \(2017\) observed that increasing the chamber pressure slightly increased the product temperature, which is expected to cause subsequent change in residual moisture content \[7\]. However, experimental measurements did not show any significant differences in moisture content regardless of chamber pressure under 600 mTorr \[7\]. They also compared moisture content of freeze-dried polyvinylpyrrolidone with varying chamber pressures \(e.g., 50, 200, and 600 mTorr\), including the same condition of the Pikal’s previous work \[1\]. As shown in Fig. 10, for 50, 200, and 600 mTorr chamber pressures, there is no significant difference in moisture content when the pressure was maintained by injection of nitrogen. Experimental measurements performed by Assegehegn et al. \(2021\) also showed a minor influence of chamber pressure on moisture content between 0.05 and 0.20 mbar \[17\]. 
+![](images/000052.jpeg)
+
+
+***Fig. 10*** 
+Moisture content of lyophilized PVP for runs at chamber pressures of 0, 200, and 600 mTorr and shelf temperature of 36 °C. The pressure is controlled by N2 injection. \(Ref. Fig. 3b of Searles et al. \[7\]\)
+
+
+
+Another parameter that does not affect the secondary drying kinetics is fill volume of the solution \(or cake thickness\). Pikal et al. \(1990\) studied the drying kinetics of a 5 wt% PVP solution, having 4 ml and 8 ml fill volumes \[1\]. The experimental results show that the normalized moisture contents of the two products were identical, which means cake thickness did not affect significantly alter secondary drying kinetics. Similar experiments using moxalactam formulations show a good agreement with dried PVP cake in that cake depth does not significantly affect the secondary drying kinetics.
+
+## **5 **Challenges in Secondary Drying
+
+### **5.1 **Moisture vs. Stability
+
+It is obvious that the amount of moisture existing in vials is an important issue for lyophilization. Generally, moisture accelerates the degradation of the product, with amorphous products having a higher possibility for degradation because they generally contain more water than crystalline products. Moisture specifications \(i.e., the expiration date and moisture limit of the lyophilized product\) should be carefully reviewed for product stability.
+
+The stability of several amorphous products has been explored in the literature \[86–88\], and the correlation between moisture content and product stability has been quantitatively established \[89–91\]. Figure 11 shows the normalized rate constants of product decomposition versus moisture content for three amorphous materials \(cefamandole, cefaclor, and cephalothin sodium\) at different temperatures. The normalized rate constant for cephalothin sodium \(open symbol\) is approximately a constant value, whereas cefaclor \(blue\) and cefamandole sodium \(red\) show increased degradation with increased moisture content. Generally, the rate constant for degradation increases and the half-life decreases with increasing moisture content \[86, 90, 91\]. Thus, manufacturers try to target a moisture content below 1% for most amorphous products during lyophilization and below 3% for vaccines. 
+![](images/000053.jpeg)
+
+
+***Fig. 11*** 
+Normalized rate constants for degradation of three amorphous cephalosporins \(cefamandole, cefaclor, and cephalothin sodium\) as a function of residual water content at 25 °C and 40 °C. \(Data reformatted from Pikal and Dellerman\). Lines represent apparent linear fit of the data on the semi-log scale, produced using Microcal Origin software with errors as weight. \(Ref. Fig. 1 of Ohtake and Shalaev \[90\]\)
+
+
+
+### **5.2 **Uncertainties in Heat Transfer Coefficient
+
+One point that is underappreciated in the literature is that the vial heat transfer coefficient *K*v can change significantly between primary and secondary drying due to the change in water vapor content in the freeze dryer. Water vapor increases the thermal conductivity of the gas between the vial bottom and the shelf and also increases the vapor flowrate in the freeze drying chamber during sublimation. Figure 12 shows the heat transfer coefficients between shelf and product measured by Yoon and Narsimhan \(2022\) during primary drying and secondary drying for a 6R vial with different excipients \(sucrose, mannitol, and empty vial\) and different final shelf temperatures at the end of secondary drying \(15 °C ≤ *T*sh ≤ 35 °C\) \[18\]. In these experiments, the temperature probe measures the product temperature \(*T*p\) measured at the middle of the product instead of the bottom of the vial \(*T*v\); however, the experimental conditions give a negligible temperature drop between these two points, and hence one can treat the heat transfer between shelf and product to be the same as the vial heat transfer coefficient. The measured heat transfer coefficient for secondary drying is  ![$$ {K}_{\textrm{v}}^{\textrm{sec}}=6.97\pm 2.07\ \textrm{W}/\left({\textrm{m}}^2\ \textrm{K}\right) $$](images/000054.jpeg)  for a 6R vial at 100 mTorr chamber pressure, which is similar to empty vial  ![$$ \left({K}_{\textrm{v}}^{\textrm{empty}}=6.68\pm 0.38\ \textrm{W}/\left({\textrm{m}}^2\ \textrm{K}\right)\right) $$](images/000055.jpeg)  and is a factor of ~2 smaller than the reported values during the initial stages of primary drying  ![$$ \left({K}_{\textrm{v}}^{\textrm{pri}}=15.01\pm 3.20\ \textrm{W}/\left({\textrm{m}}^2\ \textrm{K}\right)\right) $$](images/000056.jpeg) . 
+![](images/000057.jpeg)
+
+
+***Fig. 12*** 
+The heat transfer coefficients between shelf and product measured during primary drying \(region 1–2 in Fig. 5\) and secondary drying \(regions 5–6 in Fig. 5\) for sucrose \(red\), mannitol \(blue\), and empty vial \(green\) and different final shelf temperatures at the end of secondary drying \(*T*sh = 5, 15, 25, and 35 °C\). \(Ref. Fig. 4c of Yoon and Narsimhan \[18\]\)
+
+
+
+Because most literature assumes the heat transfer parameters in secondary drying to be the same as in primary drying, many studies show significant deviation between the predicted and experimental temperature profile unless one introduces ad-hoc fitting parameters. Thus, if one wants to model heat transfer accurately, it is advisable to measure the vial heat transfer coefficient during secondary drying. Otherwise, there will be large uncertainties in estimating heat transfer and by extension, rate of bound water removal.
+
+### **5.3 **Inefficient Heat Transfer
+
+An energy budget analysis done by Yoon and Narsimhan \(2022\) indicates that secondary drying is an incredibly inefficient process, since a small fraction \(5% or less\) of the supplied heat is actually used to remove bound water \[18\]. Figure 13 shows the heat flux vectors at one instant of time in one of their simulations, where a 2 mL fill volume of 5% wt sucrose is dried at 100 mTorr pressure at *t* = 1 h into secondary drying. The heat flux is predominantly routed into the glass walls of the vial, which is consistent with order-of-magnitude analysis stating that very little heat is consumed by the cake during secondary drying. 
+![](images/000058.jpeg)
+
+
+***Fig. 13*** 
+Heat flux vectors computed from simulation at a time *t* = 1 h into secondary drying. Schott 6R vial is filled with 2 mL of 5% wt sucrose and it is dried at 100 mTorr chamber pressure. The final shelf temperature during secondary drying is 25 °C. \(Ref. Fig. 8c of Yoon and Narsimhan \[18\]\)
+
+
+
+Based on this analysis, changing the vial material with a small thermal mass may be a considerable option to improve the thermal efficiency of the secondary drying. It also indicates that if one could have a heat source that targets the cake rather than the vial, one can in principle accelerate secondary drying substantially. This is one of the reasons why researchers are discussing techniques such as microwave heating that can accomplish this task. However, there are issues with microwave heating that still need to be addressed such as choosing a correct wavelength of radiation and making sure that the localized heating does not destabilize the product due to formation of local “hot spots.”
+
+### **5.4 **Defects in Dried Cake
+
+Structural defects such as deformation, shrinkage, cracking, collapse, and melting are failures usually related to a bad freeze-drying cycle at a temperature near or above the glass transition temperature or collapse temperature \[62, 80, 92–94\]. In the case of shrinking and cracking, it is observed that majority of these processes occur during primary drying \(Fig. 14\). Cracking does not happen in sucrose or maltose because shrinkage releases the drying stress applied to the cake \[80\]. These failure modes can be amplified during secondary drying because this stage is generally operated near the glass transition temperature to maximize the rate of bound water removal. In particular, it is found that shrinkage occurs when the moisture content is high and the product temperature is elevated near the glass transition temperature during the early stages of secondary drying \[62, 93, 95\]. In some cases, drying may create non-homogeneous distribution of moisture inside the cake, which can possibly trigger damage to sensitive proteins \[96\]. 
+![](images/000059.jpeg)
+
+
+***Fig. 14*** 
+Comparison of freeze-drying of sucrose \(blue\), maltose \(red\), and trehalose \(black\), each 10% w/w in water. The left-hand side is primary drying and right-hand side is secondary drying. Top frame \(**a**\): kinetic development of the extent of cracking; Bottom frame \(**b**\): kinetic development of the extent of shrinkage. The values for cracking and shrinkage are the mean ± SD of *n* = 3 runs. \(Ref. Figs. 7a and b of Ullrich et al. \[80\]\)
+
+
+
+Vial fogging is another issue found after a freeze-drying cycle. This phenomenon occurs when a product creeps upwards along the inner surface of the vial. As a result, the attachment of the dried product at the surface makes the vial looks cloudy, which is not acceptable for commercializing a product. The main factor controlling vial fogging is the hydrophilicity/hydrophobicity of the inner surface of the vial. Using a higher viscosity solution or excluding surfactants may reduce the vial fogging \[97–99\].
+
+### **5.5 **Scaleup
+
+In order to design lyophilization effectively for an industrial plant, it is important to understand how to scaleup such processes from the lab scale to the pilot scale to the manufacturing scale. Typically, what is important during scaleup is to design the processes to have as similar drying rate and product stability as possible. Typically, one achieves this by monitoring process information throughout the drying cycle and using process control to achieve a successful cycle development \[32\]. We note that these ideas are nontrivial as scaling up the lyophilization chamber gives rise to different heat transfer to the vials due to altered vapor flow in the chamber and altered radiation from the chamber walls. These effects give rise to different heat transfer to the product, different responses to the product temperature, and even non-homogenous moisture contents of the final products \[100, 101\]. We note that non-homogeneous heating of vials throughout the chamber gives rise to several undesirable effects that are discussed in detail in the next subsection.
+
+### **5.6 **Temperature and Moisture Uniformity
+
+Freeze-drying operated at a large scale may have an issue with uniformity of the final products depending on the vial position in the chamber. The influence of the vial position on heat transfer, moisture content, and glass transition temperature has been extensively examined \[11, 17, 30\]. Generally, asymmetric heat transfer is observed for the edge vials located near the front door or chamber walls due to radiation from these areas. This phenomenon makes edge vials dry faster than central ones and have a smaller moisture content at the end of the primary drying stage \[30\].
+
+At the end of secondary drying, the edge vials usually have a higher moisture content than the central vials, which is the opposite trend observed for primary drying. Assegehegn et al. \[17\] outline two possible reasons for this observation. The first reason is that during secondary drying, the product temperature is often higher than the chamber wall or door. Thus, the edge vials experience radiative cooling from the wall and doors and hence have a lower temperature and higher moisture content than the central vials. The second reason could arise from microcollapse induced by primary drying. When vials are heated during primary drying, the edge vials experience additional radiative heat transfer from the walls of the chamber, which in turn increases the product temperature in these vials. This elevated temperature makes the edge vials more likely to exceed the glass transition temperature and induce microcollapse – i.e., decrease in specific surface area of the product. If microcollapse occurs, the decreased surface area will slow the removal of bound water during secondary drying and hence make the edge vials have a higher moisture content than the central vials.
+
+Defects in the product can occur when the moisture content in the vials shows non-homogeneous distribution during the secondary drying. If the edge vials have a higher moisture content than that of the central vial and secondary drying is operated near the collapse temperature, then the product temperature may exceed the collapse temperature for higher moisture case.
+
+To achieve a more uniform moisture content of the final product, it is desirable to operate at a lower temperature for a longer drying time than at a higher temperature for a shorter drying time \[71\]. However, these considerations must be balanced against the constraints of cost and time \(Fig. 15\). 
+![](images/000060.gif)
+
+
+***Fig. 15*** 
+Spatial \(graph A\) and frequency \(graph B\) distribution of residual moisture content among the vials of the batch at the beginning of secondary drying. \(Ref. Fig. 6 of Pisano et al. \[11\]\)
+
+
+
+## **6 **Concluding Remarks
+
+Secondary drying is the last stage of lyophilization where one removes bound water from the product of interest. This chapter has given an overview of secondary drying by discussing \(a\) common heat and mass transfer models, \(b\) experimental characterization methods, \(c\) critical process variables affecting secondary drying, and \(d\) technical challenges for this process. The information outlined in this chapter will hopefully provide basic insight into the secondary drying process and act as a starting point to those seeking advice to understand and optimize this process.
+
+There are currently several challenges that need be addressed to improve secondary drying such as inefficient heat transfer and irregular moisture content in the final product. These limitations explain why there is a strong need to develop alternative technologies using unconventional freeze-drying methods. Heating technologies such as microwave drying \[102–104\] specifically target bound water rather than the vial wall and thus can potentially avoid inefficient heat transfer. Another approach called continuous freeze-drying \[105–107\] can improve moisture uniformity by suspending the vials over a track and moving them through chambers that represent different stages of freeze drying. All vials in this approach will be subject to the same heating conditions and thus avoid product heterogeneities. These new technologies are still in a nascent stage with regards to pharmaceuticals, and, hence, the authors believe that we are in an exciting time for lyophilization research.
+
+
+**References**
+
+1.  
+1.
+
+Pikal MJ, Shah S, Roy ML, Putman R. The secondary drying stage of freeze drying: drying kinetics as a function of temperature and chamber pressure. Int J Pharm. 1990;60\(3\):203–17.
+
+2.  
+2.
+
+Gatlin LA, Nail SL. Freeze drying: a practical overview. In: Harrison RG, editor. Bioprocess technology. New York: Marcel Dekker, Inc.; 1993. p. 317–67.
+
+3.  
+3.
+
+Rexroad J, Wiethoff CM, Jones LS, Middaugh CR. Lyophilization and the thermostability of vaccines. Cell Preserv Technol. 2002;1\(2\):91–104.
+
+4.  
+4.
+
+Stratta L, Capozzi LC, Franzino S, Pisano R. Economic analysis of a freeze-drying cycle. PRO. 2020;8\(11\):1399.
+
+5.  
+5.
+
+Liapis AI, Bruttini R. A theory for the primary and secondary drying stages of the freeze-drying of pharmaceutical crystalline and amorphous solutes: comparison between experimental data and theory. Sep Technol. 1994;4\(3\):144–55.
+
+6.  
+6.
+
+Nowak D, Jakubczyk E. The freeze-drying of foods—the characteristic of the process course and the effect of its parameters on the physical properties of food materials. Foods. 2020;9\(10\):1488.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33080983)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7603155)
+
+7.  
+7.
+
+Searles JA, Aravapalli S, Hodge C. Effects of chamber pressure and partial pressure of water vapor on secondary drying in lyophilization. AAPS PharmSciTech. 2017;18\(7\):2808–13.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28382602)
+
+8.  
+8.
+
+De Beer TRM, Wiggenhorn M, Veillon R, Debacq C, Mayeresse Y, Moreau B, Burggraeve A, Quinten T, Friess W, Winter G, Vervaet C, Remon JP, Baeyens WRG. Importance of using complementary process analyzers for the process monitoring, analysis, and understanding of freeze drying. Anal Chem. 2009;81\(18\):7639–49.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19681620)
+
+9.  
+9.
+
+Fissore D, Pisano R, Barresi AA. Monitoring of the secondary drying in freeze-drying of pharmaceuticals. J Pharm Sci. 2011;100\(2\):732–42.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20799368)
+
+10.  
+10.
+
+Schneid SC, Gieseler H, Kessler WJ, Luthra SA, Pikal MJ. Optimization of the secondary drying step in freeze drying using TDLAS technology. AAPS PharmSciTech. 2011;12\(1\):379–87.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21359604)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3066362)
+
+11.  
+11.
+
+Pisano R, Fissore D, Barresi AA. Quality by design in the secondary drying step of a freeze-drying process. Dry Technol. 2012;30\(11–12\):1307–16.
+
+12.  
+12.
+
+Trelea IC, Fonseca F, Passot S. Dynamic modeling of the secondary drying stage of freeze drying reveals distinct desorption kinetics for bound water. Dry Technol. 2016;34\(3\):335–45.
+
+13.  
+13.
+
+Oddone I, Barresi AA, Pisano R. Influence of controlled ice nucleation on the freeze-drying of pharmaceutical products: the secondary drying step. Int J Pharm. 2017;524\(1–2\):134–40.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28363858)
+
+14.  
+14.
+
+Vollrath I, Pauli V, Friess W, Freitag A, Hawe A, Winter G. Evaluation of heat flux measurement as a new process analytical technology monitoring tool in freeze drying. J Pharm Sci. 2017;106\(5\):1249–57.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28063826)
+
+15.  
+15.
+
+Kodama T, Takeuchi M, Wakiyama N, Terada K. Optimization of secondary drying condition for desired residual water content in a lyophilized product using a novel simulation program for pharmaceutical lyophilization. Int J Pharm. 2014;469\(1\):59–66.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24751732)
+
+16.  
+16.
+
+Sahni EK, Pikal MJ. Modeling the secondary drying stage of freeze drying: development and validation of an excel-based model. J Pharm Sci. 2017;106\(3\):779–91.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27914794)
+
+17.  
+17.
+
+Assegehegn G, Brito-de la Fuente E, Franco JM, Gallegos C. Understanding and optimization of the secondary drying step of a freeze-drying process: a case study. Dry Technol. 2021;39\(8\):1003–17.
+
+18.  
+18.
+
+Yoon K, Narsimhan V. Understanding heat transfer during the secondary drying stage of freeze drying: current practice and knowledge gaps. J Pharm Sci. 2022;111\(2\):368–81.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34571133)
+
+19.  
+19.
+
+Nastaj JF, Witkiewicz K. Mathematical modeling of the primary and secondary vacuum freeze drying of random solids at microwave heating. Int J Heat Mass Transf. 2009;52\(21–22\):4796–806.
+
+20.  
+20.
+
+Pikal MJ, Cardon S, Bhugra C, Jameel F, Rambhatla S, Mascarenhas WJ, Akay HU. The nonsteady state modeling of freeze drying: in-process product temperature and moisture content mapping and pharmaceutical product quality applications. Pharm Dev Technol. 2005;10\(1\):17–32.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15776810)
+
+21.  
+21.
+
+Liapis AI, Bruttini R. Freeze-drying of pharmaceutical crystalline and amorphous solutes in vials: dynamic multi-dimensional models of the primary and secondary drying stages and qualitative features of the moving interface. Dry Technol. 1995;13\(1–2\):43–72.
+
+22.  
+22.
+
+Sheehan P, Liapis AI. Modeling of the primary and secondary drying stages of the freeze drying of pharmaceutical products in vials: numerical results obtained from the solution of a dynamic and spatially multi-dimensional lyophilization model for different operational policies. Biotechnol Bioeng. 1998;60\(6\):712–28.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10099481)
+
+23.  
+23.
+
+Song CS, Nam JH, Kim C-J, Ro ST. A finite volume analysis of vacuum freeze drying processes of skim milk solution in trays and vials. Dry Technol. 2002;20\(2\):283–305.
+
+24.  
+24.
+
+Mascarenhas WJ, Akay HU, Pikal MJ. A computational model for finite element analysis of the freeze-drying process. Comput Methods Appl Mech Eng. 1997;148\(1–2\):105–24.
+
+25.  
+25.
+
+Trelea IC, Passot S, Fonseca F, Marin M. An interactive tool for the optimization of freeze-drying cycles based on quality criteria. Dry Technol. 2007;25\(5\):741–51.
+
+26.  
+26.
+
+Vilas C, Alonso AA, Balsa-Canto E, López-Quiroga E, Trelea IC. Model-based real time operation of the freeze-drying process. PRO. 2020;8\(3\):325.
+
+27.  
+27.
+
+Sadikoglu H, Liapis AI. Mathematical modelling of the primary and secondary drying stages of bulk solution. Dry Technol. 1997;15\(3–4\):791–810.
+
+28.  
+28.
+
+Sadikoglu H. Optimal control of the secondary drying stage of freeze drying of solutions in vials using variational calculus. Dry Technol. 2005;23\(1–2\):33–57.
+
+29.  
+29.
+
+Swift G, Molinski TS, Lehn W. A fundamental approach to transformer thermal modeling—part I: theory and equivalent circuit. IEEE Trans Power Deliv. 2001;16\(2\):171–5.
+
+30.  
+30.
+
+Ravnik J, Golobič I, Sitar A, Avanzo M, Irman Š, Kočevarc K, Cegnar M, Zadravec M, Ramšak M, Hriberšek M. Lyophilization model of mannitol water solution in a laboratory scale lyophilizer. J Drug Deliv Sci Technol. 2018;45:28–38.
+
+31.  
+31.
+
+Alexeenko A, Topp E. Future directions: lyophilization technology roadmap to 2025 and beyond. In: Ohtake S, Izutsu K, Lechuga-Ballesteros D, editors. Drying technologies for biotechnology and pharmaceutical applications. Weinheim: Wiley-VCH Verlag GmbH & Co. KGaA; 2020. p. 355–72.
+
+32.  
+32.
+
+Nail S, Tchessalov S, Shalaev E, Ganguly A, Renzi E, Dimarco F, Wegiel L, Ferris S, Kessler W, Pikal M, Sacha S, Alexeenko A, Thompson TN, Reiter C, Searles J, Coiteux P. Recommended best practices for process monitoring instrumentation in pharmaceutical freeze drying—2017. AAPS PharmSciTech. 2017;18\(7\):2379–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28205144)
+
+33.  
+33.
+
+Schneid S, Gieseler H. Evaluation of a new wireless temperature remote interrogation system \(TEMPRIS\) to measure product temperature during freeze drying. AAPS PharmSciTech. 2008;9\(3\):729–39.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18561030)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2977010)
+
+34.  
+34.
+
+Patel SM, Pikal MJ. Process analytical technologies \(PAT\) in freeze-drying of parenteral products. Pharm Dev Technol. 2009;14\(6\):567–87.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19883247)
+
+35.  
+35.
+
+Bosca S, Corbellini S, Barresi AA, Fissore D. Freeze-drying monitoring using a new process analytical technology: toward a “zero defect” process. Dry Technol. 2013;31\(15\):1744–55.
+
+36.  
+36.
+
+Scutellà B, Passot S, Bourlés E, Fonseca F, Tréléa IC. How vial geometry variability influences heat transfer and product temperature during freeze-drying. J Pharm Sci. 2017;106\(3\):770–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27939928)
+
+37.  
+37.
+
+Strongrich A, Alexeenko A. Process monitoring and control for lyophilization using a wireless sensor network. US Patent 20200340743A1. 2020.
+
+38.  
+38.
+
+Moino C, Bourlés E, Pisano R, Scutellà B. In-line monitoring of the freeze-drying process by means of heat flux sensors. Ind Eng Chem Res. 2021;60\(26\):9637–45.
+
+39.  
+39.
+
+Pikal MJ. Use of laboratory data in freeze drying process design: heat and mass transfer coefficients and the computer simulation of freeze drying. J Parenter Sci Technol. 1985;39\(3\):115–38.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3839016)
+
+40.  
+40.
+
+Shivkumar G, Kazarin PS, Strongrich A, Alexeenko AA. LyoPRONTO: an open-source lyophilization process optimization tool. AAPS PharmSciTech. 2019;20\(8\):328.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31673810)
+
+41.  
+41.
+
+Wekx JPH, De Kleijn JP. The determination of water in freeze dried pharmaceutical products by performing the Karl Fischer titration in the glass container itself. Drug Dev Ind Pharm. 1990;16\(9\):1465–72.
+
+42.  
+42.
+
+Patel SM, Doen T, Pikal MJ. Determination of end point of primary drying in freeze-drying process control. AAPS PharmSciTech. 2010;11\(1\):73–84.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20058107)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2850457)
+
+43.  
+43.
+
+Tang X, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. Pharm Res. 2004;21\(2\):191–200.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15032301)
+
+44.  
+44.
+
+Joseph E. Residual moisture determination in lyophilized drug products. Pharm Technol. 2019;43\(11\):30–39, 56.
+
+45.  
+45.
+
+Clavaud M, Lema-Martinez C, Roggo Y, Bigalke M, Guillemain A, Hubert P, Ziemons E, Allmendinger A. Near-infrared spectroscopy to determine residual moisture in freeze-dried products: model generation by statistical design of experiments. J Pharm Sci. 2020;109\(1\):719–29.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31499067)
+
+46.  
+46.
+
+Fissore D, Pisano R, Barresi AA. Process analytical technology for monitoring pharmaceuticals freeze-drying – a comprehensive review. Dry Technol. 2018;36\(15\):1839–65.
+
+47.  
+47.
+
+Pisano R. Automatic control of a freeze-drying process: detection of the end point of primary drying. Dry Technol. 2020;40\(1\):140–57.
+
+48.  
+48.
+
+Gieseler H, Kessler WJ, Finson M, Davis S, Mulhall PA, Bons V, Bebo D, Pikal MJ. Evaluation of tunable diode laser absorption spectroscopy for in-process water vapor mass flux measurements during freeze drying. J Pharm Sci. 2007;96\(7\):1776–93.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17221854)
+
+49.  
+49.
+
+Kan B. Methods of determining freeze-drying process end-points. In: Fisher FR, editor. Freeze-drying of foods. Washington, DC: National Academy of Sciences—National Research Council; 1962. p. 163–77.
+
+50.  
+50.
+
+Roy ML, Pikal MJ. Process control in freeze drying: determination of the end point of sublimation drying by an electronic moisture sensor. J Parenter Sci Technol. 1989;43\(2\):60–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2709237)
+
+51.  
+51.
+
+Schneid S, Gieseler H. Process analytical technology \(PAT\) in freeze-drying: Tunable diode laser absorption spectroscopy as an evolving tool for cycle monitoring. Eur Pharm Rev. 2009;6:18–25.
+
+52.  
+52.
+
+Kuu WY, O’Bryan KR, Hardwick LM, Paul TW. Product mass transfer resistance directly determined during freeze-drying cycle runs using tunable diode laser absorption spectroscopy \(TDLAS\) and pore diffusion model. Pharm Dev Technol. 2011;16\(4\):343–57.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20387998)
+
+53.  
+53.
+
+Kasper JC, Friess W. The freezing step in lyophilization: physico-chemical fundamentals, freezing methods and consequences on process performance and quality attributes of biopharmaceuticals. Eur J Pharm Biopharm. 2011;78\(2\):248–63.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21426937)
+
+54.  
+54.
+
+Konstantinidis AK, Kuu W, Otten L, Nail SL, Sever RR. Controlled nucleation in freeze-drying: effects on pore size in the dried product layer, mass transfer resistance, and primary drying rate. J Pharm Sci. 2011;100\(8\):3453–70.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21465488)
+
+55.  
+55.
+
+Aligizaki KK. Pore structure of cement-based materials: testing, interpretation, and requirements. New York: Taylor & Francis; 2006.
+
+56.  
+56.
+
+Parker A, Rigby-Singleton S, Perkins M, Bates D, Le Roux D, Roberts CJ, Madden-Smith C, Lewis L, Teagarden DL, Johnson RE, Ahmed SS. Determination of the influence of primary drying rates on the microscale structural attributes and physicochemical properties of protein containing lyophilized products. J Pharm Sci. 2010;99\(11\):4616–29.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20845460)
+
+57.  
+57.
+
+Ekenlebie E, Ingham A. Short cycle times for cost-efficient processing in lyophilized formulations. Am Pharm Rev. 2011;14\(6\):81–6.
+
+58.  
+58.
+
+Sitar A, Škrlec K, Voglar J, Avanzo M, Kočevar K, Cegnar M, Irman Š, Ravnik J, Hriberšek M, Golobič I. Effects of controlled nucleation on freeze-drying lactose and mannitol aqueous solutions. Dry Technol. 2018;36\(10\):1263–72.
+
+59.  
+59.
+
+Rambhatla S, Ramot R, Bhugra C, Pikal MJ. Heat and mass transfer scale-up issues during freeze drying: II. Control and characterization of the degree of supercooling. AAPS PharmSciTech. 2004;5\(4\):54–62.[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750483)
+
+60.  
+60.
+
+Bellows RJ, King CJ. Freeze-drying of aqueous solutions: maximum allowable operating temperature. Cryobiology. 1972;9:559–61.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=4658017)
+
+61.  
+61.
+
+Adams GD, Irons LI. Some implications of structural collapse during freeze-drying using Erwinia caratovora L-asparaginase as a model. J Chem Technol Biotechnol. 1993;58\(1\):71–6.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7763938)
+
+62.  
+62.
+
+Rambhatla S, Obert JP, Luthra S, Bhugra C, Pikal MJ. Cake shrinkage during freeze drying: a combined experimental and theoretical study. Pharm Dev Technol. 2005;10\(1\):33–40.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15776811)
+
+63.  
+63.
+
+Passot S, Fonseca F, Barbouche N, Marin M, Alarcon-Lorca M, Rolland D, Rapaud M. Effect of product temperature during primary drying on the long-term stability of lyophilized proteins. Pharm Dev Technol. 2007;12\(6\):543–53.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18161627)
+
+64.  
+64.
+
+Costantino HR, Pikal MJ. Lyophilization of biopharmaceuticals, biotechnology: pharmaceutical aspects, vol. 2. Arlington, VA: AAPS Press; 2004.
+
+65.  
+65.
+
+Hatley RHM, Franks F. Applications of DSC in the development of improved freeze-drying processes for labile biologicals. J Therm Anal. 1991;37\(8\):1905–14.
+
+66.  
+66.
+
+Her L-M, Nail SL. Measurement of glass transition temperatures of freeze-concentrated solutes by differential scanning calorimetry. Pharm Res. 1994;11\(1\):54–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8140056)
+
+67.  
+67.
+
+Kasraian K, Spitznagel TM, Juneau JA, Yim K. Characterization of the sucrose/glycine/water system by differential scanning calorimetry and freeze-drying microscopy. Pharm Dev Technol. 1998;3\(2\):233–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9653761)
+
+68.  
+68.
+
+Zhai S, Taylor R, Sanches R, Slater NKH. Measurement of lyophilisation primary drying rates by freeze-drying microscopy. Chem Eng Sci. 2003;58\(11\):2313–23.
+
+69.  
+69.
+
+Meister E, Gieseler H. Freeze-dry microscopy of protein/sugar mixtures: drying behavior, interpretation of collapse temperatures and a comparison to corresponding glass transition data. J Pharm Sci. 2009;98\(9\):3072–87.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18823013)
+
+70.  
+70.
+
+Depaz RA, Pansare S, Patel SM. Freeze-drying above the glass transition temperature in amorphous protein formulations while maintaining product quality and improving process efficiency. J Pharm Sci. 2016;105\(1\):40–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26580140)
+
+71.  
+71.
+
+Jameel F, Searles J. Development and optimization of the freeze-drying processes. In: Jameel F, Hershenson S, editors. Formulation and process development strategies for manufacturing biopharmaceuticals. Hoboken: Wiley; 2010. p. 763–96.
+
+72.  
+72.
+
+Yu L, Milton N, Groleau EG, Mishra DS, Vansickl RE. Existence of a mannitol hydrate during freeze-drying and practical implications. J Pharm Sci. 1999;88\(2\):196–8.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9950638)
+
+73.  
+73.
+
+Jameel F, Bjornson E, Hu L, Kabingue K, Besman M, Pikal M. Effects of formulation and process variations on the stability of lyophilized recombinant human factor VIII. Haemophilia. 2000;6\(4\):343–68.
+
+74.  
+74.
+
+Emami F, Vatanara A, Park EJ, Na DH. Drying technologies for the stability and bioavailability of biopharmaceuticals. Pharmaceutics. 2018;10\(3\):131.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30126135)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6161129)
+
+75.  
+75.
+
+Franks F, Auffret T. Freeze-drying of pharmaceuticals and biopharmaceuticals: principles and practice: principles and practice. Cambridge, UK: RSC Publishing; 2007.
+
+76.  
+76.
+
+Schersch K, Betz O, Garidel P, Muehlau S, Bassarab S, Winter G. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins I: stability after freeze-drying. J Pharm Sci. 2010;99\(5\):2256–78.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20039389)
+
+77.  
+77.
+
+Schersch K, Betz O, Garidel P, Muehlau S, Bassarab S, Winter G. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins, part 2: stability during storage at elevated temperatures. J Pharm Sci. 2012;101\(7\):2288–306.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22517663)
+
+78.  
+78.
+
+Schersch K, Betz O, Garidel P, Muehlau S, Bassarab S, Winter G. Systematic investigation of the effect of lyophilizate collapse on pharmaceutically relevant proteins III: collapse during storage at elevated temperatures. Eur J Pharm Biopharm. 2013;85\(2\):240–52.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23727369)
+
+79.  
+79.
+
+Pikal MJ, Roy ML, Shah S. Mass and heat transfer in vial freeze-drying of pharmaceuticals: role of the vial. J Pharm Sci. 1984;73\(9\):1224–37.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6491939)
+
+80.  
+80.
+
+Ullrich S, Seyferth S, Lee G. Measurement of shrinkage and cracking in lyophilized amorphous cakes. Part II: kinetics. Pharm Res. 2015;32\(8\):2503–15.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25652671)
+
+81.  
+81.
+
+Hedberg SHM, Devi S, Duralliu A, Williams DR. Mechanical behavior and structure of freeze-dried cakes. In: Ward KR, Matejtschuk P, editors. Lyophilization of pharmaceuticals and biologicals: new technologies and approaches. New York: Humana Press; 2019. p. 327–51.
+
+82.  
+82.
+
+Fakes MG, Dali MV, Haby TA, Morris KR, Varia SA, Serajuddin ATM. Moisture sorption behavior of selected bulking agents used in lyophilized products. PDA J Pharm Sci Technol. 2000;54\(2\):144–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10822985)
+
+83.  
+83.
+
+Devi S, Williams DR. Density dependent mechanical properties and structures of a freeze dried biopharmaceutical excipient – sucrose. Eur J Pharm Biopharm. 2014;88\(2\):492–501.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=25019365)
+
+84.  
+84.
+
+Kanungo BP, Gibson LJ. Density–property relationships in collagen–glycosaminoglycan scaffolds. Acta Biomater. 2010;6\(2\):344–53.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19770077)
+
+85.  
+85.
+
+Mao JS, Zhao LG, Yin YJ, De Yao K. Structure and properties of bilayer chitosan-gelatin scaffolds. Biomaterials. 2003;24\(6\):1067–74.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12504529)
+
+86.  
+86.
+
+Pikal MJ, Dellerman KM. Stability testing of pharmaceuticals by high-sensitivity isothermal calorimetry at 25°C: cephalosporins in the solid and aqueous solution states. Int J Pharm. 1989;50\(3\):233–52.
+
+87.  
+87.
+
+Roy ML, Pikal MJ, Rickard EC, Maloney AM. The effects of formulation and moisture on the stability of a freezedried monoclonal antibody–vinca conjugate: a test of the WLF glass transition theory. Dev Biol Stand. 1992;74:323–40.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1592182)
+
+88.  
+88.
+
+Luthra S, Shalaev E, Hong J, Medek A, Pikal MJ. Chemical stability of amorphous materials: specific and general media effects in the role of water in degradation of freeze-dried zoniporide. J Pharm Sci. 2012;101\(9\):3110–23.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22461087)
+
+89.  
+89.
+
+Carstensen JT, Po ALW. The state of water in drug decomposition in the moist solid state: description and modelling. Int J Pharm. 1992;83\(1–3\):87–94.
+
+90.  
+90.
+
+Ohtake S, Shalaev E. Effect of water on the chemical stability of amorphous pharmaceuticals: I. small molecules. J Pharm Sci. 2013;102\(4\):1139–54.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23371547)
+
+91.  
+91.
+
+Ohtake S, Feng S, Shalaev E. Effect of water on the chemical stability of amorphous pharmaceuticals: 2. Deamidation of peptides and proteins. J Pharm Sci. 2018;107\(1\):42–56.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28923320)
+
+92.  
+92.
+
+Pikal MJ, Shah S. The collapse temperature in freeze drying: dependence on measurement methodology and rate of water removal from the glassy phase. Int J Pharm. 1990;62\(2–3\):165–86.
+
+93.  
+93.
+
+Liapis AI, Pim ML, Bruttini R. Research and development needs and opportunities in freeze drying. Dry Technol. 1996;14\(6\):1265–300.
+
+94.  
+94.
+
+Hsu CC. Lyophilization of protein formulations in vials: investigation of the relationship between resistance to vapor flow during primary drying and small-scale product collapse. J Pharm Sci. 1999;88:688–95.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10393566)
+
+95.  
+95.
+
+El Tabbal G, Dangla P, Vandamme M, Bottoni M, Granet S. Modelling the drying shrinkage of porous materials by considering both capillary and adsorption effects. J Mech Phys Solids. 2020;142:104016.
+
+96.  
+96.
+
+Pikal MJ, Shah S. Intravial distribution of moisture during the secondary drying stage of freeze drying. PDA J Pharm Sci Tech. 1997;51\(1\):17–24.
+
+97.  
+97.
+
+Abdul-Fattah AM, Oeschger R, Roehl H, Dauphin IB, Worgull M, Kallmeyer G, Mahler H-C. Investigating factors leading to fogging of glass vials in lyophilized drug products. Eur J Pharm Biopharm. 2013;85\(2\):314–26.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23791681)
+
+98.  
+98.
+
+Huang M, Childs E, Roffi K, Karim F, Juneau J, Bhatnagar B, Tchessalov S. Investigation of fogging behavior in a lyophilized drug product. J Pharm Sci. 2019;108\(3\):1101–9.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30339866)
+
+99.  
+99.
+
+Langer C, Mahler H-C, Koulov A, Marti N, Grigore C, Matter A, Chalus P, Singh S, Lemazurier T, Joerg S, Mathaes R. Method to predict glass vial fogging in lyophilized drug products. J Pharm Sci. 2020;109\(1\):323–30.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31473212)
+
+100.  
+100.
+
+Tsinontides SC, Rajniak P, Pham D, Hunke WA, Placek J, Reynolds SD. Freeze drying—principles and practice for successful scale-up to manufacturing. Int J Pharm. 2004;280\(1–2\):1–16.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15265542)
+
+101.  
+101.
+
+Pikal MJ, Bogner R, Mudhivarthi V, Sharma P, Sane P. Freeze-drying process development and scale-up: scale-up of edge vial versus center vial heat transfer coefficients, Kv. J Pharm Sci. 2016;105\(11\):3333–43.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27666376)
+
+102.  
+102.
+
+Feng H, Yin Y, Tang J. Microwave drying of food and agricultural materials: basics and heat and mass transfer modeling. Food Eng Rev. 2015;4\(2\):89–106.
+
+103.  
+103.
+
+Gitter JH, Geidobler R, Presser I, Winter G. Significant drying time reduction using microwave-assisted freeze-drying for a monoclonal antibody. J Pharm Sci. 2018;107\(10\):2538–43.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=29890173)
+
+104.  
+104.
+
+Bhambhani A, Stanbro J, Roth D, Sullivan E, Jones M, Evans R, Blue J. Evaluation of microwave vacuum drying as an alternative to freeze-drying of biologics and vaccines: the power of simple modeling to identify a mechanism for faster drying times achieved with microwave. AAPS PharmSciTech. 2021;22\(1\):22.
+
+105.  
+105.
+
+Rhian M, Maister H, Hutton R. A continuous freeze drier for laboratory studies. Appl Microbiol. 1957;5\(5\):323–31.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=13470861)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1057318)
+
+106.  
+106.
+
+Heider PL, Born SC, Basak S, Benyahia B, Lakerveld R, Zhang H, Hogan R, Buchbinder L, Wolfe A, Mascia S. Development of a multi-step synthesis and workup sequence for an integrated, continuous manufacturing process of a pharmaceutical. Org Process Res Dev. 2014;18\(3\):402–9.
+
+107.  
+107.
+
+Capozzi LC, Trout BL, Pisano R. From batch to continuous: freeze-drying of suspended vials for pharmaceuticals in unit-doses. Ind Eng Chem Res. 2019;58\(4\):1635–49.
+
+
+

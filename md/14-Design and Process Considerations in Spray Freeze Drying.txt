@@ -1,0 +1,872 @@
+© America Association of Pharmaceutical Scientists 2023
+F. Jameel \(ed.\)*Principles and Practices of Lyophilization in Product Development and Manufacturing *AAPS Advances in the Pharmaceutical Sciences Series59[https://doi.org/10.1007/978-3-031-12634-5\_14](https://doi.org/10.1007/978-3-031-12634-5_14)
+
+
+**
+# Design and Process Considerations in Spray Freeze Drying
+**
+
+
+Bernhard Luy1  , Matthias Plitzko1 and Howard Stamato2
+
+
+\(1\) 
+Meridion, Müllheim, Germany
+
+
+\(2\) 
+Stamato Solutions, Califon NJ, USA
+
+
+
+
+
+**Bernhard Luy**
+
+**Email: **bernhard.luy@meridion.de
+
+
+
+
+
+**1 **Introduction
+
+**1.1 **Challenges for Traditional Freeze Drying
+
+**1.2 **Desirable Attributes for an Improved Process
+
+**1.3 **Spray Freeze Drying Developments
+
+**1.4 **General Product and Process Considerations Related to Lyophilized Bulkware
+
+**2 **Spray Freeze Drying
+
+**2.1 **General Design Features and Process Characteristics
+
+**2.2 **Spray Freezing: Specific Design and Process Considerations in Spray Freezing
+
+**2.3 **Dynamic Rotary Bulk Freeze Drying
+
+**3 **Continuous Processing in Spray Freeze Drying: Aspects to Consider
+
+**4 **Industrial Application of Spray Freeze Drying: Integration of Steps to an Aseptic Process Line
+
+**5 **Summary
+
+References
+
+
+## Abstract
+
+Dynamic spray freeze drying combines spray freezing and rotary freeze drying to generate homogeneous, free-flowing lyophilized beads as a bulk intermediate product. This allows for filling on demand, with choices in dose strength and combinations of multiple active materials. Thus, the supply chain becomes highly flexible. This feature of handling bulk intermediate can significantly reduce time to market.
+
+Production efficiency is enabled by using higher concentrated liquids yet maintaining fast reconstitution. Further processing with established solid dosage form technologies is possible, for example film coating for light or oxygen protection in diagnostic applications. The technology is built and tested in lab, pilot and production scale including its use for the manufacture of parenteral products, which is done in a fully contained process line. Industrial uses of the technology are in the areas of pharmaceuticals, diagnostics and medical devices, and specialty chemicals applications.
+
+
+**Keywords**
+Spray freeze drying Spray freezing Rotary freeze drying Lyophilization Reconstitution time reduction Microspheres Supply chain Dynamic rotary freeze drying Bulk lyophilization Lyophilized microspheres Manufacturing flexibility in lyophilization
+
+Note: All figures, and tables are courtesy of Meridion Technologies GmbH of Muellheim Germany. Figure 2 is also courtesy of Credence MedSystems Inc. of Menlo Park California USA.
+
+
+## **1 **Introduction
+
+Often lifesaving, pharmaceutical products have additional requirements compared to the typical concerns of delivering a product to market. Having the right materials in the right configuration in right place is challenging enough. The pharmaceutical supply chain, like other supply chains, has become an intertwined global net in the twenty-first century. Both the vulnerability \[1, 2\] and the need for that supply chain have come into sharp focus due to the COVID-19 pandemic which started in 2019 \[3\].
+
+Spray freeze drying offers the ability to stockpile stable bulk materials \[4\], flexibly fill doses when clinical studies identify the right dosage range and deliver those medicines rapidly. This improved capability has the potential to save hundreds of thousands of lives. Even in normal times, the pharmaceutical supply advantages described here can have an important positive impact on business operations.
+
+Freeze drying is a commonly known way to preserve the quality of foodstuffs \[5\]. The removal of moisture from the foodstuff under the conditions of freeze drying preserves its color and quality \[6\].
+
+Given that many pharmaceutical products are sensitive to heat, moisture, and the combination of those two factors, the same technique applies. The terms freeze drying, cryodessication, and lyophilization are essentially used interchangeably. Small molecule, large molecule proteins, and even complex formulations using liposomes have been preserved using this technique \[7–9\].
+
+### **1.1 **Challenges for Traditional Freeze Drying
+
+Lyophilization was introduced around 1890 and was developed into industrial applications in the 1950’s \[10\]. The liquid containing dissolved product must be frozen and exposed to vacuum conditions. The temperature and vacuum conditions are adjusted in various stages to influence the drying cycle where drying is accomplished by sublimation.
+
+Product handling can be simple filling onto trays. More likely, the liquid is deposited into a primary package such as a vial for injection or unit-dose blister cavity. When vials are used, the stopper is loose in the top of the vial to allow escape of vapor during processing and sealed after the drying cycle is complete.
+
+Lyophilization cycles can be lengthy, e.g. several days \[11\], and consequently difficult to develop due to the long cycle time. There are also scale-dependent effects such that smaller chambers may not represent the process at larger scale, further complicating cycle time development.
+
+Among the many challenges are controlling the heat transfer in a vacuum environment. There are numerous studies discussing the challenges of heat transfer between the vial and the temperature-controlled shelf due to the shape of the vial, the even distribution of heat or exposure to the desired chamber atmosphere across the geometry of the dryer, the difficulties of measuring product properties during the process, and others \[12–15\]. These challenges are increased when taken under the conditions of sterile or aseptic processing.
+
+The effort and complexity of a typical lyophilization product have led to a re-examination of the process. Both the freezing of materials and the subsequent drying under controlled temperature conditions and vacuum have been examined.
+
+### **1.2 **Desirable Attributes for an Improved Process
+
+Forming a target product profile and designing to it is essential to Quality by Design \(QbD\) \[16\]. To any pharmaceutical product, uniformity and consistency from batch to batch are desirable attributes. Lyophilization is selected for products which have temperature sensitivity to processing under frozen conditions. Given the interest in heat transfer and remediating heat transfer risks in the existing process, a way of more uniformly exposing the product to various temperature and pressure conditions is also desired.
+
+Many lyophilized products are filled in their final containers, even unit-dose containers. It would be desirable to create the bulk material by a single process in large quantities and then flexibly fill into the requested mix of final containers and presentations. This forming of a bulk solid requires the formation of mechanically stable, free flowing, and homogeneous solids so that it can later be filled into the desired containers.
+
+Finally, the reconstitution capabilities of the product need to be similar to the cake form of lyophilized product. The higher surface area of lyophilized pellets compared to a lyophilized cake will help assure this desirable quality attribute: fast reconstitution to a solution or suspension.
+
+In this way, the requirements of a new process are set out by a simple examination of the product needs. These considerations reproduce the existing process. Yet by solving some of the challenges in the existing paradigm, new opportunities are possible.
+
+An advantage lies in the order of the unit operations. Because the final, or unit-dose, container is introduced at the end of the new process, only a single cycle needs to be developed to provide multiple product presentations. The cost and, more importantly, time savings of eliminating repetitive cycle development for multiple presentations should bring the medicine more quickly to market.
+
+Demand forecasting for products is challenging and the predictions can be highly variable \[17\]. The ability to flexibly fill the right dosage mix at the right time provides better patient access and efficiencies in supply.
+
+For another example, many patients need more than one medication in combination, yet many medicines are incompatible with each other such that forming the combination in a single lyophilization process would not yield a stable product. When a process which yields independent solid particles of each medicine, and those solid particles can be combined in the right ratio due to their flow and mechanical integrity, a combination product may be possible as the contact time in solution for both components is minimal – just the time to reconstitute and administer the dose. Filling into traditional vials is possible, and so is filling directly into a syringe, sachet, or device \(Fig. 1\). 
+![](images/000001.jpeg)
+
+
+***Fig. 1*** 
+Lyophilized pellets filled in a vial
+
+
+
+### **1.3 ****Spray Freeze Drying** Developments
+
+Many approaches have been taken to freeze material into particles for subsequent drying under cold conditions. Deposition directly into nitrogen has been tried in various forms adapted from the food industry \[18\] followed by drying on trays in a chamber. There is then, typically, a need for clean \(or even sterile\) liquid nitrogen. Even so the particles formed may not be entirely round or uniform.
+
+Some groups \[19, 20\] have deposited the solution onto a chilled substrate in a thin film and then harvested material from the well or broken the thin film into particles. While an effective freezing technique, the materials may not have the desired micromeritic properties of the target described here.
+
+Atmospheric spray freezing eliminates the need for contact with clean liquid nitrogen and can prepare spherical or near spherical pellets for further processing. Combining an atmospheric freezing with drying via the fluid bed processes was studied at Basel University sponsored by the fluid bed equipment manufacturer Glatt \[21, 22\] from the 1980s.
+
+Fluidized bed systems are characterized by their heat and mass transfer efficiency because each particle has the entire surface exposed to the drying process. Experiments used a \(heated\) nozzle to introduce liquid into a cryogenic gas stream inside a fluidized bed apparatus. A binary nozzle with the liquid and an atomizing gas produced droplet which had to congeal prior to contacting another particle or the equipment wall. The fluidizing gas had temperatures below −60 °C and relatively high air velocities to freeze the droplets in the desired state.
+
+An advantage of this approach was that particle generation and lyophilization \(at ambient pressure\) took place in one process chamber \(single pot processing\). As described by Plitzko \[23, 24\], the system worked when operated at laboratory scale. A limitation of the approach is that droplets undergo a significant weight reduction during their drying. A fraction of the particle nearly dry would then be trapped at the upper filter when the gas velocity was high enough to fluidize the just formed droplets as well. Once particles were trapped at the filter, advantages of fluidization are no longer available to powder and drying rates are reduced.
+
+Because the fluidizing gas was at a very low temperature, the carrying capacity for water vapor was greatly reduced. The gas temperature can be partially compensated by gas flow; however, the high flow rate also traps particles in the filters, eliminating the effect of fluidization.
+
+An economically viable and technically feasible approach for processing a sterile pharmaceutical product for parenteral use by using a “single pot” fluidized bed process, under atmospheric conditions, turned out to be impractical. One solution was to separate the freezing and the lyophilization process due to their different processing requirements. In this way, optimum conditions tuned to the droplet/particle characteristic at each phase of formation and drying could be identified.
+
+The formation of droplets is a not a trivial undertaking under the conditions of spray freezing. The nozzle must be capable of forming droplets without freezing. Even if the droplet generation rate is high, the droplets must not contact each other \(fusing together/forming an agglomerate\), or the wall \(forming a frozen coating\) prior to achieving a stable frozen exterior shell of sufficient strength to avoid these interactions \[25\].
+
+A variety of machine configurations can be used to handle the bulk material after the freezing occurs. In the food industry, very large batch drying chambers or systems of belts to move the material through the various stages of drying have been used. Other approaches have also been considered in pharmaceutical processing such as vibrating trays, or belts or even moving of vials from one chamber to another \[26\]. A successful application mimicking the well-established continuous manufacture of tablets is to post process the pelletized material in a drum device. Continuous manufacture can be affected by feeding multiple drums from the same spray freezer.
+
+### **1.4 **General Product and Process Considerations Related to Lyophilized Bulkware
+
+A well-established manufacturing concept in solid dosage forms is the use of bulk particulate, granulated or pelletized materials for further processing. Whether granulation for tableting, or powder/pellets for filling into sachets or capsules, the procedure is based on the availability of intermediates prior to the next process step. In continuous manufacturing, the concept based on intermediates is extended, holding certain intermediates in a buffer container to keep the process line running during small variations in the process. For this discussion, we choose to use the term bulkware to reflect the ability to hold homogeneous lyophilized product in a free-flowing pellet form for further processing. The bulkware concept provides flexibility in meeting changing demand to different doses and expands the range of application, for example: combination products.
+
+In conventional freeze drying, the bulkware concept is limited to the suspension or solution at the filling step, prior to lyophilization. Once filled, there is no further flexibility with respect to changing dosing, the number of components delivered, or changing the primary packaging. The characteristic feature here is that filling is performed *prior* to freeze drying.
+
+In spray freeze drying, use of bulkware is expanded and the order of the filling is put at the end of the process providing additional flexibility. The bulk solution may be prepared and sprayed as needed forming lyophilized spheres which are generated as bulkware in a stable and fillable format. Filling is done *after* lyophilization allowing maximum flexibility for the final product presentation.
+
+This opens the many options related to the manufacturing logistics, as well as product innovation. The lyophilized bulk can be transferred to another site or country. The filling time, filling dose, and number of doses per container can be chosen on demand; the same applies to the primary packaging which no longer needs to be suited for freeze drying. At the same time, market requirements are met much faster as the development of the lyophilization step is only a function of the material not the dose or container. In accelerated development, or more importantly in pandemic situations, the manufacturing by lyophilization can already start even if the dose is not finalized. Once the dosing is determined, filling of the already lyophilized bulk can follow as required, thereby reducing time to patient \(Fig. 2\). 
+![](images/000002.jpeg)
+
+
+***Fig. 2*** 
+Combination of lyophilized pellets filled in a syringe
+
+
+
+The flexibility gained for the supply chain comes along with reduced workload for registrations with the identical manufacturing step to generate the same “base material” that can go into very different products, doses, or lot sizes; patient-centric manufacturing is enabled by faster delivery, and even the possibility of personalized medication is opened, where a particular set of lyophilized spheres is filled for an individual patient.
+
+With respect to product innovation, not only combination products are much more easily accessible. Much more highly concentrated liquids can be processed, e.g., 200 mg/l protein load, still with good lyophilization properties and fast reconstitution properties \[27\].
+
+The mentioned advantages of higher surfaces for heat and mass transfer of the spray-frozen pellets also come into play. With a typical filling height for vials of 1 cm, the maximum water vapor diffusion distance within the lyo cake is 10,000 μm. A frozen sphere of approximately 600 μm has a maximum distance of 300 μm, i.e., 97% less. The obstruction of the diffusion process seen with highly concentrated liquids is thereby compensated by a significant shortening of diffusion distances. Instead of one lyo cake, there is a multitude of small, spherical lyocakes which form the multiparticulate dosage form concept mimicking the bulk intermediate from the solid dosage forms area.
+
+The high surface area improves the drying so effectively that the conditions must be considered carefully. There is a possibility to quickly form a dry shell of material that has lower conductivity reducing the effectiveness of the pellet geometry compared to a conventional cake-based drying process. Proper selection of processing conditions can assure optimal drying.
+
+The availability of lyophilized formulations as spherical pellets also opens further applications known from solid dosage form technologies, e.g., like fluid bed coating. This allows to generate freeze-dried bulk material that is protected against, e.g., light, humidity, or oxygen or that has controlled release functionalities \(Fig. 3\). 
+![](images/000003.jpeg)
+
+
+***Fig. 3*** 
+Lyophilized spheres with polymer coating applied by fluid bed Wurster technology
+
+
+
+## **2 ****Spray Freeze Drying**
+
+### **2.1 **General Design Features and Process Characteristics
+
+Spray freeze drying comprises two separate process steps: Spray Freezing is performed to generate frozen spheres out of the substrate liquid. Dynamic freeze drying is then used to homogeneously lyophilize the frozen bulk.
+
+#### ***2.1.1 ***Spray Freezing
+
+In the spray freezing step, droplets are being generated by passing the liquid by a purpose built nozzle that is positioned in the upper lid of a spray freezing tower. The target is to achieve a monodisperse droplet size to aid particle flow and consistency \(Fig. 4\). 
+![](images/000004.jpeg)
+
+
+***Fig. 4*** 
+Top view into spray freezing chamber with Spray Nozzle mounted in a swiveling lid \(lab scale\)
+
+
+
+The droplets fall through a cold gas zone inside of the spray freezing tower. In the time it takes to traverse the tower, the droplets cool enough to congeal into frozen spheres prior to reaching the lower end of the process chamber. This spray freezing step takes place under ambient pressure conditions.
+
+The lower end of the process chamber is cone-shaped to collect and transfer the frozen spheres either to a collection vessel to hold as bulkware for further processing or directly to the dynamic freeze dryer to form the dried bulkware ready for filling.
+
+#### ***2.1.2 ***Rotary Freeze Drying
+
+The rotary freeze drying takes place under vacuum conditions typical to lyophilization. The frozen bulkware is placed inside of a double walled drum which rotates along its longitudinal axis, with open ends on the front and rear side. The drum has a double wall which is temperature controlled by silicone oil to provide cooling and heating capability. It can be compared to conventional freeze drying by giving the horizontal shelf a round shape and let it rotate inside the vacuum chamber around the horizontal cylinder axis. Due to the slow rotation of the drum, the product bed is under constant gentle mixing, and the particulate product forming the bed surface is under constant motion bringing fresh material to the surface. At the surface of the product bed, the pellets are exposed to infrared \(IR\) energy from an apparatus running the length of the drying drum near the center. In addition to the drum wall temperature, the IR radiation provides a source of energy to dry the pellets \(Fig. 5\). 
+![](images/000005.jpeg)
+
+
+***Fig. 5*** 
+Infrared heating device and double walled drum in production scale rotary freeze dryer
+
+
+
+#### ***2.1.3 ***Equipment Configuration Options
+
+The charging of the frozen bulk into the dryer is by gravity. Discharging the product is accomplished by reverse rotation of the drum in conjunction with discharge scoops inside of the drum.
+
+Both the spray-freezing and rotary drying can be performed independently of each other, using stand-alone equipment. Specific attention must be paid on the storage properties of spray frozen bulk, as outlined in the section addressing continuous operation aspects \(Fig. 6\). 
+![](images/000006.jpeg)
+
+
+***Fig. 6*** 
+Spray Freezing Unit and Rotary Freeze Dryer as stand-alone units \(both in lab scale\)
+
+
+
+For contained and for aseptic processing, the two process steps are combined. The spray freezing tower is positioned on top of the dynamic rotary freeze dryer, vacuum is applied, and the lyophilization step is started. After drying, the drum is discharged again in a container manner under vacuum into an intermediate hopper below the dryer; only here the vacuum then is vented, and the product may be transferred into an IBC \(see also Fig. 15 and discussion in Sect. 4 below\).
+
+Such a process line is designed for steam sterilization and cleaning-in-place. It is worth mentioning that the setup of combining a spray freezing chamber with any kind of bulk freeze dryer in a closed but separable way is covered by intellectual property \[28\]. Multiple rotary dryers can be used to increase efficiency as the drying step requires more time than the spray freezing step Fig. 7\). 
+![](images/000007.jpeg)
+
+
+***Fig. 7*** 
+Fully contained Spray Freezing process line w. CiP and SiP \(steam\)
+
+
+
+### **2.2 **Spray Freezing: Specific Design and Process Considerations in Spray Freezing
+
+#### ***2.2.1 ***Introductory Remarks
+
+Spray freezing is often utilized in the area of academic research and in development, by positioning a spray nozzle, often a binary nozzle, above a process vessel filled with liquid nitrogen \(LN2\), sometimes including a stirrer. For industrial use, this concept has various limitations: 
+
++ 
+The direct use of LN2 would require that this medium must comply with the quality requirements that apply to the product. For aseptic manufacturing, this would require the use of sterile LN2, which is quite costly and furthermore presents significant qualification and validation challenges.
+
+
+
+
+To address the challenge of using sterile LN2, the spray freezing tower industrial design is at atmospheric pressure with cold gas as the freezing medium. The chamber includes a double walled freezing chamber. The use of LN2 in this process never contacts the product, it is the primary cooling medium introduced by various options, including bottom, tangential, or top injection of LN2 or GN2/LN2 mixtures into this double walled void of the spray tower. The inside wall of the process chamber thereby is used to cool down the process gas within the freezing tower. The cooling time for the process gas is typically below 1 h. This process design has less thermal stress for the process vessel than one containing a pool of LN2.
+
+The process gas in the industrial design – often gaseous nitrogen – is introduced by passing it through sterile filters, which is a commonly used procedure in the manufacture of aseptic or sterile products. By using filtered gas, aseptic conditions inside the process chamber are maintained, and only technical grade LN2 is required for processing.
+
+Additional limitations of the technique of spraying directly into LN2: 
+
++ 
+When spraying directly onto LN2, typically the Leidenfrost effect will cause the droplets to float on the surface. The droplet surface is above the boiling temperature of LN2, and a gas shell is generated by evaporation of the LN2 at the surface interface causing the droplet to float above the LN2. Only when the droplet \(or frozen sphere\) is cold enough, will it sink down in the LN2. Until that point, there is a high risk of being hit by another droplet that is directed to the LN2 surface; this will cause droplet coalescence, resulting in uncontrolled particle growth, decreasing the overall homogeneity of the frozen bulk. Coalescence in turn will impact the subsequent drying step and, later on, the dosing accuracy when filling the lyophilized bulk into the primary packaging.
+
++  
+Another aspect when using LN2 for direct freezing of droplets is that with larger particles above approx. 1 mm diameter, internal mechanical stress may cause the particle to crack, as the outer shell is already frozen and thereby fixing the volume, meanwhile the core is still liquid and may undergo expansion during further freezing.
+
++  
+Spray nozzles that are typically used generate droplets with a comparably broad droplet size distribution, with the potentially negative impact as described above. High pressure nozzles, or binary nozzle or ultrasonic nozzles may use shear forces that are detrimental to the substrate.
+
+
+
+
+For this reason, in the industrial process designed, a different, gentle droplet generation principle is being used, referred to as “controlled laminar jet break-up” or Rayleigh breakup \[29\]. It operates by applying a resonance frequency onto a thin liquid jet, which at that point disintegrates into same size segments. When separating from each other, the segments adopt the spherical shape due to the surface tension of the liquid a shown in picture 1. Typically, in dynamic spray freeze drying, the droplet size is selected from the range of 400 μm to 1000 μm, also dependent on density, which is relevant during lyophilization.
+
+The selection of droplet size should also take into account the density of the lyophilized spheres and the accuracy requirements of the single dose filling technology \(Fig. 8\). 
+![](images/000008.jpeg)
+
+
+***Fig. 8*** 
+Droplet formation by controlled laminar jet break-up: stroboscopic light visualizes single droplets generated with 3500 Hz, i.e., generation of 3500 droplets/s
+
+
+
+It needs to be mentioned that freezing droplets in one line, as shown in the stroboscopic view, will either result in agglomeration or limit the process efficacy. Depending on the frequency used, several thousand droplets are generated per second, i.e., the distance between the droplets is minimal. In case that the velocity of the liquid jet is higher than the falling velocity of the droplets, the spacing between droplets will get smaller. In the extreme case, droplet coalescence will occur, changing the droplet size and reducing size homogeneity.
+
+The alternative is to reduce the spray rate such that the jet velocity is below the falling velocity of the droplet; however, that would unnecessarily limit throughput.
+
+Heat transfer is another consideration. Each single droplet would travel in the wake of the preceding droplet, thereby reducing the exposure to the cooling agent which is the process gas. Furthermore, each droplet is heating up the gas in its vicinity. This causes channels in the gas with higher than desired temperatures. Reduced heat transfer is the consequence, and the height of spray freezing tower would have to be increased to account for the phenomenon in this case.
+
+It is therefore advisable to spread out the vertical droplet line directly after the formation of discrete single droplets, thus forming a spray pattern that increases the distance between droplets and allows the exposure of each droplet to the cold gas. This process is referred to as deflection. It can be achieved by using electrostatic forces in a way that droplets separate from each other or by a gas jet based deflection method. Using electrostatic forces works well, though the electrostatic forces may remain in the product and show a negative impact on the flow properties during the transfer of the frozen bulk or even during lyophilization.
+
+#### ***2.2.2 ***Spray Freezing Equipment Design, Process, and Product Parameters
+
+##### ***2.2.2.1 ***Tower
+
+The basic design of the spray freezing tower is a double walled cylinder, with a lid on top where the spray nozzles are mounted and a lower cone to guide the frozen beads out of the process chamber. The diameter has to take into account the dimensions of the deflected spray cone and avoid overlap of spray patterns and the risk of wall contact.
+
+A central design parameter is the height. The basic task is to ensure that for a given formulation, the freezing of the droplets is achieved. A variety of parameters come into play. On the formulation side there are the solid content of the liquid, viscosity of the liquid, and *T*g’. On the process side, there is spray rate, droplet size, droplet frequency, the process gas temperature, and certainly the tower height. With a given falling velocity, the height has a direct impact on the exposure time which, under a given set of process conditions, is required to freeze a droplet. The factors and interdependencies have been well described, studied, and also simulated \[30\] \(Fig. 9\). 
+![](images/000009.jpeg)
+
+
+***Fig. 9*** 
+Schematic view of Spray Freezing Tower, shown as stand-alone execution \(not as part of a process line\) w. cooled Intermediate Bin Container
+
+
+
+Seen from the outside, the spray freezing tower is basically a closed system. The pressure inside the process chamber is controlled, without significant infeed or outfeed of process gas, induced gas flow directions, etc. Still, there is significant internal free convection generated as long as the walls of the spray freezing tower are colder than the gas inside of the spray freezing tower and the gas is continually disturbed and warmed by the spray. Part of this gas motion was apparent as part of the in-silico study of droplet freezing \[31, 32\].
+
+Typically, process gas temperatures between −100 °C and −140 °C are being used, with falling heights ranging from 1.5 up to 3.5 m, using formulations with a *T*g’ in the range of −30 °C to −40 °C. A lower process gas temperature increases the heat transfer to the droplet and reduces the droplet falling velocity.
+
+##### ***2.2.2.2 ***Spraying
+
+The total solid content of the spray liquid is normally between 10% and 40%, depending on the propensity of the solution or suspension to generate high viscosities. With certain high molecular weight compounds, no more than 10% or even less total solids content can be used to generate desirable droplets.
+
+The solid content also determines the mechanical stability of the sphere during the dynamic lyophilization step and subsequent processes like filling. Higher solid content gives a higher density pellet which will typically have better mechanical integrity. More details regarding pellet properties are given in the freeze drying section.
+
+With respect to viscosity, up to 300 mPas solutions can be processed for the droplet/particle size range mentioned. Suspension may also be processed, provided the size of the suspended particles is well controlled at a level to prevent nozzle clogging. Typically, below 50 μm for all particles are feasible for the 300 μm nozzle orifice which is used to generate the 600 μm droplet. Larger solid particles in the suspension would lead to bridging and clogging at the nozzle.
+
+Typical droplet sizes in spray freeze drying are in the 600–800 μm range. The lower size limit is dependent on the subsequent freeze-drying step; small droplets, e.g., below 400 μm that loose about 70–90% of their weight during lyophilization are prone to entrapment in even small gas/vapor flows or influence by electrostatic forces and are lost to the process reducing yield. Although processing of small particles is possible, concerns for low yield result in the 600–800 μm particle size recommendation \(Fig. 10\). 
+![](images/000010.jpeg)
+
+
+***Fig. 10*** 
+Spray frozen spheres with diameter approx. 600 μm
+
+
+
+The upper end of the size range is governed by the ability to freeze the material. Droplets above approximately 1000 μm may require significantly higher falling heights during freezing as more volume of material must be frozen. A situation where the outside shell of the droplet freezes such that the frozen shell disintegrates, the liquid core of the droplet spills out and no pellet is formed.
+
+Spray rates per nozzle are usually in the range of 10–35 g/min, with frequencies in the 1000–5000 Hz range. The liquid flow should be steady, without major pulsations which would disturb the droplet formation. The target droplet diameter is generally double the diameter of the nozzle orifice that generates the liquid jet. When transforming the bulk liquid into frozen bulk, the bulk volume will increase by factor of approx. 1.6–1.9X due to the inter-particulate porosity. During the lyo step, some reduction in diameter can be observed.
+
+Certainly, the spray pattern geometry has to be considered with the same criteria like in a single nozzle execution.
+
+For any of the equipment sizes, and especially when processing under aseptic conditions, an in-process control of the nozzle performance is recommended. By using a nozzle with integrated droplet counter based on light transmission, it is possible to verify that the frequency applied translates into the same amount of droplets that are counted. With the known and controlled spray rate and the given number of droplets, this, at the same time, is an indirect measurement and control of the droplet size.
+
+#### ***2.2.3 ***Scale-up in Spray Freezing
+
+The scale up of a spray freezing process is following the same general design principles as outlined above. A design parameter that remains unchanged during scale-up or -down is the height; the freezing conditions that are related to a particular droplet size remain the same whether just a few droplets from one nozzle or many droplets from many nozzles. Therefore, the scale up is mainly focusing on the relevant number of nozzles that provide the throughput required and increasing diameter to accommodate those nozzles. The nozzle design and parameter settings remain constant. Certainly, the spray pattern geometry must be considered, with the same criteria used when a single nozzle is utilized. There will be limitations to be considered so that the heat exchange from the wall of the spray freezing tower is high enough to compensate for any heat impact by the increase in heating from the liquid droplets.
+
+In silico modeling based on the work of Sebastiao et al. \[31, 32\] will lower the inevitable risks apparent in any scale-up. The time and cost associated with in-silico models has dropped greatly in the last decade with many organizations able to access cloud-based computing resources or hire reliable CRO organizations which can construct models and conduct in-silico experiments.
+
+### **2.3 **Dynamic Rotary Bulk Freeze Drying
+
+A key attribute of both the final product, with respect to patient dosing, and the intermediate bulkware, with respect to filling the final package accurately, is homogeneity. To assure the final product and bulkware homogeneity, the liquid feed has precautions to assure that it is uniform. Much attention has been spent on having a uniform droplet distribution in the desired size range to assure that the uniform material is trapped in place in the frozen pellet fed to the dynamic rotary freeze dryer. The drying step itself, as it is designed around the high surface area-to-volume ratio pellet, helps to assure a uniform exposure of the material to the drying conditions and thus uniform properties across the batch.
+
+#### ***2.3.1 ***General Equipment Design, Process, and Product Parameters
+
+Making use of the advantages for freeze drying under vacuum conditions has been a driving force to separate the spray freezing operation from the bulk freeze drying step. Therefore, for the dynamic rotary freeze drying, there are quite a number of both design and processing similarities to conventional freeze drying.
+
+A rotary freeze dryer consists of a cylindrical drum that rotates around the horizontally positioned longitudinal axis. The drum is double walled, like a shelf in a conventional freeze dryer, and temperature controlled by recirculating silicone oil. The drum is positioned inside a round vacuum process chamber, with a cantilever design for the drum support and bearing. The front and rear end of the drum are open to allow the passage of water vapor. The front wall of the process chamber is equipped with one or several Infrared radiators, which protrude into the drum and direct IR energy downwards to the product bed surface, which is in constant movement due to the drum rotation.
+
+Adjacent to the process chamber is the peripheral equipment to make the process function. To keep the vacuum pump free from material, next to the process chamber is the condenser to bring the vapor back to the liquid state. The condenser is followed by the vacuum skid which induces flow of the vapor and reduces the pressure to the desired value. Also, this collection of peripheral equipment includes devices to control the temperature of the recirculating heat transfer fluid, silicone oil. The entire area of ancillary equipment and instrumentation are quite comparable to conventional freeze drying equipment.
+
+Special areas of design, particular to the use of the rotating drum technology, are the use of an energy source like IR \(or also microwave\) radiation, the mixing baffles which influence the product motion in the drum, sensors to measure the bulk temperature \(also referred to as immersed product temperature\), or the integrated product handling features from the spray-freezing unit or to the intermediate bulkware container are features of the dynamic rotary freeze-drying technology \(Fig. 11\). 
+![](images/000011.jpeg)
+
+
+***Fig. 11*** 
+Schematic view of Rotary Freeze Dryer; IR heater and Silicone Oil Loop not shown
+
+
+
+From an engineering point of view, there are components specific to rotary freeze drying. The rotary feed through and the cantilever design of the drum bearing avoid cleaning challenges or any potential particle formation by wear caused by supporting bearings or support wheels. The bearing also includes a vacuum trap which maintains a pressure in the trap below the operating pressure within the process chamber. In this way, the bearing is isolated from the process. This is of specific relevance for aseptic processing. The IR radiator that emits the radiation energy is fully glass covered to be cleanable by CIP processes. The surface of the IR wand is cooled in a way that the IR energy can pass through to the product, yet the surface is below a temperature to ensure that any contact with the substrate doesn’t exceed temperature limits for the material.
+
+The charging of the frozen bulk into the precooled drum of the dryer is achieved by gravity. The discharging is done by reversing the rotation of the drum \(e.g., counterclockwise vs. clockwise\), in conjunction with discharge scoops inside of the drum. This way, the rotary freeze dryer can be charged and discharged in a fully contained manner, i.e., product handling is achieved by using gravity without need for specific product conveying equipment.
+
+In conjunction with a spray freezing chamber positioned above the dryer, the concept thereby allows for the fully contained operation of an entire process line. In such a setup for aseptic processing, droplets are generated in the top of the spray freezing chamber, fall by gravity across the cold gas zone where they congeal, followed by gravity transfer via a charge tube into the precooled drum of the dryer. After lyophilization, the closed transfer is achieved by reverse rotation and gravity into an intermediate hopper, which could have a docking interface to a barrier \(RABS\) or isolator system for filling into Intermediate Bin Containers \(IBCs\). This way, the design is specifically suited for Cleaning in Place \(CIP\) and Steam Sterilization Processes \(SIP\).
+
+#### ***2.3.2 ***Specific Aspects of Rotary Freeze ***Drying***: Similarities and Differences When Comparing to Shelf Freeze ***Drying***
+
+As conventional freeze drying is used for a wide range of products, a general approach to compare parameters for conventional freeze drying to rotary freeze drying is difficult. Nevertheless, there are some general rules well known in freeze drying that are used to design freeze drying cycles.
+
+##### ***2.3.2.1 ******T******g***’
+
+The determination of the *T*g’ value is one of the most important analyses to perform prior to a freeze drying experiment to determine suitable freeze drying parameters. Based on this value, the parameters in a conventional freeze dryer are chosen such that the material does not vary too far above the *T*g’ value or the product cake could collapse. Typically specified are: pressure and shelf/silicone oil temperature. The shelf temperature is chosen 5–10 °C above the *T*g’ value, and the pressure is chosen using the water vapor table and using the pressure which corresponds to a temperature of 5–10 °C below the *T*g’ value. These values can be used for a comparison of conventional freeze drying processes and dynamic freeze drying cycles.
+
+##### ***2.3.2.2 ***Pressure
+
+In conventional freeze drying, a pressure is chosen which should be as high as possible. A major part of the energy for sublimation is transferred via convection. This route is very pressure dependent. Very low pressures in conventional freeze drying will stop the heat transfer via convection, and only conduction and radiation remain as possible heat transfer routes.
+
+Dynamic freeze drying is much less dependent on the heat transfer via convection. High pressures will lead to a high sensitivity for stickiness and microscopic collapse. The lower the pressure, the less risk of a partial collapse of the particles. A prolongation of the drying time with lower pressure, typical of the tray drying process, has not been observed for the rotary drying process providing a significant advantage to the latter. Some limit to the pressure chosen should be observed which allows for good pressure control \(e.g., 30–50 μbar\) \(Fig. 12\). 
+![](images/000012.jpeg)
+
+
+***Fig. 12*** 
+Product flow behavior under different conditions
+
+
+
+##### ***2.3.2.3 ***Shelf and Drum Surface Temperature
+
+The shelf temperature in conventional freeze drying is chosen a few degrees above the *T*g’ values of the formulation. The filling height in the vial is a key parameter, which may further limit the level for shelf temperature. Usually, around 1 cm of filling height is chosen. If larger amounts are filled in the vials, the diffusion length of the water vapor through the already dried product layer limits the sublimation rate and the self-cooling of the product due to sublimation. A lower temperature on the shelf has to be chosen in this case to avoid any product collapse.
+
+The drum surface temperature in dynamic freeze drying is chosen very similar to conventional freeze drying and will as well be set at 5–10 °C above the *T*g’. In comparison to conventional freeze drying, a dried shell is created during the ongoing freeze drying cycle around the particles and the ice front is migrating to the center of the particle. This dried shell is less sensitive to higher temperatures than the frozen part of the product cake in conventional freeze drying and has a slightly higher *T*g’ value and a lower heat conductivity. Due to the protective properties of the dried surface of the pellet, the drum surface temperature can be raised during the primary drying step. As the product bed temperature comes close to the *T*g’ of the product, a tackiness of the product can be observed. To avoid any collapse, it is recommended to reduce the temperature of the drum surface in this case by a few degrees. This way, a melting or collapse of the pellets can be avoided.
+
+##### ***2.3.2.4 ***IR-Power in Rotary Freeze ***Drying***
+
+The IR Power is a parameter which is normally unknown in conventional freeze dryers. Radiation has an influence on the drying speed in conventional freeze dryers as well, but it is mainly generated by the shelf above the vials which are at a lower temperature than the shelf. Due to the geometry and small temperature differences, radiation is not a major factor in conventional freeze drying but could create inhomogeneities. Edge effects are frequently seen in shelf loading studies.
+
+In dynamic freeze drying, the particles which are on the surface of the product bed have the greatest exposure for heat and mass transfer. A high amount of energy can be applied on the top of the product bed without any melting risk due to the short diffusion length of the water vapor through the particle as compared to a cake. It must be considered that a certain amount of radiated heat is reflected by the product and absorbed by the drum surface and mixing baffles. The drum surface is temperature controlled, and all additional heat is removed by the silicone oil. All other stainless-steel parts would get heated if the IR energy were applied to all inner surfaces of the machine. For maximum efficiency and temperature control, the IR-heat should be focused on the product surface area.
+
+##### ***2.3.2.5 ***Drum Rotation Speed in Rotary Freeze ***Drying***
+
+The rotation speed is a parameter, which ensures a proper mixing and movement of the product. It is desirable to rotate as fast as possible to ensure a good mixing. An upper limit of the speed is chosen to avoid material attrition. Lower speeds are typically used if the product is fragile due to a low fraction of solid dry matter in the initial solution. A compromise between sufficient mixing and reduced mechanical stress must be found and is – independent of the scale – in the range of 1–2.5 rpm during the primary drying phase. During phases of low heat input \(starting phase, secondary drying\), the rotation speed can be lowered to 0.3–1 rpm \(independent of the scale due to geometry\).
+
+##### ***2.3.2.6 ***End Point Detection \(By Comparative Pressure Measurement or Pressure Rise\)
+
+Conventional and dynamic freeze drying use the same principles for the endpoint detection for primary drying as they are directly related to the material properties of the product and the thermodynamics of the vapor in contact with it. The comparative barometric method and the pressure rise test are most commonly applied in both types of processes.
+
+In the comparative barometric method, the indicated pressure of the Pirani and capacitive manometer are observed. Due to the measuring principle, the Pirani manometer shows a pressure value which is 1.6 times higher than the capacitive manometer in the presence of water vapor. This principle can be applied as well in dynamic freeze drying. The residual moisture in the particles should already be low \(<1–5%\) for the Pirani sensor value to come close to the value of the capacitive manometer. This is a consequence of the high desorption rate due to the high surface area and short diffusion length for water vapor from the particles even at the end of primary drying. Due to the low moisture at the end of the primary drying, only a short secondary drying phase is required.
+
+A pressure rise test for end point detection is often used as well. If ice is still present, a fast pressure rise is observed. The speed is significantly reduced at the end of primary drying. Again, it has to be considered that the surface of the product is large compared to conventional freeze drying. Due to this a faster pressure rise is seen, compared to shelf freeze drying with a lower product surface. The product temperature could be used for endpoint detection as well, but it is less precise due to the influence of pressure and the IR heater on the temperature probe value. A significant increase of this value approximately 1–3 h earlier than the comparative barometric method indicates that the primary drying is close to the endpoint \(Fig. 13\). 
+![](images/000013.jpeg)
+
+
+***Fig. 13*** 
+Process data from a dynamic freeze-drying process
+
+
+
+##### ***2.3.2.7 ***Formulation Aspects
+
+As mentioned in the spray freezing section, the solid content of the spray liquid has an impact on the spray process and a strong influence on the mechanical stability of the final bulk product. For example, in conventional freeze drying, it is possible to lyophilize a 2% sucrose solution. The resulting lyo cake will be very porous and mechanically weak, though as a single dose in a vial it may be feasible. The low solid fraction in conventional freeze drying is mainly chosen due to the long diffusion distance for the water vapor through the lyo cake. Low solid fraction values will lead to larger pores, which could enable shorter drying durations.
+
+A low solids formulation in spray freeze drying will work easily for the initial spray freezing process. There would be concern, though, for high attrition or even particle integrity during the second step, i.e. the dynamic lyophilization, and also for the subsequent filling.
+
+High solids is a desirable attribute for both processing and post processing provided the processing is feasible and the final reconstitution properties are appropriate. Spray Freeze drying allows for significantly higher solid contents, still showing good reconstitution properties and normal lyophilization process times, due to the enlarged surface and the reduced water vapor diffusion distances \(Fig. 14\). 
+![](images/000014.jpeg)
+
+
+***Fig. 14*** 
+600 μm spheres \(20% sucrose\) after rotary freeze drying; population & single paticle \(SEM\)
+
+
+
+For a spray freeze drying process to achieve sufficient mechanical stability, a total amount of dissolved substances \(like bulking agents, proteins, other additives\) should be in the 10% range or higher; liquids with up to 40% \(w/w\) solid content have been processed successfully by spray freeze drying. The higher solid fraction typically used in dynamic freeze drying will not lead to longer process times due to the short diffusion length of the water vapor.
+
+Tonicity of the final formulation should be achieved directly after reconstitution. As there is more solid content in the pellets of bulkware from a spray freeze drying process, tonicity can be achieved with a higher dilution on a volume basis during reconstitution. Typical bulking agents for freeze drying with an influence on the mechanical properties are sugars like trehalose, sucrose and mannitol, amino acids, buffering agents, tonicity modifiers, and collapse temperature modifiers.
+
+Focusing on the mechanical stability of the particles, formulation components could be chosen for their mechanical properties, e.g., brittle, and elastic materials. Brittle substances are usually crystalline products, which could be not dried or even frozen in an amorphous state \(e.g., mannitol, glycine, NaCl\). Even 10% solid dry matter of these substances will not provide enough mechanical stability.
+
+Sugars like trehalose and sucrose and some more complex amino acids like arginine could be freeze dried in an amorphous state and provide sufficient mechanical stability at 10% solid dry matter and higher. Proteins and other polysaccharides like dextran will increase the mechanical stability due to their elasticity and even solid fraction values below 10% are feasible.
+
+Higher concentrations of the solid dry matter up to 40% can be dried in dynamic freeze drying. Due to their low water content, less energy is required for spray freezing, resulting in higher possible spray rates. Furthermore, less water has to be sublimated during primary drying resulting in shorter and more energy efficient drying cycles. Not all bulking agents provide a sufficient solubility to achieve a solid dry matter of 40%. The most commonly used bulking agents are sucrose and trehalose for high solid fraction formulations.
+
+##### ***2.3.2.8 ***Flow Properties of Spray Frozen Bulk in Dynamic Freeze Drying
+
+###### Presence of Ice
+
+The frozen bulk pellets are essentially uniform spheres. Some care has to be applied to the design of the transfer duct where the product flows by gravity from the spray freezing tower to the rotary freeze dryer. While the particles have an excellent flowability after the freeze drying process due to their shape and surface structure, right after spray freezing or in the beginning of a lyo process, the flowability is hindered by mainly small ice crystals, which are located between the particles. These ice crystals are in a size of less than 10 μm. These particles are generated during the spray freezing and consist of pure ice, i.e., they contain no part of the sprayed formulation, which was shown by spraying colored formulations and observing that the ice crystals were white.
+
+The ice crystals are formed in the spray freezing tower during the spray freezing procedure. The temperature of the droplets is in a range that they have a significant partial pressure of water vapor. Even if just a small amount of water vapor evaporates, it will saturate the atmosphere in the spray freezing tower. This atmosphere has nearly no water uptake capacity. All evaporated water vapors will immediately get frozen and form an ice fog with very tiny crystals. These ice crystals are collected on the inner surfaces of the spray freezing tower and parts of these “snowflakes” will after a while get transferred together with the frozen spheres into the drying chamber. “Snow,” as such, has a very poor flowability and reduces the flowability of the product. It must be emphasized that the reduction of the flowability due to snow will be noticed only after a certain time with a large amount of spray liquid. In a lab scale test with short freezing times, the “snow” quantity is too low to deposit on the wall surfaces – a very flowable product will be seen. Only after a certain spray freezing time, an accumulation of the ice crystals will take place, and larger amounts of snow will be transferred together, with the product showing the expected reduction in flow properties.
+
+The formation of ice crystals during spray freezing is accounted for by temperature control and the flow path within the transfer duct between the spray freezing tower and the rotary freeze dryer.
+
+For homogeneous bulk freeze drying, an excellent flowability is mandatory. Due to this requirement, a certain sequence of process conditions is required to establish good flowability. This is typically done in a first drying step at low temperatures with reduced drum movement. It can be observed that the fine ice crystals, which are very light, will be blown out of the product and drum by the water vapor movement. Tacky, poorly flowable product, without ice crystal removal, has the intrinsic risk that yield losses become more probable due uncontrolled movement. In rotary drums, the product may stick to the walls and move upward with the drum, and then fall once it loosens by chance. This stick-slip motion has been observed to lead to some product loss. This phenomenon can be prevented by a reduced initial movement of the drum until full flowability is achieved.
+
+Storage of spray frozen particles can be done as an alternative to immediate transfer to the freeze drying drum. It has to be considered, though, that the product may form loose agglomerates during storage, which can be a caused by various mechanisms: 
+
++ 
+Recrystallisation:
+
+
+
+
+Depending on the formulation and storage conditions, parts of the product can recrystallize and form bridges on the contact points between the particles. It is not always easy to delump such agglomerates, and sometimes even a delumping step by sieving is required; this of course would be another challenge for containment requirements; 
+
++ 
+Freezing of moisture:
+
+
+
+
+Moisture in the environment from high vapor levels in the container may condense and cause the formation of loose agglomerates. Agglomerates formed by environmental vapor can usually be easily deagglomerated either manually, or they will disappear in the dynamic freeze drying process once particle movement is applied. 
+
++ 
+Exceeding *T*g’: If the storage temperature is too high for the formulation and *T*g’ is exceeded, the molecular mobility fused the particles to each other.
+
+
+
+
+To avoid such phenomena during aseptic processing, it is recommended to maintain product movement from spray freezing until the start of dynamic freeze drying. This is of specific relevance when considering manufacturing logistics and continuous operation \(see also 3.0 Continuous Processing in Spray Freeze Drying: Aspects to Consider\).
+
+###### Electrostatic Phenomena in Dynamic Bulk Freeze Drying
+
+If freeze dried material is produced in bulk by traditional processes, it is mainly performed as a freeze drying procedure that takes place under static conditions. Usually, a large amount of an active containing solution is filled on trays. These trays are placed in a shelf freeze dryer, and the product is dried as a large cake in the shape of the tray. If the logistic advantages of such bulk freeze dried material were to be captured, the product has to be broken or milled. Only after the sizing step could this material be filled into containers. Milling procedures of such low density products typically produce a high level of fines and are difficult to perform under aseptic conditions. Containment of this type of milling process is challenging, and electrostatic phenomena will probably interfere with further processing.
+
+To avoid this, a free-flowable and dispensable product is the preferred choice. The freeze drying of such a bulk product is only possible if the product is moved during drying. A static drying of such a product in a fixed layer is not possible due to the limited heat transfer. Friction between such particles could not be avoided in such a dynamic system. Static charging could be generated by this friction due to the fact that the main and most common bulking agents are sugars which don’t have sufficient conductivity to dissipate the static charge.
+
+Static charging is a well-known phenomenon in handling bulk products, mainly in solid dosage form technologies. In comparison to these applications, the density of the products is much higher than in bulk freeze drying, and electrostatic forces are compensated by the weight of the products or are reduced by humidifying the surrounding environment. If static charging still has to be prevented, the formulation is changed by using additives like fumed silicon dioxide or by using antistatic electrodes.
+
+In dynamic freeze drying, most cases of static charging appear at the end of primary drying, when the water vapor fraction is reduced. There are a few formulations \(mainly PEG containing\), which generate static charging very early in the process. In dynamic freeze drying, the density of the products can be adjusted by using higher solid fraction values in the formulation to reduce the effect of static loading. Compared to conventional freeze drying, solid dry matter values of around 40% can be dried, significantly reducing the risk of static charging.
+
+With lyo products, to humidify the environment like in solid dosage form technologies is not an option. Freeze dried products are hygroscopic, and at least at the end of secondary drying, the moisture of the surrounding environment is very low. At this point in the process, significant static charging may appear.
+
+Antistatic electrodes are reliable tools to prevent static charging but need to get adapted to the operating conditions under low vacuum with a low amount of gas molecules and need to be designed for steam sterilization and cleaning in place.
+
+###### Formulation Aspects Relevant for Electrostatics
+
+A formulation with a high protein content \(~ 3–10% w/w\) has a higher risk to build up static charge. Changing the ratio between bulking agent and protein can prevent further buildup of static charge. Furthermore, it was observed that conservative drying conditions will prevent static charging as well. Conservative drying conditions means lower temperatures of the drum, a higher rotation speed, and less IR power. As a consequence, drying times will increase, but it was observed that the process efficiency increased because no static charging appeared \(Fig. 15\). 
+![](images/000015.jpeg)
+
+
+***Fig. 15*** 
+Product behavior under different drying conditions, effect of static charging
+
+
+
+#### ***2.3.3 ******Annealing***
+
+##### ***2.3.3.1 ***Targets for ***Annealing***
+
+Thermal treatment is utilized in conventional freeze drying for different reasons. There are two typical targets of this thermal treatment called “annealing.” The first is to ensure complete crystallization of the bulking agent. A complete crystallization of bulking agents like mannitol or glycine is important, as amorphous material could depress the *T*g’ values of the formulation, leading to microscopic collapse during a progressive freeze drying cycle. Another potential impact is to the long-term storage stability which will decrease unless a completely crystalline product is ensured along with a high *T*g values of the final product. Full crystallization will also promote an increase in the size of ice crystals, which will be removed during sublimation, leaving pores with larger sizes and better material properties for reconstitution.
+
+The second customary target is the growth of ice crystals which when removed on sublimation will leave larger pores in the product. These larger pores, in turn, lead to a lower dry layer resistance \(*R*p\) and consequently allow for a faster drying speed during primary drying. As a result of the larger ice crystals, the specific surface area for the ingredients is also reduced. The reduction of the specific surface area of the ingredients is a target for mainly pharmaceutical products containing proteins, antibody drug conjugates and peptides.
+
+##### ***2.3.3.2 ******Annealing*** Procedure
+
+Annealing describes a procedure at which the product is kept at temperatures of 10–20 K above the glass transition temperature *T*g’ and below the eutectic temperature Teu \(mostly between −20…–25 °C\) for a certain time \(2 h or more\). Depending on the formulation of the product, the annealing temperature is either directly set during the freezing procedure, or the product is completely frozen upfront and afterwards heated to the annealing temperature. Both procedures are common. In some applications, a multiple heating and cooling profile above and below *T*g’ is applied to achieve the desired product properties.
+
+Complete freezing as a first cooling step is typically preferred; however, some bulking agents may form an unstable glass in this step causing a disruption of the structure when they subsequently do crystallize. Such behavior requires a process progression which will include the annealing step early in the process while the cake is still in a flexible state. Above the glass transition temperature *T*g’ ice partially melts, and its rate of melting is inversely correlated to with the size of ice crystals. Upon refreezing of the annealed sample, these large crystals serve as nucleation sites for recrystallization inhibiting the formulation of new smaller crystals, resulting in a frozen structure characterized by much larger ice crystals.
+
+##### ***2.3.3.3 ***Relevance of ***Annealing*** in Pharmaceutical Applications
+
+Many pharmaceutical products are amorphous products, which allow for better stabilization of the API during freeze drying by entrapping the active in three-dimensional structure of excipient. Due to the amorphous nature of the formulation, the target of achieving larger ice crystals and the related effects is more important than increasing the crystallinity. Larger ice crystals as mentioned above will lead to a lower dry layer resistance of the product cake. This allows for faster sublimation rates during primary drying and ensures higher process safety due to a lower risk of microscopic collapse during progressive drying cycles. A lower product resistance would ensure a sufficient water vapor speed. If this is not blocked by the product resistance, the product temperature at the ice front is less dependent on the shelf temperature but highly linked to the well-controlled drying pressure.
+
+Reduction of the specific surface area, which is a consequence of the larger ice crystals after an annealing procedure, is with protein containing formulations which have had growing market share in recent years. Proteins tend to degrade on interfaces like solid and ice interfaces, which are present after the freezing process. A larger specific surface area increases the risk of degradation, leading to a higher number of particles, and may lead to a failure when tested according to the product specifications.
+
+##### ***2.3.3.4 ***Relevance of ***Annealing*** in Dynamic Spray Freeze Drying
+
+The size of the ice crystals in the spray frozen product correlates with the freezing speed. The shorter the freezing duration, the smaller the ice crystals. During spray freezing the particles are freezing within 1–2 s while a freezing duration in conventional freeze drying is in the range of 1–6 h. Low freezing rates \(~0.5 °C/min\) are detrimental for proteins as the phenomenon of freeze concentration may impact protein activity. Freezing at speed, such as that in spray freeze drying, is beneficial when considering the freeze concentration risks.
+
+Fast freezing speeds will lead to small ice crystals in the product. The size of the ice crystals correlates to the specific surface area \(the smaller the ice crystals, the larger the specific surface area\). The spray freezing step as such will generate a product with a significant higher specific surface area than conventionally frozen product. This fast-freezing speed will certainly have advantages in some areas \(freezing of microorganisms and cells\) but could increase the risk of protein degradation. Introducing annealing into the spray freeze-drying cycle can overcome any concern for high surface are due to small ice crystal formation.
+
+##### ***2.3.3.5 ******Annealing*** Procedure in Dynamic Spray Freeze Drying
+
+The product will be filled in the dynamic rotary freeze dryer at temperatures significantly below *T*g’ and heated up to the required annealing temperature. The loading temperature should be in the range of 10–15 K below *T*g’ of the product, which is a bit lower compared to the values used in a typical conventional freeze drying. *T*g’ for the formulation may be measured by differential scanning calorimetry and is defined as the glass transition temperature of the maximal freeze concentrated solution \[33\], above which the mobility of the molecules increases significantly. The flowability of the spray frozen bulkware, which is ensured below *T*g’, will tend to be less flowable above the *T*g’. To account for the reduced flowability, the drum motion is stopped. If drum motion were continued in an unmodified fashion, product may have an undesired path in the process chamber and could accidentally leave the drum exit reducing yield. Therefore, in dynamic freeze drying, it will be necessary to stop or modify the drum movement \(e.g., “jogging” motion\) during an annealing step.
+
+The annealing duration is similar to the duration in conventional freeze drying. In order to regain flowability after annealing, the drum movement is started slowly and vacuum is pulled in the equipment to lower values, while the silicone oil temperature in the drum jacket is adjusted to values, which are below *T*g’ but high enough to cause sublimation \(e.g., −35…–40 °C\). At a proper choice of the annealing temperature, the flowability of the product can be regained after 1–2 h. The drum rotation can then be adjusted at normal rotation speed and the freeze drying cycle can be started.
+
+An upper limit for the annealing temperature should be chosen conservatively. In the case of very high annealing temperatures \(~ −10 °C\), the molecular movement of the product is too high and flowability can no longer be regained.
+
+In summary, the choice for the annealing temperature should be high enough to initiate effective structure change in a reasonable time, but not too high in order to achieve flowability again after annealing.
+
+##### ***2.3.3.6 ***Further ***Annealing*** Effects in Dynamic Bulk Freeze Drying
+
+Surfaces of products are known to adsorb gas molecules. This principle is used in analytics in the determination of the specific surface area by determination of the number of gas molecules which are adsorbed in a monomolecular layer on the surfaces of the product. By knowing the volume which is used by one molecule, it is possible to calculate with the required number of molecules the surface area of the sample. Spray freeze-dried products would have mainly higher specific surface areas than conventional freeze-dried products. Consequently, a higher amount of gas is adsorbed at the surfaces of these products. These gas volumes could have an effect in combination with amphiphilic molecules, which reduce the surface tension. During reconstitution, this gas is released in the solvent and foaming is possible, which when noticed by a caregiver might be not desirable prior to administering the reconstituted solution. Conventional freeze drying products show this behavior sometimes as well. In this case, vials are closed in the freeze drying at reduced pressures to reduce the amount of gas on the surfaces of the lyo cake.
+
+Furthermore, spray freeze dried products are loose bulkware, which offers a lot of opportunities in production logistics. Nevertheless, a fast reconstitution of loose bulkware could be prevented by a higher amount of adsorbed gas molecules and the product is floating on the solvent with just slow speed of dissolving. To solve this, either a similar technique as employed in conventional freeze drying is used by filling the product into vials and applying a reduced pressure prior to closing, or by reducing again the specific surface area utilizing annealing.
+
+#### ***2.3.4 ***Scale-up in Rotary Freeze ***Drying***
+
+##### ***2.3.4.1 ***Comparison of Conventional and Rotary Freeze Drying Scale-up
+
+Changes in product demand through the development, launch, and ramp-up of production are accommodated by increasing the batch size as well as the number of batches. The challenges in the drying portion of a spray freeze drying equipment train can be anticipated by considering some of the challenges in a batch tray drying operation of the typical lyophilization equipment train. Comparison of the two techniques also helps identify important differences and advantages.
+
+The scaling in batch tray processes is typically done considering some material parameters such as *T*g’ as well as the vial heat transfer coefficient \(*K*v\) and product resistance \(*R*p\) typical from the point of view of a single vial as the system. As the number of shelves, and the number of vials on the shelves increase, predicting the drying cycle from previous work on a single vial – or just a few vials becomes more difficult. The shelf loading has an influence on the heat transfer and, consequently, sublimation rates depending on the vial position. Edge vials can experience significantly different conditions to vials in the center of the shelf \[34\].
+
+Parameters also change if the filling height of the product in the vial is changed, or a different freeze dryer is required. In conventional freeze drying, the values for unit operation parameters may be estimated for changes in fill, loading or scale, by a variety of techniques where additional instrumentation and/or process models are used to correctly calculate the parameters and effects in the larger freeze dryer accordingly \[35–37\].
+
+A rotary freeze dryer is a dynamic system. The large surface area of particles, compared with typical lyo-cake, and their constant motion can be used to assure a more consistent exposure of product to the process conditions. With a thoughtful selection of process parameters, the heat transfer to the system will be proportionally scaled up. Product resistance calculations are not required due to the short diffusion length in one small particle compared to a large cake. Even with the advantages of particle geometry and motion, some theoretical predictions should be made to choose the first set of parameters for running a process in a different scale.
+
+For example: in a spray freeze drying configuration with a rotary dryer, each size of rotary dryer may efficiently process a certain range of product load. Exceeding the maximum batch size for a particular dryer necessitates using the next sized dryer.
+
+As in tray lyophilization, the temperature of processing in rotary freeze drying is important. Should product temperatures approach the *T*g’ values, the product movement slows down as the adhesion forces between particles increase. In the dynamic system of a rotary freeze dryer, this change in product behavior can be easily accounted for. While the cycle is still running the energy input may be adjusted to lower input, and the product will return to normal flow behavior. This ability to observe and adjust parameters, maintaining the batch quality in a single run, may be used to speed the understanding of the operating parameters for the rotary freeze drying process.
+
+##### ***2.3.4.2 ***Changing Product Load in the Same Equipment
+
+Scaling in bulk freeze drying is done by filling up the rotating drum to a higher level when the batch sizes are within the rated capacity of the unit. This is analogous to changing the shelf loading or vial fill in conventional freeze drying. Yet the challenges of predicting shelf or vial effects are not present in the rotary freeze drying load change. During processing, the motion of the product assures uniform exposure to the process conditions. The filling operation in rotary freeze drying is after the product is in a dry uniform state. Therefore, a change in vial fill requires a simple adjustment to the filler to maintain product quality.
+
+In rotary freeze drying, maintaining the same parameters after increasing the product load will increase drying time. If the same drying time should be preserved, then a parameter adjustment may be performed to assure both the process time and the product quality are consistent with the original scale. The volume increase of the product bed follows a different function than the surface increase if raising the load of the drum in the freeze dryer. Less product surface in relation to the product volume will be exposed. Particles in a bulk freeze drying process are primarily available for the heat and mass transfer as they appear on the surface of the product bed. By increasing the drum speed, the product exposure at the surface of the bed may be increased to preserve the desired time for the drying step. If the product has challenging flow properties, additional modifications are possible by changing the drum and baffle configuration.
+
+The mechanical stress, which is applied by a higher rotation speed, will not play a role as long as the particles are not overly sensitive to attrition. If the product has poor particle cohesion, perhaps due to factors such as low solid dry matter or brittle components \(like crystalline glycine or mannitol\), it may be a better choice to accept a longer drying time under more gentle conditions.
+
+It should be noted that just a change in the mixing speed for a higher product load will not lead to the same drying time. Further heat input is required. In all types of drying principles, three routes of heat transfer are available: convection, conduction, and radiation. In dynamic freeze drying, approximately one third of the energy is provided via conduction by contact with the dryer wall and convection from the motion of particles and vapor, while approximately two thirds of the energy is provided via radiation from the IR heaters. For effective scale-up, each route of heat transfer must increase proportionally to the product load.
+
+Heat transfer via conduction and convection will follow automatically the pressures and exposure of the product to the drum. As bed load increased more of the product bed is in contact with the surface of the drum and a simple calculation can determine the scaleup factor which with the overall conduction heat transfer adjusted by adjusting, slightly, the silicon oil temperature of the jacket within product limitations.
+
+The largest portion of heating is provided by the Infra-red \(IR\) heater. Adjusting the power, increasing proportionally to the amount of product load, maintains processing conditions. It should be noted that at low product loads, some of the energy of the IR heater gets lost due to random reflection which will require a small correction factor to the estimate. Exposure of the product with faster rotation will allow for more IR radiation to be used to heat the product, allowing further avenue for scale-up of the irradiation portion of the heating or compensation for limitations of the conduction portion.
+
+##### ***2.3.4.3 ***Changing Product Load Utilizing Different Equipment Sizes
+
+In the case where the dryer size is changed to accommodate the desired product load, the height of the product bed is an important parameter to consider. Changing the equipment scale and maintaining the same height of the product bed, parameters like silicone oil temperature and rotation speed could be kept constant. Due to longer circumference of a larger drum, it is sometimes not possible to maintain the same rotation speed due to high linear speeds and resultant shear forces on the product with the possibility of product attrition. Mechanically stable formulations will allow higher speeds, while less mechanically stable formulations will need other types of adjustments to maintain product quality.
+
+Maintaining the same product bed height in larger scales \(e.g., production scale\) would lead to very large drum diameters. As an example, in pilot scale for approx. 10 L of liquid bulk product \(transformed into frozen bulk\) around 12% of the entire \(theoretical\) drum volume is filled by the product. In a production scale designed for 100 L of product, by maintaining the same product bed height, only 6% of the drum volume would be used. Even if it is desired from a process point of view to have the same product bed height, a compromise is required to reduce the drum diameter to limit the linear speed at the circumference and reduce the empty space being conditioned needlessly inside of the dryer.
+
+The competing factors of product bed height and drum geometry requires that the product bed height increase to some degree as larger batches are processed leading to somewhat longer process times.
+
+The different interactions between the parameters are summarized in Table 1. 
+
+
+***Table 1*** 
+Factors to consider in increasing load or equipment size of the freeze-drying process
+
+
+
+**Changing product load in one equipment**
+
+**Changing product load by changing equipment size**
+
+Parameters maintained
+
+Silicone oil temperature
+
+Pressure
+
+Product bed height
+
+Silicone oil temperature
+
+Rotation speed
+
+Parameters increased
+
+Infra-red power
+
+Rotation speed
+
+Infra-red power
+
+Product bed height
+
+Parameters lowered
+
+Rotation speed if required.
+
+Possible issues
+
+Attrition
+
+Attrition
+
+Longer process time
+
+
+
+## **3 **Continuous Processing in Spray Freeze Drying: Aspects to Consider
+
+A strong focus on innovation in the area of pharmaceutical technology and manufacturing is the transition from batch to continuous manufacturing. The pros and cons for each side are being studied and how or when to apply continuous manufacturing is discussed for decades even for well-established product presentations such as tablets, pellets, or granules.
+
+Spray Freeze Drying is a disruptive new technology which opens new opportunities both on the product and formulation side as well as in the area of manufacturing logistics. In the area of pharmaceutical technology, this high level of innovation not only offers new options but also is a significant threshold, which often blocks the implementation in a highly regulated environment.
+
+The innovative impact of spray freeze drying is based on the availability of homogeneous, free-flowing, and dosable product as bulkware. Only this allows us to adapt new manufacturing concepts like filling on demand, flexibility in dosing and in number of doses filled. Therefore, the primary task in the center of considerations when studying the impact of this technology is the availability of an Intermediate Bulk Container \(IBC\) filled with this kind of lyophilized bulkware, the container having a docking capability to connect to a filling line.
+
+Whether the product inside that IBC has been generated by a batch or by a continuous process is for now a question of secondary importance. The main step, and in fact, a significant challenge is to introduce such kind of product handling with the flexibility of lyophilized bulkware. Whether a continuous or a batch process should be preferred depends on aspects like scale, technical implications, and regulatory requirements. As an FDA official phrased it during an FDA Workshop on Continuous Processing: “The question is not ‘Batch or Continuous.’ The question is: Which problem do we want to solve” \[38\].
+
+Still, there are specific aspects in spray freeze drying that can be considered when discussing continuous versus batch processing. By nature, the speed and general design of the spray freezing step is continuous while the length of the freeze drying step and design accommodations to successfully perform it are best met by a batch type operation. The spray freezing step is performed under ambient pressure conditions. The freeze drying step is performed under vacuum conditions, down to <50 μbar. Consequently, in continuous operation, the frozen product needs to be transferred from ambient pressure to the required vacuum. As this is not done for each single frozen sphere, the formation of subunits that are passing through a locker system is required.
+
+The flow properties of freshly spray frozen bulk material however is limited. As mentioned earlier, during spray freezing, very fine ice crystals are being formed by evaporation of water from each ‘warm’ droplet of typically 15 °C that travels through a typically −130 °C gas zone. More detailed background is given in the spray freezing section. These ice crystals act as a kind of flow inhibitor which makes the continuous transfer across a locker technically quite challenging. Factors considered include: the long-term robustness of gasket seats with related vacuum tightness and buildup of ice/product scale in the transfer mechanism. The ice crystals are dried off in the initial lyo phase, which induces a significant change in the flow properties of the frozen bulk. This change has to be handled by the technology chosen in an appropriate manner.
+
+The phenomenon described also explains why a storage of frozen bulk material prior to lyophilization is not recommended. The static storage, even after a few hours, may result in the formation of lose aggregates – which is not a problem for a dynamic lyophilization process. The lose lumps easily break into single pellets and allow for the homogeneous drying. The flow of spray frozen material out of an IBC after cold storage is prone to being obstructed by ice or aggregates and would require addition of flow supporting mechanisms with moving parts which may not be well suited for aseptic, particle free processing in the manufacture of parenterals. The same phenomenon needs to be considered in the continuous operation mode.
+
+Furthermore, dependent on the kind of drying process used, a continuous operation mode has even higher requirements with respect to particle size homogeneity. For the drying step, there would be a once-through process, and the residence time of the frozen spheres as well as their morphology would have to be held the same to ensure homogeneity. Changes in particle size, however, will result in different residual moistures; with a target size of 600 μm, a variation of \+/− 50 μm means that a 650 μm sphere compared to a 550 μm sphere has 65% more volume and 40% more surface. Exposure to similar drying conditions may lead to inhomogeneous moisture results. Also, the flow properties inside a once-through system must be such that different size particles do not flow faster or slower, otherwise the process will even be more challenging to control.
+
+Another aspect is the stability of the spray liquid. Unless the liquid preparation process is fully continuous, substrate liquids with limited shelf life after thawing need to be processed accordingly, i.e., the scale of the spray freezing process must be such that the material is spray frozen in the given time span. This may require more spray freezing capacity than required by a continuous lyophilization step, resulting in a mismatch of scales, and the potential advantage in continuous processing to use smaller scales eventually can’t materialize. Given the mentioned flow challenges of spray frozen bulk, the intermediate storage prior to lyophilization is not an option.
+
+In development, the often-limited availability of sensitive biological molecules in early stage development is another aspect when considering continuous processing, especially when considering aseptic processing requirements in conjunction with the need for PAT implementation.
+
+While all of these challenges are addressable, gaining the advantage of spray freeze drying as a technique has intrinsic value. At this stage of technology, introducing and reducing spray freeze drying to routine practice will generate the fastest significant value. Another advance in value can be obtained by applying the principles of continuous manufacturing at a later stage. Through this approach, spray freeze drying can provide value to manufacturers and their patients on the most efficient trajectory.
+
+## **4 **Industrial Application of Spray Freeze Drying: Integration of Steps to an Aseptic Process Line
+
+For contained and for aseptic processing, the two process steps spray freezing and dynamic freeze drying can be combined in an integrated, fully contained process line, as shown in diagram \(Fig. 16\). 
+![](images/000016.gif)
+
+
+***Fig. 16*** 
+Arrangement of a spray freeze drying line for commercial production
+
+
+
+Here, the spray freezing tower is positioned on top of the dynamic rotary freeze dryer. The precooled drum receives the frozen spheres, still under ambient pressure used for spray freezing. Once all liquid is spray frozen, a separation flap positioned in the transfer section between tower and dryer is closed, the vacuum applied to the dryer section, and the lyophilization step started. After drying, the drum is discharged again in a contained manner under vacuum into an intermediate hopper below the dryer; only here the vacuum is then vented, and the product transferred into an IBC.
+
+Such a process line is designed for steam sterilization and cleaning-in-place \[18\]. As a design option, it is possible to combine, e.g., one spray freezing tower with two or more dynamic bulk freeze dryers; as the lyo process still requires more time compared to the spray freezing step, this may increase throughput and overall efficiency.
+
+A relevant design aspect of such a steam sterilizable process line is that for a comparable throughput level, the entire spray freeze drying line has about only half of the weight as compared to conventionally designed shelf type freeze dryers. This is due to the fact that for all pressure vessels in the process, a round design can be applied, which reduces the required thickness and weight. This in turn saves energy and heating up/cooling down time. The cleaning \(by CIP\), steam sterilization \(SIP\), and cooling down requirement for a 100 L line as shown take approx. 5–6 h.
+
+In parallel, it is obvious that the height requirement is based on the vertical product handling concept and the physical requirements for the spray freezing of droplets as outlined earlier. The advantage of using gravity as a fee-of-charge product handling tool is that for product handling no specific equipment installation, with related validation, cleaning, and sterilization requirements is needed. The height and space requirements of a spray freeze drying process line are mainly limited to either unclassified non-GMP technical area, or areas without the need of open product handling, which is a significant reduction in both technical installation and ongoing validation needs.
+
+Processing in such a line is executed consecutively in a batch mode, the spray freezing step is performed at ambient pressure until all liquid is frozen to microspheres, which are collected in the cold drum. Then, the separation flap between freezing chamber and dryer closes, the dryer chamber is evacuated, and freeze drying starts. After drying, the product is discharged into the intermediate vessel, the equipment is purged to ambient pressure, and the discharging into intermediate bulk container \(IBC\) starts.
+
+In a further arrangement, to increase throughput by decreasing idle times, one freezing chamber can be connected to two or more freeze dryers, so the utilization of both process steps is increased, and a quasi-continuous operation is achieved.
+
+The yields that are achieved in such a process line with a design point of 100 L \(liquid\) are typically above 95%. It has been found out that the design and the process parameters that have an effect on the mixing properties determine the yield, especially with formulations that have a low solid content and a low *T*g’.
+
+The process line shown proved a >97% yield with typical freeze drying formulations \(sucrose/salt/buffer/surfactant\); with *T*g’ below −37 °C\) and pure sucrose with 20% solid dry matter. Initially, with a 15% solution and a *T*g’ below −35 °C, under comparable process conditions, a significant product loss was obtained. Fluidization phenomena during the process caused product to leave the drum in that batch. By optimizing drum design and process conditions, it was possible to achieve >97% yield with the identical formulation.
+
+## **5 **Summary
+
+Atmospheric spray freezing followed by dynamic rotary freeze drying has developed into a mature technology which is undergoing industrial scale implementation. A body of laboratory to production scale information is presented to design the product, process, and scaleup using Quality by Design principles supported by engineering calculations, as well as modeling and simulation.
+
+This technology provides many advantages and efficiencies when compared to conventional fill and tray dry freeze drying. This new form of producing a lyophilized product opens many product innovation opportunities and has the potential to improve handling and flexibility through the supply chain. Future opportunities abound for new applications and the extension to continuous manufacturing using the atmospheric spray freeze-drying technique.
+
+
+**References**
+
+1.  
+1.
+
+Jaberidoost M, Nikfar S, Abdollahiasl A, Dinarvand R. Pharmaceutical supply chain risks: a systematic review. DARU J Pharm Sci. 2013;21:69. [https://​link.​springer.​com/​article/​10.​1186/​2008-2231-21-69](https://link.springer.com/article/10.1186/2008-2231-21-69). Accessed 16 Dec 2021.[Crossref](https://doi.org/10.1186/2008-2231-21-69)
+
+2.  
+2.
+
+Ezsak R. Addressing the elephant in the pharma supply chain. Pharma Manufacturing. 2021. [https://​www.​pharmamanufactur​ing.​com/​articles/​2021/​addressing-the-elephant-in-the-pharma-supply-chain/​](https://www.pharmamanufacturing.com/articles/2021/addressing-the-elephant-in-the-pharma-supply-chain/). Accessed 16 Dec 2021.
+
+3.  
+3.
+
+Mesa-Vieira C, Botero-Rodriguez F, Padilla-Munoz A, Franco OH, Gomez-Restrepo C. The dark side of the moon: global challenges in the distribution of vaccines and implementation of vaccination plans against COVID-19. Maturitas. 2021;150:61–3. [https://​www.​ncbi.​nlm.​nih.​gov/​pmc/​articles/​PMC8279820/​\#](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8279820/). Accessed 16 Dec 2021.[Crossref](https://doi.org/10.1016/j.maturitas.2021.05.012)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34274076)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8279820)
+
+4.  
+4.
+
+AbdoulFotouh K, Cui Z, Williams RO. Next-generation COVID-10 vaccines should take efficiency of distribution into consideration. APPS PharmSciTech. 2021;22\(3\):126. [https://​www.​ncbi.​nlm.​nih.​gov/​pmc/​articles/​PMC8034273/​](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8034273/). Accessed 16 Dec 2021.[Crossref](https://doi.org/10.1208/s12249-021-01974-3)
+
+5.  
+5.
+
+Fissore D. Freeze-drying in the coffee industry. New Food. [https://​www.​newfoodmagazine.​com/​article/​16968/​freeze-drying-in-the-coffee-industry/​](https://www.newfoodmagazine.com/article/16968/freeze-drying-in-the-coffee-industry/). Accessed 16 Dec 2021.
+
+6.  
+6.
+
+Bhatta S, Stevanovic Janezic T, Ratt C. Freeze-drying of plant-based foods. Foods. 2020;9\(1\):87. [https://​www.​ncbi.​nlm.​nih.​gov/​pmc/​articles/​PMC7022747/​](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7022747/). Accessed 16 Dec 2021.[Crossref](https://doi.org/10.3390/foods9010087)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=31941082)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7022747)
+
+7.  
+7.
+
+Butreddy A, Dudhipala N, Janga KY, Gaddam PR. Lyophilization of small-molecule injectables: and industry perspective on formulation development, process optimization, scale-up challenges and drug product quality attributes. AAPS PharmSciTech. 2020;21:52.[Crossref](https://doi.org/10.1208/s12249-020-01787-w)
+
+8.  
+8.
+
+Challener C. For lyophilization excipients really do matter. Biopharm Int. 2017;30\(1\):32–5.
+
+9.  
+9.
+
+Nugraheni RW, Mulyadi NA, Yusuf H. Freeze-dried liposome formulation for small molecules, nuceleic acid and protein delivery. Sys Rev Pharm. 2020;11\(7\):143–51. [https://​www.​sysrevpharm.​org/​articles/​freezedried-liposome-formulation-for-small-molecules-nucleic-acid-and-protein-delivery.​pdf](https://www.sysrevpharm.org/articles/freezedried-liposome-formulation-for-small-molecules-nucleic-acid-and-protein-delivery.pdf). Accessed 16 Dec 2021.
+
+10.  
+10.
+
+Meryman HT. Historical recollections of freeze-drying. Dev Biol Stand. 1976;36:29–32.[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=801137)
+
+11.  
+11.
+
+Da Silva Neves A, Luna AS, Augusto da Costa AC. Optimization of a freeze-drying cycle of a viral vaccine based on changes in temperature, time and geometry of the vials. J Appl Pharm Sci. 2015;5\(2\):022–9.[Crossref](https://doi.org/10.7324/JAPS.2015.58.S4)
+
+12.  
+12.
+
+Wallen AJ, VanOcker SH, Sinacola JR, Phillips BR. The effect of loading process on product collapse during large-scale lyophilization. J Pharm Sci. 2009;98:997–1004.[Crossref](https://doi.org/10.1002/jps.21491)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=18661543)
+
+13.  
+13.
+
+Pikal MJ, Cardon S, Bhugra C, Jameel F, Rambhatla S, Mascarenhas WJ, Akay HU. The nonsteady state modeling of freeze drying: in-process product temperature and moisture content mapping and pharmaceutical product quality applications. Pharm Dev Technol. 2005;10\(1\):17–32.[Crossref](https://doi.org/10.1081/PDT-35869)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15776810)
+
+14.  
+14.
+
+Trappler EH. Assure batch uniformity for freeze-dried products. Pharm Manufacturing. 2005, March. [https://​www.​pharmamanufactur​ing.​com/​articles/​2005/​191/​](https://www.pharmamanufacturing.com/articles/2005/191/). Accessed 27 July 2018.
+
+15.  
+15.
+
+Ganguly A, Varma N, Sane P, Bogner R, Pikal M, Alexeenko A. Spatial variation of pressure in the lyophilization product chamber Part1: computational Modeling. AAPS PharmSciTech. 2017;18\(3\):577–85.[Crossref](https://doi.org/10.1208/s12249-016-0513-3)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=27151134)
+
+16.  
+16.
+
+Khan M, Jameel F. Quality-by-design as applied to the development and manufacturing of a lyophilized protein product. Am Pharm Rev. 2009, December. [www.​americanpharmace​uticalreview.​com/​Featured-Articles/​117782-Quality-by-Design-as-Applied-to-the-Development-and-Manufacturing-of-a-Lyophilized-Protein-Product/​](http://www.americanpharmaceuticalreview.com/Featured-Articles/117782-Quality-by-Design-as-Applied-to-the-Development-and-Manufacturing-of-a-Lyophilized-Protein-Product/). Accessed 28 July 2018.
+
+17.  
+17.
+
+Merkuryeva G, Valberga A, Smirnov A. Demand forecasting in pharmaceutical supply chains: a case study. Procedia Comput Sci. 2019;149:3–10.[Crossref](https://doi.org/10.1016/j.procs.2019.01.100)
+
+18.  
+18.
+
+Amoro E, Vanmackere K, White MA. Apparatus and method for cryogranulating a pharmaceutical composition. United States Patent 859-32-B2. 2013.
+
+19.  
+19.
+
+Thakkar SG, Ruwona TB, Williams RO, Cui Z. The immunogenicity of thin-film freeze dried, aluminum salt-adjuvanted vaccine when exposed to different temperatures. Hum Vaccin Immunother. 2017;13\(4\):936–46.[Crossref](https://doi.org/10.1080/21645515.2016.1259042)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=28051903)[PubMedCentral](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5404637)
+
+20.  
+20.
+
+Wang J-L, Hanafy MS, Xu H, Leal J, Zhai Y, Gosh D, Williams RO, Cui Z. Aerosolizable Si RNA-encapsulated solid lipid nanoparticles prepared by thin-film freeze-drying for potential pulmonary delivery. Int J Pharm. 2021;596:120215.[Crossref](https://doi.org/10.1016/j.ijpharm.2021.120215)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33486021)
+
+21.  
+21.
+
+Kahn AH. Kaltlufttrocknung von pharmazeutischen Präparaten und von gefrorenen Lösungen in der Wirbelschicht; PhD thesis, Basle University \(CH\). 1987.
+
+22.  
+22.
+
+Mumenthaler M, Leuenberger H. Atmospheric spray-freeze drying: a suitable alternative in freeze-drying technology. Int J Pharm. 1991;72\(2\):97–110.[Crossref](https://doi.org/10.1016/0378-5173(91)90047-R)
+
+23.  
+23.
+
+Plitzko M. Gefriertrocknung in der Wirbelschicht; PhD thesis, Basle University \(CH\). 2006.
+
+24.  
+24.
+
+Leuenberger H, Plitzko M, Puchkov M. Spray freeze drying in a fluidized bed at normal and low pressure. Dry Technol. 2006;24\(6\):711–9.[Crossref](https://doi.org/10.1080/07373930600684932)
+
+25.  
+25.
+
+Suverkrup R, Eggerstedt S, Wanning S, Kuschel M, Sommerfield M, Lamprecht A. Collisions and coalesence in droplet streams for the production of freeze-dried powders. Colloids Surf B: Biointerfaces. 2016;141:443–9.[Crossref](https://doi.org/10.1016/j.colsurfb.2016.01.063)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=26895506)
+
+26.  
+26.
+
+Adali MB, Baressi A, Boccardo G, Pisano R. Spray freeze-drying as a solution to continuous manufacturing of pharmaceutical products in bulk. PRO. 2020;8:709.
+
+27.  
+27.
+
+Lowe D, Mehta M, Govindan G, Gupta K. Spray freeze-drying technology: enabling flexibility of supply chain and drug-product presentation for biologics. Bioprocess Int. 2018, December. [https://​bioprocessintl.​com/​manufacturing/​supply-chain/​spray-freeze-drying-technology-enabling-flexibility-of-supply-chain-and-drug-product-presentation-for-biologics/​](https://bioprocessintl.com/manufacturing/supply-chain/spray-freeze-drying-technology-enabling-flexibility-of-supply-chain-and-drug-product-presentation-for-biologics/). Accessed 30 Jan 2022.
+
+28.  
+28.
+
+Luy B, Plitzko M, Struschka M. Process line for the production of freeze-dried particles. US patent 20140245629A1. 2014.
+
+29.  
+29.
+
+Brandenberger HR, Widmer F. Immobilization of highly concentrated cell suspensions using the laminar jet breakup technique. Biotechnol Prog. 1999;15\(3\):366–72.[Crossref](https://doi.org/10.1021/bp990033m)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10356253)
+
+30.  
+30.
+
+Sebastiao IB, Robinson TD, Alexeenko A. Atmospheric spray freeze-drying: numerical modeling and comparison with experimental measurements. J Pharm Sci. 2017;106\(1\):183–92.[Crossref](https://doi.org/10.1016/j.xphs.2016.07.032)
+
+31.  
+31.
+
+Sebastiao IB, Bhatnagar B, Tchessalov S, Ohtake S, Plitzko M, Luy B, Alexeenko A. Bulk dynamic freeze-drying part 1: model-based parametric study for spray-freezing process characterization. J Pharm Sci. 2019;108:2063–74.[Crossref](https://doi.org/10.1016/j.xphs.2019.01.009)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30677417)
+
+32.  
+32.
+
+Sebastiao IB, Bhatnagar B, Tchessalov S, Ohtake S, Plitzko M, Luy B, Alexeenko A. Bulk dynamic freeze-drying part 2: model-based parametric study for spray-freezing process characterization. J Pharm Sci. 2019;108:2075–85.[Crossref](https://doi.org/10.1016/j.xphs.2019.01.011)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=30682340)
+
+33.  
+33.
+
+Meister E, Gieseler H. A significant comparison between the collapse and glass transition temperatures. Eur Pharm Rev. 2008. [https://​www.​europeanpharmace​uticalreview.​com/​article/​1479/​a-significant-comparison-between-collapse-and-glass-transition-temperatures/​](https://www.europeanpharmaceuticalreview.com/article/1479/a-significant-comparison-between-collapse-and-glass-transition-temperatures/). Accessed 16 Dec 2021.
+
+34.  
+34.
+
+Ehlers S, Schroeder R, Friess W. Trouble with the neighbor during freeze-drying: rivalry about energy. J Pharm Sci. 2021;110\(3\):1219–26.[Crossref](https://doi.org/10.1016/j.xphs.2020.10.024)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=33069707)
+
+35.  
+35.
+
+Jameel F, Alexeenko A, Bhambhani A, Sacha G, Zhu T, Tchessalov S, Kumar L, Sharma P, Moussa E, Iyer L, Fang R, Srinivasan J, Tharp T, Azzarella J, Kazarin P, Jalal M. Recommended best practices for lyophilization validation – 2021 part I: process design and modeling. AAPS PharmSciTech. 2021;22\(7\):221.[Crossref](https://doi.org/10.1208/s12249-021-02086-8)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34409506)
+
+36.  
+36.
+
+Jameel F, Alexeenko A, Bhambhani A, Sacha G, Zhu T, Tchessalov S, Kumar L, Sharma P, Moussa E, Iyer L, Luthra S, Srinivasan J, Tharp T, Azzarella J, Kazarin P, Jalal M. Recommended best practices for lyophilization validation – 2021 part II: process qualification and continued process verification. AAPS PharmSciTech. 2021;22\(8\):266.[Crossref](https://doi.org/10.1208/s12249-021-02107-6)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=34750693)
+
+37.  
+37.
+
+Pikal MJ, Mascarenhas WJ, Akay HU, Cardon S, Bhugra C, Jameel F, Rambahatla S. The nonsteady state modeling of freeze drying: in-process product temperature and moisture content mapping and pharmaceutical product quality applications. Pharm Dev Technol. 2005;10\(1\):17–32.[Crossref](https://doi.org/10.1081/PDT-35869)[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15776810)
+
+38.  
+38.
+
+Baker JC. Deputy Director, Office of Biotechnology Products, CDER at FDA; statement during FDA & NAS workshop on continuous manufacturing for the modernization of pharmaceutical production*;* Washington D.C., July 2018.
+
+
+
